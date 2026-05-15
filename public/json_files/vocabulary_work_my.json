@@ -1,0 +1,20 @@
+{
+  "theme_color": "#607D8B",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Firma", "myanmar": "ကုမ္ပဏီ", "article": "die", "word": "Firma", "emoji": "🏢"},
+        {"german": "der Empfang", "myanmar": "ဧည့်ကြိုဌာန", "article": "der", "word": "Empfang", "emoji": "🛎️"},
+        {"german": "das Büro", "myanmar": "ရုံးခန်း", "article": "das", "word": "Büro", "emoji": "💼"},
+        {"german": "der Schreibtisch", "myanmar": "စာရေးစားပွဲ", "article": "der", "word": "Schreibtisch", "emoji": "🖥️"},
+        {"german": "arbeiten", "myanmar": "အလုပ်လုပ်သည်", "article": "", "word": "arbeiten", "emoji": "🛠️"},
+        {"german": "die Arbeit", "myanmar": "အလုပ်အကိုင်", "article": "die", "word": "Arbeit", "emoji": "👷"},
+        {"german": "telefonieren", "myanmar": "ဖုန်းပြောသည်", "article": "", "word": "telefonieren", "emoji": "📞"},
+        {"german": "die Pause", "myanmar": "အနားယူချိန်", "article": "die", "word": "Pause", "emoji": "☕"},
+        {"german": "der Chef / die Chefin", "myanmar": "အထက်လူကြီး / အလုပ်ရှင်", "article": "der / die", "word": "Chef / Chefin", "emoji": "👔"},
+        {"german": "der Kollege / die Kollegin", "myanmar": "လုပ်ဖော်ကိုင်ဖက်", "article": "der / die", "word": "Kollege / Kollegin", "emoji": "👥"},
+        {"german": "der Feierabend", "myanmar": "အလုပ်ဆင်းချိန်", "article": "der", "word": "Feierabend", "emoji": "🍻"}
+      ]
+    }
+  ]
+}

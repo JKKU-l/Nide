@@ -1,0 +1,55 @@
+{
+  "title": "Food & Cooking",
+  "emoji": "🍳",
+  "theme_color": "#9C27B0",
+  "description": "Food, cooking, and kitchen vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "schneiden", "thai": "หั่น / ตัด", "example_german": "Ich schneide das Brot in Scheiben.", "example_thai": "ฉันกำลังหั่นขนมปังเป็นแผ่นๆ"},
+          {"german": "hacken", "thai": "สับ", "example_german": "Kannst du bitte die Zwiebeln fein hacken?", "example_thai": "คุณช่วยสับหัวหอมให้ละเอียดหน่อยได้ไหม?"},
+          {"german": "schälen", "thai": "ปอกเปลือก", "example_german": "Er schält die Kartoffeln für das Abendessen.", "example_thai": "เขากำลังปอกมันฝรั่งสำหรับมื้อเย็น"},
+          {"german": "reiben", "thai": "ขูด", "example_german": "Wir reiben frischen Käse über die Pasta.", "example_thai": "พวกเราขูดชีสสดโรยบนพาสต้า"},
+          {"german": "mischen", "thai": "ผสม", "example_german": "Mischen Sie alle Zutaten in einer großen Schüssel.", "example_thai": "ผสมส่วนผสมทั้งหมดลงในชามใบใหญ่"},
+          {"german": "rühren", "thai": "คน", "example_german": "Du musst die Suppe regelmäßig umrühren.", "example_thai": "คุณต้องคนซุปเป็นระยะๆ"},
+          {"german": "kochen", "thai": "ต้ม / ทำอาหาร", "example_german": "Das Wasser kocht bereits.", "example_thai": "น้ำเดือดเรียบร้อยแล้ว"},
+          {"german": "braten", "thai": "ทอด / ย่าง", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_thai": "ฉันกำลังทอดเนื้อในกระทะ"},
+          {"german": "backen", "thai": "อบ", "example_german": "Am Wochenende backe ich einen Kuchen.", "example_thai": "วันหยุดสุดสัปดาห์นี้ฉันจะอบเค้ก"},
+          {"german": "grillen", "thai": "ย่าง (ตะแกรง)", "example_german": "Im Sommer grillen wir oft im Garten.", "example_thai": "ในฤดูร้อน พวกเรามักจะย่างบาร์บีคิวกันในสวน"},
+          {"german": "dämpfen", "thai": "นึ่ง", "example_german": "Gemüse ist gesünder, wenn man es dämpft.", "example_thai": "ผักจะดีต่อสุขภาพมากกว่าถ้าใช้วิธีนึ่ง"},
+          {"german": "frittieren", "thai": "ทอด (น้ำมันท่วม)", "example_german": "Die Pommes werden in heißem Öl frittiert.", "example_thai": "เฟรนช์ฟรายส์ถูกทอดในน้ำมันร้อนๆ"},
+          {"german": "anbraten", "thai": "จี่ / ทอดให้ผิวตึง", "example_german": "Zuerst muss man das Fleisch scharf anbraten.", "example_thai": "ขั้นแรกต้องจี่เนื้อด้วยไฟแรงให้ผิวข้างนอกสุกก่อน"},
+          {"german": "schmecken", "thai": "มีรสชาติ", "example_german": "Das Essen schmeckt wirklich hervorragend.", "example_thai": "อาหารรสชาติดีเยี่ยมจริงๆ"},
+          {"german": "probieren", "thai": "ชิม / ลอง", "example_german": "Möchtest du die Sauce mal probieren?", "example_thai": "คุณอยากลองชิมซอสหน่อยไหม?"},
+          {"german": "würzen", "thai": "ปรุงรส", "example_german": "Du solltest den Salat noch etwas würzen.", "example_thai": "คุณควรปรุงรสสลัดเพิ่มอีกสักหน่อย"},
+          {"german": "salzen", "thai": "ใส่เกลือ", "example_german": "Ich habe vergessen, die Nudeln zu salzen.", "example_thai": "ฉันลืมใส่เกลือในเส้นพาสต้า"},
+          {"german": "pfeffern", "thai": "ใส่พริกไทย", "example_german": "Er pfeffert sein Steak sehr stark.", "example_thai": "เขาใส่พริกไทยในสเต็กเยอะมาก"},
+          {"german": "marinieren", "thai": "หมัก", "example_german": "Das Fleisch muss zwei Stunden marinieren.", "example_thai": "เนื้อต้องหมักทิ้งไว้สองชั่วโมง"},
+          {"german": "einfrieren", "thai": "แช่แข็ง", "example_german": "Wir frieren die Reste der Suppe ein.", "example_thai": "พวกเรานำซุปที่เหลือไปแช่แข็งไว้"},
+          {"german": "auftauen", "thai": "ละลายน้ำแข็ง", "example_german": "Ich muss das Hähnchen vor dem Kochen auftauen.", "example_thai": "ฉันต้องละลายน้ำแข็งไก่ก่อนนำไปทำอาหาร"},
+          {"german": "servieren", "thai": "เสิร์ฟ", "example_german": "Das Dessert wird mit Sahne serviert.", "example_thai": "ขนมหวานจะถูกเสิร์ฟพร้อมวิปครีม"},
+          {"german": "füllen", "thai": "ยัดไส้ / เติมให้เต็ม", "example_german": "Sie füllt die Paprika mit Reis und Hackfleisch.", "example_thai": "เธอยัดไส้พริกหยวกด้วยข้าวและเนื้อบด"},
+          {"german": "gießen", "thai": "เท / ริน", "example_german": "Bitte gieß mir etwas Wasser ins Glas.", "example_thai": "ช่วยรินน้ำใส่แก้วให้ฉันหน่อย"},
+          {"german": "bestellen", "thai": "สั่ง (อาหาร)", "example_german": "Wir bestellen uns heute eine Pizza.", "example_thai": "วันนี้พวกเราจะสั่งพิซซ่ากัน"},
+          {"german": "bezahlen", "thai": "จ่ายเงิน", "example_german": "Wir möchten bitte getrennt bezahlen.", "example_thai": "พวกเราขอแยกกันจ่ายครับ/ค่ะ"},
+          {"german": "reservieren", "thai": "จอง", "example_german": "Hast du einen Tisch im Restaurant reserviert?", "example_thai": "คุณได้จองโต๊ะที่ร้านอาหารไว้หรือเปล่า?"},
+          {"german": "empfehlen", "thai": "แนะนำ", "example_german": "Was können Sie uns heute empfehlen?", "example_thai": "วันนี้คุณมีเมนูอะไรแนะนำพวกเราบ้าง?"},
+          {"german": "bringen", "thai": "นำมาให้", "example_german": "Der Kellner bringt uns die Speisekarte.", "example_thai": "พนักงานเสิร์ฟนำเมนูมาให้เรา"},
+          {"german": "holen", "thai": "ไปเอามา", "example_german": "Ich hole nur kurz eine Flasche Wein aus dem Keller.", "example_thai": "ฉันขอไปหยิบไวน์จากห้องใต้ดินสักครู่"},
+          {"german": "kaufen", "thai": "ซื้อ", "example_german": "Wir müssen noch Brot für morgen kaufen.", "example_thai": "พวกเรายังต้องซื้อขนมปังสำหรับวันพรุ่งนี้"},
+          {"german": "finden", "thai": "หา / พบ", "example_german": "Wo finde ich hier das Salz?", "example_thai": "ฉันจะหาเกลือได้จากที่ไหน?"},
+          {"german": "einpacken", "thai": "ห่อ / ใส่ห่อ", "example_german": "Kann ich den Rest bitte einpacken lassen?", "example_thai": "ช่วยห่อส่วนที่เหลือกลับบ้านให้หน่อยได้ไหม?"},
+          {"german": "auspacken", "thai": "แกะห่อ", "example_german": "Er packt die Einkäufe in der Küche aus.", "example_thai": "เขากำลังแกะของที่ซื้อมาไว้ในครัว"},
+          {"german": "spülen", "thai": "ล้าง (จาน)", "example_german": "Ich muss noch das Geschirr spülen.", "example_thai": "ฉันยังต้องล้างจานต่อ"},
+          {"german": "anrichten", "thai": "จัดจาน", "example_german": "Sie richtet den Salat hübsch auf dem Teller an.", "example_thai": "เธอจัดวางสลัดบนจานอย่างสวยงาม"},
+          {"german": "öffnen", "thai": "เปิด", "example_german": "Kannst du bitte die Dose öffnen?", "example_thai": "คุณช่วยเปิดกระป๋องให้หน่อยได้ไหม?"},
+          {"german": "schließen", "thai": "ปิด", "example_german": "Bitte schließen Sie die Kühlschranktür.", "example_thai": "กรุณาปิดประตูตู้เย็นด้วยครับ/ค่ะ"},
+          {"german": "wählen", "thai": "เลือก", "example_german": "Sie können zwischen Fisch und Fleisch wählen.", "example_thai": "คุณสามารถเลือกระหว่างปลาหรือเนื้อสัตว์ได้"},
+          {"german": "genießen", "thai": "ดื่มด่ำ / เพลิดเพลิน", "example_german": "Wir genießen das gute Essen und den Wein.", "example_thai": "พวกเรากำลังเพลิดเพลินกับอาหารรสเลิศและไวน์"}
+        ]
+      }
+    }
+  ]
+}

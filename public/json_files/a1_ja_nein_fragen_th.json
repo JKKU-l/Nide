@@ -1,0 +1,149 @@
+{
+  "title": "Ja/Nein-Fragen (ประโยคคำถาม ใช่/ไม่ใช่)",
+  "sections": [
+    {
+      "id": "sentence_structure",
+      "title": "1. โครงสร้างประโยคภาษาเยอรมัน: ประโยคบอกเล่า vs. ประโยคคำถาม",
+      "description": "ในภาษาเยอรมัน ตำแหน่งของ คำกริยา (Verb) คือกฎที่สำคัญที่สุด",
+      "content": {
+        "categories": [
+          {
+            "category": "ประโยคบอกเล่า (Aussagesatz)",
+            "description": "ในประโยคบอกเล่าทั่วไป คำกริยาจะอยู่ใน ตำแหน่งที่ 2 เสมอ",
+            "table": {
+              "headers": ["กฎ", "ตัวอย่าง"],
+              "rows": [
+                ["ประธาน + กริยา + ข้อมูลอื่น ๆ", "Er kommt aus Berlin. (เขามาจากเบอร์ลิน)"]
+              ]
+            }
+          },
+          {
+            "category": "ประโยคคำถามที่ต้องการคำตอบ ใช่/ไม่ใช่ (Ja/Nein-Frage)",
+            "description": "การเปลี่ยนประโยคบอกเล่าให้เป็นประโยคคำถามที่ตอบว่า \"ใช่\" หรือ \"ไม่ใช่\" ให้ย้ายคำกริยามาไว้ใน ตำแหน่งที่ 1",
+            "table": {
+              "headers": ["กฎ", "ตัวอย่าง"],
+              "rows": [
+                ["กริยา + ประธาน + ข้อมูลอื่น ๆ?", "Kommt er aus Berlin? (เขามาจากเบอร์ลินใช่ไหม?)"]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "answering_questions",
+      "title": "2. การตอบคำถาม: Ja, Nein และ Doch",
+      "description": "ภาษาเยอรมันมี 3 วิธีในการตอบคำถามปลายปิด ขึ้นอยู่กับว่าคำถามนั้นถูกถามอย่างไร",
+      "content": {
+        "categories": [
+          {
+            "category": "คำถามแบบตอบรับ (Positive Questions)",
+            "description": "หากเป็นคำถาม \"ปกติ\" (ไม่มีคำว่า \"ไม่\" อยู่ในประโยค):",
+            "table": {
+              "headers": ["คำตอบ", "การใช้", "ตัวอย่าง"],
+              "rows": [
+                ["Ja (ใช่)", "เพื่อตอบตกลง/เห็นด้วย", "Ja, ich spreche Englisch."],
+                ["Nein (ไม่)", "เพื่อปฏิเสธ", "Nein, ich spreche kein Englisch."]
+              ]
+            },
+            "examples": [
+              {
+                "question": "\"Sprechen Sie Englisch?\" (คุณพูดภาษาอังกฤษไหม?)",
+                "answer": "Ja, ich spreche Englisch. (ใช่ ฉันพูดภาษาอังกฤษ) / Nein, ich spreche kein Englisch. (ไม่ ฉันไม่พูดภาษาอังกฤษ)"
+              }
+            ]
+          },
+          {
+            "category": "คำถามแบบปฏิเสธ (Negative Questions)",
+            "description": "หากในคำถามมีคำปฏิเสธ เช่น nicht (ไม่) หรือ kein (ไม่/ไม่มี) คำตอบว่า \"ใช่\" จะเปลี่ยนเป็น Doch",
+            "table": {
+              "headers": ["คำตอบ", "การใช้", "ตัวอย่าง"],
+              "rows": [
+                ["Doch (ใช่/ในทางตรงกันข้าม)", "ใช้เพื่อโต้แย้งหรือคัดค้านคำถามที่เป็นเชิงลบ", "Doch, ich spreche Englisch."],
+                ["Nein (ไม่)", "เพื่อยืนยันตามประโยคปฏิเสธนั้น", "Nein, ich spreche kein Englisch."]
+              ]
+            },
+            "examples": [
+              {
+                "question": "\"Sprechen Sie nicht Englisch?\" (คุณไม่พูดภาษาอังกฤษใช่ไหม?)",
+                "answer": "Doch, ich spreche Englisch. (พูดสิ! ฉันพูดภาษาอังกฤษ — เป็นการโต้แย้งคำว่า \"ไม่\" ในคำถาม) / Nein, ich spreche kein Englisch. (ใช่ ฉันไม่พูดภาษาอังกฤษ — เป็นการยืนยันว่าไม่พูดจริง ๆ)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "polite_requests",
+      "title": "3. การขอร้องอย่างสุภาพ (Höfliche Bitten)",
+      "description": "เพื่อการขอร้องอย่างสุภาพ คนเยอรมันจะใช้รูปกริยาแบบ \"Konjunktiv II\" ซึ่งคล้ายกับความแตกต่างระหว่าง \"ส่งหนังสือให้ฉันหน่อย\" กับ \"คุณช่วยกรุณาส่งหนังสือให้ฉันหน่อยได้ไหม\"",
+      "content": {
+        "categories": [
+          {
+            "category": "การใช้ \"Könnten\" และ \"Würden\"",
+            "description": "Könnten Sie... (คุณสามารถ...ได้ไหม): ใช้ถามถึงความสามารถหรือความเป็นไปได้ Würden Sie... (คุณจะกรุณา...ไหม): ใช้สำหรับการขอร้องและการกระทำทั่วไป",
+            "table": {
+              "headers": ["โครงสร้าง", "ตัวอย่าง", "คำแปลภาษาอังกฤษ"],
+              "rows": [
+                ["Könnten + ประธาน + ... + กริยา?", "Könnten Sie mir bitte helfen?", "Could you please help me?"],
+                ["Würden + ประธาน + ... + กริยา?", "Würden Sie bitte das Fenster öffnen?", "Would you please open the window?"]
+              ]
+            },
+            "note": "หมายเหตุ: ในประโยคเหล่านี้ คำกริยาหลักที่เป็นการกระทำ (เช่น helfen หรือ öffnen) จะไปอยู่ที่ ท้ายประโยค เสมอในรูป infinitive (รูปเดิมที่ไม่ผัน)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "question_types",
+      "title": "4. คำถามที่มีคำแสดงคำถาม vs. คำถามที่ขึ้นต้นด้วยกริยา",
+      "description": "ประโยคคำถามในภาษาเยอรมันมี 2 ประเภทหลัก:",
+      "content": {
+        "categories": [
+          {
+            "category": "W-Questions (คำถามที่ต้องการข้อมูล)",
+            "description": "ขึ้นต้นด้วยคำแสดงคำถาม (Wer, Was, Wie, Wo, Woher) โดยคำกริยายังคงอยู่ที่ ตำแหน่งที่ 2",
+            "examples": [
+              {
+                "question": "Wie hoch ist Ihre Miete? (ค่าเช่าของคุณราคาเท่าไหร่?)",
+                "answer": "คำตอบ: เป็นรายละเอียดเฉพาะเจาะจง (650 Euro)"
+              }
+            ]
+          },
+          {
+            "category": "Verb-First Questions (คำถามที่ตอบ ใช่/ไม่)",
+            "description": "ขึ้นต้นด้วยคำกริยา",
+            "examples": [
+              {
+                "question": "Suchen Sie eine Wohnung? (คุณกำลังหาที่พักอยู่ใช่ไหม?)",
+                "answer": "คำตอบ: ขึ้นต้นด้วย Ja หรือ Nein"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "ตารางสรุปเพื่อการเรียนรู้ที่รวดเร็ว",
+      "description": "ข้อมูลอ้างอิงอย่างรวดเร็วสำหรับประเภทประโยคทั้งหมด:",
+      "content": {
+        "summary_table": {
+          "headers": ["ประเภทประโยค", "ตำแหน่งกริยา", "ตัวอย่าง"],
+          "rows": [
+            ["บอกเล่า", "ตำแหน่งที่ 2", "Ich wohne in Frankfurt."],
+            ["คำถาม ใช่/ไม่ใช่", "ตำแหน่งที่ 1", "Wohnen Sie in Frankfurt?"],
+            ["คำถาม W-Question", "ตำแหน่งที่ 2", "Wo wohnen Sie?"],
+            ["ขอร้องสุภาพ", "ตำแหน่งที่ 1", "Würden Sie mir den Weg sagen?"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "เคล็ดลับสำหรับผู้เรียน (Pro Tip)",
+      "description": "เมื่อคุณเห็นคำปฏิเสธอย่าง nicht หรือ kein ในคำถาม สมองของคุณควรเตรียมพร้อมใช้คำว่า Doch ทันทีหากคุณต้องการตอบว่า \"ใช่!\" มันเป็นหนึ่งในคำที่พิเศษและสำคัญที่สุดในภาษาเยอรมันสำหรับการสนทนาในชีวิตประจำวันครับ",
+      "content": {}
+    }
+  ]
+}

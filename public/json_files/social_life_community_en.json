@@ -1,0 +1,53 @@
+{
+  "title": "Social Life & Community",
+  "emoji": "👥",
+  "theme_color": "#E91E63",
+  "description": "Social interactions and community",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "treffen", "english": "to meet", "example_german": "Wir treffen uns morgen im Park.", "example_english": "We are meeting in the park tomorrow."},
+          {"german": "winken", "english": "to wave", "example_german": "Sie winkt ihrem Freund zum Abschied.", "example_english": "She waves to her friend as a goodbye."},
+          {"german": "vorstellen", "english": "to introduce", "example_german": "Darf ich dir meinen Bruder vorstellen?", "example_english": "May I introduce my brother to you?"},
+          {"german": "begrüßen", "english": "to greet", "example_german": "Der Gastgeber begrüßt die Gäste an der Tür.", "example_english": "The host greets the guests at the door."},
+          {"german": "einladen", "english": "to invite", "example_german": "Ich lade dich zu meiner Party ein.", "example_english": "I am inviting you to my party."},
+          {"german": "besuchen", "english": "to visit", "example_german": "Wir besuchen am Wochenende unsere Verwandten.", "example_english": "We are visiting our relatives on the weekend."},
+          {"german": "kommen", "english": "to come", "example_german": "Wann kommst du heute nach Hause?", "example_english": "When are you coming home today?"},
+          {"german": "gehen", "english": "to go", "example_german": "Wir gehen heute Abend ins Kino.", "example_english": "We are going to the cinema tonight."},
+          {"german": "mitbringen", "english": "to bring along", "example_german": "Soll ich etwas zum Essen mitbringen?", "example_english": "Should I bring something to eat along?"},
+          {"german": "feiern", "english": "to celebrate", "example_german": "Wir feiern heute seinen Erfolg.", "example_english": "We are celebrating his success today."},
+          {"german": "tanzen", "english": "to dance", "example_german": "Möchtest du mit mir tanzen?", "example_english": "Would you like to dance with me?"},
+          {"german": "singen", "english": "to sing", "example_german": "Wir singen gemeinsam ein Lied.", "example_english": "We are singing a song together."},
+          {"german": "spielen", "english": "to play", "example_german": "Die Kinder spielen draußen Fußball.", "example_english": "The children are playing football outside."},
+          {"german": "reden", "english": "to talk", "example_german": "Wir müssen unbedingt miteinander reden.", "example_english": "We definitely need to talk to each other."},
+          {"german": "plaudern", "english": "to chat", "example_german": "Wir plaudern gerne bei einer Tasse Kaffee.", "example_english": "We like to chat over a cup of coffee."},
+          {"german": "zuhören", "english": "to listen", "example_german": "Du musst mir besser zuhören.", "example_english": "You have to listen to me better."},
+          {"german": "lachen", "english": "to laugh", "example_german": "Er lacht über einen lustigen Witz.", "example_english": "He is laughing at a funny joke."},
+          {"german": "helfen", "english": "to help", "example_german": "Kannst du mir beim Tragen helfen?", "example_english": "Can you help me with the carrying?"},
+          {"german": "teilnehmen", "english": "to participate", "example_german": "Ich nehme an dem Deutschkurs teil.", "example_english": "I am participating in the German course."},
+          {"german": "mitmachen", "english": "to join in", "example_german": "Jeder darf bei diesem Spiel mitmachen.", "example_english": "Everyone is allowed to join in this game."},
+          {"german": "organisieren", "english": "to organize", "example_german": "Sie organisiert ein großes Nachbarschaftsfest.", "example_english": "She is organizing a big neighborhood festival."},
+          {"german": "planen", "english": "to plan", "example_german": "Wir planen ein Treffen für nächste Woche.", "example_english": "We are planning a meeting for next week."},
+          {"german": "unterstützen", "english": "to support", "example_german": "Meine Familie unterstützt mich immer.", "example_english": "My family always supports me."},
+          {"german": "teilen", "english": "to share", "example_german": "Wir teilen uns die Kosten für das Taxi.", "example_english": "We are sharing the costs for the taxi."},
+          {"german": "geben", "english": "to give", "example_german": "Kannst du mir bitte das Salz geben?", "example_english": "Can you please give me the salt?"},
+          {"german": "nehmen", "english": "to take", "example_german": "Ich nehme mir ein Stück Kuchen.", "example_english": "I am taking a piece of cake."},
+          {"german": "danken", "english": "to thank", "example_german": "Ich danke dir für deine Einladung.", "example_english": "I thank you for your invitation."},
+          {"german": "entschuldigen", "english": "to apologize", "example_german": "Ich möchte mich für die Verspätung entschuldigen.", "example_english": "I would like to apologize for the delay."},
+          {"german": "vergeben", "english": "to forgive", "example_german": "Es ist wichtig, anderen zu vergeben.", "example_english": "It is important to forgive others."},
+          {"german": "streiten", "english": "to argue", "example_german": "Wir streiten uns selten über Kleinigkeiten.", "example_english": "We rarely argue about small things."},
+          {"german": "versöhnen", "english": "to reconcile", "example_german": "Nach dem Streit versöhnen sie sich wieder.", "example_english": "After the argument, they reconcile again."},
+          {"german": "respektieren", "english": "to respect", "example_german": "Wir respektieren die Meinung der anderen.", "example_english": "We respect the opinion of others."},
+          {"german": "akzeptieren", "english": "to accept", "example_german": "Er kann die Entscheidung nicht akzeptieren.", "example_english": "He cannot accept the decision."},
+          {"german": "ablehnen", "english": "to decline / refuse", "example_german": "Leider muss ich das Angebot ablehnen.", "example_english": "Unfortunately, I have to decline the offer."},
+          {"german": "tolerieren", "english": "to tolerate", "example_german": "Wir tolerieren kein respektloses Verhalten.", "example_english": "We do not tolerate disrespectful behavior."},
+          {"german": "kritisieren", "english": "to criticize", "example_german": "Man sollte andere nicht ständig kritisieren.", "example_english": "One should not constantly criticize others."},
+          {"german": "loben", "english": "to praise", "example_german": "Der Lehrer lobt die fleißige Schülerin.", "example_english": "The teacher praises the hardworking student."},
+          {"german": "einigen", "english": "to agree", "example_german": "Wir konnten uns auf einen Termin einigen.", "example_english": "We were able to agree on a date."}
+        ]
+      }
+    }
+  ]
+}

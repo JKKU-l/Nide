@@ -1,0 +1,27 @@
+{
+  "theme_color": "#009688",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "der Beruf", "japanese": "職業 / 仕事", "article": "der", "word": "Beruf", "emoji": "💼"},
+        {"german": "der Bäcker", "japanese": "パン屋", "article": "der", "word": "Bäcker", "emoji": "🥖"},
+        {"german": "der Elektriker", "japanese": "電気技師", "article": "der", "word": "Elektriker", "emoji": "⚡"},
+        {"german": "der Anwalt", "japanese": "弁護士", "article": "der", "word": "Anwalt", "emoji": "⚖️"},
+        {"german": "der Bauer", "japanese": "農家", "article": "der", "word": "Bauer", "emoji": "👨‍🌾"},
+        {"german": "der Fleischer", "japanese": "肉屋", "article": "der", "word": "Fleischer", "emoji": "🥩"},
+        {"german": "der Arbeiter", "japanese": "労働者", "article": "der", "word": "Arbeiter", "emoji": "👷"},
+        {"german": "der Briefträger", "japanese": "郵便配達員", "article": "der", "word": "Briefträger", "emoji": "📬"},
+        {"german": "der Gärtner", "japanese": "庭師", "article": "der", "word": "Gärtner", "emoji": "🌿"},
+        {"german": "der Hausmann / die Hausfrau", "japanese": "主夫 / 主婦", "article": "der / die", "word": "Hausmann / Hausfrau", "emoji": "🏠"},
+        {"german": "der Maler", "japanese": "画家 / 塗装工", "article": "der", "word": "Maler", "emoji": "🎨"},
+        {"german": "der Polizist", "japanese": "警察官", "article": "der", "word": "Polizist", "emoji": "👮"},
+        {"german": "der Hausmeister", "japanese": "管理人", "article": "der", "word": "Hausmeister", "emoji": "🔑"},
+        {"german": "der Maurer", "japanese": "煉瓦職人", "article": "der", "word": "Maurer", "emoji": "🧱"},
+        {"german": "der Schneider", "japanese": "仕立屋", "article": "der", "word": "Schneider", "emoji": "🧵"},
+        {"german": "der Installateur", "japanese": "配管工", "article": "der", "word": "Installateur", "emoji": "🔧"},
+        {"german": "der Mechaniker", "japanese": "整備士", "article": "der", "word": "Mechaniker", "emoji": "🛠️"},
+        {"german": "der Sekretär / die Sekretärin", "japanese": "秘書", "article": "der / die", "word": "Sekretär / Sekretärin", "emoji": "📂"}
+      ]
+    }
+  ]
+}

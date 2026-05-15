@@ -1,0 +1,34 @@
+{
+  "month": 11,
+  "title_en": "At the Theater and the Movies",
+  "title_de": "Im Theater und im Kino",
+  "icon": "🎭",
+  "theme_color": "#D946EF",
+  "subtopics": [
+    {
+      "id": "seeing_a_show",
+      "title": "Seeing a Show",
+      "content": ""
+    },
+    {
+      "id": "at_ticket_window",
+      "title": "At the Ticket Window",
+      "content": ""
+    },
+    {
+      "id": "at_the_movies",
+      "title": "At the Movies",
+      "content": ""
+    },
+    {
+      "id": "sports_soccer",
+      "title": "Sports ▪ Der Sport — Soccer",
+      "content": ""
+    },
+    {
+      "id": "sports_tennis",
+      "title": "Sports ▪ Der Sport — Tennis",
+      "content": ""
+    }
+  ]
+}

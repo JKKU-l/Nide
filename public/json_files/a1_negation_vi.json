@@ -1,0 +1,158 @@
+{
+  "title": "Negation (Phủ định)",
+  "sections": [
+    {
+      "id": "using_kein",
+      "title": "1. Cách dùng \"kein\" (Phủ định cho danh từ)",
+      "description": "Bạn hãy coi kein là dạng phủ định của mạo từ không xác định (ein/eine). Nó được dùng cụ thể để phủ định các danh từ đi kèm với mạo từ không xác định hoặc danh từ không có mạo từ.",
+      "content": {
+        "how_to_use": {
+          "title": "Cách sử dụng:",
+          "rules": [
+            {
+              "rule": "Với danh từ không xác định: Nếu bạn nói \"Tôi có một cuốn sách\" (Ich habe ein Buch), câu phủ định sẽ là \"Tôi không có cuốn sách nào\" (Ich habe kein Buch)."
+            },
+            {
+              "rule": "Với danh từ không đếm được: Dùng cho những thứ không thể đếm như thời gian hay cơn đói. \"Tôi không có thời gian\" trở thành Ich habe keine Zeit."
+            },
+            {
+              "rule": "Danh từ số nhiều: Vì \"ein\" không có dạng số nhiều, chúng ta dùng keine để phủ định cho số nhiều. \"Tôi không có con\" là Ich habe keine Kinder."
+            }
+          ]
+        },
+        "examples": [
+          {
+            "context": "Ngữ cảnh: Ai đó đưa bạn một quả táo, nhưng thực ra đó là quả lê.",
+            "example": "Das ist kein Apfel.",
+            "translation": "Đây không phải là một quả táo."
+          },
+          {
+            "context": "Ngữ cảnh: Thảo luận về tình trạng gia đình.",
+            "example": "Ich habe keine Geschwister.",
+            "translation": "Tôi không có anh chị em."
+          },
+          {
+            "context": "Ngữ cảnh: Đi mua sắm.",
+            "example": "Ich kaufe kein Brot.",
+            "translation": "Tôi không mua bánh mì."
+          }
+        ]
+      }
+    },
+    {
+      "id": "using_nicht",
+      "title": "2. Cách dùng \"nicht\" (Từ phủ định chung)",
+      "description": "Nicht linh hoạt hơn nhiều. Nó được dùng để phủ định động từ, tính từ, trạng từ, đại từ và các danh từ có mạo từ xác định (der/die/das) hoặc tính từ sở hữu (mein/dein).",
+      "content": {
+        "how_to_use": {
+          "title": "Cách sử dụng:",
+          "rules": [
+            {
+              "rule": "Phủ định động từ: Thường đứng ở cuối câu đơn. \"Tôi không đến\" là Ich komme nicht."
+            },
+            {
+              "rule": "Phủ định tính từ: \"Tôi không hạnh phúc\" là Ich bin nicht glücklich."
+            },
+            {
+              "rule": "Phủ định danh từ cụ thể: Nếu danh từ đi với \"the\" (der/die/das) hoặc \"của tôi\" (mein), hãy dùng nicht. \"Đó không phải là con tôi\" là Das ist nicht mein Kind."
+            },
+            {
+              "rule": "Phủ định địa điểm/Giới từ: \"Tôi không sống ở Berlin\" là Ich wohne nicht in Berlin."
+            }
+          ]
+        },
+        "examples": [
+          {
+            "context": "Ngữ cảnh: Nói về tuổi tác.",
+            "example": "Ich bin nicht 23 Jahre alt.",
+            "translation": "Tôi không phải 23 tuổi."
+          },
+          {
+            "context": "Ngữ cảnh: Nguồn gốc hoặc nơi cư trú.",
+            "example": "Ich komme nicht aus Sri Lanka.",
+            "translation": "Tôi không đến từ Sri Lanka."
+          },
+          {
+            "context": "Ngữ cảnh: Khả năng.",
+            "example": "Ich kann nicht kochen.",
+            "translation": "Tôi không biết nấu ăn."
+          }
+        ]
+      }
+    },
+    {
+      "id": "other_negation_words",
+      "title": "3. Các từ phủ định khác (Cặp từ trái nghĩa)",
+      "description": "Tiếng Đức có các cặp từ cụ thể để chỉ trạng thái khẳng định và phủ định.",
+      "content": {
+        "opposites": [
+          {
+            "category": "Luôn luôn vs. Không bao giờ",
+            "positive": "immer (luôn luôn) -> Ich esse immer Brot.",
+            "negative": "nie (không bao giờ) -> Ich esse nie Brot."
+          },
+          {
+            "category": "Tất cả mọi người vs. Không một ai",
+            "positive": "alle (tất cả) -> Ich kenne alle.",
+            "negative": "niemand (không một ai) -> Ich kenne niemand."
+          },
+          {
+            "category": "Cái gì đó vs. Không có gì",
+            "positive": "etwas/alles (cái gì đó/tất cả mọi thứ) -> Isst du etwas?",
+            "negative": "nichts (không có gì) -> Ich esse nichts."
+          },
+          {
+            "category": "Vẫn còn vs. Không còn nữa",
+            "positive": "noch (vẫn còn) -> Ich bin noch jung. (Tôi vẫn còn trẻ.)",
+            "negative": "nicht mehr (không còn nữa) -> Ich bin nicht mehr jung. (Tôi không còn trẻ nữa.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_use_one_over_other",
+      "title": "4. Tại sao chúng ta dùng từ này mà không dùng từ kia?",
+      "description": "Lý do nằm ở việc bạn đang muốn \"hủy bỏ\" điều gì:",
+      "content": {
+        "explanation": [
+          {
+            "type": "Hủy bỏ sự tồn tại (kein)",
+            "description": "Nếu bạn đang phủ định sự tồn tại của một vật thể (một danh từ), hãy dùng kein. Nó đóng vai trò như một \"số lượng bằng không\".",
+            "example": "Ich habe kein Geld. (Tôi không có đồng tiền nào cả.)"
+          },
+          {
+            "type": "Hủy bỏ sự thật (nicht)",
+            "description": "Nếu bạn đang phủ định một sự thật, một hành động hoặc một sự mô tả, hãy dùng nicht.",
+            "example": "Das Geld ist nicht hier. (Tiền không có ở đây — bạn không nói là tiền không tồn tại, bạn chỉ đang nói \"sự thật\" về việc nó ở đây là sai.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_usage_logic",
+      "title": "5. Tóm tắt logic sử dụng",
+      "description": "Hướng dẫn nhanh để chọn đúng từ phủ định:",
+      "content": {
+        "rules": [
+          {
+            "question": "Có danh từ không?",
+            "yes_indefinite": "Nếu có, và nó đi với \"a/an\" hoặc không có mạo từ: Dùng kein.",
+            "yes_definite": "Nếu có, nhưng nó đi với \"the\" hoặc \"của tôi/của bạn\": Dùng nicht."
+          },
+          {
+            "question": "Đó là động từ, tính từ hay tên riêng?",
+            "answer": "Dùng nicht."
+          },
+          {
+            "question": "Bạn muốn nói \"không còn nữa\"?",
+            "answer": "Dùng nicht mehr."
+          },
+          {
+            "question": "Bạn muốn nói \"không bao giờ\"?",
+            "answer": "Dùng nie."
+          }
+        ]
+      }
+    }
+  ]
+}

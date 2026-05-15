@@ -1,0 +1,124 @@
+{
+  "title": "Wörter im Satz 1 (문장 속 단어 배치 1)",
+  "sections": [
+    {
+      "id": "declarative_sentences",
+      "title": "1. 평서문 (Aussagesätze)",
+      "description": "표준 독일어 문장에서 변화된 동사(정동사)는 문장의 닻 역할을 합니다.",
+      "content": {
+        "rules": [
+          "황금 규칙: 동사는 언제나 두 번째 위치(Position 2)에 옵니다.",
+          "유연성: 동사의 위치는 고정되어 있지만, 주어는 이동할 수 있습니다. 주어로 문장을 시작하면 주어가 1번 자리에 옵니다. 하지만 시간이나 장소를 강조하기 위해 문두에 두면, 동사가 2번 자리를 유지할 수 있도록 주어는 3번 자리로 이동해야 합니다."
+        ],
+        "examples_table": {
+          "headers": ["1번 자리 (화제)", "2번 자리 (동사)", "3번 자리 (주어/기타)", "나머지"],
+          "rows": [
+            ["Ich", "heisse", "Peter Schmidt.", ""],
+            ["Peter und seine Frau", "wohnen", "jetzt", "in Heidelberg."],
+            ["Heute", "esse", "ich", "Pizza."]
+          ]
+        },
+        "note": "이유는 무엇인가요? 독일어는 \"V2(Verb-second)\" 어순을 사용합니다. \"Heute(오늘)\"로 문장을 시작하면 시간에 초점이 맞춰지지만, 동사는 반드시 두 번째 자리에 머물러야 합니다."
+      }
+    },
+    {
+      "id": "w_questions",
+      "title": "2. 의문사가 있는 의문문 (W-Fragen)",
+      "description": "이 질문들은 Wo(어디), Woher(어디로부터), Was(무엇)와 같은 의문사를 사용합니다.",
+      "content": {
+        "structure": "구조: 의문사 (1번) + 동사 (2번) + 주어 (3번).",
+        "examples": [
+          {
+            "question": "Woher kommen Luis und Paloma? (루이스와 팔로마는 어디서 왔나요?)"
+          },
+          {
+            "question": "Was sind Sie von Beruf? (직업이 무엇인가요?)"
+          },
+          {
+            "question": "Wo wohnen Sie jetzt? (지금 어디에 사시나요?)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yes_no_questions",
+      "title": "3. 예/아니오 의문문 (Ja/Nein-Fragen)",
+      "description": "의문사가 없을 때는 동사가 문장을 이끕니다.",
+      "content": {
+        "structure": "구조: 동사 (1번) + 주어 (2번) + 나머지 문장.",
+        "examples": [
+          {
+            "question": "Kommt sie aus Peru? (그녀는 페루 출신인가요?)"
+          },
+          {
+            "question": "Lernt Paloma Deutsch? (팔로마는 독일어를 배우나요?)"
+          },
+          {
+            "question": "Sind Sie heute müde? (당신은 오늘 피곤한가요?)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "imperative",
+      "title": "4. 명령문 (Imperativ)",
+      "description": "격식을 차리는 \"Sie\"형 명령문은 예/아니오 의문문과 구조가 비슷하지만 끝에 느낌표가 붙습니다.",
+      "content": {
+        "structure": "구조: 동사 (1번) + Sie + 목적어/부사!",
+        "examples": [
+          {
+            "question": "Kommen Sie! (오세요!)"
+          },
+          {
+            "question": "Hören Sie die Geschichte! (이야기를 들으세요!)"
+          },
+          {
+            "question": "Sagen Sie nichts! (아무 말도 하지 마세요!)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "time_and_place",
+      "title": "5. 시간과 장소 (Zeit und Ort)",
+      "description": "문장에 시간(Wann?)과 장소(Wo?)가 모두 포함될 때, 독일어는 특정한 논리적 흐름을 따릅니다.",
+      "content": {
+        "rules": [
+          "시간 (Wann): 보통 문장의 앞부분에 옵니다 (주로 1번 자리나 동사 바로 뒤).",
+          "장소 (Wo): 보통 문장의 뒷부분에 옵니다."
+        ],
+        "example_analysis": {
+          "sentence": "Ich wohne seit zwei Jahren in Frankfurt.",
+          "translation": "(나는 2년 전부터 프랑크푸르트에 산다.)",
+          "breakdown": [
+            "주어: Ich (1번 자리)",
+            "동사: wohne (2번 자리)",
+            "시간: seit zwei Jahren (시간적 - 얼마나 오래)",
+            "장소: in Frankfurt (장소적 - 어디에)"
+          ]
+        },
+        "more_examples": [
+          "Ich fahre freitags um 17 Uhr (시간) nach Heidelberg (장소).",
+          "Ich arbeite von 9 bis 18 Uhr (시간) im Büro (장소)."
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "어순 요약 표",
+      "description": "모든 문장 유형을 위한 빠른 참고 자료:",
+      "content": {
+        "summary_table": {
+          "headers": ["문장 유형", "1번 자리", "2번 자리 (동사)", "3번 자리"],
+          "rows": [
+            ["평서문", "주어 / 시간", "동사", "시간 / 주어"],
+            ["W-의문문", "의문사", "동사", "주어"],
+            ["예/아니오 의문문", "동사", "주어", "목적어/부사"],
+            ["명령문", "동사", "Sie (주어)", "목적어"]
+          ]
+        },
+        "note": "A1 학습자를 위한 핵심 요약: 평서문에 시간, 방식, 장소 등 아무리 많은 정보를 추가하더라도, 변화된 동사는 언제나 2번 자리에서 \"접착제\" 역할을 합니다. 강조를 위해 다른 요소를 문장 맨 앞으로 옮기면, 동사가 3번 자리로 밀려나지 않도록 주어와 동사의 위치를 서로 바꾸어야 합니다."
+      }
+    }
+  ]
+}

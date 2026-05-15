@@ -1,0 +1,107 @@
+{
+  "title": "Genitiv (Genitive Case)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "The German Genitive Case (Genitiv)",
+      "description": "The Genitive Case is primarily used to indicate possession, ownership, or a specific relationship between two nouns. While it is often replaced by the dative case in casual conversation (using von), the Genitive remains the standard for formal writing, literature, and precise academic language."
+    },
+    {
+      "id": "core_function",
+      "title": "1. Core Function: Showing Possession",
+      "description": "The Genitive answers the question \"Wessen?\" (Whose?). It links two nouns together where the second noun \"possesses\" the first.",
+      "content": {
+        "declension_table": {
+          "title": "Genitive Declension Table",
+          "headers": ["Gender", "Definite Article", "Indefinite/Possessive", "Noun Change"],
+          "rows": [
+            { "category": "Masculine", "definite": "des (des Vaters)", "indefinite": "eines / meines", "adjective": "Add -s or -es" },
+            { "category": "Neuter", "definite": "des (des Kindes)", "indefinite": "eines / meines", "adjective": "Add -s or -es" },
+            { "category": "Feminine", "definite": "der (der Mutter)", "indefinite": "einer / meiner", "adjective": "No change" },
+            { "category": "Plural", "definite": "der (der Eltern)", "indefinite": "meiner", "adjective": "No change" }
+          ]
+        },
+        "key_rule": "Masculine and Neuter nouns usually add -es if the word is one syllable (e.g., des Mannes) and just -s if it has multiple syllables (e.g., des Computers).",
+        "translations": [
+          { "label": "Masculine", "german": "Das Auto des Vaters.", "translation": "The car of the father (The father's car)." },
+          { "label": "Feminine", "german": "Die Farbe einer Blume.", "translation": "The color of a flower." }
+        ]
+      }
+    },
+    {
+      "id": "prepositions",
+      "title": "2. Usage with Prepositions",
+      "description": "Certain prepositions \"trigger\" the Genitive case. When you use these words, the noun following them must be in the Genitive form.",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_prepositions",
+            "title": "Common Genitive Prepositions",
+            "description": "These prepositions always require the Genitive case:",
+            "prepositions": ["trotz (despite)", "während (during)", "wegen (because of)", "außerhalb (outside of)", "innerhalb (inside of)"],
+            "examples": [
+              { "german": "Trotz des Regens gehen wir spazieren.", "translation": "Despite the rain, we are going for a walk." },
+              { "german": "Während der Fahrt schläft er.", "translation": "During the trip, he sleeps." },
+              { "german": "Wegen des Wetters bleiben wir zu Hause.", "translation": "Because of the weather, we stay at home." },
+              { "german": "Außerhalb der Stadt.", "translation": "Outside of the city." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "verbs_adjectives",
+      "title": "3. Usage with Verbs and Adjectives",
+      "description": "Though less common in modern daily speech, several high-level verbs and adjectives require the Genitive.",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_verbs",
+            "title": "Verbs",
+            "description": "These verbs describe legal actions or internal reflections.",
+            "subcategories": [
+              { "label": "Anklagen (To accuse of)", "verbs": "", "german": "Man klagte ihn des Mordes an.", "translation": "They accused him of murder." },
+              { "label": "Gedenken (To commemorate)", "verbs": "", "german": "Wir gedenken der Toten.", "translation": "We commemorate the dead." },
+              { "label": "Sich schämen (To be ashamed of)", "verbs": "", "german": "Er schämt sich seines Fehlers.", "translation": "He is ashamed of his mistake." }
+            ]
+          },
+          {
+            "id": "genitive_adjectives",
+            "title": "Adjectives",
+            "description": "These adjectives require the Genitive case:",
+            "subcategories": [
+              { "label": "Würdig (Worthy of)", "verbs": "", "german": "Das ist eines Königs würdig.", "translation": "That is worthy of a king." },
+              { "label": "Sicher (Sure of)", "verbs": "", "german": "Ich bin mir meiner Sache sicher.", "translation": "I am sure of my case/point." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "possessive_pronouns",
+      "title": "4. Possessive Pronouns in Genitive",
+      "description": "When using possessive pronouns (my, your, his) as independent modifiers in the Genitive, they follow the same endings as the indefinite articles.",
+      "content": {
+        "determiners": ["Masculine/Neuter Ending: -es (meines, deines, seines)", "Feminine/Plural Ending: -er (meiner, deiner, ihrer)"],
+        "example": {
+          "german": "Wegen meines Bruders.",
+          "translation": "Because of my brother.",
+          "note": "Another example: Inmitten unserer Freunde. (In the midst of our friends.)"
+        }
+      }
+    },
+    {
+      "id": "adjective_declension",
+      "title": "5. Adjective Declension in Genitive",
+      "description": "If an adjective sits between an article and a noun in the Genitive case, it almost always ends in -en.",
+      "content": {
+        "translations": [
+          { "label": "With Article", "german": "Das Haus des alten Mannes.", "translation": "The house of the old man." },
+          { "label": "Without Article (fresh coffee)", "german": "Der Duft frischen Kaffees.", "translation": "The scent of fresh coffee. (The adjective takes the ending the article would have had.)" },
+          { "label": "Without Article (kind parents)", "german": "Die Hilfe netter Eltern.", "translation": "The help of kind parents." }
+        ],
+        "key_rule": "With an article, the adjective always ends in -en. Without an article (e.g., plural nouns or abstract concepts), the adjective takes the ending the article would have had."
+      }
+    }
+  ]
+}

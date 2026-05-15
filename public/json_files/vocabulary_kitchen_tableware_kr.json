@@ -1,0 +1,33 @@
+{
+  "theme_color": "#00BCD4",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Glas", "korean": "유리잔", "article": "das", "word": "Glas", "emoji": "🥃"},
+        {"german": "die Flasche", "korean": "병", "article": "die", "word": "Flasche", "emoji": "🍾"},
+        {"german": "das Geschirr", "korean": "식기류 / 그릇", "article": "das", "word": "Geschirr", "emoji": "🍽️"},
+        {"german": "die Tasse", "korean": "컵 / 잔", "article": "die", "word": "Tasse", "emoji": "☕"},
+        {"german": "die Untertasse", "korean": "잔받침", "article": "die", "word": "Untertasse", "emoji": "☕︎"},
+        {"german": "der Teller", "korean": "접시", "article": "der", "word": "Teller", "emoji": "🍽️"},
+        {"german": "das Besteck", "korean": "수저 세트 / 커틀러리", "article": "das", "word": "Besteck", "emoji": "🍴"},
+        {"german": "das Messer", "korean": "칼", "article": "das", "word": "Messer", "emoji": "🔪"},
+        {"german": "die Gabel", "korean": "포크", "article": "die", "word": "Gabel", "emoji": "🍴"},
+        {"german": "der Löffel", "korean": "숟가락", "article": "der", "word": "Löffel", "emoji": "🥄"},
+        {"german": "der Teelöffel", "korean": "티스푼", "article": "der", "word": "Teelöffel", "emoji": "🥄"},
+        {"german": "der Geschmack", "korean": "맛", "article": "der", "word": "Geschmack", "emoji": "👅"},
+        {"german": "sauer", "korean": "신맛", "article": "", "word": "sauer", "emoji": "🍋"},
+        {"german": "süß", "korean": "단맛", "article": "", "word": "süß", "emoji": "🍭"},
+        {"german": "scharf", "korean": "매운맛", "article": "", "word": "scharf", "emoji": "🌶️"},
+        {"german": "salzig", "korean": "짠맛", "article": "", "word": "salzig", "emoji": "🧂"},
+        {"german": "die Küche", "korean": "주방 / 부엌", "article": "die", "word": "Küche", "emoji": "🍳"},
+        {"german": "kochen", "korean": "요리하다", "article": "", "word": "kochen", "emoji": "👨‍🍳"},
+        {"german": "der Herd", "korean": "가스레인지 / 레인지", "article": "der", "word": "Herd", "emoji": "🔥"},
+        {"german": "der Ofen", "korean": "오븐", "article": "der", "word": "Ofen", "emoji": "🔥"},
+        {"german": "das Restaurant", "korean": "식당 / 레스토랑", "article": "das", "word": "Restaurant", "emoji": "🍴"},
+        {"german": "der Kellner / die Kellnerin", "korean": "웨이터 / 웨이트리스", "article": "der", "word": "Kellner", "emoji": "🤵"},
+        {"german": "bestellen", "korean": "주문하다", "article": "", "word": "bestellen", "emoji": "📝"},
+        {"german": "die Speisekarte", "korean": "메뉴판", "article": "die", "word": "Speisekarte", "emoji": "📜"}
+      ]
+    }
+  ]
+}

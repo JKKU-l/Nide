@@ -1,0 +1,38 @@
+{
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Geschäft", "japanese": "店 / 営業", "article": "das", "word": "Geschäft", "emoji": "🏪"},
+        {"german": "die Kasse", "japanese": "レジ / 会計", "article": "die", "word": "Kasse", "emoji": "🧾"},
+        {"german": "einkaufen", "japanese": "買い物をする", "article": "", "word": "einkaufen", "emoji": "🛍️"},
+        {"german": "der Verkäufer / die Verkäuferin", "japanese": "店員", "article": "der / die", "word": "Verkäufer / Verkäuferin", "emoji": "🧑‍💼"},
+        {"german": "der Kunde / die Kundin", "japanese": "客", "article": "der / die", "word": "Kunde / Kundin", "emoji": "👤"},
+        {"german": "der Preis", "japanese": "価格 / 値段", "article": "der", "word": "Preis", "emoji": "🏷️"},
+        {"german": "kosten", "japanese": "費用がかかる / いくらである", "article": "", "word": "kosten", "emoji": "💰"},
+        {"german": "verkaufen", "japanese": "売る", "article": "", "word": "verkaufen", "emoji": "🤝"},
+        {"german": "billig", "japanese": "安い", "article": "", "word": "billig", "emoji": "🪙"},
+        {"german": "teuer", "japanese": "高い", "article": "", "word": "teuer", "emoji": "💎"},
+        {"german": "kaufen", "japanese": "買う", "article": "", "word": "kaufen", "emoji": "🛒"},
+        {"german": "die Tüte", "japanese": "袋", "article": "die", "word": "Tüte", "emoji": "🛍️"},
+        {"german": "der Markt", "japanese": "市場", "article": "der", "word": "Markt", "emoji": "🥦"},
+        {"german": "die Bäckerei", "japanese": "パン屋", "article": "die", "word": "Bäckerei", "emoji": "🥖"},
+        {"german": "die Geldbörse", "japanese": "財布", "article": "die", "word": "Geldbörse", "emoji": "👛"},
+        {"german": "der Supermarkt", "japanese": "スーパーマーケット", "article": "der", "word": "Supermarkt", "emoji": "🛒"},
+        {"german": "die Fleischerei", "japanese": "精肉店", "article": "die", "word": "Fleischerei", "emoji": "🥩"},
+        {"german": "die Brieftasche", "japanese": "札入れ / 財布", "article": "die", "word": "Brieftasche", "emoji": "💼"},
+        {"german": "der Kiosk", "japanese": "売店 / キオスク", "article": "der", "word": "Kiosk", "emoji": "📰"},
+        {"german": "der Frisör / Friseur", "japanese": "美容師 / 理容師", "article": "der", "word": "Frisör / Friseur", "emoji": "💇‍♂️"},
+        {"german": "die Rechnung", "japanese": "請求書 / 勘定", "article": "die", "word": "Rechnung", "emoji": "📝"},
+        {"german": "zahlen", "japanese": "支払う", "article": "", "word": "zahlen", "emoji": "💳"},
+        {"german": "der Euro", "japanese": "ユーロ", "article": "der", "word": "Euro", "emoji": "💶"},
+        {"german": "die Kontonummer", "japanese": "口座番号", "article": "die", "word": "Kontonummer", "emoji": "🔢"},
+        {"german": "die Kreditkarte", "japanese": "クレジットカード", "article": "die", "word": "Kreditkarte", "emoji": "💳"},
+        {"german": "der Cent", "japanese": "セント", "article": "der", "word": "Cent", "emoji": "🪙"},
+        {"german": "die Bankleitzahl", "japanese": "銀行コード", "article": "die", "word": "Bankleitzahl", "emoji": "🏦"},
+        {"german": "das Geld", "japanese": "お金", "article": "das", "word": "Geld", "emoji": "💵"},
+        {"german": "die Bank", "japanese": "銀行", "article": "die", "word": "Bank", "emoji": "🏦"}
+      ]
+    }
+  ]
+}

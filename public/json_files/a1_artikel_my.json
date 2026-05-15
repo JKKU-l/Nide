@@ -1,0 +1,159 @@
+{
+  "title": "Article (အညွှန်း·အညွှန်းမဟုတ်·မသုံး)",
+  "sections": [
+    {
+      "id": "indefinite_articles",
+      "title": "၁။ အညွှန်းမဟုတ်သော Article များ (Indefinitar Artikel)",
+      "description": "အရာဝတ္ထုတစ်ခုကို ပထမဆုံးအကြိမ် စတင်မိတ်ဆက်တဲ့အခါ ဒါမှမဟုတ် တိတိပပမဟုတ်တဲ့ အရာတစ်ခုအကြောင်း ပြောတဲ့အခါ သုံးပါတယ်။ (အင်္ဂလိပ်စာက \"a\" သို့မဟုတ် \"an\" နဲ့ ဆင်တူပါတယ်။)",
+      "content": {
+        "examples_table": {
+          "headers": ["ကျား/မ ခွဲခြားမှု (Gender)", "Nominative (ကတ္တား)", "Accusative (ကံ)"],
+          "rows": [
+            ["အထီး (Masculine)", "ein Mann", "einen Kaffee"],
+            ["အလယ် (Neutral)", "ein Haus", "ein Brötchen"],
+            ["အမ (Feminine)", "eine Frau", "eine Banane"],
+            ["အများကိန်း (Plural)", "(Article မလိုပါ) Autos", "(Article မလိုပါ) Kartoffeln"]
+          ]
+        },
+        "why_use_them": {
+          "title": "ဘာကြောင့် သုံးတာလဲ?",
+          "rules": [
+            {
+              "rule": "Nominative: စာကြောင်းရဲ့ ကတ္တားနေရာမှာ သုံးတာဖြစ်ဖြစ်၊ sein (ဖြစ်သည်) ဆိုတဲ့ ကြိယာနောက်မှာ သုံးပါတယ်။",
+              "example": "Das ist ein Stuhl. (ဒါဟာ ကုလားထိုင်တစ်လုံး ဖြစ်ပါတယ်။)"
+            },
+            {
+              "rule": "Accusative: နာမ်ဟာ ကြိယာတစ်ခုရဲ့ တိုက်ရိုက်ကံ (Direct Object) ဖြစ်နေရင် သုံးပါတယ်။ မှတ်ချက်: အထီး (Masculine) တစ်ခုတည်းသာ ein မှ einen သို့ ပြောင်းလဲသွားပါတယ်။",
+              "example": "Ich möchte einen Kaffee. (ကျွန်တော် ကော်ဖီတစ်ခွက် လိုချင်ပါတယ်။)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_articles",
+      "title": "၂။ အညွှန်း Article များ (Definiter Artikel)",
+      "description": "အရင်က ပြောခဲ့ပြီးသား အရာတစ်ခု သို့မဟုတ် နားထောင်သူက သိပြီးသားဖြစ်တဲ့ တိကျတဲ့အရာကို ပြောတဲ့အခါ သုံးပါတယ်။ (အင်္ဂလိပ်စာက \"the\" နဲ့ ဆင်တူပါတယ်။)",
+      "content": {
+        "examples_table": {
+          "headers": ["ကျား/မ ခွဲခြားမှု (Gender)", "Nominative (ကတ္တား)", "Accusative (ကံ)"],
+          "rows": [
+            ["အထီး (Masculine)", "der Mann", "den Kaffee"],
+            ["အလယ် (Neutral)", "das Haus", "das Brötchen"],
+            ["အမ (Feminine)", "die Frau", "die Banane"],
+            ["အများကိန်း (Plural)", "die Autos", "die Kartoffeln"]
+          ]
+        },
+        "why_use_them": {
+          "title": "ဘာကြောင့် သုံးတာလဲ?",
+          "rules": [
+            {
+              "rule": "တိတိကျကျ သတ်မှတ်ခြင်း: \"ကုလားထိုင်တစ်လုံး\" (ein Stuhl) လို့ မိတ်ဆက်ပြီးသွားတာနဲ့ အဲဒီကုလားထိုင်ဟာ \"အဲဒီကုလားထိုင်\" (der Stuhl) ဖြစ်သွားပါတယ်။",
+              "example": "Das ist ein Laptop. Der Laptop ist gut. (ဒါက လက်ပ်တော့တစ်လုံးပါ။ အဲဒီလက်ပ်တော့က ကောင်းပါတယ်။)"
+            },
+            {
+              "rule": "Accusative ပြောင်းလဲမှု: အညွှန်းမဟုတ်တဲ့ Article တွေလိုပဲ အထီး (Masculine) တစ်ခုတည်းသာ der မှ den သို့ ပြောင်းလဲပါတယ်။",
+              "example": "Ich finde den Rock schön. (အဲဒီစကတ်လေးက လှတယ်လို့ ကျွန်မထင်တယ်။)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zero_article",
+      "title": "၃။ Article မသုံးခြင်း (Kein Artikel)",
+      "description": "ဂျာမန်စာကြောင်း အချို့မှာ Article လုံးဝမသုံးတဲ့ အခြေအနေတွေ ရှိပါတယ်။",
+      "content": {
+        "key_rules": [
+          {
+            "category": "ရေတွက်၍မရသော အရာများ",
+            "description": "အချိန်၊ ကံကောင်းခြင်း၊ ပိုက်ဆံ၊ ဗိုက်ဆာခြင်း စတာတွေကို ရေတွက်လို့မရတဲ့အတွက် Article မပါဘဲ သုံးပါတယ်။",
+            "examples": [
+              "Ich habe Zeit. (ကျွန်တော့်မှာ အချိန်ရှိတယ်။) — \"a time\" လို့ မသုံးပါ",
+              "Er hat Glück. (သူ ကံကောင်းတယ်။)"
+            ]
+          },
+          {
+            "category": "အလုပ်အကိုင်များ",
+            "description": "ကိုယ့်ရဲ့ အလုပ်အကိုင်ကို ပြောတဲ့အခါ Article မလိုပါ။",
+            "examples": [
+              "Ich bin Pilotin. (ကျွန်မ လေယာဉ်မှူးတစ်ယောက်ပါ။) — အင်္ဂလိပ်လို \"a pilot\" လို့ ပြောပေမဲ့ ဂျာမန်မှာ Article ဖြုတ်ပြောရပါတယ်။"
+            ]
+          },
+          {
+            "category": "ယေဘုယျ အများကိန်းများ",
+            "description": "အရာဝတ္ထုတစ်ခုထက်ပိုတာကို ယေဘုယျသဘော ပြောတဲ့အခါ သုံးပါတယ်။",
+            "examples": [
+              "Das sind Blumen. (ဒါတွေက ပန်းတွေ ဖြစ်ကြပါတယ်။)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_application",
+      "title": "၄။ လက်တွေ့ အသုံးချပုံ",
+      "description": "ဘယ်လို Article တွေ ပြောင်းလဲသုံးသလဲ",
+      "content": {
+        "transitioning": {
+          "title": "မတိကျရာမှ တိကျရာသို့ ပြောင်းလဲခြင်း",
+          "description": "အရာဝတ္ထုတွေကို ဖော်ပြတဲ့အခါ ပုံမှန်အားဖြင့် ဒီပုံစံအတိုင်း သွားပါတယ်:",
+          "steps": [
+            "မိတ်ဆက်ခြင်း: Das ist + Indefinite Article (ein/eine).",
+            "အသေးစိတ်ဖော်ပြခြင်း: Definite Article (der/die/das) + နာမဝိသေသန (Adjective)."
+          ],
+          "examples": [
+            {
+              "gender": "အထီး",
+              "introduce": "Das ist ein Laptop. (ယေဘုယျ မိတ်ဆက်ခြင်း)",
+              "describe": "Der Laptop ist gut. (တိကျစွာ ဖော်ပြခြင်း)"
+            },
+            {
+              "gender": "အမ",
+              "introduce": "Das ist eine Vase.",
+              "describe": "Die Vase ist schön."
+            },
+            {
+              "gender": "အလယ်",
+              "introduce": "Das ist ein Bild.",
+              "describe": "Das Bild ist teuer."
+            }
+          ]
+        },
+        "accusative_questions": {
+          "title": "မေးခွန်းများတွင် Accusative သုံးပုံ",
+          "description": "\"မင်းမှာ ... ရှိလား?\" (Hast du...?) လို့ မေးတဲ့အခါ သင်မေးနေတဲ့ အရာဝတ္ထုဟာ Accusative Case (ကံ) နေရာကို ရောက်သွားပါတယ်။",
+          "examples": [
+            {
+              "gender": "အထီး",
+              "example": "Hast du einen Kuli?",
+              "note": "-en အဆုံးသတ်တာကို သတိထားပါ။ ဘာလို့လဲဆိုတော့ Kuli (ဘောပင်) ဟာ အထီးဖြစ်ပြီး တိုက်ရိုက်ကံ ဖြစ်နေလို့ပါ။"
+            },
+            {
+              "gender": "အမ",
+              "example": "Hast du eine Uhr?",
+              "note": "ပြောင်းလဲမှုမရှိ"
+            },
+            {
+              "gender": "အလယ်",
+              "example": "Hast du ein Handy?",
+              "note": "ပြောင်းလဲမှုမရှိ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "narrative_usage",
+      "title": "၅။ ပုံပြင်ပြောဟန် အသုံးပြုပုံ",
+      "description": "ပုံပြင်တွေ ပြောတဲ့အခါ ဇာတ်လမ်းရှေ့ဆက်လာတာနဲ့အမျှ Article တွေ ပြောင်းလဲသွားပါတယ်:",
+      "content": {
+        "example": {
+          "introduction": "Es war einmal ein König. (ဟိုးရှေးရှေးတုန်းက ဘုရင်တစ်ပါး ရှိခဲ့ဖူးတယ် - ပထမဆုံး မိတ်ဆက်ခြင်း)",
+          "continuation": "Der König war sehr reich. (အဲဒီဘုရင်ကြီးဟာ အရမ်းချမ်းသာတယ် - အခုဆိုရင် ဘယ်ဘုရင်လဲဆိုတာ ကျွန်တော်တို့ သိသွားပြီမို့ 'the' နဲ့ သုံးတာပါ)"
+        },
+        "grammar_tip": "နာမ်အသစ်တစ်ခုကို သင်ယူတိုင်း သူ့ရဲ့ ကျား/မ ခွဲခြားမှု (der/die/das) ကိုပါ တစ်ခါတည်း တွဲကျက်ပါ။ Gender ကို မသိရင် Nominative နဲ့ Accusative အတွက် မှန်ကန်တဲ့ Article ကို ရွေးချယ်နိုင်မှာ မဟုတ်လို့ပါ။"
+      }
+    }
+  ]
+}

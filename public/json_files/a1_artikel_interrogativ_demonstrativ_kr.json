@@ -1,0 +1,173 @@
+{
+  "title": "Artikel: interrogativ und demonstrativ (의문관사와 지시관사)",
+  "description": "의문관사 (welch-)와 지시관사 (dies-)의 차이점을 이해하세요.",
+  "sections": [
+    {
+      "id": "concept_understanding",
+      "title": "개념 이해하기: 의문관사 vs. 지시관사",
+      "description": "특정한 것을 묻는 것과 가리키는 것의 차이점을 배우세요.",
+  "content": {
+        "definitions": [
+          {
+            "type": "의문관사 (Welcher-)",
+            "description": "여러 사람이나 사물 중에서 특정한 하나를 물을 때 사용합니다. 한국어로는 \"어느...?\" 또는 \"어떤...?\"에 해당합니다."
+          },
+          {
+            "type": "지시관사 (Dieser-)",
+            "description": "특정한 사람이나 사물을 가리킬 때 사용합니다. 한국어로는 \"이...\" 또는 \"이것\"에 해당합니다."
+          }
+        ],
+        "golden_rule": {
+          "title": "A1 학습자를 위한 황금 규칙",
+          "description": "\"welch-\"의 어미는 반드시 \"dies-\"의 어미, 그리고 정관사(der/die/das)의 어미와 일치해야 합니다."
+        }
+      }
+    },
+    {
+      "id": "nominative_case",
+      "title": "1. 1격 (Nominative / 주격)",
+      "description": "문장의 주어(행동을 하는 주체나 설명 대상)로 쓰일 때입니다.",
+      "content": {
+        "genders": [
+          {
+            "gender": "남성 (der)",
+            "ending": "어미 -er 사용",
+            "example_question": "Welcher Mantel ist schön?",
+            "example_question_english": "어느 코트가 예쁜가요?",
+            "example_response": "Dieser Mantel.",
+            "example_response_english": "이 코트요."
+          },
+          {
+            "gender": "중성 (das)",
+            "ending": "어미 -es 사용",
+            "example_question": "Welches Kleid gefällt dir?",
+            "example_question_english": "어떤 원피스가 마음에 드니?",
+            "example_response": "Dieses Kleid.",
+            "example_response_english": "이 원피스."
+          },
+          {
+            "gender": "여성 (die)",
+            "ending": "어미 -e 사용",
+            "example_question": "Welche Hose ist das?",
+            "example_question_english": "이건 어느 바지인가요?",
+            "example_response": "Diese Hose.",
+            "example_response_english": "이 바지예요."
+          },
+          {
+            "gender": "복수 (die)",
+            "ending": "어미 -e 사용",
+            "example_question": "Welche Schuhe sind neu?",
+            "example_question_english": "어느 신발이 새것인가요?",
+            "example_response": "Diese Schuhe.",
+            "example_response_english": "이 신발들이요."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accusative_case",
+      "title": "2. 4격 (Accusative / 목적격)",
+      "description": "직접 목적어(행동의 대상)로 쓰일 때입니다. 남성 명사만 1격과 형태가 달라진다는 점에 유의하세요.",
+      "content": {
+        "genders": [
+          {
+            "gender": "남성 (den)",
+            "ending": "어미 -en 사용",
+            "example_question": "Welchen Anzug kaufst du?",
+            "example_question_english": "어느 양복을 살 거니?",
+            "example_response": "Ich kaufe diesen Anzug.",
+            "example_response_english": "난 이 양복을 살 거야."
+          },
+          {
+            "gender": "중성, 여성, 복수",
+            "ending": "1격(주격)과 형태가 똑같습니다 (-es, -e, -e)",
+            "example": "Ich nehme dieses T-Shirt.",
+            "example_english": "난 이 티셔츠로 할게."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_case",
+      "title": "3. 3격 (Dative / 여격)",
+      "description": "특정 전치사(mit, von, zu, aus, bei) 뒤에 오거나 간접 목적어로 쓰일 때입니다.",
+      "content": {
+        "genders": [
+          {
+            "gender": "남성 및 중성 (dem)",
+            "ending": "둘 다 어미 -em 사용",
+            "example_question": "Zu welchem Arzt gehst du?",
+            "example_question_english": "어느 의사 선생님께 가니?",
+            "example_response": "Zu diesem Arzt.",
+            "example_response_english": "이 의사 선생님께 가.",
+            "note": "전치사 \"zu\"(~에게/로) 예시"
+          },
+          {
+            "gender": "여성 (der)",
+            "ending": "어미 -er 사용",
+            "note": "주의: 남성 1격과 비슷해 보이지만, 3격에서는 여성 관사가 der로 변하기 때문에 -er을 씁니다",
+            "example_question": "Mit welcher Freundin gehst du?",
+            "example_question_english": "어느 [여성] 친구와 가니?",
+            "example_response": "Mit dieser Freundin.",
+            "example_response_english": "이 친구와 가.",
+            "preposition_note": "전치사 \"mit\"(~와) 예시"
+          },
+          {
+            "gender": "복수 (den + n)",
+            "ending": "어미 -en 사용",
+            "example_question": "Welchen Kindern hast du geholfen?",
+            "example_question_english": "어느 아이들을 도와주었니?",
+            "example_response": "Diesen Kindern.",
+            "example_response_english": "이 아이들을 도와줬어."
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_endings",
+      "title": "왜 이런 어미를 사용하나요?",
+      "description": "독일어는 이러한 특정 어미를 통해 문장의 \"신호\"를 보냅니다. 독일어는 어순이 비교적 자유롭기 때문에, 이 어미들이 청자에게 누가 무엇을 하는지 정확히 알려주는 역할을 합니다.",
+      "content": {
+        "signals": [
+          {
+            "type": "성별 신호",
+            "description": "Welcher의 -er은 명사가 남성(der)임을, Welches의 -es는 중성(das)임을 알려줍니다."
+          },
+          {
+            "type": "기능 신호",
+            "description": "만약 Welchen을 본다면, 즉시 그 남성 명사가 문장의 목적어(4격)이거나 3격 복수 명사라는 것을 알 수 있습니다."
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_tip",
+      "title": "A1 학습자를 위한 요약 팁",
+      "description": "Welch-와 Dies-를 서로 비추는 \"거울 단어\"라고 생각하세요. 질문 단어에 붙인 어미는 보통 답변 단어와 정관사의 어미를 그대로 따라갑니다:",
+      "content": {
+        "examples": [
+          {
+            "article": "Der Mann",
+            "question": "Welcher Mann?",
+            "answer": "Dieser Mann."
+          },
+          {
+            "article": "Das Kind",
+            "question": "Welches Kind?",
+            "answer": "Dieses Kind."
+          },
+          {
+            "article": "Die Frau",
+            "question": "Welche Frau?",
+            "answer": "Diese Frau."
+          },
+          {
+            "article": "Den Mann (4격)",
+            "question": "Welchen Mann?",
+            "answer": "Diesen Mann."
+          }
+        ]
+      }
+    }
+  ]
+}

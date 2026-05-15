@@ -1,0 +1,55 @@
+{
+  "title": "Food & Cooking",
+  "emoji": "🍳",
+  "theme_color": "#9C27B0",
+  "description": "Food, cooking, and kitchen vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "schneiden", "japanese": "切る", "example_german": "Ich schneide das Brot in Scheiben.", "example_japanese": "パンをスライスに切ります。"},
+          {"german": "hacken", "japanese": "刻む", "example_german": "Kannst du bitte die Zwiebeln fein hacken?", "example_japanese": "玉ねぎをみじん切りにしてくれますか？"},
+          {"german": "schälen", "japanese": "皮をむく", "example_german": "Er schält die Kartoffeln für das Abendessen.", "example_japanese": "彼は夕食のためにジャガイモの皮をむいています。"},
+          {"german": "reiben", "japanese": "すりおろす", "example_german": "Wir reiben frischen Käse über die Pasta.", "example_japanese": "パスタの上に新鮮なチーズをすりおろします。"},
+          {"german": "mischen", "japanese": "混ぜる", "example_german": "Mischen Sie alle Zutaten in einer großen Schüssel.", "example_japanese": "大きなボウルですべての材料を混ぜてください。"},
+          {"german": "rühren", "japanese": "かき混ぜる", "example_german": "Du musst die Suppe regelmäßig umrühren.", "example_japanese": "スープを定期的にかき混ぜなければなりません。"},
+          {"german": "kochen", "japanese": "茹でる / 料理する", "example_german": "Das Wasser kocht bereits.", "example_japanese": "お湯がもう沸いています。"},
+          {"german": "braten", "japanese": "焼く / 炒める", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_japanese": "フライパンで肉を焼いています。"},
+          {"german": "backen", "japanese": "焼く (パンやケーキなど)", "example_german": "Am Wochenende backe ich einen Kuchen.", "example_japanese": "週末にケーキを焼きます。"},
+          {"german": "grillen", "japanese": "網で焼く / グリルする", "example_german": "Im Sommer grillen wir oft im Garten.", "example_japanese": "夏にはよく庭でバーベキューをします。"},
+          {"german": "dämpfen", "japanese": "蒸す", "example_german": "Gemüse ist gesünder, wenn man es dämpft.", "example_japanese": "野菜は蒸した方が健康に良いです。"},
+          {"german": "frittieren", "japanese": "揚げる", "example_german": "Die Pommes werden in heißem Öl frittiert.", "example_japanese": "フライドポテトを熱い油で揚げます。"},
+          {"german": "anbraten", "japanese": "焼き色をつける / さっと焼く", "example_german": "Zuerst muss man das Fleisch scharf anbraten.", "example_japanese": "まず肉の表面を強火でさっと焼かなければなりません。"},
+          {"german": "schmecken", "japanese": "味がする", "example_german": "Das Essen schmeckt wirklich hervorragend.", "example_japanese": "料理の味は本当に素晴らしいです。"},
+          {"german": "probieren", "japanese": "試食する / 味見する", "example_german": "Möchtest du die Sauce mal probieren?", "example_japanese": "ソースを味見してみますか？"},
+          {"german": "würzen", "japanese": "味付けする", "example_german": "Du solltest den Salat noch etwas würzen.", "example_japanese": "サラダにもう少し味付けをした方がいいですよ。"},
+          {"german": "salzen", "japanese": "塩を振る", "example_german": "Ich habe vergessen, die Nudeln zu salzen.", "example_japanese": "パスタに塩を入れるのを忘れました。"},
+          {"german": "pfeffern", "japanese": "コショウを振る", "example_german": "Er pfeffert sein Steak sehr stark.", "example_japanese": "彼はステーキに強くコショウを振ります。"},
+          {"german": "marinieren", "japanese": "マリネする / 下味をつける", "example_german": "Das Fleisch muss zwei Stunden marinieren.", "example_japanese": "肉を2時間タレに漬け込まなければなりません。"},
+          {"german": "einfrieren", "japanese": "凍らせる / 冷凍する", "example_german": "Wir frieren die Reste der Suppe ein.", "example_japanese": "残ったスープを冷凍します。"},
+          {"german": "auftauen", "japanese": "解凍する", "example_german": "Ich muss das Hähnchen vor dem Kochen auftauen.", "example_japanese": "料理する前に鶏肉を解凍しなければなりません。"},
+          {"german": "servieren", "japanese": "出す / 配膳する", "example_german": "Das Dessert wird mit Sahne serviert.", "example_japanese": "デザートは生クリームを添えて出されます。"},
+          {"german": "füllen", "japanese": "詰める", "example_german": "Sie füllt die Paprika mit Reis und Hackfleisch.", "example_japanese": "彼女はパプリカに米とひき肉を詰めています。"},
+          {"german": "gießen", "japanese": "注ぐ", "example_german": "Bitte gieß mir etwas Wasser ins Glas.", "example_japanese": "コップに水を注いでください。"},
+          {"german": "bestellen", "japanese": "注文する", "example_german": "Wir bestellen uns heute eine Pizza.", "example_japanese": "今日はピザを注文します。"},
+          {"german": "bezahlen", "japanese": "支払う", "example_german": "Wir möchten bitte getrennt bezahlen.", "example_japanese": "別々に会計をお願いします。"},
+          {"german": "reservieren", "japanese": "予約する", "example_german": "Hast du einen Tisch im Restaurant reserviert?", "example_japanese": "レストランの席を予約しましたか？"},
+          {"german": "empfehlen", "japanese": "勧める", "example_german": "Was können Sie uns heute empfehlen?", "example_japanese": "今日のおすすめは何ですか？"},
+          {"german": "bringen", "japanese": "持ってくる", "example_german": "Der Kellner bringt uns die Speisekarte.", "example_japanese": "ウェイターがメニューを持ってきます。"},
+          {"german": "holen", "japanese": "取ってくる", "example_german": "Ich hole nur kurz eine Flasche Wein aus dem Keller.", "example_japanese": "地下室からワインを一本取ってきます。"},
+          {"german": "kaufen", "japanese": "買う", "example_german": "Wir müssen noch Brot für morgen kaufen.", "example_japanese": "明日のためのパンを買わなければなりません。"},
+          {"german": "finden", "japanese": "見つける", "example_german": "Wo finde ich hier das Salz?", "example_japanese": "ここで塩はどこにありますか？"},
+          {"german": "einpacken", "japanese": "包む / 詰める", "example_german": "Kann ich den Rest bitte einpacken lassen?", "example_japanese": "残りを持ち帰り用に包んでもらえますか？"},
+          {"german": "auspacken", "japanese": "取り出す", "example_german": "Er packt die Einkäufe in der Küche aus.", "example_japanese": "彼は台所で買った物を取り出しています。"},
+          {"german": "spülen", "japanese": "洗う / すすぐ", "example_german": "Ich muss noch das Geschirr spülen.", "example_japanese": "まだ食器を洗わなければなりません。"},
+          {"german": "anrichten", "japanese": "盛り付ける", "example_german": "Sie richtet den Salat hübsch auf dem Teller an.", "example_japanese": "彼女は皿にサラダをきれいに盛り付けています。"},
+          {"german": "öffnen", "japanese": "開ける", "example_german": "Kannst du bitte die Dose öffnen?", "example_japanese": "缶を開けてくれますか？"},
+          {"german": "schließen", "japanese": "閉める", "example_german": "Bitte schließen Sie die Kühlschranktür.", "example_japanese": "冷蔵庫のドアを閉めてください。"},
+          {"german": "wählen", "japanese": "選ぶ", "example_german": "Sie können zwischen Fisch und Fleisch wählen.", "example_japanese": "魚か肉か選べます。"},
+          {"german": "genießen", "japanese": "楽しむ / 味わう", "example_german": "Wir genießen das gute Essen und den Wein.", "example_japanese": "私たちは美味しい料理とワインを楽しんでいます。"}
+        ]
+      }
+    }
+  ]
+}

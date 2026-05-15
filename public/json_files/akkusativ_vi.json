@@ -1,0 +1,130 @@
+{
+  "title": "Akkusativ (Cách đối cách / Tân ngữ trực tiếp)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Hiểu về Akkusativ trong tiếng Đức",
+      "description": "Trong tiếng Đức, Akkusativ chủ yếu được dùng cho tân ngữ trực tiếp (Direct Object) của câu. Đây là người hoặc vật bị ảnh hưởng trực tiếp bởi hành động của động từ. Nếu Nominativ là \"người thực hiện\" (chủ ngữ), thì Akkusativ là \"người nhận\"."
+    },
+    {
+      "id": "identifying_accusative",
+      "title": "1. Nhận biết Akkusativ: \"Ai\" hoặc \"Cái gì\"",
+      "description": "Để tìm tân ngữ Akkusativ, hãy tự hỏi: \"Ai/Cái gì đang bị ~?\"",
+      "content": {
+        "example": {
+          "german": "Ich kaufe den Apfel.",
+          "translation": "Tôi mua quả táo.",
+          "note": "Tôi đang mua gì? → Den Apfel (Quả táo). Vì vậy \"táo\" ở cách Akkusativ."
+        }
+      }
+    },
+    {
+      "id": "articles_adjective_endings",
+      "title": "2. Mạo từ và đuôi tính từ",
+      "description": "Điều quan trọng nhất cần nhớ về Akkusativ là chỉ giống đực mới thay đổi. Giống cái, giống trung và số nhiều vẫn giữ nguyên như Nominativ.",
+      "content": {
+        "declension_table": {
+          "title": "Bảng biến cách Akkusativ",
+          "headers": ["Giống", "Mạo từ xác định (The)", "Mạo từ không xác định (A/None)", "Đuôi tính từ (với \"the\")"],
+          "rows": [
+            { "category": "Giống đực", "definite": "den", "indefinite": "einen / keinen", "adjective": "-en (den netten Vater)" },
+            { "category": "Giống cái", "definite": "die", "indefinite": "eine / keine", "adjective": "-e (die nette Mutter)" },
+            { "category": "Giống trung", "definite": "das", "indefinite": "ein / kein", "adjective": "-e (das nette Kind)" },
+            { "category": "Số nhiều", "definite": "die", "indefinite": "- / keine", "adjective": "-en (die netten Eltern)" }
+          ]
+        },
+        "adjective_note": "Nếu bạn dùng từ như dieser (này), jener (kia), hoặc welcher (nào), tính từ theo sau chúng sẽ theo cùng mẫu như mạo từ xác định (-en cho giống đực/số nhiều, -e cho giống cái/giống trung)."
+      }
+    },
+    {
+      "id": "personal_pronouns",
+      "title": "3. Đại từ nhân xưng",
+      "description": "Khi một người là tân ngữ trực tiếp (ví dụ: \"Anh ấy nhìn tôi\"), chúng ta phải dùng dạng Akkusativ của đại từ.",
+      "content": {
+        "pronoun_table": {
+          "title": "Thay đổi đại từ trong Akkusativ",
+          "rows": [
+            { "nominative": "ich", "accusative": "mich", "meaning": "tôi (tân ngữ)" },
+            { "nominative": "du", "accusative": "dich", "meaning": "bạn (tân ngữ)" },
+            { "nominative": "er", "accusative": "ihn", "meaning": "anh ấy (tân ngữ)" },
+            { "nominative": "sie", "accusative": "sie", "meaning": "cô ấy (tân ngữ)" },
+            { "nominative": "es", "accusative": "es", "meaning": "nó (tân ngữ)" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "chúng tôi (tân ngữ)" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "các bạn (tân ngữ)" },
+            { "nominative": "sie/Sie", "accusative": "sie/Sie", "meaning": "họ / Quý vị (tân ngữ)" }
+          ]
+        },
+        "example": {
+          "german": "Ich liebe dich.",
+          "translation": "Tôi yêu bạn.",
+          "note": "Ở đây, \"bạn\" là người được yêu, nên du trở thành dich."
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. Khi nào dùng Akkusativ",
+      "description": "Có ba nguyên nhân chính kích hoạt Akkusativ:",
+      "content": {
+        "triggers": [
+          {
+            "id": "accusative_verbs",
+            "title": "A. Động từ đi với Akkusativ",
+            "description": "Hầu hết động từ tiếng Đức cần Akkusativ vì liên quan đến việc làm gì đó với một thứ khác.",
+            "subcategories": [
+              { "label": "Hành động vật lý", "verbs": "essen (ăn), trinken (uống), kaufen (mua)", "german": "Er isst einen Kuchen.", "translation": "Anh ấy ăn một cái bánh — Giống đực thay đổi." },
+              { "label": "Sở hữu", "verbs": "haben (có), besitzen (sở hữu)", "german": "Ich habe einen Bruder.", "translation": "Tôi có một người anh/em trai." },
+              { "label": "Tinh thần/Giác quan", "verbs": "hören (nghe), verstehen (hiểu), suchen (tìm kiếm)", "german": "Wir suchen den Hund.", "translation": "Chúng tôi đang tìm con chó." }
+            ]
+          },
+          {
+            "id": "accusative_prepositions",
+            "title": "B. Giới từ đi với Akkusativ",
+            "description": "Một số giới từ luôn đi với Akkusativ, bất kể động từ là gì:",
+            "prepositions": ["durch (qua)", "für (cho)", "gegen (chống lại)", "ohne (không có)", "um (xung quanh)", "bis (đến)"],
+            "examples": [
+              { "german": "Das Geschenk ist für dich.", "translation": "Món quà dành cho bạn." },
+              { "german": "Er geht ohne den Schirm.", "translation": "Anh ấy đi mà không có ô." }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. Giới từ hai chiều (Di chuyển vs. Vị trí)",
+            "description": "Một số giới từ (an, auf, hinter, in, neben, über, unter, vor, zwischen) có thể là Dativ hoặc Akkusativ.",
+            "rule": "Dùng Akkusativ cho Di chuyển/Hướng: Nếu bạn di chuyển từ điểm A đến điểm B (Câu hỏi: Wohin? / Đi đâu?).",
+            "examples": [
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "Tôi đặt quyển sách lên bàn — Hành động/Di chuyển." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. Ví dụ chi tiết để hiểu rõ hơn",
+      "description": "Hãy xem Akkusativ hoạt động trong các tình huống khác nhau:",
+      "content": {
+        "examples": [
+          {
+            "label": "Giống đực thay đổi",
+            "nominative": { "german": "Der Tisch ist alt.", "translation": "Cái bàn cũ." },
+            "accusative": { "german": "Ich verkaufe den Tisch.", "translation": "Tôi bán cái bàn." },
+            "explanation": "Vì cái bàn bây giờ là vật bị bán."
+          },
+          {
+            "label": "Giống trung/Giống cái không thay đổi",
+            "nominative": { "german": "Das Auto ist schnell.", "translation": "Xe hơi nhanh." },
+            "accusative": { "german": "Ich kaufe das Auto.", "translation": "Tôi mua xe hơi." },
+            "explanation": "\"Auto\" là giống trung; mạo từ \"das\" không thay đổi trong Akkusativ."
+          },
+          {
+            "label": "Dùng \"Haben\"",
+            "nominative": null,
+            "accusative": { "german": "Sie hat einen neuen Job.", "translation": "Cô ấy có một công việc mới." },
+            "explanation": "\"Job\" là giống đực (der Job). Vì đứng sau haben nên phải là einen."
+          }
+        ]
+      }
+    }
+  ]
+}

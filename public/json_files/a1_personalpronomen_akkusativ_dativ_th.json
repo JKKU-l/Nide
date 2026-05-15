@@ -1,0 +1,182 @@
+{
+  "title": "คำสรรพนาม (กรรมตรง·กรรมรอง)",
+  "description": "เรียนรู้ว่าคำสรรพนามในภาษาเยอรมันเปลี่ยนรูปอย่างไรเมื่อทำหน้าที่เป็นประธาน กรรมตรง หรือกรรมรองในประโยค",
+  "sections": [
+    {
+      "id": "understanding_cases",
+      "title": "1. ทำความเข้าใจ 3 การกหลัก (Three Main Cases)",
+      "description": "ในภาษาเยอรมัน คำสรรพนามจะเปลี่ยนรูปตาม \"หน้าที่\" ของมันในประโยค",
+      "content": {
+        "cases": [
+          {
+            "case": "Nominative (ประธาน)",
+            "description": "คนหรือสิ่งที่ทำกริยานั้นๆ"
+          },
+          {
+            "case": "Accusative (กรรมตรง)",
+            "description": "คนหรือสิ่งที่ได้รับผลจากการกระทำโดยตรง"
+          },
+          {
+            "case": "Dative (กรรมรอง)",
+            "description": "มักจะเป็น \"ผู้รับ\" ของขวัญ หรือคนที่ได้รับประโยชน์จากการกระทำนั้นๆ นอกจากนี้ยังต้องใช้หลังบุพบทเฉพาะบางตัวเช่น \"mit\" (กับ) หรือ \"zu\" (ถึง/ไปที่)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "akkusativ_pronouns",
+      "title": "2. คำสรรพนามในรูป Accusative",
+      "description": "เราจะใช้รูป Accusative เมื่อบุคคลนั้นเป็นกรรมตรงของกริยา กริยาที่ใช้คู่กับ Accusative บ่อยๆ ได้แก่ lieben (รัก), mögen (ชอบ), kennen (รู้จักคน), และ sehen (เห็น)",
+      "content": {
+        "examples": [
+          {
+            "english": "ฉันรักเขา (I love him)",
+            "german": "Ich liebe ihn.",
+            "explanation": "\"Ich\" คือประธาน ส่วน \"He\" เปลี่ยนเป็น \"ihn\" เพราะเขาเป็นผู้ถูกรัก (กรรมตรง)"
+          },
+          {
+            "english": "คุณชอบฉันไหม? (Do you like me?)",
+            "german": "Magst du mich?",
+            "explanation": "\"Du\" คือประธาน ส่วน \"Me\" เปลี่ยนเป็น \"mich\" เพราะฉันเป็นสิ่งที่ถูกชอบ"
+          },
+          {
+            "english": "พวกเราเห็นพวกคุณ (หลายคน)",
+            "german": "Wir sehen euch.",
+            "explanation": "\"Wir\" เป็นผู้เห็น ส่วน \"You all\" เปลี่ยนเป็น \"euch\""
+          }
+        ],
+        "note": "ข้อสังเกต: สำหรับสรรพนาม sie (หล่อน/พวกเขา), es (มัน), และ Sie (คุณ - สุภาพ) รูปคำจะไม่เปลี่ยนระหว่าง Nominative และ Accusative"
+      }
+    },
+    {
+      "id": "dativ_pronouns",
+      "title": "3. คำสรรพนามในรูป Dative",
+      "description": "การก Dative ใช้สำหรับ \"ผู้รับประโยชน์\" ของการกระทำ หรือใช้หลังจากกริยาเฉพาะทาง เช่น helfen (ช่วยเหลือ), gefallen (ถูกใจ), และ antworten (ตอบ)",
+      "content": {
+        "examples": [
+          {
+            "english": "ฉันให้หนังสือแก่คุณ (I give you the book)",
+            "german": "Ich gebe dir das Buch.",
+            "explanation": "\"หนังสือ\" เป็นกรรมตรง (Accusative) แต่ \"คุณ\" เป็นผู้รับ ดังนั้น \"du\" จึงเปลี่ยนเป็น dir"
+          },
+          {
+            "english": "ชุดกระโปรงนี้ถูกใจฉัน (ฉันชอบชุดนี้)",
+            "german": "Das Kleid gefällt mir.",
+            "explanation": "กริยา \"gefallen\" จะบังคับให้คนที่เป็นคนชอบต้องอยู่ในรูป Dative เสมอ"
+          },
+          {
+            "english": "ฉันกำลังช่วยหล่อน",
+            "german": "Ich helfe ihr.",
+            "explanation": "\"helfen\" เป็นกริยาที่ต้องตามด้วย Dative แม้ว่าในภาษาอังกฤษหล่อนจะเป็นกรรมตรง แต่ในภาษาเยอรมันต้องเป็นรูป Dative"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prepositions_role",
+      "title": "4. บทบาทของคำบุพบท (Prepositions)",
+      "description": "บางครั้งรูปการกไม่ได้ถูกกำหนดโดยกริยา แต่กำหนดโดยคำสั้นๆ ที่วางหน้าสรรพนาม",
+      "content": {
+        "prepositions": [
+          {
+            "preposition": "กับ (Mit)",
+            "case": "Dative",
+            "example_english": "ฉันไปกับเขา",
+            "example_german": "Ich gehe mit ihm."
+          },
+          {
+            "preposition": "สำหรับ (Für)",
+            "case": "Accusative",
+            "example_english": "นี่สำหรับคุณ",
+            "example_german": "Das ist für dich."
+          }
+        ]
+      }
+    },
+    {
+      "id": "key_transformations",
+      "title": "5. สรุปการเปลี่ยนรูปที่สำคัญ",
+      "description": "เพื่อให้จำง่ายขึ้นโดยไม่ต้องดูตาราง ให้ลองจำแบ่งเป็นกลุ่มดังนี้:",
+      "content": {
+        "groups": [
+          {
+            "title": "สรรพนามแทนตัว \"ฉัน\"",
+            "transformations": [
+              {"form": "ประธาน", "pronoun": "ich (ฉัน)"},
+              {"form": "กรรมตรง", "pronoun": "mich (ฉัน)"},
+              {"form": "กรรมรอง", "pronoun": "mir (แก่ฉัน / สำหรับฉัน)"}
+            ]
+          },
+          {
+            "title": "สรรพนามแทนตัว \"คุณ\" (ไม่เป็นทางการ)",
+            "transformations": [
+              {"form": "ประธาน", "pronoun": "du (คุณ)"},
+              {"form": "กรรมตรง", "pronoun": "dich (คุณ)"},
+              {"form": "กรรมรอง", "pronoun": "dir (แก่คุณ / สำหรับคุณ)"}
+            ]
+          },
+          {
+            "title": "สรรพนามแทนตัว \"เขา\" (ผู้ชาย - เปลี่ยนรูปมากที่สุด)",
+            "transformations": [
+              {"form": "ประธาน", "pronoun": "er (เขา)"},
+              {"form": "กรรมตรง", "pronoun": "ihn (เขา)"},
+              {"form": "กรรมรอง", "pronoun": "ihm (แก่เขา)"}
+            ]
+          },
+          {
+            "title": "สรรพนามแทนตัว \"หล่อน\" (ผู้หญิง)",
+            "transformations": [
+              {"form": "ประธาน", "pronoun": "sie (หล่อน)"},
+              {"form": "กรรมตรง", "pronoun": "sie (หล่อน)"},
+              {"form": "กรรมรอง", "pronoun": "ihr (แก่หล่อน)"}
+            ]
+          },
+          {
+            "title": "สรรพนาม \"พวกเรา\" และ \"พวกคุณ (หลายคน)\"",
+            "note": "wir (พวกเรา) เปลี่ยนเป็น uns ทั้งในรูป Accusative และ Dative ihr (พวกคุณทุกคน) เปลี่ยนเป็น euch ทั้งในรูป Accusative และ Dative",
+            "transformations": [
+              {"form": "ประธาน", "pronoun": "wir (พวกเรา) / ihr (พวกคุณ)"},
+              {"form": "Accusative & Dative", "pronoun": "uns / euch"}
+            ]
+          },
+          {
+            "title": "สรรพนาม \"พวกเขา\" และ \"คุณ (สุภาพ)\"",
+            "note": "sie/Sie คงรูปเดิมใน Accusative sie/Sie เปลี่ยนเป็น ihnen/Ihnen ในรูป Dative",
+            "transformations": [
+              {"form": "ประธาน", "pronoun": "sie (พวกเขา) / Sie (คุณ - สุภาพ)"},
+              {"form": "กรรมตรง", "pronoun": "sie / Sie"},
+              {"form": "กรรมรอง", "pronoun": "ihnen / Ihnen"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_usage",
+      "title": "6. การใช้งานจริง: \"สบายดีไหม?\" (How are you?)",
+      "description": "ในภาษาเยอรมัน ประโยค \"Wie geht es...?\" เป็นสำนวนเฉพาะที่ต้องใช้ Dative เสมอ เพราะความหมายตรงตัวคือ \"มันดำเนินไปอย่างไรสำหรับคุณ?\"",
+      "content": {
+        "examples": [
+          {
+            "english": "สบายดีไหม? (ไม่เป็นทางการ)",
+            "german": "Wie geht es dir?"
+          },
+          {
+            "english": "สบายดีไหม? (สุภาพ)",
+            "german": "Wie geht es Ihnen?"
+          },
+          {
+            "english": "คุณพ่อสบายดีไหม?",
+            "german": "Wie geht es ihm?",
+            "note": "เพราะ \"พ่อ\" คือ \"เขา/er\""
+          },
+          {
+            "english": "ฉันสบายดี",
+            "german": "Es geht mir gut.",
+            "note": "แปลตรงตัวคือ: มันดำเนินไปได้ดีสำหรับฉัน"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "category": "Food & Drink",
+  "category_de": "Essen & Trinken",
+  "icon": "🍽️",
+  "words": [
+    {"de":"das Essen","word":"Essen","article":"das","en":"food","jp":"食べ物","kr":"음식","my":"အစားအစာ","th":"อาหาร","vi":"thức ăn","pronunciation":"/ˈɛsn̩/","example_de":"Das Essen schmeckt gut.","example_en":"The food tastes good."},
+    {"de":"das Wasser","word":"Wasser","article":"das","en":"water","jp":"水","kr":"물","my":"ရေ","th":"น้ำ","vi":"nước","pronunciation":"/ˈvasɐ/","example_de":"Ich trinke viel Wasser.","example_en":"I drink a lot of water."},
+    {"de":"das Brot","word":"Brot","article":"das","en":"bread","jp":"パン","kr":"빵","my":"ပေါင်မုန့်","th":"ขนมปัง","vi":"bánh mì","pronunciation":"/bʁoːt/","example_de":"In Deutschland gibt es viele Brotsorten.","example_en":"In Germany there are many types of bread."},
+    {"de":"der Kaffee","word":"Kaffee","article":"der","en":"coffee","jp":"コーヒー","kr":"커피","my":"ကော်ဖီ","th":"กาแฟ","vi":"cà phê","pronunciation":"/ˈkafe/","example_de":"Morgens trinke ich immer Kaffee.","example_en":"In the morning I always drink coffee."},
+    {"de":"der Tee","word":"Tee","article":"der","en":"tea","jp":"お茶","kr":"차","my":"လက်ဖက်ရည်","th":"ชา","vi":"trà","pronunciation":"/teː/","example_de":"Am Abend trinke ich gern Tee.","example_en":"In the evening I like to drink tea."},
+    {"de":"das Obst","word":"Obst","article":"das","en":"fruit","jp":"果物","kr":"과일","my":"သစ်သီး","th":"ผลไม้","vi":"trái cây","pronunciation":"/oːpst/","example_de":"Obst ist gesund und lecker.","example_en":"Fruit is healthy and delicious."},
+    {"de":"das Gemüse","word":"Gemüse","article":"das","en":"vegetables","jp":"野菜","kr":"채소","my":"ဟင်းသီးဟင်းရွက်","th":"ผัก","vi":"rau","pronunciation":"/ɡəˈmyːzə/","example_de":"Ich esse jeden Tag Gemüse.","example_en":"I eat vegetables every day."},
+    {"de":"das Fleisch","word":"Fleisch","article":"das","en":"meat","jp":"肉","kr":"고기","my":"အသား","th":"เนื้อ","vi":"thịt","pronunciation":"/flaɪ̯ʃ/","example_de":"Ich esse nicht so viel Fleisch.","example_en":"I don't eat that much meat."},
+    {"de":"der Apfel","word":"Apfel","article":"der","en":"apple","jp":"りんご","kr":"사과","my":"ပန်းသီး","th":"แอปเปิ้ล","vi":"táo","pronunciation":"/ˈapfl̩/","example_de":"Ein Apfel am Tag hält den Arzt fern.","example_en":"An apple a day keeps the doctor away."},
+    {"de":"die Butter","word":"Butter","article":"die","en":"butter","jp":"バター","kr":"버터","my":"ထောပတ်","th":"เนย","vi":"bơ","pronunciation":"/ˈbʊtɐ/","example_de":"Ich nehme Butter aufs Brot.","example_en":"I put butter on bread."},
+    {"de":"der Käse","word":"Käse","article":"der","en":"cheese","jp":"チーズ","kr":"치즈","my":"ဒိန်ခဲ","th":"ชีส","vi":"phô mai","pronunciation":"/ˈkɛːzə/","example_de":"Deutscher Käse ist weltberühmt.","example_en":"German cheese is world-famous."},
+    {"de":"die Milch","word":"Milch","article":"die","en":"milk","jp":"牛乳","kr":"우유","my":"နို့","th":"นม","vi":"sữa","pronunciation":"/mɪlç/","example_de":"Kinder trinken gern Milch.","example_en":"Children like to drink milk."},
+    {"de":"das Ei","word":"Ei","article":"das","en":"egg","jp":"卵","kr":"달걀","my":"ကြက်ဥ","th":"ไข่","vi":"trứng","pronunciation":"/aɪ̯/","example_de":"Zum Frühstück esse ich ein Ei.","example_en":"For breakfast I eat an egg."},
+    {"de":"der Reis","word":"Reis","article":"der","en":"rice","jp":"ご飯","kr":"쌀","my":"ထမင်း","th":"ข้าว","vi":"cơm","pronunciation":"/ʁaɪ̯s/","example_de":"In Asien isst man viel Reis.","example_en":"In Asia people eat a lot of rice."},
+    {"de":"der Kuchen","word":"Kuchen","article":"der","en":"cake","jp":"ケーキ","kr":"케이크","my":"ကိတ်မုန့်","th":"เค้ก","vi":"bánh ngọt","pronunciation":"/ˈkuːxn̩/","example_de":"Zum Geburtstag gibt es Kuchen.","example_en":"There is cake for the birthday."},
+    {"de":"der Fisch","word":"Fisch","article":"der","en":"fish","jp":"魚","kr":"생선","my":"ငါး","th":"ปลา","vi":"cá","pronunciation":"/fɪʃ/","example_de":"Freitags essen wir Fisch.","example_en":"On Fridays we eat fish."},
+    {"de":"der Saft","word":"Saft","article":"der","en":"juice","jp":"ジュース","kr":"주스","my":"ဖျော်ရည်","th":"น้ำผลไม้","vi":"nước ép","pronunciation":"/zaft/","example_de":"Ich trinke gern Orangensaft.","example_en":"I like to drink orange juice."},
+    {"de":"die Suppe","word":"Suppe","article":"die","en":"soup","jp":"スープ","kr":"수프","my":"ဟင်းချို","th":"ซุป","vi":"súp","pronunciation":"/ˈzʊpə/","example_de":"Im Winter esse ich gern Suppe.","example_en":"In winter I like to eat soup."}
+  ]
+}

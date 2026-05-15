@@ -1,0 +1,132 @@
+{
+  "title": "🇩🇪 Personalpronomen 👥",
+  "subtitle": "คำสรรพนำมบุรุษ (German Personal Pronouns)",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "1. คำสรรพนามในรูป Nominative (ประธาน)",
+      "description": "คำสรรพนำมภำษำเยอรมันแบ่งตำมบุรุษ (ผู้พูด ผู้ฟัง หรือผู้ที ่ถูกกล่ำวถึง) และพจน์ (เอกพจน์/พหูพจน์) ดังนี้:",
+      "content": {
+        "table": {
+          "headers": ["บุรุษ", "เอกพจน์ (Singular)", "พหูพจน์ (Plural)"],
+          "rows": [
+            ["บุรุษที ่ 1 (ตัวเอง)", "ich (ฉัน)", "wir (พวกเรำ)"],
+            ["บุรุษที ่ 2 (คนสนิท)", "du (เธอ)", "ihr (พวกเธอ)"],
+            ["บุรุษที ่ 2 (สุภำพ)", "Sie (คุณ)", "Sie (พวกคุณ)"],
+            ["บุรุษที ่ 3 (ชำย)", "er (เขำ)", ""],
+            ["บุรุษที ่ 3 (หญิง)", "sie (เธอ/หล่อน)", "sie (พวกเขำ/พวกมัน)"],
+            ["บุรุษที ่ 3 (กลำง)", "es (มัน)", ""]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pronouns_for_nouns",
+      "title": "2. การใช้คาสรรพนามแทนคานาม (สิ ่งของ)",
+      "description": "ในภำษำเยอรมัน กำรใช้สรรพนำมแทนสิ ่งของขึ ้นอยู ่กับเพศทำงไวยำกรณ์ (Grammatical Gender):",
+      "content": {
+        "examples": [
+          {
+            "gender": "Masculine (der)",
+            "example": "der Löffel (ช้อน) → er",
+            "explanation": "der Löffel (ช้อน) → er"
+          },
+          {
+            "gender": "Feminine (die)",
+            "example": "die Gabel (ส้อม) → sie",
+            "explanation": "die Gabel (ส้อม) → sie"
+          },
+          {
+            "gender": "Neuter (das)",
+            "example": "das Messer (มีด) → es",
+            "explanation": "das Messer (มีด) → es"
+          },
+          {
+            "gender": "Plural (die)",
+            "example": "die Tassen (ถ้วย) → sie",
+            "explanation": "die Tassen (ถ้วย) → sie"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pronoun_combination_rules",
+      "title": "3. กฎการรวมกลุ ่มสรรพนาม",
+      "description": "กฎการรวมกลุ ่มสรรพนาม",
+      "content": {
+        "rules": [
+          {
+            "rule": "ich + ใครก็ได้ = wir (พวกเรำ)",
+            "example": "ich + ใครก็ได้ = wir (พวกเรำ)"
+          },
+          {
+            "rule": "du + ใครก็ได้ (ไม่มี ich) = ihr (พวกเธอ)",
+            "example": "du + ใครก็ได้ (ไม่มี ich) = ihr (พวกเธอ)"
+          },
+          {
+            "rule": "er + sie + es = sie (พวกเขำ/พวกมัน)",
+            "example": "er + sie + es = sie (พวกเขำ/พวกมัน)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_examples",
+      "title": "4. ตัวอย่างการใช้งานจริง",
+      "description": "ตัวอย่างการใช้งานจริง",
+      "content": {
+        "conversational_context": {
+          "title": "ก. บริบทการสนทนา",
+          "examples": [
+            {
+              "german": "Wir sprechen Deutsch.",
+              "english": "พวกเรำพูดภำษำเยอรมัน"
+            },
+            {
+              "german": "Haben Sie Zeit?",
+              "english": "คุณมีเวลำไหม? - สุภำพ"
+            },
+            {
+              "german": "Hilfst du mir?",
+              "english": "เธอช่วยฉันหน่อยได้ไหม? - คนสนิท"
+            }
+          ]
+        },
+        "replacing_names_objects": {
+          "title": "ข. การใช้แทนชื ่อและสิ ่งของ",
+          "examples": [
+            {
+              "original": "Frau Kioka",
+              "replacement": "Sie kommt aus Japan.",
+              "english": "เธอมำจำกญี่ปุ ่น"
+            },
+            {
+              "original": "Der Schrank ist teuer.",
+              "replacement": "Er kommt aus Italien.",
+              "english": "มันมำจำกอิตำลี - ใช้ er เพรำะตู ้เป็นเพศชำย"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "💡 ข้อแนะนา (Formal vs. Informal)",
+      "description": "ข้อแนะนา (Formal vs. Informal)",
+      "content": {
+        "guidelines": [
+          {
+            "type": "Formal",
+            "pronoun": "Sie (S ตัวใหญ่เสมอ)",
+            "usage": "ใช้ Sie กับผู้ใหญ่ ครู หรือในทำงธุรกิจ"
+          },
+          {
+            "type": "Informal",
+            "pronoun": "du",
+            "usage": "ใช้ du กับเพื ่อน ครอบครัว และเด็กๆ"
+          }
+        ]
+      }
+    }
+  ]
+}

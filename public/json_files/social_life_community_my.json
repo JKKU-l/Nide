@@ -1,0 +1,53 @@
+{
+  "title": "Social Life & Community",
+  "emoji": "👥",
+  "theme_color": "#E91E63",
+  "description": "Social interactions and community",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "treffen", "myanmar": "တွေ့ဆုံသည်", "example_german": "Wir treffen uns morgen im Park.", "example_myanmar": "ကျွန်တော်တို့ မနက်ဖြန် ပန်းခြံထဲမှာ တွေ့ကြမယ်။"},
+          {"german": "winken", "myanmar": "လက်ပြသည်", "example_german": "Sie winkt ihrem Freund zum Abschied.", "example_myanmar": "သူမက သူမရဲ့သူငယ်ချင်းကို နှုတ်ဆက်တဲ့အနေနဲ့ လက်ပြနေတယ်။"},
+          {"german": "vorstellen", "myanmar": "မိတ်ဆက်ပေးသည်", "example_german": "Darf ich dir meinen Bruder vorstellen?", "example_myanmar": "ကျွန်တော့်အစ်ကိုနဲ့ မိတ်ဆက်ပေးပါရစေ။"},
+          {"german": "begrüßen", "myanmar": "နှုတ်ဆက်သည် (ကြိုဆိုနှုတ်ဆက်ခြင်း)", "example_german": "Der Gastgeber begrüßt die Gäste an der Tür.", "example_myanmar": "အိမ်ရှင်က ဧည့်သည်တွေကို တံခါးဝမှာ ကြိုဆိုနှုတ်ဆက်နေပါတယ်။"},
+          {"german": "einladen", "myanmar": "ဖိတ်ကြားသည်", "example_german": "Ich lade dich zu meiner Party ein.", "example_myanmar": "သင့်ကို ကျွန်တော့်ရဲ့ ပါတီပွဲကို ဖိတ်ပါတယ်။"},
+          {"german": "besuchen", "myanmar": "လည်ပတ်သည် / သွားရောက်တွေ့ဆုံသည်", "example_german": "Wir besuchen am Wochenende unsere Verwandten.", "example_myanmar": "ကျွန်တော်တို့ ပိတ်ရက်မှာ ဆွေမျိုးတွေဆီ အလည်သွားကြမယ်။"},
+          {"german": "kommen", "myanmar": "လာသည်", "example_german": "Wann kommst du heute nach Hause?", "example_myanmar": "ဒီနေ့ အိမ်ကို ဘယ်အချိန်ပြန်လာမလဲ။"},
+          {"german": "gehen", "myanmar": "သွားသည်", "example_german": "Wir gehen heute Abend ins Kino.", "example_myanmar": "ကျွန်တော်တို့ ဒီနေ့ည ရုပ်ရှင်သွားကြည့်ကြမယ်။"},
+          {"german": "mitbringen", "myanmar": "တစ်ပါတည်းယူဆောင်လာသည်", "example_german": "Soll ich etwas zum Essen mitbringen?", "example_myanmar": "ကျွန်တော် စားစရာတစ်ခုခု ယူလာပေးရမလား။"},
+          {"german": "feiern", "myanmar": "ဆင်နွှဲသည် / အောင်ပွဲခံသည်", "example_german": "Wir feiern heute seinen Erfolg.", "example_myanmar": "ကျွန်တော်တို့ ဒီနေ့ သူ့ရဲ့ အောင်မြင်မှုကို ဂုဏ်ပြုဆင်နွှဲကြမယ်။"},
+          {"german": "tanzen", "myanmar": "ကသည်", "example_german": "Möchtest du mit mir tanzen?", "example_myanmar": "ကျွန်တော်နဲ့အတူ ကမလား။"},
+          {"german": "singen", "myanmar": "သီချင်းဆိုသည်", "example_german": "Wir singen gemeinsam ein Lied.", "example_myanmar": "ကျွန်တော်တို့ သီချင်းတစ်ပုဒ် အတူတူဆိုကြမယ်။"},
+          {"german": "spielen", "myanmar": "ကစားသည်", "example_german": "Die Kinder spielen draußen Fußball.", "example_myanmar": "ကလေးတွေ အပြင်မှာ ဘောလုံးကစားနေကြတယ်။"},
+          {"german": "reden", "myanmar": "စကားပြောသည်", "example_german": "Wir müssen unbedingt miteinander reden.", "example_myanmar": "ကျွန်တော်တို့ အချင်းချင်း စကားပြောဖို့ တကယ်လိုအပ်တယ်။"},
+          {"german": "plaudern", "myanmar": "စကားစမြည်ပြောသည်", "example_german": "Wir plaudern gerne bei einer Tasse Kaffee.", "example_myanmar": "ကျွန်တော်တို့ ကော်ဖီသောက်ရင်း စကားစမြည်ပြောရတာ ဝါသနာပါတယ်။"},
+          {"german": "zuhören", "myanmar": "နားထောင်သည်", "example_german": "Du musst mir besser zuhören.", "example_myanmar": "မင်း ငါ့စကားကို သေသေချာချာ နားထောင်ရမယ်။"},
+          {"german": "lachen", "myanmar": "ရယ်မောသည်", "example_german": "Er lacht über einen lustigen Witz.", "example_myanmar": "သူက ရယ်စရာဟာသတစ်ခုကို ကြည့်ပြီး ရယ်နေတယ်။"},
+          {"german": "helfen", "myanmar": "ကူညီသည်", "example_german": "Kannst du mir beim Tragen helfen?", "example_myanmar": "ပစ္စည်းသယ်တာကို ကူညီပေးနိုင်မလား။"},
+          {"german": "teilnehmen", "myanmar": "ပါဝင်သည်", "example_german": "Ich nehme an dem Deutschkurs teil.", "example_myanmar": "ကျွန်တော် ဂျာမန်စာသင်တန်းမှာ ပါဝင်တက်ရောက်နေပါတယ်။"},
+          {"german": "mitmachen", "myanmar": "အတူတူပါဝင်လုပ်ဆောင်သည်", "example_german": "Jeder darf bei diesem Spiel mitmachen.", "example_myanmar": "ဘယ်သူမဆို ဒီကစားနည်းမှာ ပါဝင်ကစားနိုင်ပါတယ်။"},
+          {"german": "organisieren", "myanmar": "စီစဉ်သည်", "example_german": "Sie organisiert ein großes Nachbarschaftsfest.", "example_myanmar": "သူမက ကြီးကျယ်တဲ့ ရပ်ကွက်ပွဲတော်တစ်ခုကို စီစဉ်နေပါတယ်။"},
+          {"german": "planen", "myanmar": "အစီအစဉ်ဆွဲသည်", "example_german": "Wir planen ein Treffen für nächste Woche.", "example_myanmar": "ကျွန်တော်တို့ နောက်အပတ်အတွက် တွေ့ဆုံပွဲတစ်ခုကို အစီအစဉ်ဆွဲနေကြတယ်။"},
+          {"german": "unterstützen", "myanmar": "ထောက်ပံ့သည် / အားပေးကူညီသည်", "example_german": "Meine Familie unterstützt mich immer.", "example_myanmar": "ကျွန်တော့်မိသားစုက ကျွန်တော့်ကို အမြဲ အားပေးကူညီပါတယ်။"},
+          {"german": "teilen", "myanmar": "မျှဝေသည် / ခွဲဝေသည်", "example_german": "Wir teilen uns die Kosten für das Taxi.", "example_myanmar": "ကျွန်တော်တို့ တက္ကစီခကို အညီအမျှ ခွဲပေးကြမယ်။"},
+          {"german": "geben", "myanmar": "ပေးသည်", "example_german": "Kannst du mir bitte das Salz geben?", "example_myanmar": "ကျွန်တော့်ကို ဆားဗူးလေး ပေးလို့ရမလား။"},
+          {"german": "nehmen", "myanmar": "ယူသည်", "example_german": "Ich nehme mir ein Stück Kuchen.", "example_myanmar": "ကျွန်တော် ကိတ်မုန့်တစ်ပုဒ် ယူလိုက်မယ်။"},
+          {"german": "danken", "myanmar": "ကျေးဇူးတင်သည်", "example_german": "Ich danke dir für deine Einladung.", "example_myanmar": "ဖိတ်ကြားပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်။"},
+          {"german": "entschuldigen", "myanmar": "တောင်းပန်သည်", "example_german": "Ich möchte mich für die Verspätung entschuldigen.", "example_myanmar": "နောက်ကျသွားတဲ့အတွက် တောင်းပန်ချင်ပါတယ်။"},
+          {"german": "vergeben", "myanmar": "ခွင့်လွှတ်သည်", "example_german": "Es ist wichtig, anderen zu vergeben.", "example_myanmar": "အခြားသူတွေကို ခွင့်လွှတ်ပေးဖို့က အရေးကြီးပါတယ်။"},
+          {"german": "streiten", "myanmar": "ငြင်းခုံသည် / ရန်ဖြစ်သည်", "example_german": "Wir streiten uns selten über Kleinigkeiten.", "example_myanmar": "ကျွန်တော်တို့ ကိစ္စသေးသေးလေးတွေနဲ့ ပတ်သက်ပြီး ငြင်းခုံလေ့မရှိပါဘူး။"},
+          {"german": "versöhnen", "myanmar": "ပြန်လည်သင့်မြတ်သည်", "example_german": "Nach dem Streit versöhnen sie sich wieder.", "example_myanmar": "ရန်ဖြစ်ပြီးတဲ့နောက် သူတို့ ပြန်လည်သင့်မြတ်သွားကြတယ်။"},
+          {"german": "respektieren", "myanmar": "လေးစားသည်", "example_german": "Wir respektieren die Meinung der anderen.", "example_myanmar": "ကျွန်တော်တို့ အခြားသူတွေရဲ့ သဘောထားကို လေးစားပါတယ်။"},
+          {"german": "akzeptieren", "myanmar": "လက်ခံသည်", "example_german": "Er kann die Entscheidung nicht akzeptieren.", "example_myanmar": "သူက အဲ့ဒီဆုံးဖြတ်ချက်ကို လက်မခံနိုင်ဘူး။"},
+          {"german": "ablehnen", "myanmar": "ငြင်းပယ်သည်", "example_german": "Leider muss ich das Angebot ablehnen.", "example_myanmar": "ကံမကောင်းစွာနဲ့ပဲ အဲ့ဒီကမ်းလှမ်းချက်ကို ငြင်းပယ်ရပါလိမ့်မယ်။"},
+          {"german": "tolerieren", "myanmar": "သည်းခံသည်", "example_german": "Wir tolerieren kein respektloses Verhalten.", "example_myanmar": "ရိုင်းစိုင်းတဲ့ အပြုအမူမျိုးကို ကျွန်တော်တို့ သည်းမခံပါဘူး။"},
+          {"german": "kritisieren", "myanmar": "ဝေဖန်သည်", "example_german": "Man sollte andere nicht ständig kritisieren.", "example_myanmar": "အခြားသူတွေကို အမြဲတမ်း ဝေဖန်မနေသင့်ပါဘူး။"},
+          {"german": "loben", "myanmar": "ချီးကျူးသည်", "example_german": "Der Lehrer lobt die fleißige Schülerin.", "example_myanmar": "ဆရာက ကြိုးစားတဲ့ ကျောင်းသူလေးကို ချီးကျူးနေပါတယ်။"},
+          {"german": "einigen", "myanmar": "သဘောတူညီမှုရယူသည်", "example_german": "Wir konnten uns auf einen Termin einigen.", "example_myanmar": "ကျွန်တော်တို့ ရက်ချိန်းတစ်ခုအတွက် သဘောတူညီမှု ရခဲ့ကြတယ်။"}
+        ]
+      }
+    }
+  ]
+}

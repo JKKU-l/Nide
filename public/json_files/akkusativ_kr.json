@@ -1,0 +1,130 @@
+{
+  "title": "Akkusativ (목적격 / 4격)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "독일어 목적격(Akkusativ) 이해하기",
+      "description": "독일어에서 목적격(Akkusativ)은 주로 문장의 직접 목적어에 사용됩니다. 이것은 동사의 동작에 의해 직접 영향을 받는 사람이나 사물입니다. 주격이 \"행위자\"(주어)라면, 목적격은 \"받는 자\"입니다."
+    },
+    {
+      "id": "identifying_accusative",
+      "title": "1. 목적격 찾기: \"누구를\" 또는 \"무엇을\"",
+      "description": "목적격 목적어를 찾으려면 스스로 물어보세요: \"누가/무엇이 ~되고 있는가?\"",
+      "content": {
+        "example": {
+          "german": "Ich kaufe den Apfel.",
+          "translation": "나는 사과를 산다.",
+          "note": "무엇을 사고 있나요? → Den Apfel (사과를). 따라서 \"사과\"는 목적격입니다."
+        }
+      }
+    },
+    {
+      "id": "articles_adjective_endings",
+      "title": "2. 관사와 형용사 어미",
+      "description": "목적격에서 가장 중요한 것은 남성 명사만 변한다는 것입니다. 여성, 중성, 복수 관사는 주격과 동일하게 유지됩니다.",
+      "content": {
+        "declension_table": {
+          "title": "목적격 격변화표",
+          "headers": ["성", "정관사 (The)", "부정관사 (A/None)", "형용사 어미 (정관사 포함)"],
+          "rows": [
+            { "category": "남성 명사", "definite": "den", "indefinite": "einen / keinen", "adjective": "-en (den netten Vater)" },
+            { "category": "여성 명사", "definite": "die", "indefinite": "eine / keine", "adjective": "-e (die nette Mutter)" },
+            { "category": "중성 명사", "definite": "das", "indefinite": "ein / kein", "adjective": "-e (das nette Kind)" },
+            { "category": "복수", "definite": "die", "indefinite": "- / keine", "adjective": "-en (die netten Eltern)" }
+          ]
+        },
+        "adjective_note": "dieser(이것), jener(저것), welcher(어떤)와 같은 단어를 사용할 때, 뒤따르는 형용사는 정관사와 같은 패턴을 따릅니다 (남성/복수는 -en, 여성/중성은 -e)."
+      }
+    },
+    {
+      "id": "personal_pronouns",
+      "title": "3. 인칭 대명사",
+      "description": "사람이 직접 목적어가 될 때 (예: \"그는 나를 본다\"), 대명사의 목적격 형태를 사용해야 합니다.",
+      "content": {
+        "pronoun_table": {
+          "title": "목적격에서의 대명사 변화",
+          "rows": [
+            { "nominative": "ich", "accusative": "mich", "meaning": "나를" },
+            { "nominative": "du", "accusative": "dich", "meaning": "너를" },
+            { "nominative": "er", "accusative": "ihn", "meaning": "그를" },
+            { "nominative": "sie", "accusative": "sie", "meaning": "그녀를" },
+            { "nominative": "es", "accusative": "es", "meaning": "그것을" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "우리를" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "너희를" },
+            { "nominative": "sie/Sie", "accusative": "sie/Sie", "meaning": "그들을 / 당신을" }
+          ]
+        },
+        "example": {
+          "german": "Ich liebe dich.",
+          "translation": "나는 너를 사랑해.",
+          "note": "여기서 \"너\"는 사랑받는 사람이므로 du가 dich로 바뀝니다."
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. 목적격을 사용하는 경우",
+      "description": "목적격에는 세 가지 주요 촉발 요인이 있습니다:",
+      "content": {
+        "triggers": [
+          {
+            "id": "accusative_verbs",
+            "title": "A. 목적격 동사",
+            "description": "대부분의 독일어 동사는 무언가에 대해 무언가를 하는 것을 포함하므로 목적격을 필요로 합니다.",
+            "subcategories": [
+              { "label": "신체적 동작", "verbs": "essen (먹다), trinken (마시다), kaufen (사다)", "german": "Er isst einen Kuchen.", "translation": "그는 케이크를 먹는다 — 남성 명사 변화." },
+              { "label": "소유", "verbs": "haben (가지다), besitzen (소유하다)", "german": "Ich habe einen Bruder.", "translation": "나는 형제가 있다." },
+              { "label": "정신/감각", "verbs": "hören (듣다), verstehen (이해하다), suchen (찾다)", "german": "Wir suchen den Hund.", "translation": "우리는 개를 찾고 있다." }
+            ]
+          },
+          {
+            "id": "accusative_prepositions",
+            "title": "B. 목적격 전치사",
+            "description": "특정 전치사는 동사에 관계없이 항상 목적격을 취합니다:",
+            "prepositions": ["durch (~을 통해)", "für (~을 위해)", "gegen (~에 대해)", "ohne (~없이)", "um (~주위에)", "bis (~까지)"],
+            "examples": [
+              { "german": "Das Geschenk ist für dich.", "translation": "선물은 너를 위한 것이야." },
+              { "german": "Er geht ohne den Schirm.", "translation": "그는 우산 없이 간다." }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. 양방향 전치사 (이동 vs. 위치)",
+            "description": "일부 전치사 (an, auf, hinter, in, neben, über, unter, vor, zwischen)는 여격 또는 목적격이 될 수 있습니다.",
+            "rule": "이동/방향에는 목적격을 사용합니다: A 지점에서 B 지점으로 이동하는 경우 (질문: Wohin? / 어디로?).",
+            "examples": [
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "나는 책을 테이블 위에 놓는다 — 동작/이동." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. 이해를 돕는 상세한 예시",
+      "description": "다양한 상황에서 목적격의 사용을 살펴봅시다:",
+      "content": {
+        "examples": [
+          {
+            "label": "남성 명사 변화",
+            "nominative": { "german": "Der Tisch ist alt.", "translation": "테이블은 낡았다." },
+            "accusative": { "german": "Ich verkaufe den Tisch.", "translation": "나는 테이블을 판다." },
+            "explanation": "테이블이 이제 팔리는 대상(목적어)이 되었기 때문입니다."
+          },
+          {
+            "label": "중성/여성 명사는 변화 없음",
+            "nominative": { "german": "Das Auto ist schnell.", "translation": "차는 빠르다." },
+            "accusative": { "german": "Ich kaufe das Auto.", "translation": "나는 차를 산다." },
+            "explanation": "\"Auto\"는 중성 명사입니다. 관사 \"das\"는 목적격에서도 변하지 않습니다."
+          },
+          {
+            "label": "\"Haben\" 사용하기",
+            "nominative": null,
+            "accusative": { "german": "Sie hat einen neuen Job.", "translation": "그녀는 새 직장을 갖고 있다." },
+            "explanation": "\"Job\"은 남성 명사(der Job)입니다. haben 뒤이므로 einen이 됩니다."
+          }
+        ]
+      }
+    }
+  ]
+}

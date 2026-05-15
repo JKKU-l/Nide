@@ -1,0 +1,282 @@
+{
+  "title": "Verben mit Vokalwechsel",
+  "subtitle": "သရပြောင်းလဲသော ကြိယာများ",
+  "sections": [
+    {
+      "id": "grammar_rule",
+      "title": "သဒ္ဒါစည်းမျဉ်း (Grammar Rule)",
+      "description": "ဂျာမန်ဘာသာစကားမှာ ပုံမှန်မဟုတ်တဲ့ ကြိယာအချို့ဟာ du (မင်း) နဲ့ er, sie, es (သူ၊ သူမ၊ ၎င်း) တို့နဲ့ တွဲသုံးတဲ့အခါ ကြိယာရဲ့ အရင်းအမြစ်သရ (Root Vowel) ပြောင်းလဲသွားတတ်ပါတယ် ။ ၎င်းကို Vokalwechsel လို့ ခေါ်ပါတယ် ။",
+      "content": {
+        "table": {
+          "headers": ["Pronomen (နာမ်စား)", "e → i (ဥပမာ - essen)", "a → ä (ဥပမာ - schlafen)"],
+          "rows": [
+            ["ich (ကျွန်တော်/မ)", "esse", "schlafe"],
+            ["du (မင်း)", "isst", "schläfst"],
+            ["er, sie, es (သူ/သူမ/၎င်း)", "isst", "schläft"],
+            ["wir (ကျွန်တော်တို့)", "essen", "schlafen"],
+            ["ihr (မင်းတို့)", "esst", "schlaft"],
+            ["sie, Sie (သူတို့/လူကြီးမင်း)", "essen", "schlafen"]
+          ]
+        },
+        "important_verbs": {
+          "e_to_i_ie": "empfehlen (အကြံပြုသည်), essen (စားသည်), geben (ပေးသည်), fernsehen (တီဗွီကြည့်သည်), helfen (ကူညီသည်), lesen (ဖတ်သည်), mitnehmen (ယူဆောင်သွားသည်), nehmen (ယူသည်), sehen (ကြည့်သည်), sprechen (စကားပြောသည်), vergessen (မေ့လျော့သည်), werden (ဖြစ်လာသည်).",
+          "a_to_ä": "abfahren (ထွက်ခွာသည်), anfangen (စတင်သည်), einladen (ဖိတ်ကြားသည်), einschlafen (အိပ်ပျော်သွားသည်), fahren (စီးသည်/မောင်းသည်), gefallen (သဘောကျသည်), laufen (ပြေးသည်/လမ်းလျှောက်သည်), schlafen (အိပ်သည်), tragen (သယ်ဆောင်သည်/ဝတ်ဆင်သည်), waschen (ဆေးကြောသည်)."
+        }
+      }
+    },
+    {
+      "id": "exercise_1",
+      "title": "လေ့ကျင့်ခန်း ၁: Infinitiv (မူလကြိယာကို ရှာခြင်း)",
+      "description": "Wie heißt der Infinitiv? မူလကြိယာကို ရှာပါ",
+      "content": {
+        "exercises": [
+          {
+            "conjugated": "du gibst",
+            "infinitive": "geben",
+            "translation": "ပေးသည်"
+          },
+          {
+            "conjugated": "er läuft",
+            "infinitive": "laufen",
+            "translation": "ပြေးသည်/လမ်းလျှောက်သည်"
+          },
+          {
+            "conjugated": "sie hilft",
+            "infinitive": "helfen",
+            "translation": "ကူညီသည်"
+          },
+          {
+            "conjugated": "du nimmst",
+            "infinitive": "nehmen",
+            "translation": "ယူသည်"
+          },
+          {
+            "conjugated": "er wäscht",
+            "infinitive": "waschen",
+            "translation": "ဆေးကြောသည်"
+          },
+          {
+            "conjugated": "du siehst",
+            "infinitive": "sehen",
+            "translation": "ကြည့်သည်/မြင်သည်"
+          },
+          {
+            "conjugated": "er spricht",
+            "infinitive": "sprechen",
+            "translation": "စကားပြောသည်"
+          },
+          {
+            "conjugated": "sie vergisst",
+            "infinitive": "vergessen",
+            "translation": "မေ့လျော့သည်"
+          },
+          {
+            "conjugated": "er empfiehlt",
+            "infinitive": "empfehlen",
+            "translation": "အကြံပြုသည်"
+          },
+          {
+            "conjugated": "wir lesen",
+            "infinitive": "lesen",
+            "translation": "ဖတ်သည်"
+          },
+          {
+            "conjugated": "er isst",
+            "infinitive": "essen",
+            "translation": "စားသည်"
+          },
+          {
+            "conjugated": "du fährst",
+            "infinitive": "fahren",
+            "translation": "မောင်းနှင်သည်/စီးသည်"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_2_3",
+      "title": "လေ့ကျင့်ခန်း ၂ & ၃: Dialogues (စကားပြောလေ့ကျင့်ခန်း)",
+      "description": "Ergänzen Sie die Verben (ကြိယာများကို ဖြည့်ပါ)",
+      "content": {
+        "dialogues": [
+          {
+            "verb": "essen (စားသည်)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Esst ihr abends immer zusammen?",
+                "english": "မင်းတို့ ညဘက်တိုင်း အတူစားလား?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ja, wir essen zusammen, aber heute nicht. Dimitri isst mit Kunden und die Kinder essen bei Freunden. Und du? Isst du abends mit Roland zusammen?",
+                "english": "ဟုတ်၊ ကျွန်တော်တို့ အတူစားပါတယ်၊ ဒါပေမဲ့ ဒီနေ့မဟုတ်ဘူး။ Dimitri က ဖောက်သည်တွေနဲ့ စားနေတယ် ကလေးတွေက မိတ်ဆွေတွေဆီမှာ စားနေတယ်။ မင်းကဘာလဲ? မင်း ညဘက်မှာ Roland နဲ့ အတူစားလား?"
+              },
+              {
+                "speaker": "Elke",
+                "german": "Ich esse abends nichts und Roland isst nur eine Kleinigkeit.",
+                "english": "ကျွန်မ ညဘက်မှာ ဘာမှမစားဘူး နဲ့ Roland က အနည်းငယ်ပဲ စားတယ်။"
+              }
+            ]
+          },
+          {
+            "verb": "lesen (ဖတ်သည်)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Was lest ihr gerne?",
+                "english": "မင်းတို့ ဘာတွေ ဖတ်ရတာ နှစ်သက်လဲ?"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Ich lese gern Romane und Petro liest gar nicht.",
+                "english": "ကျွန်မ ဝတ္ထုတွေ ဖတ်ရတာ နှစ်သက်တယ် နဲ့ Petro က တစ်ခုမှ မဖတ်ဘူး။"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Das stimmt nicht. Ich lese auch!",
+                "english": "ဒါမှန်မနေဘူး။ ကျွန်တော်လည်း ဖတ်တယ်!"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Was liest du denn? Nur Zeitungen oder Kataloge.",
+                "english": "မင်း ဘာဖတ်တာလဲ? သတင်းစာတွေပဲလား ဒါမှမဟုတ် ကာတလောဂ်တွေလား။"
+              }
+            ]
+          },
+          {
+            "verb": "nehmen (ယူသည်)",
+            "speakers": [
+              {
+                "speaker": "Kellnerin",
+                "german": "Bitte, was nehmen Sie?",
+                "english": "ကျေးဇူးပြုပါ၊ လူကြီးမင်း ဘာယူမလဲ?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ich nehme Hähnchen mit Reis. Iliana und Petro, was nehmt ihr?",
+                "english": "ကျွန်မ ကြက်သားနဲ့ ထမင်းယူမယ်။ Iliana နဲ့ Petro၊ မင်းတို့ ဘာယူမလဲ?"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Wir nehmen auch ein Schnitzel.",
+                "english": "ကျွန်တော်တို့လည်း Schnitzel တစ်ခု ယူမယ်။"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Nein, du nimmst ein Schnitzel, aber ich nehme Spaghetti!",
+                "english": "မဟုတ်ဘူး၊ မင်း Schnitzel ယူတယ်၊ ဒါပေမဲ့ ကျွန်တော်က Spaghetti ယူမယ်!"
+              }
+            ]
+          },
+          {
+            "verb": "schlafen (အိပ်သည်)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Entschuldigung, ich habe eine Frage. Wie lange schlafen Sie in der Nacht meistens?",
+                "english": "နှစ်သက်ပါတယ်၊ ကျွန်တော်မေးချင်တာရှိတယ်။ လူကြီးမင်း ညဘက်မှာ ဘယ်လောက် အိပ်လဲ?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Wir schlafen meistens ungefähr acht Stunden.",
+                "english": "ကျွန်တော်တို့ အများကြီး နှစ်နာရီလောက် အိပ်တယ်။"
+              },
+              {
+                "speaker": "Dimitri",
+                "german": "Ja, du schläfst immer acht Stunden. Ich schlafe nur sechs Stunden.",
+                "english": "ဟုတ်၊ မင်း အမြဲ နှစ်နာရီ အိပ်တယ်။ ကျွန်တော်က ခြောက်နာရီပဲ အိပ်တယ်။"
+              }
+            ]
+          },
+          {
+            "verb": "fahren (စီးသည်/မောင်းသည်)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Wie kommen Sie zur Arbeit? Fahren Sie mit der U-Bahn?",
+                "english": "လူကြီးမင်း အလုပ်ကို ဘယ်လိုသွားလဲ? ရထားလိုင်းနဲ့ သွားလား?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Nein, ich fahre mit dem Auto.",
+                "english": "မဟုတ်ဘူး၊ ကျွန်မ ကားနဲ့ သွားတယ်။"
+              },
+              {
+                "speaker": "Reporter",
+                "german": "Und ihr, Kinder, wie fahrt ihr?",
+                "english": "နဲ့ ကလေးတွေ၊ မင်းတို့ ဘယ်လိုသွားကြလဲ?"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Ich fahre immer mit dem Fahrrad. Aber Iliana fährt immer mit dem Bus.",
+                "english": "ကျွန်တော် အမြဲ စက်ဘီးနဲ့ သွားတယ်။ ဒါပေမဲ့ Iliana က အမြဲ ဘတ်စ်ကားနဲ့ သွားတယ်။"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_3_claudia",
+      "title": "လေ့ကျင့်ခန်း ၃: Claudias Tag (Claudia ရဲ့ တစ်နေ့)",
+      "description": "Claudia ရဲ့ တစ်နေ့အကြောင်း စာကို ဖတ်ပါ",
+      "content": {
+        "text": "Claudia steht immer um 6 Uhr auf. Um 7 Uhr isst (essen) sie mit ihrer Familie Frühstück und liest (lesen) die Zeitung. Ihr Mann Dimitri und sie fahren (fahren) mit dem Auto in die Stadt. Da kaufen sie zusammen ein und Dimitri trägt (tragen) alles ins Auto. Claudia läuft (laufen) noch ein bisschen durch die Stadt und Dimitri fährt (fahren) zur Arbeit. Um 11 Uhr nimmt (nehmen) Claudia den Bus zurück nach Hause. Zu Hause wäscht (waschen) sie Wäsche und hilft (helfen) ihrer Mutter. Am Nachmittag gibt (geben) Claudia Deutschunterricht. Sie spricht (sprechen) nur Deutsch mit den Schülern. Die Schüler lesen (lesen) Texte und sehen (sehen) manchmal einen Film. Claudia sieht (sehen) auch gerne Filme."
+      }
+    },
+    {
+      "id": "exercise_4",
+      "title": "လေ့ကျင့်ခန်း ၄: Vokalwechsel oder nicht?",
+      "description": "ကြိယာမှာ သရပြောင်းလဲလား မပြောင်းလဲလား?",
+      "content": {
+        "exercises": [
+          {
+            "verb": "leben → er lebt",
+            "has_change": "No"
+          },
+          {
+            "verb": "kaufen → er kauft",
+            "has_change": "No"
+          },
+          {
+            "verb": "machen → er macht",
+            "has_change": "No"
+          },
+          {
+            "verb": "lesen → er liest",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "gehen → er geht",
+            "has_change": "No"
+          },
+          {
+            "verb": "waschen → er wäscht",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "laufen → er läuft",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "geben → er gibt",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "verstehen → er versteht",
+            "has_change": "No"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_5",
+      "title": "လေ့ကျင့်ခန်း ၅: Eine Einladung (ဖိတ်ကြားလွှာ)",
+      "description": "Claudia က Elke ကို ပို့တဲ့ ဖိတ်ကြားလွှာကို ဖတ်ပါ",
+      "content": {
+        "letter": "Liebe Elke,\n\nich lade dich ein. Du fährst erst am Sonntag zurück und schläfst eine Nacht bei uns. Du nimmst am besten bequeme Schuhe mit, dann können wir zusammen laufen. Das gefällt dir doch, oder? Wann kommst du an? Wann bist du dann bei uns? Komm nicht so spät!\n\nViele Grüße, Claudia"
+      }
+    }
+  ]
+}

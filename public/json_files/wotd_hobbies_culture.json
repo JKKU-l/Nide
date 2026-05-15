@@ -1,0 +1,21 @@
+{
+  "category": "Hobbies & Culture",
+  "category_de": "Hobbys & Kultur",
+  "icon": "🎭",
+  "words": [
+    {"de":"das Hobby","word":"Hobby","article":"das","en":"hobby","jp":"趣味","kr":"취미","my":"ဝါသနာ","th":"งานอดิเรก","vi":"sở thích","pronunciation":"/ˈhɔbi/","example_de":"Mein Hobby ist Lesen.","example_en":"My hobby is reading."},
+    {"de":"der Sport","word":"Sport","article":"der","en":"sport","jp":"スポーツ","kr":"스포츠","my":"အားကစား","th":"กีฬา","vi":"thể thao","pronunciation":"/ʃpɔʁt/","example_de":"Sport ist gut für die Gesundheit.","example_en":"Sport is good for health."},
+    {"de":"der Film","word":"Film","article":"der","en":"film/movie","jp":"映画","kr":"영화","my":"ရုပ်ရှင်","th":"ภาพยนตร์","vi":"phim","pronunciation":"/fɪlm/","example_de":"Der Film war sehr spannend.","example_en":"The movie was very exciting."},
+    {"de":"die Musik","word":"Musik","article":"die","en":"music","jp":"音楽","kr":"음악","my":"ဂီတ","th":"ดนตรี","vi":"âm nhạc","pronunciation":"/muˈziːk/","example_de":"Ich höre gern Musik.","example_en":"I like to listen to music."},
+    {"de":"das Konzert","word":"Konzert","article":"das","en":"concert","jp":"コンサート","kr":"콘서트","my":"ဂီတဖျော်ဖြေပွဲ","th":"คอนเสิร์ต","vi":"buổi hòa nhạc","pronunciation":"/kɔnˈtsɛʁt/","example_de":"Morgen gehe ich ins Konzert.","example_en":"Tomorrow I go to the concert."},
+    {"de":"der Urlaub","word":"Urlaub","article":"der","en":"vacation","jp":"休暇","kr":"휴가","my":"အားလပ်ရက်","th":"วันหยุดพักผ่อน","vi":"kỳ nghỉ","pronunciation":"/ˈuːɐ̯laʊ̯p/","example_de":"Im Sommer mache ich Urlaub.","example_en":"In summer I take a vacation."},
+    {"de":"die Reise","word":"Reise","article":"die","en":"trip/journey","jp":"旅行","kr":"여행","my":"ခရီး","th":"การเดินทาง","vi":"chuyến đi","pronunciation":"/ˈʁaɪ̯zə/","example_de":"Die Reise nach Japan war toll.","example_en":"The trip to Japan was great."},
+    {"de":"die Sprache","word":"Sprache","article":"die","en":"language","jp":"言語","kr":"언어","my":"ဘာသာစကား","th":"ภาษา","vi":"ngôn ngữ","pronunciation":"/ˈʃpʁaːxə/","example_de":"Deutsch ist eine schöne Sprache.","example_en":"German is a beautiful language."},
+    {"de":"die Frage","word":"Frage","article":"die","en":"question","jp":"質問","kr":"질문","my":"မေးခွန်း","th":"คำถาม","vi":"câu hỏi","pronunciation":"/ˈfʁaːɡə/","example_de":"Hast du eine Frage?","example_en":"Do you have a question?"},
+    {"de":"die Antwort","word":"Antwort","article":"die","en":"answer","jp":"答え","kr":"답","my":"အဖြေ","th":"คำตอบ","vi":"câu trả lời","pronunciation":"/ˈantvɔʁt/","example_de":"Die Antwort ist richtig.","example_en":"The answer is correct."},
+    {"de":"die Hilfe","word":"Hilfe","article":"die","en":"help","jp":"助け","kr":"도움","my":"အကူအညီ","th":"ความช่วยเหลือ","vi":"sự giúp đỡ","pronunciation":"/ˈhɪlfə/","example_de":"Vielen Dank für deine Hilfe!","example_en":"Thank you very much for your help!"},
+    {"de":"das Spiel","word":"Spiel","article":"das","en":"game","jp":"ゲーム","kr":"게임","my":"ဂိမ်း","th":"เกม","vi":"trò chơi","pronunciation":"/ʃpiːl/","example_de":"Das Spiel macht Spaß.","example_en":"The game is fun."},
+    {"de":"die Party","word":"Party","article":"die","en":"party","jp":"パーティー","kr":"파티","my":"ပါတီ","th":"ปาร์ตี้","vi":"bữa tiệc","pronunciation":"/ˈpaːʁti/","example_de":"Am Samstag gibt es eine Party.","example_en":"On Saturday there is a party."},
+    {"de":"das Land","word":"Land","article":"das","en":"country","jp":"国","kr":"나라","my":"နိုင်ငံ","th":"ประเทศ","vi":"đất nước","pronunciation":"/lant/","example_de":"Deutschland ist ein schönes Land.","example_en":"Germany is a beautiful country."}
+  ]
+}

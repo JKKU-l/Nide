@@ -1,0 +1,127 @@
+{
+  "title": "Wörter im Satz 2 (Trật tự từ trong câu 2)",
+  "sections": [
+    {
+      "id": "golden_rule",
+      "title": "1. Quy tắc Vàng về Trật tự Từ trong Tiếng Đức",
+      "description": "Trong một câu trần thuật tiêu chuẩn, động từ đã chia luôn luôn đứng ở Vị trí thứ 2. Bất kỳ phần nào khác của động từ (động từ nguyên thể, tiền tố tách, hoặc phân từ) sẽ bị đẩy xuống Vị trí cuối cùng của câu.",
+      "content": {
+        "examples_table": {
+          "headers": ["Vị trí 1 (Chủ ngữ/Thời gian)", "Vị trí 2 (Động từ đã chia)", "Giữa câu (Chi tiết)", "Vị trí cuối (Phần động từ còn lại)"],
+          "rows": [
+            ["Ich", "will", "heute", "einkaufen."],
+            ["Ich", "kaufe", "Obst", "ein."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "grammar_categories",
+      "title": "2. Các nhóm Ngữ pháp & Ví dụ",
+      "description": "Tùy thuộc vào cấu trúc ngữ pháp được sử dụng, các phần của động từ được gửi đến cuối câu.",
+      "content": {
+        "categories": [
+          {
+            "category": "A. Động từ tình thái (Modalverben)",
+            "description": "Động từ tình thái (wollen, müssen, können, v.v.) diễn tả khả năng, sự cần thiết hoặc mong muốn. Động từ tình thái được chia theo chủ ngữ ở Vị trí 2, và động từ hành động chính sẽ đứng ở cuối câu dưới dạng nguyên thể (infinitive).",
+            "rule": "Quy tắc: Động từ tình thái đã chia (Vị trí 2) ... Động từ chính (Cuối câu).",
+            "examples": [
+              {
+                "german": "Sie wollen eine Deutschlandreise machen.",
+                "translation": "Họ muốn thực hiện một chuyến du lịch quanh nước Đức.",
+                "explanation": "Tại sao? \"Wollen\" là trợ động từ mang ý nghĩa về thì/ngôi, trong khi \"machen\" (làm/thực hiện) hoàn thiện ý nghĩa ở cuối câu."
+              }
+            ]
+          },
+          {
+            "category": "B. Động từ tách (Trennbare Verben)",
+            "description": "Một số động từ tiếng Đức có tiền tố (như um-, auf-, ein-, aus-). Khi chia động từ, tiền tố này sẽ \"tách ra\" và bay xuống cuối câu.",
+            "rule": "Quy tắc: Gốc động từ (Vị trí 2) ... Tiền tố (Cuối câu).",
+            "examples": [
+              {
+                "german": "Wir ziehen nach Hamburg um.",
+                "translation": "Chúng tôi đang chuyển đến Hamburg.",
+                "explanation": "Tại sao? Động từ gốc là umziehen. \"Um\" là một tiền tố tách, vì vậy nó phải nằm ở vị trí cuối cùng."
+              }
+            ]
+          },
+          {
+            "category": "C. Sự kết hợp Động từ + Động từ",
+            "description": "Khi hai động từ được sử dụng cùng nhau (ví dụ: \"đi bơi\"), động từ chỉ sự chuyển động được chia ở Vị trí 2, và động từ chỉ hoạt động sẽ đứng ở cuối câu.",
+            "rule": "Quy tắc: Động từ đã chia (Vị trí 2) ... Động từ nguyên thể (Cuối câu).",
+            "examples": [
+              {
+                "german": "Wir gehen heute Nachmittag schwimmen.",
+                "translation": "Chúng tôi sẽ đi bơi vào chiều nay.",
+                "explanation": "Tại sao? \"Gehen\" chỉ chuyển động/ý định, trong khi \"schwimmen\" xác định hành động cụ thể."
+              }
+            ]
+          },
+          {
+            "category": "D. Sự kết hợp Danh từ + Động từ",
+            "description": "Một số danh từ và động từ đi cùng nhau như một đơn vị nghĩa thống nhất (ví dụ: Tennis spielen - chơi tennis, Deutsch lernen - học tiếng Đức).",
+            "rule": "Quy tắc: Động từ đã chia (Vị trí 2) ... Danh từ (Cuối câu).",
+            "examples": [
+              {
+                "german": "Heute Abend spiele ich mit meiner Freundin Tennis.",
+                "translation": "Tối nay tôi chơi tennis với bạn gái của mình.",
+                "explanation": "Tại sao? Mặc dù \"Tennis\" là một danh từ, nó được coi là một phần của hành động động từ \"chơi tennis\", vì vậy nó chiếm vị trí cuối cùng."
+              }
+            ]
+          },
+          {
+            "category": "E. Thì Quá khứ hoàn thành (Perfekt)",
+            "description": "Trong thì quá khứ (Perfekt), bạn sử dụng một trợ động từ (haben hoặc sein) ở Vị trí 2 và Quá khứ phân từ (Partizip II) ở cuối câu.",
+            "rule": "Quy tắc: Haben/Sein (Vị trí 2) ... Phân từ (Cuối câu).",
+            "examples": [
+              {
+                "german": "Ich habe schon Getränke eingekauft.",
+                "translation": "Tôi đã mua đồ uống rồi.",
+                "explanation": "Tại sao? Dạng động từ có tiền tố \"ge-\" (eingekauft) luôn đóng vai trò là điểm chốt cuối cùng của một câu thì Perfekt."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentence_variation",
+      "title": "3. Biến đổi câu (Vị trí 1 linh hoạt)",
+      "description": "Tiếng Đức rất linh hoạt về thành phần bắt đầu câu, miễn là động từ vẫn giữ nguyên ở Vị trí 2. Bạn có thể nhấn mạnh vào Thời gian hoặc Tân ngữ bằng cách đưa chúng lên Vị trí 1.",
+      "content": {
+        "example_intro": "Ví dụ: \"Tôi đã tặng anh trai tôi một chiếc CD vào ngày hôm qua.\"",
+        "examples": [
+          {
+            "german": "Ich habe meinem Bruder gestern eine CD geschenkt.",
+            "translation": "Chủ ngữ đứng đầu"
+          },
+          {
+            "german": "Gestern habe ich meinem Bruder eine CD geschenkt.",
+            "translation": "Thời gian đứng đầu"
+          },
+          {
+            "german": "Meinem Bruder habe ich gestern eine CD geschenkt.",
+            "translation": "Tân ngữ gián tiếp đứng đầu"
+          }
+        ],
+        "note": "Lưu ý: Bất kể thành phần nào bắt đầu câu, động từ đã chia (habe) luôn là yếu tố thứ 2, và phân từ (geschenkt) luôn đứng cuối cùng."
+      }
+    },
+    {
+      "id": "summary",
+      "title": "4. Bảng tóm tắt tham khảo nhanh",
+      "description": "Tài liệu tham khảo nhanh cho tất cả các nhóm ngữ pháp:",
+      "content": {
+        "summary_table": {
+          "headers": ["Nhóm ngữ pháp", "Đã chia (Vị trí 2)", "Vị trí cuối câu", "Ví dụ"],
+          "rows": [
+            ["Động từ tình thái", "will / muss / kann", "Nguyên thể", "Er muss heute arbeiten."],
+            ["Động từ tách", "kaufe / räume", "Tiền tố", "Ich räume die Wohnung auf."],
+            ["Thì Perfekt", "habe / ist", "Partizip II", "Er ist nach Berlin gefahren."],
+            ["Cụm cố định", "spiele / gehe", "Danh từ/Động từ", "Wir gehen heute einkaufen."]
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "theme_color": "#795548",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Stadt", "korean": "도시", "article": "die", "word": "Stadt", "emoji": "🏙️"},
+        {"german": "das Dorf", "korean": "마을", "article": "das", "word": "Dorf", "emoji": "🏡"},
+        {"german": "die Kirche", "korean": "교회", "article": "die", "word": "Kirche", "emoji": "⛪"},
+        {"german": "das Hotel", "korean": "호텔", "article": "das", "word": "Hotel", "emoji": "🏨"},
+        {"german": "das Einzelzimmer", "korean": "싱글룸", "article": "das", "word": "Einzelzimmer", "emoji": "🛌"},
+        {"german": "das Doppelzimmer", "korean": "더블룸", "article": "das", "word": "Doppelzimmer", "emoji": "🛌"},
+        {"german": "die Jugendherberge", "korean": "유스호스텔", "article": "die", "word": "Jugendherberge", "emoji": "🎒"},
+        {"german": "der Platz", "korean": "광장 / 장소", "article": "der", "word": "Platz", "emoji": "⛲"},
+        {"german": "die Garage", "korean": "차고", "article": "die", "word": "Garage", "emoji": "🚗"},
+        {"german": "das Haus", "korean": "집", "article": "das", "word": "Haus", "emoji": "🏠"},
+        {"german": "die Tür", "korean": "문", "article": "die", "word": "Tür", "emoji": "🚪"},
+        {"german": "das Dach", "korean": "지붕", "article": "das", "word": "Dach", "emoji": "🏠"},
+        {"german": "das Fenster", "korean": "창문", "article": "das", "word": "Fenster", "emoji": "🪟"},
+        {"german": "der Garten", "korean": "정원", "article": "der", "word": "Garten", "emoji": "🏡"},
+        {"german": "der Dachboden", "korean": "다락방", "article": "der", "word": "Dachboden", "emoji": "📦"},
+        {"german": "der Balkon", "korean": "발코니", "article": "der", "word": "Balkon", "emoji": "🪴"},
+        {"german": "das Erdgeschoss", "korean": "1층 (지상층)", "article": "das", "word": "Erdgeschoss", "emoji": "🧱"},
+        {"german": "der Keller", "korean": "지하실", "article": "der", "word": "Keller", "emoji": "📉"},
+        {"german": "die Wohnung", "korean": "아파트 / 주택", "article": "die", "word": "Wohnung", "emoji": "🏢"},
+        {"german": "der Umzug", "korean": "이사", "article": "der", "word": "Umzug", "emoji": "🚚"},
+        {"german": "ausziehen", "korean": "이사가다 (나오다)", "article": "", "word": "ausziehen", "emoji": "🏠"},
+        {"german": "einziehen", "korean": "이사오다 (들어가다)", "article": "", "word": "einziehen", "emoji": "🏠"},
+        {"german": "der Eingang", "korean": "입구", "article": "der", "word": "Eingang", "emoji": "🚪"},
+        {"german": "der Ausgang", "korean": "출구", "article": "der", "word": "Ausgang", "emoji": "🚪"},
+        {"german": "das Zimmer", "korean": "방", "article": "das", "word": "Zimmer", "emoji": "🔑"},
+        {"german": "das Schlafzimmer", "korean": "침실", "article": "das", "word": "Schlafzimmer", "emoji": "🛏️"},
+        {"german": "das Wohnzimmer", "korean": "거실", "article": "das", "word": "Wohnzimmer", "emoji": "📺"},
+        {"german": "das Bad", "korean": "욕실", "article": "das", "word": "Bad", "emoji": "🛀"},
+        {"german": "die Dusche", "korean": "샤워기", "article": "die", "word": "Dusche", "emoji": "🚿"},
+        {"german": "die Toilette", "korean": "화장실", "article": "die", "word": "Toilette", "emoji": "🚽"},
+        {"german": "das Toilettenpapier", "korean": "화장지", "article": "das", "word": "Toilettenpapier", "emoji": "🧻"},
+        {"german": "die Möbel", "korean": "가구", "article": "die", "word": "Möbel", "emoji": "🛋️"},
+        {"german": "das Bett", "korean": "침대", "article": "das", "word": "Bett", "emoji": "🛏️"},
+        {"german": "der Schrank", "korean": "옷장 / 찬장", "article": "der", "word": "Schrank", "emoji": "👗"},
+        {"german": "das Regal", "korean": "선반", "article": "das", "word": "Regal", "emoji": "📚"},
+        {"german": "der Tisch", "korean": "탁자 / 테이블", "article": "der", "word": "Tisch", "emoji": "🍽️"},
+        {"german": "der Stuhl", "korean": "의자", "article": "der", "word": "Stuhl", "emoji": "🪑"},
+        {"german": "die Bank", "korean": "벤치", "article": "die", "word": "Bank", "emoji": "🪵"},
+        {"german": "das Sofa", "korean": "소파", "article": "das", "word": "Sofa", "emoji": "🛋️"},
+        {"german": "die Lampe", "korean": "램프 / 등", "article": "die", "word": "Lampe", "emoji": "💡"},
+        {"german": "der Sessel", "korean": "안락의자", "article": "der", "word": "Sessel", "emoji": "🛋️"},
+        {"german": "der Teppich", "korean": "카펫", "article": "der", "word": "Teppich", "emoji": "🧶"},
+        {"german": "das Bild", "korean": "그림 / 사진", "article": "das", "word": "Bild", "emoji": "🖼️"},
+        {"german": "der Schlüssel", "korean": "열쇠", "article": "der", "word": "Schlüssel", "emoji": "🔑"}
+      ]
+    }
+  ]
+}

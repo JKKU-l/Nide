@@ -1,0 +1,159 @@
+{
+  "title": "Mạo từ (Xác định·Không xác định·Không dùng)",
+  "sections": [
+    {
+      "id": "indefinite_articles",
+      "title": "1. Mạo từ không xác định (Indefinitar Artikel)",
+      "description": "Sử dụng khi giới thiệu một sự vật lần đầu tiên hoặc khi đề cập đến một đối tượng không cụ thể (tương đương với \"a\" hoặc \"an\" trong tiếng Anh).",
+      "content": {
+        "examples_table": {
+          "headers": ["Giống", "Cách 1 (Chủ ngữ - Nominativ)", "Cách 4 (Tân ngữ - Akkusativ)"],
+          "rows": [
+            ["Giống đực", "ein Mann", "einen Kaffee"],
+            ["Giống trung", "ein Haus", "ein Brötchen"],
+            ["Giống cái", "eine Frau", "eine Banane"],
+            ["Số nhiều", "(Không mạo từ) Autos", "(Không mạo từ) Kartoffeln"]
+          ]
+        },
+        "why_use_them": {
+          "title": "Tại sao sử dụng chúng?",
+          "rules": [
+            {
+              "rule": "Cách 1 (Nominativ): Dùng làm chủ ngữ trong câu hoặc đứng sau động từ sein (thì, là, ở).",
+              "example": "Das ist ein Stuhl. (Đó là một cái ghế.)"
+            },
+            {
+              "rule": "Cách 4 (Akkusativ): Dùng khi danh từ là tân ngữ trực tiếp của một hành động. Lưu ý: Chỉ có mạo từ giống đực thay đổi từ ein thành einen.",
+              "example": "Ich möchte einen Kaffee. (Tôi muốn một ly cà phê.)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_articles",
+      "title": "2. Mạo từ xác định (Definiter Artikel)",
+      "description": "Sử dụng khi đề cập đến một đối tượng cụ thể đã được nhắc đến trước đó hoặc cả người nói và người nghe đều biết (tương đương với \"the\" trong tiếng Anh).",
+      "content": {
+        "examples_table": {
+          "headers": ["Giống", "Cách 1 (Chủ ngữ - Nominativ)", "Cách 4 (Tân ngữ - Akkusativ)"],
+          "rows": [
+            ["Giống đực", "der Mann", "den Kaffee"],
+            ["Giống trung", "das Haus", "das Brötchen"],
+            ["Giống cái", "die Frau", "die Banane"],
+            ["Số nhiều", "die Autos", "die Kartoffeln"]
+          ]
+        },
+        "why_use_them": {
+          "title": "Tại sao sử dụng chúng?",
+          "rules": [
+            {
+              "rule": "Xác định cụ thể: Một khi bạn đã giới thiệu \"một cái ghế\" (ein Stuhl), nó sẽ trở thành \"cái ghế đó\" (der Stuhl).",
+              "example": "Das ist ein Laptop. Der Laptop ist gut. (Đó là một cái máy tính xách tay. Cái máy tính đó rất tốt.)"
+            },
+            {
+              "rule": "Thay đổi ở Cách 4: Giống như mạo từ không xác định, chỉ có giống đực thay đổi từ der thành den.",
+              "example": "Ich finde den Rock schön. (Tôi thấy cái chân váy đó đẹp.)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zero_article",
+      "title": "3. Không dùng mạo từ (Kein Artikel)",
+      "description": "Trong một số câu tiếng Đức, bạn hoàn toàn không sử dụng mạo từ.",
+      "content": {
+        "key_rules": [
+          {
+            "category": "Danh từ không đếm được",
+            "description": "Các khái niệm không thể cân đo đong đếm (Thời gian, Sự may mắn, Tiền bạc, Cơn đói).",
+            "examples": [
+              "Ich habe Zeit. (Tôi có thời gian.) — Không nói \"một thời gian\"",
+              "Er hat Glück. (Anh ấy có sự may mắn.)"
+            ]
+          },
+          {
+            "category": "Nghề nghiệp",
+            "description": "Khi nói về công việc của bạn.",
+            "examples": [
+              "Ich bin Pilotin. (Tôi là phi công.) — Trong tiếng Anh nói \"a pilot\", nhưng tiếng Đức lược bỏ mạo từ."
+            ]
+          },
+          {
+            "category": "Danh từ số nhiều mang nghĩa chung",
+            "description": "Khi nói về nhiều đối tượng một cách chung chung.",
+            "examples": [
+              "Das sind Blumen. (Đó là những bông hoa.)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_application",
+      "title": "4. Ứng dụng thực tế",
+      "description": "Cách áp dụng thực tế từ bài tập",
+      "content": {
+        "transitioning": {
+          "title": "Chuyển đổi từ Không xác định sang Xác định",
+          "description": "Khi mô tả đồ vật, bạn thường theo trình tự này:",
+          "steps": [
+            "Giới thiệu: Das ist + Mạo từ không xác định (ein/eine).",
+            "Mô tả: Mạo từ xác định (der/die/das) + Tính từ."
+          ],
+          "examples": [
+            {
+              "gender": "Giống đực",
+              "introduce": "Das ist ein Laptop.",
+              "describe": "Der Laptop ist gut."
+            },
+            {
+              "gender": "Giống cái",
+              "introduce": "Das ist eine Vase.",
+              "describe": "Die Vase ist schön."
+            },
+            {
+              "gender": "Giống trung",
+              "introduce": "Das ist ein Bild.",
+              "describe": "Das Bild ist teuer."
+            }
+          ]
+        },
+        "accusative_questions": {
+          "title": "Cách 4 (Akkusativ) trong câu hỏi",
+          "description": "Khi hỏi \"Bạn có... không?\" (Hast du...?), đồ vật được hỏi sẽ ở Cách 4.",
+          "examples": [
+            {
+              "gender": "Giống đực",
+              "example": "Hast du einen Kuli?",
+              "note": "Bạn có thấy đuôi -en không? Đó là vì Kuli giống đực và là tân ngữ trực tiếp."
+            },
+            {
+              "gender": "Giống cái",
+              "example": "Hast du eine Uhr?",
+              "note": "Không thay đổi"
+            },
+            {
+              "gender": "Giống trung",
+              "example": "Hast du ein Handy?",
+              "note": "Không thay đổi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "narrative_usage",
+      "title": "5. Sử dụng trong kể chuyện (Ví dụ về Truyện cổ tích)",
+      "description": "Trong kể chuyện, mạo từ thay đổi khi cốt truyện tiến triển:",
+      "content": {
+        "example": {
+          "introduction": "Es war einmal ein König. (Ngày xửa ngày xưa có một vị vua - lần đầu giới thiệu)",
+          "continuation": "Der König war sehr reich. (Vị vua đó rất giàu có - giờ chúng ta đã biết vị vua đang được nhắc tới là ai)"
+        },
+        "grammar_tip": "Mẹo ngữ pháp: Luôn học giống của danh từ (der/die/das) kèm với mỗi từ mới. Nếu không biết giống, bạn không thể chọn đúng mạo từ cho Cách 1 hay Cách 4!"
+      }
+    }
+  ]
+}

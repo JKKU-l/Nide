@@ -1,0 +1,38 @@
+{
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Geschäft", "vietnamese": "cửa hàng / doanh nghiệp", "article": "das", "word": "Geschäft", "emoji": "🏢"},
+        {"german": "die Kasse", "vietnamese": "quầy thu ngân", "article": "die", "word": "Kasse", "emoji": "💰"},
+        {"german": "einkaufen", "vietnamese": "đi mua sắm", "article": "", "word": "einkaufen", "emoji": "🛍️"},
+        {"german": "der Verkäufer / die Verkäuferin", "vietnamese": "người bán hàng", "article": "der / die", "word": "Verkäufer / Verkäuferin", "emoji": "🧑‍💼"},
+        {"german": "der Kunde / die Kundin", "vietnamese": "khách hàng", "article": "der / die", "word": "Kunde / Kundin", "emoji": "👤"},
+        {"german": "der Preis", "vietnamese": "giá cả", "article": "der", "word": "Preis", "emoji": "🏷️"},
+        {"german": "kosten", "vietnamese": "có giá là", "article": "", "word": "kosten", "emoji": "💸"},
+        {"german": "verkaufen", "vietnamese": "bán", "article": "", "word": "verkaufen", "emoji": "🤝"},
+        {"german": "billig", "vietnamese": "rẻ", "article": "", "word": "billig", "emoji": "🪙"},
+        {"german": "teuer", "vietnamese": "đắt", "article": "", "word": "teuer", "emoji": "💎"},
+        {"german": "kaufen", "vietnamese": "mua", "article": "", "word": "kaufen", "emoji": "🛒"},
+        {"german": "die Tüte", "vietnamese": "túi (nhựa hoặc giấy)", "article": "die", "word": "Tüte", "emoji": "🛍️"},
+        {"german": "der Markt", "vietnamese": "chợ", "article": "der", "word": "Markt", "emoji": "🍎"},
+        {"german": "die Bäckerei", "vietnamese": "tiệm bánh mì", "article": "die", "word": "Bäckerei", "emoji": "🥖"},
+        {"german": "die Geldbörse", "vietnamese": "ví tiền / bóp", "article": "die", "word": "Geldbörse", "emoji": "👛"},
+        {"german": "der Supermarkt", "vietnamese": "siêu thị", "article": "der", "word": "Supermarkt", "emoji": "🛒"},
+        {"german": "die Fleischerei", "vietnamese": "tiệm thịt", "article": "die", "word": "Fleischerei", "emoji": "🥩"},
+        {"german": "die Brieftasche", "vietnamese": "ví tiền", "article": "die", "word": "Brieftasche", "emoji": "💼"},
+        {"german": "der Kiosk", "vietnamese": "quầy báo / ki-ốt", "article": "der", "word": "Kiosk", "emoji": "🏪"},
+        {"german": "der Frisör / Friseur", "vietnamese": "thợ cắt tóc", "article": "der", "word": "Frisör / Friseur", "emoji": "💇‍♂️"},
+        {"german": "die Rechnung", "vietnamese": "hóa đơn", "article": "die", "word": "Rechnung", "emoji": "🧾"},
+        {"german": "zahlen", "vietnamese": "thanh toán", "article": "", "word": "zahlen", "emoji": "💳"},
+        {"german": "der Euro", "vietnamese": "đồng Euro", "article": "der", "word": "Euro", "emoji": "💶"},
+        {"german": "die Kontonummer", "vietnamese": "số tài khoản", "article": "die", "word": "Kontonummer", "emoji": "🔢"},
+        {"german": "die Kreditkarte", "vietnamese": "thẻ tín dụng", "article": "die", "word": "Kreditkarte", "emoji": "💳"},
+        {"german": "der Cent", "vietnamese": "đồng xu Cent", "article": "der", "word": "Cent", "emoji": "🪙"},
+        {"german": "die Bankleitzahl", "vietnamese": "mã ngân hàng", "article": "die", "word": "Bankleitzahl", "emoji": "🏦"},
+        {"german": "das Geld", "vietnamese": "tiền", "article": "das", "word": "Geld", "emoji": "💵"},
+        {"german": "die Bank", "vietnamese": "ngân hàng", "article": "die", "word": "Bank", "emoji": "🏦"}
+      ]
+    }
+  ]
+}

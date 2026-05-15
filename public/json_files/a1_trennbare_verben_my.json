@@ -1,0 +1,133 @@
+{
+  "title": "Trennbare Verben (Separable Verbs) ဆိုတာဘာလဲ?",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Separable Verbs ဆိုတာဘာလဲ?",
+      "description": "ဂျာမန်ဘာသာစကားမှာ မူရင်းကြိယာ (Base verb) ရဲ့ ရှေ့မှာ Prefix (ရှေ့ဆက်) လေးတွေ ထည့်လိုက်တဲ့အခါ အဓိပ္ပာယ် အသစ်တစ်ခု ပြောင်းလဲသွားတတ်ပါတယ်။ အဲဒီကြိယာတွေကို ဝါကျထဲမှာ သုံးတဲ့အခါ ရှေ့ဆက် (Prefix) နဲ့ မူရင်းကြိယာကို \"ခွဲထုတ်\" ပြီး သုံးရတာကြောင့် Separable Verbs လို့ ခေါ်တာပါ။",
+      "content": {
+        "description": "Prefix က မူရင်းကြိယာရဲ့ အဓိပ္ပာယ်ကို ပြောင်းလဲပြီး ရိုးရိုးဝါကျမှာ ဝါကျရဲ့ နောက်ဆုံးသို့ ရွှေ့သွားပါတယ်။"
+      }
+    },
+    {
+      "id": "basic_structure",
+      "title": "၁။ ဝါကျဖွဲ့စည်းပုံ (ရိုးရိုးဝါကျ)",
+      "description": "ရိုးရိုးဝါကျ (Main Clause) မှာ သုံးရင် အစိတ်အပိုင်း ၂ ခု ခွဲလိုက်ရပါတယ်။",
+      "content": {
+        "structure": {
+          "parts": [
+            "မူရင်းကြိယာ (Main Verb): ဝါကျရဲ့ နံပါတ် (၂) နေရာ မှာ ထားရပါတယ်။ (Subject နဲ့ ကိုက်ညီအောင် ပုံစံပြောင်းပေးရမယ်)။",
+            "ရှေ့ဆက် (Prefix): ဝါကျရဲ့ အဆုံးသတ် (End) မှာ ထားရပါတယ်။"
+          ]
+        },
+        "example": {
+          "verb": "einkaufen (ဈေးဝယ်ထွက်သည်)",
+          "prefix": "ein-",
+          "main_verb": "kaufen (ဝယ်သည်)",
+          "table": {
+            "headers": ["Subject", "Verb (Pos 2)", "အလယ်ပိုင်း", "Prefix (End)"],
+            "rows": [
+              ["Ich", "kaufe", "im Supermarkt", "ein."]
+            ],
+            "translation": "အဓိပ္ပာယ်: ကျွန်တော် စူပါမားကတ်မှာ ဈေးဝယ်နေပါတယ်။"
+          }
+        }
+      }
+    },
+    {
+      "id": "common_prefixes",
+      "title": "၂။ တွေ့ရများသော Separable Prefixes များ",
+      "description": "ဒီ Prefix လေးတွေကို ကြိယာရှေ့မှာ တွေ့ရင် ခွဲသုံးရမယ်ဆိုတာ မှတ်ထားလို့ရပါတယ်။",
+      "content": {
+        "prefixes": [
+          {"prefix": "ab-", "example": "abfahren - ထွက်ခွာသည်"},
+          {"prefix": "an-", "example": "ankommen - ဆိုက်ရောက်သည်"},
+          {"prefix": "auf-", "example": "aufstehen - အိပ်ရာထသည်"},
+          {"prefix": "aus-", "example": "aussteigen - (ယာဉ်ပေါ်မှ) ဆင်းသည်"},
+          {"prefix": "mit-", "example": "mitkommen - အတူတူလိုက်ခဲ့သည်"},
+          {"prefix": "ein-", "example": "einsteigen - (ယာဉ်ပေါ်) တက်သည်"},
+          {"prefix": "zurück-", "example": "zurückkommen - ပြန်လာသည်"}
+        ]
+      }
+    },
+    {
+      "id": "modal_verbs",
+      "title": "၃။ Modal Verbs (အကူကြိယာများ) နှင့် တွဲသုံးခြင်း",
+      "description": "ဝါကျထဲမှာ Modal Verb (ဥပမာ: müssen - ရမည်၊ können - နိုင်သည်၊ möchten - ချင်သည်) ပါလာရင်တော့ Separable Verb ကို ခွဲစရာမလိုတော့ပါ။",
+      "content": {
+        "rule": {
+          "modal": "Modal Verb ကို နံပါတ် (၂) နေရာ မှာ ထားပါ။",
+          "separable": "Separable Verb တစ်ခုလုံး (Prefix ရော မူရင်းကြိယာရော) ကို ဝါကျရဲ့ နောက်ဆုံး မှာ မူရင်းပုံစံအတိုင်း ပေါင်းထားလိုက်ပါ။"
+        },
+        "example": {
+          "combination": "müssen + aufstehen",
+          "sentence": "Ich muss um 6 Uhr aufstehen.",
+          "translation": "(ကျွန်တော် ၆ နာရီမှာ အိပ်ရာထရမယ်။)"
+        }
+      }
+    },
+    {
+      "id": "pronunciation",
+      "title": "၄။ အသံထွက် (Word Accent)",
+      "description": "ဒီကြိယာတွေကို အသံထွက်တဲ့အခါ Prefix (ရှေ့ဆက်) ပေါ်မှာ အသံဖိ (Stress) ပေးပြီး ထွက်ရပါတယ်။",
+      "content": {
+        "examples": [
+          "ein-kaufen",
+          "auf-stehen",
+          "an-kommen"
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "၅။ ဥပမာများနှင့် အသုံးပြုပုံ ယုတ္တိဗေဒ (Logic)",
+      "description": "ကျောင်းသားများအတွက် ဥပမာများနှင့် အသုံးပြုပုံ ယုတ္တိဗေဒ:",
+      "content": {
+        "examples_table": {
+          "headers": ["Verb", "German Sentence", "Myanmar Translation", "Logic/Explanation"],
+          "rows": [
+            ["einsteigen (တက်သည်)", "Ich steige in die U-Bahn ein.", "I get on the subway.", "ကိုယ့်ကိုယ်ကိုယ် ယာဉ်ထဲသို့ (ein) ထည့်လိုက်ခြင်း"],
+            ["umsteigen (ယာဉ်ပြောင်းစီးသည်)", "Ich steige an der Hauptwache um.", "I transfer at Hauptwache.", "ယာဉ်တစ်စီးမှ တစ်စီးသို့ ပတ် (um) ပြီး ပြောင်းခြင်း"],
+            ["aussteigen (ဆင်းသည်)", "Ich steige am Bahnhof aus.", "I get off at the station.", "အပြင်ဘက်သို့ (aus) ထွက်ခြင်း"],
+            ["anfangen (စတင်သည်)", "Die Arbeit fängt um 8 Uhr an.", "Work starts at 8 o'clock.", "'an' သည် အစပြုမှတ်ကို ပြသည်။ (မှတ်ချက်: fangen မှ fängt သို့ ပြောင်းလဲခြင်းသည် ပုံမှန်မဟုတ်သော ပုံစံဖြစ်သည်)။"],
+            ["aufmachen (ဖွင့်သည်)", "Ich mache das Fenster auf.", "I open the window.", "တစ်ခုခုကို 'အပေါ်တင်/ဖွင့်' (auf) လိုက်ခြင်း။"],
+            ["zumachen (ပိတ်သည်)", "Ich mache das Fenster zu.", "I close the window.", "တစ်ခုခုကို 'ပိတ်/ထိကပ်' (zu) လိုက်ခြင်း။"],
+            ["fernsehen (တီဗွီကြည့်သည်)", "Abends sehe ich fern.", "In the evening I watch TV.", "\"Fern\" က ဝေးသည်။ ဝေးဝေးကြည့်တာ (တီဗွီကြည့်တာ) ဖြစ်သည်။"],
+            ["anrufen (ဖုန်းခေါ်သည်)", "Ich rufe meine Mutter an.", "I call my mother.", "'Rufen' က အော်ခေါ်တာဖြစ်ပြီး 'anrufen' ပေါင်းလိုက်ရင် ဖုန်းနဲ့လှမ်းခေါ်တာ ဖြစ်သွားပါတယ်။"],
+            ["einladen (ဖိတ်ကြားသည်)", "Meine Freundin lädt mich ein.", "My girlfriend invites me.", "တစ်စုံတစ်ဦးကို ပွဲတစ်ခုထဲသို့ (ein) ခေါ်ဆောင်ခြင်း။"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_table",
+      "title": "ကျောင်းသားများအတွက် အနှစ်ချုပ်ဇယား",
+      "description": "အခြေအနေအမျိုးမျိုးအတွက် Separable Verbs သုံးပုံ အမြန်ရှာဖွေရန် ဇယား။",
+      "content": {
+        "summary_table": {
+          "headers": ["အခြေအနေ", "စည်းမျဉ်း", "ဥပမာ"],
+          "rows": [
+            ["ရိုးရိုးဝါကျ", "ကြိယာကို Pos 2၊ Prefix ကို ဝါကျအဆုံးထား။", "Ich stehe um 7 Uhr auf."],
+            ["Modal Verb ပါလျှင်", "Modal ကို Pos 2၊ ကြိယာတစ်ခုလုံးကို အဆုံးမှာပေါင်းထား။", "Ich möchte mitkommen."],
+            ["အမေးဝါကျ (Yes/No)", "ကြိယာကို Pos 1၊ Prefix ကို ဝါကျအဆုံးထား။", "Fängst du morgen an?"],
+            ["ဝါကျခွဲ (Subordinate)", "Prefix နှင့် ကြိယာ မခွဲဘဲ ဝါကျအဆုံးမှာ တွဲထား။", "... weil ich um 6 Uhr aufstehe."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "why_use",
+      "title": "ဒါကို ဘာကြောင့် သုံးတာလဲ?",
+      "description": "ဂျာမန်စာမှာ Prefix တွေက အဓိပ္ပာယ်ကို ပိုပြီးတိကျစေပါတယ်။ ဥပမာ \"machen\" ဆိုတာ \"လုပ်သည်/ပြုလုပ်သည်\" လို့ပဲ အဓိပ္ပာယ်ရပေမဲ့ Prefix တွေပေါင်းလိုက်ရင်:",
+      "content": {
+        "examples": [
+          "aufmachen = ဖွင့်သည်",
+          "zumachen = ပိတ်သည်",
+          "anmachen = (မီး၊ စက်) ဖွင့်သည်",
+          "ausmachen = (မီး၊ စက်) ပိတ်သည်"
+        ],
+        "explanation": "ဒီနည်းလမ်းနဲ့ မူရင်းကြိယာတစ်ခုတည်းကနေ အဓိပ္ပာယ်အမျိုးမျိုးကို ပွားယူလို့ရတာ ဖြစ်ပါတယ်။"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "theme_color": "#009688",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "der Beruf", "vietnamese": "Nghề nghiệp", "article": "der", "word": "Beruf", "emoji": "💼"},
+        {"german": "der Bäcker", "vietnamese": "Thợ làm bánh", "article": "der", "word": "Bäcker", "emoji": "🥖"},
+        {"german": "der Elektriker", "vietnamese": "Thợ điện", "article": "der", "word": "Elektriker", "emoji": "⚡"},
+        {"german": "der Anwalt", "vietnamese": "Luật sư", "article": "der", "word": "Anwalt", "emoji": "⚖️"},
+        {"german": "der Bauer", "vietnamese": "Nông dân", "article": "der", "word": "Bauer", "emoji": "👨‍🌾"},
+        {"german": "der Fleischer", "vietnamese": "Thợ xẻ thịt", "article": "der", "word": "Fleischer", "emoji": "🥩"},
+        {"german": "der Arbeiter", "vietnamese": "Công nhân", "article": "der", "word": "Arbeiter", "emoji": "👷"},
+        {"german": "der Briefträger", "vietnamese": "Nhân viên bưu điện", "article": "der", "word": "Briefträger", "emoji": "📬"},
+        {"german": "der Gärtner", "vietnamese": "Thợ làm vườn", "article": "der", "word": "Gärtner", "emoji": "🌻"},
+        {"german": "der Hausmann / die Hausfrau", "vietnamese": "Người nội trợ", "article": "der / die", "word": "Hausmann / Hausfrau", "emoji": "🏠"},
+        {"german": "der Maler", "vietnamese": "Thợ sơn / Họa sĩ", "article": "der", "word": "Maler", "emoji": "🎨"},
+        {"german": "der Polizist", "vietnamese": "Cảnh sát", "article": "der", "word": "Polizist", "emoji": "👮"},
+        {"german": "der Hausmeister", "vietnamese": "Người quản gia / Nhân viên bảo trì", "article": "der", "word": "Hausmeister", "emoji": "🔑"},
+        {"german": "der Maurer", "vietnamese": "Thợ nề / Thợ xây", "article": "der", "word": "Maurer", "emoji": "🧱"},
+        {"german": "der Schneider", "vietnamese": "Thợ may", "article": "der", "word": "Schneider", "emoji": "🧵"},
+        {"german": "der Installateur", "vietnamese": "Thợ lắp đặt / Thợ ống nước", "article": "der", "word": "Installateur", "emoji": "🔧"},
+        {"german": "der Mechaniker", "vietnamese": "Thợ cơ khí", "article": "der", "word": "Mechaniker", "emoji": "🛠️"},
+        {"german": "der Sekretär / die Sekretärin", "vietnamese": "Thư ký", "article": "der / die", "word": "Sekretär / Sekretärin", "emoji": "📅"}
+      ]
+    }
+  ]
+}

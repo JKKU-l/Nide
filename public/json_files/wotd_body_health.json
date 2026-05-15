@@ -1,0 +1,25 @@
+{
+  "category": "Body & Health",
+  "category_de": "Körper & Gesundheit",
+  "icon": "🧍",
+  "words": [
+    {"de":"der Körper","word":"Körper","article":"der","en":"body","jp":"体","kr":"몸","my":"ခန္ဓာကိုယ်","th":"ร่างกาย","vi":"cơ thể","pronunciation":"/ˈkœʁpɐ/","example_de":"Sport ist gut für den Körper.","example_en":"Sports are good for the body."},
+    {"de":"der Kopf","word":"Kopf","article":"der","en":"head","jp":"頭","kr":"머리","my":"ခေါင်း","th":"หัว","vi":"đầu","pronunciation":"/kɔpf/","example_de":"Mir tut der Kopf weh.","example_en":"My head hurts."},
+    {"de":"das Auge","word":"Auge","article":"das","en":"eye","jp":"目","kr":"눈","my":"မျက်လုံး","th":"ตา","vi":"mắt","pronunciation":"/ˈaʊ̯ɡə/","example_de":"Sie hat schöne blaue Augen.","example_en":"She has beautiful blue eyes."},
+    {"de":"das Ohr","word":"Ohr","article":"das","en":"ear","jp":"耳","kr":"귀","my":"နား","th":"หู","vi":"tai","pronunciation":"/oːɐ̯/","example_de":"Ich höre mit den Ohren.","example_en":"I hear with my ears."},
+    {"de":"die Nase","word":"Nase","article":"die","en":"nose","jp":"鼻","kr":"코","my":"နှာခေါင်း","th":"จมูก","vi":"mũi","pronunciation":"/ˈnaːzə/","example_de":"Meine Nase ist verstopft.","example_en":"My nose is blocked."},
+    {"de":"der Mund","word":"Mund","article":"der","en":"mouth","jp":"口","kr":"입","my":"ပါးစပ်","th":"ปาก","vi":"miệng","pronunciation":"/mʊnt/","example_de":"Mach bitte den Mund auf.","example_en":"Please open your mouth."},
+    {"de":"die Hand","word":"Hand","article":"die","en":"hand","jp":"手","kr":"손","my":"လက်","th":"มือ","vi":"tay","pronunciation":"/hant/","example_de":"Wasch dir die Hände!","example_en":"Wash your hands!"},
+    {"de":"der Arm","word":"Arm","article":"der","en":"arm","jp":"腕","kr":"팔","my":"လက်မောင်း","th":"แขน","vi":"cánh tay","pronunciation":"/aʁm/","example_de":"Mein Arm tut weh.","example_en":"My arm hurts."},
+    {"de":"das Bein","word":"Bein","article":"das","en":"leg","jp":"脚","kr":"다리","my":"ခြေထောက်","th":"ขา","vi":"chân","pronunciation":"/baɪ̯n/","example_de":"Ich habe mir das Bein gebrochen.","example_en":"I broke my leg."},
+    {"de":"der Fuß","word":"Fuß","article":"der","en":"foot","jp":"足","kr":"발","my":"ခြေဖဝါး","th":"เท้า","vi":"bàn chân","pronunciation":"/fuːs/","example_de":"Ich gehe zu Fuß zur Schule.","example_en":"I walk to school on foot."},
+    {"de":"das Haar","word":"Haar","article":"das","en":"hair","jp":"髪","kr":"머리카락","my":"ဆံပင်","th":"ผม","vi":"tóc","pronunciation":"/haːɐ̯/","example_de":"Sie hat langes blondes Haar.","example_en":"She has long blonde hair."},
+    {"de":"der Zahn","word":"Zahn","article":"der","en":"tooth","jp":"歯","kr":"이","my":"သွား","th":"ฟัน","vi":"răng","pronunciation":"/tsaːn/","example_de":"Putz dir zweimal am Tag die Zähne.","example_en":"Brush your teeth twice a day."},
+    {"de":"der Finger","word":"Finger","article":"der","en":"finger","jp":"指","kr":"손가락","my":"လက်ချောင်း","th":"นิ้วมือ","vi":"ngón tay","pronunciation":"/ˈfɪŋɐ/","example_de":"Ich habe mir in den Finger geschnitten.","example_en":"I cut my finger."},
+    {"de":"das Herz","word":"Herz","article":"das","en":"heart","jp":"心臓","kr":"심장","my":"နှလုံး","th":"หัวใจ","vi":"trái tim","pronunciation":"/hɛʁts/","example_de":"Das Herz schlägt schneller beim Sport.","example_en":"The heart beats faster during sports."},
+    {"de":"der Rücken","word":"Rücken","article":"der","en":"back","jp":"背中","kr":"등","my":"ကျောပြင်","th":"หลัง","vi":"lưng","pronunciation":"/ˈʁʏkn̩/","example_de":"Mein Rücken tut weh.","example_en":"My back hurts."},
+    {"de":"die Gesundheit","word":"Gesundheit","article":"die","en":"health","jp":"健康","kr":"건강","my":"ကျန်းမာရေး","th":"สุขภาพ","vi":"sức khỏe","pronunciation":"/ɡəˈzʊnthaɪ̯t/","example_de":"Gesundheit ist das Wichtigste.","example_en":"Health is the most important thing."},
+    {"de":"der Schmerz","word":"Schmerz","article":"der","en":"pain","jp":"痛み","kr":"통증","my":"နာကျင်ခြင်း","th":"ความเจ็บปวด","vi":"cơn đau","pronunciation":"/ʃmɛʁts/","example_de":"Ich habe Schmerzen im Bein.","example_en":"I have pain in my leg."},
+    {"de":"die Medizin","word":"Medizin","article":"die","en":"medicine","jp":"薬","kr":"약","my":"ဆေး","th":"ยา","vi":"thuốc","pronunciation":"/mediˈtsiːn/","example_de":"Nimm die Medizin dreimal am Tag.","example_en":"Take the medicine three times a day."}
+  ]
+}

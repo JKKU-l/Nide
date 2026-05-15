@@ -1,0 +1,123 @@
+{
+  "title": "Dativ (Dative Case)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Understanding the German Dative Case (Der Dativ)",
+      "description": "The Dative case is often called the \"recipient\" case. While the Accusative case marks the direct object (the thing being acted upon), the Dative case marks the indirect object—the person or thing that receives the result of that action."
+    },
+    {
+      "id": "identifying_dative",
+      "title": "1. Identifying the Dative: The \"Who\" and \"Where\"",
+      "description": "To find the Dative in a sentence, you can ask two primary questions:",
+      "content": {
+        "questions": [
+          { "question": "Wem? (To whom / For whom?)", "explanation": "This identifies the person receiving something.", "german": "Ich gebe dem Lehrer das Buch.", "translation": "I give the book to the teacher. (The teacher is the recipient)." },
+          { "question": "Wo? (Where?)", "explanation": "When dealing with location, Dative describes a static position rather than movement toward a destination.", "german": "Das Buch liegt auf dem Tisch.", "translation": "The book is lying on the table. (Static location)." }
+        ]
+      }
+    },
+    {
+      "id": "articles_nouns",
+      "title": "2. Changes in Articles and Nouns",
+      "description": "The Dative case causes specific changes to the words coming before the noun. A unique rule for the Dative is the \"n-plural\": almost all plural nouns in the Dative case must add an -n at the end (e.g., die Kinder becomes den Kindern).",
+      "content": {
+        "declension_table": {
+          "title": "Dative Declension Table",
+          "headers": ["Gender", "Definite Article (The)", "Indefinite/Possessive (A/My)", "Adjective Ending (After \"The\")"],
+          "rows": [
+            { "category": "Masculine", "definite": "dem Vater", "indefinite": "einem Vater", "adjective": "dem netten Vater" },
+            { "category": "Feminine", "definite": "der Mutter", "indefinite": "einer Mutter", "adjective": "der netten Mutter" },
+            { "category": "Neuter", "definite": "dem Kind", "indefinite": "einem Kind", "adjective": "dem netten Kind" },
+            { "category": "Plural", "definite": "den Eltern", "indefinite": "(meinen) Eltern", "adjective": "den netten Eltern" }
+          ]
+        },
+        "adjective_note": "If you use words like dieser (this), jener (that), or alle (all), the adjective will always end in -en in the Dative case. This provides a consistent \"weak\" declension that is easier to remember."
+      }
+    },
+    {
+      "id": "dative_pronouns",
+      "title": "3. Dative Pronouns",
+      "description": "When you replace a name or a noun with \"me,\" \"you,\" or \"him,\" you must use the Dative form of the pronoun.",
+      "content": {
+        "pronoun_table": {
+          "title": "Pronoun Changes in Dative",
+          "rows": [
+            { "nominative": "ich", "accusative": "mir", "meaning": "me" },
+            { "nominative": "du", "accusative": "dir", "meaning": "you" },
+            { "nominative": "er", "accusative": "ihm", "meaning": "him/it" },
+            { "nominative": "sie", "accusative": "ihr", "meaning": "her" },
+            { "nominative": "es", "accusative": "ihm", "meaning": "it" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "us" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "you all" },
+            { "nominative": "sie/Sie", "accusative": "ihnen/Ihnen", "meaning": "them / You formal" }
+          ]
+        },
+        "example": {
+          "german": "Er hilft mir.",
+          "translation": "He helps me.",
+          "note": "You cannot say \"Er hilft mich\" (Accusative). You must say \"Er hilft mir\" because the verb helfen is a \"Dative Verb.\""
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. When to Use the Dative",
+      "description": "There are three main triggers for the Dative case:",
+      "content": {
+        "triggers": [
+          {
+            "id": "dative_verbs",
+            "title": "A. Dative Verbs",
+            "description": "In German, some verbs are \"Dative-only.\" Even if there is no \"to\" or \"for\" in the English translation, these verbs logically imply an interaction with a person.",
+            "subcategories": [
+              { "label": "Interpersonal", "verbs": "danken (to thank), helfen (to help), gratulieren (to congratulate)", "german": "Ich danke dir.", "translation": "I thank you." },
+              { "label": "Opinions/Feelings", "verbs": "gefallen (to please/like), gehören (to belong to), passen (to fit)", "german": "Das Auto gehört dem Mann.", "translation": "The car belongs to the man." }
+            ]
+          },
+          {
+            "id": "dative_prepositions",
+            "title": "B. Dative Prepositions",
+            "description": "There is a specific group of prepositions that always require the Dative case, regardless of the action.",
+            "prepositions": ["aus (from/out of)", "bei (at/near)", "mit (with)", "nach (after/to)", "seit (since)", "von (from/of)", "zu (to)"],
+            "examples": [
+              { "german": "Ich gehe mit dem Hund spazieren.", "translation": "I am going for a walk with the dog." },
+              { "german": "Er wohnt bei seiner Tante.", "translation": "He lives at his aunt's house." }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. The Two-Way Prepositions (Wechselpräpositionen)",
+            "description": "These prepositions (in, an, auf, unter, über, vor, hinter, neben, zwischen) can be Dative or Accusative.",
+            "rule": "Use Dative for Location (Wo?): If the object is staying in one place. Use Accusative for Direction (Wohin?): If there is movement toward a goal.",
+            "examples": [
+              { "german": "Das Buch liegt auf dem Tisch.", "translation": "The book is lying on the table — Static/Dative." },
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "I am putting the book onto the table — Movement/Accusative." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_example",
+      "title": "Summary Example",
+      "description": "Seeing Accusative and Dative working together in one sentence:",
+      "content": {
+        "examples": [
+          {
+            "label": "Accusative (Direct Object)",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe einen Brief.", "translation": "What am I writing? A letter." },
+            "explanation": "The \"letter\" is the thing being acted upon (Accusative)."
+          },
+          {
+            "label": "Dative (Indirect Object)",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe meinem Bruder einen Brief.", "translation": "To whom am I writing? My brother." },
+            "explanation": "The \"brother\" is the person receiving the benefit (Dative), while the \"letter\" remains Accusative."
+          }
+        ]
+      }
+    }
+  ]
+}

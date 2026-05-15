@@ -1,0 +1,34 @@
+{
+  "month": 1,
+  "title_en": "At the Airport",
+  "title_de": "Am Flughafen",
+  "icon": "✈️",
+  "theme_color": "#3B82F6",
+  "subtopics": [
+    {
+      "id": "getting_to_airport",
+      "title": "Getting to the Airport",
+      "content": ""
+    },
+    {
+      "id": "checking_in",
+      "title": "Checking In",
+      "content": ""
+    },
+    {
+      "id": "speaking_with_agent",
+      "title": "Speaking with the Airline Agent",
+      "content": ""
+    },
+    {
+      "id": "listening_announcements",
+      "title": "Listening to Announcements",
+      "content": ""
+    },
+    {
+      "id": "going_through_security",
+      "title": "Going Through Security",
+      "content": ""
+    }
+  ]
+}

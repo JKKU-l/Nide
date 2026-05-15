@@ -1,0 +1,107 @@
+{
+  "title": "ドイツ語の助動詞 (Modalverben)",
+  "subtitle": "助動詞（Modalverben）は、文のメインとなる動詞の「能力」「義務」「許可」「願望」などのニュアンスを加えるために使われます。",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "助動詞とは何か？",
+      "description": "助動詞（Modalverben）は、文のメインとなる動詞の「能力」「義務」「許可」「願望」などのニュアンスを加えるために使われます。",
+      "content": {
+        "modal_verbs_table": {
+          "headers": ["助動詞", "意味", "主な用法"],
+          "rows": [
+            ["können", "～できる", "能力、可能性"],
+            ["müssen", "～しなければならない", "義務、不可欠なこと"],
+            ["wollen", "～したい（強い意志）", "強い意図、計画"],
+            ["möchten", "～したい（丁寧）", "丁寧な願望、依頼"],
+            ["dürfen", "～してもよい", "許可、禁止（否定時）"],
+            ["sollen", "～すべきである", "助言、義務、伝聞"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "conjugation_rules",
+      "title": "活用のルール",
+      "description": "助動詞の活用には2つの重要な特徴があります。",
+      "content": {
+        "rules": [
+          "母音の変化: 単数形（ich, du, er/sie/es）では、語幹の母音が変化することが多いです。",
+          "1人称と3人称の形: ich と er/sie/es の活用形は常に同じになり、語尾がつきません。"
+        ],
+        "conjugation_table": {
+          "headers": ["人称", "können", "müssen", "wollen", "dürfen"],
+          "rows": [
+            ["ich", "kann", "muss", "will", "darf"],
+            ["du", "kannst", "musst", "willst", "darfst"],
+            ["er/sie/es", "kann", "muss", "will", "darf"],
+            ["wir", "können", "müssen", "wollen", "dürfen"],
+            ["ihr", "könnt", "müsst", "wollt", "dürft"],
+            ["sie/Sie", "können", "müssen", "wollen", "dürfen"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "sentence_architecture",
+      "title": "文の構造（語順）",
+      "description": "ドイツ語の助動詞を使う文では、以下のルールが適用されます。",
+      "content": {
+        "structure": [
+          "2番目の位置: 活用させた助動詞を文の2番目に置きます。",
+          "文末: 本動詞（動作を表す動詞）は変化させない形（不定形）で文の最後に置きます。",
+          "主語 + 助動詞（活用形） + ... + 本動詞（不定形）"
+        ],
+        "formula": "主語 + 助動詞（活用形） + ... + 本動詞（不定形）"
+      }
+    },
+    {
+      "id": "usage_examples",
+      "title": "例文と解説",
+      "description": "助動詞を使った例文とその解説です。",
+      "content": {
+        "examples": [
+          {
+            "category": "能力 (können)",
+            "german": "Ich kann sehr gut Fußball spielen.",
+            "english": "私はサッカーをとても上手にすることができます。"
+          },
+          {
+            "category": "義務 (müssen)",
+            "german": "Du musst Hausaufgaben machen.",
+            "english": "あなたは宿題をしなければなりません。"
+          },
+          {
+            "category": "許可 (dürfen)",
+            "german": "Hier darf man nicht rauchen.",
+            "english": "ここでタバコを吸ってはいけません（許可されていません）。"
+          },
+          {
+            "category": "助言 (sollen)",
+            "german": "Der Arzt sagt, ich soll im Bett bleiben.",
+            "english": "医者は、私はベッドで休んでいるべきだと言っています。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "advanced_note",
+      "title": "補足：本動詞の省略",
+      "description": "日常会話において、文脈から動作（行く、来る、飲むなど）が明らかな場合、文末の動詞を省略することがあります。",
+      "content": {
+        "examples": [
+          {
+            "full": "Ich muss nach Hause gehen.",
+            "shortened": "Ich muss nach Hause.",
+            "english": "gehen を省略"
+          },
+          {
+            "full": "Ich will ein Eis essen.",
+            "shortened": "Ich will ein Eis.",
+            "english": "essen を省略"
+          }
+        ]
+      }
+    }
+  ]
+}

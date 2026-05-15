@@ -1,0 +1,205 @@
+{
+  "title": "Dativ (ဒုတိယပုဒ်)",
+  "description": "Dative case ကို များသောအားဖြင့် Indirect Object (တစ်ခုခုကို လက်ခံရရှိသူ) နေရာမှာ သုံးသလို၊ သီးသန့် ဝိဘတ်တွေဖြစ်တဲ့ mit (နှင့်/ဖြင့်)၊ bei (ထံတွင်)၊ နဲ့ zu (သို့) စတဲ့ စကားလုံးတွေရဲ့ နောက်မှာ အမြဲသုံးပါတယ်။",
+  "sections": [
+    {
+      "id": "article_transformation",
+      "title": "၁။ Article များ ပြောင်းလဲပုံ (The Core Transformation)",
+      "description": "Dative case မှာ နာမ် (Noun) ရဲ့ လိင် (Gender) အလိုက် ရှေ့က Article (the/a) တွေဟာ ပုံစံပြောင်းသွားပါတယ်။",
+      "content": {
+        "masculine_neutral": {
+          "title": "Masculine (ကျား) နှင့် Neutral (အလယ်)",
+          "description": "ဒီနှစ်မျိုးစလုံးက ပုံစံတူပါတယ်။ သတ်မှတ် Article \"the\" ဆိုရင် dem ဖြစ်သွားပြီး၊ မသတ်မှတ် Article \"a\" ဆိုရင် einem ဖြစ်သွားပါတယ်။ ငြင်းပယ်တဲ့ \"no\" ဆိုရင် keinem လို့ သုံးပါတယ်။",
+          "examples": [
+            {
+              "english": "ကျွန်တော် ထိုလူနှင့်အတူ သွားသည်။",
+              "german": "Ich gehe mit dem Mann.",
+              "note": "Masculine"
+            },
+            {
+              "english": "ကျွန်တော် ကလေးတစ်ယောက်နှင့် ကစားသည်။",
+              "german": "Ich spiele mit einem Kind.",
+              "note": "Neutral"
+            }
+          ]
+        },
+        "feminine": {
+          "title": "Feminine (မ)",
+          "description": "Feminine (die) အတွက်ဆိုရင် \"the\" က der ဖြစ်သွားပြီး၊ \"a\" က einer ဖြစ်သွားပါတယ်။ \"no\" ဆိုရင် keiner ပါ။ der က Masculine နဲ့ ဆင်နေလို့ စသင်ခါစမှာ မှားတတ်ပေမဲ့ Dative မှာတော့ ဒါဟာ Feminine အတွက် သီးသန့်ဖြစ်ပါတယ်။",
+          "examples": [
+            {
+              "english": "ကျွန်တော် ထမီးနှင့် စကားပြောသည်။",
+              "german": "Ich spreche mit der Frau."
+            },
+            {
+              "english": "ကျွန်တော် သူငယ်ချင်းမတစ်ယောက်နှင့် ခရီးသွားသည်။",
+              "german": "Ich reise mit einer Freundin."
+            }
+          ]
+        },
+        "plural": {
+          "title": "Plural (အများကိန်း)",
+          "description": "အများကိန်းအတွက် \"the\" က den ဖြစ်သွားပါတယ်။ (Plural မှာ \"a\" သုံးလို့မရပါ)။ \"မရှိ/မရှိသော\" လို့ ငြင်းချင်ရင် keinen ကို သုံးပါတယ်။",
+          "crucial_rule": "အလွန်အရေးကြီးသော စည်းမျဉ်း - Dative Plural မှာ နာမ်ရဲ့ နောက်ဆုံးမှာ -n ထပ်ပေါင်းပေးရပါတယ်။ (နာမ်က -n သို့မဟုတ် -s နဲ့ ဆုံးနေရင်တော့ ထပ်ပေါင်းစရာမလိုပါ)။",
+          "examples": [
+            {
+              "english": "ကျွန်တော် ဧည့်သည်များနှင့် စကားပြောသည်။",
+              "german": "Ich spreche mit den Gästen.",
+              "note": "Gäste ရဲ့နောက်မှာ 'n' ပိုလာတာကို သတိပြုပါ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "using_mit",
+      "title": "၂။ \"Mit\" ကို အသုံးပြုခြင်း (သယ်ယူပို့ဆောင်ရေးနှင့် လူများ)",
+      "description": "ဝိဘတ် mit ရဲ့ နောက်မှာ အမြဲတမ်း Dative case လိုက်ရပါတယ်။ ဒါကြောင့် ကိုယ်ဘယ်လိုသွားသလဲ ဒါမှမဟုတ် ဘယ်သူနဲ့ရှိနေသလဲ ပြောတဲ့အခါ Article တွေ ပြောင်းလဲသွားတာပါ။",
+      "content": {
+        "logic": "စည်းမျဉ်း - mit ကို မြင်တာနဲ့ နောက်ကလိုက်မဲ့ ယာဉ် ဒါမှမဟုတ် လူရဲ့ လိင် (Gender) ကို ကြည့်ပါ။",
+        "examples": [
+          {
+            "noun": "Der Zug (ကျား)",
+            "sentence": "Ich fahre mit dem Zug.",
+            "translation": "ကျွန်တော် ရထားဖြင့် သွားသည်။"
+          },
+          {
+            "noun": "Die U-Bahn (မ)",
+            "sentence": "Ich fahre mit der U-Bahn.",
+            "translation": "ကျွန်တော် မြေအောက်ရထားဖြင့် သွားသည်။"
+          },
+          {
+            "noun": "Das Auto (အလယ်)",
+            "sentence": "Ich fahre mit dem Auto.",
+            "translation": "ကျွန်တော် ကားဖြင့် သွားသည်။"
+          },
+          {
+            "noun": "Die Rollschuhe (အများ)",
+            "sentence": "Ich fahre mit den Rollschuhen.",
+            "translation": "ကျွန်တော် roller skates ဖြင့် သွားသည်။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_verbs",
+      "title": "၃။ Dative ကြိယာများ (ပေးခြင်းနှင့် ကူညီခြင်း)",
+      "description": "အချို့သော ကြိယာတွေကတော့ လက်ခံရရှိသူ (Receiver) အတွက် Dative case ကို အလိုအလျောက် သုံးစွဲစေပါတယ်။ အသုံးများတာတွေကတော့ helfen (ကူညီသည်)၊ gratulieren (ဂုဏ်ပြုသည်) နဲ့ schenken (လက်ဆောင်ပေးသည်) တို့ ဖြစ်ပါတယ်။",
+      "content": {
+        "helfern": {
+          "verb": "Helfen (ကူညီသည်)",
+          "examples": [
+            {
+              "english": "သူမသည် လုပ်ဖော်ကိုင်ဖက်မတစ်ဦးကို ကူညီသည်။",
+              "german": "Sie hilft einer Kollegin."
+            },
+            {
+              "english": "သူမသည် မိဘများကို ကူညီသည်။",
+              "german": "Sie hilft den Eltern."
+            }
+          ]
+        },
+        "gratulieren": {
+          "verb": "Gratulieren (ဂုဏ်ပြုသည်)",
+          "examples": [
+            {
+              "english": "ကျွန်တော် ဖခင်ကို ဂုဏ်ပြုသည်။",
+              "german": "Ich gratuliere dem Vater."
+            },
+            {
+              "english": "ကျွန်တော် သူငယ်ချင်းမတစ်ယောက်ကို ဂုဏ်ပြုသည်။",
+              "german": "Ich gratuliere einer Freundin."
+            }
+          ]
+        },
+        "schenken_geben": {
+          "verb": "Schenken / Geben (ပေးကမ်းသည်)",
+          "description": "တစ်စုံတစ်ယောက်ကို တစ်ခုခုပေးတဲ့အခါ \"လက်ခံရရှိသူ\" ကို Dative သုံးပြီး \"ပေးတဲ့ပစ္စည်း\" ကို Accusative သုံးပါတယ်။",
+          "examples": [
+            {
+              "english": "သူမသည် ကြောင်ကို ငါးတစ်ကောင် ကျွေး/ပေးသည်။",
+              "german": "Sie gibt der Katze einen Fisch."
+            },
+            {
+              "english": "သူမသည် ကလေးကို နို့တိုက်/ပေးသည်။",
+              "german": "Sie gibt einem Baby Milch."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "possessive_articles",
+      "title": "၄။ Dative မှာ ပိုင်ဆိုင်မှုပြ Article များ (Possessive Articles)",
+      "description": "ပိုင်ဆိုင်မှုပြစကားလုံးတွေ (ကျွန်တော့်၏၊ သင်၏၊ သူမ၏ စသည်) ဟာလည်း kein သို့မဟုတ် ein ရဲ့ အဆုံးသတ်တွေအတိုင်း လိုက်ပြောင်းပါတယ်။",
+      "content": {
+        "endings": [
+          {
+            "gender": "Masculine/Neutral အဆုံးသတ်",
+            "ending": "-em",
+            "examples": "meinem, seinem, ihrem"
+          },
+          {
+            "gender": "Feminine အဆုံးသတ်",
+            "ending": "-er",
+            "examples": "meiner, seiner, ihrer"
+          },
+          {
+            "gender": "Plural အဆုံးသတ်",
+            "ending": "-en",
+            "examples": "meinen, seinen, ihren"
+          }
+        ],
+        "example_context": "သူမသည် သူမ၏ ရည်းစားနှင့်အတူ လာခဲ့လျှင် - Sie kommt mit ihrem Freund. (Freund သည် Masculine ဖြစ်၍ ihr + em)။ သူမသည် သူမ၏ ကလေးများနှင့်အတူ လာခဲ့လျှင် - Sie kommt mit ihren Kindern. (Plural ဖြစ်၍ ihr + en + နာမ်နောက်မှာ 'n' ပေါင်း)။"
+      }
+    },
+    {
+      "id": "location_prepositions",
+      "title": "၅။ တည်နေရာပြ ဝိဘတ်များ (Bei, Zu, Von)",
+      "description": "mit လိုပဲ bei (ထံတွင်)၊ zu (သို့) နဲ့ von (မှ/၏) တို့ဟာလည်း Dative ကို အမြဲတမ်း အသုံးပြုပါတယ်။",
+      "content": {
+        "examples": [
+          {
+            "preposition": "Bei (တစ်စုံတစ်ဦးနှင့်အတူ နေထိုင်ခြင်း)",
+            "sentence": "Ich bleibe bei den Freunden.",
+            "translation": "ကျွန်တော် သူငယ်ချင်းတွေဆီမှာ ခဏတည်းခိုနေတယ်။"
+          },
+          {
+            "preposition": "Zu (တစ်နေရာရာ/တစ်ဦးဦးဆီသို့ သွားခြင်း)",
+            "sentence": "Ich gehe zu einem See.",
+            "translation": "ကျွန်တော် ကန်တစ်ခုဆီသို့ သွားနေသည်။"
+          },
+          {
+            "preposition": "Von (မှ သို့မဟုတ် ပိုင်ဆိုင်ခြင်း)",
+            "sentence": "Das Auto von dem Freund.",
+            "translation": "ထိုသူငယ်ချင်း၏ ကား။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "၆။ Article အဆုံးသတ်များ မှတ်သားရန်",
+      "description": "ဇယားမလိုဘဲ အလွယ်မှတ်ချင်ရင် Dative ရဲ့ နောက်ဆုံး \"အချက်ပြအက္ခရာ\" လေးတွေကို မှတ်ထားပါ -",
+      "content": {
+        "signal_letters": [
+          {
+            "letter": "M",
+            "meaning": "M သည် Masculine နှင့် Neutral အတွက်",
+            "examples": "deM / eineM"
+          },
+          {
+            "letter": "R",
+            "meaning": "R သည် Feminine အတွက်",
+            "examples": "deR / eineR"
+          },
+          {
+            "letter": "N",
+            "meaning": "N သည် Plural အတွက် (နာမ်နောက်မှာလည်း N ထည့်ရပါတယ်)",
+            "examples": "deN / keineN + နာမ်နောက်မှာ 'n' ပေါင်း"
+          }
+        ]
+      }
+    }
+  ]
+}

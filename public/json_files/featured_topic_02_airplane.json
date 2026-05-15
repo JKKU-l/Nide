@@ -1,0 +1,29 @@
+{
+  "month": 2,
+  "title_en": "On the Airplane",
+  "title_de": "Im Flugzeug",
+  "icon": "🛫",
+  "theme_color": "#6366F1",
+  "subtopics": [
+    {
+      "id": "welcome_on_board",
+      "title": "Welcome on Board",
+      "content": ""
+    },
+    {
+      "id": "announcements_on_board",
+      "title": "Announcements on Board",
+      "content": ""
+    },
+    {
+      "id": "safety_on_board",
+      "title": "Safety on Board",
+      "content": ""
+    },
+    {
+      "id": "services_on_board",
+      "title": "Services on Board",
+      "content": ""
+    }
+  ]
+}

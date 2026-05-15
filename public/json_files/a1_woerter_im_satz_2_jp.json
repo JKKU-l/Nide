@@ -1,0 +1,127 @@
+{
+  "title": "Wörter im Satz 2 (文の語順 2)",
+  "sections": [
+    {
+      "id": "golden_rule",
+      "title": "1. ドイツ語の語順：黄金のルール (The Golden Rule)",
+      "description": "ドイツ語の平叙文（普通の文）では、定動詞（人称変化する動詞）は常に「2番目（Position 2）」に置かれます。動詞の他の部分（不定詞、前綴り、過去分詞など）は、「文の最後（End Position）」に配置されます。",
+      "content": {
+        "examples_table": {
+          "headers": ["1番目 (主語・時など)", "2番目 (定動詞)", "中間部分 (詳細)", "文末 (動詞の残り)"],
+          "rows": [
+            ["Ich (私は)", "will (〜したい)", "heute (今日)", "einkaufen (買い物する)."],
+            ["Ich (私は)", "kaufe (買う)", "Obst (果物を)", "ein (分離前綴り)."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "grammar_categories",
+      "title": "2. 文法カテゴリー別の解説と例",
+      "description": "文法構造に応じて、動詞の一部を文末に置きます。",
+      "content": {
+        "categories": [
+          {
+            "category": "A. 話法の助動詞 (Modalverben)",
+            "description": "「〜したい」「〜しなければならない」「〜できる」などの助動詞を使う場合、助動詞を2番目に置き、メインのアクション（本動詞）は原形のまま文末に置きます。",
+            "rule": "ルール: 変化した助動詞 (2番目) ... 本動詞の原形 (文末)",
+            "examples": [
+              {
+                "german": "Sie wollen eine Deutschlandreise machen.",
+                "translation": "彼らはドイツ旅行をしたいと思っています。",
+                "explanation": "解説: 「wollen」が主語に合わせて変化して2番目に位置し、意味の核となる「machen（する）」が文末に配置されます。"
+              }
+            ]
+          },
+          {
+            "category": "B. 分離動詞 (Trennbare Verben)",
+            "description": "一部の動詞には「前綴り」がついています。これらを文で使う際、前綴りが切り離されて文の最後に「飛び」ます。",
+            "rule": "ルール: 動詞の語幹 (2番目) ... 前綴り (文末)",
+            "examples": [
+              {
+                "german": "Wir ziehen nach Hamburg um.",
+                "translation": "私たちはハンブルクへ引っ越します。",
+                "explanation": "解説: 元の動詞は「umziehen」です。変化した「ziehen」は2番目ですが、分離するパーツである「um」は必ず文の最後に置かれます。"
+              }
+            ]
+          },
+          {
+            "category": "C. 動詞 ＋ 動詞の組み合わせ (Verb + Verb)",
+            "description": "「泳ぎに行く」のように動詞を2つ重ねる場合、動きを表す動詞が2番目に、具体的な活動を表す動詞が文末に来ます。",
+            "rule": "ルール: 定動詞 (2番目) ... 不定詞 (文末)",
+            "examples": [
+              {
+                "german": "Wir gehen heute Nachmittag schwimmen.",
+                "translation": "私たちは今日の午後、泳ぎに行きます。",
+                "explanation": "解説: 「gehen」が文の骨組み（2番目）を作り、何をしに行くのかを示す「schwimmen」が文末を締めます。"
+              }
+            ]
+          },
+          {
+            "category": "D. 名詞 ＋ 動詞の組み合わせ (Noun-Verb)",
+            "description": "「テニスをする」「ドイツ語を学ぶ」など、名詞と動詞がセットで一つの意味を成す場合です。",
+            "rule": "ルール: 定動詞 (2番目) ... 名詞 (文末)",
+            "examples": [
+              {
+                "german": "Heute Abend spiele ich mit meiner Freundin Tennis.",
+                "translation": "今晩、私は彼女とテニスをします。",
+                "explanation": "解説: 「Tennis」は名詞ですが、ここでは「テニスをする」という一つの動作の一部とみなされるため、文末に置かれます。"
+              }
+            ]
+          },
+          {
+            "category": "E. 現在完了形 (Perfekt)",
+            "description": "過去のことを話す完了形では、助動詞（haben または sein）を2番目に置き、過去分詞を文末に置きます。",
+            "rule": "ルール: haben/sein (2番目) ... 過去分詞 (文末)",
+            "examples": [
+              {
+                "german": "Ich habe schon Getränke eingekauft.",
+                "translation": "私はもう飲み物を買い（終え）ました。",
+                "explanation": "解説: ドイツ語の完了形では、文末の過去分詞（ge-で始まる形など）が文の終わりを示すアンカーの役割をします。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentence_variation",
+      "title": "3. 文頭のバリエーション (Flexible Position 1)",
+      "description": "ドイツ語は、動詞さえ2番目に置けば、文の最初（1番目）に何を置くかについては柔軟です。「時」や「目的語」を強調したい時に文頭に持ってくることができます。",
+      "content": {
+        "example_intro": "例：「私は昨日、弟にCDをプレゼントしました。」",
+        "examples": [
+          {
+            "german": "Ich habe meinem Bruder gestern eine CD geschenkt.",
+            "translation": "主語を最初に"
+          },
+          {
+            "german": "Gestern habe ich meinem Bruder eine CD geschenkt.",
+            "translation": "時を最初に"
+          },
+          {
+            "german": "Meinem Bruder habe ich gestern eine CD geschenkt.",
+            "translation": "間接目的語を最初に"
+          }
+        ],
+        "note": "重要: 文の最初が何であっても、変化する動詞（habe）は常に2番目、セットになる動詞パーツ（geschenkt）は常に最後です。"
+      }
+    },
+    {
+      "id": "summary",
+      "title": "4. クイック参照まとめ表",
+      "description": "全てのカテゴリーのクイックリファレンス:",
+      "content": {
+        "summary_table": {
+          "headers": ["カテゴリー", "2番目 (定動詞)", "文末 (End Position)", "例文"],
+          "rows": [
+            ["助動詞", "will / muss / kann", "不定詞 (原形)", "Er muss heute arbeiten."],
+            ["分離動詞", "kaufe / räume", "前綴り", "Ich räume die Wohnung auf."],
+            ["完了形", "habe / ist", "過去分詞", "Er ist nach Berlin gefahren."],
+            ["固定ペア", "spiele / gehen", "名詞 または 動詞", "Wir gehen heute einkaufen."]
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "theme_color": "#009688",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "der Beruf", "myanmar": "အလုပ်အကိုင် / အသက်မွေးဝမ်းကျောင်း", "article": "der", "word": "Beruf", "emoji": "🛠️"},
+        {"german": "der Bäcker", "myanmar": "မုန့်ဖုတ်သမား", "article": "der", "word": "Bäcker", "emoji": "🥖"},
+        {"german": "der Elektriker", "myanmar": "လျှပ်စစ်ပြင်သမား", "article": "der", "word": "Elektriker", "emoji": "⚡"},
+        {"german": "der Anwalt", "myanmar": "ရှေ့နေ", "article": "der", "word": "Anwalt", "emoji": "⚖️"},
+        {"german": "der Bauer", "myanmar": "လယ်သမား", "article": "der", "word": "Bauer", "emoji": "👨‍🌾"},
+        {"german": "der Fleischer", "myanmar": "သားသတ်သမား", "article": "der", "word": "Fleischer", "emoji": "🥩"},
+        {"german": "der Arbeiter", "myanmar": "အလုပ်သမား", "article": "der", "word": "Arbeiter", "emoji": "👷"},
+        {"german": "der Briefträger", "myanmar": "စာပို့သမား", "article": "der", "word": "Briefträger", "emoji": "📬"},
+        {"german": "der Gärtner", "myanmar": "ဥယျာဉ်မှူး", "article": "der", "word": "Gärtner", "emoji": "🌻"},
+        {"german": "der Hausmann / die Hausfrau", "myanmar": "အိမ်ထောင်ရှင် (ကျား/မ)", "article": "der / die", "word": "Hausmann / Hausfrau", "emoji": "🏠"},
+        {"german": "der Maler", "myanmar": "ပန်းချီဆရာ / ဆေးသုတ်သမား", "article": "der", "word": "Maler", "emoji": "🎨"},
+        {"german": "der Polizist", "myanmar": "ရဲအရာရှိ", "article": "der", "word": "Polizist", "emoji": "👮"},
+        {"german": "der Hausmeister", "myanmar": "အဆောက်အဦးထိန်းသိမ်းရေးမှူး", "article": "der", "word": "Hausmeister", "emoji": "🧹"},
+        {"german": "der Maurer", "myanmar": "ပန်းရန်သမား", "article": "der", "word": "Maurer", "emoji": "🧱"},
+        {"german": "der Schneider", "myanmar": "အပ်ချုပ်သမား", "article": "der", "word": "Schneider", "emoji": "🧵"},
+        {"german": "der Installateur", "myanmar": "ပိုက်ပြင်သမား", "article": "der", "word": "Installateur", "emoji": "🔧"},
+        {"german": "der Mechaniker", "myanmar": "စက်ပြင်သမား", "article": "der", "word": "Mechaniker", "emoji": "⚙️"},
+        {"german": "der Sekretär / die Sekretärin", "myanmar": "အတွင်းရေးမှူး (ကျား/မ)", "article": "der / die", "word": "Sekretär / Sekretärin", "emoji": "📝"}
+      ]
+    }
+  ]
+}

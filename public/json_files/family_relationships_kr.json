@@ -1,0 +1,55 @@
+{
+  "title": "Family & Relationships",
+  "emoji": "👨‍👩‍👧‍👦",
+  "theme_color": "#4CAF50",
+  "description": "Family members and relationships",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "lieben", "korean": "사랑하다", "example_german": "Ich liebe meine Familie über alles.", "example_korean": "나는 내 가족을 무엇보다도 사랑합니다."},
+          {"german": "heiraten", "korean": "결혼하다", "example_german": "Sie heiraten nächsten Monat in Italien.", "example_korean": "그들은 다음 달에 이탈리아에서 결혼합니다."},
+          {"german": "treffen", "korean": "만나다", "example_german": "Ich treffe mich heute Abend mit Freunden.", "example_korean": "나는 오늘 저녁에 친구들을 만납니다."},
+          {"german": "besuchen", "korean": "방문하다", "example_german": "Wir besuchen am Wochenende unsere Großeltern.", "example_korean": "우리는 주말에 조부모님을 방문합니다."},
+          {"german": "einladen", "korean": "초대하다", "example_german": "Ich lade dich zu meinem Geburtstag ein.", "example_korean": "너를 내 생일에 초대할게."},
+          {"german": "feiern", "korean": "축하하다/파티하다", "example_german": "Wir feiern heute den Hochzeitstag meiner Eltern.", "example_korean": "우리는 오늘 부모님의 결혼기념일을 축하합니다."},
+          {"german": "schenken", "korean": "선물하다", "example_german": "Was schenkst du deinem Bruder zu Weihnachten?", "example_korean": "남동생에게 크리스마스 선물로 무엇을 줄 건가요?"},
+          {"german": "spielen", "korean": "놀다/게임하다", "example_german": "Der Vater spielt mit seinen Kindern im Garten.", "example_korean": "아버지가 정원에서 아이들과 놀아주고 있습니다."},
+          {"german": "helfen", "korean": "돕다", "example_german": "Kannst du mir bitte beim Kochen helfen?", "example_korean": "요리하는 것 좀 도와줄 수 있나요?"},
+          {"german": "pflegen", "korean": "돌보다/간호하다", "example_german": "Sie pflegt ihren kranken Vater zu Hause.", "example_korean": "그녀는 집에서 편찮으신 아버지를 돌보고 있습니다."},
+          {"german": "erziehen", "korean": "교육하다/양육하다", "example_german": "Es ist nicht immer leicht, Kinder zu erziehen.", "example_korean": "아이들을 키우는 것은 항상 쉽지만은 않습니다."},
+          {"german": "wachsen", "korean": "자라다/성장하다", "example_german": "Die Kinder wachsen so schnell!", "example_korean": "아이들이 정말 빨리 자라네요!"},
+          {"german": "leben", "korean": "살다", "example_german": "Wir leben glücklich zusammen.", "example_korean": "우리는 함께 행복하게 삽니다."},
+          {"german": "sterben", "korean": "죽다", "example_german": "Sein Großvater starb vor vielen Jahren.", "example_korean": "그의 할아버지는 오래전에 돌아가셨습니다."},
+          {"german": "weinen", "korean": "울다", "example_german": "Das Baby weint, weil es Hunger hat.", "example_korean": "아기가 배가 고파서 울고 있습니다."},
+          {"german": "lachen", "korean": "웃다", "example_german": "Wir lachen viel, wenn wir zusammen sind.", "example_korean": "우리는 함께 있을 때 많이 웃습니다."},
+          {"german": "streiten", "korean": "싸우다/다투다", "example_german": "Geschwister streiten sich manchmal.", "example_korean": "형제자매들은 때때로 서로 다툽니다."},
+          {"german": "umarmen", "korean": "포옹하다/안다", "example_german": "Sie umarmt ihre Mutter zur Begrüßung.", "example_korean": "그녀는 반가움의 표시로 어머니를 안아드립니다."},
+          {"german": "küssen", "korean": "키스하다/뽀뽀하다", "example_german": "Sie küssen sich zum Abschied.", "example_korean": "그들은 작별 인사로 키스를 합니다."},
+          {"german": "anrufen", "korean": "전화하다", "example_german": "Ich rufe meine Mutter jeden Sonntag an.", "example_korean": "나는 매주 일요일에 어머니께 전화 드립니다."},
+          {"german": "schreiben", "korean": "쓰다", "example_german": "Ich schreibe meiner Tante eine Postkarte.", "example_korean": "나는 이모에게 엽서를 씁니다."},
+          {"german": "lesen", "korean": "읽다", "example_german": "Der Vater liest den Kindern eine Geschichte vor.", "example_korean": "아버지가 아이들에게 이야기를 읽어줍니다."},
+          {"german": "erzählen", "korean": "이야기하다/들려주다", "example_german": "Er erzählt uns von seiner Reise.", "example_korean": "그는 우리에게 자신의 여행에 대해 이야기해 줍니다."},
+          {"german": "zuhören", "korean": "경청하다/듣다", "example_german": "Bitte hör mir gut zu.", "example_korean": "내 말을 잘 들어보세요."},
+          {"german": "verstehen", "korean": "이해하다/공감하다", "example_german": "Wir verstehen uns sehr gut.", "example_korean": "우리는 서로를 아주 잘 이해합니다/사이가 좋습니다."},
+          {"german": "vergeben", "korean": "용서하다", "example_german": "Ich kann ihm diesen Fehler nicht vergeben.", "example_korean": "나는 그의 이 실수를 용서할 수 없습니다."},
+          {"german": "danken", "korean": "감사하다", "example_german": "Ich danke dir für deine Hilfe.", "example_korean": "도와줘서 고마워요."},
+          {"german": "gratulieren", "korean": "축하하다", "example_german": "Ich gratuliere dir herzlich zum Geburtstag!", "example_korean": "생일을 진심으로 축하해요!"},
+          {"german": "wünschen", "korean": "소원하다/바라다", "example_german": "Ich wünsche dir alles Gute.", "example_korean": "당신에게 좋은 일만 가득하길 바랍니다."},
+          {"german": "kennen", "korean": "알다(안면이 있다)", "example_german": "Ich kenne deine Schwester schon lange.", "example_korean": "나는 당신의 여동생을 안 지 오래되었습니다."},
+          {"german": "vorstellen", "korean": "소개하다", "example_german": "Darf ich dir meine Freundin vorstellen?", "example_korean": "내 여자친구를 소개해 줄까요?"},
+          {"german": "erinnern", "korean": "기억하다/떠올리다", "example_german": "Erinnerst du dich an unseren ersten Urlaub?", "example_korean": "우리의 첫 휴가를 기억하나요?"},
+          {"german": "vergessen", "korean": "잊다", "example_german": "Ich habe deinen Geburtstag nicht vergessen.", "example_korean": "당신의 생일을 잊지 않았어요."},
+          {"german": "sprechen", "korean": "말하다/대화하다", "example_german": "Wir müssen über das Problem sprechen.", "example_korean": "우리는 그 문제에 대해 이야기해야 합니다."},
+          {"german": "reden", "korean": "이야기하다/수다 떨다", "example_german": "Sie reden stundenlang über Gott und die Welt.", "example_korean": "그들은 세상 돌아가는 일에 대해 몇 시간 동안 이야기합니다."},
+          {"german": "diskutieren", "korean": "토론하다", "example_german": "Wir diskutieren oft über Politik.", "example_korean": "우리는 자주 정치에 대해 토론합니다."},
+          {"german": "sorgen", "korean": "걱정하다/보살피다", "example_german": "Eltern sorgen sich immer um ihre Kinder.", "example_korean": "부모님은 항상 자식 걱정을 하십니다."},
+          {"german": "schützen", "korean": "보호하다", "example_german": "Er will seine Familie vor Gefahren schützen.", "example_korean": "그는 위험으로부터 가족을 보호하고 싶어 합니다."},
+          {"german": "unterstützen", "korean": "지지하다/후원하다", "example_german": "Meine Freunde unterstützen mich immer.", "example_korean": "내 친구들은 항상 나를 지지해 줍니다."},
+          {"german": "zusammen sein", "korean": "함께 있다/사귀다", "example_german": "Wir sind seit fünf Jahren zusammen.", "example_korean": "우리는 함께한 지/사귄 지 5년 되었습니다."}
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "title": "Nomen: Plural (명사: 복수형)",
+  "sections": [
+    {
+      "id": "golden_rule",
+      "title": "황금 규칙: \"die\"",
+      "description": "단수일 때 명사의 성별이 남성(der), 여성(die), 중성(das)인지에 관계없이, 모든 복수 명사는 정관사 \"die\"를 사용합니다.",
+      "content": {}
+    },
+    {
+      "id": "the_n_ending",
+      "title": "1. -(e)n 어미",
+      "description": "독일어에서 가장 흔한 복수 형태입니다.",
+      "content": {
+        "when_to_use": [
+          "-ung, -heit, -keit, -ie, -or, -ion으로 끝나는 명사",
+          "대부분의 여성 명사",
+          "-in으로 끝나는 여성 직업군 (복수형은 -innen으로 변함)"
+        ],
+        "examples": [
+          {
+            "singular": "die Übung",
+            "translation": "연습",
+            "plural": "die Übungen",
+            "note": "-ung 규칙"
+          },
+          {
+            "singular": "die Tasche",
+            "translation": "가방",
+            "plural": "die Taschen",
+            "note": "-e로 끝나는 여성 명사"
+          },
+          {
+            "singular": "die Kundin",
+            "translation": "여성 고객",
+            "plural": "die Kundinnen",
+            "note": "여성 -in 접미사"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_er_ending",
+      "title": "2. -er 어미",
+      "description": "주로 짧은 중성 명사에서 발견됩니다.",
+      "content": {
+        "when_to_use": [
+          "많은 짧은 중성 명사(das)",
+          "일부 남성 명사(der)"
+        ],
+        "note": "단어에 a, o, u 또는 au가 포함된 경우, 보통 변모음(Umlaut) (ä, ö, ü)이 추가됩니다.",
+        "examples": [
+          {
+            "singular": "das Kind",
+            "translation": "아이",
+            "plural": "die Kinder"
+          },
+          {
+            "singular": "das Buch",
+            "translation": "책",
+            "plural": "die Bücher",
+            "note": "변모음 추가"
+          },
+          {
+            "singular": "der Mann",
+            "translation": "남자",
+            "plural": "die Männer",
+            "note": "변모음 추가"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_e_ending",
+      "title": "3. -e 어미",
+      "description": "다양한 성별의 많은 짧은 명사들에 매우 흔하게 쓰입니다.",
+      "content": {
+        "when_to_use": [
+          "많은 남성 및 중성 명사",
+          "여성 명사의 경우 이 어미와 함께 변모음이 추가되는 경우가 많습니다"
+        ],
+        "examples": [
+          {
+            "singular": "der Tisch",
+            "translation": "책상",
+            "plural": "die Tische"
+          },
+          {
+            "singular": "der Stuhl",
+            "translation": "의자",
+            "plural": "die Stühle",
+            "note": "남성 + 변모음"
+          },
+          {
+            "singular": "die Hand",
+            "translation": "손",
+            "plural": "die Hände",
+            "note": "여성 + 변모음"
+          }
+        ]
+      }
+    },
+    {
+      "id": "no_ending",
+      "title": "4. \"어미 변화 없음\" 그룹 (—)",
+      "description": "접미사가 전혀 붙지 않는 단어들입니다. 형태가 그대로 유지되거나 모음만 변모음으로 바뀝니다.",
+      "content": {
+        "when_to_use": [
+          "-er, -en, -el로 끝나는 명사",
+          "-chen 또는 -lein으로 끝나는 지소사(항상 중성)"
+        ],
+        "examples": [
+          {
+            "singular": "der Sessel",
+            "translation": "안락의자",
+            "plural": "die Sessel",
+            "note": "변화 없음"
+          },
+          {
+            "singular": "das Mädchen",
+            "translation": "소녀",
+            "plural": "die Mädchen",
+            "note": "변화 없음"
+          },
+          {
+            "singular": "der Vater",
+            "translation": "아버지",
+            "plural": "die Väter",
+            "note": "변모음만 변화"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_s_ending",
+      "title": "5. -s 어미",
+      "description": "주로 현대 외래어나 특정 모음으로 끝나는 단어에 사용됩니다.",
+      "content": {
+        "when_to_use": [
+          "-a, -i, -o, -u, -y로 끝나는 단어",
+          "줄임말 (예: PKW)",
+          "외래어 (영어/프랑스어 기원)"
+        ],
+        "examples": [
+          {
+            "singular": "das Auto",
+            "translation": "자동차",
+            "plural": "die Autos"
+          },
+          {
+            "singular": "das Hobby",
+            "translation": "취미",
+            "plural": "die Hobbies"
+          },
+          {
+            "singular": "der Job",
+            "translation": "직업",
+            "plural": "die Jobs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "special_cases",
+      "title": "특별한 경우: 불규칙 및 수량",
+      "description": "일부 명사에는 불규칙한 복수형이 있거나 단수만 또는 복수만 존재합니다.",
+      "content": {
+        "categories": [
+          {
+            "category": "불규칙 복수형",
+            "description": "외래어(주로 라틴어 또는 그리스어 기원)는 독특한 변화를 보입니다:",
+            "examples": [
+              {
+                "singular": "das Museum",
+                "plural": "die Museen"
+              },
+              {
+                "singular": "das Praktikum",
+                "plural": "die Praktika"
+              },
+              {
+                "singular": "die Firma",
+                "plural": "die Firmen"
+              }
+            ]
+          },
+          {
+            "category": "복수형이 없는 명사 (단수형만 존재)",
+            "description": "추상적인 개념이나 물질을 나타냅니다:",
+            "examples": [
+              {
+                "type": "추상적",
+                "examples": "das Glück (행운), die Liebe (사랑)"
+              },
+              {
+                "type": "물질",
+                "examples": "das Gold (금), die Milch (우유)"
+              },
+              {
+                "type": "집합적",
+                "examples": "das Obst (과일), die Kleidung (의류)"
+              }
+            ]
+          },
+          {
+            "category": "단수형이 없는 명사 (복수형만 존재)",
+            "description": "항상 집단이나 쌍으로 존재하는 항목들입니다:",
+            "examples": [
+              {
+                "type": "지리",
+                "examples": "die USA, die Alpen (알프스 산맥)"
+              },
+              {
+                "type": "사람/집단",
+                "examples": "die Eltern (부모님), die Leute (사람들)"
+              },
+              {
+                "type": "활동",
+                "examples": "die Ferien (방학/휴가)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "빠른 참조를 위한 요약 표",
+      "description": "모든 범주의 빠른 참고 자료:",
+      "content": {
+        "summary_table": {
+          "headers": ["단수 접미사", "일반적인 복수 어미", "예시"],
+          "rows": [
+            ["-e (여성)", "-n", "die Lampe → die Lampen"],
+            ["-in (여성 직업)", "-innen", "die Lehrerin → die Lehrerinnen"],
+            ["-er / -el / -en", "- (없음)", "der Teller → die Teller"],
+            ["-ung / -heit", "-en", "die Zeitung → die Zeitungen"],
+            ["-a / -o / -i", "-s", "das Sofa → die Sofas"]
+          ]
+        },
+        "pro_tip": "꿀팁: 새로운 독일어 명사를 배울 때 항상 관사와 복수형을 동시에 외우세요. 100% 완벽한 규칙은 없으므로, 하나의 패키지로 취급하는 것이 가장 좋습니다!"
+      }
+    }
+  ]
+}

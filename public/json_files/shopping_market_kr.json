@@ -1,0 +1,55 @@
+{
+  "title": "Shopping & Market",
+  "emoji": "🛒",
+  "theme_color": "#009688",
+  "description": "Essential verbs for shopping, stores, and marketplaces in German",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "einkaufen", "korean": "쇼핑하다", "example_german": "Ich muss heute für das Abendessen einkaufen.", "example_korean": "오늘 저녁 식사를 위해 장을 봐야 합니다."},
+          {"german": "kaufen", "korean": "사다", "example_german": "Ich kaufe mir ein neues Hemd.", "example_korean": "나는 새 셔츠를 삽니다."},
+          {"german": "verkaufen", "korean": "팔다", "example_german": "Er verkauft sein altes Auto.", "example_korean": "그는 오래된 차를 팝니다."},
+          {"german": "bezahlen", "korean": "지불하다", "example_german": "Kann ich bitte mit Karte bezahlen?", "example_korean": "카드로 결제해도 될까요?"},
+          {"german": "kosten", "korean": "비용이 들다", "example_german": "Wie viel kostet dieser Apfel?", "example_korean": "이 사과는 얼마인가요?"},
+          {"german": "suchen", "korean": "찾다", "example_german": "Ich suche nach einem Geschenk für meine Mutter.", "example_korean": "어머니를 위한 선물을 찾고 있습니다."},
+          {"german": "finden", "korean": "발견하다", "example_german": "Hast du deine Schlüssel gefunden?", "example_korean": "열쇠를 찾았나요?"},
+          {"german": "anprobieren", "korean": "입어보다", "example_german": "Darf ich diese Hose anprobieren?", "example_korean": "이 바지를 입어봐도 될까요?"},
+          {"german": "passen", "korean": "맞다", "example_german": "Die Schuhe passen mir perfekt.", "example_korean": "신발이 완벽하게 맞습니다."},
+          {"german": "gefallen", "korean": "마음에 들다", "example_german": "Das Kleid gefällt mir sehr gut.", "example_korean": "그 원피스가 아주 마음에 듭니다."},
+          {"german": "wählen", "korean": "선택하다", "example_german": "Bitte wählen Sie eine Farbe aus.", "example_korean": "색상을 선택해 주세요."},
+          {"german": "nehmen", "korean": "가져가다", "example_german": "Ich nehme zwei Kilo Kartoffeln.", "example_korean": "감자 2킬로 주세요."},
+          {"german": "wechseln", "korean": "교환하다", "example_german": "Können Sie mir diesen 50-Euro-Schein wechseln?", "example_korean": "이 50유로 지폐를 바꿔 주실 수 있나요?"},
+          {"german": "zurückgeben", "korean": "반품하다", "example_german": "Ich möchte dieses Produkt zurückgeben.", "example_korean": "이 제품을 반품하고 싶습니다."},
+          {"german": "umtauschen", "korean": "교환하다", "example_german": "Kann ich dieses T-Shirt gegen eine andere Größe umtauschen?", "example_korean": "이 티셔츠를 다른 사이즈로 교환할 수 있나요?"},
+          {"german": "bestellen", "korean": "주문하다", "example_german": "Wir bestellen uns heute Abend eine Pizza.", "example_korean": "오늘 저녁에 피자를 주문합니다."},
+          {"german": "liefern", "korean": "배달하다", "example_german": "Das Geschäft liefert die Möbel direkt nach Hause.", "example_korean": "가게에서 가구를 집까지 직접 배달합니다."},
+          {"german": "abholen", "korean": "수령하다", "example_german": "Ich hole meine Bestellung morgen im Laden ab.", "example_korean": "내일 가게에서 주문한 물건을 수령합니다."},
+          {"german": "einpacken", "korean": "포장하다", "example_german": "Können Sie das bitte als Geschenk einpacken?", "example_korean": "선물용으로 포장해 주시겠어요?"},
+          {"german": "vergleichen", "korean": "비교하다", "example_german": "Man sollte immer die Preise vergleichen.", "example_korean": "항상 가격을 비교해야 합니다."},
+          {"german": "anschauen", "korean": "구경하다", "example_german": "Ich möchte mir nur kurz die Auslage anschauen.", "example_korean": "진열대를 잠깐 구경하고 싶습니다."},
+          {"german": "fragen", "korean": "질문하다", "example_german": "Darf ich Sie etwas fragen?", "example_korean": "뭐 좀 여쭤봐도 될까요?"},
+          {"german": "antworten", "korean": "대답하다", "example_german": "Der Verkäufer antwortet auf meine Fragen.", "example_korean": "판매원이 제 질문에 대답합니다."},
+          {"german": "helfen", "korean": "돕다", "example_german": "Kann ich Ihnen helfen?", "example_korean": "도와드릴까요?"},
+          {"german": "empfehlen", "korean": "추천하다", "example_german": "Welchen Wein können Sie mir empfehlen?", "example_korean": "어떤 와인을 추천하시나요?"},
+          {"german": "brauchen", "korean": "필요하다", "example_german": "Ich brauche eine neue Tasche.", "example_korean": "새 가방이 필요합니다."},
+          {"german": "wollen", "korean": "원하다", "example_german": "Ich will heute nicht mehr einkaufen gehen.", "example_korean": "오늘은 더 이상 쇼핑하러 가고 싶지 않습니다."},
+          {"german": "haben", "korean": "가지다", "example_german": "Haben Sie auch frische Erdbeeren?", "example_korean": "신선한 딸기도 있나요?"},
+          {"german": "geben", "korean": "주다", "example_german": "Können Sie mir bitte eine Quittung geben?", "example_korean": "영수증 좀 주시겠어요?"},
+          {"german": "zeigen", "korean": "보여주다", "example_german": "Können Sie mir bitte die Uhr dort zeigen?", "example_korean": "저기 있는 시계를 보여주시겠어요?"},
+          {"german": "mitnehmen", "korean": "가져가다", "example_german": "Ich nehme diese Zeitschrift noch mit.", "example_korean": "이 잡지도 가져갈게요."},
+          {"german": "tragen", "korean": "나르다", "example_german": "Er trägt die schweren Einkaufstüten zum Auto.", "example_korean": "그는 무거운 쇼핑백을 차까지 나릅니다."},
+          {"german": "laufen", "korean": "걷다", "example_german": "Wir laufen durch den Supermarkt.", "example_korean": "우리는 슈퍼마켓을 걸어 다닙니다."},
+          {"german": "stehen", "korean": "줄을 서다", "example_german": "Wir stehen an der Kasse an.", "example_korean": "우리는 계산대에 줄을 서 있습니다."},
+          {"german": "warten", "korean": "기다리다", "example_german": "Ich warte auf meine Wechselgeld.", "example_korean": "거스름돈을 기다리고 있습니다."},
+          {"german": "sparen", "korean": "절약하다", "example_german": "Diesen Monat möchte ich etwas Geld sparen.", "example_korean": "이번 달에는 돈을 좀 저축하고 싶습니다."},
+          {"german": "ausgeben", "korean": "쓰다 (돈을)", "example_german": "Sie hat viel Geld für Kleidung ausgegeben.", "example_korean": "그녀는 옷에 돈을 많이 썼습니다."},
+          {"german": "rechnen", "korean": "계산하다", "example_german": "Ich muss kurz den Gesamtbetrag rechnen.", "example_korean": "총 금액을 잠깐 계산해야 합니다."},
+          {"german": "zählen", "korean": "세다", "example_german": "Er zählt sein Geld an der Kasse.", "example_korean": "그는 계산대에서 돈을 셉니다."},
+          {"german": "prüfen", "korean": "확인하다", "example_german": "Bitte prüfen Sie Ihren Kassenbon.", "example_korean": "영수증을 확인해 주세요."}
+        ]
+      }
+    }
+  ]
+}

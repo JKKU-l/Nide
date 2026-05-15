@@ -1,0 +1,29 @@
+{
+  "month": 6,
+  "title_en": "The Automobile & Gas Station",
+  "title_de": "Das Auto & An der Tankstelle",
+  "icon": "🚗",
+  "theme_color": "#8B5CF6",
+  "subtopics": [
+    {
+      "id": "renting_a_car",
+      "title": "Renting a Car",
+      "content": ""
+    },
+    {
+      "id": "checking_out_the_car",
+      "title": "Checking Out the Car",
+      "content": ""
+    },
+    {
+      "id": "self_service_pump",
+      "title": "Directions for Using a Self-service Pump",
+      "content": ""
+    },
+    {
+      "id": "minor_car_problems",
+      "title": "Some Minor Car Problems",
+      "content": ""
+    }
+  ]
+}

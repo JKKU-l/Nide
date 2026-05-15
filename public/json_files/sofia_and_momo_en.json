@@ -1,0 +1,155 @@
+{
+  "title": "Sofia and Momo",
+  "theme_color": "#FF6B6B",
+  "difficulty": "A1",
+  "duration_minutes": 6,
+  "audio_file": "sofia_lesson.mp3",
+  "sections": [
+    {
+      "id": "story",
+      "title": "Story",
+      "content": {
+        "german_text": "Hallo, ich bin Sofia! Ich bin 25 Jahre alt und komme aus Österreich. Ich habe eine Katze. Sie heißt Momo. Momo ist schwarz und sehr lustig! Ich arbeite in einer Bäckerei. Ich mag Brot und Kuchen. In meiner Freizeit male ich Bilder und höre Musik. Ich tanze auch gern. Mein Lieblingsessen ist Schokolade! In der Zukunft möchte ich ein Café haben. Es soll klein und gemütlich sein.",
+        "english_translation": "Hello, I am Sofia! I am 25 years old and come from Austria. I have a cat. Her name is Momo. Momo is black and very funny! I work in a bakery. I like bread and cake. In my free time, I paint pictures and listen to music. I also like dancing. My favorite food is chocolate! In the future, I would like to have a café. It should be small and cozy."
+      }
+    },
+    {
+      "id": "exercises",
+      "title": "Practice Exercises",
+      "content": {
+        "exercises": [
+          {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Wie heißt die Person?",
+            "options": ["Anna", "Leo", "Sofia", "Julia"],
+            "correct_answer": "Sofia"
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "question": "Ich bin _______ Sofia!",
+            "answer": "Sofia"
+          },
+          {
+            "id": 3,
+            "type": "multiple_choice",
+            "question": "Wie alt ist Sofia?",
+            "options": ["20 Jahre", "25 Jahre", "30 Jahre", "35 Jahre"],
+            "correct_answer": "25 Jahre"
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "Ich bin 25 _______ alt.",
+            "answer": "Jahre"
+          },
+          {
+            "id": 5,
+            "type": "multiple_choice",
+            "question": "Woher kommt Sofia?",
+            "options": ["Deutschland", "Österreich", "Schweiz", "Italien"],
+            "correct_answer": "Österreich"
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "question": "Ich komme aus _______.",
+            "answer": "Österreich"
+          },
+          {
+            "id": 7,
+            "type": "multiple_choice",
+            "question": "Was hat Sofia?",
+            "options": ["Einen Hund", "Eine Katze", "Einen Vogel", "Einen Fisch"],
+            "correct_answer": "Eine Katze"
+          },
+          {
+            "id": 8,
+            "type": "fill_blank",
+            "question": "Ich habe eine _______.",
+            "answer": "Katze"
+          },
+          {
+            "id": 9,
+            "type": "multiple_choice",
+            "question": "Wie heißt die Katze?",
+            "options": ["Mimi", "Momo", "Luna", "Bella"],
+            "correct_answer": "Momo"
+          },
+          {
+            "id": 10,
+            "type": "fill_blank",
+            "question": "Sie heißt _______.",
+            "answer": "Momo"
+          },
+          {
+            "id": 11,
+            "type": "multiple_choice",
+            "question": "Wo arbeitet Sofia?",
+            "options": ["In einer Schule", "In einem Krankenhaus", "In einer Bäckerei", "In einem Büro"],
+            "correct_answer": "In einer Bäckerei"
+          },
+          {
+            "id": 12,
+            "type": "fill_blank",
+            "question": "Ich arbeite in einer _______.",
+            "answer": "Bäckerei"
+          },
+          {
+            "id": 13,
+            "type": "multiple_choice",
+            "question": "Was mag Sofia?",
+            "options": ["Pizza und Pasta", "Brot und Kuchen", "Fleisch und Fisch", "Reis und Nudeln"],
+            "correct_answer": "Brot und Kuchen"
+          },
+          {
+            "id": 14,
+            "type": "fill_blank",
+            "question": "Ich mag Brot und _______.",
+            "answer": "Kuchen"
+          },
+          {
+            "id": 15,
+            "type": "multiple_choice",
+            "question": "Was macht Sofia in der Freizeit?",
+            "options": ["Sie liest Bücher", "Sie malt Bilder und hört Musik", "Sie schläft", "Sie arbeitet"],
+            "correct_answer": "Sie malt Bilder und hört Musik"
+          },
+          {
+            "id": 16,
+            "type": "fill_blank",
+            "question": "Ich male Bilder und _______ Musik.",
+            "answer": "höre"
+          },
+          {
+            "id": 17,
+            "type": "multiple_choice",
+            "question": "Was ist ihr Lieblingsessen?",
+            "options": ["Eis", "Pizza", "Schokolade", "Kuchen"],
+            "correct_answer": "Schokolade"
+          },
+          {
+            "id": 18,
+            "type": "fill_blank",
+            "question": "Mein Lieblingsessen ist _______.",
+            "answer": "Schokolade"
+          },
+          {
+            "id": 19,
+            "type": "multiple_choice",
+            "question": "Was möchte Sofia in der Zukunft haben?",
+            "options": ["Ein Restaurant", "Ein Café", "Ein Geschäft", "Ein Haus"],
+            "correct_answer": "Ein Café"
+          },
+          {
+            "id": 20,
+            "type": "fill_blank",
+            "question": "Ich möchte ein _______ haben.",
+            "answer": "Café"
+          }
+        ]
+      }
+    }
+  ]
+}

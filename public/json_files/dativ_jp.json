@@ -1,0 +1,123 @@
+{
+  "title": "Dativ（与格 / 3格）",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "ドイツ語の与格（Dativ）を理解する",
+      "description": "与格は「受け取り手」の格と呼ばれることが多いです。対格が直接目的語（動作を受ける対象）を示すのに対し、与格は間接目的語（その動作の結果を受け取る人や物）を示します。"
+    },
+    {
+      "id": "identifying_dative",
+      "title": "1. 与格の見分け方：「誰に」と「どこに」",
+      "description": "文中の与格を見つけるには、2つの質問をします：",
+      "content": {
+        "questions": [
+          { "question": "Wem?（誰に / 誰のために？）", "explanation": "何かを受け取る人を特定します。", "german": "Ich gebe dem Lehrer das Buch.", "translation": "私は先生に本をあげます。（先生が受取人です）" },
+          { "question": "Wo?（どこに？）", "explanation": "場所を扱う場合、与格は目的地への移動ではなく、静的な位置を表します。", "german": "Das Buch liegt auf dem Tisch.", "translation": "本はテーブルの上にあります。（静的な位置）" }
+        ]
+      }
+    },
+    {
+      "id": "articles_nouns",
+      "title": "2. 冠詞と名詞の変化",
+      "description": "与格は名詞の前に来る語に特定の変化をもたらします。与格の独自のルールは「n複数形」です：与格のほぼすべての複数名詞は末尾に -n を追加しなければなりません（例：die Kinder → den Kindern）。",
+      "content": {
+        "declension_table": {
+          "title": "与格の格変化表",
+          "headers": ["性", "定冠詞 (The)", "不定冠詞/所有冠詞 (A/My)", "形容詞語尾 (定冠詞の後)"],
+          "rows": [
+            { "category": "男性名詞", "definite": "dem Vater", "indefinite": "einem Vater", "adjective": "dem netten Vater" },
+            { "category": "女性名詞", "definite": "der Mutter", "indefinite": "einer Mutter", "adjective": "der netten Mutter" },
+            { "category": "中性名詞", "definite": "dem Kind", "indefinite": "einem Kind", "adjective": "dem netten Kind" },
+            { "category": "複数形", "definite": "den Eltern", "indefinite": "(meinen) Eltern", "adjective": "den netten Eltern" }
+          ]
+        },
+        "adjective_note": "dieser（この）、jener（あの）、alle（すべて）のような語を使う場合、与格では形容詞は常に -en で終わります。これは一貫した「弱変化」を提供し、覚えやすくなります。"
+      }
+    },
+    {
+      "id": "dative_pronouns",
+      "title": "3. 与格の代名詞",
+      "description": "名前や名詞を「私に」「あなたに」「彼に」に置き換える場合、代名詞の与格形を使わなければなりません。",
+      "content": {
+        "pronoun_table": {
+          "title": "与格での代名詞の変化",
+          "rows": [
+            { "nominative": "ich", "accusative": "mir", "meaning": "私に" },
+            { "nominative": "du", "accusative": "dir", "meaning": "あなたに" },
+            { "nominative": "er", "accusative": "ihm", "meaning": "彼に" },
+            { "nominative": "sie", "accusative": "ihr", "meaning": "彼女に" },
+            { "nominative": "es", "accusative": "ihm", "meaning": "それに" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "私たちに" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "あなたたちに" },
+            { "nominative": "sie/Sie", "accusative": "ihnen/Ihnen", "meaning": "彼らに / あなた様に" }
+          ]
+        },
+        "example": {
+          "german": "Er hilft mir.",
+          "translation": "彼は私を助けてくれます。",
+          "note": "\"Er hilft mich\"（対格）とは言えません。helfen は「与格動詞」なので \"Er hilft mir\" と言わなければなりません。"
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. 与格を使う場面",
+      "description": "与格には3つの主なきっかけがあります：",
+      "content": {
+        "triggers": [
+          {
+            "id": "dative_verbs",
+            "title": "A. 与格動詞",
+            "description": "ドイツ語では一部の動詞が「与格専用」です。英語の翻訳に「to」や「for」がなくても、これらの動詞は論理的に人との相互作用を意味します。",
+            "subcategories": [
+              { "label": "対人関係", "verbs": "danken（感謝する）、helfen（助ける）、gratulieren（祝う）", "german": "Ich danke dir.", "translation": "私はあなたに感謝します。" },
+              { "label": "意見/感情", "verbs": "gefallen（気に入る）、gehören（〜に属する）、passen（合う）", "german": "Das Auto gehört dem Mann.", "translation": "その車はその男性のものです。" }
+            ]
+          },
+          {
+            "id": "dative_prepositions",
+            "title": "B. 与格前置詞",
+            "description": "動作に関係なく、常に与格を必要とする特定の前置詞グループがあります。",
+            "prepositions": ["aus（〜から）", "bei（〜のところで）", "mit（〜と一緒に）", "nach（〜の後）", "seit（〜以来）", "von（〜から）", "zu（〜へ）"],
+            "examples": [
+              { "german": "Ich gehe mit dem Hund spazieren.", "translation": "私は犬と散歩に行きます。" },
+              { "german": "Er wohnt bei seiner Tante.", "translation": "彼は叔母の家に住んでいます。" }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. 二方向前置詞（Wechselpräpositionen）",
+            "description": "これらの前置詞（in, an, auf, unter, über, vor, hinter, neben, zwischen）は与格にも対格にもなります。",
+            "rule": "場所（Wo?）には与格を使います：物がその場に留まっている場合。方向（Wohin?）には対格を使います：目標に向かって移動がある場合。",
+            "examples": [
+              { "german": "Das Buch liegt auf dem Tisch.", "translation": "本はテーブルの上にあります — 静止/与格。" },
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "私は本をテーブルの上に置きます — 移動/対格。" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_example",
+      "title": "まとめの例",
+      "description": "一つの文で対格と与格が一緒に使われる例：",
+      "content": {
+        "examples": [
+          {
+            "label": "対格（直接目的語）",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe einen Brief.", "translation": "何を書いていますか？手紙を。" },
+            "explanation": "「手紙」は動作を受ける対象（対格）です。"
+          },
+          {
+            "label": "与格（間接目的語）",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe meinem Bruder einen Brief.", "translation": "誰に書いていますか？兄弟に。" },
+            "explanation": "「兄弟」は恩恵を受ける人（与格）で、「手紙」は対格のままです。"
+          }
+        ]
+      }
+    }
+  ]
+}

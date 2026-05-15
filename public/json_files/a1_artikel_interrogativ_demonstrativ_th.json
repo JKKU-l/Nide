@@ -1,0 +1,173 @@
+{
+  "title": "Artikel: interrogativ und demonstrativ (ความเข้าใจพื้นฐาน: Interrogative กับ Demonstrative)",
+  "description": "ความแตกต่างระหว่าง Interrogative articles (welch-) ที่ใช้ถาม \"อันไหน?\" และ Demonstrative articles (dies-) ที่ใช้ชี้ \"อันนี้/คนนี้\"",
+  "sections": [
+    {
+      "id": "concept_understanding",
+      "title": "ความเข้าใจพื้นฐาน: Interrogative (คำถาม) vs. Demonstrative (คำบ่งชี้)",
+      "description": "เรียนรู้ความแตกต่างระหว่างการถามหาสิ่งเฉพาะเจาะจงกับการชี้บ่งสิ่งเฉพาะเจาะจง",
+      "content": {
+        "definitions": [
+          {
+            "type": "Interrogative (Welcher-)",
+            "description": "ใช้เพื่อถามถึงบุคคลหรือสิ่งของเฉพาะเจาะจงจากกลุ่มคนหรือสิ่งของหลายอย่าง เทียบกับภาษาอังกฤษคือคำว่า \"Which...?\" (อันไหน/คนไหน?)"
+          },
+          {
+            "type": "Demonstrative (Dieser-)",
+            "description": "ใช้เพื่อชี้เฉพาะบุคคลหรือสิ่งของนั้นๆ เทียบกับภาษาอังกฤษคือคำว่า \"This...\" หรือ \"This one\" (อันนี้/คนนี้)"
+          }
+        ],
+        "golden_rule": {
+          "title": "กฎเหล็กสำหรับผู้เรียนระดับ A1",
+          "description": "การผันท้ายเสียงของ \"welch-\" จะต้องสอดคล้องกับท้ายเสียงของ \"dies-\" และคำนำหน้านามแบบชี้เฉพาะ (der/die/das) เสมอ"
+        }
+      }
+    },
+    {
+      "id": "nominative_case",
+      "title": "1. Nominative Case (กรณีประธาน)",
+      "description": "ใช้สำหรับประธานของประโยค (ผู้กระทำ หรือสิ่งของที่ถูกกล่าวถึง)",
+      "content": {
+        "genders": [
+          {
+            "gender": "เพศชาย (der)",
+            "ending": "ใช้การลงท้ายด้วย -er",
+            "example_question": "Welcher Mantel ist schön?",
+            "example_question_english": "เสื้อโค้ทตัวไหนสวย?",
+            "example_response": "Dieser Mantel.",
+            "example_response_english": "เสื้อโค้ทตัวนี้"
+          },
+          {
+            "gender": "เพศกลาง (das)",
+            "ending": "ใช้การลงท้ายด้วย -es",
+            "example_question": "Welches Kleid gefällt dir?",
+            "example_question_english": "ชุดเดรสชุดไหนที่คุณชอบ?",
+            "example_response": "Dieses Kleid.",
+            "example_response_english": "ชุดเดรสชุดนี้"
+          },
+          {
+            "gender": "เพศหญิง (die)",
+            "ending": "ใช้การลงท้ายด้วย -e",
+            "example_question": "Welche Hose ist das?",
+            "example_question_english": "นั่นคือกางเกงตัวไหน?",
+            "example_response": "Diese Hose.",
+            "example_response_english": "กางเกงตัวนี้"
+          },
+          {
+            "gender": "พหูพจน์ (die)",
+            "ending": "ใช้การลงท้ายด้วย -e",
+            "example_question": "Welche Schuhe sind neu?",
+            "example_question_english": "รองเท้าคู่ไหนที่เป็นคู่ใหม่?",
+            "example_response": "Diese Schuhe.",
+            "example_response_english": "รองเท้าพวกนี้"
+          }
+        ]
+      }
+    },
+    {
+      "id": "accusative_case",
+      "title": "2. Accusative Case (กรณีกรรมตรง)",
+      "description": "ใช้สำหรับกรรมตรงของประโยค (สิ่งที่ถูกกระทำ) ข้อควรระวัง: จะมีการเปลี่ยนแปลงเฉพาะ \"เพศชาย\" เท่านั้นเมื่อเทียบกับ Nominative",
+      "content": {
+        "genders": [
+          {
+            "gender": "เพศชาย (den)",
+            "ending": "ใช้การลงท้ายด้วย -en",
+            "example_question": "Welchen Anzug kaufst du?",
+            "example_question_english": "คุณกำลังจะซื้อชุดสูทชุดไหน?",
+            "example_response": "Ich kaufe diesen Anzug.",
+            "example_response_english": "ฉันกำลังซื้อชุดสูทชุดนี้"
+          },
+          {
+            "gender": "เพศกลาง, เพศหญิง และพหูพจน์",
+            "ending": "ท้ายเสียงยังคงเหมือนเดิมเหมือนในกรณี Nominative ทุกประการ (-es, -e, -e)",
+            "example": "Ich nehme dieses T-Shirt.",
+            "example_english": "ฉันเอาเสื้อยืดตัวนี้"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_case",
+      "title": "3. Dative Case (กรณีกรรมรอง / หลังคำบุพบท)",
+      "description": "ใช้หลังจากคำบุพบทบางคำ (เช่น mit, von, zu, aus, bei) หรือใช้สำหรับกรรมรอง",
+      "content": {
+        "genders": [
+          {
+            "gender": "เพศชาย และ เพศกลาง (dem)",
+            "ending": "ทั้งคู่ใช้การลงท้ายด้วย -em",
+            "example_question": "Zu welchem Arzt gehst du?",
+            "example_question_english": "คุณจะไปหาหมอคนไหน?",
+            "example_response": "Zu diesem Arzt.",
+            "example_response_english": "ไปหาหมอคนนี้",
+            "note": "ตัวอย่างการใช้กับคำบุพบท \"zu\" (ไปหา)"
+          },
+          {
+            "gender": "เพศหญิง (der)",
+            "ending": "ใช้การลงท้ายด้วย -er",
+            "note": "หมายเหตุ: จุดนี้มักจะทำให้ผู้เริ่มต้นสับสนเพราะดูเหมือนเพศชาย แต่ในกรณี Dative เพศหญิงจะเปลี่ยนเป็น der",
+            "example_question": "Mit welcher Freundin gehst du?",
+            "example_question_english": "คุณจะไปกับเพื่อนผู้หญิงคนไหน?",
+            "example_response": "Mit dieser Freundin.",
+            "example_response_english": "ไปกับเพื่อนคนนี้",
+            "preposition_note": "ตัวอย่างการใช้กับคำบุพบท \"mit\" (กับ)"
+          },
+          {
+            "gender": "พหูพจน์ (den + n)",
+            "ending": "ใช้การลงท้ายด้วย -en",
+            "example_question": "Welchen Kindern hast du geholfen?",
+            "example_question_english": "คุณได้ช่วยเหลือเด็กๆ กลุ่มไหน?",
+            "example_response": "Diesen Kindern.",
+            "example_response_english": "เด็กๆ กลุ่มนี้"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_endings",
+      "title": "ทำไมเราต้องมีการผันท้ายเสียงเหล่านี้?",
+      "description": "ภาษาเยอรมันใช้การลงท้ายแบบเฉพาะเจาะจงเพื่อเป็น \"สัญญาณ\" (Signals) เนื่องจากลำดับคำในประโยคภาษาเยอรมันมีความยืดหยุ่น การลงท้ายเหล่านี้จะช่วยบอกผู้ฟังว่าใครกำลังทำอะไร",
+      "content": {
+        "signals": [
+          {
+            "type": "สัญญาณบอกเพศ (Gender Signal)",
+            "description": "ตัวอย่างเช่น -er ใน Welcher บอกให้รู้ว่าคำนามนั้นเป็นเพศชาย (der) ส่วน -es ใน Welches บอกว่าเป็นเพศกลาง (das)"
+          },
+          {
+            "type": "สัญญาณบอกหน้าที่ (Function Signal)",
+            "description": "หากคุณเห็นคำว่า Welchen คุณจะทราบได้ทันทีว่าคำนามเพศชายนั้นทำหน้าที่เป็นกรรมของประโยค (Accusative) หรือใช้กับคำนามพหูพจน์ในกรณี Dative"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_tip",
+      "title": "เคล็ดลับสรุปสำหรับ A1",
+      "description": "ให้คิดว่า Welch- และ Dies- เป็น \"คำกระจกเงา\" (Mirror words) ท้ายเสียงที่คุณใช้ในคำถาม มักจะสะท้อนหรือเลียนแบบท้ายเสียงในคำตอบและคำนำหน้านามชี้เฉพาะเสมอ:",
+      "content": {
+        "examples": [
+          {
+            "article": "Der Mann",
+            "question": "Welcher Mann?",
+            "answer": "Dieser Mann."
+          },
+          {
+            "article": "Das Kind",
+            "question": "Welches Kind?",
+            "answer": "Dieses Kind."
+          },
+          {
+            "article": "Die Frau",
+            "question": "Welche Frau?",
+            "answer": "Diese Frau."
+          },
+          {
+            "article": "Den Mann (Accusative)",
+            "question": "Welchen Mann?",
+            "answer": "Diesen Mann."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "title": "Personalpronomen",
+  "subtitle": "Personal Pronouns in the Nominative Case",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "၁။ Nominative Case (ကတ္တားနေရာ) ရှိ နာမ်စားများ",
+      "description": "ဂျာမန်နာမ်စားတွေကို ပြောသူ၊ နားထောင်သူနဲ့ တခြားသူ (Person) အလိုက်၊ ကိန်း (နံပါတ်) အလိုက် အောက်ပါအတိုင်း ခွဲခြားထားပါတယ်။",
+      "content": {
+        "table": {
+          "headers": ["အဆင့်", "Singular (အနည်းကိန်း)", "Plural (အများကိန်း)"],
+          "rows": [
+            ["1st Person (ကိုယ်တိုင်)", "ich (ကျွန်တော်/ကျွန်မ)", "wir (ကျွန်တော်တို့/ကျွန်မတို့)"],
+            ["2nd Person (ခင်မင်သူ)", "du (မင်း/နင်)", "ihr (မင်းတို့/နင်တို့)"],
+            ["2nd Person (ယဉ်ကျေးမှု)", "Sie (လူကြီးမင်း/ခင်ဗျား)", "Sie (လူကြီးမင်းတို့)"],
+            ["3rd Person (ကျား)", "er (သူ)", ""],
+            ["3rd Person (မ)", "sie (သူမ)", "sie (သူတို့)"],
+            ["3rd Person (ကြား)", "es (၎င်း/အရာဝတ္ထု)", ""]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pronouns_for_nouns",
+      "title": "၂။ အရာဝတ္ထုများအတွက် နာမ်စားအသုံးပြုပုံ",
+      "description": "အင်္ဂလိပ်စာမှာ အရာဝတ္ထုဆိုရင် \"it\" တစ်ခုတည်း သုံးပေမဲ့၊ ဂျာမန်မှာတော့ အရာဝတ္ထုရဲ့ Grammatical Gender (လိင်) အပေါ် မူတည်ပြီး ရွေးချယ်ရပါတယ်။",
+      "content": {
+        "examples": [
+          {
+            "gender": "Masculine (der)",
+            "example": "der Löffel (ဇွန်း) ကို er လို့ သုံးရပါတယ်။",
+            "explanation": "ဥပမာ - der Löffel (ဇွန်း) ကို er လို့ သုံးရပါတယ်။"
+          },
+          {
+            "gender": "Feminine (die)",
+            "example": "die Gabel (ခက်ရင်း) ကို sie လို့ သုံးရပါတယ်။",
+            "explanation": "ဥပမာ - die Gabel (ခက်ရင်း) ကို sie လို့ သုံးရပါတယ်။"
+          },
+          {
+            "gender": "Neuter (das)",
+            "example": "das Messer (ဓား) ကို es လို့ သုံးရပါတယ်။",
+            "explanation": "ဥပမာ - das Messer (ဓား) ကို es လို့ သုံးရပါတယ်။"
+          },
+          {
+            "gender": "Plural (die)",
+            "example": "die Tassen (ခွက်များ) ဆိုရင်တော့ sie (they) လို့ သုံးရပါတယ်။",
+            "explanation": "Plural (die): အများကိန်းဖြစ်တဲ့ die Tassen (ခွက်များ) ဆိုရင်တော့ sie (they) လို့ သုံးပါယ်။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pronoun_combination_rules",
+      "title": "၃။ နာမ်စားများ ပေါင်းစပ်ခြင်းဆိုင်ရာ စည်းမျဉ်းများ",
+      "description": "လူအများအပြားအကြောင်း ပြောတဲ့အခါ ဘယ်နာမ်စား သုံးရမလဲဆိုတာ ဒီယုတ္တိအတိုင်း စဉ်းစားပါ။",
+      "content": {
+        "rules": [
+          {
+            "rule": "ich + တခြားသူ = wir (ငါနဲ့ တခြားသူဆိုတော့ \"ငါတို့\" ဖြစ်သွားတာပါ)",
+            "example": "ich + တခြားသူ = wir (ငါနဲ့ တခြားသူဆိုတော့ \"ငါတို့\" ဖြစ်သွားတာပါ)"
+          },
+          {
+            "rule": "du + တခြားသူ (ich မပါရ) = ihr (မင်းနဲ့ တခြားသူဆိုတော့ \"မင်းတို့\" ဖြစ်သွားတာပါ)",
+            "example": "du + တခြားသူ (ich မပါရ) = ihr (မင်းနဲ့ တခြားသူဆိုတော့ \"မင်းတို့\" ဖြစ်သွားတာပါ)"
+          },
+          {
+            "rule": "er/sie/es များ စုပေါင်းခြင်း = sie (သူတို့)",
+            "example": "er/sie/es များ စုပေါင်းခြင်း = sie (သူတို့)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_examples",
+      "title": "၄။ လက်တွေ့အသုံးချပုံ ဥပမာများ",
+      "description": "လက်တွေ့အသုံးချပုံ ဥပမာများ",
+      "content": {
+        "conversational_context": {
+          "title": "က။ စကားပြောဆိုမှု (Conversational)",
+          "examples": [
+            {
+              "german": "Wir sprechen Deutsch.",
+              "english": "ကျွန်တော်တို့ ဂျာမန်စကား ပြောကြသည်။"
+            },
+            {
+              "german": "Haben Sie Zeit?",
+              "english": "လူကြီးမင်း အချိန်ရပါသလား? - ယဉ်ကျေးမှုအရ မေးမြန်းခြင်း"
+            },
+            {
+              "german": "Hilfst du mir?",
+              "english": "မင်း ငါ့ကို ကူညီမလား? - ရင်းနှီးသူကို မေးမြန်းခြင်း"
+            },
+            {
+              "german": "Er ist Programmierer.",
+              "english": "သူက ပရိုဂရမ်မာ ဖြစ်တယ်။"
+            }
+          ]
+        },
+        "replacing_names_objects": {
+          "title": "ခ။ အမည်နှင့် အရာဝတ္ထုများကို အစားထိုးခြင်း",
+          "examples": [
+            {
+              "original": "Herr Gupta (ဦးဂုပ္ပတ္တ)",
+              "replacement": "Er kommt aus Indien.",
+              "english": "သူ အိန္ဒိယက လာတာပါ။"
+            },
+            {
+              "original": "Der Schrank (ဘီဒို)",
+              "replacement": "Er kommt aus Italien.",
+              "english": "၎င်းသည် အီတလီမှ လာသည်။ - Schrank သည် der ဖြစ်၍ er သုံးခြင်းဖြစ်သည်"
+            },
+            {
+              "original": "Das Regal (စင်)",
+              "replacement": "Es kostet 49 Euro.",
+              "english": "၎င်းက ယူရို ၄၉ ကျသင့်သည်။"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "💡 အရေးကြီးသော အကြံပြုချက် (Pro-Tip)",
+      "description": "အရေးကြီးသော အကြံပြုချက် (Pro-Tip)",
+      "content": {
+        "guidelines": [
+          {
+            "type": "Formal",
+            "pronoun": "Sie (အကြီးအက္ခရာဖြင့်)",
+            "usage": "ကိုယ်မသိတဲ့လူကြီးတွေ၊ ဆရာတွေ ဒါမှမဟုတ် စီးပွားရေးလုပ်ငန်းခွင်တွေမှာ အမြဲသုံးရပါမယ်။"
+          },
+          {
+            "type": "Informal",
+            "pronoun": "du (အသေးအက္ခရာ)",
+            "usage": "သူငယ်ချင်း၊ မိသားစုနဲ့ ကလေးတွေအတွက်ပဲ သုံးပါ။"
+          }
+        ]
+      }
+    }
+  ]
+}

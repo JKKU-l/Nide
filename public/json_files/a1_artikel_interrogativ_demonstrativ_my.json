@@ -1,0 +1,173 @@
+{
+  "title": "Artikel: interrogativ und demonstrativ (အမေးစကားလုံး နှင့် အညွှန်းစကားလုံး)",
+  "description": "အမေးစကားလုံး (welch-) နှင့် အညွှန်းစကားလုံး (dies-) တို့ရဲ့ ကွာဟချက်ကို နားလည်ပါ။",
+  "sections": [
+    {
+      "id": "concept_understanding",
+      "title": "အမေးစကားလုံး နှင့် အညွှန်းစကားလုံး",
+      "description": "သီးသန့်ပစ္စည်းကို မေးမြန်းတာနဲ့ လက်ညှိုးညွှန်ပြတာရဲ့ ကွာဟချက်ကို လေ့လာပါ။",
+      "content": {
+        "definitions": [
+          {
+            "type": "Interrogative (Welcher-)",
+            "description": "အုပ်စုတစ်ခုထဲကမှ သီးသန့်လူ သို့မဟုတ် ပစ္စည်းတစ်ခုခုကို ရွေးချယ်မေးမြန်းတဲ့အခါ သုံးပါတယ်။ အင်္ဂလိပ်လို \"Which...?\" (ဘယ်...လဲ) လို့ အဓိပ္ပာယ်ရပါတယ်။"
+          },
+          {
+            "type": "Demonstrative (Dieser-)",
+            "description": "သီးသန့်လူ သို့မဟုတ် ပစ္စည်းတစ်ခုကို လက်ညှိုးညွှန်ပြတဲ့အခါ သုံးပါတယ်။ အင်္ဂလိပ်လို \"This...\" (ဒီ...) သို့မဟုတ် \"This one\" (ဒီတစ်ခု) လို့ အဓိပ္ပာယ်ရပါတယ်။"
+          }
+        ],
+        "golden_rule": {
+          "title": "A1 လေ့လာသူများအတွက် ရွှေစည်းမျဉ်း",
+          "description": "\"welch-\" ရဲ့ အမြီး (Ending) ဟာ \"dies-\" ရဲ့ အမြီး၊ နောက်ပြီး သက်ဆိုင်ရာ Article (der/die/das) တို့နဲ့ ထပ်တူကျရပါမယ်။"
+        }
+      }
+    },
+    {
+      "id": "nominative_case",
+      "title": "၁။ Nominative Case (ပြုလုပ်သူ/ကတ္တား)",
+      "description": "Nominative ကို ဝါကျတစ်ခုရဲ့ ကတ္တား (အကြောင်းအရာ သို့မဟုတ် လုပ်ဆောင်သူ) နေရာမှာ သုံးပါတယ်။",
+      "content": {
+        "genders": [
+          {
+            "gender": "Masculine (der - ပုလ္လိင်)",
+            "ending": "အမြီးတွင် -er ကိုသုံးပါ",
+            "example_question": "Welcher Mantel ist schön?",
+            "example_question_english": "ဘယ်ကုတ်အင်္ကျီက လှတာလဲ?",
+            "example_response": "Dieser Mantel.",
+            "example_response_english": "ဒီကုတ်အင်္ကျီ။"
+          },
+          {
+            "gender": "Neutral (das - နပုလ္လိင်)",
+            "ending": "အမြီးတွင် -es ကိုသုံးပါ",
+            "example_question": "Welches Kleid gefällt dir?",
+            "example_question_english": "ဘယ်ဂါဝန်ကို မင်းသဘောကျလဲ?",
+            "example_response": "Dieses Kleid.",
+            "example_response_english": "ဒီဂါဝန်။"
+          },
+          {
+            "gender": "Feminine (die - ဣတ္ထိလိင်)",
+            "ending": "အမြီးတွင် -e ကိုသုံးပါ",
+            "example_question": "Welche Hose ist das?",
+            "example_question_english": "ဒါက ဘယ်ဘောင်းဘီလဲ?",
+            "example_response": "Diese Hose.",
+            "example_response_english": "ဒီဘောင်းဘီ။"
+          },
+          {
+            "gender": "Plural (die - အများကိန်း)",
+            "ending": "အမြီးတွင် -e ကိုသုံးပါ",
+            "example_question": "Welche Schuhe sind neu?",
+            "example_question_english": "ဘယ်ဖိနပ်တွေက အသစ်လဲ?",
+            "example_response": "Diese Schuhe.",
+            "example_response_english": "ဒီဖိနပ်တွေ။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "accusative_case",
+      "title": "၂။ Accusative Case (ခံရသူ/ကံ)",
+      "description": "Accusative ကို တိုက်ရိုက်ခံရသူ (Direct Object) နေရာမှာ သုံးပါတယ်။ Masculine (ပုလ္လိင်) တစ်ခုတည်းသာ Nominative နှင့်မတူဘဲ ပြောင်းလဲသွားတာ ကို သတိပြုပါ။",
+      "content": {
+        "genders": [
+          {
+            "gender": "Masculine (den)",
+            "ending": "အမြီးတွင် -en ကိုသုံးပါ",
+            "example_question": "Welchen Anzug kaufst du?",
+            "example_question_english": "မင်းဘယ်ဝတ်စုံကို ဝယ်မှာလဲ?",
+            "example_response": "Ich kaufe diesen Anzug.",
+            "example_response_english": "ကျွန်တော် ဒီဝတ်စုံကို ဝယ်ပါမယ်။"
+          },
+          {
+            "gender": "Neutral, Feminine, and Plural",
+            "ending": "၎င်းတို့သည် Nominative အတိုင်းပင် ပြောင်းလဲမှုမရှိဘဲ (-es, -e, -e) ဆက်ရှိနေပါမယ်",
+            "example": "Ich nehme dieses T-Shirt.",
+            "example_english": "ကျွန်တော် ဒီတီရှပ်ကို ယူပါမယ်။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_case",
+      "title": "၃။ Dative Case (သွယ်ဝိုက်ခံရသူ သို့မဟုတ် ဝိဘတ်နောက်လိုက်)",
+      "description": "Dative ကို ဝိဘတ်အချို့ (ဥပမာ- mit, von, zu, aus, bei) ရဲ့ နောက်မှာ သို့မဟုတ် သွယ်ဝိုက်ခံရသူ နေရာမှာ သုံးပါတယ်။",
+      "content": {
+        "genders": [
+          {
+            "gender": "Masculine & Neutral (dem)",
+            "ending": "နှစ်မျိုးလုံးအတွက် အမြီးတွင် -em ကိုသုံးပါ",
+            "example_question": "Zu welchem Arzt gehst du?",
+            "example_question_english": "မင်းဘယ်ဆရာဝန်ဆီ သွားမှာလဲ?",
+            "example_response": "Zu diesem Arzt.",
+            "example_response_english": "ဒီဆရာဝန်ဆီ သွားမှာပါ။",
+            "note": "ဥပမာ (ဝိဘတ် \"zu\" နှင့်)"
+          },
+          {
+            "gender": "Feminine (der)",
+            "ending": "အမြီးတွင် -er ကိုသုံးပါ",
+            "note": "မှတ်ချက်- Dative မှာ feminine က der ဖြစ်သွားတဲ့အတွက် Masculine နဲ့ မှားတတ်လို့ သတိထားပါ",
+            "example_question": "Mit welcher Freundin gehst du?",
+            "example_question_english": "မင်းဘယ်သူငယ်ချင်း(မ)နဲ့ သွားမှာလဲ?",
+            "example_response": "Mit dieser Freundin.",
+            "example_response_english": "ဒီသူငယ်ချင်း(မ)နဲ့ သွားမှာပါ။",
+            "preposition_note": "ဥပမာ (ဝိဘတ် \"mit\" နှင့်)"
+          },
+          {
+            "gender": "Plural (den + n)",
+            "ending": "အမြီးတွင် -en ကိုသုံးပါ",
+            "example_question": "Welchen Kindern hast du geholfen?",
+            "example_question_english": "မင်းဘယ်ကလေးတွေကို ကူညီခဲ့တာလဲ?",
+            "example_response": "Diesen Kindern.",
+            "example_response_english": "ဒီကလေးတွေကိုပါ။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_endings",
+      "title": "ဘာကြောင့် ဒီအမြီး (Endings) တွေကို သုံးရတာလဲ?",
+      "description": "ဂျာမန်စကားမှာ ဒီအမြီးတွေကို \"အချက်ပြချက် (Signals)\" အဖြစ် သုံးပါတယ်။ ဂျာမန်စာမှာ စကားလုံးအစီအစဉ်က ပြောင်းလဲနိုင်တာကြောင့် ဘယ်သူက လုပ်ဆောင်သူ၊ ဘယ်သူက အလုပ်ခံရသူဆိုတာကို ဒီအမြီးတွေက နားထောင်သူကို အတိအကျ ပြောပြပေးပါတယ်။",
+      "content": {
+        "signals": [
+          {
+            "type": "ကျား/မ ခွဲခြားတဲ့ အချက်ပြမှု (Gender Signal)",
+            "description": "Welcher ထဲက -er က နာမ်ဟာ Masculine ဖြစ်ကြောင်း ပြပါတယ်။ Welches ထဲက -es က နပုလ္လိင် (Neutral) ဖြစ်ကြောင်း ပြပါတယ်။"
+          },
+          {
+            "type": "တာဝန် ခွဲခြားတဲ့ အချက်ပြမှု (Function Signal)",
+            "description": "အကယ်၍ Welchen လို့ မြင်လိုက်တာနဲ့ အဲဒီနာမ်ဟာ Masculine (ပုလ္လိင်) ဖြစ်ပြီး ဝါကျရဲ့ အလုပ်ခံရသူ (Accusative) နေရာမှာ ရှိနေတယ်ဆိုတာ ချက်ချင်း သိနိုင်ပါတယ်။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_tip",
+      "title": "A1 အတွက် အကျဉ်းချုပ် အကြံပြုချက်",
+      "description": "Welch- နဲ့ Dies- ကို \"မှန်တင်ခုံ\" လို့ မှတ်ထားပါ။ မေးခွန်းမှာ သုံးလိုက်တဲ့ အမြီးဟာ အဖြေမှာ ပြန်သုံးမယ့် စကားလုံးနဲ့ ပုံစံတူ (Mirror) ဖြစ်နေရပါမယ်။",
+      "content": {
+        "examples": [
+          {
+            "article": "Der Mann",
+            "question": "Welcher Mann?",
+            "answer": "Dieser Mann."
+          },
+          {
+            "article": "Das Kind",
+            "question": "Welches Kind?",
+            "answer": "Dieses Kind."
+          },
+          {
+            "article": "Die Frau",
+            "question": "Welche Frau?",
+            "answer": "Diese Frau."
+          },
+          {
+            "article": "Den Mann (Accusative)",
+            "question": "Welchen Mann?",
+            "answer": "Diesen Mann."
+          }
+        ]
+      }
+    }
+  ]
+}

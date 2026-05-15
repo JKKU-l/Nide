@@ -1,0 +1,205 @@
+{
+  "title": "Dativ (Cách 3 - Cách cho/giao)",
+  "description": "Cách chia biến cách Dative (Cách 3) thường được sử dụng cho tân ngữ gián tiếp (người nhận được một thứ gì đó) hoặc đứng sau các giới từ cụ thể như mit (với), bei (tại/ở cùng), và zu (đến).",
+  "sections": [
+    {
+      "id": "article_transformation",
+      "title": "1. Sự biến đổi cốt lõi: Cách mạo từ thay đổi",
+      "description": "Trong cách Dative, các mạo từ (xác định và không xác định) sẽ thay đổi hình thái dựa trên giống của danh từ.",
+      "content": {
+        "masculine_neutral": {
+          "title": "Giống đực (Masculine) và Giống trung (Neutral)",
+          "description": "Hai giống này có cách chia giống hệt nhau trong Dative. Đối với danh từ giống đực (der) và giống trung (das), mạo từ xác định \"the\" trở thành dem. Mạo từ không xác định \"a\" trở thành einem, và phủ định \"no/none\" trở thành keinem.",
+          "examples": [
+            {
+              "english": "Tôi đi cùng người đàn ông.",
+              "german": "Ich gehe mit dem Mann.",
+              "note": "Giống đực"
+            },
+            {
+              "english": "Tôi chơi với một đứa trẻ.",
+              "german": "Ich spiele mit einem Kind.",
+              "note": "Giống trung"
+            }
+          ]
+        },
+        "feminine": {
+          "title": "Giống cái (Feminine)",
+          "description": "Đối với danh từ giống cái (die), mạo từ xác định \"the\" trở thành der. Mạo từ không xác định \"a\" trở thành einer, và phủ định là keiner. Điều này thường gây nhầm lẫn cho người học vì der trông giống như giống đực, nhưng trong cách Dative, nó hoàn toàn là giống cái.",
+          "examples": [
+            {
+              "english": "Tôi nói chuyện với người phụ nữ.",
+              "german": "Ich spreche mit der Frau."
+            },
+            {
+              "english": "Tôi đi du lịch với một người bạn gái.",
+              "german": "Ich reise mit einer Freundin."
+            }
+          ]
+        },
+        "plural": {
+          "title": "Số nhiều (Plural)",
+          "description": "Đối với các danh từ số nhiều (die), mạo từ xác định trở thành den. Không có mạo từ không xác định cho số nhiều, nhưng dạng phủ định sẽ là keinen.",
+          "crucial_rule": "Quy tắc quan trọng: Trong cách Dative số nhiều, bạn phải thêm đuôi -n vào cuối chính danh từ đó (trừ khi danh từ đã kết thúc bằng -n hoặc -s).",
+          "examples": [
+            {
+              "english": "Tôi nói chuyện với những vị khách.",
+              "german": "Ich spreche mit den Gästen.",
+              "note": "Lưu ý chữ 'n' thêm vào sau Gästen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "using_mit",
+      "title": "2. Sử dụng giới từ \"Mit\" (Phương tiện và Con người)",
+      "description": "Giới từ mit luôn luôn đi kèm với cách Dative. Đây là lý do tại sao khi bạn nói về cách bạn di chuyển hoặc bạn đi cùng ai, các mạo từ sẽ thay đổi.",
+      "content": {
+        "logic": "Logic: Khi thấy mit, hãy kiểm tra giới tính của phương tiện hoặc người đi sau nó.",
+        "examples": [
+          {
+            "noun": "Der Zug (Giống đực)",
+            "sentence": "Ich fahre mit dem Zug.",
+            "translation": "Tôi đi bằng tàu hỏa."
+          },
+          {
+            "noun": "Die U-Bahn (Giống cái)",
+            "sentence": "Ich fahre mit der U-Bahn.",
+            "translation": "Tôi đi bằng tàu điện ngầm."
+          },
+          {
+            "noun": "Das Auto (Giống trung)",
+            "sentence": "Ich fahre mit dem Auto.",
+            "translation": "Tôi đi bằng ô tô."
+          },
+          {
+            "noun": "Die Rollschuhe (Số nhiều)",
+            "sentence": "Ich fahre mit den Rollschuhen.",
+            "translation": "Tôi đi bằng giày trượt patin."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_verbs",
+      "title": "3. Động từ đi với Dative: Tặng và Giúp đỡ",
+      "description": "Một số động từ mặc định yêu cầu cách Dative cho người tham gia vì người đó là \"người nhận\" hành động. Các động từ phổ biến bao gồm helfen (giúp đỡ), gratulieren (chúc mừng), và schenken (tặng quà).",
+      "content": {
+        "helfern": {
+          "verb": "Helfen (Giúp đỡ)",
+          "examples": [
+            {
+              "english": "Cô ấy giúp một đồng nghiệp (nữ).",
+              "german": "Sie hilft einer Kollegin."
+            },
+            {
+              "english": "Cô ấy giúp đỡ bố mẹ (số nhiều).",
+              "german": "Sie hilft den Eltern."
+            }
+          ]
+        },
+        "gratulieren": {
+          "verb": "Gratulieren (Chúc mừng)",
+          "examples": [
+            {
+              "english": "Tôi chúc mừng người cha.",
+              "german": "Ich gratuliere dem Vater."
+            },
+            {
+              "english": "Tôi chúc mừng một người bạn (nữ).",
+              "german": "Ich gratuliere einer Freundin."
+            }
+          ]
+        },
+        "schenken_geben": {
+          "verb": "Schenken / Geben (Tặng / Cho)",
+          "description": "Khi bạn đưa thứ gì đó cho ai đó, người nhận sẽ ở cách Dative và vật được đưa sẽ ở cách Accusative.",
+          "examples": [
+            {
+              "english": "Cô ấy cho con mèo (die Katze) một con cá.",
+              "german": "Sie gibt der Katze einen Fisch."
+            },
+            {
+              "english": "Cô ấy cho em bé (das Baby) sữa.",
+              "german": "Sie gibt einem Baby Milch."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "possessive_articles",
+      "title": "4. Đại từ sở hữu trong cách Dative",
+      "description": "Các đại từ sở hữu (của tôi, của bạn, của cô ấy, v.v.) tuân theo các quy tắc thêm đuôi y hệt như từ kein hoặc ein.",
+      "content": {
+        "endings": [
+          {
+            "gender": "Đuôi Giống đực/Giống trung",
+            "ending": "-em",
+            "examples": "meinem, seinem, ihrem"
+          },
+          {
+            "gender": "Đuôi Giống cái",
+            "ending": "-er",
+            "examples": "meiner, seiner, ihrer"
+          },
+          {
+            "gender": "Đuôi Số nhiều",
+            "ending": "-en",
+            "examples": "meinen, seinen, ihren"
+          }
+        ],
+        "example_context": "Nếu bạn đang ở một bữa tiệc và ai đó đến cùng bạn trai của cô ấy: Sie kommt mit ihrem Freund. (ihr + em vì Freund là giống đực, cách Dative). Nếu cô ấy đến cùng các con: Sie kommt mit ihren Kindern. (ihr + en + thêm đuôi 'n' vào danh từ số nhiều)."
+      }
+    },
+    {
+      "id": "location_prepositions",
+      "title": "5. Giới từ chỉ địa điểm (Bei, Zu, Von)",
+      "description": "Giống như mit, các giới từ bei (tại/ở chỗ), zu (đến), và von (từ/của) luôn yêu cầu cách Dative.",
+      "content": {
+        "examples": [
+          {
+            "preposition": "Bei (Ở cùng ai đó)",
+            "sentence": "Ich bleibe bei den Freunden.",
+            "translation": "Tôi ở lại với những người bạn."
+          },
+          {
+            "preposition": "Zu (Đi đến một địa điểm/người nào đó)",
+            "sentence": "Ich gehe zu einem See.",
+            "translation": "Tôi đi đến một cái hồ - giống đực"
+          },
+          {
+            "preposition": "Von (Từ hoặc thuộc về)",
+            "sentence": "Das Auto von dem Freund.",
+            "translation": "Chiếc xe của người bạn"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "6. Mẹo ghi nhớ đuôi mạo từ",
+      "description": "Để nhớ dễ dàng mà không cần bảng biểu, hãy tập trung vào các chữ cái \"tín hiệu\" ở cuối mạo từ Dative:",
+      "content": {
+        "signal_letters": [
+          {
+            "letter": "M",
+            "meaning": "M dành cho Giống đực và Giống trung",
+            "examples": "deM / eineM"
+          },
+          {
+            "letter": "R",
+            "meaning": "R dành cho Giống cái",
+            "examples": "deR / eineR"
+          },
+          {
+            "letter": "N",
+            "meaning": "N dành cho Số nhiều + nhớ thêm đuôi N vào danh từ",
+            "examples": "deN / keineN + thêm đuôi N vào danh từ"
+          }
+        ]
+      }
+    }
+  ]
+}

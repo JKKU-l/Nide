@@ -1,0 +1,282 @@
+{
+  "title": "Verben mit Vokalwechsel",
+  "subtitle": "母音変化動詞",
+  "sections": [
+    {
+      "id": "grammar_rule",
+      "title": "文法規則",
+      "description": "ドイツ語の特定の動詞は、二人称単数（du）および三人称単数（er, sie, es）のとき、語幹の母音が変化します。これを「母音変化動詞」と呼びます。複数形（wir, ihr, sie）や丁寧な形（Sie）では変化しません。",
+      "content": {
+        "table": {
+          "headers": ["人称代名詞", "e → i (例: essen)", "a → ä (例: schlafen)"],
+          "rows": [
+            ["ich (私)", "esse", "schlafe"],
+            ["du (君)", "isst", "schläfst"],
+            ["er/sie/es (彼/彼女)", "isst", "schläft"],
+            ["wir (私たち)", "essen", "schlafen"],
+            ["ihr (君たち)", "esst", "schlaft"],
+            ["sie/Sie (彼ら/貴方)", "essen", "schlafen"]
+          ]
+        },
+        "important_verbs": {
+          "e_to_i_ie": "empfehlen (勧める), essen (食べる), geben (与える), fernsehen (テレビを見る), helfen (助ける), lesen (読む), mitnehmen (持っていく), nehmen (取る), sehen (見る), sprechen (話す), vergessen (忘れる), werden (～になる).",
+          "a_to_ä": "abfahren (出発する), anfangen (始まる), einladen (招待する), einschlafen (寝入る), fahren (行く/運転する), gefallen (気に入る), laufen (走る/歩く), schlafen (眠る), tragen (運ぶ/着る), waschen (洗う)."
+        }
+      }
+    },
+    {
+      "id": "exercise_1",
+      "title": "練習問題 1: 不定詞（辞書形）を書く",
+      "description": "Wie heißt der Infinitiv? 不定詞を書いてください",
+      "content": {
+        "exercises": [
+          {
+            "conjugated": "du gibst",
+            "infinitive": "geben",
+            "translation": "与える"
+          },
+          {
+            "conjugated": "er läuft",
+            "infinitive": "laufen",
+            "translation": "走る"
+          },
+          {
+            "conjugated": "sie hilft",
+            "infinitive": "helfen",
+            "translation": "助ける"
+          },
+          {
+            "conjugated": "du nimmst",
+            "infinitive": "nehmen",
+            "translation": "取る"
+          },
+          {
+            "conjugated": "er wäscht",
+            "infinitive": "waschen",
+            "translation": "洗う"
+          },
+          {
+            "conjugated": "du siehst",
+            "infinitive": "sehen",
+            "translation": "見る"
+          },
+          {
+            "conjugated": "er spricht",
+            "infinitive": "sprechen",
+            "translation": "話す"
+          },
+          {
+            "conjugated": "sie vergisst",
+            "infinitive": "vergessen",
+            "translation": "忘れる"
+          },
+          {
+            "conjugated": "er empfiehlt",
+            "infinitive": "empfehlen",
+            "translation": "勧める"
+          },
+          {
+            "conjugated": "wir lesen",
+            "infinitive": "lesen",
+            "translation": "読む"
+          },
+          {
+            "conjugated": "er isst",
+            "infinitive": "essen",
+            "translation": "食べる"
+          },
+          {
+            "conjugated": "du fährst",
+            "infinitive": "fahren",
+            "translation": "行く/運転する"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_2_3",
+      "title": "練習問題 2 & 3: 対話文の完成",
+      "description": "Ergänzen Sie die Verben (動詞を完成させてください)",
+      "content": {
+        "dialogues": [
+          {
+            "verb": "essen (食べる)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Esst ihr abends immer zusammen?",
+                "english": "君たちは夜いつも一緒に食べているの？"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ja, wir essen zusammen, aber heute nicht. Dimitri isst mit Kunden und die Kinder essen bei Freunden. Und du? Isst du abends mit Roland zusammen?",
+                "english": "はい、私たちは一緒に食べていますが、今日は違います。Dimitriは客と食べていて、子供たちは友達の家で食べています。君は？Rolandと夜一緒に食べているの？"
+              },
+              {
+                "speaker": "Elke",
+                "german": "Ich esse abends nichts und Roland isst nur eine Kleinigkeit.",
+                "english": "私は夜何も食べません、Rolandは少ししか食べません。"
+              }
+            ]
+          },
+          {
+            "verb": "lesen (読む)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Was lest ihr gerne?",
+                "english": "君たちは何を読むのが好き？"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Ich lese gern Romane und Petro liest gar nicht.",
+                "english": "私は小説を読むのが好きで、Petroは全然読みません。"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Das stimmt nicht. Ich lese auch!",
+                "english": "それは違います。私も読みますよ！"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Was liest du denn? Nur Zeitungen oder Kataloge.",
+                "english": "じゃあ何を読んでるの？新聞かカタログだけ？"
+              }
+            ]
+          },
+          {
+            "verb": "nehmen (取る)",
+            "speakers": [
+              {
+                "speaker": "Kellnerin",
+                "german": "Bitte, was nehmen Sie?",
+                "english": "すみません、何になさいますか？"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ich nehme Hähnchen mit Reis. Iliana und Petro, was nehmt ihr?",
+                "english": "私はチキンとライスにします。IlianaとPetro、君たちは何にする？"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Wir nehmen auch ein Schnitzel.",
+                "english": "私たちもシュニッツェルにします。"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Nein, du nimmst ein Schnitzel, aber ich nehme Spaghetti!",
+                "english": "違う、君はシュニッツェルだけど、私はスパゲッティにする！"
+              }
+            ]
+          },
+          {
+            "verb": "schlafen (眠る)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Entschuldigung, ich habe eine Frage. Wie lange schlafen Sie in der Nacht meistens?",
+                "english": "すみません、質問があります。夜は普段どれくらい寝ていますか？"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Wir schlafen meistens ungefähr acht Stunden.",
+                "english": "私たちは普段約8時間寝ています。"
+              },
+              {
+                "speaker": "Dimitri",
+                "german": "Ja, du schläfst immer acht Stunden. Ich schlafe nur sechs Stunden.",
+                "english": "はい、君はいつも8時間寝てる。私は6時間しか寝ない。"
+              }
+            ]
+          },
+          {
+            "verb": "fahren (行く/運転する)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Wie kommen Sie zur Arbeit? Fahren Sie mit der U-Bahn?",
+                "english": "仕事にはどうやって行きますか？地下鉄で行きますか？"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Nein, ich fahre mit dem Auto.",
+                "english": "いいえ、車で行きます。"
+              },
+              {
+                "speaker": "Reporter",
+                "german": "Und ihr, Kinder, wie fahrt ihr?",
+                "english": "君たち子供たちはどうやって行くの？"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Ich fahre immer mit dem Fahrrad. Aber Iliana fährt immer mit dem Bus.",
+                "english": "私はいつも自転車で行きます。でもIlianaはいつもバスで行きます。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_3_claudia",
+      "title": "練習問題 3: Claudias Tag (Claudiaの一日)",
+      "description": "Claudiaの一日についてのテキストを読んでください",
+      "content": {
+        "text": "Claudia steht immer um 6 Uhr auf. Um 7 Uhr isst (essen) sie mit ihrer Familie Frühstück und liest (lesen) die Zeitung. Ihr Mann Dimitri und sie fahren (fahren) mit dem Auto in die Stadt. Da kaufen sie zusammen ein und Dimitri trägt (tragen) alles ins Auto. Claudia läuft (laufen) noch ein bisschen durch die Stadt und Dimitri fährt (fahren) zur Arbeit. Um 11 Uhr nimmt (nehmen) Claudia den Bus zurück nach Hause. Zu Hause wäscht (waschen) sie Wäsche und hilft (helfen) ihrer Mutter. Am Nachmittag gibt (geben) Claudia Deutschunterricht. Sie spricht (sprechen) nur Deutsch mit den Schülern. Die Schüler lesen (lesen) Texte und sehen (sehen) manchmal einen Film. Claudia sieht (sehen) auch gerne Filme."
+      }
+    },
+    {
+      "id": "exercise_4",
+      "title": "練習問題 4: 母音変化の有無",
+      "description": "動詞に母音変化がありますか？",
+      "content": {
+        "exercises": [
+          {
+            "verb": "leben → er lebt",
+            "has_change": "No"
+          },
+          {
+            "verb": "kaufen → er kauft",
+            "has_change": "No"
+          },
+          {
+            "verb": "machen → er macht",
+            "has_change": "No"
+          },
+          {
+            "verb": "lesen → er liest",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "gehen → er geht",
+            "has_change": "No"
+          },
+          {
+            "verb": "waschen → er wäscht",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "laufen → er läuft",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "geben → er gibt",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "verstehen → er versteht",
+            "has_change": "No"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_5",
+      "title": "練習問題 5: 招待状 (Einladung)",
+      "description": "ClaudiaがElkeに送った招待状を読んでください",
+      "content": {
+        "letter": "Liebe Elke,\n\nich lade dich ein. Du fährst erst am Sonntag zurück und schläfst eine Nacht bei uns. Du nimmst am besten bequeme Schuhe mit, dann können wir zusammen laufen. Das gefällt dir doch, oder? Wann kommst du an? Wann bist du dann bei uns? Komm nicht so spät!\n\nViele Grüße, Claudia"
+      }
+    }
+  ]
+}

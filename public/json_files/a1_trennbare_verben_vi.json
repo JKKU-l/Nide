@@ -1,0 +1,133 @@
+{
+  "title": "Tìm hiểu về Động từ tách (Trennbare Verben)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Động từ tách là gì?",
+      "description": "Trong tiếng Đức, một số động từ có một tiền tố (phần từ ngắn đứng đầu) đi kèm. Tiền tố này làm thay đổi ý nghĩa của động từ gốc. Chúng được gọi là \"Động từ tách\" vì tiền tố sẽ \"tách rời\" khỏi động từ chính trong một số cấu trúc câu nhất định.",
+      "content": {
+        "description": "Tiền tố làm thay đổi ý nghĩa của động từ và trong câu bình thường sẽ chuyển xuống cuối câu."
+      }
+    },
+    {
+      "id": "basic_structure",
+      "title": "1. Cấu trúc cơ bản (Câu trần thuật)",
+      "description": "Khi bạn sử dụng động từ tách trong một câu bình thường, động từ sẽ chia làm hai phần:",
+      "content": {
+        "structure": {
+          "parts": [
+            "Phần động từ chính: Đứng ở Vị trí thứ 2 (được chia theo chủ ngữ).",
+            "Tiền tố: Chuyển xuống cuối cùng của câu."
+          ]
+        },
+        "example": {
+          "verb": "einkaufen (đi mua sắm)",
+          "prefix": "ein-",
+          "main_verb": "kaufen (mua)",
+          "table": {
+            "headers": ["Chủ ngữ", "Động từ (Vị trí 2)", "Thành phần phụ", "Tiền tố (Cuối câu)"],
+            "rows": [
+              ["Ich", "kaufe", "im Supermarkt", "ein."]
+            ],
+            "translation": "Dịch: Tôi đi mua sắm ở siêu thị."
+          }
+        }
+      }
+    },
+    {
+      "id": "common_prefixes",
+      "title": "2. Các tiền tố tách phổ biến",
+      "description": "Bạn có thể nhận biết các động từ này qua tiền tố của chúng. Dưới đây là những tiền tố hay gặp nhất:",
+      "content": {
+        "prefixes": [
+          {"prefix": "ab-", "example": "abfahren - khởi hành"},
+          {"prefix": "an-", "example": "ankommen - đến nơi"},
+          {"prefix": "auf-", "example": "aufstehen - ngủ dậy"},
+          {"prefix": "aus-", "example": "aussteigen - xuống xe/tàu"},
+          {"prefix": "mit-", "example": "mitkommen - đi cùng"},
+          {"prefix": "ein-", "example": "einsteigen - lên xe/tàu"},
+          {"prefix": "zurück-", "example": "zurückkommen - quay trở lại"}
+        ]
+      }
+    },
+    {
+      "id": "modal_verbs",
+      "title": "3. Sử dụng với Động từ khuyết thiếu (Modalverben)",
+      "description": "Khi bạn dùng kèm với Động từ khuyết thiếu (như müssen - phải, können - có thể, möchten - muốn), động từ tách KHÔNG bị tách.",
+      "content": {
+        "rule": {
+          "modal": "Động từ khuyết thiếu đứng ở Vị trí thứ 2.",
+          "separable": "Nguyên cụm động từ tách (giữ nguyên mẫu) đứng ở cuối câu."
+        },
+        "example": {
+          "combination": "müssen + aufstehen",
+          "sentence": "Ich muss um 6 Uhr aufstehen.",
+          "translation": "(Tôi phải thức dậy lúc 6 giờ.)"
+        }
+      }
+    },
+    {
+      "id": "pronunciation",
+      "title": "4. Trọng âm (Cách phát âm)",
+      "description": "Đối với động từ tách, trọng âm luôn nhấn vào tiền tố.",
+      "content": {
+        "examples": [
+          "ein-kaufen",
+          "auf-stehen",
+          "an-kommen"
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. Ví dụ & Giải thích logic",
+      "description": "Cho học viên, ví dụ và giải thích logic:",
+      "content": {
+        "examples_table": {
+          "headers": ["Verb", "German Sentence", "Vietnamese Translation", "Logic/Explanation"],
+          "rows": [
+            ["einsteigen (lên xe)", "Ich steige in die U-Bahn ein.", "I get on the subway.", "Bạn đưa bản thân \"vào trong\" (ein) phương tiện."],
+            ["umsteigen (đổi xe/chuyển tàu)", "Ich steige an der Hauptwache um.", "I transfer at Hauptwache.", "Bạn đổi \"vòng quanh\" (um) từ tàu này sang tàu khác."],
+            ["aussteigen (xuống xe)", "Ich steige am Bahnhof aus.", "I get off at the station.", "Bạn đi \"ra ngoài\" (aus) khỏi tàu."],
+            ["anfangen (bắt đầu)", "Die Arbeit fängt um 8 Uhr an.", "Work starts at 8 o'clock.", "Tiền tố 'an' đánh dấu điểm bắt đầu. (Lưu ý: 'fangen' đổi thành 'fängt' do là động từ bất quy tắc)."],
+            ["aufmachen (mở ra)", "Ich mache das Fenster auf.", "I open the window.", "Di chuyển cái gì đó theo hướng \"mở ra\" (auf)."],
+            ["zumachen (đóng lại)", "Ich mache das Fenster zu.", "I close the window.", "Di chuyển cái gì đó về trạng thái \"đóng/kín\" (zu)."],
+            ["fernsehen (xem TV)", "Abends sehe ich fern.", "In the evening I watch TV.", "\"Fern\" nghĩa là xa. Bạn đang \"nhìn xa\" (xem truyền hình)."],
+            ["anrufen (gọi điện thoại)", "Ich rufe meine Mutter an.", "I call my mother.", "'Rufen' là gọi/la lớn; 'anrufen' cụ thể là gọi điện thoại."],
+            ["einladen (mời)", "Meine Freundin lädt mich ein.", "My girlfriend invites me.", "\"Mời\" ai đó vào một sự kiện."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_table",
+      "title": "Bảng tổng hợp cho học viên",
+      "description": "Bảng tra cứu nhanh cho việc sử dụng động từ tách trong các ngữ cảnh khác nhau.",
+      "content": {
+        "summary_table": {
+          "headers": ["Ngữ cảnh", "Quy tắc", "Ví dụ"],
+          "rows": [
+            ["Câu bình thường", "Động từ ở Vị trí 2, Tiền tố ở cuối.", "Ich stehe um 7 Uhr auf."],
+            ["Với Động từ khuyết thiếu", "Động từ khuyết thiếu ở Vị trí 2, Động từ tách nguyên mẫu ở cuối.", "Ich möchte mitkommen."],
+            ["Câu hỏi (Có/Không)", "Động từ ở Vị trí 1, Tiền tố ở cuối.", "Fängst du morgen an?"],
+            ["Câu phụ (weil, dass...)", "Động từ và Tiền tố dính liền ở cuối câu.", "... weil ich um 6 Uhr aufstehe."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "why_use",
+      "title": "Tại sao phải dùng động từ tách?",
+      "description": "Tiếng Đức dùng các tiền tố này để tạo ra sự chính xác tuyệt đối. Ví dụ, động từ gốc \"machen\" chỉ đơn giản là \"làm\". Nhưng khi thêm tiền tố, chúng ta có các nghĩa rất rõ ràng:",
+      "content": {
+        "examples": [
+          "aufmachen = mở (cửa, cửa sổ)",
+          "zumachen = đóng (cửa, cửa sổ)",
+          "anmachen = bật (đèn, thiết bị điện)",
+          "ausmachen = tắt (đèn, thiết bị điện)"
+        ],
+        "explanation": "Điều này giúp tiếng Đức tạo ra rất nhiều nghĩa chuyên biệt chỉ từ một động từ gốc đơn giản!"
+      }
+    }
+  ]
+}

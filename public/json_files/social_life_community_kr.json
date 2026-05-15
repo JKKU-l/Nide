@@ -1,0 +1,53 @@
+{
+  "title": "Social Life & Community",
+  "emoji": "👥",
+  "theme_color": "#E91E63",
+  "description": "Social interactions and community",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "treffen", "korean": "만나다", "example_german": "Wir treffen uns morgen im Park.", "example_korean": "우리는 내일 공원에서 만납니다."},
+          {"german": "winken", "korean": "손을 흔들다", "example_german": "Sie winkt ihrem Freund zum Abschied.", "example_korean": "그녀는 작별 인사로 친구에게 손을 흔듭니다."},
+          {"german": "vorstellen", "korean": "소개하다", "example_german": "Darf ich dir meinen Bruder vorstellen?", "example_korean": "내 남동생을 소개해 드려도 될까요?"},
+          {"german": "begrüßen", "korean": "인사하다/환영하다", "example_german": "Der Gastgeber begrüßt die Gäste an der Tür.", "example_korean": "주인이 문 앞에서 손님들을 맞이합니다."},
+          {"german": "einladen", "korean": "초대하다", "example_german": "Ich lade dich zu meiner Party ein.", "example_korean": "너를 내 파티에 초대할게."},
+          {"german": "besuchen", "korean": "방문하다", "example_german": "Wir besuchen am Wochenende unsere Verwandten.", "example_korean": "우리는 주말에 친척들을 방문합니다."},
+          {"german": "kommen", "korean": "오다", "example_german": "Wann kommst du heute nach Hause?", "example_korean": "너 오늘 언제 집에 오니?"},
+          {"german": "gehen", "korean": "가다", "example_german": "Wir gehen heute Abend ins Kino.", "example_korean": "우리는 오늘 저녁에 영화관에 갑니다."},
+          {"german": "mitbringen", "korean": "가져오다/지참하다", "example_german": "Soll ich etwas zum Essen mitbringen?", "example_korean": "먹을 것을 좀 가져갈까요?"},
+          {"german": "feiern", "korean": "축하하다/파티하다", "example_german": "Wir feiern heute seinen Erfolg.", "example_korean": "우리는 오늘 그의 성공을 축하합니다."},
+          {"german": "tanzen", "korean": "춤추다", "example_german": "Möchtest du mit mir tanzen?", "example_korean": "나와 함께 춤추실래요?"},
+          {"german": "singen", "korean": "노래하다", "example_german": "Wir singen gemeinsam ein Lied.", "example_korean": "우리는 함께 노래를 부릅니다."},
+          {"german": "spielen", "korean": "놀다/경기하다", "example_german": "Die Kinder spielen draußen Fußball.", "example_korean": "아이들이 밖에서 축구를 하고 있습니다."},
+          {"german": "reden", "korean": "이야기하다/말하다", "example_german": "Wir müssen unbedingt miteinander reden.", "example_korean": "우리는 꼭 서로 이야기해야 합니다."},
+          {"german": "plaudern", "korean": "수다를 떨다/잡담하다", "example_german": "Wir plaudern gerne bei einer Tasse Kaffee.", "example_korean": "우리는 커피 한 잔을 마시며 수다 떠는 것을 좋아합니다."},
+          {"german": "zuhören", "korean": "경청하다/귀를 기울이다", "example_german": "Du musst mir besser zuhören.", "example_korean": "내 말을 더 잘 들어야 해요."},
+          {"german": "lachen", "korean": "웃다", "example_german": "Er lacht über einen lustigen Witz.", "example_korean": "그는 재미있는 농담을 보고 웃습니다."},
+          {"german": "helfen", "korean": "돕다", "example_german": "Kannst du mir beim Tragen helfen?", "example_korean": "짐 드는 것 좀 도와줄 수 있나요?"},
+          {"german": "teilnehmen", "korean": "참여하다", "example_german": "Ich nehme an dem Deutschkurs teil.", "example_korean": "나는 독일어 수업에 참여하고 있습니다."},
+          {"german": "mitmachen", "korean": "함께하다/동참하다", "example_german": "Jeder darf bei diesem Spiel mitmachen.", "example_korean": "누구나 이 게임에 함께할 수 있습니다."},
+          {"german": "organisieren", "korean": "조직하다/준비하다", "example_german": "Sie organisiert ein großes Nachbarschaftsfest.", "example_korean": "그녀는 큰 이웃 잔치를 준비하고 있습니다."},
+          {"german": "planen", "korean": "계획하다", "example_german": "Wir planen ein Treffen für nächste Woche.", "example_korean": "우리는 다음 주 모임을 계획하고 있습니다."},
+          {"german": "unterstützen", "korean": "지지하다/돕다", "example_german": "Meine Familie unterstützt mich immer.", "example_korean": "내 가족은 항상 나를 지지해 줍니다."},
+          {"german": "teilen", "korean": "나누다/공유하다", "example_german": "Wir teilen uns die Kosten für das Taxi.", "example_korean": "우리는 택시비를 나누어 냅니다."},
+          {"german": "geben", "korean": "주다", "example_german": "Kannst du mir bitte das Salz geben?", "example_korean": "소금 좀 주시겠어요?"},
+          {"german": "nehmen", "korean": "받다/집다/가져가다", "example_german": "Ich nehme mir ein Stück Kuchen.", "example_korean": "나는 케이크 한 조각을 먹겠습니다/가져가겠습니다."},
+          {"german": "danken", "korean": "감사하다", "example_german": "Ich danke dir für deine Einladung.", "example_korean": "초대해 줘서 고마워요."},
+          {"german": "entschuldigen", "korean": "사과하다/용서를 구하다", "example_german": "Ich möchte mich für die Verspätung entschuldigen.", "example_korean": "늦은 것에 대해 사과드리고 싶습니다."},
+          {"german": "vergeben", "korean": "용서하다", "example_german": "Es ist wichtig, anderen zu vergeben.", "example_korean": "타인을 용서하는 것은 중요합니다."},
+          {"german": "streiten", "korean": "다투다/싸우다", "example_german": "Wir streiten uns selten über Kleinigkeiten.", "example_korean": "우리는 사소한 일로 다투는 일이 드뭅니다."},
+          {"german": "versöhnen", "korean": "화해하다", "example_german": "Nach dem Streit versöhnen sie sich wieder.", "example_korean": "다툰 후에 그들은 다시 화해합니다."},
+          {"german": "respektieren", "korean": "존중하다", "example_german": "Wir respektieren die Meinung der anderen.", "example_korean": "우리는 타인의 의견을 존중합니다."},
+          {"german": "akzeptieren", "korean": "받아들이다/수용하다", "example_german": "Er kann die Entscheidung nicht akzeptieren.", "example_korean": "그는 그 결정을 받아들일 수 없습니다."},
+          {"german": "ablehnen", "korean": "거절하다/거부하다", "example_german": "Leider muss ich das Angebot ablehnen.", "example_korean": "안타깝지만 그 제안을 거절해야 합니다."},
+          {"german": "tolerieren", "korean": "용인하다/참다", "example_german": "Wir tolerieren kein respektloses Verhalten.", "example_korean": "우리는 무례한 행동을 용납하지 않습니다."},
+          {"german": "kritisieren", "korean": "비판하다", "example_german": "Man sollte andere nicht ständig kritisieren.", "example_korean": "남을 끊임없이 비판해서는 안 됩니다."},
+          {"german": "loben", "korean": "칭찬하다", "example_german": "Der Lehrer lobt die fleißige Schülerin.", "example_korean": "선생님이 성실한 학생을 칭찬합니다."},
+          {"german": "einigen", "korean": "합의하다/의견을 모으다", "example_german": "Wir konnten uns auf einen Termin einigen.", "example_korean": "우리는 날짜를 합의할 수 있었습니다."}
+        ]
+      }
+    }
+  ]
+}

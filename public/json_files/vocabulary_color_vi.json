@@ -1,0 +1,21 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Farbe", "vietnamese": "màu sắc", "article": "die", "word": "Farbe", "emoji": "🎨"},
+        {"german": "blau", "vietnamese": "xanh dương", "article": "", "word": "blau", "emoji": "🔵"},
+        {"german": "rot", "vietnamese": "đỏ", "article": "", "word": "rot", "emoji": "🔴"},
+        {"german": "gelb", "vietnamese": "vàng", "article": "", "word": "gelb", "emoji": "🟡"},
+        {"german": "grün", "vietnamese": "xanh lá cây", "article": "", "word": "grün", "emoji": "🟢"},
+        {"german": "braun", "vietnamese": "nâu", "article": "", "word": "braun", "emoji": "🟤"},
+        {"german": "grau", "vietnamese": "xám", "article": "", "word": "grau", "emoji": "⚫"},
+        {"german": "schwarz", "vietnamese": "đen", "article": "", "word": "schwarz", "emoji": "⚫"},
+        {"german": "rosa", "vietnamese": "hồng", "article": "", "word": "rosa", "emoji": "🌸"},
+        {"german": "weiß", "vietnamese": "trắng", "article": "", "word": "weiß", "emoji": "⚪"},
+        {"german": "orange", "vietnamese": "cam", "article": "", "word": "orange", "emoji": "🟠"},
+        {"german": "lila", "vietnamese": "tím", "article": "", "word": "lila", "emoji": "🟣"}
+      ]
+    }
+  ]
+}

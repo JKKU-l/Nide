@@ -1,0 +1,20 @@
+{
+  "theme_color": "#607D8B",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Firma", "japanese": "会社", "article": "die", "word": "Firma", "emoji": "🏢"},
+        {"german": "der Empfang", "japanese": "受付", "article": "der", "word": "Empfang", "emoji": "🛎️"},
+        {"german": "das Büro", "japanese": "事務所 / オフィス", "article": "das", "word": "Büro", "emoji": "🖥️"},
+        {"german": "der Schreibtisch", "japanese": "机", "article": "der", "word": "Schreibtisch", "emoji": "📑"},
+        {"german": "arbeiten", "japanese": "働く", "article": "", "word": "arbeiten", "emoji": "💼"},
+        {"german": "die Arbeit", "japanese": "仕事", "article": "die", "word": "Arbeit", "emoji": "🛠️"},
+        {"german": "telefonieren", "japanese": "電話する", "article": "", "word": "telefonieren", "emoji": "📞"},
+        {"german": "die Pause", "japanese": "休憩", "article": "die", "word": "Pause", "emoji": "☕"},
+        {"german": "der Chef / die Chefin", "japanese": "上司", "article": "der / die", "word": "Chef / Chefin", "emoji": "👨‍💼👩‍💼"},
+        {"german": "der Kollege / die Kollegin", "japanese": "同僚", "article": "der / die", "word": "Kollege / Kollegin", "emoji": "🧑‍💻👩‍💻"},
+        {"german": "der Feierabend", "japanese": "終業 / 仕事の終わり", "article": "der", "word": "Feierabend", "emoji": "🍻"}
+      ]
+    }
+  ]
+}

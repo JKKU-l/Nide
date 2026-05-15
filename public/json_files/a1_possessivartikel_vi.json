@@ -1,0 +1,225 @@
+{
+  "title": "Possessivartikel (Quán từ sở hữu)",
+  "description": "Để hiểu về Possessivartikel (Quán từ sở hữu) trong tiếng Đức, trước tiên bạn cần xác định rõ \"chủ sở hữu\" (người sở hữu vật đó) và \"đối tượng\" (vật được sở hữu).",
+  "sections": [
+    {
+      "id": "root_words",
+      "title": "1. Chọn Gốc Từ (Chủ Sở Hữu)",
+      "description": "Hãy coi đây là những từ tương đương trong tiếng Anh như \"my, your, his, her,\" v.v. Gốc từ phụ thuộc hoàn toàn vào việc người đó là ai:",
+      "content": {
+        "owners": [
+          {
+            "pronoun": "ich (tôi)",
+            "root": "mein",
+            "english": "của tôi"
+          },
+          {
+            "pronoun": "du (bạn - thân mật)",
+            "root": "dein",
+            "english": "của bạn"
+          },
+          {
+            "pronoun": "er (anh ấy) / es (nó)",
+            "root": "sein",
+            "english": "của anh ấy/của nó"
+          },
+          {
+            "pronoun": "sie (cô ấy)",
+            "root": "ihr",
+            "english": "của cô ấy"
+          },
+          {
+            "pronoun": "wir (chúng tôi)",
+            "root": "unser",
+            "english": "của chúng tôi"
+          },
+          {
+            "pronoun": "ihr (các bạn)",
+            "root": "euer",
+            "english": "của các bạn"
+          },
+          {
+            "pronoun": "sie (họ)",
+            "root": "ihr",
+            "english": "của họ"
+          },
+          {
+            "pronoun": "Sie (Ngài/Quý vị - trang trọng)",
+            "root": "Ihr",
+            "english": "của Ngài - luôn viết hoa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "choosing_endings",
+      "title": "2. Chọn Đuôi Từ (Vật Được Sở Hữu)",
+      "description": "Sau khi có gốc từ, bạn phải nhìn vào danh từ theo sau nó. Trong tiếng Đức, danh từ có Giống (Đực, Trung, Cái) và Số (Số nhiều).",
+      "content": {
+        "nominative": {
+          "title": "Cách Nominativ (Danh cách - Chủ ngữ)",
+          "description": "Trong các câu cơ bản như \"Đây là... của tôi\", chúng ta dùng cách Nominativ.",
+          "rules": [
+            {
+              "gender": "Giống Đực/Trung",
+              "ending": "Không thêm đuôi",
+              "examples": [
+                {
+                  "german": "Das ist mein Vater.",
+                  "english": "Đây là cha tôi."
+                },
+                {
+                  "german": "Das ist sein Auto.",
+                  "english": "Đây là xe ô tô của anh ấy."
+                }
+              ]
+            },
+            {
+              "gender": "Giống Cái/Số nhiều",
+              "ending": "Thêm đuôi -e",
+              "examples": [
+                {
+                  "german": "Das ist meine Mutter.",
+                  "english": "Đây là mẹ tôi."
+                },
+                {
+                  "german": "Das sind unsere Kinder.",
+                  "english": "Đây là những đứa con của chúng tôi."
+                }
+              ]
+            }
+          ]
+        },
+        "accusative": {
+          "title": "Cách Akkusativ (Đối cách - Tân ngữ trực tiếp)",
+          "description": "Nếu vật sở hữu là \"đối tượng nhận\" của một hành động (như \"Tôi thấy... của tôi\"), đuôi của giống đực sẽ thay đổi.",
+          "rules": [
+            {
+              "gender": "Giống Đực",
+              "ending": "Thêm đuôi -en",
+              "examples": [
+                {
+                  "german": "Ich besuche meinen Bruder.",
+                  "english": "Tôi đi thăm anh trai tôi."
+                }
+              ]
+            },
+            {
+              "gender": "Giống Trung/Cái/Số nhiều",
+              "ending": "Giữ nguyên như cách Nominativ",
+              "note": "Không thay đổi"
+            }
+          ]
+        },
+        "dative": {
+          "title": "Cách Dativ (Cách 3 - Tân ngữ gián tiếp/Sau một số giới từ)",
+          "description": "Nếu bạn đưa thứ gì đó cho ai đó hoặc dùng các giới từ cụ thể, đuôi từ sẽ thay đổi đáng kể hơn.",
+          "rules": [
+            {
+              "gender": "Giống Đực/Trung",
+              "ending": "Thêm đuôi -em",
+              "example": "Ich gebe meinem Vater ein Buch."
+            },
+            {
+              "gender": "Giống Cái",
+              "ending": "Thêm đuôi -er",
+              "example": "Ich gebe meiner Mutter Blumen."
+            },
+            {
+              "gender": "Số nhiều",
+              "ending": "Thêm đuôi -en (và thường thêm đuôi -n vào chính danh từ đó)",
+              "example": "Ich spiele mit meinen Kindern."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "practical_examples",
+      "title": "3. Ví dụ Sử dụng Thực tế",
+      "description": "Hãy xem cách các quy tắc này hoạt động trong logic thực tế:",
+      "content": {
+        "scenario_a": {
+          "title": "Trường hợp A: Nói về một người đàn ông (Thomas)",
+          "description": "Nếu Thomas sở hữu một con chó (giống đực), một cuốn sách (giống trung), và một chiếc túi (giống cái), chúng ta dùng gốc từ sein:",
+          "examples": [
+            {
+              "german": "Sein Hund ist groß.",
+              "english": "Con chó của anh ấy thì lớn."
+            },
+            {
+              "german": "Sein Buch ist neu.",
+              "english": "Cuốn sách của anh ấy thì mới."
+            },
+            {
+              "german": "Seine Tasche ist braun.",
+              "english": "Chiếc túi của anh ấy thì màu nâu."
+            }
+          ]
+        },
+        "scenario_b": {
+          "title": "Trường hợp B: Nói về một người phụ nữ (Julia)",
+          "description": "Nếu Julia sở hữu những món đồ tương tự, chúng ta chuyển sang gốc từ ihr:",
+          "examples": [
+            {
+              "german": "Ihr Hund ist groß.",
+              "english": "Con chó của cô ấy thì lớn."
+            },
+            {
+              "german": "Ihr Buch ist neu.",
+              "english": "Cuốn sách của cô ấy thì mới."
+            },
+            {
+              "german": "Ihre Tasche ist braun.",
+              "english": "Chiếc túi của cô ấy thì màu nâu."
+            }
+          ]
+        },
+        "scenario_c": {
+          "title": "Trường hợp C: Xưng hô trang trọng (Ông Schmidt)",
+          "description": "Khi nói chuyện với sếp hoặc người lạ, chúng ta dùng Ihr:",
+          "examples": [
+            {
+              "german": "Herr Schmidt, ist das Ihr Koffer?",
+              "english": "Ông Schmidt, đây có phải là vali của ông không?"
+            },
+            {
+              "german": "Wo ist Ihre Frau?",
+              "english": "Vợ của ông đâu rồi?"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "key_logic",
+      "title": "4. Logic Quan trọng Cần Nhớ",
+      "description": "Những quy tắc quan trọng cần nhớ khi sử dụng quán từ sở hữu:",
+      "content": {
+        "gender_trap": {
+          "title": "Bẫy về Giống (Gender Trap)",
+          "explanation": "Người mới học thường nghĩ đuôi từ sẽ khớp với giới tính của người chủ. Không phải vậy. Đuôi từ luôn khớp với vật được sở hữu.",
+          "examples": [
+            "Nếu một người đàn ông có một người mẹ, ta dùng seine Mutter (vì \"mẹ\" là giống cái).",
+            "Nếu một người phụ nữ có một người cha, ta dùng ihr Vater (vì \"cha\" là giống đực)."
+          ]
+        },
+        "euer_spelling": {
+          "title": "Sự thay đổi chính tả của \"Euer\"",
+          "explanation": "Từ euer (của các bạn) rất đặc biệt. Khi bạn thêm đuôi như -e hoặc -en, chữ \"e\" ở giữa thường bị lược bỏ để dễ phát âm hơn.",
+          "examples": [
+            "euer Vater (đúng)",
+            "eure Mutter (đúng - không phải euere)"
+          ]
+        },
+        "kein_rule": {
+          "title": "Quy tắc \"Kein\"",
+          "explanation": "Nếu bạn lỡ quên không biết dùng đuôi nào, hãy nhớ rằng quán từ sở hữu có cách chia đuôi y hệt như từ kein (không) hoặc quán từ bất định ein (một).",
+          "examples": [
+            "Ich habe kein Buch. → Ich habe mein Buch."
+          ]
+        }
+      }
+    }
+  ]
+}

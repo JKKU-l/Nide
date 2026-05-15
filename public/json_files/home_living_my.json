@@ -1,0 +1,55 @@
+{
+  "title": "Home & Living",
+  "emoji": "🏠",
+  "theme_color": "#2196F3",
+  "description": "House, furniture, and daily life at home",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "wohnen", "myanmar": "နေထိုင်သည်", "example_german": "Ich wohne seit zwei Jahren in Berlin.", "example_myanmar": "ကျွန်တော် ဘာလင်မှာ နေတာ နှစ်နှစ်ရှိပါပြီ။"},
+          {"german": "schlafen", "myanmar": "အိပ်စက်သည်", "example_german": "Wie lange schläfst du normalerweise?", "example_myanmar": "မင်း ပုံမှန်ဆို ဘယ်လောက်ကြာကြာ အိပ်သလဲ။"},
+          {"german": "aufwachen", "myanmar": "နိုးသည်", "example_german": "Ich wache jeden Tag ohne Wecker auf.", "example_myanmar": "ကျွန်တော် နေ့တိုင်း နှိုးစက်မပါဘဲ နိုးပါတယ်။"},
+          {"german": "aufstehen", "myanmar": "အိပ်ရာမှ ထသည်", "example_german": "Um wie viel Uhr stehst du auf?", "example_myanmar": "မင်း ဘယ်နှစ်နာရီမှာ အိပ်ရာထသလဲ။"},
+          {"german": "waschen", "myanmar": "ဆေးကြောသည် / လျှော်ဖွတ်သည်", "example_german": "Ich muss heute meine Kleidung waschen.", "example_myanmar": "ကျွန်တော် ဒီနေ့ အဝတ်လျှော်ရမယ်။"},
+          {"german": "duschen", "myanmar": "ရေချိုးသည် (ရေပန်းဖြင့်)", "example_german": "Er duscht sich nach dem Sport.", "example_myanmar": "သူ အားကစားလုပ်ပြီးနောက် ရေချိုးပါတယ်။"},
+          {"german": "baden", "myanmar": "ရေချိုးသည် (ရေကန်/ရေကန်ထဲတွင်)", "example_german": "Am Sonntag bade ich gerne lange.", "example_myanmar": "တနင်္ဂနွေနေ့တွေမှာ ကျွန်တော် ရေကြာကြာချိုးရတာ ကြိုက်တယ်။"},
+          {"german": "putzen", "myanmar": "သန့်ရှင်းရေးလုပ်သည်", "example_german": "Wir putzen am Samstag die ganze Wohnung.", "example_myanmar": "ကျွန်တော်တို့ စနေနေ့မှာ တစ်အိမ်လုံး သန့်ရှင်းရေးလုပ်ကြတယ်။"},
+          {"german": "kochen", "myanmar": "ချက်ပြုတ်သည်", "example_german": "Was kochst du heute zum Abendessen?", "example_myanmar": "ဒီနေ့ ညစာအတွက် မင်း ဘာချက်မလဲ။"},
+          {"german": "backen", "myanmar": "ဖုတ်သည် (မုန့်ဖုတ်သည်)", "example_german": "Meine Mutter backt einen Apfelkuchen.", "example_myanmar": "ကျွန်တော့်အမေ ပန်းသီးကိတ်မုန့် ဖုတ်နေတယ်။"},
+          {"german": "braten", "myanmar": "ကြော်သည် / ကင်သည်", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_myanmar": "ကျွန်တော် ဒယ်အိုးထဲမှာ အသားကြော်နေတယ်။"},
+          {"german": "essen", "myanmar": "စားသည်", "example_german": "Wann essen wir heute?", "example_myanmar": "ဒီနေ့ ကျွန်တော်တို့ ဘယ်အချိန် စားကြမလဲ။"},
+          {"german": "trinken", "myanmar": "သောက်သည်", "example_german": "Ich trinke morgens immer einen Kaffee.", "example_myanmar": "ကျွန်တော် မနက်တိုင်း အမြဲတမ်း ကော်ဖီသောက်တယ်။"},
+          {"german": "frühstücken", "myanmar": "မနက်စာ စားသည်", "example_german": "Wir frühstücken meistens um acht Uhr.", "example_myanmar": "ကျွန်တော်တို့ အများအားဖြင့် ရှစ်နာရီမှာ မနက်စာစားကြတယ်။"},
+          {"german": "mittagessen", "myanmar": "နေ့လယ်စာ စားသည်", "example_german": "Ich esse im Büro zu Mittag.", "example_myanmar": "ကျွန်တော် ရုံးမှာ နေ့လယ်စာစားတယ်။"},
+          {"german": "abendessen", "myanmar": "ညစာ စားသည်", "example_german": "Wir essen heute spät zu Abend.", "example_myanmar": "ကျွန်တော်တို့ ဒီနေ့ ညစာကို နောက်ကျမှ စားကြမယ်။"},
+          {"german": "abwaschen", "myanmar": "ပန်းကန်ဆေးသည်", "example_german": "Wer wäscht heute das Geschirr ab?", "example_myanmar": "ဒီနေ့ ဘယ်သူ ပန်းကန်ဆေးမှာလဲ။"},
+          {"german": "abtrocknen", "myanmar": "ပန်းကန်များကို အခြောက်ခံသုတ်သည်", "example_german": "Ich trockne die Teller ab.", "example_myanmar": "ကျွန်တော် ပန်းကန်တွေကို အခြောက်သုတ်နေတယ်။"},
+          {"german": "aufräumen", "myanmar": "ပစ္စည်းများ သိမ်းဆည်း/ရှင်းလင်းသည်", "example_german": "Du musst dein Zimmer aufräumen.", "example_myanmar": "မင်း မင်းရဲ့အခန်းကို ရှင်းလင်းရေးလုပ်ရမယ်။"},
+          {"german": "aufmachen", "myanmar": "ဖွင့်သည်", "example_german": "Kannst du bitte das Fenster aufmachen?", "example_myanmar": "ပြတင်းပေါက်ကို ခဏလောက် ဖွင့်ပေးလို့ ရမလား။"},
+          {"german": "zumachen", "myanmar": "ပိတ်သည်", "example_german": "Es ist kalt, bitte mach die Tür zu.", "example_myanmar": "အေးနေလို့ တံခါးကို ပိတ်ပေးပါ။"},
+          {"german": "einschalten", "myanmar": "ဖွင့်သည် (လျှပ်စစ်ပစ္စည်း)", "example_german": "Ich schalte den Fernseher ein.", "example_myanmar": "ကျွန်တော် တီဗီဖွင့်လိုက်မယ်။"},
+          {"german": "ausschalten", "myanmar": "ပိတ်သည် (လျှပ်စစ်ပစ္စည်း)", "example_german": "Bitte schalte das Licht aus.", "example_myanmar": "မီးပိတ်ပေးပါ။"},
+          {"german": "heizen", "myanmar": "အပူပေးသည်", "example_german": "Im Winter müssen wir viel heizen.", "example_myanmar": "ဆောင်းတွင်းမှာ ကျွန်တော်တို့ အပူပေးစက် အများကြီး သုံးရတယ်။"},
+          {"german": "lüften", "myanmar": "လေဝင်လေထွက်လုပ်သည်", "example_german": "Wir lüften das Zimmer zweimal am Tag.", "example_myanmar": "ကျွန်တော်တို့ အခန်းကို တစ်နေ့ နှစ်ကြိမ် လေဝင်လေထွက်လုပ်ပေးတယ်။"},
+          {"german": "staubsaugen", "myanmar": "ဖုန်စုပ်စက်ဖြင့် ဖုန်စုပ်သည်", "example_german": "Ich muss im Wohnzimmer staubsaugen.", "example_myanmar": "ကျွန်တော် ဧည့်ခန်းကို ဖုန်စုပ်ရမယ်။"},
+          {"german": "wischen", "myanmar": "တိုက်ချွတ်သည် / ကြမ်းတိုက်သည်", "example_german": "Sie wischt den Küchenboden.", "example_myanmar": "သူမ မီးဖိုချောင်ကြမ်းပြင်ကို တိုက်နေတယ်။"},
+          {"german": "bügeln", "myanmar": "မီးပူတိုက်သည်", "example_german": "Er bügelt seine Hemden selbst.", "example_myanmar": "သူ့ရဲ့ ရှပ်အင်္ကျီတွေကို သူကိုယ်တိုင် မီးပူတိုက်တယ်။"},
+          {"german": "nähen", "myanmar": "ချုပ်လုပ်သည်", "example_german": "Meine Oma näht mir ein Kleid.", "example_myanmar": "ကျွန်တော့်အဖွားက ကျွန်တော့်အတွက် ဂါဝန်တစ်ထည် ချုပ်ပေးနေတယ်။"},
+          {"german": "reparieren", "myanmar": "ပြင်ဆင်သည်", "example_german": "Mein Vater repariert das kaputte Fahrrad.", "example_myanmar": "ကျွန်တော့်အဖေက ပျက်နေတဲ့ စက်ဘီးကို ပြင်နေတယ်။"},
+          {"german": "streichen", "myanmar": "ဆေးသုတ်သည်", "example_german": "Wir streichen die Wände weiß.", "example_myanmar": "ကျွန်တော်တို့ နံရံတွေကို အဖြူရောင် ဆေးသုတ်နေကြတယ်။"},
+          {"german": "hangen", "myanmar": "ချိတ်ဆွဲသည်", "example_german": "Ich hänge das Bild an die Wand.", "example_myanmar": "ကျွန်တော် ပုံကို နံရံမှာ ချိတ်ထားတယ်။"},
+          {"german": "stellen", "myanmar": "(မတ်တတ်) ထားသည်", "example_german": "Stell die Vase bitte auf den Tisch.", "example_myanmar": "ပန်းအိုးကို စားပွဲပေါ်မှာ တင်ပေးပါ။"},
+          {"german": "legen", "myanmar": "(လှဲလျက်) ချထားသည်", "example_german": "Er legt das Buch in das Regal.", "example_myanmar": "သူ စာအုပ်ကို စင်ပေါ်မှာ တင်ထားလိုက်တယ်။"},
+          {"german": "nehmen", "myanmar": "ယူသည်", "example_german": "Ich nehme mir ein Glas Wasser.", "example_myanmar": "ကျွန်တော် ရေတစ်ဖန်ခွက် ယူလိုက်မယ်။"},
+          {"german": "bringen", "myanmar": "ယူဆောင်လာသည်", "example_german": "Bringst du mir bitte die Zeitung?", "example_myanmar": "သတင်းစာလေး ယူလာပေးလို့ ရမလား။"},
+          {"german": "tragen", "myanmar": "သယ်ဆောင်သည် / ဝတ်ဆင်သည်", "example_german": "Er trägt die schweren Taschen nach oben.", "example_myanmar": "သူ လေးလံတဲ့ အိတ်တွေကို အပေါ်ထပ်ကို သယ်သွားတယ်။"},
+          {"german": "kaufen", "myanmar": "ဝယ်ယူသည်", "example_german": "Wir kaufen heute frisches Gemüse.", "example_myanmar": "ကျွန်တော်တို့ ဒီနေ့ လတ်ဆတ်တဲ့ ဟင်းသီးဟင်းရွက်တွေ ဝယ်ကြမယ်။"},
+          {"german": "schließen", "myanmar": "ပိတ်သည်", "example_german": "Bitte schließen Sie die Haustür.", "example_myanmar": "အိမ်ရှေ့တံခါးကို ပိတ်ပေးပါ။"},
+          {"german": "öffnen", "myanmar": "ဖွင့်သည်", "example_german": "Ich öffne die Post.", "example_myanmar": "ကျွန်တော် စာတွေကို ဖွင့်နေတယ်။"}
+        ]
+      }
+    }
+  ]
+}

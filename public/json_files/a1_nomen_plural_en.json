@@ -1,0 +1,245 @@
+{
+  "title": "Nomen: Plural (German Plural Nouns)",
+  "sections": [
+    {
+      "id": "golden_rule",
+      "title": "The Golden Rule: \"die\"",
+      "description": "Regardless of whether a noun is masculine (der), feminine (die), or neutral (das) in the singular, all plural nouns use the definite article \"die\".",
+      "content": {}
+    },
+    {
+      "id": "the_n_ending",
+      "title": "1. The -(e)n Ending",
+      "description": "This is the most common plural form in German.",
+      "content": {
+        "when_to_use": [
+          "Nouns ending in -ung, -heit, -keit, -ie, -or, -ion",
+          "Most feminine nouns",
+          "Feminine jobs ending in -in (these change to -innen)"
+        ],
+        "examples": [
+          {
+            "singular": "die Übung",
+            "translation": "exercise",
+            "plural": "die Übungen",
+            "note": "rules for -ung"
+          },
+          {
+            "singular": "die Tasche",
+            "translation": "bag",
+            "plural": "die Taschen",
+            "note": "feminine ending in -e"
+          },
+          {
+            "singular": "die Kundin",
+            "translation": "female customer",
+            "plural": "die Kundinnen",
+            "note": "feminine -in suffix"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_er_ending",
+      "title": "2. The -er Ending",
+      "description": "This is typically found with short, neutral nouns.",
+      "content": {
+        "when_to_use": [
+          "Many short, neutral nouns (das)",
+          "Some masculine nouns (der)"
+        ],
+        "note": "If the word contains a, o, u, or au, it usually gets an Umlaut (ä, ö, ü).",
+        "examples": [
+          {
+            "singular": "das Kind",
+            "translation": "child",
+            "plural": "die Kinder"
+          },
+          {
+            "singular": "das Buch",
+            "translation": "book",
+            "plural": "die Bücher",
+            "note": "adds Umlaut"
+          },
+          {
+            "singular": "der Mann",
+            "translation": "man",
+            "plural": "die Männer",
+            "note": "adds Umlaut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_e_ending",
+      "title": "3. The -e Ending",
+      "description": "Very common for many short nouns of various genders.",
+      "content": {
+        "when_to_use": [
+          "Many masculine and neutral nouns",
+          "Feminine nouns often add an Umlaut with this ending"
+        ],
+        "examples": [
+          {
+            "singular": "der Tisch",
+            "translation": "table",
+            "plural": "die Tische"
+          },
+          {
+            "singular": "der Stuhl",
+            "translation": "chair",
+            "plural": "die Stühle",
+            "note": "masculine + Umlaut"
+          },
+          {
+            "singular": "die Hand",
+            "translation": "hand",
+            "plural": "die Hände",
+            "note": "feminine + Umlaut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "no_ending",
+      "title": "4. The \"No Ending\" Group (—)",
+      "description": "Some words don't add a suffix at all; they stay the same or only change the vowel to an Umlaut.",
+      "content": {
+        "when_to_use": [
+          "Nouns ending in -er, -en, -el",
+          "Diminutives ending in -chen or -lein (always neutral)"
+        ],
+        "examples": [
+          {
+            "singular": "der Sessel",
+            "translation": "armchair",
+            "plural": "die Sessel",
+            "note": "no change"
+          },
+          {
+            "singular": "das Mädchen",
+            "translation": "girl",
+            "plural": "die Mädchen",
+            "note": "no change"
+          },
+          {
+            "singular": "der Vater",
+            "translation": "father",
+            "plural": "die Väter",
+            "note": "only Umlaut change"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_s_ending",
+      "title": "5. The -s Ending",
+      "description": "This is used mostly for modern \"loanwords\" or words ending in certain vowels.",
+      "content": {
+        "when_to_use": [
+          "Words ending in -a, -i, -o, -u, -y",
+          "Abbreviations (like PKW)",
+          "Foreign words (English/French origin)"
+        ],
+        "examples": [
+          {
+            "singular": "das Auto",
+            "translation": "car",
+            "plural": "die Autos"
+          },
+          {
+            "singular": "das Hobby",
+            "translation": "hobby",
+            "plural": "die Hobbies"
+          },
+          {
+            "singular": "der Job",
+            "translation": "job",
+            "plural": "die Jobs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "special_cases",
+      "title": "Special Cases: Irregulars & Quantity",
+      "description": "Some nouns have unique plural forms or exist only in singular or plural.",
+      "content": {
+        "categories": [
+          {
+            "category": "Irregular Plurals",
+            "description": "Foreign words (mostly from Latin or Greek) have unique changes:",
+            "examples": [
+              {
+                "singular": "das Museum",
+                "plural": "die Museen"
+              },
+              {
+                "singular": "das Praktikum",
+                "plural": "die Praktika"
+              },
+              {
+                "singular": "die Firma",
+                "plural": "die Firmen"
+              }
+            ]
+          },
+          {
+            "category": "Nouns with NO Plural (Singular only)",
+            "description": "These represent abstract concepts or mass substances:",
+            "examples": [
+              {
+                "type": "Abstract",
+                "examples": "das Glück (luck), die Liebe (love)"
+              },
+              {
+                "type": "Materials",
+                "examples": "das Gold (gold), die Milch (milk)"
+              },
+              {
+                "type": "Collective",
+                "examples": "das Obst (fruit), die Kleidung (clothing)"
+              }
+            ]
+          },
+          {
+            "category": "Nouns with NO Singular (Plural only)",
+            "description": "These items always come as a group:",
+            "examples": [
+              {
+                "type": "Geography",
+                "examples": "die USA, die Alpen (The Alps)"
+              },
+              {
+                "type": "People/Groups",
+                "examples": "die Eltern (parents), die Leute (people)"
+              },
+              {
+                "type": "Activities",
+                "examples": "die Ferien (vacation/holidays)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Summary Table for Quick Reference",
+      "description": "Quick reference for plural endings:",
+      "content": {
+        "summary_table": {
+          "headers": ["Singular Suffix", "Typical Plural Ending", "Example"],
+          "rows": [
+            ["-e (feminine)", "-n", "die Lampe → die Lampen"],
+            ["-in (female job)", "-innen", "die Lehrerin → die Lehrerinnen"],
+            ["-er / -el / -en", "- (nothing)", "der Teller → die Teller"],
+            ["-ung / -heit", "-en", "die Zeitung → die Zeitungen"],
+            ["-a / -o / -i", "-s", "das Sofa → die Sofas"]
+          ]
+        },
+        "pro_tip": "When you learn a new German noun, always memorize the article and the plural form at the same time. There isn't one 100% perfect rule, so treat them as a single package!"
+      }
+    }
+  ]
+}

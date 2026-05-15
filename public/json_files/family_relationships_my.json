@@ -1,0 +1,55 @@
+{
+  "title": "Family & Relationships",
+  "emoji": "👨‍👩‍👧‍👦",
+  "theme_color": "#4CAF50",
+  "description": "Family members and relationships",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "lieben", "myanmar": "ချစ်သည်", "example_german": "Ich liebe meine Familie über alles.", "example_myanmar": "ကျွန်ုပ်သည် ကျွန်ုပ်၏မိသားစုကို အရာအားလုံးထက် ပိုချစ်ပါသည်။"},
+          {"german": "heiraten", "myanmar": "လက်ထပ်သည်", "example_german": "Sie heiraten nächsten Monat in Italien.", "example_myanmar": "သူတို့သည် နောက်လတွင် အီတလီ၌ လက်ထပ်ကြမည်။"},
+          {"german": "treffen", "myanmar": "တွေ့ဆုံသည်", "example_german": "Ich treffe mich heute Abend mit Freunden.", "example_myanmar": "ကျွန်ုပ်သည် ယနေ့ညနေတွင် သူငယ်ချင်းများနှင့် တွေ့ဆုံမည်။"},
+          {"german": "besuchen", "myanmar": "လည်ပတ်သည်/အလည်သွားသည်", "example_german": "Wir besuchen am Wochenende unsere Großeltern.", "example_myanmar": "ကျွန်ုပ်တို့သည် စနေ၊ တနင်္ဂနွေတွင် ဘိုးဘွားများထံ အလည်သွားကြမည်။"},
+          {"german": "einladen", "myanmar": "ဖိတ်ကြားသည်", "example_german": "Ich lade dich zu meinem Geburtstag ein.", "example_myanmar": "ကျွန်ုပ်သည် သင့်ကို ကျွန်ုပ်၏မွေးနေ့ပွဲသို့ ဖိတ်ကြားပါသည်။"},
+          {"german": "feiern", "myanmar": "ဆင်နွှဲသည်/ကျင်းပသည်", "example_german": "Wir feiern heute den Hochzeitstag meiner Eltern.", "example_myanmar": "ကျွန်ုပ်တို့သည် ယနေ့တွင် ကျွန်ုပ်မိဘများ၏ မင်္ဂလာနှစ်ပတ်လည်ကို ဆင်နွှဲကြမည်။"},
+          {"german": "schenken", "myanmar": "လက်ဆောင်ပေးသည်", "example_german": "Was schenkst du deinem Bruder zu Weihnachten?", "example_myanmar": "ခရစ္စမတ်အတွက် သင့်မောင်လေးကို ဘာလက်ဆောင်ပေးမလဲ။"},
+          {"german": "spielen", "myanmar": "ကစားသည်", "example_german": "Der Vater spielt mit seinen Kindern im Garten.", "example_myanmar": "ဖခင်ဖြစ်သူသည် ဥယျာဉ်ထဲတွင် ကလေးများနှင့်အတူ ကစားနေသည်။"},
+          {"german": "helfen", "myanmar": "ကူညီသည်", "example_german": "Kannst du mir bitte beim Kochen helfen?", "example_myanmar": "ကျွန်ုပ်ကို ဟင်းချက်ရာတွင် ကူညီပေးနိုင်မလား။"},
+          {"german": "pflegen", "myanmar": "ပြုစုစောင့်ရှောက်သည်", "example_german": "Sie pflegt ihren kranken Vater zu Hause.", "example_myanmar": "သူမသည် အိမ်တွင် သူမ၏ဖျားနာနေသော ဖခင်ကို ပြုစုစောင့်ရှောက်နေသည်။"},
+          {"german": "erziehen", "myanmar": "ဆုံးမသွန်သင်သည်/ပြုစုပျိုးထောင်သည်", "example_german": "Es ist nicht immer leicht, Kinder zu erziehen.", "example_myanmar": "ကလေးများကို ဆုံးမသွန်သင်ရန်မှာ အမြဲတမ်း မလွယ်ကူပါ။"},
+          {"german": "wachsen", "myanmar": "ကြီးထွားသည်", "example_german": "Die Kinder wachsen so schnell!", "example_myanmar": "ကလေးတွေက သိပ်မြန်မြန်ကြီးလာကြတာပဲ။"},
+          {"german": "leben", "myanmar": "နေထိုင်သည်", "example_german": "Wir leben glücklich zusammen.", "example_myanmar": "ကျွန်ုပ်တို့သည် အတူတကွ ပျော်ရွှင်စွာ နေထိုင်ကြသည်။"},
+          {"german": "sterben", "myanmar": "သေဆုံးသည်", "example_german": "Sein Großvater starb vor vielen Jahren.", "example_myanmar": "သူ့အဘိုးသည် လွန်ခဲ့သော နှစ်ပေါင်းများစွာက သေဆုံးသွားခဲ့သည်။"},
+          {"german": "weinen", "myanmar": "ငိုသည်", "example_german": "Das Baby weint, weil es Hunger hat.", "example_myanmar": "ကလေးငယ်သည် ဗိုက်ဆာသောကြောင့် ငိုနေသည်။"},
+          {"german": "lachen", "myanmar": "ရယ်မောသည်", "example_german": "Wir lachen viel, wenn wir zusammen sind.", "example_myanmar": "ကျွန်ုပ်တို့ အတူတူရှိချိန်တွင် အများကြီး ရယ်မောဖြစ်ကြသည်။"},
+          {"german": "streiten", "myanmar": "ရန်ဖြစ်သည်/ငြင်းခုံသည်", "example_german": "Geschwister streiten sich manchmal.", "example_myanmar": "မောင်နှမအချင်းချင်း တစ်ခါတစ်ရံ ရန်ဖြစ်တတ်ကြသည်။"},
+          {"german": "umarmen", "myanmar": "ဖက်လှဲတကင်းရှိသည်/ပွေ့ဖက်သည်", "example_german": "Sie umarmt ihre Mutter zur Begrüßung.", "example_myanmar": "သူမသည် သူမ၏မိခင်ကို နှုတ်ဆက်သည့်အနေဖြင့် ပွေ့ဖက်လိုက်သည်။"},
+          {"german": "küssen", "myanmar": "နမ်းသည်", "example_german": "Sie küssen sich zum Abschied.", "example_myanmar": "သူတို့သည် လမ်းခွဲခါနီးတွင် နမ်းကြသည်။"},
+          {"german": "anrufen", "myanmar": "ဖုန်းခေါ်ဆိုသည်", "example_german": "Ich rufe meine Mutter jeden Sonntag an.", "example_myanmar": "ကျွန်ုပ်သည် တနင်္ဂနွေနေ့တိုင်း မိခင်ထံ ဖုန်းခေါ်ပါသည်။"},
+          {"german": "schreiben", "myanmar": "စာရေးသည်", "example_german": "Ich schreibe meiner Tante eine Postkarte.", "example_myanmar": "ကျွန်ုပ်သည် ကျွန်ုပ်၏ဒေါ်လေးထံသို့ ပို့စကတ် ရေးနေသည်။"},
+          {"german": "lesen", "myanmar": "ဖတ်သည်", "example_german": "Der Vater liest den Kindern eine Geschichte vor.", "example_myanmar": "ဖခင်ဖြစ်သူသည် ကလေးများကို ပုံပြင်တစ်ပုဒ် ဖတ်ပြနေသည်။"},
+          {"german": "erzählen", "myanmar": "ပြောပြသည်/ပုံပြောသည်", "example_german": "Er erzählt uns von seiner Reise.", "example_myanmar": "သူက သူ၏ခရီးစဉ်အကြောင်းကို ကျွန်ုပ်တို့အား ပြောပြနေသည်။"},
+          {"german": "zuhören", "myanmar": "နားထောင်သည်", "example_german": "Bitte hör mir gut zu.", "example_myanmar": "ကျေးဇူးပြု၍ ကျွန်ုပ်ပြောသည်ကို သေချာနားထောင်ပါ။"},
+          {"german": "verstehen", "myanmar": "နားလည်သည်", "example_german": "Wir verstehen uns sehr gut.", "example_myanmar": "ကျွန်ုပ်တို့သည် အချင်းချင်း အလွန်နားလည်မှုရှိကြသည်။"},
+          {"german": "vergeben", "myanmar": "ခွင့်လွှတ်သည်", "example_german": "Ich kann ihm diesen Fehler nicht vergeben.", "example_myanmar": "ကျွန်ုပ်သည် သူ့ကို ထိုအမှားအတွက် ခွင့်မလွှတ်နိုင်ပါ။"},
+          {"german": "danken", "myanmar": "ကျေးဇူးတင်သည်", "example_german": "Ich danke dir für deine Hilfe.", "example_myanmar": "မင်းရဲ့အကူအညီအတွက် ကျေးဇူးတင်ပါတယ်။"},
+          {"german": "gratulieren", "myanmar": "ဂုဏ်ပြုသည်", "example_german": "Ich gratuliere dir herzlich zum Geburtstag!", "example_myanmar": "သင့်မွေးနေ့အတွက် လှိုက်လှိုက်လှဲလှဲ ဂုဏ်ပြုပါသည်။"},
+          {"german": "wünschen", "myanmar": "ဆုတောင်းပေးသည်/ဆန္ဒရှိသည်", "example_german": "Ich wünsche dir alles Gute.", "example_myanmar": "သင့်အတွက် အကောင်းဆုံးဖြစ်ပါစေကြောင်း ဆုတောင်းပေးပါသည်။"},
+          {"german": "kennen", "myanmar": "သိသည် (လူ သို့မဟုတ် နေရာ)", "example_german": "Ich kenne deine Schwester schon lange.", "example_myanmar": "ကျွန်ုပ်သည် သင့်အစ်မကို သိသည်မှာ ကြာပါပြီ။"},
+          {"german": "vorstellen", "myanmar": "မိတ်ဆက်ပေးသည်", "example_german": "Darf ich dir meine Freundin vorstellen?", "example_myanmar": "ကျွန်ုပ်၏သူငယ်ချင်း (မ) ကို သင့်အား မိတ်ဆက်ပေးခွင့်ပြုပါ။"},
+          {"german": "erinnern", "myanmar": "သတိရသည်/မှတ်မိသည်", "example_german": "Erinnerst du dich an unseren ersten Urlaub?", "example_myanmar": "ကျွန်ုပ်တို့၏ ပထမဆုံး အားလပ်ရက်ခရီးစဉ်ကို မှတ်မိသေးလား။"},
+          {"german": "vergessen", "myanmar": "မေ့လျော့သည်", "example_german": "Ich habe deinen Geburtstag nicht vergessen.", "example_myanmar": "ကျွန်ုပ်သည် သင့်မွေးနေ့ကို မမေ့ပါဘူး။"},
+          {"german": "sprechen", "myanmar": "စကားပြောသည်", "example_german": "Wir müssen über das Problem sprechen.", "example_myanmar": "ကျွန်ုပ်တို့သည် ထိုပြဿနာအကြောင်း ဆွေးနွေးပြောဆိုရန် လိုအပ်သည်။"},
+          {"german": "reden", "myanmar": "စကားပြောသည်", "example_german": "Sie reden stundenlang über Gott und die Welt.", "example_myanmar": "သူတို့သည် နာရီပေါင်းများစွာ အကြောင်းအရာမျိုးစုံကို စကားပြောကြသည်။"},
+          {"german": "diskutieren", "myanmar": "ဆွေးနွေးငြင်းခုံသည်", "example_german": "Wir diskutieren oft über Politik.", "example_myanmar": "ကျွန်ုပ်တို့သည် နိုင်ငံရေးအကြောင်းကို မကြာခဏ ဆွေးနွေးငြင်းခုံလေ့ရှိသည်။"},
+          {"german": "sorgen", "myanmar": "စိုးရိမ်သည်/ဂရုစိုက်သည်", "example_german": "Eltern sorgen sich immer um ihre Kinder.", "example_myanmar": "မိဘများသည် ကလေးများအတွက် အမြဲစိုးရိမ်ပူပန်လေ့ရှိသည်။"},
+          {"german": "schützen", "myanmar": "ကာကွယ်သည်", "example_german": "Er will seine Familie vor Gefahren schützen.", "example_myanmar": "သူသည် မိသားစုကို အန္တရာယ်များမှ ကာကွယ်လိုသည်။"},
+          {"german": "unterstützen", "myanmar": "ပံ့ပိုးကူညီသည်", "example_german": "Meine Freunde unterstützen mich immer.", "example_myanmar": "ကျွန်ုပ်၏သူငယ်ချင်းများသည် ကျွန်ုပ်ကို အမြဲတမ်း ပံ့ပိုးကူညီကြသည်။"},
+          {"german": "zusammen sein", "myanmar": "အတူတူရှိသည်", "example_german": "Wir sind seit fünf Jahren zusammen.", "example_myanmar": "ကျွန်ုပ်တို့ အတူတူရှိခဲ့သည်မှာ ငါးနှစ်ရှိပါပြီ။"}
+        ]
+      }
+    }
+  ]
+}

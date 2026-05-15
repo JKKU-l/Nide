@@ -1,0 +1,196 @@
+{
+  "title": "Akkusativ (Accusative case)",
+  "sections": [
+    {
+      "id": "what_is_akkusativ",
+      "title": "1. What is the Accusative Case?",
+      "description": "In a German sentence, the Nominative case is used for the Subject (the person or thing doing the action). The Accusative case is used for the Direct Object (the person or thing receiving the action).",
+      "content": {
+        "example_sentence": {
+          "sentence": "The waiter drinks a juice.",
+          "breakdown": [
+            {
+              "part": "The waiter",
+              "role": "Subject (Nominative)"
+            },
+            {
+              "part": "Drinks",
+              "role": "Verb"
+            },
+            {
+              "part": "A juice",
+              "role": "Direct Object (Accusative)"
+            }
+          ]
+        },
+        "golden_rule": {
+          "title": "The Golden Rule of Accusative",
+          "description": "Only masculine nouns change their articles in the Accusative. Feminine, Neutral, and Plural nouns stay exactly the same as they are in the Nominative.",
+          "changes": [
+            {
+              "gender": "Masculine change",
+              "nominative": "der/ein",
+              "accusative": "den/einen"
+            },
+            {
+              "gender": "Neutral stays",
+              "nominative": "das/ein",
+              "accusative": "das/ein"
+            },
+            {
+              "gender": "Feminine stays",
+              "nominative": "die/eine",
+              "accusative": "die/eine"
+            },
+            {
+              "gender": "Plural stays",
+              "nominative": "die/--",
+              "accusative": "die/--"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_indefinite_articles",
+      "title": "2. Using Definite and Indefinite Articles",
+      "description": "When you are talking about a specific item, you use Definite Articles (the). When you talk about \"any\" item or \"one\" item, you use Indefinite Articles (a/an).",
+      "content": {
+        "masculine_examples": {
+          "title": "Examples with Masculine Nouns (The Change)",
+          "examples": [
+            {
+              "english": "I have the passport",
+              "german": "Ich habe den Pass.",
+              "note": "Masculine \"der\" changes to \"den\""
+            },
+            {
+              "english": "I need a computer",
+              "german": "Ich brauche einen Computer.",
+              "note": "Masculine \"ein\" changes to \"einen\""
+            }
+          ]
+        },
+        "neutral_feminine_examples": {
+          "title": "Examples with Neutral and Feminine (No Change)",
+          "examples": [
+            {
+              "english": "I buy the bread",
+              "german": "Ich kaufe das Brot.",
+              "note": "Neutral \"das\" remains \"das\""
+            },
+            {
+              "english": "I drink a bottle of wine",
+              "german": "Ich trinke eine Flasche Wein.",
+              "note": "Feminine \"eine\" remains \"eine\""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "negative_articles",
+      "title": "3. Negative Articles (Kein)",
+      "description": "When you want to say \"no\" or \"none\" (negating a noun), you use kein. This follows the exact same pattern as \"ein.\"",
+      "content": {
+        "examples": [
+          {
+            "gender": "Masculine",
+            "english": "I have no dog",
+            "german": "Ich habe keinen Hund.",
+            "note": "Note the -en ending"
+          },
+          {
+            "gender": "Neutral",
+            "english": "I have no car",
+            "german": "Ich habe kein Auto."
+          },
+          {
+            "gender": "Feminine",
+            "english": "I have no cat",
+            "german": "Ich habe keine Katze."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asking_questions",
+      "title": "4. Asking Questions: \"Wen\" vs. \"Was\"",
+      "description": "When you ask a question about the direct object, the question word depends on whether you are talking about a person or a thing.",
+      "content": {
+        "question_words": [
+          {
+            "word": "Wen?",
+            "meaning": "Who/Whom",
+            "usage": "Use this for people",
+            "example_question": "Wen lieben Sie?",
+            "example_answer": "Ich liebe meinen Mann."
+          },
+          {
+            "word": "Was?",
+            "meaning": "What",
+            "usage": "Use this for things or objects",
+            "example_question": "Was trinken Sie?",
+            "example_answer": "Ich trinke einen Saft."
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_and_when",
+      "title": "5. Why and When to Use It?",
+      "description": "The Accusative is triggered primarily by Transitive Verbs. These are verbs that require an object to make sense.",
+      "content": {
+        "common_verbs": [
+          {
+            "verb": "haben (to have)",
+            "example": "Ich habe einen Bruder."
+          },
+          {
+            "verb": "brauchen (to need)",
+            "example": "Wir brauchen den Schirm."
+          },
+          {
+            "verb": "essen/trinken (to eat/drink)",
+            "example": "Er isst einen Apfel."
+          },
+          {
+            "verb": "sehen (to see)",
+            "example": "Ich sehe den Film."
+          },
+          {
+            "verb": "kaufen (to buy)",
+            "example": "Sie kauft das Haus."
+          },
+          {
+            "verb": "lieben (to love)",
+            "example": "Ich liebe meine Familie."
+          }
+        ],
+        "logic_summary": "If you are performing an action on something (buying it, eating it, seeing it, having it), that \"something\" must be in the Accusative case. If that thing is masculine, add an -en to the article. If it is feminine or neutral, keep it as you learned it in the basic vocabulary list."
+      }
+    },
+    {
+      "id": "context_example",
+      "title": "6. Context Example: The \"Pet\" Logic",
+      "description": "Notice how the case shifts depending on the word's role in the sentence:",
+      "content": {
+        "examples": [
+          {
+            "sentence": "Now I have a dog.",
+            "german": "Jetzt habe ich einen Hund",
+            "case": "Accusative",
+            "reason": "Accusative because \"have\" takes an object"
+          },
+          {
+            "sentence": "The dog is very sweet.",
+            "german": "Der Hund ist sehr süß",
+            "case": "Nominative",
+            "reason": "Nominative because the dog is now the subject of the sentence"
+          }
+        ],
+        "key_insight": "This shows that the case is not about the word itself, but about the role the word plays in that specific sentence."
+      }
+    }
+  ]
+}

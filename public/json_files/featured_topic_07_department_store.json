@@ -1,0 +1,29 @@
+{
+  "month": 7,
+  "title_en": "At the Department Store",
+  "title_de": "Im Kaufhaus",
+  "icon": "🛍️",
+  "theme_color": "#EC4899",
+  "subtopics": [
+    {
+      "id": "buying_shoes",
+      "title": "Buying Shoes",
+      "content": ""
+    },
+    {
+      "id": "buying_mens_clothing",
+      "title": "Buying Men's Clothing",
+      "content": ""
+    },
+    {
+      "id": "buying_womens_clothing",
+      "title": "Buying Women's Clothing",
+      "content": ""
+    },
+    {
+      "id": "at_dry_cleaner",
+      "title": "At the Dry Cleaner (Laundry) ▪ In der Reinigung (Wäscherei)",
+      "content": ""
+    }
+  ]
+}

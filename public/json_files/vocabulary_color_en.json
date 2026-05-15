@@ -1,0 +1,21 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Farbe", "english": "the color", "article": "die", "word": "Farbe", "emoji": "🎨"},
+        {"german": "blau", "english": "blue", "article": "", "word": "blau", "emoji": "🔵"},
+        {"german": "rot", "english": "red", "article": "", "word": "rot", "emoji": "🔴"},
+        {"german": "gelb", "english": "yellow", "article": "", "word": "gelb", "emoji": "🟡"},
+        {"german": "grün", "english": "green", "article": "", "word": "grün", "emoji": "🟢"},
+        {"german": "braun", "english": "brown", "article": "", "word": "braun", "emoji": "🟤"},
+        {"german": "grau", "english": "grey", "article": "", "word": "grau", "emoji": "⚪"},
+        {"german": "schwarz", "english": "black", "article": "", "word": "schwarz", "emoji": "⚫"},
+        {"german": "rosa", "english": "pink", "article": "", "word": "rosa", "emoji": "🩷"},
+        {"german": "weiß", "english": "white", "article": "", "word": "weiß", "emoji": "⬜"},
+        {"german": "orange", "english": "orange", "article": "", "word": "orange", "emoji": "🟠"},
+        {"german": "lila", "english": "purple", "article": "", "word": "lila", "emoji": "🟣"}
+      ]
+    }
+  ]
+}

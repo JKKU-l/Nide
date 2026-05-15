@@ -1,0 +1,182 @@
+{
+  "title": "Đại từ nhân xưng (Cách 4·Cách 3)",
+  "description": "Tìm hiểu cách đại từ nhân xưng thay đổi hình thái tùy thuộc vào vai trò của chúng trong câu - chủ ngữ, tân ngữ trực tiếp hoặc tân ngữ gián tiếp.",
+  "sections": [
+    {
+      "id": "understanding_cases",
+      "title": "1. Hiểu về 3 Cách chính (Kasus)",
+      "description": "Trong tiếng Đức, một đại từ sẽ thay đổi hình thái tùy thuộc vào \"vai trò\" của nó trong câu.",
+      "content": {
+        "cases": [
+          {
+            "case": "Nominative (Cách 1 - Danh cách)",
+            "description": "Chủ ngữ. Người hoặc vật thực hiện hành động."
+          },
+          {
+            "case": "Accusative (Cách 4 - Đối cách)",
+            "description": "Tân ngữ trực tiếp. Người hoặc vật chịu tác động trực tiếp của hành động."
+          },
+          {
+            "case": "Dative (Cách 3 - Biến cách)",
+            "description": "Tân ngữ gián tiếp. Thường là \"người nhận\" một món quà hoặc người mà hành động được thực hiện cho họ. Cách này cũng bắt buộc sau một số giới từ cụ thể như mit (với) hoặc zu (đến)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "akkusativ_pronouns",
+      "title": "2. Đại từ nhân xưng ở Cách Accusative",
+      "description": "Chúng ta sử dụng Accusative khi một người là tân ngữ trực tiếp của động từ. Các \"Động từ đi với Accusative\" phổ biến bao gồm: lieben (yêu), mögen (thích), kennen (biết/quen biết ai), và sehen (nhìn/thấy).",
+      "content": {
+        "examples": [
+          {
+            "english": "Tôi yêu anh ấy.",
+            "german": "Ich liebe ihn.",
+            "explanation": "\"Ich\" là chủ ngữ (Nominative). \"Anh ấy\" chuyển thành ihn vì anh ấy là người được yêu (Tân ngữ trực tiếp)."
+          },
+          {
+            "english": "Bạn có thích tôi không?",
+            "german": "Magst du mich?",
+            "explanation": "\"Du\" là chủ ngữ. \"Tôi\" chuyển thành mich vì tôi là đối tượng của sự yêu thích."
+          },
+          {
+            "english": "Chúng tôi thấy các bạn.",
+            "german": "Wir sehen euch.",
+            "explanation": "\"Wir\" thực hiện hành động nhìn. \"Các bạn\" chuyển thành euch."
+          }
+        ],
+        "note": "Lưu ý: Đối với các đại từ sie (cô ấy/họ), es (nó), và Sie (Ngài/Quý vị - lịch sự), hình thái của chúng không thay đổi giữa Nominative và Accusative."
+      }
+    },
+    {
+      "id": "dativ_pronouns",
+      "title": "3. Đại từ nhân xưng ở Cách Dative",
+      "description": "Cách Dative được sử dụng cho \"người thụ hưởng\" của một hành động (người nhận được cái gì đó) hoặc sau các động từ cụ thể như helfen (giúp đỡ), gefallen (làm ai đó hài lòng/thích), và antworten (trả lời).",
+      "content": {
+        "examples": [
+          {
+            "english": "Tôi đưa cho bạn cuốn sách.",
+            "german": "Ich gebe dir das Buch.",
+            "explanation": "Cuốn sách là tân ngữ trực tiếp (Accusative), nhưng \"bạn\" là người nhận, vì vậy \"du\" chuyển thành dir."
+          },
+          {
+            "english": "Chiếc váy này làm tôi hài lòng (Tôi thích chiếc váy).",
+            "german": "Das Kleid gefällt mir.",
+            "explanation": "Động từ \"gefallen\" luôn yêu cầu cách Dative cho người cảm thấy thích đồ vật đó."
+          },
+          {
+            "english": "Tôi đang giúp cô ấy.",
+            "german": "Ich helfe ihr.",
+            "explanation": "\"Helfen\" là một động từ đi với Dative. Mặc dù trong tiếng Anh hay tiếng Việt cô ấy là tân ngữ trực tiếp, nhưng trong tiếng Đức, cô ấy phải ở cách Dative."
+          }
+        ]
+      }
+    },
+    {
+      "id": "prepositions_role",
+      "title": "4. Vai trò của Giới từ",
+      "description": "Đôi khi \"Cách\" được quyết định không phải bởi động từ, mà bởi từ nhỏ đứng trước đại từ (giới từ).",
+      "content": {
+        "prepositions": [
+          {
+            "preposition": "Với (Mit)",
+            "case": "Dative",
+            "example_english": "Tôi đi với anh ấy.",
+            "example_german": "Ich gehe mit ihm."
+          },
+          {
+            "preposition": "Cho (Für)",
+            "case": "Accusative",
+            "example_english": "Đây là cho bạn.",
+            "example_german": "Das ist für dich."
+          }
+        ]
+      }
+    },
+    {
+      "id": "key_transformations",
+      "title": "5. Tóm tắt các biến đổi chính",
+      "description": "Để giúp bạn ghi nhớ mà không cần bảng biểu, hãy nghĩ về chúng theo từng nhóm:",
+      "content": {
+        "groups": [
+          {
+            "title": "Đại từ \"Tôi\"",
+            "transformations": [
+              {"form": "Chủ ngữ", "pronoun": "ich (tôi)"},
+              {"form": "Tân ngữ trực tiếp", "pronoun": "mich (tôi - Acc)"},
+              {"form": "Tân ngữ gián tiếp", "pronoun": "mir (cho tôi/với tôi - Dat)"}
+            ]
+          },
+          {
+            "title": "Đại từ \"Bạn\" (thân mật)",
+            "transformations": [
+              {"form": "Chủ ngữ", "pronoun": "du (bạn)"},
+              {"form": "Tân ngữ trực tiếp", "pronoun": "dich (bạn - Acc)"},
+              {"form": "Tân ngữ gián tiếp", "pronoun": "dir (cho bạn/với bạn - Dat)"}
+            ]
+          },
+          {
+            "title": "Đại từ \"Anh ấy\" (Thay đổi nhiều nhất)",
+            "transformations": [
+              {"form": "Chủ ngữ", "pronoun": "er (anh ấy)"},
+              {"form": "Tân ngữ trực tiếp", "pronoun": "ihn (anh ấy - Acc)"},
+              {"form": "Tân ngữ gián tiếp", "pronoun": "ihm (cho anh ấy - Dat)"}
+            ]
+          },
+          {
+            "title": "Đại từ \"Cô ấy\"",
+            "transformations": [
+              {"form": "Chủ ngữ", "pronoun": "sie (cô ấy)"},
+              {"form": "Tân ngữ trực tiếp", "pronoun": "sie (cô ấy - Acc)"},
+              {"form": "Tân ngữ gián tiếp", "pronoun": "ihr (cho cô ấy - Dat)"}
+            ]
+          },
+          {
+            "title": "Đại từ \"Chúng tôi\" và \"Các bạn\"",
+            "note": "wir (chúng tôi) trở thành uns ở cả Accusative và Dative. ihr (các bạn) trở thành euch ở cả Accusative và Dative.",
+            "transformations": [
+              {"form": "Chủ ngữ", "pronoun": "wir (chúng tôi) / ihr (các bạn)"},
+              {"form": "Accusative & Dative", "pronoun": "uns / euch"}
+            ]
+          },
+          {
+            "title": "Đại từ \"Họ\" và \"Ngài\" (Lịch sự)",
+            "note": "sie/Sie giữ nguyên là sie/Sie ở Accusative. sie/Sie trở thành ihnen/Ihnen ở Dative.",
+            "transformations": [
+              {"form": "Chủ ngữ", "pronoun": "sie (họ) / Sie (Ngài - lịch sự)"},
+              {"form": "Tân ngữ trực tiếp", "pronoun": "sie / Sie"},
+              {"form": "Tân ngữ gián tiếp", "pronoun": "ihnen / Ihnen"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_usage",
+      "title": "6. Sử dụng thực tế: \"Bạn khỏe không?\"",
+      "description": "Trong tiếng Đức, cấu trúc \"Wie geht es...?\" là một cách diễn đạt Dative kinh điển. Người Đức không nói \"Bạn là thế nào?\"; họ nói \"Mọi việc đang diễn ra với bạn thế nào?\".",
+      "content": {
+        "examples": [
+          {
+            "english": "Bạn khỏe không (thân mật)?",
+            "german": "Wie geht es dir?"
+          },
+          {
+            "english": "Ngài khỏe không (lịch sự)?",
+            "german": "Wie geht es Ihnen?"
+          },
+          {
+            "english": "Bố của bạn khỏe không?",
+            "german": "Wie geht es ihm?",
+            "note": "Vì \"bố\" tương ứng với đại từ \"anh ấy\""
+          },
+          {
+            "english": "Tôi khỏe.",
+            "german": "Es geht mir gut.",
+            "note": "Nghĩa đen: Nó đi với tôi tốt"
+          }
+        ]
+      }
+    }
+  ]
+}

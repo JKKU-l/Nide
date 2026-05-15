@@ -1,0 +1,107 @@
+{
+  "title": "Genitiv (การก์แสดงความเป็นเจ้าของ)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "การก์แสดงความเป็นเจ้าของ (Genitiv) ในภาษาเยอรมัน",
+      "description": "Genitiv ใช้เพื่อแสดงการครอบครอง ความเป็นเจ้าของ หรือความสัมพันธ์เฉพาะระหว่างคำนามสองคำ แม้จะถูกแทนที่ด้วย Dativ (ใช้ von) ในการสนทนาทั่วไป แต่ Genitiv ยังคงเป็นมาตรฐานในงานเขียนทางการ วรรณกรรม และภาษาวิชาการ"
+    },
+    {
+      "id": "core_function",
+      "title": "1. หน้าที่หลัก: แสดงความเป็นเจ้าของ",
+      "description": "Genitiv ตอบคำถาม \"Wessen?\" (ของใคร?) โดยเชื่อมคำนามสองคำเข้าด้วยกัน โดยคำนามที่สอง \"เป็นเจ้าของ\" คำนามแรก",
+      "content": {
+        "declension_table": {
+          "title": "ตารางการผัน Genitiv",
+          "headers": ["เพศ", "คำนำหน้าชี้เฉพาะ", "คำนำหน้าไม่ชี้เฉพาะ/แสดงความเป็นเจ้าของ", "การเปลี่ยนแปลงคำนาม"],
+          "rows": [
+            { "category": "เพศชาย", "definite": "des (des Vaters)", "indefinite": "eines / meines", "adjective": "เติม -s หรือ -es" },
+            { "category": "ไม่ระบุเพศ", "definite": "des (des Kindes)", "indefinite": "eines / meines", "adjective": "เติม -s หรือ -es" },
+            { "category": "เพศหญิง", "definite": "der (der Mutter)", "indefinite": "einer / meiner", "adjective": "ไม่เปลี่ยน" },
+            { "category": "พหูพจน์", "definite": "der (der Eltern)", "indefinite": "meiner", "adjective": "ไม่เปลี่ยน" }
+          ]
+        },
+        "key_rule": "คำนามเพศชายและไม่ระบุเพศ ถ้ามี 1 พยางค์จะเติม -es (เช่น des Mannes) ถ้ามีหลายพยางค์จะเติม -s เท่านั้น (เช่น des Computers)",
+        "translations": [
+          { "label": "เพศชาย", "german": "Das Auto des Vaters.", "translation": "รถของพ่อ" },
+          { "label": "เพศหญิง", "german": "Die Farbe einer Blume.", "translation": "สีของดอกไม้" }
+        ]
+      }
+    },
+    {
+      "id": "prepositions",
+      "title": "2. การใช้กับคำบุพบท",
+      "description": "คำบุพบทบางคำ \"กระตุ้น\" Genitiv เมื่อใช้คำเหล่านี้ คำนามที่ตามมาต้องอยู่ในรูป Genitiv",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_prepositions",
+            "title": "คำบุพบท Genitiv ที่พบบ่อย",
+            "description": "คำบุพบทเหล่านี้ต้องใช้ Genitiv เสมอ:",
+            "prepositions": ["trotz (แม้ว่า)", "während (ระหว่าง)", "wegen (เพราะ)", "außerhalb (นอก)", "innerhalb (ภายใน)"],
+            "examples": [
+              { "german": "Trotz des Regens gehen wir spazieren.", "translation": "แม้ฝนตก เราก็ไปเดินเล่น" },
+              { "german": "Während der Fahrt schläft er.", "translation": "ระหว่างเดินทาง เขาหลับ" },
+              { "german": "Wegen des Wetters bleiben wir zu Hause.", "translation": "เพราะอากาศ เราอยู่บ้าน" },
+              { "german": "Außerhalb der Stadt.", "translation": "นอกเมือง" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "verbs_adjectives",
+      "title": "3. การใช้กับกริยาและคำคุณศัพท์",
+      "description": "แม้จะไม่ค่อยพบในภาษาพูดสมัยใหม่ แต่กริยาและคำคุณศัพท์ระดับสูงหลายตัวต้องใช้ Genitiv",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_verbs",
+            "title": "กริยา",
+            "description": "กริยาเหล่านี้อธิบายการกระทำทางกฎหมายหรือการไตร่ตรองภายใน",
+            "subcategories": [
+              { "label": "Anklagen (กล่าวหาว่า)", "verbs": "", "german": "Man klagte ihn des Mordes an.", "translation": "พวกเขากล่าวหาเขาว่าฆาตกรรม" },
+              { "label": "Gedenken (รำลึกถึง)", "verbs": "", "german": "Wir gedenken der Toten.", "translation": "เรารำลึกถึงผู้ตาย" },
+              { "label": "Sich schämen (ละอายใจ)", "verbs": "", "german": "Er schämt sich seines Fehlers.", "translation": "เขาละอายใจกับความผิดพลาด" }
+            ]
+          },
+          {
+            "id": "genitive_adjectives",
+            "title": "คำคุณศัพท์",
+            "description": "คำคุณศัพท์เหล่านี้ต้องใช้ Genitiv:",
+            "subcategories": [
+              { "label": "Würdig (สมควร)", "verbs": "", "german": "Das ist eines Königs würdig.", "translation": "นั่นสมควรแก่กษัตริย์" },
+              { "label": "Sicher (แน่ใจ)", "verbs": "", "german": "Ich bin mir meiner Sache sicher.", "translation": "ฉันแน่ใจในเรื่องของฉัน" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "possessive_pronouns",
+      "title": "4. สรรพนามแสดงความเป็นเจ้าของใน Genitiv",
+      "description": "เมื่อใช้สรรพนามแสดงความเป็นเจ้าของ (ของฉัน ของคุณ ของเขา) เป็นตัวขยายอิสระใน Genitiv จะตามคำลงท้ายเดียวกับคำนำหน้าไม่ชี้เฉพาะ",
+      "content": {
+        "determiners": ["คำลงท้ายเพศชาย/ไม่ระบุเพศ: -es (meines, deines, seines)", "คำลงท้ายเพศหญิง/พหูพจน์: -er (meiner, deiner, ihrer)"],
+        "example": {
+          "german": "Wegen meines Bruders.",
+          "translation": "เพราะพี่ชายของฉัน",
+          "note": "ตัวอย่างอื่น: Inmitten unserer Freunde. (ท่ามกลางเพื่อนของเรา)"
+        }
+      }
+    },
+    {
+      "id": "adjective_declension",
+      "title": "5. การผันคำคุณศัพท์ใน Genitiv",
+      "description": "ถ้าคำคุณศัพท์อยู่ระหว่างคำนำหน้าและคำนามใน Genitiv จะลงท้ายด้วย -en เกือบเสมอ",
+      "content": {
+        "translations": [
+          { "label": "มีคำนำหน้า", "german": "Das Haus des alten Mannes.", "translation": "บ้านของชายชรา" },
+          { "label": "ไม่มีคำนำหน้า (กาแฟสด)", "german": "Der Duft frischen Kaffees.", "translation": "กลิ่นของกาแฟสด (คำคุณศัพท์รับคำลงท้ายที่คำนำหน้าจะมี)" },
+          { "label": "ไม่มีคำนำหน้า (พ่อแม่ใจดี)", "german": "Die Hilfe netter Eltern.", "translation": "ความช่วยเหลือของพ่อแม่ใจดี" }
+        ],
+        "key_rule": "มีคำนำหน้า คำคุณศัพท์ลงท้ายด้วย -en เสมอ ไม่มีคำนำหน้า (เช่น คำนามพหูพจน์หรือแนวคิดนามธรรม) คำคุณศัพท์รับคำลงท้ายที่คำนำหน้าจะมี"
+      }
+    }
+  ]
+}

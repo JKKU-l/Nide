@@ -1,0 +1,55 @@
+{
+  "title": "Home & Living",
+  "emoji": "🏠",
+  "theme_color": "#2196F3",
+  "description": "House, furniture, and daily life at home",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "wohnen", "japanese": "住む", "example_german": "Ich wohne seit zwei Jahren in Berlin.", "example_japanese": "私は2年前からベルリンに住んでいます。"},
+          {"german": "schlafen", "japanese": "眠る", "example_german": "Wie lange schläfst du normalerweise?", "example_japanese": "普段はどのくらい寝ますか？"},
+          {"german": "aufwachen", "japanese": "目が覚める", "example_german": "Ich wache jeden Tag ohne Wecker auf.", "example_japanese": "私は毎日、目覚まし時計なしで目が覚めます。"},
+          {"german": "aufstehen", "japanese": "起きる", "example_german": "Um wie viel Uhr stehst du auf?", "example_japanese": "何時に起きますか？"},
+          {"german": "waschen", "japanese": "洗う", "example_german": "Ich muss heute meine Kleidung waschen.", "example_japanese": "今日、服を洗わなければなりません。"},
+          {"german": "duschen", "japanese": "シャワーを浴びる", "example_german": "Er duscht sich nach dem Sport.", "example_japanese": "彼はスポーツの後にシャワーを浴びます。"},
+          {"german": "baden", "japanese": "入浴する", "example_german": "Am Sonntag bade ich gerne lange.", "example_japanese": "日曜日はゆっくりお風呂に入るのが好きです。"},
+          {"german": "putzen", "japanese": "掃除する / 磨く", "example_german": "Wir putzen am Samstag die ganze Wohnung.", "example_japanese": "私たちは土曜日に家全体を掃除します。"},
+          {"german": "kochen", "japanese": "料理する", "example_german": "Was kochst du heute zum Abendessen?", "example_japanese": "今日の夕食は何を作りますか？"},
+          {"german": "backen", "japanese": "焼く (ケーキやパンなど)", "example_german": "Meine Mutter backt einen Apfelkuchen.", "example_japanese": "母はアップルケーキを焼いています。"},
+          {"german": "braten", "japanese": "焼く / 揚げる (肉や魚など)", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_japanese": "私はフライパンで肉を焼いています。"},
+          {"german": "essen", "japanese": "食べる", "example_german": "Wann essen wir heute?", "example_japanese": "今日はいつ食べますか？"},
+          {"german": "trinken", "japanese": "飲む", "example_german": "Ich trinke morgens immer einen Kaffee.", "example_japanese": "私は朝、いつもコーヒーを飲みます。"},
+          {"german": "frühstücken", "japanese": "朝食を食べる", "example_german": "Wir frühstücken meistens um acht Uhr.", "example_japanese": "私たちは大抵8時に朝食を食べます。"},
+          {"german": "mittagessen", "japanese": "昼食を食べる", "example_german": "Ich esse im Büro zu Mittag.", "example_japanese": "私はオフィスで昼食を食べます。"},
+          {"german": "abendessen", "japanese": "夕食を食べる", "example_german": "Wir essen heute spät zu Abend.", "example_japanese": "今日は遅い夕食をとります。"},
+          {"german": "abwaschen", "japanese": "皿を洗う", "example_german": "Wer wäscht heute das Geschirr ab?", "example_japanese": "今日は誰が皿を洗いますか？"},
+          {"german": "abtrocknen", "japanese": "皿を拭く", "example_german": "Ich trockne die Teller ab.", "example_japanese": "私は皿を拭いています。"},
+          {"german": "aufräumen", "japanese": "片付ける", "example_german": "Du musst dein Zimmer aufräumen.", "example_japanese": "部屋を片付けなさい。"},
+          {"german": "aufmachen", "japanese": "開ける", "example_german": "Kannst du bitte das Fenster aufmachen?", "example_japanese": "窓を開けてくれますか？"},
+          {"german": "zumachen", "japanese": "閉める", "example_german": "Es ist kalt, bitte mach die Tür zu.", "example_japanese": "寒いので、ドアを閉めてください。"},
+          {"german": "einschalten", "japanese": "(スイッチを) 入れる", "example_german": "Ich schalte den Fernseher ein.", "example_japanese": "テレビをつけます。"},
+          {"german": "ausschalten", "japanese": "(スイッチを) 切る", "example_german": "Bitte schalte das Licht aus.", "example_japanese": "電気を消してください。"},
+          {"german": "heizen", "japanese": "暖房を入れる", "example_german": "Im Winter müssen wir viel heizen.", "example_japanese": "冬はたくさん暖房を使わなければなりません。"},
+          {"german": "lüften", "japanese": "換気する", "example_german": "Wir lüften das Zimmer zweimal am Tag.", "example_japanese": "私たちは1日に2回、部屋の換気をします。"},
+          {"german": "staubsaugen", "japanese": "掃除機をかける", "example_german": "Ich muss im Wohnzimmer staubsaugen.", "example_japanese": "リビングに掃除機をかけなければなりません。"},
+          {"german": "wischen", "japanese": "拭く / 床を磨く", "example_german": "Sie wischt den Küchenboden.", "example_japanese": "彼女は台所の床を拭いています。"},
+          {"german": "bügeln", "japanese": "アイロンをかける", "example_german": "Er bügelt seine Hemden selbst.", "example_japanese": "彼は自分でシャツにアイロンをかけます。"},
+          {"german": "nähen", "japanese": "縫う", "example_german": "Meine Oma näht mir ein Kleid.", "example_japanese": "祖母が私にドレスを縫ってくれています。"},
+          {"german": "reparieren", "japanese": "修理する", "example_german": "Mein Vater repariert das kaputte Fahrrad.", "example_japanese": "父は壊れた自転車を修理しています。"},
+          {"german": "streichen", "japanese": "(壁を) 塗る", "example_german": "Wir streichen die Wände weiß.", "example_japanese": "私たちは壁を白く塗っています。"},
+          {"german": "hangen", "japanese": "掛ける", "example_german": "Ich hänge das Bild an die Wand.", "example_japanese": "壁に絵を掛けています。"},
+          {"german": "stellen", "japanese": "置く (立てて置く)", "example_german": "Stell die Vase bitte auf den Tisch.", "example_japanese": "花瓶をテーブルの上に置いてください。"},
+          {"german": "legen", "japanese": "置く (横にして置く)", "example_german": "Er legt das Buch in das Regal.", "example_japanese": "彼は本を棚に置いています。"},
+          {"german": "nehmen", "japanese": "取る / いただく", "example_german": "Ich nehme mir ein Glas Wasser.", "example_japanese": "水を一杯いただきます。"},
+          {"german": "bringen", "japanese": "持ってくる", "example_german": "Bringst du mir bitte die Zeitung?", "example_japanese": "新聞を持ってきてくれますか？"},
+          {"german": "tragen", "japanese": "運ぶ / 身に着ける", "example_german": "Er trägt die schweren Taschen nach oben.", "example_japanese": "彼は重い鞄を上へ運んでいます。"},
+          {"german": "kaufen", "japanese": "買う", "example_german": "Wir kaufen heute frisches Gemüse.", "example_japanese": "私たちは今日、新鮮な野菜を買います。"},
+          {"german": "schließen", "japanese": "閉める", "example_german": "Bitte schließen Sie die Haustür.", "example_japanese": "玄関のドアを閉めてください。"},
+          {"german": "öffnen", "japanese": "開ける", "example_german": "Ich öffne die Post.", "example_japanese": "郵便物を開けています。"}
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Clothing & Appearance",
+  "emoji": "👔",
+  "theme_color": "#3F51B5",
+  "description": "Clothes, accessories, and personal appearance",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "anziehen", "korean": "입다/신다/쓰다", "example_german": "Ich ziehe mir eine warme Jacke an.", "example_korean": "나는 따뜻한 재킷을 입습니다."},
+          {"german": "ausziehen", "korean": "벗다", "example_german": "Bitte zieh deine Schuhe im Flur aus.", "example_korean": "복도에서 신발을 벗어 주세요."},
+          {"german": "umziehen", "korean": "갈아입다", "example_german": "Ich muss mich für die Party noch umziehen.", "example_korean": "나는 파티를 위해 옷을 갈아입어야 합니다."},
+          {"german": "tragen", "korean": "입고 있다/착용하다", "example_german": "Sie trägt heute ein blaues Kleid.", "example_korean": "그녀는 오늘 파란색 원피스를 입고 있습니다."},
+          {"german": "passen", "korean": "(치수가) 맞다", "example_german": "Die Hose passt mir leider nicht mehr.", "example_korean": "아쉽게도 이 바지가 더 이상 나에게 맞지 않습니다."},
+          {"german": "kaufen", "korean": "사다", "example_german": "Wir kaufen neue Kleidung für den Winter.", "example_korean": "우리는 겨울을 대비해 새 옷을 삽니다."},
+          {"german": "anprobieren", "korean": "입어보다/신어보다", "example_german": "Darf ich diesen Pullover anprobieren?", "example_korean": "이 풀오버를 입어 봐도 될까요?"},
+          {"german": "nähen", "korean": "바느질하다/꿰매다", "example_german": "Meine Mutter kann sehr gut nähen.", "example_korean": "우리 어머니는 바느질을 아주 잘하십니다."},
+          {"german": "bügeln", "korean": "다림질하다", "example_german": "Er bügelt seine Hemden jeden Sonntag.", "example_korean": "그는 일요일마다 셔츠를 다립니다."},
+          {"german": "waschen", "korean": "세탁하다", "example_german": "Ich muss heute weiße Wäsche waschen.", "example_korean": "나는 오늘 흰 빨래를 해야 합니다."},
+          {"german": "trocknen", "korean": "말리다/마르다", "example_german": "Die Wäsche trocknet draußen in der Sonne.", "example_korean": "빨래가 밖에서 햇볕에 마르고 있습니다."},
+          {"german": "falten", "korean": "접다", "example_german": "Ich falte die T-Shirts und lege sie in den Schrank.", "example_korean": "나는 티셔츠를 접어서 옷장에 넣습니다."},
+          {"german": "aufhängen", "korean": "걸다/널다", "example_german": "Kannst du bitte die Mäntel aufhängen?", "example_korean": "코트 좀 걸어 줄 수 있나요?"},
+          {"german": "einpacken", "korean": "챙기다/짐을 싸다", "example_german": "Wir müssen unsere Koffer für den Urlaub einpacken.", "example_korean": "우리는 휴가를 위해 여행 가방을 싸야 합니다."},
+          {"german": "auspacken", "korean": "짐을 풀다", "example_german": "Ich packe meine Tasche nach der Reise aus.", "example_korean": "나는 여행 후에 가방을 풉니다."},
+          {"german": "sortieren", "korean": "분류하다", "example_german": "Sie sortiert ihre Socken nach Farben.", "example_korean": "그녀는 양말을 색깔별로 분류합니다."},
+          {"german": "aufräumen", "korean": "정리하다", "example_german": "Du solltest endlich deinen Kleiderschrank aufräumen.", "example_korean": "너는 이제 옷장을 정리해야 한다."},
+          {"german": "färben", "korean": "염색하다", "example_german": "Sie möchte sich die Haare schwarz färben.", "example_korean": "그녀는 머리를 검은색으로 염색하고 싶어 합니다."},
+          {"german": "schneiden", "korean": "자르다", "example_german": "Der Friseur schneidet mir die Spitzen.", "example_korean": "미용사가 내 머리 끝부분을 자릅니다."},
+          {"german": "rasieren", "korean": "면도하다", "example_german": "Er rasiert sich jeden zweiten Tag.", "example_korean": "그는 이틀에 한 번씩 면도합니다."},
+          {"german": "schminken", "korean": "화장하다", "example_german": "Sie schminkt sich vor dem Spiegel.", "example_korean": "그녀는 거울 앞에서 화장을 합니다."},
+          {"german": "kühlen", "korean": "차갑게 하다/식히다", "example_german": "Nach dem Sport muss ich mein Knie kühlen.", "example_korean": "운동 후에 무릎을 찜질(냉찜질)해야 합니다."},
+          {"german": "wärmen", "korean": "따뜻하게 하다", "example_german": "Der Tee wärmt mich von innen.", "example_korean": "차를 마시니 몸속이 따뜻해집니다."},
+          {"german": "reinigen", "korean": "세척하다/드라이클리닝하다", "example_german": "Ich muss diesen Anzug chemisch reinigen lassen.", "example_korean": "이 양복을 드라이클리닝 맡겨야 합니다."},
+          {"german": "aufbewahren", "korean": "보관하다", "example_german": "Wo bewahrst du deinen Schmuck auf?", "example_korean": "보석을 어디에 보관하나요?"},
+          {"german": "wegwerfen", "korean": "버리다", "example_german": "Diese alten Schuhe kannst du wegwerfen.", "example_korean": "이 낡은 신발들은 버려도 됩니다."},
+          {"german": "spenden", "korean": "기부하다", "example_german": "Wir spenden unsere alte Kleidung an das Rote Kreuz.", "example_korean": "우리는 헌 옷을 적십자에 기부합니다."},
+          {"german": "schenken", "korean": "선물하다", "example_german": "Ich schenke ihr eine goldene Kette.", "example_korean": "나는 그녀에게 금목걸이를 선물합니다."},
+          {"german": "leihen", "korean": "빌리다/빌려주다", "example_german": "Kannst du mir eine Krawatte leihen?", "example_korean": "넥타이 하나 빌려줄 수 있나요?"},
+          {"german": "zurückgeben", "korean": "돌려주다/반납하다", "example_german": "Ich gebe dir den geliehenen Schal morgen zurück.", "example_korean": "빌린 스카프는 내일 돌려줄게요."},
+          {"german": "umtauschen", "korean": "교환하다", "example_german": "Ich möchte diese Jacke gegen eine größere umtauschen.", "example_korean": "이 재킷을 더 큰 사이즈로 교환하고 싶습니다."},
+          {"german": "verlieren", "korean": "잃어버리다", "example_german": "Ich verliere ständig meine Handschuhe.", "example_korean": "나는 자꾸 장갑을 잃어버립니다."},
+          {"german": "finden", "korean": "찾다", "example_german": "Ich kann meine Mütze nirgends finden.", "example_korean": "내 모자를 어디에서도 찾을 수 없습니다."},
+          {"german": "suchen", "korean": "찾다/수색하다", "example_german": "Er sucht nach einer passenden Jeans.", "example_korean": "그는 어울리는 청바지를 찾고 있습니다."},
+          {"german": "anschauen", "korean": "바라보다/보다", "example_german": "Schau dir diesen schönen Mantel an!", "example_korean": "이 예쁜 코트 좀 봐!"},
+          {"german": "zeigen", "korean": "보여주다", "example_german": "Zeig mir bitte deine neuen Schuhe.", "example_korean": "네 새 신발 좀 보여줘."},
+          {"german": "wählen", "korean": "고르다/선택하다", "example_german": "Sie kann sich nicht für eine Farbe wählen.", "example_korean": "그녀는 색상을 정하지 못하고 있습니다."},
+          {"german": "gefallen", "korean": "마음에 들다", "example_german": "Das Hemd gefällt mir sehr gut.", "example_korean": "이 셔츠가 아주 마음에 듭니다."},
+          {"german": "stehen", "korean": "어울리다", "example_german": "Die Farbe Grün steht dir ausgezeichnet.", "example_korean": "초록색이 너에게 아주 잘 어울린다."},
+          {"german": "tragen", "korean": "(물건을) 들다/옮기다", "example_german": "Er trägt die schweren Koffer zum Auto.", "example_korean": "그는 무거운 가방들을 차로 옮깁니다."}
+        ]
+      }
+    }
+  ]
+}

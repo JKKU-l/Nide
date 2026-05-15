@@ -1,0 +1,38 @@
+{
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Geschäft", "english": "the shop / business", "article": "das", "word": "Geschäft", "emoji": "🏪"},
+        {"german": "die Kasse", "english": "the cash register", "article": "die", "word": "Kasse", "emoji": "💵"},
+        {"german": "einkaufen", "english": "to go shopping", "article": "", "word": "einkaufen", "emoji": "🛍️"},
+        {"german": "der Verkäufer / die Verkäuferin", "english": "the salesperson", "article": "der / die", "word": "Verkäufer / Verkäuferin", "emoji": "🧑‍💼"},
+        {"german": "der Kunde / die Kundin", "english": "the customer", "article": "der / die", "word": "Kunde / Kundin", "emoji": "👤"},
+        {"german": "der Preis", "english": "the price", "article": "der", "word": "Preis", "emoji": "🏷️"},
+        {"german": "kosten", "english": "to cost", "article": "", "word": "kosten", "emoji": "💸"},
+        {"german": "verkaufen", "english": "to sell", "article": "", "word": "verkaufen", "emoji": "🤝"},
+        {"german": "billig", "english": "cheap", "article": "", "word": "billig", "emoji": "🪙"},
+        {"german": "teuer", "english": "expensive", "article": "", "word": "teuer", "emoji": "💎"},
+        {"german": "kaufen", "english": "to buy", "article": "", "word": "kaufen", "emoji": "🛒"},
+        {"german": "die Tüte", "english": "the bag (plastic or paper)", "article": "die", "word": "Tüte", "emoji": "🛍️"},
+        {"german": "der Markt", "english": "the market", "article": "der", "word": "Markt", "emoji": "🍎"},
+        {"german": "die Bäckerei", "english": "the bakery", "article": "die", "word": "Bäckerei", "emoji": "🥖"},
+        {"german": "die Geldbörse", "english": "the wallet / purse", "article": "die", "word": "Geldbörse", "emoji": "👛"},
+        {"german": "der Supermarkt", "english": "the supermarket", "article": "der", "word": "Supermarkt", "emoji": "🛒"},
+        {"german": "die Fleischerei", "english": "the butcher's shop", "article": "die", "word": "Fleischerei", "emoji": "🥩"},
+        {"german": "die Brieftasche", "english": "the wallet", "article": "die", "word": "Brieftasche", "emoji": "💼"},
+        {"german": "der Kiosk", "english": "the kiosk / newsstand", "article": "der", "word": "Kiosk", "emoji": "📰"},
+        {"german": "der Frisör / Friseur", "english": "the hairdresser / barber", "article": "der", "word": "Frisör / Friseur", "emoji": "💇‍♂️"},
+        {"german": "die Rechnung", "english": "the bill / invoice", "article": "die", "word": "Rechnung", "emoji": "🧾"},
+        {"german": "zahlen", "english": "to pay", "article": "", "word": "zahlen", "emoji": "💳"},
+        {"german": "der Euro", "english": "the Euro", "article": "der", "word": "Euro", "emoji": "💶"},
+        {"german": "die Kontonummer", "english": "the account number", "article": "die", "word": "Kontonummer", "emoji": "🔢"},
+        {"german": "die Kreditkarte", "english": "the credit card", "article": "die", "word": "Kreditkarte", "emoji": "💳"},
+        {"german": "der Cent", "english": "the cent", "article": "der", "word": "Cent", "emoji": "🪙"},
+        {"german": "die Bankleitzahl", "english": "the bank sort code", "article": "die", "word": "Bankleitzahl", "emoji": "🏦"},
+        {"german": "das Geld", "english": "the money", "article": "das", "word": "Geld", "emoji": "💵"},
+        {"german": "die Bank", "english": "the bank", "article": "die", "word": "Bank", "emoji": "🏦"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "title": "Bảng chữ cái và Phát âm tiếng Đức",
+  "subtitle": "German Alphabet & Pronunciation Guide (Vietnamese Edition)",
+  "sections": [
+    {
+      "id": "basic_alphabet",
+      "title": "Bảng chữ cái cơ bản (Das Alphabet)",
+      "description": "Bảng chữ cái tiếng Đức gồm 26 chữ cái cơ bản với cách đọc tên và phát âm tương ứng:",
+      "content": [
+        {
+          "letter": "A a",
+          "name": "Ah",
+          "sounds_like": "A (như \"ba\")",
+          "tts_text": "A"
+        },
+        {
+          "letter": "B b",
+          "name": "Beh",
+          "sounds_like": "Bê",
+          "tts_text": "B"
+        },
+        {
+          "letter": "C c",
+          "name": "Tseh",
+          "sounds_like": "Xê",
+          "tts_text": "C"
+        },
+        {
+          "letter": "D d",
+          "name": "Deh",
+          "sounds_like": "Đê",
+          "tts_text": "D"
+        },
+        {
+          "letter": "E e",
+          "name": "Eh",
+          "sounds_like": "Ê",
+          "tts_text": "E"
+        },
+        {
+          "letter": "F f",
+          "name": "Eff",
+          "sounds_like": "Ép",
+          "tts_text": "F"
+        },
+        {
+          "letter": "G g",
+          "name": "Geh",
+          "sounds_like": "Gê",
+          "tts_text": "G"
+        },
+        {
+          "letter": "H h",
+          "name": "Hah",
+          "sounds_like": "Ha",
+          "tts_text": "H"
+        },
+        {
+          "letter": "I i",
+          "name": "Ee",
+          "sounds_like": "I (như \"đi\")",
+          "tts_text": "I"
+        },
+        {
+          "letter": "J j",
+          "name": "Yot",
+          "sounds_like": "Dốt (phát âm như \"D\" miền Nam hoặc \"Y\")",
+          "tts_text": "J"
+        },
+        {
+          "letter": "K k",
+          "name": "Kah",
+          "sounds_like": "Kha",
+          "tts_text": "K"
+        },
+        {
+          "letter": "L l",
+          "name": "Ell",
+          "sounds_like": "El",
+          "tts_text": "L"
+        },
+        {
+          "letter": "M m",
+          "name": "Emm",
+          "sounds_like": "Em",
+          "tts_text": "M"
+        },
+        {
+          "letter": "N n",
+          "name": "Enn",
+          "sounds_like": "En",
+          "tts_text": "N"
+        },
+        {
+          "letter": "O o",
+          "name": "Oh",
+          "sounds_like": "Ô",
+          "tts_text": "O"
+        },
+        {
+          "letter": "P p",
+          "name": "Peh",
+          "sounds_like": "Pê",
+          "tts_text": "P"
+        },
+        {
+          "letter": "Q q",
+          "name": "Koo",
+          "sounds_like": "Ku",
+          "tts_text": "Q"
+        },
+        {
+          "letter": "R r",
+          "name": "Err",
+          "sounds_like": "R (âm rung ở họng)",
+          "tts_text": "R"
+        },
+        {
+          "letter": "S s",
+          "name": "Ess",
+          "sounds_like": "Ét (thường phát âm là \"Z\")",
+          "tts_text": "S"
+        },
+        {
+          "letter": "T t",
+          "name": "Teh",
+          "sounds_like": "Tê",
+          "tts_text": "T"
+        },
+        {
+          "letter": "U u",
+          "name": "Oo",
+          "sounds_like": "U",
+          "tts_text": "U"
+        },
+        {
+          "letter": "V v",
+          "name": "Fow",
+          "sounds_like": "Phau (phát âm như \"Ph\")",
+          "tts_text": "V"
+        },
+        {
+          "letter": "W w",
+          "name": "Veh",
+          "sounds_like": "Vê (phát âm như \"V\")",
+          "tts_text": "W"
+        },
+        {
+          "letter": "X x",
+          "name": "Iks",
+          "sounds_like": "Ích",
+          "tts_text": "X"
+        },
+        {
+          "letter": "Y y",
+          "name": "Ypsilon",
+          "sounds_like": "Úp-si-lon",
+          "tts_text": "Y"
+        },
+        {
+          "letter": "Z z",
+          "name": "Tsett",
+          "sounds_like": "Xét (phát âm \"Ts\")",
+          "tts_text": "Z"
+        }
+      ]
+    },
+    {
+      "id": "special_characters",
+      "title": "Các ký tự đặc biệt (Biến âm và chữ ß)",
+      "description": "Tiếng Đức có 4 ký tự đặc biệt quan trọng cho việc chính tả và nghĩa",
+      "content": [
+        {
+          "letter": "Ä ä",
+          "name": "A-Umlaut",
+          "how_to_produce": "Phát âm giống âm \"e\" hoặc \"ê\" trong tiếng Việt",
+          "tts_text": "Ä"
+        },
+        {
+          "letter": "Ö ö",
+          "name": "O-Umlaut",
+          "how_to_produce": "Khép môi hình chữ \"O\" nhưng phát âm chữ \"Ê\"",
+          "tts_text": "Ö"
+        },
+        {
+          "letter": "Ü ü",
+          "name": "U-Umlaut",
+          "how_to_produce": "Khép môi hình chữ \"U\" nhưng phát âm chữ \"I\"",
+          "tts_text": "Ü"
+        },
+        {
+          "letter": "ß",
+          "name": "Eszett (Sharp S)",
+          "how_to_produce": "Phát âm như âm \"S\" mạnh (tương đương \"ss\")",
+          "tts_text": "ß"
+        }
+      ]
+    },
+    {
+      "id": "diphthongs",
+      "title": "Nguyên âm kép (Diphthongs)",
+      "description": "Nguyên âm kép là sự kết hợp hai nguyên âm tạo ra âm thanh mới duy nhất",
+      "content": [
+        {
+          "combination": "ei / ai",
+          "sounds_like": "Phát âm như \"ai\"",
+          "examples": "Nein",
+          "tts_text": "EI"
+        },
+        {
+          "combination": "ie",
+          "sounds_like": "Phát âm như \"i\" kéo dài",
+          "examples": "Sie",
+          "tts_text": "IE"
+        },
+        {
+          "combination": "eu / äu",
+          "sounds_like": "Phát âm như \"oi\"",
+          "examples": "Neu",
+          "tts_text": "EU"
+        },
+        {
+          "combination": "au",
+          "sounds_like": "Phát âm như \"ao\"",
+          "examples": "Haus",
+          "tts_text": "AU"
+        }
+      ]
+    },
+    {
+      "id": "consonant_combinations",
+      "title": "Lưu ý về phụ âm",
+      "description": "Tiếng Đức có một số kết hợp phụ âm cần chú ý đặc biệt",
+      "content": [
+        {
+          "combination": "W",
+          "description": "Phát âm giống chữ \"V\" trong tiếng Việt",
+          "tts_text": "W"
+        },
+        {
+          "combination": "V",
+          "description": "Đa số trường hợp phát âm giống chữ \"Ph\"",
+          "tts_text": "V"
+        },
+        {
+          "combination": "J",
+          "description": "Phát âm giống chữ \"D\" (miền Nam) hoặc \"Y\"",
+          "tts_text": "J"
+        },
+        {
+          "combination": "sch",
+          "description": "Phát âm như \"ch\" trong tiếng Việt (ví dụ: Schule)",
+          "tts_text": "Schule"
+        },
+        {
+          "combination": "ch",
+          "description": "Tùy từ ngữ phát âm như \"ch\" hoặc \"kh\"",
+          "tts_text": "Bach"
+        }
+      ]
+    }
+  ]
+}

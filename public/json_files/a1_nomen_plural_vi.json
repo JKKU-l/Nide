@@ -1,0 +1,245 @@
+{
+  "title": "Nomen: Plural (Danh từ: Số nhiều)",
+  "sections": [
+    {
+      "id": "golden_rule",
+      "title": "Quy tắc vàng: Mạo từ \"die\"",
+      "description": "Bất kể danh từ ở dạng số ít là giống đực (der), giống cái (die), hay giống trung (das), tất cả các danh từ ở dạng số nhiều đều sử dụng mạo từ xác định là \"die\".",
+      "content": {}
+    },
+    {
+      "id": "the_n_ending",
+      "title": "1. Đuôi -(e)n",
+      "description": "Đây là dạng số nhiều phổ biến nhất trong tiếng Đức.",
+      "content": {
+        "when_to_use": [
+          "Các danh từ kết thúc bằng: -ung, -heit, -keit, -ie, -or, -ion",
+          "Hầu hết các danh từ giống cái",
+          "Danh từ chỉ nghề nghiệp giống cái kết thúc bằng -in (những từ này sẽ chuyển thành -innen)"
+        ],
+        "examples": [
+          {
+            "singular": "die Übung",
+            "translation": "bài tập",
+            "plural": "die Übungen",
+            "note": "quy tắc cho đuôi -ung"
+          },
+          {
+            "singular": "die Tasche",
+            "translation": "cái túi",
+            "plural": "die Taschen",
+            "note": "giống cái kết thúc bằng -e"
+          },
+          {
+            "singular": "die Kundin",
+            "translation": "khách hàng nữ",
+            "plural": "die Kundinnen",
+            "note": "hậu tố -in của giống cái"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_er_ending",
+      "title": "2. Đuôi -er",
+      "description": "Thường gặp ở các danh từ giống trung ngắn.",
+      "content": {
+        "when_to_use": [
+          "Nhiều danh từ giống trung (das) ngắn",
+          "Một số danh từ giống đực (der)"
+        ],
+        "note": "Nếu từ có chứa các nguyên âm a, o, u, hoặc au, chúng thường sẽ thêm dấu Umlaut (ä, ö, ü).",
+        "examples": [
+          {
+            "singular": "das Kind",
+            "translation": "đứa trẻ",
+            "plural": "die Kinder"
+          },
+          {
+            "singular": "das Buch",
+            "translation": "quyển sách",
+            "plural": "die Bücher",
+            "note": "thêm Umlaut"
+          },
+          {
+            "singular": "der Mann",
+            "translation": "người đàn ông",
+            "plural": "die Männer",
+            "note": "thêm Umlaut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_e_ending",
+      "title": "3. Đuôi -e",
+      "description": "Rất phổ biến cho nhiều danh từ ngắn thuộc các giống khác nhau.",
+      "content": {
+        "when_to_use": [
+          "Nhiều danh từ giống đực và giống trung",
+          "Các danh từ giống cái thường thêm Umlaut khi đi với đuôi này"
+        ],
+        "examples": [
+          {
+            "singular": "der Tisch",
+            "translation": "cái bàn",
+            "plural": "die Tische"
+          },
+          {
+            "singular": "der Stuhl",
+            "translation": "cái ghế",
+            "plural": "die Stühle",
+            "note": "giống đực + Umlaut"
+          },
+          {
+            "singular": "die Hand",
+            "translation": "bàn tay",
+            "plural": "die Hände",
+            "note": "giống cái + Umlaut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "no_ending",
+      "title": "4. Nhóm \"Không thêm đuôi\" (—)",
+      "description": "Một số từ không thêm hậu tố; chúng giữ nguyên hình thức hoặc chỉ thay đổi nguyên âm thành Umlaut.",
+      "content": {
+        "when_to_use": [
+          "Danh từ kết thúc bằng -er, -en, -el",
+          "Các từ thu nhỏ kết thúc bằng -chen hoặc -lein (luôn là giống trung)"
+        ],
+        "examples": [
+          {
+            "singular": "der Sessel",
+            "translation": "ghế bành",
+            "plural": "die Sessel",
+            "note": "không đổi"
+          },
+          {
+            "singular": "das Mädchen",
+            "translation": "cô bé",
+            "plural": "die Mädchen",
+            "note": "không đổi"
+          },
+          {
+            "singular": "der Vater",
+            "translation": "người cha",
+            "plural": "die Väter",
+            "note": "chỉ thay đổi Umlaut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_s_ending",
+      "title": "5. Đuôi -s",
+      "description": "Được sử dụng chủ yếu cho các \"từ mượn\" hiện đại hoặc các từ kết thúc bằng một số nguyên âm nhất định.",
+      "content": {
+        "when_to_use": [
+          "Các từ kết thúc bằng -a, -i, -o, -u, -y",
+          "Các từ viết tắt (như PKW - xe hơi)",
+          "Từ có nguồn gốc nước ngoài (Anh/Pháp)"
+        ],
+        "examples": [
+          {
+            "singular": "das Auto",
+            "translation": "ô tô",
+            "plural": "die Autos"
+          },
+          {
+            "singular": "das Hobby",
+            "translation": "sở thích",
+            "plural": "die Hobbys"
+          },
+          {
+            "singular": "der Job",
+            "translation": "công việc",
+            "plural": "die Jobs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "special_cases",
+      "title": "Các trường hợp đặc biệt: Bất quy tắc & Số lượng",
+      "description": "Một số danh từ có dạng số nhiều bất quy tắc hoặc chỉ tồn tại ở dạng số ít hoặc số nhiều.",
+      "content": {
+        "categories": [
+          {
+            "category": "Số nhiều bất quy tắc",
+            "description": "Các từ gốc nước ngoài (chủ yếu từ tiếng Latinh hoặc Hy Lạp) có cách biến đổi riêng:",
+            "examples": [
+              {
+                "singular": "das Museum",
+                "plural": "die Museen"
+              },
+              {
+                "singular": "das Praktikum",
+                "plural": "die Praktika"
+              },
+              {
+                "singular": "die Firma",
+                "plural": "die Firmen"
+              }
+            ]
+          },
+          {
+            "category": "Danh từ KHÔNG có số nhiều (Chỉ ở dạng số ít)",
+            "description": "Dùng cho các khái niệm trừu tượng hoặc vật chất không đếm được:",
+            "examples": [
+              {
+                "type": "Trừu tượng",
+                "examples": "das Glück (hạnh phúc/may mắn), die Liebe (tình yêu)"
+              },
+              {
+                "type": "Chất liệu",
+                "examples": "das Gold (vàng), die Milch (sữa)"
+              },
+              {
+                "type": "Danh từ tập hợp",
+                "examples": "das Obst (hoa quả), die Kleidung (quần áo)"
+              }
+            ]
+          },
+          {
+            "category": "Danh từ KHÔNG có số ít (Chỉ ở dạng số nhiều)",
+            "description": "Những từ này luôn xuất hiện theo nhóm:",
+            "examples": [
+              {
+                "type": "Địa lý",
+                "examples": "die USA, die Alpen (dãy núi Alps)"
+              },
+              {
+                "type": "Con người/Nhóm",
+                "examples": "die Eltern (bố mẹ), die Leute (mọi người)"
+              },
+              {
+                "type": "Hoạt động",
+                "examples": "die Ferien (kỳ nghỉ)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Bảng tóm tắt tra cứu nhanh",
+      "description": "Tài liệu tham khảo nhanh cho tất cả các mẫu:",
+      "content": {
+        "summary_table": {
+          "headers": ["Hậu tố số ít", "Đuôi số nhiều điển hình", "Ví dụ"],
+          "rows": [
+            ["-e (giống cái)", "-n", "die Lampe → die Lampen"],
+            ["-in (nghề nghiệp nữ)", "-innen", "die Lehrerin → die Lehrerinnen"],
+            ["-er / -el / -en", "— (không thêm)", "der Teller → die Teller"],
+            ["-ung / -heit", "-en", "die Zeitung → die Zeitungen"],
+            ["-a / -o / -i", "-s", "das Sofa → die Sofas"]
+          ]
+        },
+        "pro_tip": "Mẹo nhỏ: Khi học một danh từ tiếng Đức mới, hãy luôn ghi nhớ mạo từ và dạng số nhiều của nó cùng một lúc. Không có quy tắc nào đúng 100% cả, vì vậy hãy coi chúng là một gói thông tin đi liền với nhau!"
+      }
+    }
+  ]
+}

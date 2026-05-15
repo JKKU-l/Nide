@@ -1,0 +1,55 @@
+{
+  "title": "Clothing & Appearance",
+  "emoji": "👔",
+  "theme_color": "#3F51B5",
+  "description": "Clothes, accessories, and personal appearance",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "anziehen", "english": "to put on", "example_german": "Ich ziehe mir eine warme Jacke an.", "example_english": "I am putting on a warm jacket."},
+          {"german": "ausziehen", "english": "to take off", "example_german": "Bitte zieh deine Schuhe im Flur aus.", "example_english": "Please take off your shoes in the hallway."},
+          {"german": "umziehen", "english": "to change clothes", "example_german": "Ich muss mich für die Party noch umziehen.", "example_english": "I still need to change clothes for the party."},
+          {"german": "tragen", "english": "to wear", "example_german": "Sie trägt heute ein blaues Kleid.", "example_english": "She is wearing a blue dress today."},
+          {"german": "passen", "english": "to fit", "example_german": "Die Hose passt mir leider nicht mehr.", "example_english": "The pants unfortunately don't fit me anymore."},
+          {"german": "kaufen", "english": "to buy", "example_german": "Wir kaufen neue Kleidung für den Winter.", "example_english": "We are buying new clothes for the winter."},
+          {"german": "anprobieren", "english": "to try on", "example_german": "Darf ich diesen Pullover anprobieren?", "example_english": "May I try on this sweater?"},
+          {"german": "nähen", "english": "to sew", "example_german": "Meine Mutter kann sehr gut nähen.", "example_english": "My mother can sew very well."},
+          {"german": "bügeln", "english": "to iron", "example_german": "Er bügelt seine Hemden jeden Sonntag.", "example_english": "He irons his shirts every Sunday."},
+          {"german": "waschen", "english": "to wash", "example_german": "Ich muss heute weiße Wäsche waschen.", "example_english": "I have to wash white laundry today."},
+          {"german": "trocknen", "english": "to dry", "example_german": "Die Wäsche trocknet draußen in der Sonne.", "example_english": "The laundry is drying outside in the sun."},
+          {"german": "falten", "english": "to fold", "example_german": "Ich falte die T-Shirts und lege sie in den Schrank.", "example_english": "I fold the T-shirts and put them in the closet."},
+          {"german": "aufhängen", "english": "to hang up", "example_german": "Kannst du bitte die Mäntel aufhängen?", "example_english": "Can you please hang up the coats?"},
+          {"german": "einpacken", "english": "to pack", "example_german": "Wir müssen unsere Koffer für den Urlaub einpacken.", "example_english": "We have to pack our suitcases for the vacation."},
+          {"german": "auspacken", "english": "to unpack", "example_german": "Ich packe meine Tasche nach der Reise aus.", "example_english": "I am unpacking my bag after the trip."},
+          {"german": "sortieren", "english": "to sort", "example_german": "Sie sortiert ihre Socken nach Farben.", "example_english": "She sorts her socks by color."},
+          {"german": "aufräumen", "english": "to tidy up", "example_german": "Du solltest endlich deinen Kleiderschrank aufräumen.", "example_english": "You should finally tidy up your wardrobe."},
+          {"german": "färben", "english": "to dye", "example_german": "Sie möchte sich die Haare schwarz färben.", "example_english": "She wants to dye her hair black."},
+          {"german": "schneiden", "english": "to cut", "example_german": "Der Friseur schneidet mir die Spitzen.", "example_english": "The hairdresser is cutting my split ends."},
+          {"german": "rasieren", "english": "to shave", "example_german": "Er rasiert sich jeden zweiten Tag.", "example_english": "He shaves every other day."},
+          {"german": "schminken", "english": "to put on makeup", "example_german": "Sie schminkt sich vor dem Spiegel.", "example_english": "She is putting on makeup in front of the mirror."},
+          {"german": "kühlen", "english": "to cool", "example_german": "Nach dem Sport muss ich mein Knie kühlen.", "example_english": "After sports, I need to cool my knee."},
+          {"german": "wärmen", "english": "to warm", "example_german": "Der Tee wärmt mich von innen.", "example_english": "The tea warms me from the inside."},
+          {"german": "reinigen", "english": "to clean / dry clean", "example_german": "Ich muss diesen Anzug chemisch reinigen lassen.", "example_english": "I need to have this suit dry cleaned."},
+          {"german": "aufbewahren", "english": "to store / keep", "example_german": "Wo bewahrst du deinen Schmuck auf?", "example_english": "Where do you keep your jewelry?"},
+          {"german": "wegwerfen", "english": "to throw away", "example_german": "Diese alten Schuhe kannst du wegwerfen.", "example_english": "You can throw away these old shoes."},
+          {"german": "spenden", "english": "to donate", "example_german": "Wir spenden unsere alte Kleidung an das Rote Kreuz.", "example_english": "We donate our old clothes to the Red Cross."},
+          {"german": "schenken", "english": "to give (as a gift)", "example_german": "Ich schenke ihr eine goldene Kette.", "example_english": "I am giving her a golden necklace."},
+          {"german": "leihen", "english": "to borrow / lend", "example_german": "Kannst du mir eine Krawatte leihen?", "example_english": "Can you lend me a tie?"},
+          {"german": "zurückgeben", "english": "to return", "example_german": "Ich gebe dir den geliehenen Schal morgen zurück.", "example_english": "I will give the borrowed scarf back to you tomorrow."},
+          {"german": "umtauschen", "english": "to exchange", "example_german": "Ich möchte diese Jacke gegen eine größere umtauschen.", "example_english": "I would like to exchange this jacket for a larger one."},
+          {"german": "verlieren", "english": "to lose", "example_german": "Ich verliere ständig meine Handschuhe.", "example_english": "I am constantly losing my gloves."},
+          {"german": "finden", "english": "to find", "example_german": "Ich kann meine Mütze nirgends finden.", "example_english": "I can't find my beanie anywhere."},
+          {"german": "suchen", "english": "to look for", "example_german": "Er sucht nach einer passenden Jeans.", "example_english": "He is looking for a suitable pair of jeans."},
+          {"german": "anschauen", "english": "to look at", "example_german": "Schau dir diesen schönen Mantel an!", "example_english": "Look at this beautiful coat!"},
+          {"german": "zeigen", "english": "to show", "example_german": "Zeig mir bitte deine neuen Schuhe.", "example_english": "Please show me your new shoes."},
+          {"german": "wählen", "english": "to choose", "example_german": "Sie kann sich nicht für eine Farbe wählen.", "example_english": "She cannot choose a color."},
+          {"german": "gefallen", "english": "to like (to be pleasing to)", "example_german": "Das Hemd gefällt mir sehr gut.", "example_english": "I like the shirt very much / The shirt pleases me."},
+          {"german": "stehen", "english": "to suit", "example_german": "Die Farbe Grün steht dir ausgezeichnet.", "example_english": "The color green suits you excellently."},
+          {"german": "tragen", "english": "to carry", "example_german": "Er trägt die schweren Koffer zum Auto.", "example_english": "He is carrying the heavy suitcases to the car."}
+        ]
+      }
+    }
+  ]
+}

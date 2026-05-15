@@ -1,0 +1,205 @@
+{
+  "title": "Dativ (Dative case)",
+  "description": "Dative case is often used for the indirect object (the person receiving something) or after specific prepositions like mit (with), bei (at/with), and zu (to).",
+  "sections": [
+    {
+      "id": "article_transformation",
+      "title": "1. The Core Transformation: How Articles Change",
+      "description": "In the Dative case, the articles (the/a) change their form based on the gender of the noun.",
+      "content": {
+        "masculine_neutral": {
+          "title": "Masculine and Neutral (They share the same forms)",
+          "description": "For masculine nouns (der) and neutral nouns (das), the definite article \"the\" becomes dem. The indefinite article \"a\" becomes einem, and \"no/none\" becomes keinem.",
+          "examples": [
+            {
+              "english": "I go with the man.",
+              "german": "Ich gehe mit dem Mann.",
+              "note": "Masculine"
+            },
+            {
+              "english": "I play with a child.",
+              "german": "Ich spiele mit einem Kind.",
+              "note": "Neutral"
+            }
+          ]
+        },
+        "feminine": {
+          "title": "Feminine",
+          "description": "For feminine nouns (die), the article \"the\" becomes der. The indefinite article \"a\" becomes einer, and \"none\" becomes keiner. This is often confusing for learners because der looks masculine, but in the Dative case, it is strictly feminine.",
+          "examples": [
+            {
+              "english": "I talk with the woman.",
+              "german": "Ich spreche mit der Frau."
+            },
+            {
+              "english": "I travel with a girlfriend.",
+              "german": "Ich reise mit einer Freundin."
+            }
+          ]
+        },
+        "plural": {
+          "title": "Plural",
+          "description": "For plural nouns (die), the article \"the\" becomes den. There is no indefinite article for plural (you can't say \"a books\"), but the negative \"none\" becomes keinen.",
+          "crucial_rule": "In Dative Plural, you must also add an -n to the end of the noun itself (unless the noun already ends in -n or -s).",
+          "examples": [
+            {
+              "english": "I speak with the guests.",
+              "german": "Ich spreche mit den Gästen.",
+              "note": "Note the extra 'n' on Gästen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "using_mit",
+      "title": "2. Using \"Mit\" (Transportation and People)",
+      "description": "The preposition mit always triggers the Dative case. This is why when you talk about how you travel or who you are with, the articles change.",
+      "content": {
+        "logic": "When you see mit, look at the gender of the vehicle or person following it.",
+        "examples": [
+          {
+            "noun": "Der Zug (Masculine)",
+            "sentence": "Ich fahre mit dem Zug.",
+            "translation": "I travel by train."
+          },
+          {
+            "noun": "Die U-Bahn (Feminine)",
+            "sentence": "Ich fahre mit der U-Bahn.",
+            "translation": "I travel by subway."
+          },
+          {
+            "noun": "Das Auto (Neutral)",
+            "sentence": "Ich fahre mit dem Auto.",
+            "translation": "I travel by car."
+          },
+          {
+            "noun": "Die Rollschuhe (Plural)",
+            "sentence": "Ich fahre mit den Rollschuhen.",
+            "translation": "I go with roller skates."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_verbs",
+      "title": "3. Dative Verbs: Giving and Helping",
+      "description": "Some verbs automatically require the Dative case for the person involved because that person is the \"receiver\" of the action. Common verbs include helfen (to help), gratulieren (to congratulate), and schenken (to give a gift).",
+      "content": {
+        "helfern": {
+          "verb": "Helfen (To help)",
+          "examples": [
+            {
+              "english": "She helps a colleague (female).",
+              "german": "Sie hilft einer Kollegin."
+            },
+            {
+              "english": "She helps the parents (plural).",
+              "german": "Sie hilft den Eltern."
+            }
+          ]
+        },
+        "gratulieren": {
+          "verb": "Gratulieren (To congratulate)",
+          "examples": [
+            {
+              "english": "I congratulate the father.",
+              "german": "Ich gratuliere dem Vater."
+            },
+            {
+              "english": "I congratulate a friend (female).",
+              "german": "Ich gratuliere einer Freundin."
+            }
+          ]
+        },
+        "schenken_geben": {
+          "verb": "Schenken / Geben (To give)",
+          "description": "When you give something to someone, the person is Dative and the object is Accusative.",
+          "examples": [
+            {
+              "english": "She gives the cat (die Katze) a fish.",
+              "german": "Sie gibt der Katze einen Fisch."
+            },
+            {
+              "english": "She gives a baby (das Baby) milk.",
+              "german": "Sie gibt einem Baby Milch."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "possessive_articles",
+      "title": "4. Possessive Articles in Dative",
+      "description": "Possessive articles (my, your, her, etc.) follow the exact same ending patterns as the word kein or ein.",
+      "content": {
+        "endings": [
+          {
+            "gender": "Masculine/Neutral ending",
+            "ending": "-em",
+            "examples": "meinem, seinem, ihrem"
+          },
+          {
+            "gender": "Feminine ending",
+            "ending": "-er",
+            "examples": "meiner, seiner, ihrer"
+          },
+          {
+            "gender": "Plural ending",
+            "ending": "-en",
+            "examples": "meinen, seinen, ihren"
+          }
+        ],
+        "example_context": "If you are at a party and someone arrives with their boyfriend, you say: Sie kommt mit ihrem Freund. (ihr + em because Freund is masculine Dative). If she arrives with her children, you say: Sie kommt mit ihren Kindern. (ihr + en + plural 'n')."
+      }
+    },
+    {
+      "id": "location_prepositions",
+      "title": "5. Prepositions of Location (Bei, Zu, Von)",
+      "description": "Just like mit, the prepositions bei (at/with), zu (to), and von (from/of) always require the Dative case.",
+      "content": {
+        "examples": [
+          {
+            "preposition": "Bei (Stay with someone)",
+            "sentence": "Ich bleibe bei den Freunden.",
+            "translation": "I am staying with the friends."
+          },
+          {
+            "preposition": "Zu (Going to a place/person)",
+            "sentence": "Ich gehe zu einem See.",
+            "translation": "I am going to a lake - masculine"
+          },
+          {
+            "preposition": "Von (From or belonging to)",
+            "sentence": "Das Auto von dem Freund.",
+            "translation": "The car of/from the friend"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "6. Summary of Article Endings",
+      "description": "To remember this easily without a chart, focus on the \"Signal\" letters at the end of the Dative articles:",
+      "content": {
+        "signal_letters": [
+          {
+            "letter": "M",
+            "meaning": "M is for Masculine and Neutral",
+            "examples": "deM / eineM"
+          },
+          {
+            "letter": "R",
+            "meaning": "R is for Feminine",
+            "examples": "deR / eineR"
+          },
+          {
+            "letter": "N",
+            "meaning": "N is for Plural",
+            "examples": "deN / keineN) + add an N to the noun"
+          }
+        ]
+      }
+    }
+  ]
+}

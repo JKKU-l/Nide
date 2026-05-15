@@ -1,0 +1,97 @@
+{
+  "title": "독일어 명령문(Imperativ)의 이해",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "명령문이란?",
+      "description": "명령문(Imperativ)은 명령, 요청, 조언 또는 지시를 내릴 때 사용하는 문법적 양식입니다. 독일어에서는 말을 듣는 상대방이 누구인지에 따라 동사의 형태가 바뀝니다.",
+      "content": {
+        "forms": {
+          "title": "명령문에는 크게 세 가지 형태가 있습니다:",
+          "form_1": "1. 격식(Formell): 한 명 이상의 사람에게 격식을 차려 말할 때 (Sie).",
+          "form_2": "2. 비격식 단수(Informell Singular): 친구 한 명, 아이, 혹은 가족에게 말할 때 (du).",
+          "form_3": "3. 비격식 복수(Informell Plural): 두 명 이상의 친구나 아이들에게 말할 때 (ihr)."
+        }
+      }
+    },
+    {
+      "id": "formation",
+      "title": "1. 명령문 만드는 법",
+      "description": "명령문은 대명사와 상황에 따라 형태가 달라집니다.",
+      "content": {
+        "formation_table": {
+          "headers": ["상황", "대명사", "동사 규칙", "예시 (kommen)"],
+          "rows": [
+            ["격식 (Formal)", "Sie", "동사원형 + \"Sie\"를 사용합니다. 어순이 바뀝니다.", "Kommen Sie!"],
+            ["비격식 (그룹)", "ihr", "동사의 \"ihr\" 형태를 사용하되, 대명사를 생략합니다.", "Kommt!"],
+            ["비격식 (한 명)", "du", "동사의 \"du\" 형태를 사용하되, \"-st\" 어미와 대명사를 생략합니다.", "Komm!"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "special_verbs",
+      "title": "2. 특수 동사 범주",
+      "description": "모든 동사가 기본 패턴을 완벽하게 따르는 것은 아닙니다. 불규칙 동사 처리 방법은 다음과 같습니다.",
+      "content": {
+        "special_verbs_table": {
+          "headers": ["범주", "설명", "예시 동사", "격식 (Formal)", "비격식 (단수)", "비격식 (복수)"],
+          "rows": [
+            ["A. 어간이 변하는 동사 (e → i)", "현재 시제에서 e가 i (또는 ie)로 변하는 동사는 비격식 단수 명령문에서도 그 변화를 유지합니다.", "nehmen (집다/먹다)", "Nehmen Sie!", "Nimm! (\"e\"가 \"i\"로 바뀜)", "Nehmt!"],
+            ["B. 움라우트가 있는 동사 (a → ä)", "\"du\" 형태에서 움라우트(ä)가 붙는 동사(fahren 등)는 명령문에서 움라우트를 잃어버립니다.", "fahren (운전하다/가다)", "Fahren Sie!", "Fahr! (\"Fährst\"가 아님)", "Fahrt!"],
+            ["C. 분리 동사 (Trennbare Verben)", "분리 전철은 항상 문장의 맨 끝으로 이동합니다.", "mitbringen (가지고 오다)", "Bringen Sie den Kuchen mit!", "Bring den Kuchen mit!", "Bringt den Kuchen mit!"],
+            ["D. 필수 불규칙 동사: sein", "sein(~이다) 동사는 독특하므로 반드시 외워야 합니다.", "sein (~이다)", "Seien Sie!", "Sei!", "Seid!"],
+            ["D. 필수 불규칙 동사: haben", "haben(~을 가지다) 동사는 독특하므로 반드시 외워야 합니다.", "haben (~을 가지다)", "Haben Sie!", "Hab!", "Habt!"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "politeness",
+      "title": "3. 명령 완화하기 (예의 표현)",
+      "description": "독일어에서 명령문은 다소 거칠게 들릴 수 있습니다. 부드러운 조언이나 정중한 요청으로 들리게 하려면 특정 단어들을 추가합니다.",
+      "content": {
+        "politeness_table": {
+          "headers": ["단어/어조사", "설명", "예시"],
+          "rows": [
+            ["Bitte (제발/부디)", "문장의 처음이나 끝에 올 수 있습니다.", "Helfen Sie mir bitte! (저를 좀 도와주세요!)"],
+            ["Mal", "문장을 훨씬 더 자연스럽게 만들고 군대식 명령처럼 들리지 않게 합니다.", "Komm mal her! (이리 좀 와봐!)"],
+            ["Doch", "명령을 완화시켜 격려하는 뉘앙스를 줍니다.", "Probier doch den Kuchen! (이 케이크 좀 먹어봐!)"],
+            ["Doch mal", "조합하면 매우 자연스럽고 친근하게 들립니다.", "Mach doch mal Pause! (좀 쉬어봐!)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "practical_examples",
+      "title": "4. 일상 상황에서의 실용적인 예시",
+      "description": "다양한 맥락에서 명령문을 사용하는 방법:",
+      "content": {
+        "practical_examples_table": {
+          "headers": ["시나리오", "상황", "형태", "독일어 문장", "한국어 번역"],
+          "rows": [
+            ["조언하기 (Ratschläge)", "누군가 스트레스를 받고 있습니다.", "격식", "Machen Sie Yoga!", "요가를 하세요!"],
+            ["조언하기 (Ratschläge)", "누군가 스트레스를 받고 있습니다.", "비격식", "Mach Yoga!", "요가 해!"],
+            ["교실 지시 사항", "선생님이 반 전체에게 말합니다.", "비격식 (복수)", "Schreibt den Text!", "텍스트를 쓰세요!"],
+            ["교실 지시 사항", "선생님이 반 전체에게 말합니다.", "비격식 (복수)", "Lest das Beispiel!", "예문을 읽으세요!"],
+            ["사회적 상호작용", "낯선 사람에게 자리를 권할 때.", "격식", "Nehmen Sie bitte Platz.", "자리에 앉으십시오."],
+            ["사회적 상호작용", "친구에게 겁먹지 말라고 말할 때.", "비격식", "Hab keine Angst!", "겁먹지 마!/두려워하지 마!"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary",
+      "title": "학생들을 위한 요약 체크리스트",
+      "description": "명령문을 올바르게 만들기 위한 빠른 참고 자료:",
+      "content": {
+        "checklist": [
+          "청자를 확인하세요: 상대가 Sie, du, 혹은 ihr인가요?",
+          "Sie: \"-n\" 어미를 유지하고 \"Sie\"를 꼭 붙입니다.",
+          "ihr: \"-t\" 어미를 사용하고 \"ihr\"는 삭제합니다.",
+          "du: \"-st\" 어미를 삭제하고 \"du\"도 삭제합니다. 그리고 \"e\"가 \"i\"로 변해야 하는지 확인하세요."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "title": "🇩🇪 Konjugation Präsens 🔤",
+  "subtitle": "การผันคากริยาปัจจุบัน (Präsens Konjugation)",
+  "sections": [
+    {
+      "id": "regular_verb_conjugation",
+      "title": "1. การผันกริยาปกติ (Regular Verbs)",
+      "description": "ในภาษาเยอรมัน ส่วนท้ายของคากริยาจะเปลี ่ยนไปตามประธานที ่ใช้ โดยตัด -en ออกแล้วเติมส่วนท้ายดังนี้:",
+      "content": {
+        "table": {
+          "headers": ["ประธาน (Subject)", "ส่วนท้าย (Ending)", "ตัวอย่าง: kommen (มา)"],
+          "rows": [
+            ["Ich (ฉัน)", "-e", "komme"],
+            ["Du (คุณ - กันเอง)", "-st", "kommst"],
+            ["Er / Sie / Es (เขา/หล่อน/มัน)", "-t", "kommt"],
+            ["Wir (พวกเรา)", "-en", "kommen"],
+            ["Ihr (พวกคุณ)", "-t", "kommt"],
+            ["Sie / sie (ท่าน / พวกเขา)", "-en", "kommen"]
+          ]
+        },
+        "dialogues": [
+          {
+            "speaker": "Marc",
+            "german": "Woher kommst du?",
+            "english": "คุณมาจากไหน?"
+          },
+          {
+            "speaker": "Alice",
+            "german": "Ich komme aus Brasilien. Das ist mein Freund, er kommt aus Russland.",
+            "english": "ฉันมาจากบราซิล นี่คือเพื ่อนของฉัน เขามาจากรัสเซีย",
+            "tip": "หมายเหตุจากครู: ประธาน Ich เติม -e เสมอ และ Er (เขา) เติม -t"
+          },
+          {
+            "speaker": "Alice & Yuri",
+            "german": "Wo arbeitest du?",
+            "english": "คุณทางานที ่ไหน?",
+            "tip": "ข้อแนะนา: กริยาที ่ลงท้ายด้วย t เช่น arbeiten ต้องเติม e แทรกก่อนเติม -st เพื ่อให้ออกเสียงได้ง่ายขึ ้น"
+          }
+        ]
+      }
+    },
+    {
+      "id": "irregular_verbs_sein_haben",
+      "title": "2. กริยาไม่ปกติ: Sein & Haben",
+      "description": "เป็นกริยาพื ้นฐานที ่เปลี ่ยนรูปถาวร ต้องท่องจารูปการใช้:",
+      "content": {
+        "examples": [
+          {
+            "german": "Das sind Angela und Pascal.",
+            "english": "นี่คือแองเจล่าและปาสคาล"
+          },
+          {
+            "german": "Sie haben einen Hund.",
+            "english": "พวกเขามีสุนัขหนึ ่งตัว"
+          },
+          {
+            "german": "Er ist fünf Monate alt.",
+            "english": "มันอายุ 5 เดือนแล้ว"
+          }
+        ]
+      }
+    },
+    {
+      "id": "preferences_wishes",
+      "title": "3. ความชอบและความต้องการ",
+      "description": "Möchten (อยากจะ... - สุภาพ) - Mögen (ชอบ)",
+      "content": {
+        "dialogues": [
+          {
+            "speaker": "Kellner",
+            "german": "Was möchten Sie?",
+            "english": "ท่านต้องการรับอะไรดีครับ?"
+          },
+          {
+            "speaker": "Frau Taylor",
+            "german": "Ich möchte einen Kaffee.",
+            "english": "ฉันอยากได้กาแฟหนึ ่งแก้วค่ะ"
+          }
+        ],
+        "examples": [
+          {
+            "german": "Ich mag Kaffee.",
+            "english": "ฉันชอบกาแฟ"
+          },
+          {
+            "german": "Meine Eltern mögen keinen Fisch.",
+            "english": "พ่อแม่ของฉันไม่ชอบปลา"
+          }
+        ]
+      }
+    },
+    {
+      "id": "knowing_facts",
+      "title": "4. การรู ้ข้อมูล: Wissen",
+      "description": "การรู ้ข้อมูล: Wissen",
+      "content": {
+        "examples": [
+          {
+            "german": "Wissen Sie, wo der Bahnhof ist?",
+            "english": "ท่านทราบไหมว่าสถานีรถไฟอยู ่ที ่ไหน?"
+          },
+          {
+            "german": "Tut mir leid, das weiß ich nicht.",
+            "english": "ขอโทษด้วยครับ ผมไม่ทราบครับ"
+          }
+        ]
+      }
+    }
+  ]
+}

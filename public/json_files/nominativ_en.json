@@ -1,0 +1,156 @@
+{
+  "title": "Nominativ (Nominative Case)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "What is the Nominative Case?",
+      "description": "In German, the Nominative Case is the \"naming\" case. Think of it as the default setting for a word before any action (like giving, seeing, or owning) starts to change its role. It is primarily used for the subject of the sentence—the person or thing performing the action."
+    },
+    {
+      "id": "articles_adjectives_nouns",
+      "title": "1. Articles, Adjectives, and Nouns",
+      "description": "The ending of an adjective changes depending on whether it follows a definite article (the), an indefinite article (a), or no article at all. This is called adjective declension.",
+      "content": {
+        "declension_table": {
+          "title": "The Declension Table",
+          "headers": ["Category", "Definite (the)", "Indefinite (a/my/no)", "No Article"],
+          "rows": [
+            {
+              "category": "Masculine",
+              "definite": "der nette Vater",
+              "indefinite": "ein netter Vater",
+              "no_article": "netter Vater"
+            },
+            {
+              "category": "Feminine",
+              "definite": "die nette Mutter",
+              "indefinite": "eine nette Mutter",
+              "no_article": "nette Mutter"
+            },
+            {
+              "category": "Neuter",
+              "definite": "das nette Kind",
+              "indefinite": "ein nettes Kind",
+              "no_article": "nettes Kind"
+            },
+            {
+              "category": "Plural",
+              "definite": "die netten Eltern",
+              "indefinite": "meine netten Eltern",
+              "no_article": "nette Eltern"
+            }
+          ]
+        },
+        "translations": [
+          {
+            "label": "Masculine",
+            "german": "Der nette Vater ist hier.",
+            "translation": "The nice father is here."
+          },
+          {
+            "label": "Feminine",
+            "german": "Eine nette Mutter hilft.",
+            "translation": "A nice mother helps."
+          },
+          {
+            "label": "Neuter",
+            "german": "Nettes Kind, komm her!",
+            "translation": "Nice child, come here! (Used when addressing directly without an article)."
+          }
+        ],
+        "key_rule": "If the word \"the\" (der/die/das) is already there to show the gender, the adjective takes a simple -e ending (except in plural). If there is no \"the\" to show the gender (like with ein), the adjective must \"carry\" the gender marker (e.g., ein netter Vater because der ends in -r)."
+      }
+    },
+    {
+      "id": "special_determiners",
+      "title": "2. Special Determiners",
+      "description": "Certain words act exactly like the definite article (der/die/das). If you use these, the adjective will always end in -e (singular) or -en (plural).",
+      "content": {
+        "determiners": ["dieser (this)", "jener (that)", "jeder (every)", "alle (all)"],
+        "example": {
+          "german": "Jeder gute Schüler lernt.",
+          "translation": "Every good student learns.",
+          "note": "Jeder acts like der, so gut just gets an -e."
+        }
+      }
+    },
+    {
+      "id": "pronouns",
+      "title": "3. Pronouns",
+      "description": "Pronouns replace nouns. In the nominative, they represent the subject.",
+      "content": {
+        "personal_pronouns": {
+          "title": "Personal Pronouns (The \"Who\")",
+          "description": "These are the basic subjects of any sentence:",
+          "singular": ["ich (I)", "du (you)", "er/sie/es (he/she/it)"],
+          "plural": ["wir (we)", "ihr (you all)", "sie/Sie (they/You formal)"]
+        },
+        "possessive_pronouns": {
+          "title": "Possessive Pronouns (The \"Whose\")",
+          "description": "These come in two types:",
+          "dependent": {
+            "label": "Dependent",
+            "explanation": "Used before a noun (e.g., My dog).",
+            "german": "Mein Hund ist groß.",
+            "translation": "My dog is big."
+          },
+          "independent": {
+            "label": "Independent",
+            "explanation": "Used alone (e.g., The dog is mine).",
+            "german": "Der Hund ist meiner.",
+            "translation": "The dog is mine."
+          },
+          "comparison_table": {
+            "title": "Comparison of Independent Pronouns (Examples)",
+            "headers": ["Person", "Masculine (it's mine)", "Neuter (it's mine)", "Fem/Plural (it's mine)"],
+            "rows": [
+              {
+                "person": "1st (I)",
+                "masculine": "meiner",
+                "neuter": "meins",
+                "fem_plural": "meine"
+              },
+              {
+                "person": "2nd (You)",
+                "masculine": "deiner",
+                "neuter": "deins",
+                "fem_plural": "deine"
+              },
+              {
+                "person": "3rd (He)",
+                "masculine": "seiner",
+                "neuter": "seins",
+                "fem_plural": "seine"
+              }
+            ]
+          },
+          "example_dialogue": {
+            "question": "\"Whose ball is that?\" → \"It is mine.\"",
+            "german": "\"Wessen Ball ist das?\" → \"Es ist meiner.\"",
+            "note": "Because Ball is masculine."
+          }
+        }
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Summary of Usage",
+      "description": "You use the nominative system when:",
+      "content": {
+        "rules": [
+          {
+            "rule": "The noun is the Subject",
+            "german": "Der Hund bellt.",
+            "translation": "The dog barks."
+          },
+          {
+            "rule": "After the verb \"sein\" (to be)",
+            "german": "Er ist ein guter Mann.",
+            "translation": "He is a good man."
+          }
+        ],
+        "note": "In German, \"to be\" acts like an equals sign (A = B), so both sides are Nominative."
+      }
+    }
+  ]
+}

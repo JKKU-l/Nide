@@ -1,0 +1,36 @@
+{
+  "theme_color": "#9C27B0",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Kleidung", "english": "the clothing", "article": "die", "word": "Kleidung", "emoji": "👚"},
+        {"german": "das Kleid", "english": "the dress", "article": "das", "word": "Kleid", "emoji": "👗"},
+        {"german": "der Anzug", "english": "the suit", "article": "der", "word": "Anzug", "emoji": "🤵"},
+        {"german": "die Hose", "english": "the trousers / pants", "article": "die", "word": "Hose", "emoji": "👖"},
+        {"german": "die Bluse", "english": "the blouse", "article": "die", "word": "Bluse", "emoji": "👚"},
+        {"german": "die Krawatte", "english": "the tie", "article": "die", "word": "Krawatte", "emoji": "👔"},
+        {"german": "der Rock", "english": "the skirt", "article": "der", "word": "Rock", "emoji": "👗"},
+        {"german": "das Hemd", "english": "the shirt", "article": "das", "word": "Hemd", "emoji": "👕"},
+        {"german": "das Kostüm", "english": "the woman's suit", "article": "das", "word": "Kostüm", "emoji": "👩‍💼"},
+        {"german": "der Pullover", "english": "the sweater", "article": "der", "word": "Pullover", "emoji": "🧶"},
+        {"german": "die Jeans", "english": "the jeans", "article": "die", "word": "Jeans", "emoji": "👖"},
+        {"german": "die Mütze", "english": "the beanie / cap", "article": "die", "word": "Mütze", "emoji": "🧢"},
+        {"german": "die Weste", "english": "the vest", "article": "die", "word": "Weste", "emoji": "🦺"},
+        {"german": "die Jacke", "english": "the jacket", "article": "die", "word": "Jacke", "emoji": "🧥"},
+        {"german": "der Handschuh", "english": "the glove", "article": "der", "word": "Handschuh", "emoji": "🧤"},
+        {"german": "das T-Shirt", "english": "the t-shirt", "article": "das", "word": "T-Shirt", "emoji": "👕"},
+        {"german": "der Mantel", "english": "the coat", "article": "der", "word": "Mantel", "emoji": "🧥"},
+        {"german": "der Schal", "english": "the scarf", "article": "der", "word": "Schal", "emoji": "🧣"},
+        {"german": "der Gürtel", "english": "the belt", "article": "der", "word": "Gürtel", "emoji": "🥋"},
+        {"german": "der Strumpf", "english": "the stocking / sock", "article": "der", "word": "Strumpf", "emoji": "🧦"},
+        {"german": "der Unterrock", "english": "the slip / petticoat", "article": "der", "word": "Unterrock", "emoji": "👙"},
+        {"german": "der Schuh", "english": "the shoe", "article": "der", "word": "Schuh", "emoji": "👟"},
+        {"german": "das Unterhemd", "english": "the undershirt", "article": "das", "word": "Unterhemd", "emoji": "👕"},
+        {"german": "sich ausziehen", "english": "to undress", "article": "", "word": "sich ausziehen", "emoji": "🚿"},
+        {"german": "der Stiefel", "english": "the boot", "article": "der", "word": "Stiefel", "emoji": "👢"},
+        {"german": "die Unterhose", "english": "the underpants", "article": "die", "word": "Unterhose", "emoji": "🩲"},
+        {"german": "sich anziehen", "english": "to dress oneself", "article": "", "word": "sich anziehen", "emoji": "👔"}
+      ]
+    }
+  ]
+}

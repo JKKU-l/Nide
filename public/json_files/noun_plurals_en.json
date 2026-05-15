@@ -1,0 +1,119 @@
+{
+  "categories": [
+    {
+      "id": "regular",
+      "title": "Regular Plurals",
+      "description": "Common plural patterns",
+      "icon": "category",
+      "nouns": [
+        {"noun": "Tisch", "translation": "table", "plural": "Tische", "type": "+e"},
+        {"noun": "Stuhl", "translation": "chair", "plural": "Stühle", "type": "ü→ü"},
+        {"noun": "Buch", "translation": "book", "plural": "Bücher", "type": "u→ü"},
+        {"noun": "Auto", "translation": "car", "plural": "Autos", "type": "+s"},
+        {"noun": "Haus", "translation": "house", "plural": "Häuser", "type": "au→äu"},
+        {"noun": "Hand", "translation": "hand", "plural": "Hände", "type": "a→ä"},
+        {"noun": "Katze", "translation": "cat", "plural": "Katzen", "type": "+n"},
+        {"noun": "Hund", "translation": "dog", "plural": "Hunde", "type": "+e"},
+        {"noun": "Baum", "translation": "tree", "plural": "Bäume", "type": "au→äu"},
+        {"noun": "Blume", "translation": "flower", "plural": "Blumen", "type": "+n"},
+        {"noun": "Kind", "translation": "child", "plural": "Kinder", "type": "+er"},
+        {"noun": "Mann", "translation": "man", "plural": "Männer", "type": "a→ä"},
+        {"noun": "Frau", "translation": "woman", "plural": "Frauen", "type": "+en"},
+        {"noun": "Apfel", "translation": "apple", "plural": "Äpfel", "type": "a→ä"},
+        {"noun": "Schule", "translation": "school", "plural": "Schulen", "type": "+n"}
+      ]
+    },
+    {
+      "id": "irregular",
+      "title": "Irregular Plurals",
+      "description": "Special plural forms",
+      "icon": "psychology",
+      "nouns": [
+        {"noun": "Kind", "translation": "child", "plural": "Kinder", "type": "irregular"},
+        {"noun": "Mann", "translation": "man", "plural": "Männer", "type": "irregular"},
+        {"noun": "Frau", "translation": "woman", "plural": "Frauen", "type": "irregular"},
+        {"noun": "Vater", "translation": "father", "plural": "Väter", "type": "irregular"},
+        {"noun": "Mutter", "translation": "mother", "plural": "Mütter", "type": "irregular"},
+        {"noun": "Bruder", "translation": "brother", "plural": "Brüder", "type": "irregular"},
+        {"noun": "Schwester", "translation": "sister", "plural": "Schwestern", "type": "irregular"},
+        {"noun": "Foot", "translation": "foot", "plural": "Füße", "type": "irregular"},
+        {"noun": "Zahn", "translation": "tooth", "plural": "Zähne", "type": "irregular"},
+        {"noun": "Maus", "translation": "mouse", "plural": "Mäuse", "type": "irregular"},
+        {"noun": "Kuh", "translation": "cow", "plural": "Kühe", "type": "irregular"},
+        {"noun": "Gans", "translation": "goose", "plural": "Gänse", "type": "irregular"},
+        {"noun": "Loch", "translation": "hole", "plural": "Löcher", "type": "irregular"},
+        {"noun": "Bach", "translation": "stream", "plural": "Bäche", "type": "irregular"},
+        {"noun": "Stadt", "translation": "city", "plural": "Städte", "type": "irregular"}
+      ]
+    },
+    {
+      "id": "foreign",
+      "title": "Foreign Words",
+      "description": "Words from other languages",
+      "icon": "language",
+      "nouns": [
+        {"noun": "Hotel", "translation": "hotel", "plural": "Hotels", "type": "+s"},
+        {"noun": "Restaurant", "translation": "restaurant", "plural": "Restaurants", "type": "+s"},
+        {"noun": "Computer", "translation": "computer", "plural": "Computer", "type": "no change"},
+        {"noun": "Telefon", "translation": "telephone", "plural": "Telefone", "type": "+e"},
+        {"noun": "Fotografie", "translation": "photography", "plural": "Fotografien", "type": "+en"},
+        {"noun": "Musik", "translation": "music", "plural": "Musiken", "type": "+en"},
+        {"noun": "Keks", "translation": "cookie", "plural": "Kekse", "type": "+e"},
+        {"noun": "Bus", "translation": "bus", "plural": "Busse", "type": "+se"},
+        {"noun": "Chef", "translation": "boss", "plural": "Chefs", "type": "+s"},
+        {"noun": "Park", "translation": "park", "plural": "Parks", "type": "+s"},
+        {"noun": "Team", "translation": "team", "plural": "Teams", "type": "+s"},
+        {"noun": "Party", "translation": "party", "plural": "Partys", "type": "+s"},
+        {"noun": "Cafe", "translation": "cafe", "plural": "Cafes", "type": "+s"},
+        {"noun": "Kino", "translation": "cinema", "plural": "Kinos", "type": "+s"},
+        {"noun": "Taxi", "translation": "taxi", "plural": "Taxis", "type": "+s"}
+      ]
+    },
+    {
+      "id": "diminutives",
+      "title": "Diminutives",
+      "description": "Words ending in -chen, -lein",
+      "icon": "child_care",
+      "nouns": [
+        {"noun": "Mädchen", "translation": "girl", "plural": "Mädchen", "type": "no change"},
+        {"noun": "Bäckchen", "translation": "cheek", "plural": "Bäckchen", "type": "no change"},
+        {"noun": "Fräulein", "translation": "young lady", "plural": "Fräulein", "type": "no change"},
+        {"noun": "Büchlein", "translation": "little book", "plural": "Büchlein", "type": "no change"},
+        {"noun": "Brötchen", "translation": "bread roll", "plural": "Brötchen", "type": "no change"},
+        {"noun": "Würstchen", "translation": "sausage", "plural": "Würstchen", "type": "no change"},
+        {"noun": "Männchen", "translation": "little man", "plural": "Männchen", "type": "no change"},
+        {"noun": "Kätzchen", "translation": "kitten", "plural": "Kätzchen", "type": "no change"},
+        {"noun": "Hündchen", "translation": "little dog", "plural": "Hündchen", "type": "no change"},
+        {"noun": "Vöglein", "translation": "little bird", "plural": "Vöglein", "type": "no change"},
+        {"noun": "Söhnchen", "translation": "little son", "plural": "Söhnchen", "type": "no change"},
+        {"noun": "Töchterlein", "translation": "little daughter", "plural": "Töchterlein", "type": "no change"},
+        {"noun": "Bächlein", "translation": "little stream", "plural": "Bächlein", "type": "no change"},
+        {"noun": "Blümchen", "translation": "little flower", "plural": "Blümchen", "type": "no change"},
+        {"noun": "Lämmchen", "translation": "little lamb", "plural": "Lämmchen", "type": "no change"}
+      ]
+    },
+    {
+      "id": "mixed",
+      "title": "Mixed Patterns",
+      "description": "Various plural formations",
+      "icon": "shuffle",
+      "nouns": [
+        {"noun": "Lehrer", "translation": "teacher", "plural": "Lehrer", "type": "no change"},
+        {"noun": "Student", "translation": "student", "plural": "Studenten", "type": "+en"},
+        {"noun": "Arzt", "translation": "doctor", "plural": "Ärzte", "type": "irregular"},
+        {"noun": "Krankheit", "translation": "illness", "plural": "Krankheiten", "type": "+en"},
+        {"noun": "Zeitung", "translation": "newspaper", "plural": "Zeitungen", "type": "+en"},
+        {"noun": "Regierung", "translation": "government", "plural": "Regierungen", "type": "+en"},
+        {"noun": "Universität", "translation": "university", "plural": "Universitäten", "type": "+en"},
+        {"noun": "Firma", "translation": "company", "plural": "Firmen", "type": "+en"},
+        {"noun": "Bank", "translation": "bank", "plural": "Banken", "type": "+en"},
+        {"noun": "Lampe", "translation": "lamp", "plural": "Lampen", "type": "+n"},
+        {"noun": "Tür", "translation": "door", "plural": "Türen", "type": "+en"},
+        {"noun": "Fenster", "translation": "window", "plural": "Fenster", "type": "no change"},
+        {"noun": "Wand", "translation": "wall", "plural": "Wände", "type": "+e"},
+        {"noun": "Boden", "translation": "floor", "plural": "Böden", "type": "+e"},
+        {"noun": "Garten", "translation": "garden", "plural": "Gärten", "type": "+e"}
+      ]
+    }
+  ]
+}

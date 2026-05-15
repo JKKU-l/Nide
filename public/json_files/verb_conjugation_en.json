@@ -1,0 +1,610 @@
+{
+  "title": "Verb Conjugation Practice",
+  "description": "Master German verb conjugations with these 100 essential verbs",
+  "levels": {
+    "level1": {
+      "name": "Level 1: Essential Verbs",
+      "description": "The most important everyday verbs (1-25)",
+      "verbs": [
+        {
+          "verb": "sein",
+          "translation": "to be",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "bin",
+            "du": "bist",
+            "er/sie/es": "ist",
+            "wir": "sind",
+            "ihr": "seid",
+            "sie/Sie": "sind"
+          }
+        },
+        {
+          "verb": "haben",
+          "translation": "to have",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "habe",
+            "du": "hast",
+            "er/sie/es": "hat",
+            "wir": "haben",
+            "ihr": "habt",
+            "sie/Sie": "haben"
+          }
+        },
+        {
+          "verb": "gehen",
+          "translation": "to go",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "gehe",
+            "du": "gehst",
+            "er/sie/es": "geht",
+            "wir": "gehen",
+            "ihr": "geht",
+            "sie/Sie": "gehen"
+          }
+        },
+        {
+          "verb": "kommen",
+          "translation": "to come",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "komme",
+            "du": "kommst",
+            "er/sie/es": "kommt",
+            "wir": "kommen",
+            "ihr": "kommt",
+            "sie/Sie": "kommen"
+          }
+        },
+        {"verb": "machen", "translation": "to do / make", "type": "regular"},
+        {
+          "verb": "essen",
+          "translation": "to eat",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "esse",
+            "du": "isst",
+            "er/sie/es": "isst",
+            "wir": "essen",
+            "ihr": "esst",
+            "sie/Sie": "essen"
+          }
+        },
+        {
+          "verb": "trinken",
+          "translation": "to drink",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "trinke",
+            "du": "trinkst",
+            "er/sie/es": "trinkt",
+            "wir": "trinken",
+            "ihr": "trinkt",
+            "sie/Sie": "trinken"
+          }
+        },
+        {
+          "verb": "fahren",
+          "translation": "to drive / go",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "fahre",
+            "du": "fährst",
+            "er/sie/es": "fährt",
+            "wir": "fahren",
+            "ihr": "fahrt",
+            "sie/Sie": "fahren"
+          }
+        },
+        {
+          "verb": "sehen",
+          "translation": "to see",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "sehe",
+            "du": "siehst",
+            "er/sie/es": "sieht",
+            "wir": "sehen",
+            "ihr": "seht",
+            "sie/Sie": "sehen"
+          }
+        },
+        {"verb": "hören", "translation": "to hear", "type": "regular"},
+        {
+          "verb": "sprechen",
+          "translation": "to speak",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "spreche",
+            "du": "sprichst",
+            "er/sie/es": "spricht",
+            "wir": "sprechen",
+            "ihr": "sprecht",
+            "sie/Sie": "sprechen"
+          }
+        },
+        {"verb": "lernen", "translation": "to learn", "type": "regular"},
+        {"verb": "arbeiten", "translation": "to work", "type": "regular"},
+        {"verb": "wohnen", "translation": "to live", "type": "regular"},
+        {
+          "verb": "bleiben",
+          "translation": "to stay",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "bleibe",
+            "du": "bleibst",
+            "er/sie/es": "bleibt",
+            "wir": "bleiben",
+            "ihr": "bleibt",
+            "sie/Sie": "bleiben"
+          }
+        },
+        {
+          "verb": "schlafen",
+          "translation": "to sleep",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "schlafe",
+            "du": "schläfst",
+            "er/sie/es": "schläft",
+            "wir": "schlafen",
+            "ihr": "schlaft",
+            "sie/Sie": "schlafen"
+          }
+        },
+        {"verb": "kaufen", "translation": "to buy", "type": "regular"},
+        {"verb": "bezahlen", "translation": "to pay", "type": "regular"},
+        {
+          "verb": "bringen",
+          "translation": "to bring",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "bringe",
+            "du": "bringst",
+            "er/sie/es": "bringt",
+            "wir": "bringen",
+            "ihr": "bringt",
+            "sie/Sie": "bringen"
+          }
+        },
+        {"verb": "holen", "translation": "to fetch", "type": "regular"},
+        {
+          "verb": "geben",
+          "translation": "to give",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "gebe",
+            "du": "gibst",
+            "er/sie/es": "gibt",
+            "wir": "geben",
+            "ihr": "gebt",
+            "sie/Sie": "geben"
+          }
+        },
+        {
+          "verb": "nehmen",
+          "translation": "to take",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "nehme",
+            "du": "nimmst",
+            "er/sie/es": "nimmt",
+            "wir": "nehmen",
+            "ihr": "nehmt",
+            "sie/Sie": "nehmen"
+          }
+        },
+        {
+          "verb": "finden",
+          "translation": "to find",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "finde",
+            "du": "findest",
+            "er/sie/es": "findet",
+            "wir": "finden",
+            "ihr": "findet",
+            "sie/Sie": "finden"
+          }
+        },
+        {"verb": "fragen", "translation": "to ask", "type": "regular"},
+        {"verb": "antworten", "translation": "to answer", "type": "regular"}
+      ]
+    },
+    "level2": {
+      "name": "Level 2: Common Actions",
+      "description": "Verbs for daily activities (26-50)",
+      "verbs": [
+        {
+          "verb": "helfen",
+          "translation": "to help",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "helfe",
+            "du": "hilfst",
+            "er/sie/es": "hilft",
+            "wir": "helfen",
+            "ihr": "helft",
+            "sie/Sie": "helfen"
+          }
+        },
+        {
+          "verb": "treffen",
+          "translation": "to meet",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "treffe",
+            "du": "triffst",
+            "er/sie/es": "trifft",
+            "wir": "treffen",
+            "ihr": "trefft",
+            "sie/Sie": "treffen"
+          }
+        },
+        {"verb": "besuchen", "translation": "to visit", "type": "regular"},
+        {"verb": "lieben", "translation": "to love", "type": "regular"},
+        {
+          "verb": "mögen",
+          "translation": "to like",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "mag",
+            "du": "magst",
+            "er/sie/es": "mag",
+            "wir": "mögen",
+            "ihr": "mögt",
+            "sie/Sie": "mögen"
+          }
+        },
+        {"verb": "brauchen", "translation": "to need", "type": "regular"},
+        {"verb": "spielen", "translation": "to play", "type": "regular"},
+        {"verb": "reisen", "translation": "to travel", "type": "regular"},
+        {
+          "verb": "fliegen",
+          "translation": "to fly",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "fliege",
+            "du": "fliegst",
+            "er/sie/es": "fliegt",
+            "wir": "fliegen",
+            "ihr": "fliegt",
+            "sie/Sie": "fliegen"
+          }
+        },
+        {
+          "verb": "beginnen",
+          "translation": "to begin",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "beginne",
+            "du": "beginnst",
+            "er/sie/es": "beginnt",
+            "wir": "beginnen",
+            "ihr": "beginnt",
+            "sie/Sie": "beginnen"
+          }
+        },
+        {
+          "verb": "gewinnen",
+          "translation": "to win",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "gewinne",
+            "du": "gewinnst",
+            "er/sie/es": "gewinnt",
+            "wir": "gewinnen",
+            "ihr": "gewinnt",
+            "sie/Sie": "gewinnen"
+          }
+        },
+        {
+          "verb": "verlieren",
+          "translation": "to lose",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "verliere",
+            "du": "verlierst",
+            "er/sie/es": "verliert",
+            "wir": "verlieren",
+            "ihr": "verliert",
+            "sie/Sie": "verlieren"
+          }
+        },
+        {
+          "verb": "schreiben",
+          "translation": "to write",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "schreibe",
+            "du": "schreibst",
+            "er/sie/es": "schreibt",
+            "wir": "schreiben",
+            "ihr": "schreibt",
+            "sie/Sie": "schreiben"
+          }
+        },
+        {
+          "verb": "lesen",
+          "translation": "to read",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "lese",
+            "du": "liest",
+            "er/sie/es": "liest",
+            "wir": "lesen",
+            "ihr": "lest",
+            "sie/Sie": "lesen"
+          }
+        },
+        {"verb": "öffnen", "translation": "to open", "type": "regular"},
+        {
+          "verb": "schließen",
+          "translation": "to close",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "schließe",
+            "du": "schließt",
+            "er/sie/es": "schließt",
+            "wir": "schließen",
+            "ihr": "schließt",
+            "sie/Sie": "schließen"
+          }
+        },
+        {"verb": "kochen", "translation": "to cook", "type": "regular"},
+        {
+          "verb": "waschen",
+          "translation": "to wash",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "wasche",
+            "du": "wäschst",
+            "er/sie/es": "wäscht",
+            "wir": "waschen",
+            "ihr": "wascht",
+            "sie/Sie": "waschen"
+          }
+        },
+        {"verb": "putzen", "translation": "to clean", "type": "regular"},
+        {"verb": "aufräumen", "translation": "to tidy up", "type": "separable"},
+        {"verb": "anziehen", "translation": "to put on", "type": "separable"},
+        {"verb": "ausziehen", "translation": "to take off", "type": "separable"},
+        {"verb": "suchen", "translation": "to search", "type": "regular"},
+        {"verb": "warten", "translation": "to wait", "type": "regular"},
+        {
+          "verb": "verstehen",
+          "translation": "to understand",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "verstehe",
+            "du": "verstehst",
+            "er/sie/es": "versteht",
+            "wir": "verstehen",
+            "ihr": "versteht",
+            "sie/Sie": "verstehen"
+          }
+        }
+      ]
+    },
+    "level3": {
+      "name": "Level 3: State & Movement",
+      "description": "Verbs describing states and movements (51-75)",
+      "verbs": [
+        {
+          "verb": "bleiben",
+          "translation": "to stay",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "bleibe",
+            "du": "bleibst",
+            "er/sie/es": "bleibt",
+            "wir": "bleiben",
+            "ihr": "bleibt",
+            "sie/Sie": "bleiben"
+          }
+        },
+        {
+          "verb": "laufen",
+          "translation": "to run",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "laufe",
+            "du": "läufst",
+            "er/sie/es": "läuft",
+            "wir": "laufen",
+            "ihr": "lauft",
+            "sie/Sie": "laufen"
+          }
+        },
+        {
+          "verb": "stehen",
+          "translation": "to stand",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "stehe",
+            "du": "stehst",
+            "er/sie/es": "steht",
+            "wir": "stehen",
+            "ihr": "steht",
+            "sie/Sie": "stehen"
+          }
+        },
+        {
+          "verb": "sitzen",
+          "translation": "to sit",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "sitze",
+            "du": "sitzt",
+            "er/sie/es": "sitzt",
+            "wir": "sitzen",
+            "ihr": "sitzt",
+            "sie/Sie": "sitzen"
+          }
+        },
+        {
+          "verb": "liegen",
+          "translation": "to lie",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "liege",
+            "du": "liegst",
+            "er/sie/es": "liegt",
+            "wir": "liegen",
+            "ihr": "liegt",
+            "sie/Sie": "liegen"
+          }
+        },
+        {
+          "verb": "denken",
+          "translation": "to think",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "denke",
+            "du": "denkst",
+            "er/sie/es": "denkt",
+            "wir": "denken",
+            "ihr": "denkt",
+            "sie/Sie": "denken"
+          }
+        },
+        {"verb": "glauben", "translation": "to believe", "type": "regular"},
+        {"verb": "meinen", "translation": "to mean", "type": "regular"},
+        {
+          "verb": "wissen",
+          "translation": "to know (fact)",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "weiß",
+            "du": "weißt",
+            "er/sie/es": "weiß",
+            "wir": "wissen",
+            "ihr": "wisst",
+            "sie/Sie": "wissen"
+          }
+        },
+        {"verb": "kennen", "translation": "to know (person)", "type": "regular"},
+        {"verb": "erinnern", "translation": "to remember", "type": "reflexive"},
+        {
+          "verb": "vergessen",
+          "translation": "to forget",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "vergesse",
+            "du": "vergisst",
+            "er/sie/es": "vergisst",
+            "wir": "vergessen",
+            "ihr": "vergesst",
+            "sie/Sie": "vergessen"
+          }
+        },
+        {"verb": "erzählen", "translation": "to tell", "type": "regular"},
+        {"verb": "erklären", "translation": "to explain", "type": "regular"},
+        {"verb": "bestellen", "translation": "to order", "type": "regular"},
+        {"verb": "reservieren", "translation": "to reserve", "type": "regular"},
+        {"verb": "zahlen", "translation": "to pay", "type": "regular"},
+        {"verb": "kosten", "translation": "to cost", "type": "regular"},
+        {"verb": "sparen", "translation": "to save", "type": "regular"},
+        {"verb": "verdienen", "translation": "to earn", "type": "regular"},
+        {
+          "verb": "leihen",
+          "translation": "to lend / borrow",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "leihe",
+            "du": "leihst",
+            "er/sie/es": "leiht",
+            "wir": "leihen",
+            "ihr": "leiht",
+            "sie/Sie": "leihen"
+          }
+        },
+        {"verb": "mieten", "translation": "to rent", "type": "regular"},
+        {"verb": "umziehen", "translation": "to move", "type": "separable"},
+        {"verb": "einziehen", "translation": "to move in", "type": "separable"},
+        {"verb": "ausziehen", "translation": "to move out", "type": "separable"}
+      ]
+    },
+    "level4": {
+      "name": "Level 4: Advanced Verbs",
+      "description": "More complex and useful verbs (76-100)",
+      "verbs": [
+        {"verb": "einladen", "translation": "to invite", "type": "separable"},
+        {"verb": "feiern", "translation": "to celebrate", "type": "regular"},
+        {"verb": "tanzen", "translation": "to dance", "type": "regular"},
+        {
+          "verb": "singen",
+          "translation": "to sing",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "singe",
+            "du": "singst",
+            "er/sie/es": "singt",
+            "wir": "singen",
+            "ihr": "singt",
+            "sie/Sie": "singen"
+          }
+        },
+        {"verb": "lachen", "translation": "to laugh", "type": "regular"},
+        {"verb": "weinen", "translation": "to cry", "type": "regular"},
+        {"verb": "anrufen", "translation": "to call", "type": "separable"},
+        {"verb": "telefonieren", "translation": "to phone", "type": "regular"},
+        {"verb": "schicken", "translation": "to send", "type": "regular"},
+        {"verb": "bekommen", "translation": "to get", "type": "regular"},
+        {"verb": "erhalten", "translation": "to receive", "type": "regular"},
+        {"verb": "verkaufen", "translation": "to sell", "type": "regular"},
+        {"verb": "benutzen", "translation": "to use", "type": "regular"},
+        {"verb": "ausprobieren", "translation": "to try out", "type": "separable"},
+        {"verb": "anfangen", "translation": "to start", "type": "separable"},
+        {"verb": "aufhören", "translation": "to stop", "type": "separable"},
+        {"verb": "fortsetzen", "translation": "to continue", "type": "regular"},
+        {"verb": "weitermachen", "translation": "to continue", "type": "separable"},
+        {"verb": "vorbereiten", "translation": "to prepare", "type": "separable"},
+        {"verb": "planen", "translation": "to plan", "type": "regular"},
+        {
+          "verb": "entscheiden",
+          "translation": "to decide",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "entscheide",
+            "du": "entscheidest",
+            "er/sie/es": "entscheidet",
+            "wir": "entscheiden",
+            "ihr": "entscheidet",
+            "sie/Sie": "entscheiden"
+          }
+        },
+        {"verb": "versuchen", "translation": "to try", "type": "regular"},
+        {"verb": "üben", "translation": "to practice", "type": "regular"},
+        {
+          "verb": "bestehen",
+          "translation": "to pass",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "bestehe",
+            "du": "bestehst",
+            "er/sie/es": "besteht",
+            "wir": "bestehen",
+            "ihr": "besteht",
+            "sie/Sie": "bestehen"
+          }
+        },
+        {
+          "verb": "passieren",
+          "translation": "to happen",
+          "type": "irregular",
+          "conjugations": {
+            "ich": "passiere",
+            "du": "passierst",
+            "er/sie/es": "passiert",
+            "wir": "passieren",
+            "ihr": "passiert",
+            "sie/Sie": "passieren"
+          }
+        }
+      ]
+    }
+  }
+}

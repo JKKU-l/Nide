@@ -1,0 +1,36 @@
+{
+  "theme_color": "#9C27B0",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Kleidung", "japanese": "服・衣類", "article": "die", "word": "Kleidung", "emoji": "👚"},
+        {"german": "das Kleid", "japanese": "ドレス・ワンピース", "article": "das", "word": "Kleid", "emoji": "👗"},
+        {"german": "der Anzug", "japanese": "スーツ", "article": "der", "word": "Anzug", "emoji": "🤵"},
+        {"german": "die Hose", "japanese": "ズボン・パンツ", "article": "die", "word": "Hose", "emoji": "👖"},
+        {"german": "die Bluse", "japanese": "ブラウス", "article": "die", "word": "Bluse", "emoji": "👚"},
+        {"german": "die Krawatte", "japanese": "ネクタイ", "article": "die", "word": "Krawatte", "emoji": "👔"},
+        {"german": "der Rock", "japanese": "スカート", "article": "der", "word": "Rock", "emoji": "👗"},
+        {"german": "das Hemd", "japanese": "シャツ", "article": "das", "word": "Hemd", "emoji": "👕"},
+        {"german": "das Kostüm", "japanese": "女性用スーツ", "article": "das", "word": "Kostüm", "emoji": "👩‍💼"},
+        {"german": "der Pullover", "japanese": "セーター", "article": "der", "word": "Pullover", "emoji": "🧶"},
+        {"german": "die Jeans", "japanese": "ジーンズ", "article": "die", "word": "Jeans", "emoji": "👖"},
+        {"german": "die Mütze", "japanese": "ニット帽・キャップ", "article": "die", "word": "Mütze", "emoji": "🧢"},
+        {"german": "die Weste", "japanese": "ベスト", "article": "die", "word": "Weste", "emoji": "🦺"},
+        {"german": "die Jacke", "japanese": "ジャケット・上着", "article": "die", "word": "Jacke", "emoji": "🧥"},
+        {"german": "der Handschuh", "japanese": "手袋", "article": "der", "word": "Handschuh", "emoji": "🧤"},
+        {"german": "das T-Shirt", "japanese": "Tシャツ", "article": "das", "word": "T-Shirt", "emoji": "👕"},
+        {"german": "der Mantel", "japanese": "コート", "article": "der", "word": "Mantel", "emoji": "🧥"},
+        {"german": "der Schal", "japanese": "マフラー・スカーフ", "article": "der", "word": "Schal", "emoji": "🧣"},
+        {"german": "der Gürtel", "japanese": "ベルト", "article": "der", "word": "Gürtel", "emoji": "🥋"},
+        {"german": "der Strumpf", "japanese": "靴下・ストッキング", "article": "der", "word": "Strumpf", "emoji": "🧦"},
+        {"german": "der Unterrock", "japanese": "ペチコート・アンダースカート", "article": "der", "word": "Unterrock", "emoji": "👙"},
+        {"german": "der Schuh", "japanese": "靴", "article": "der", "word": "Schuh", "emoji": "👟"},
+        {"german": "das Unterhemd", "japanese": "肌着・アンダーシャツ", "article": "das", "word": "Unterhemd", "emoji": "👕"},
+        {"german": "sich ausziehen", "japanese": "脱ぐ", "article": "", "word": "sich ausziehen", "emoji": "🚿"},
+        {"german": "der Stiefel", "japanese": "ブーツ", "article": "der", "word": "Stiefel", "emoji": "👢"},
+        {"german": "die Unterhose", "japanese": "パンツ・下着", "article": "die", "word": "Unterhose", "emoji": "🩲"},
+        {"german": "sich anziehen", "japanese": "着る・身につける", "article": "", "word": "sich anziehen", "emoji": "👔"}
+      ]
+    }
+  ]
+}

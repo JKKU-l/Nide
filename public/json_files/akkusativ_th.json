@@ -1,0 +1,130 @@
+{
+  "title": "Akkusativ (การก์กรรมตรง)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "ทำความเข้าใจ Akkusativ ในภาษาเยอรมัน",
+      "description": "ในภาษาเยอรมัน Akkusativ ใช้สำหรับกรรมตรง (Direct Object) ของประโยค ซึ่งก็คือบุคคลหรือสิ่งที่ได้รับผลกระทบโดยตรงจากการกระทำของกริยา ถ้า Nominativ คือ \"ผู้กระทำ\" (ประธาน) แล้ว Akkusativ คือ \"ผู้รับ\""
+    },
+    {
+      "id": "identifying_accusative",
+      "title": "1. การระบุ Akkusativ: \"ใคร\" หรือ \"อะไร\"",
+      "description": "เพื่อหากรรมตรง ให้ถามตัวเอง: \"ใคร/อะไรถูก~?\"",
+      "content": {
+        "example": {
+          "german": "Ich kaufe den Apfel.",
+          "translation": "ฉันซื้อแอปเปิ้ล",
+          "note": "ฉันกำลังซื้ออะไร? → Den Apfel (แอปเปิ้ล) ดังนั้น \"แอปเปิ้ล\" อยู่ในการก์ Akkusativ"
+        }
+      }
+    },
+    {
+      "id": "articles_adjective_endings",
+      "title": "2. คำนำหน้าและคำลงท้ายคำคุณศัพท์",
+      "description": "สิ่งสำคัญที่สุดที่ต้องจำเกี่ยวกับ Akkusativ คือ เฉพาะเพศชายเท่านั้นที่เปลี่ยน เพศหญิง เพศกลาง และพหูพจน์ ยังคงเหมือนเดิมกับ Nominativ",
+      "content": {
+        "declension_table": {
+          "title": "ตารางการผัน Akkusativ",
+          "headers": ["เพศ", "คำนำหน้าชี้เฉพาะ (The)", "คำนำหน้าไม่ชี้เฉพาะ (A/None)", "คำลงท้ายคำคุณศัพท์ (กับ \"the\")"],
+          "rows": [
+            { "category": "เพศชาย", "definite": "den", "indefinite": "einen / keinen", "adjective": "-en (den netten Vater)" },
+            { "category": "เพศหญิง", "definite": "die", "indefinite": "eine / keine", "adjective": "-e (die nette Mutter)" },
+            { "category": "ไม่ระบุเพศ", "definite": "das", "indefinite": "ein / kein", "adjective": "-e (das nette Kind)" },
+            { "category": "พหูพจน์", "definite": "die", "indefinite": "- / keine", "adjective": "-en (die netten Eltern)" }
+          ]
+        },
+        "adjective_note": "ถ้าใช้คำเช่น dieser (นี้) jener (นั้น) หรือ welcher (ไหน) คำคุณศัพท์ที่ตามมาจะเป็นไปตามรูปแบบเดียวกับคำนำหน้าชี้เฉพาะ (-en สำหรับเพศชาย/พหูพจน์ -e สำหรับเพศหญิง/ไม่ระบุเพศ)"
+      }
+    },
+    {
+      "id": "personal_pronouns",
+      "title": "3. สรรพนามบุรุษ",
+      "description": "เมื่อบุคคลเป็นกรรมตรง (เช่น \"เขาเห็นฉัน\") เราต้องใช้รูป Akkusativ ของสรรพนาม",
+      "content": {
+        "pronoun_table": {
+          "title": "การเปลี่ยนสรรพนามใน Akkusativ",
+          "rows": [
+            { "nominative": "ich", "accusative": "mich", "meaning": "ฉัน (กรรม)" },
+            { "nominative": "du", "accusative": "dich", "meaning": "คุณ (กรรม)" },
+            { "nominative": "er", "accusative": "ihn", "meaning": "เขา (กรรม)" },
+            { "nominative": "sie", "accusative": "sie", "meaning": "เธอ (กรรม)" },
+            { "nominative": "es", "accusative": "es", "meaning": "มัน (กรรม)" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "เรา (กรรม)" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "พวกคุณ (กรรม)" },
+            { "nominative": "sie/Sie", "accusative": "sie/Sie", "meaning": "พวกเขา / คุณ-ทางการ (กรรม)" }
+          ]
+        },
+        "example": {
+          "german": "Ich liebe dich.",
+          "translation": "ฉันรักคุณ",
+          "note": "ที่นี่ \"คุณ\" เป็นคนที่ถูกรัก ดังนั้น du จึงเปลี่ยนเป็น dich"
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. เมื่อไรจึงใช้ Akkusativ",
+      "description": "มีสามสาเหตุหลักที่ทำให้ต้องใช้ Akkusativ:",
+      "content": {
+        "triggers": [
+          {
+            "id": "accusative_verbs",
+            "title": "A. กริยาที่ใช้ Akkusativ",
+            "description": "กริยาภาษาเยอรมันส่วนใหญ่ต้องการ Akkusativ เพราะเกี่ยวข้องกับการทำอะไรบางอย่างกับบางสิ่ง",
+            "subcategories": [
+              { "label": "การกระทำทางกายภาพ", "verbs": "essen (กิน), trinken (ดื่ม), kaufen (ซื้อ)", "german": "Er isst einen Kuchen.", "translation": "เขากินเค้ก — เพศชายเปลี่ยน" },
+              { "label": "การครอบครอง", "verbs": "haben (มี), besitzen (เป็นเจ้าของ)", "german": "Ich habe einen Bruder.", "translation": "ฉันมีพี่ชาย/น้องชาย" },
+              { "label": "จิตใจ/ประสาทสัมผัส", "verbs": "hören (ได้ยิน), verstehen (เข้าใจ), suchen (ค้นหา)", "german": "Wir suchen den Hund.", "translation": "เรากำลังหาสุนัข" }
+            ]
+          },
+          {
+            "id": "accusative_prepositions",
+            "title": "B. คำบุพบทที่ใช้ Akkusativ",
+            "description": "คำบุพบทบางคำตามด้วย Akkusativ เสมอ ไม่ว่ากริยาจะเป็นอะไร:",
+            "prepositions": ["durch (ผ่าน)", "für (สำหรับ)", "gegen (ต่อต้าน)", "ohne (โดยไม่มี)", "um (รอบ)", "bis (จนถึง)"],
+            "examples": [
+              { "german": "Das Geschenk ist für dich.", "translation": "ของขวัญสำหรับคุณ" },
+              { "german": "Er geht ohne den Schirm.", "translation": "เขาไปโดยไม่มีร่ม" }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. คำบุพบทสองทาง (การเคลื่อนที่ vs. ตำแหน่ง)",
+            "description": "คำบุพบทบางคำ (an, auf, hinter, in, neben, über, unter, vor, zwischen) สามารถเป็น Dativ หรือ Akkusativ ก็ได้",
+            "rule": "ใช้ Akkusativ สำหรับการเคลื่อนที่/ทิศทาง: ถ้าคุณเคลื่อนที่จากจุด A ไปจุด B (คำถาม: Wohin? / ไปไหน?)",
+            "examples": [
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "ฉันวางหนังสือลงบนโต๊ะ — การกระทำ/การเคลื่อนที่" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. ตัวอย่างละเอียดเพื่อความเข้าใจ",
+      "description": "มาดู Akkusativ ในสถานการณ์ต่างๆ:",
+      "content": {
+        "examples": [
+          {
+            "label": "เพศชายเปลี่ยน",
+            "nominative": { "german": "Der Tisch ist alt.", "translation": "โต๊ะเก่า" },
+            "accusative": { "german": "Ich verkaufe den Tisch.", "translation": "ฉันขายโต๊ะ" },
+            "explanation": "เพราะโต๊ะตอนนี้เป็นวัตถุที่ถูกขาย"
+          },
+          {
+            "label": "ไม่ระบุเพศ/เพศหญิง ไม่เปลี่ยน",
+            "nominative": { "german": "Das Auto ist schnell.", "translation": "รถเร็ว" },
+            "accusative": { "german": "Ich kaufe das Auto.", "translation": "ฉันซื้อรถ" },
+            "explanation": "\"Auto\" เป็นไม่ระบุเพศ คำนำหน้า \"das\" ไม่เปลี่ยนใน Akkusativ"
+          },
+          {
+            "label": "การใช้ \"Haben\"",
+            "nominative": null,
+            "accusative": { "german": "Sie hat einen neuen Job.", "translation": "เธอมีงานใหม่" },
+            "explanation": "\"Job\" เป็นเพศชาย (der Job) เนื่องจากตามหลัง haben จึงต้องเป็น einen"
+          }
+        ]
+      }
+    }
+  ]
+}

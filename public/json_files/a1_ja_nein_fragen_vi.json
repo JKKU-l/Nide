@@ -1,0 +1,149 @@
+{
+  "title": "Ja/Nein-Fragen (Câu hỏi Có/Không)",
+  "sections": [
+    {
+      "id": "sentence_structure",
+      "title": "1. Cấu trúc câu trong tiếng Đức: Câu trần thuật vs. Câu hỏi",
+      "description": "Trong tiếng Đức, vị trí của động từ là quy tắc quan trọng nhất.",
+      "content": {
+        "categories": [
+          {
+            "category": "Câu trần thuật (Aussagesatz)",
+            "description": "Trong một câu khẳng định thông thường, động từ luôn đứng ở vị trí thứ 2.",
+            "table": {
+              "headers": ["Quy tắc", "Ví dụ"],
+              "rows": [
+                ["Chủ ngữ + Động từ + Thông tin bổ trợ", "Er kommt aus Berlin. (Anh ấy đến từ Berlin.)"]
+              ]
+            }
+          },
+          {
+            "category": "Câu hỏi Có/Không (Ja/Nein-Frage)",
+            "description": "Để chuyển một câu trần thuật thành câu hỏi trả lời bằng \"Có\" hoặc \"Không\", bạn chuyển động từ lên vị trí số 1.",
+            "table": {
+              "headers": ["Quy tắc", "Ví dụ"],
+              "rows": [
+                ["Động từ + Chủ ngữ + Thông tin bổ trợ?", "Kommt er aus Berlin? (Anh ấy có đến từ Berlin không?)"]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "answering_questions",
+      "title": "2. Trả lời câu hỏi: Ja, Nein và Doch",
+      "description": "Tiếng Đức có ba cách để trả lời một câu hỏi đóng, tùy thuộc vào cách đặt câu hỏi.",
+      "content": {
+        "categories": [
+          {
+            "category": "Câu hỏi khẳng định (Positive Questions)",
+            "description": "Nếu câu hỏi ở dạng \"thông thường\" (không có từ phủ định):",
+            "table": {
+              "headers": ["Trả lời", "Sử dụng", "Ví dụ"],
+              "rows": [
+                ["Ja (Vâng/Có)", "Để đồng ý", "Ja, ich spreche Englisch."],
+                ["Nein (Không)", "Để từ chối/phủ định", "Nein, ich spreche kein Englisch."]
+              ]
+            },
+            "examples": [
+              {
+                "question": "\"Sprechen Sie Englisch?\" (Ngài có nói tiếng Anh không?)",
+                "answer": "Ja, ich spreche Englisch. (Vâng, tôi có nói tiếng Anh.) / Nein, ich spreche kein Englisch. (Không, tôi không nói tiếng Anh.)"
+              }
+            ]
+          },
+          {
+            "category": "Câu hỏi phủ định (Negative Questions)",
+            "description": "Nếu câu hỏi có chứa từ phủ định như nicht (không) hoặc kein (không có), câu trả lời \"Có\" sẽ đổi thành Doch.",
+            "table": {
+              "headers": ["Trả lời", "Sử dụng", "Ví dụ"],
+              "rows": [
+                ["Doch (Có chứ/Ngược lại)", "Dùng để phủ định lại một câu hỏi tiêu cực", "Doch, ich spreche Englisch."],
+                ["Nein (Không)", "Dùng để đồng ý với nội dung phủ định trong câu hỏi", "Nein, ich spreche kein Englisch."]
+              ]
+            },
+            "examples": [
+              {
+                "question": "\"Sprechen Sie nicht Englisch?\" (Ngài không nói tiếng Anh à?)",
+                "answer": "Doch, ich spreche Englisch. (Có chứ, tôi có nói tiếng Anh – phản bác lại từ \"không\".) / Nein, ich spreche kein Englisch. (Đúng vậy, tôi không nói tiếng Anh.)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "polite_requests",
+      "title": "3. Lời yêu cầu lịch sự (Höfliche Bitten)",
+      "description": "Để yêu cầu điều gì đó một cách lịch sự, người Đức sử dụng dạng \"Konjunktiv II\" của động từ. Nó tương tự như sự khác biệt giữa \"Đưa tôi cuốn sách\" và \"Bạn có thể vui lòng đưa tôi cuốn sách được không?\".",
+      "content": {
+        "categories": [
+          {
+            "category": "Sử dụng \"Könnten\" và \"Würden\"",
+            "description": "Könnten Sie... (Ngài có thể...): Dùng cho khả năng hoặc năng lực. Würden Sie... (Ngài sẽ...): Dùng cho các yêu cầu hành động chung.",
+            "table": {
+              "headers": ["Cấu trúc", "Ví dụ", "Dịch nghĩa"],
+              "rows": [
+                ["Könnten + CN + ... + Động từ?", "Könnten Sie mir bitte helfen?", "Ngài có thể vui lòng giúp tôi không?"],
+                ["Würden + CN + ... + Động từ?", "Würden Sie bitte das Fenster öffnen?", "Ngài có thể vui lòng mở cửa sổ không?"]
+              ]
+            },
+            "note": "Lưu ý: Trong các câu này, động từ hành động chính (như helfen hoặc öffnen) luôn đứng ở cuối câu ở dạng nguyên thể."
+          }
+        ]
+      }
+    },
+    {
+      "id": "question_types",
+      "title": "4. Câu hỏi có từ để hỏi vs. Câu hỏi Có/Không",
+      "description": "Có hai loại câu hỏi chính trong tiếng Đức:",
+      "content": {
+        "categories": [
+          {
+            "category": "Câu hỏi W (W-Questions - Câu hỏi lấy thông tin)",
+            "description": "Bắt đầu bằng một từ để hỏi (Wer, Was, Wie, Wo, Woher). Động từ đứng ở vị trí thứ 2.",
+            "examples": [
+              {
+                "question": "Wie hoch ist Ihre Miete? (Tiền thuê nhà của ngài là bao nhiêu?)",
+                "answer": "Trả lời: Một chi tiết cụ thể (650 Euro)."
+              }
+            ]
+          },
+          {
+            "category": "Câu hỏi đảo động từ (Yes/No Questions)",
+            "description": "Bắt đầu bằng động từ ở vị trí số 1.",
+            "examples": [
+              {
+                "question": "Suchen Sie eine Wohnung? (Ngài đang tìm một căn hộ phải không?)",
+                "answer": "Trả lời: Bắt đầu bằng Ja hoặc Nein."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Bảng tổng hợp để học nhanh",
+      "description": "Tài liệu tham khảo nhanh cho tất cả các loại câu:",
+      "content": {
+        "summary_table": {
+          "headers": ["Loại câu", "Vị trí động từ", "Ví dụ"],
+          "rows": [
+            ["Câu trần thuật", "Vị trí số 2", "Ich wohne in Frankfurt."],
+            ["Câu hỏi Có/Không", "Vị trí số 1", "Wohnen Sie in Frankfurt?"],
+            ["Câu hỏi W", "Vị trí số 2", "Wo wohnen Sie?"],
+            ["Yêu cầu lịch sự", "Vị trí số 1", "Würden Sie mir den Weg sagen?"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "Mẹo nhỏ cho người học (Pro Tip)",
+      "description": "Khi bạn thấy một từ phủ định như nicht hoặc kein trong câu hỏi, não bộ của bạn nên sẵn sàng để dùng từ Doch nếu bạn muốn trả lời là \"Có!\". Đây là một trong những từ độc đáo và quan trọng nhất trong tiếng Đức khi giao tiếp hàng ngày.",
+      "content": {}
+    }
+  ]
+}

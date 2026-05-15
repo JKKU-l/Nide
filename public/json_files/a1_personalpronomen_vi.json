@@ -1,0 +1,137 @@
+{
+  "title": "🇩🇪 Personalpronomen 👥",
+  "subtitle": "German Personal Pronouns Guide (Vietnamese Edition)",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "1. Đại từ nhân xưng ở Cách chủ cách (Nominative Case)",
+      "description": "Đại từ được phân loại theo ngôi và số (ít hoặc nhiều):",
+      "content": {
+        "table": {
+          "headers": ["Ngôi (Person)", "Số ít (Singular)", "Số nhiều (Plural)"],
+          "rows": [
+            ["Ngôi thứ 1 (Bản thân)", "ich (Tôi)", "wir (Chúng tôi)"],
+            ["Ngôi thứ 2 (Thân mật)", "du (Bạn/Cậu)", "ihr (Các bạn)"],
+            ["Ngôi thứ 2 (Trang trọng)", "Sie (Ngài/Quý vị)", "Sie (Các ngài)"],
+            ["Ngôi thứ 3 (Giống đực)", "er (Anh ấy)", ""],
+            ["Ngôi thứ 3 (Giống cái)", "sie (Cô ấy)", "sie (Họ/Chúng)"],
+            ["Ngôi thứ 3 (Giống trung)", "es (Nó)", ""]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pronouns_for_nouns",
+      "title": "2. Đại từ dùng cho Danh từ (Đồ vật)",
+      "description": "Tiếng Đức sử dụng er, sie, hoặc es dựa trên giống ngữ pháp của danh từ:",
+      "content": {
+        "examples": [
+          {
+            "gender": "Giống đực (der)",
+            "example": "der Löffel (Cái thìa) → er",
+            "explanation": "der Löffel (Cái thìa) → er"
+          },
+          {
+            "gender": "Giống cái (die)",
+            "example": "die Gabel (Cái nĩa) → sie",
+            "explanation": "die Gabel (Cái nĩa) → sie"
+          },
+          {
+            "gender": "Giống trung (das)",
+            "example": "das Messer (Con dao) → es",
+            "explanation": "das Messer (Con dao) → es"
+          },
+          {
+            "gender": "Số nhiều (die)",
+            "example": "die Tassen (Những cái tách) → sie",
+            "explanation": "die Tassen (Những cái tách) → sie"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pronoun_combination_rules",
+      "title": "3. Quy tắc kết hợp đại từ",
+      "description": "Quy tắc kết hợp đại từ",
+      "content": {
+        "rules": [
+          {
+            "rule": "ich + bất kỳ ai khác = wir (Chúng tôi/Chúng ta)",
+            "example": "ich + bất kỳ ai khác = wir (Chúng tôi/Chúng ta)"
+          },
+          {
+            "rule": "du + bất kỳ ai (không có ich) = ihr (Các bạn)",
+            "example": "du + bất kỳ ai (không có ich) = ihr (Các bạn)"
+          },
+          {
+            "rule": "er + sie + es = sie (Họ)",
+            "example": "er + sie + es = sie (Họ)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_examples",
+      "title": "4. Ví dụ thực hành",
+      "description": "Ví dụ thực hành",
+      "content": {
+        "conversational_context": {
+          "title": "A. Ngữ cảnh giao tiếp",
+          "examples": [
+            {
+              "german": "Wir sprechen Deutsch.",
+              "english": "Chúng tôi nói tiếng Đức."
+            },
+            {
+              "german": "Haben Sie Zeit?",
+              "english": "Ngài có thời gian không? - Trang trọng"
+            },
+            {
+              "german": "Hilfst du mir?",
+              "english": "Bạn giúp tôi được không? - Thân mật"
+            }
+          ]
+        },
+        "replacing_names_objects": {
+          "title": "B. Thay thế danh từ",
+          "examples": [
+            {
+              "original": "Herr Gupta",
+              "replacement": "Er kommt aus Indien.",
+              "english": "Anh ấy đến từ Ấn Độ."
+            },
+            {
+              "original": "Frau Kioka",
+              "replacement": "Sie kommt aus Japan.",
+              "english": "Cô ấy đến từ Nhật Bản."
+            },
+            {
+              "original": "Der Schrank ist teuer.",
+              "replacement": "Er kommt aus Italien.",
+              "english": "Nó đến từ Ý - dùng er vì tủ là giống đực"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "💡 Mẹo nhỏ (Trang trọng vs. Thân mật)",
+      "description": "Mẹo nhỏ (Trang trọng vs. Thân mật)",
+      "content": {
+        "guidelines": [
+          {
+            "type": "Trang trọng",
+            "pronoun": "Sie (viết hoa)",
+            "usage": "Luôn dùng Sie cho người lớn không quen, giáo viên hoặc trong công việc."
+          },
+          {
+            "type": "Thân mật",
+            "pronoun": "du",
+            "usage": "Dùng du cho bạn bè, gia đình và trẻ em."
+          }
+        ]
+      }
+    }
+  ]
+}

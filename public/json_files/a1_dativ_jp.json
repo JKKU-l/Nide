@@ -1,0 +1,205 @@
+{
+  "title": "Dativ (与格 - 3格)",
+  "description": "ドイツ語の与格（Dativ / 3格）は、日本語の「〜に」にあたる間接目的語を表したり、特定の前置詞（mit, bei, zuなど）の後で使われたりする非常に重要な文法要素です。",
+  "sections": [
+    {
+      "id": "article_transformation",
+      "title": "1. 冠詞の変化：基本のルール",
+      "description": "与格では、名詞の性別（男性・中性・女性・複数）に合わせて冠詞の形が変化します。",
+      "content": {
+        "masculine_neutral": {
+          "title": "男性名詞・中性名詞（変化の形が同じです）",
+          "description": "男性名詞（der）と中性名詞（das）は、定冠詞「その」が dem に、不定冠詞「ある〜」が einem に、否定冠詞「ない」が keinem に変わります。",
+          "examples": [
+            {
+              "english": "私はその男性と一緒に行く",
+              "german": "Ich gehe mit dem Mann.",
+              "note": "男性名詞"
+            },
+            {
+              "english": "私はある子供と遊ぶ",
+              "german": "Ich spiele mit einem Kind.",
+              "note": "中性名詞"
+            }
+          ]
+        },
+        "feminine": {
+          "title": "女性名詞",
+          "description": "女性名詞（die）は、定冠詞が der に、不定冠詞が einer に、否定冠詞が keiner に変わります。形が男性名詞の主格（der）と同じになるため混乱しやすいですが、与格の der は女性名詞を指します。",
+          "examples": [
+            {
+              "english": "私はその女性と話す",
+              "german": "Ich spreche mit der Frau."
+            },
+            {
+              "english": "私はある女友達と旅行する",
+              "german": "Ich reise mit einer Freundin."
+            }
+          ]
+        },
+        "plural": {
+          "title": "複数形",
+          "description": "複数名詞（die）は、定冠詞が den に、否定冠詞が keinen に変わります。不定冠詞（一つの〜）の複数形は存在しません。",
+          "crucial_rule": "【重要ルール】 与格の複数形では、名詞の語尾に -n を付ける必要があります（もともと語尾が -n や -s で終わる名詞を除く）。",
+          "examples": [
+            {
+              "english": "私はゲストたちと話す",
+              "german": "Ich spreche mit den Gästen.",
+              "note": "Gäste の語尾に n が付きます"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "using_mit",
+      "title": "2. 前置詞 \"mit\" の使い方（交通手段と同行者）",
+      "description": "前置詞 mit（〜と一緒に／〜を使って）の後ろには、必ず与格がきます。",
+      "content": {
+        "logic": "考え方: mit の後ろにくる名詞の性別を確認して、冠詞を変化させます。",
+        "examples": [
+          {
+            "noun": "Der Zug (男性名詞)",
+            "sentence": "Ich fahre mit dem Zug.",
+            "translation": "電車で行きます"
+          },
+          {
+            "noun": "Die U-Bahn (女性名詞)",
+            "sentence": "Ich fahre mit der U-Bahn.",
+            "translation": "地下鉄で行きます"
+          },
+          {
+            "noun": "Das Auto (中性名詞)",
+            "sentence": "Ich fahre mit dem Auto.",
+            "translation": "車で行きます"
+          },
+          {
+            "noun": "Die Rollschuhe (複数)",
+            "sentence": "Ich fahre mit den Rollschuhen.",
+            "translation": "ローラースケートで行きます"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_verbs",
+      "title": "3. 与格支配の動詞：与える・助ける",
+      "description": "「誰々に〜する」という動作の受け手を表すため、特定の動詞は自動的に与格をとります。よく使われるのは helfen（助ける）、gratulieren（祝う）、schenken（贈る）などです。",
+      "content": {
+        "helfern": {
+          "verb": "Helfen（助ける）",
+          "examples": [
+            {
+              "english": "彼女はある（女性の）同僚を助ける",
+              "german": "Sie hilft einer Kollegin."
+            },
+            {
+              "english": "彼女はその両親（複数）を助ける",
+              "german": "Sie hilft den Eltern."
+            }
+          ]
+        },
+        "gratulieren": {
+          "verb": "Gratulieren（祝う）",
+          "examples": [
+            {
+              "english": "私はその父親を祝う",
+              "german": "Ich gratuliere dem Vater."
+            },
+            {
+              "english": "私はある（女性の）友人を祝う",
+              "german": "Ich gratuliere einer Freundin."
+            }
+          ]
+        },
+        "schenken_geben": {
+          "verb": "Schenken / Geben（贈る・与える）",
+          "description": "誰かに何かをあげる場合、「誰に」が与格、「何を」が対格（4格）になります。",
+          "examples": [
+            {
+              "english": "彼女はその猫に魚をあげる",
+              "german": "Sie gibt der Katze einen Fisch."
+            },
+            {
+              "english": "彼女はある赤ちゃんにミルクをあげる",
+              "german": "Sie gibt einem Baby Milch."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "possessive_articles",
+      "title": "4. 所有冠詞の与格変化",
+      "description": "「私の、あなたの、彼女の」といった所有冠詞も、不定冠詞（ein）と同じ語尾の変化をします。",
+      "content": {
+        "endings": [
+          {
+            "gender": "男性・中性の語尾",
+            "ending": "-em",
+            "examples": "meinem, seinem, ihrem"
+          },
+          {
+            "gender": "女性の語尾",
+            "ending": "-er",
+            "examples": "meiner, seiner, ihrer"
+          },
+          {
+            "gender": "複数の語尾",
+            "ending": "-en",
+            "examples": "meinen, seinen, ihren"
+          }
+        ],
+        "example_context": "パーティーに誰かが彼氏を連れてきた場合：Sie kommt mit ihrem Freund. (Freundは男性名詞なので ihr + em)。子供たちを連れてきた場合：Sie kommt mit ihren Kindern. (複数形なので ihr + en、さらに名詞の語尾に n)。"
+      }
+    },
+    {
+      "id": "location_prepositions",
+      "title": "5. 場所を表す前置詞 (Bei, Zu, Von)",
+      "description": "mit と同様に、bei（〜のところで）、zu（〜の方へ）、von（〜から／〜の）も常に与格を必要とします。",
+      "content": {
+        "examples": [
+          {
+            "preposition": "Bei（誰かの家に滞在する）",
+            "sentence": "Ich bleibe bei den Freunden.",
+            "translation": "友達のところに泊まる"
+          },
+          {
+            "preposition": "Zu（場所や人の方へ行く）",
+            "sentence": "Ich gehe zu einem See.",
+            "translation": "ある湖へ行く - 湖は男性名詞"
+          },
+          {
+            "preposition": "Von（所属や起点）",
+            "sentence": "Das Auto von dem Freund.",
+            "translation": "その友達の車"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "6. 覚え方のヒント（冠詞の語尾に注目！）",
+      "description": "表を使わずに覚えるには、冠詞の最後の文字（シグナル）に注目しましょう。",
+      "content": {
+        "signal_letters": [
+          {
+            "letter": "M",
+            "meaning": "M：男性と中性 (deM / eineM)",
+            "examples": "deM / eineM"
+          },
+          {
+            "letter": "R",
+            "meaning": "R：女性 (deR / eineR)",
+            "examples": "deR / eineR"
+          },
+          {
+            "letter": "N",
+            "meaning": "N：複数 (deN / keineN) ＋ 名詞の語尾にも N",
+            "examples": "deN / keineN + 名詞の語尾にも N"
+          }
+        ]
+      }
+    }
+  ]
+}

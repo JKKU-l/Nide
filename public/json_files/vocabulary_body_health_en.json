@@ -1,0 +1,157 @@
+{
+  "title": "Body and Health",
+  "description": "Learn essential German vocabulary for body parts and health-related terms.",
+  "image": "assets/images/body_and_health.png",
+  "vocabulary": [
+    {
+      "german": "der Körper",
+      "english": "the body",
+      "article": "der",
+      "word": "Körper"
+    },
+    {
+      "german": "der Kopf",
+      "english": "the head",
+      "article": "der",
+      "word": "Kopf"
+    },
+    {
+      "german": "die Brust",
+      "english": "the chest / breast",
+      "article": "die",
+      "word": "Brust"
+    },
+    {
+      "german": "das Bein",
+      "english": "the leg",
+      "article": "das",
+      "word": "Bein"
+    },
+    {
+      "german": "der Fuß",
+      "english": "the foot",
+      "article": "der",
+      "word": "Fuß"
+    },
+    {
+      "german": "der Hals",
+      "english": "the neck / throat",
+      "article": "der",
+      "word": "Hals"
+    },
+    {
+      "german": "der Bauch",
+      "english": "the stomach / belly",
+      "article": "der",
+      "word": "Bauch"
+    },
+    {
+      "german": "das Knie",
+      "english": "the knee",
+      "article": "das",
+      "word": "Knie"
+    },
+    {
+      "german": "der Zeh",
+      "english": "the toe",
+      "article": "der",
+      "word": "Zeh"
+    },
+    {
+      "german": "der Rücken",
+      "english": "the back",
+      "article": "der",
+      "word": "Rücken"
+    },
+    {
+      "german": "die Schulter",
+      "english": "the shoulder",
+      "article": "die",
+      "word": "Schulter"
+    },
+    {
+      "german": "der Arm",
+      "english": "the arm",
+      "article": "der",
+      "word": "Arm"
+    },
+    {
+      "german": "der Ellbogen",
+      "english": "the elbow",
+      "article": "der",
+      "word": "Ellbogen"
+    },
+    {
+      "german": "der Po",
+      "english": "the bottom / butt",
+      "article": "der",
+      "word": "Po"
+    },
+    {
+      "german": "die Hand",
+      "english": "the hand",
+      "article": "die",
+      "word": "Hand"
+    },
+    {
+      "german": "der Finger",
+      "english": "the finger",
+      "article": "der",
+      "word": "Finger"
+    },
+    {
+      "german": "das Gesicht",
+      "english": "the face",
+      "article": "das",
+      "word": "Gesicht"
+    },
+    {
+      "german": "das Haar",
+      "english": "the hair",
+      "article": "das",
+      "word": "Haar"
+    },
+    {
+      "german": "die Nase",
+      "english": "the nose",
+      "article": "die",
+      "word": "Nase"
+    },
+    {
+      "german": "der Mund",
+      "english": "the mouth",
+      "article": "der",
+      "word": "Mund"
+    },
+    {
+      "german": "die Lippe",
+      "english": "the lip",
+      "article": "die",
+      "word": "Lippe"
+    },
+    {
+      "german": "das Auge",
+      "english": "the eye",
+      "article": "das",
+      "word": "Auge"
+    },
+    {
+      "german": "das Ohr",
+      "english": "the ear",
+      "article": "das",
+      "word": "Ohr"
+    },
+    {
+      "german": "die Zunge",
+      "english": "the tongue",
+      "article": "die",
+      "word": "Zunge"
+    },
+    {
+      "german": "der Zahn",
+      "english": "the tooth",
+      "article": "der",
+      "word": "Zahn"
+    }
+  ]
+}

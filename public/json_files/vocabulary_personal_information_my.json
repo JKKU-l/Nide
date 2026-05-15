@@ -1,0 +1,37 @@
+{
+  "theme_color": "#2196F3",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Adresse", "myanmar": "လိပ်စာ", "article": "die", "word": "Adresse", "emoji": "📍"},
+        {"german": "der Name", "myanmar": "အမည်", "article": "der", "word": "Name", "emoji": "📛"},
+        {"german": "der Vorname", "myanmar": "အမည်ရင်း (ရှေ့နာမည်)", "article": "der", "word": "Vorname", "emoji": "👤"},
+        {"german": "der Familienname", "myanmar": "မျိုးရိုးအမည်", "article": "der", "word": "Familienname", "emoji": "👪"},
+        {"german": "die Straße", "myanmar": "လမ်း", "article": "die", "word": "Straße", "emoji": "🛣️"},
+        {"german": "die Nummer", "myanmar": "နံပါတ်", "article": "die", "word": "Nummer", "emoji": "🔢"},
+        {"german": "der Ort", "myanmar": "နေရာ / မြို့", "article": "der", "word": "Ort", "emoji": "🏙️"},
+        {"german": "die Postleitzahl", "myanmar": "စာပို့တိုက် သင်္ကေတ", "article": "die", "word": "Postleitzahl", "emoji": "📮"},
+        {"german": "der Geburtsort", "myanmar": "မွေးဖွားရာဒေသ", "article": "der", "word": "Geburtsort", "emoji": "🏠"},
+        {"german": "das Geburtsjahr", "myanmar": "မွေးသက္ကရာဇ် (ခုနှစ်)", "article": "das", "word": "Geburtsjahr", "emoji": "📅"},
+        {"german": "das Geburtsdatum", "myanmar": "မွေးသက္ကရာဇ် (နေ့စွဲ)", "article": "das", "word": "Geburtsdatum", "emoji": "🗓️"},
+        {"german": "männlich", "myanmar": "အမျိုးသား", "article": "", "word": "männlich", "emoji": "♂️"},
+        {"german": "weiblich", "myanmar": "အမျိုးသမီး", "article": "", "word": "weiblich", "emoji": "♀️"},
+        {"german": "das Formular", "myanmar": "ပုံစံစာရွက်", "article": "das", "word": "Formular", "emoji": "📄"},
+        {"german": "das Alter", "myanmar": "အသက်", "article": "das", "word": "Alter", "emoji": "🎂"},
+        {"german": "unterschreiben", "myanmar": "လက်မှတ်ရေးထိုးသည်", "article": "", "word": "unterschreiben", "emoji": "✍️"},
+        {"german": "ausfüllen", "myanmar": "ဖြည့်စွက်သည်", "article": "", "word": "ausfüllen", "emoji": "📝"},
+        {"german": "heißen", "myanmar": "ဟုခေါ်သည်", "article": "", "word": "heißen", "emoji": "🗣️"},
+        {"german": "die Unterschrift", "myanmar": "လက်မှတ်", "article": "die", "word": "Unterschrift", "emoji": "🖋️"},
+        {"german": "der Familienstand", "myanmar": "အိမ်ထောင်ရေးအခြေအနေ", "article": "der", "word": "Familienstand", "emoji": "💍"},
+        {"german": "geschieden", "myanmar": "ကွာရှင်းထားသော", "article": "", "word": "geschieden", "emoji": "👋"},
+        {"german": "die Papiere", "myanmar": "စာရွက်စာတမ်းများ", "article": "die", "word": "Papiere", "emoji": "📂"},
+        {"german": "ledig", "myanmar": "လူပျို / အပျို (လူလွတ်)", "article": "", "word": "ledig", "emoji": "🙋‍♂️"},
+        {"german": "verwitwet", "myanmar": "မုဆိုးဖို / မုဆိုးမ", "article": "", "word": "verwitwet", "emoji": "🕯️"},
+        {"german": "der Ausweis", "myanmar": "မှတ်ပုံတင် / သက်သေခံကတ်", "article": "der", "word": "Ausweis", "emoji": "🆔"},
+        {"german": "verheiratet", "myanmar": "အိမ်ထောင်ရှိသော", "article": "", "word": "verheiratet", "emoji": "👫"},
+        {"german": "heiraten", "myanmar": "လက်ထပ်သည်", "article": "", "word": "heiraten", "emoji": "💒"},
+        {"german": "der Pass", "myanmar": "နိုင်ငံကူးလက်မှတ် (ပတ်စပို့)", "article": "der", "word": "Pass", "emoji": "🛂"}
+      ]
+    }
+  ]
+}

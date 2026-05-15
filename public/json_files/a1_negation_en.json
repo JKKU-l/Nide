@@ -1,0 +1,158 @@
+{
+  "title": "Negation (Negation)",
+  "sections": [
+    {
+      "id": "using_kein",
+      "title": "1. Using \"kein\" (The Noun Negator)",
+      "description": "You should think of kein as the negative version of the indefinite article (ein/eine). It is used specifically to negate nouns that either have an indefinite article or no article at all.",
+      "content": {
+        "how_to_use": {
+          "title": "How to use it:",
+          "rules": [
+            {
+              "rule": "With Indefinite Nouns: If you would say \"I have a book\" (Ich habe ein Buch), the negative is \"I have no book\" (Ich habe kein Buch)."
+            },
+            {
+              "rule": "With Uncountable Nouns: For things you can't count, like time or hunger. \"I have no time\" becomes Ich habe keine Zeit."
+            },
+            {
+              "rule": "Plural Nouns: Since there is no plural for \"ein,\" we use keine for plural negation. \"I have no children\" is Ich habe keine Kinder."
+            }
+          ]
+        },
+        "examples": [
+          {
+            "context": "Someone offers you an apple, but it's actually a pear.",
+            "example": "Das ist kein Apfel.",
+            "translation": "That is not an apple."
+          },
+          {
+            "context": "Discussing your family status.",
+            "example": "Ich habe keine Geschwister.",
+            "translation": "I have no siblings."
+          },
+          {
+            "context": "Shopping.",
+            "example": "Ich kaufe kein Brot.",
+            "translation": "I am buying no bread / I'm not buying bread."
+          }
+        ]
+      }
+    },
+    {
+      "id": "using_nicht",
+      "title": "2. Using \"nicht\" (The General Negator)",
+      "description": "Nicht is much more versatile. It is used to negate verbs, adjectives, adverbs, pronouns, and nouns that have a definite article (der/die/das) or a possessive pronoun (mein/dein).",
+      "content": {
+        "how_to_use": {
+          "title": "How to use it:",
+          "rules": [
+            {
+              "rule": "Negating Verbs: It usually comes at the end of a simple sentence. \"I am not coming\" is Ich komme nicht."
+            },
+            {
+              "rule": "Negating Adjectives: \"I am not happy\" is Ich bin nicht glücklich."
+            },
+            {
+              "rule": "Negating Specific Nouns: If the noun has \"the\" (der/die/das) or \"my\" (mein), use nicht. \"That is not my child\" is Das ist nicht mein Kind."
+            },
+            {
+              "rule": "Negating Locations/Prepositions: \"I don't live in Berlin\" is Ich wohne nicht in Berlin."
+            }
+          ]
+        },
+        "examples": [
+          {
+            "context": "Talking about your age.",
+            "example": "Ich bin nicht 23 Jahre alt.",
+            "translation": "I am not 23 years old."
+          },
+          {
+            "context": "Origin or residence.",
+            "example": "Ich komme nicht aus Sri Lanka.",
+            "translation": "I don't come from Sri Lanka."
+          },
+          {
+            "context": "Ability.",
+            "example": "Ich kann nicht kochen.",
+            "translation": "I cannot cook."
+          }
+        ]
+      }
+    },
+    {
+      "id": "other_negation_words",
+      "title": "3. Other Negation Words (Opposites)",
+      "description": "German has specific pairs of words to show positive vs. negative states.",
+      "content": {
+        "opposites": [
+          {
+            "category": "Always vs. Never",
+            "positive": "immer (always) -> Ich esse immer Brot.",
+            "negative": "nie (never) -> Ich esse nie Brot."
+          },
+          {
+            "category": "Everyone vs. No one",
+            "positive": "alle (everyone) -> Ich kenne alle.",
+            "negative": "niemand (no one) -> Ich kenne niemand."
+          },
+          {
+            "category": "Something vs. Nothing",
+            "positive": "etwas/alles (something/everything) -> Isst du etwas?",
+            "negative": "nichts (nothing) -> Ich esse nichts."
+          },
+          {
+            "category": "Still vs. No longer",
+            "positive": "noch (still) -> Ich bin noch jung. (I am still young.)",
+            "negative": "nicht mehr (no longer) -> Ich bin nicht mehr jung. (I am no longer young.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_use_one_over_other",
+      "title": "4. Why do we use one over the other?",
+      "description": "The \"Why\" is based on what you are trying to \"cancel out.\"",
+      "content": {
+        "explanation": [
+          {
+            "type": "Canceling Existence (kein)",
+            "description": "If you are canceling the existence of an object (a noun), you use kein. It acts like a \"zero quantity.\"",
+            "example": "Ich habe kein Geld. (I have zero money.)"
+          },
+          {
+            "type": "Canceling Facts (nicht)",
+            "description": "If you are canceling a fact, an action, or a description, you use nicht.",
+            "example": "Das Geld ist nicht hier. (The money is not here—you aren't saying the money doesn't exist, you are saying the \"fact\" of it being here is false.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_usage_logic",
+      "title": "5. Summary of Usage Logic",
+      "description": "Quick reference guide for choosing the correct negation word:",
+      "content": {
+        "rules": [
+          {
+            "question": "Is there a noun?",
+            "yes_indefinite": "If yes, and it has \"a/an\" or no article: Use kein.",
+            "yes_definite": "If yes, but it has \"the\" or \"my/your\": Use nicht."
+          },
+          {
+            "question": "Is it a verb, adjective, or name?",
+            "answer": "Use nicht."
+          },
+          {
+            "question": "Are you saying \"not anymore\"?",
+            "answer": "Use nicht mehr."
+          },
+          {
+            "question": "Are you saying \"never\"?",
+            "answer": "Use nie."
+          }
+        ]
+      }
+    }
+  ]
+}

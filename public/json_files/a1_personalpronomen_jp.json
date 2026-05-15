@@ -1,0 +1,146 @@
+{
+  "title": "🇩🇪 Personalpronomen 👥",
+  "subtitle": "German Personal Pronouns Guide (Japanese Version) 📚",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "1. 主格（Nominative Case）における人称代名詞",
+      "description": "ドイツ語の代名詞は、話し手、聞き手、その他の人（人称）および、単数・複数の数によって以下のように分類されます。",
+      "content": {
+        "table": {
+          "headers": ["人称", "単数 (Singular)", "複数 (Plural)"],
+          "rows": [
+            ["1人称 (自分)", "ich (私)", "wir (私たち)"],
+            ["2人称 (親称/親しい仲)", "du (君)", "ihr (君たち)"],
+            ["2人称 (敬称/丁寧)", "Sie (あなた)", "Sie (あなた方)"],
+            ["3人称 (男性)", "er (彼)", ""],
+            ["3人称 (女性)", "sie (彼女)", "sie (彼ら/それら)"],
+            ["3人称 (中性)", "es (それ)", ""]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pronouns_for_nouns",
+      "title": "2. 名詞（物）に対する代名詞の使い方",
+      "description": "英語では物は通常 \"it\" で表されますが、ドイツ語では名詞の文法的性（Gender）に合わせて er, sie, es を使い分けます。",
+      "content": {
+        "examples": [
+          {
+            "gender": "男性名詞 (der)",
+            "example": "der Löffel (スプーン) → er",
+            "explanation": "例：der Löffel (スプーン) → er"
+          },
+          {
+            "gender": "女性名詞 (die)",
+            "example": "die Gabel (フォーク) → sie",
+            "explanation": "例：die Gabel (フォーク) → sie"
+          },
+          {
+            "gender": "中性名詞 (das)",
+            "example": "das Messer (ナイフ) → es",
+            "explanation": "例：das Messer (ナイフ) → es"
+          },
+          {
+            "gender": "複数形 (die)",
+            "example": "die Tassen (カップ) → sie",
+            "explanation": "例：die Tassen (カップ) → sie"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pronoun_combination_rules",
+      "title": "3. 代名詞の組み合わせルール",
+      "description": "複数の人が関わる場合、どの複数形代名詞を使うかは以下の論理ルールに従います。",
+      "content": {
+        "rules": [
+          {
+            "rule": "ich + 誰か他の人 = wir (私たち)",
+            "example": "ich + 誰か他の人 = wir (私たち)"
+          },
+          {
+            "rule": "du + 誰か（ichを含まない） = ihr (君たち)",
+            "example": "du + 誰か（ichを含まない） = ihr (君たち)"
+          },
+          {
+            "rule": "er + sie + es = sie (彼ら/それら)",
+            "example": "er + sie + es = sie (彼ら/それら)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_examples",
+      "title": "4. 実践例と使い方",
+      "description": "実践例と使い方",
+      "content": {
+        "conversational_context": {
+          "title": "A. 会話での文脈",
+          "examples": [
+            {
+              "german": "Wir sprechen Deutsch.",
+              "english": "私たちはドイツ語を話します。"
+            },
+            {
+              "german": "Haben Sie Zeit?",
+              "english": "お時間はありますか？ — 丁寧な表現"
+            },
+            {
+              "german": "Hilfst du mir?",
+              "english": "手伝ってくれる？ — 親しい仲での表現"
+            },
+            {
+              "german": "Er ist Programmierer.",
+              "english": "彼はプログラマーです。"
+            }
+          ]
+        },
+        "replacing_names_objects": {
+          "title": "B. 名前や物の置き換え",
+          "examples": [
+            {
+              "original": "Herr Gupta",
+              "replacement": "Er kommt aus Indien.",
+              "english": "グプタさんはインド出身です。"
+            },
+            {
+              "original": "Frau Kioka",
+              "replacement": "Sie kommt aus Japan.",
+              "english": "キオカさんは日本出身です。"
+            },
+            {
+              "original": "Der Schrank ist teuer.",
+              "replacement": "Er kommt aus Italien.",
+              "english": "そのクローゼットは高い。それはイタリア製です。"
+            },
+            {
+              "original": "Das Regal ist praktisch.",
+              "replacement": "Es kostet 49 Euro.",
+              "english": "その棚は実用的です。それは49ユーロです。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "💡 アドバイス：敬称 (Formal) と 親称 (Informal) の使い分け",
+      "description": "アドバイス：敬称 (Formal) と 親称 (Informal) の使い分け",
+      "content": {
+        "guidelines": [
+          {
+            "type": "Formal",
+            "pronoun": "Sie (常に S を大文字で書きます)",
+            "usage": "面識のない大人、先生、またはビジネスの場で使用してください。"
+          },
+          {
+            "type": "Informal",
+            "pronoun": "du",
+            "usage": "友人、家族、そして子供に対して使用します。"
+          }
+        ]
+      }
+    }
+  ]
+}

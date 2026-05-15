@@ -1,0 +1,22 @@
+{
+  "category": "School, Work & Objects",
+  "category_de": "Schule, Arbeit & Gegenstände",
+  "icon": "🎓",
+  "words": [
+    {"de":"die Universität","word":"Universität","article":"die","en":"university","jp":"大学","kr":"대학교","my":"တက္ကသိုလ်","th":"มหาวิทยาลัย","vi":"đại học","pronunciation":"/univɛʁziˈtɛːt/","example_de":"Ich studiere an der Universität.","example_en":"I study at the university."},
+    {"de":"das Büro","word":"Büro","article":"das","en":"office","jp":"事務所","kr":"사무실","my":"ရုံးခန်း","th":"สำนักงาน","vi":"văn phòng","pronunciation":"/byˈʁoː/","example_de":"Ich arbeite im Büro.","example_en":"I work in the office."},
+    {"de":"der Computer","word":"Computer","article":"der","en":"computer","jp":"パソコン","kr":"컴퓨터","my":"ကွန်ပျူတာ","th":"คอมพิวเตอร์","vi":"máy tính","pronunciation":"/kɔmˈpjuːtɐ/","example_de":"Der Computer ist sehr schnell.","example_en":"The computer is very fast."},
+    {"de":"das Handy","word":"Handy","article":"das","en":"mobile phone","jp":"スマホ","kr":"핸드폰","my":"ဖုန်း","th":"โทรศัพท์มือถือ","vi":"điện thoại","pronunciation":"/ˈhɛndi/","example_de":"Mein Handy klingelt.","example_en":"My phone is ringing."},
+    {"de":"der Stift","word":"Stift","article":"der","en":"pen","jp":"ペン","kr":"펜","my":"ဘောပင်","th":"ปากกา","vi":"bút","pronunciation":"/ʃtɪft/","example_de":"Hast du einen Stift für mich?","example_en":"Do you have a pen for me?"},
+    {"de":"das Papier","word":"Papier","article":"das","en":"paper","jp":"紙","kr":"종이","my":"စက္ကူ","th":"กระดาษ","vi":"giấy","pronunciation":"/paˈpiːɐ̯/","example_de":"Ich brauche ein Blatt Papier.","example_en":"I need a sheet of paper."},
+    {"de":"das Buch","word":"Buch","article":"das","en":"book","jp":"本","kr":"책","my":"စာအုပ်","th":"หนังสือ","vi":"sách","pronunciation":"/buːx/","example_de":"Ich lese ein interessantes Buch.","example_en":"I am reading an interesting book."},
+    {"de":"der Lehrer","word":"Lehrer","article":"der","en":"teacher (male)","jp":"先生（男）","kr":"선생님(남)","my":"ဆရာ","th":"ครู(ชาย)","vi":"thầy giáo","pronunciation":"/ˈleːʁɐ/","example_de":"Der Lehrer erklärt die Grammatik.","example_en":"The teacher explains the grammar."},
+    {"de":"der Arzt","word":"Arzt","article":"der","en":"doctor (male)","jp":"医者（男）","kr":"의사(남)","my":"ဆရာဝန်","th":"หมอ(ชาย)","vi":"bác sĩ","pronunciation":"/aʁtst/","example_de":"Ich gehe zum Arzt.","example_en":"I go to the doctor."},
+    {"de":"die Tasche","word":"Tasche","article":"die","en":"bag","jp":"カバン","kr":"가방","my":"အိတ်","th":"กระเป๋า","vi":"túi","pronunciation":"/ˈtaʃə/","example_de":"Die Tasche ist sehr schwer.","example_en":"The bag is very heavy."},
+    {"de":"der Schlüssel","word":"Schlüssel","article":"der","en":"key","jp":"鍵","kr":"열쇠","my":"သော့","th":"กุญแจ","vi":"chìa khóa","pronunciation":"/ˈʃlʏsl̩/","example_de":"Wo ist mein Schlüssel?","example_en":"Where is my key?"},
+    {"de":"das Geld","word":"Geld","article":"das","en":"money","jp":"お金","kr":"돈","my":"ငွေ","th":"เงิน","vi":"tiền","pronunciation":"/ɡɛlt/","example_de":"Ich habe kein Geld dabei.","example_en":"I don't have any money with me."},
+    {"de":"der Fernseher","word":"Fernseher","article":"der","en":"television","jp":"テレビ","kr":"텔레비전","my":"ရုပ်မြင်သံကြား","th":"โทรทัศน์","vi":"tivi","pronunciation":"/ˈfɛʁnˌzeːɐ/","example_de":"Abends schaue ich Fernseher.","example_en":"In the evening I watch television."},
+    {"de":"der Beruf","word":"Beruf","article":"der","en":"profession","jp":"職業","kr":"직업","my":"အသက်မွေးဝမ်းကျောင်း","th":"อาชีพ","vi":"nghề nghiệp","pronunciation":"/bəˈʁuːf/","example_de":"Was ist Ihr Beruf?","example_en":"What is your profession?"},
+    {"de":"die Arbeit","word":"Arbeit","article":"die","en":"work","jp":"仕事","kr":"일","my":"အလုပ်","th":"งาน","vi":"công việc","pronunciation":"/ˈaʁbaɪ̯t/","example_de":"Die Arbeit macht mir Spaß.","example_en":"I enjoy the work."}
+  ]
+}

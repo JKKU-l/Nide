@@ -1,0 +1,37 @@
+{
+  "theme_color": "#2196F3",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Adresse", "vietnamese": "địa chỉ", "article": "die", "word": "Adresse", "emoji": "📍"},
+        {"german": "der Name", "vietnamese": "tên", "article": "der", "word": "Name", "emoji": "📛"},
+        {"german": "der Vorname", "vietnamese": "tên gọi / tên chính", "article": "der", "word": "Vorname", "emoji": "👤"},
+        {"german": "der Familienname", "vietnamese": "họ", "article": "der", "word": "Familienname", "emoji": "👥"},
+        {"german": "die Straße", "vietnamese": "con đường", "article": "die", "word": "Straße", "emoji": "🛣️"},
+        {"german": "die Nummer", "vietnamese": "số", "article": "die", "word": "Nummer", "emoji": "🔢"},
+        {"german": "der Ort", "vietnamese": "địa điểm / nơi chốn", "article": "der", "word": "Ort", "emoji": "📍"},
+        {"german": "die Postleitzahl", "vietnamese": "mã bưu điện", "article": "die", "word": "Postleitzahl", "emoji": "📮"},
+        {"german": "der Geburtsort", "vietnamese": "nơi sinh", "article": "der", "word": "Geburtsort", "emoji": "👶📍"},
+        {"german": "das Geburtsjahr", "vietnamese": "năm sinh", "article": "das", "word": "Geburtsjahr", "emoji": "📅"},
+        {"german": "das Geburtsdatum", "vietnamese": "ngày tháng năm sinh", "article": "das", "word": "Geburtsdatum", "emoji": "🎂"},
+        {"german": "männlich", "vietnamese": "nam giới", "article": "", "word": "männlich", "emoji": "♂️"},
+        {"german": "weiblich", "vietnamese": "nữ giới", "article": "", "word": "weiblich", "emoji": "♀️"},
+        {"german": "das Formular", "vietnamese": "mẫu đơn", "article": "das", "word": "Formular", "emoji": "📄"},
+        {"german": "das Alter", "vietnamese": "tuổi tác", "article": "das", "word": "Alter", "emoji": "⏳"},
+        {"german": "unterschreiben", "vietnamese": "ký tên", "article": "", "word": "unterschreiben", "emoji": "✍️"},
+        {"german": "ausfüllen", "vietnamese": "điền vào", "article": "", "word": "ausfüllen", "emoji": "🖋️"},
+        {"german": "heißen", "vietnamese": "tên là", "article": "", "word": "heißen", "emoji": "🗣️"},
+        {"german": "die Unterschrift", "vietnamese": "chữ ký", "article": "die", "word": "Unterschrift", "emoji": "✒️"},
+        {"german": "der Familienstand", "vietnamese": "tình trạng hôn nhân", "article": "der", "word": "Familienstand", "emoji": "💍❓"},
+        {"german": "geschieden", "vietnamese": "đã ly hôn", "article": "", "word": "geschieden", "emoji": "💔"},
+        {"german": "die Papiere", "vietnamese": "giấy tờ / tài liệu", "article": "die", "word": "Papiere", "emoji": "📁"},
+        {"german": "ledig", "vietnamese": "độc thân", "article": "", "word": "ledig", "emoji": "👤"},
+        {"german": "verwitwet", "vietnamese": "góa bụa", "article": "", "word": "verwitwet", "emoji": "🕯️"},
+        {"german": "der Ausweis", "vietnamese": "chứng minh nhân dân / thẻ căn cước", "article": "der", "word": "Ausweis", "emoji": "🆔"},
+        {"german": "verheiratet", "vietnamese": "đã kết hôn", "article": "", "word": "verheiratet", "emoji": "👩‍❤️‍👨"},
+        {"german": "heiraten", "vietnamese": "kết hôn", "article": "", "word": "heiraten", "emoji": "💒"},
+        {"german": "der Pass", "vietnamese": "hộ chiếu", "article": "der", "word": "Pass", "emoji": "🛂"}
+      ]
+    }
+  ]
+}

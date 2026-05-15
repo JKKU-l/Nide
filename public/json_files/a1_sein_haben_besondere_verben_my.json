@@ -1,0 +1,105 @@
+{
+  "title": "Sein & Haben",
+  "subtitle": "Special Verbs and Their Conjugations",
+  "sections": [
+    {
+      "id": "auxiliary_verbs",
+      "title": "၁။ အခြေခံ အကူကြိယာများ (Sein နှင့် Haben)",
+      "description": "ဂျာမန်စာတွင် Sein ကို \"ဖြစ်ခြင်း/ရှိခြင်း\" (Identity/State) အတွက်သုံးပြီး Haben ကို \"ပိုင်ဆိုင်ခြင်း\" (Possession) အတွက် သုံးပါသည်။",
+      "content": {
+        "table": {
+          "headers": ["နာမ်စား (Pronoun)", "Sein (ဖြစ်သည်/ရှိသည်)", "Haben (ရှိသည်)", "နမူနာ (Example)"],
+          "rows": [
+            ["ich (ကျွန်ုပ်)", "bin", "habe", "Ich bin Lehrer. (ကျွန်ုပ် ဆရာတစ်ယောက်ဖြစ်ပါတယ်။)"],
+            ["du (မင်း)", "bist", "hast", "Hast du Geld? (မင်းမှာ ပိုက်ဆံရှိလား?)"],
+            ["er/sie/es (သူ/သူမ/၎င်း)", "ist", "hat", "Er ist 5 Jahre alt. (သူ့အသက် ၅ နှစ်ရှိပြီ။)"],
+            ["wir (ကျွန်ုပ်တို့)", "sind", "haben", "Wir haben einen Hund. (ကျွန်တော်တို့မှာ ခွေးတစ်ကောင်ရှိတယ်။)"],
+            ["ihr (မင်းတို့)", "seid", "habt", "Seid ihr neu hier? (မင်းတို့ အသစ်လား?)"],
+            ["sie/Sie (သူတို့/လူကြီးမင်း)", "sind", "haben", "Sind Sie verheiratet? (လူကြီးမင်း အိမ်ထောင်ကျပြီးပြီလား?)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "special_verbs",
+      "title": "၂။ အထူးကြိယာများ (Special Verbs)",
+      "description": "ဤကြိယာများသည် ပုံမှန်ကြိယာများနှင့်မတူဘဲ ပြောင်းလဲပုံ အနည်းငယ် ထူးခြားပါသည်။",
+      "content": {
+        "table": {
+          "headers": ["နာမ်စား", "möchte (ချင်သည်)", "mögen (ကြိုက်သည်)", "wissen (သိသည်)", "tun (လုပ်သည်)"],
+          "rows": [
+            ["ich", "möchte", "mag", "weiß", "tue"],
+            ["du", "möchtest", "magst", "weißt", "tust"],
+            ["er/sie/es", "möchte", "mag", "weiß", "tut"],
+            ["wir", "möchten", "mögen", "wissen", "tun"],
+            ["ihr", "möchtet", "mögt", "wisst", "tut"],
+            ["sie/Sie", "möchten", "mögen", "wissen", "tun"]
+          ]
+        },
+        "note": "မှတ်ချက်: ich နှင့် er/sie/es အတွက် ရလဒ်မှာ အတူတူပင်ဖြစ်သည် (ဥပမာ - Ich mag / Er mag)။"
+      }
+    },
+    {
+      "id": "detailed_usage",
+      "title": "၃။ အသေးစိတ် ရှင်းလင်းချက် (Detailed Explanation)",
+      "description": "ဤအထူးကြိယာများ၏ အဓိပ္ပါယ်နှင့် အသုံးပြုပုံကို လေ့လာပါ။",
+      "content": {
+        "examples": [
+          {
+            "verb": "Möchten",
+            "meaning": "စားသောက်ဆိုင်များတွင် မှာယူသည့်အခါ သို့မဟုတ် တစ်ခုခုကို ယဉ်ကျေးပျူငှာစွာ တောင်းဆိုသည့်အခါ သုံးပါသည်။",
+            "example": "Wir möchten etwas trinken. (ကျွန်တော်တို့ တစ်ခုခု သောက်ချင်ပါတယ်။)"
+          },
+          {
+            "verb": "Mögen",
+            "meaning": "အရာဝတ္ထု သို့မဟုတ် လူတစ်ယောက်ကို ကြိုက်နှစ်သက်သည့်အခါ သုံးပါသည်။",
+            "example": "Sie mag Italien. (သူမ အီတလီကို ကြိုက်ပါတယ်။)"
+          },
+          {
+            "verb": "Wissen",
+            "meaning": "အကြောင်းအရာ သို့မဟုတ် အချက်အလက်တစ်ခုခုကို သိသည့်အခါ သုံးပါသည်။",
+            "example": "Ich weiß das nicht. (ကျွန်တော် ဒါကို မသိဘူး။)"
+          },
+          {
+            "verb": "Tun",
+            "meaning": "တစ်ခုခုကို လုပ်ဆောင်သည့်အပြင် \"နာကျင်ခြင်း\" ကို ဖော်ပြရာတွင် 'weh tun' ဆိုပြီး သုံးပါသည်။",
+            "example": "Meine Ohren tun weh. (ကျွန်တော့် နားကျင်နေတယ်။)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_sentences",
+      "title": "၄။ ဝါကျနမူနာများနှင့် ဘာသာပြန်ချက်",
+      "description": "ဤကြိယာများကို အမှန်တကယ် ဘယ်လိုသုံးလဲဆိုတာ လေ့ကြည့်ပါ။",
+      "content": {
+        "examples": [
+          {
+            "german": "Mein Name ist Misterek.",
+            "english": "ကျွန်တော့်နာမည်က Misterek ဖြစ်ပါတယ်"
+          },
+          {
+            "german": "Hast du Zeit?",
+            "english": "မင်းမှာ အချိန်ရှိလား?"
+          },
+          {
+            "german": "Ich bin Schülerin.",
+            "english": "ကျွန်မက ကျောင်းသူတစ်ယောက်ပါ"
+          },
+          {
+            "german": "Ich möchte einen Kaffee.",
+            "english": "ကျွန်တော် ကော်ဖီတစ်ခွက် လိုချင်ပါတယ်"
+          },
+          {
+            "german": "Weißt du, wo der Bahnhof ist?",
+            "english": "ရထားဘူတာ ဘယ်မှာလဲဆိုတာ မင်းသိလား?"
+          },
+          {
+            "german": "Tun Sie ganz wenig.",
+            "english": "နည်းနည်းပဲ လုပ်ပါ။ (အလုပ်လျှော့လုပ်ပါ)"
+          }
+        ]
+      }
+    }
+  ]
+}

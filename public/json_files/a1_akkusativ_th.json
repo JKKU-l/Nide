@@ -1,0 +1,196 @@
+{
+  "title": "Akkusativ (กรรมตรง)",
+  "sections": [
+    {
+      "id": "what_is_akkusativ",
+      "title": "1. Accusative Case (กรรมตรง) คืออะไร?",
+      "description": "ในประโยคภาษาเยอรมัน Nominative คือรูปประโยคที่ใช้สำหรับ ประธาน (Subject) หรือผู้ที่ทำกริยานั้นๆ ส่วน Accusative จะใช้สำหรับ กรรมตรง (Direct Object) หรือผู้ที่ถูกกระทำนั่นเอง",
+      "content": {
+        "example_sentence": {
+          "sentence": "พนักงานเสิร์ฟดื่มน้ำผลไม้",
+          "breakdown": [
+            {
+              "part": "พนักงานเสิร์ฟ",
+              "role": "ประธาน (Nominative)"
+            },
+            {
+              "part": "ดื่ม",
+              "role": "คำกริยา (Verb)"
+            },
+            {
+              "part": "น้ำผลไม้",
+              "role": "กรรมตรง (Accusative)"
+            }
+          ]
+        },
+        "golden_rule": {
+          "title": "กฎเหล็กของ Accusative",
+          "description": "มีเพียง คำนามเพศชาย (Masculine) เท่านั้นที่ต้องเปลี่ยนรูป Article (คำนำหน้าคำนาม) เมื่อเป็นกรรม ส่วนคำนามเพศหญิง, เพศกลาง และพหูพจน์ จะยังคงรูปเดิมเหมือนตอนเป็นประธานทุกประการ",
+          "changes": [
+            {
+              "gender": "เพศชาย (Masculine) เปลี่ยนรูป",
+              "nominative": "der/ein",
+              "accusative": "den/einen"
+            },
+            {
+              "gender": "เพศกลาง (Neutral) คงเดิม",
+              "nominative": "das/ein",
+              "accusative": "das/ein"
+            },
+            {
+              "gender": "เพศหญิง (Feminine) คงเดิม",
+              "nominative": "die/eine",
+              "accusative": "die/eine"
+            },
+            {
+              "gender": "พหูพจน์ (Plural) คงเดิม",
+              "nominative": "die/--",
+              "accusative": "die/--"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_indefinite_articles",
+      "title": "2. การใช้ Article แบบชี้เฉพาะ (Definite) และไม่ชี้เฉพาะ (Indefinite)",
+      "description": "เมื่อคุณพูดถึงสิ่งของที่เจาะจง ให้ใช้ Definite Articles (the) แต่เมื่อพูดถึงสิ่งของทั่วไป หรือของชิ้นหนึ่ง (ไม่เจาะจง) ให้ใช้ Indefinite Articles (a/an)",
+      "content": {
+        "masculine_examples": {
+          "title": "ตัวอย่างกับคำนามเพศชาย (มีการเปลี่ยนรูป):",
+          "examples": [
+            {
+              "english": "ฉันมีพาสปอร์ต (เล่มนั้น)",
+              "german": "Ich habe den Pass.",
+              "note": "der เปลี่ยนเป็น den"
+            },
+            {
+              "english": "ฉันต้องการคอมพิวเตอร์ (สักเครื่อง)",
+              "german": "Ich brauche einen Computer.",
+              "note": "ein เปลี่ยนเป็น einen"
+            }
+          ]
+        },
+        "neutral_feminine_examples": {
+          "title": "ตัวอย่างกับเพศกลางและเพศหญิง (ไม่มีการเปลี่ยนรูป):",
+          "examples": [
+            {
+              "english": "ฉันซื้อขนมปัง",
+              "german": "Ich kaufe das Brot.",
+              "note": "das ยังคงเป็น das"
+            },
+            {
+              "english": "ฉันดื่มไวน์หนึ่งขวด",
+              "german": "Ich trinke eine Flasche Wein.",
+              "note": "eine ยังคงเป็น eine"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "negative_articles",
+      "title": "3. Article รูปปฏิเสธ (Kein)",
+      "description": "เมื่อคุณต้องการพูดว่า \"ไม่\" หรือ \"ไม่มี\" (เป็นการปฏิเสธคำนาม) เราจะใช้คำว่า kein ซึ่งจะมีวิธีการผันรูปเหมือนกับ \"ein\" ทุกประการ",
+      "content": {
+        "examples": [
+          {
+            "gender": "เพศชาย",
+            "english": "ฉันไม่มีสุนัข",
+            "german": "Ich habe keinen Hund.",
+            "note": "สังเกตการเติมท้ายด้วย -en"
+          },
+          {
+            "gender": "เพศกลาง",
+            "english": "ฉันไม่มีรถ",
+            "german": "Ich habe kein Auto."
+          },
+          {
+            "gender": "เพศหญิง",
+            "english": "ฉันไม่มีแมว",
+            "german": "Ich habe keine Katze."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asking_questions",
+      "title": "4. การตั้งคำถาม: \"Wen\" เทียบกับ \"Was\"",
+      "description": "เมื่อต้องการถามถึง \"กรรมตรง\" คำแสดงคำถามจะขึ้นอยู่กับว่าคุณกำลังถามถึง \"คน\" หรือ \"สิ่งของ\"",
+      "content": {
+        "question_words": [
+          {
+            "word": "Wen?",
+            "meaning": "ใคร",
+            "usage": "ใช้ถามถึง บุคคล",
+            "example_question": "Wen lieben Sie? (คุณรักใคร?)",
+            "example_answer": "Ich liebe meinen Mann. (ฉันรักสามีของฉัน)"
+          },
+          {
+            "word": "Was?",
+            "meaning": "อะไร",
+            "usage": "ใช้ถามถึง สิ่งของหรือวัตถุ",
+            "example_question": "Was trinken Sie? (คุณดื่มอะไร?)",
+            "example_answer": "Ich trinke einen Saft. (ฉันดื่มน้ำผลไม้)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_and_when",
+      "title": "5. ทำไมและเมื่อไหร่ที่ต้องใช้ Accusative?",
+      "description": "กรรม Accusative ส่วนใหญ่จะถูกกำหนดโดย Transitive Verbs (สกรรมกริยา) ซึ่งเป็นกริยาที่ต้องมีกรรมมารองรับจึงจะสื่อความหมายได้สมบูรณ์ คำกริยาที่พบบ่อยในระดับ A1 ได้แก่:",
+      "content": {
+        "common_verbs": [
+          {
+            "verb": "haben (มี)",
+            "example": "Ich habe einen Bruder."
+          },
+          {
+            "verb": "brauchen (ต้องการ/จำเป็นต้องใช้)",
+            "example": "Wir brauchen den Schirm."
+          },
+          {
+            "verb": "essen/trinken (กิน/ดื่ม)",
+            "example": "Er isst einen Apfel."
+          },
+          {
+            "verb": "sehen (เห็น/มองดู)",
+            "example": "Ich sehe den Film."
+          },
+          {
+            "verb": "kaufen (ซื้อ)",
+            "example": "Sie kauft das Haus."
+          },
+          {
+            "verb": "lieben (รัก)",
+            "example": "Ich liebe meine Familie."
+          }
+        ],
+        "logic_summary": "หากคุณกำลังกระทำบางอย่างต่อสิ่งใดสิ่งหนึ่ง (เช่น ซื้อ, กิน, มองเห็น หรือครอบครอง) สิ่งนั้นจะต้องอยู่ในรูป Accusative เสมอ หากสิ่งนั้นเป็นเพศชาย ให้เติม -en ท้าย Article แต่ถ้าเป็นเพศหญิงหรือเพศกลาง ให้ใช้รูปเดิมตามที่คุณท่องจำมา"
+      }
+    },
+    {
+      "id": "context_example",
+      "title": "6. ตัวอย่างจากบริบท: ตรรกะเรื่อง \"สัตว์เลี้ยง\"",
+      "description": "สังเกตว่ารูปประโยคจะเปลี่ยนไปตามหน้าที่ของคำ:",
+      "content": {
+        "examples": [
+          {
+            "sentence": "ตอนนี้ฉันมี สุนัขตัวหนึ่ง",
+            "german": "Jetzt habe ich einen Hund",
+            "case": "Accusative",
+            "reason": "เป็น Accusative เพราะ \"มี\" ต้องการกรรม"
+          },
+          {
+            "sentence": "สุนัขตัวนั้น น่ารักมาก",
+            "german": "Der Hund ist sehr süß",
+            "case": "Nominative",
+            "reason": "เป็น Nominative เพราะตอนนี้สุนัขกลายเป็น \"ประธาน\" ของประโยคแล้ว"
+          }
+        ],
+        "key_insight": "สิ่งนี้แสดงให้เห็นว่า การเปลี่ยนรูป (Case) ไม่ได้ขึ้นอยู่กับคำศัพท์ตัวมันเอง แต่ขึ้นอยู่กับ บทบาท ของคำนั้นๆ ในประโยคนั้นๆ ครับ"
+      }
+    }
+  ]
+}

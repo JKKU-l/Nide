@@ -1,0 +1,55 @@
+{
+  "title": "Family & Relationships",
+  "emoji": "👨‍👩‍👧‍👦",
+  "theme_color": "#4CAF50",
+  "description": "Family members and relationships",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "lieben", "thai": "รัก", "example_german": "Ich liebe meine Familie über alles.", "example_thai": "ฉันรักครอบครัวของฉันเหนือสิ่งอื่นใด"},
+          {"german": "heiraten", "thai": "แต่งงาน", "example_german": "Sie heiraten nächsten Monat in Italien.", "example_thai": "พวกเขาจะแต่งงานกันที่ประเทศอิตาลีในเดือนหน้า"},
+          {"german": "treffen", "thai": "พบ/เจอ", "example_german": "Ich treffe mich heute Abend mit Freunden.", "example_thai": "ฉันมีนัดพบกับเพื่อนๆ ในเย็นวันนี้"},
+          {"german": "besuchen", "thai": "เยี่ยม", "example_german": "Wir besuchen am Wochenende unsere Großeltern.", "example_thai": "พวกเราจะไปเยี่ยมคุณปู่คุณย่า/คุณตาคุณยายในวันหยุดสุดสัปดาห์นี้"},
+          {"german": "einladen", "thai": "เชิญ", "example_german": "Ich lade dich zu meinem Geburtstag ein.", "example_thai": "ฉันขอเชิญคุณมางานวันเกิดของฉัน"},
+          {"german": "feiern", "thai": "ฉลอง", "example_german": "Wir feiern heute den Hochzeitstag meiner Eltern.", "example_thai": "วันนี้พวกเราฉลองวันครบรอบแต่งงานของพ่อแม่"},
+          {"german": "schenken", "thai": "ให้ของขวัญ", "example_german": "Was schenkst du deinem Bruder zu Weihnachten?", "example_thai": "คุณจะให้อะไรเป็นของขวัญวันคริสต์มาสแก่พี่ชาย/น้องชายของคุณ?"},
+          {"german": "spielen", "thai": "เล่น", "example_german": "Der Vater spielt mit seinen Kindern im Garten.", "example_thai": "คุณพ่อเล่นกับลูกๆ ในสวน"},
+          {"german": "helfen", "thai": "ช่วยเหลือ", "example_german": "Kannst du mir bitte beim Kochen helfen?", "example_thai": "คุณช่วยฉันทำอาหารหน่อยได้ไหม?"},
+          {"german": "pflegen", "thai": "ดูแล (ผู้ป่วย/ผู้สูงอายุ)", "example_german": "Sie pflegt ihren kranken Vater zu Hause.", "example_thai": "เธอดูแลคุณพ่อที่ป่วยอยู่ที่บ้าน"},
+          {"german": "erziehen", "thai": "อบรมสั่งสอน/เลี้ยงดู", "example_german": "Es ist nicht immer leicht, Kinder zu erziehen.", "example_thai": "การเลี้ยงดูและสั่งสอนเด็กๆ ไม่ใช่เรื่องง่ายเสมอไป"},
+          {"german": "wachsen", "thai": "เติบโต", "example_german": "Die Kinder wachsen so schnell!", "example_thai": "เด็กๆ โตเร็วมาก!"},
+          {"german": "leben", "thai": "ใช้ชีวิต/อาศัย", "example_german": "Wir leben glücklich zusammen.", "example_thai": "พวกเราใช้ชีวิตด้วยกันอย่างมีความสุข"},
+          {"german": "sterben", "thai": "ตาย/เสียชีวิต", "example_german": "Sein Großvater starb vor vielen Jahren.", "example_thai": "คุณปู่/คุณตาของเขาเสียชีวิตไปเมื่อหลายปีก่อน"},
+          {"german": "weinen", "thai": "ร้องไห้", "example_german": "Das Baby weint, weil es Hunger hat.", "example_thai": "ทารกร้องไห้เพราะหิวข้าว"},
+          {"german": "lachen", "thai": "หัวเราะ", "example_german": "Wir lachen viel, wenn wir zusammen sind.", "example_thai": "พวกเราหัวเราะกันมากเวลาที่ได้อยู่ด้วยกัน"},
+          {"german": "streiten", "thai": "ทะเลาะ", "example_german": "Geschwister streiten sich manchmal.", "example_thai": "พี่น้องมักจะทะเลาะกันในบางครั้ง"},
+          {"german": "umarmen", "thai": "กอด", "example_german": "Sie umarmt ihre Mutter zur Begrüßung.", "example_thai": "เธอกอดแม่เพื่อเป็นการทักทาย"},
+          {"german": "küssen", "thai": "จูบ", "example_german": "Sie küssen sich zum Abschied.", "example_thai": "พวกเขาจูบกันเพื่อเป็นการบอกลา"},
+          {"german": "anrufen", "thai": "โทรหา", "example_german": "Ich rufe meine Mutter jeden Sonntag an.", "example_thai": "ฉันโทรหาแม่ทุกวันอาทิตย์"},
+          {"german": "schreiben", "thai": "เขียน", "example_german": "Ich schreibe meiner Tante eine Postkarte.", "example_thai": "ฉันเขียนไปรษณียบัตรหาคุณป้า"},
+          {"german": "lesen", "thai": "อ่าน", "example_german": "Der Vater liest den Kindern eine Geschichte vor.", "example_thai": "คุณพ่ออ่านนิทานให้ลูกๆ ฟัง"},
+          {"german": "erzählen", "thai": "เล่า", "example_german": "Er erzählt uns von seiner Reise.", "example_thai": "เขาเล่าเรื่องการเดินทางของเขาให้พวกเราฟัง"},
+          {"german": "zuhören", "thai": "ตั้งใจฟัง", "example_german": "Bitte hör mir gut zu.", "example_thai": "กรุณาตั้งใจฟังฉันให้ดีนะ"},
+          {"german": "verstehen", "thai": "เข้าใจ", "example_german": "Wir verstehen uns sehr gut.", "example_thai": "พวกเราเข้าอกเข้าใจกันดีมาก"},
+          {"german": "vergeben", "thai": "ให้อภัย", "example_german": "Ich kann ihm diesen Fehler nicht vergeben.", "example_thai": "ฉันไม่สามารถให้อภัยเขาสำหรับความผิดพลาดนี้ได้"},
+          {"german": "danken", "thai": "ขอบคุณ", "example_german": "Ich danke dir für deine Hilfe.", "example_thai": "ฉันขอบคุณสำหรับความช่วยเหลือของคุณ"},
+          {"german": "gratulieren", "thai": "แสดงความยินดี", "example_german": "Ich gratuliere dir herzlich zum Geburtstag!", "example_thai": "ฉันขอแสดงความยินดีกับคุณเนื่องในวันเกิดนะ!"},
+          {"german": "wünschen", "thai": "อวยพร/ปรารถนา", "example_german": "Ich wünsche dir alles Gute.", "example_thai": "ฉันขออวยพรให้คุณพบเจอแต่สิ่งดีๆ"},
+          {"german": "kennen", "thai": "รู้จัก", "example_german": "Ich kenne deine Schwester schon lange.", "example_thai": "ฉันรู้จักพี่สาว/น้องสาวของคุณมานานแล้ว"},
+          {"german": "vorstellen", "thai": "แนะนำให้รู้จัก", "example_german": "Darf ich dir meine Freundin vorstellen?", "example_thai": "ฉันขอแนะนำแฟนสาวของฉันให้คุณรู้จักได้ไหม?"},
+          {"german": "erinnern", "thai": "จดจำ/ระลึกถึง", "example_german": "Erinnerst du dich an unseren ersten Urlaub?", "example_thai": "คุณยังจำการไปเที่ยวพักผ่อนครั้งแรกของเราได้ไหม?"},
+          {"german": "vergessen", "thai": "ลืม", "example_german": "Ich habe deinen Geburtstag nicht vergessen.", "example_thai": "ฉันไม่ได้ลืมวันเกิดของคุณนะ"},
+          {"german": "sprechen", "thai": "พูด", "example_german": "Wir müssen über das Problem sprechen.", "example_thai": "พวกเราต้องพูดคุยกันเกี่ยวกับปัญหานี้"},
+          {"german": "reden", "thai": "สนทนา/คุย", "example_german": "Sie reden stundenlang über Gott und die Welt.", "example_thai": "พวกเขาคุยกันสัพเพเหระได้เป็นชั่วโมงๆ"},
+          {"german": "diskutieren", "thai": "ถกเถียง/อภิปราย", "example_german": "Wir diskutieren oft über Politik.", "example_thai": "พวกเรามักจะถกเถียงกันเรื่องการเมืองบ่อยๆ"},
+          {"german": "sorgen", "thai": "ห่วงใย/ดูแล", "example_german": "Eltern sorgen sich immer um ihre Kinder.", "example_thai": "พ่อแม่มักจะห่วงใยลูกๆ ของพวกเขาเสมอ"},
+          {"german": "schützen", "thai": "ปกป้อง", "example_german": "Er will seine Familie vor Gefahren schützen.", "example_thai": "เขาต้องการปกป้องครอบครัวของเขาจากอันตราย"},
+          {"german": "unterstützen", "thai": "สนับสนุน", "example_german": "Meine Freunde unterstützen mich immer.", "example_thai": "เพื่อนๆ ของฉันสนับสนุนฉันเสมอ"},
+          {"german": "zusammen sein", "thai": "คบกัน/อยู่ด้วยกัน", "example_german": "Wir sind seit fünf Jahren zusammen.", "example_thai": "พวกเราคบกัน/อยู่ด้วยกันมาห้าปีแล้ว"}
+        ]
+      }
+    }
+  ]
+}

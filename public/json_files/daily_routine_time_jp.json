@@ -1,0 +1,53 @@
+{
+  "title": "Daily Routine & Time",
+  "emoji": "⏰",
+  "theme_color": "#2196F3",
+  "description": "Daily activities and time expressions vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "aufstehen", "japanese": "起きる", "example_german": "Ich stehe jeden Morgen um sechs Uhr auf.", "example_japanese": "私は毎朝6時に起きます。"},
+          {"german": "aufwachen", "japanese": "目が覚める", "example_german": "Ich wache meistens vor dem Wecker auf.", "example_japanese": "私はたいてい目覚まし時計が鳴る前に目が覚めます。"},
+          {"german": "schlafen", "japanese": "眠る", "example_german": "Am Wochenende möchte ich lange schlafen.", "example_japanese": "週末は長く眠りたいです。"},
+          {"german": "einschlafen", "japanese": "寝入る", "example_german": "Er kann ohne Musik nicht einschlafen.", "example_japanese": "彼は音楽がないと寝つくことができません。"},
+          {"german": "frühstücken", "japanese": "朝食を食べる", "example_german": "Wir frühstücken heute gemütlich auf dem Balkon.", "example_japanese": "今日はバルコニーでのんびり朝食を食べます。"},
+          {"german": "mittagessen", "japanese": "昼食を食べる", "example_german": "Um 12 Uhr essen wir in der Kantine zu Mittag.", "example_japanese": "12時に食堂で昼食を食べます。"},
+          {"german": "abendessen", "japanese": "夕食を食べる", "example_german": "Was esst ihr heute zu Abend?", "example_japanese": "今日の夕食は何を食べますか？"},
+          {"german": "arbeiten", "japanese": "働く", "example_german": "Mein Bruder arbeitet bei einer Bank.", "example_japanese": "私の兄は銀行で働いています。"},
+          {"german": "beginnen", "japanese": "始まる", "example_german": "Die Vorlesung beginnt pünktlich.", "example_japanese": "講義は時間通りに始まります。"},
+          {"german": "enden", "japanese": "終わる", "example_german": "Wann endet dein Arbeitstag?", "example_japanese": "あなたの仕事は何時に終わりますか？"},
+          {"german": "anfangen", "japanese": "始まる", "example_german": "Der Film fängt in zehn Minuten an.", "example_japanese": "映画は10分後に始まります。"},
+          {"german": "aufhören", "japanese": "やむ／終わる", "example_german": "Es hört endlich auf zu regnen.", "example_japanese": "ようやく雨がやみました。"},
+          {"german": "kommen", "japanese": "来る", "example_german": "Kommst du heute Abend zur Party?", "example_japanese": "今夜のパーティーに来ますか？"},
+          {"german": "gehen", "japanese": "行く", "example_german": "Ich gehe jetzt in den Supermarkt.", "example_japanese": "今からスーパーに行きます。"},
+          {"german": "zurückkommen", "japanese": "帰ってくる", "example_german": "Er kommt erst spät nach Hause zurück.", "example_japanese": "彼は夜遅くにしか家に帰ってきません。"},
+          {"german": "bleiben", "japanese": "留まる", "example_german": "Wir bleiben wegen des Wetters drinnen.", "example_japanese": "天気のせいでお店の中に留まっています。"},
+          {"german": "warten", "japanese": "待つ", "example_german": "Ich warte schon seit einer Stunde auf dich.", "example_japanese": "もう1時間もあなたを待っています。"},
+          {"german": "eilen", "japanese": "急ぐ", "example_german": "Wir müssen uns beeilen, sonst verpassen wir den Bus.", "example_japanese": "急がないとバスに乗り遅れてしまいます。"},
+          {"german": "planen", "japanese": "計画する", "example_german": "Wir planen unsere nächste Reise nach Berlin.", "example_japanese": "私たちは次のベルリン旅行を計画しています。"},
+          {"german": "vorbereiten", "japanese": "準備する", "example_german": "Sie bereitet die Präsentation für morgen vor.", "example_japanese": "彼女は明日のプレゼンの準備をしています。"},
+          {"german": "vergessen", "japanese": "忘れる", "example_german": "Ich habe meinen Schlüssel zu Hause vergessen.", "example_japanese": "家に鍵を忘れてきました。"},
+          {"german": "erinnern", "japanese": "覚えている／思い出す", "example_german": "Ich erinnere mich gern an meinen Urlaub.", "example_japanese": "休暇のことを思い出すのが好きです。"},
+          {"german": "wiederholen", "japanese": "繰り返す", "example_german": "Können Sie das bitte noch einmal wiederholen?", "example_japanese": "もう一度繰り返していただけますか？"},
+          {"german": "prüfen", "japanese": "確認する／検査する", "example_german": "Der Mechaniker prüft den Motor.", "example_japanese": "整備士がエンジンを点検しています。"},
+          {"german": "notieren", "japanese": "メモする", "example_german": "Bitte notieren Sie sich meine Telefonnummer.", "example_japanese": "私の電話番号をメモしておいてください。"},
+          {"german": "organisieren", "japanese": "計画・準備する", "example_german": "Wer organisiert dieses Jahr das Weihnachtsfest?", "example_japanese": "今年は誰がクリスマスパーティーを企画しますか？"},
+          {"german": "ausruhen", "japanese": "休む", "example_german": "Nach dem Sport muss ich mich kurz ausruhen.", "example_japanese": "スポーツの後は少し休む必要があります。"},
+          {"german": "entspannen", "japanese": "リラックスする", "example_german": "Ein heißes Bad hilft mir zu entspannen.", "example_japanese": "熱いお風呂はリラックスするのに役立ちます。"},
+          {"german": "duschen", "japanese": "シャワーを浴びる", "example_german": "Ich dusche lieber morgens als abends.", "example_japanese": "私は夜より朝にシャワーを浴びる方が好きです。"},
+          {"german": "waschen", "japanese": "洗う", "example_german": "Vergiss nicht, dir die Hände zu waschen.", "example_japanese": "手を洗うのを忘れないで。"},
+          {"german": "anziehen", "japanese": "服を着る", "example_german": "Ich ziehe mir schnell einen Pullover an.", "example_japanese": "すぐにプルオーバー（セーター）を着ます。"},
+          {"german": "ausziehen", "japanese": "脱ぐ", "example_german": "Hier muss man die Schuhe ausziehen.", "example_japanese": "ここでは靴を脱がなければなりません。"},
+          {"german": "putzen", "japanese": "掃除する／磨く", "example_german": "Ich muss heute noch die Wohnung putzen.", "example_japanese": "今日中にアパートを掃除しなければなりません。"},
+          {"german": "kämmen", "japanese": "髪をとかす", "example_german": "Er kämmt sich die Haare vor dem Spiegel.", "example_japanese": "彼は鏡の前で髪をとかしています。"},
+          {"german": "rasieren", "japanese": "髭を剃る", "example_german": "Mein Vater rasiert sich jeden Morgen.", "example_japanese": "父は毎朝髭を剃ります。"},
+          {"german": "aufräumen", "japanese": "片付ける", "example_german": "Du musst dein Zimmer endlich aufräumen!", "example_japanese": "いい加減に部屋を片付けなさい！"},
+          {"german": "kochen", "japanese": "料理する", "example_german": "Was kochst du heute Schönes?", "example_japanese": "今日は何か美味しいものを作ってくれますか？"},
+          {"german": "schließen", "japanese": "閉める", "example_german": "Bitte schließen Sie das Fenster.", "example_japanese": "窓を閉めてください。"}
+        ]
+      }
+    }
+  ]
+}

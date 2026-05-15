@@ -1,0 +1,53 @@
+{
+  "theme_color": "#795548",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Stadt", "japanese": "都市 (とし)", "article": "die", "word": "Stadt", "emoji": "🏙️"},
+        {"german": "das Dorf", "japanese": "村 (むら)", "article": "das", "word": "Dorf", "emoji": "🏡"},
+        {"german": "die Kirche", "japanese": "教会 (きょうかい)", "article": "die", "word": "Kirche", "emoji": "⛪"},
+        {"german": "das Hotel", "japanese": "ホテル", "article": "das", "word": "Hotel", "emoji": "🏨"},
+        {"german": "das Einzelzimmer", "japanese": "シングルルーム", "article": "das", "word": "Einzelzimmer", "emoji": "🛌"},
+        {"german": "das Doppelzimmer", "japanese": "ダブルルーム", "article": "das", "word": "Doppelzimmer", "emoji": "🛌"},
+        {"german": "die Jugendherberge", "japanese": "ユースホステル", "article": "die", "word": "Jugendherberge", "emoji": "🎒"},
+        {"german": "der Platz", "japanese": "広場 / 場所 (ひろば / ばしょ)", "article": "der", "word": "Platz", "emoji": "🏗️"},
+        {"german": "die Garage", "japanese": "ガレージ / 車庫", "article": "die", "word": "Garage", "emoji": "🚗"},
+        {"german": "das Haus", "japanese": "家 (いえ)", "article": "das", "word": "Haus", "emoji": "🏠"},
+        {"german": "die Tür", "japanese": "ドア / 扉", "article": "die", "word": "Tür", "emoji": "🚪"},
+        {"german": "das Dach", "japanese": "屋根 (やね)", "article": "das", "word": "Dach", "emoji": "🏠"},
+        {"german": "das Fenster", "japanese": "窓 (まど)", "article": "das", "word": "Fenster", "emoji": "🪟"},
+        {"german": "der Garten", "japanese": "庭 (にわ)", "article": "der", "word": "Garten", "emoji": "🏡"},
+        {"german": "der Dachboden", "japanese": "屋根裏部屋 (やねうらべや)", "article": "der", "word": "Dachboden", "emoji": "📦"},
+        {"german": "der Balkon", "japanese": "バルコニー", "article": "der", "word": "Balkon", "emoji": "🌅"},
+        {"german": "das Erdgeschoss", "japanese": "1階 / 地上階 (いっかい)", "article": "das", "word": "Erdgeschoss", "emoji": "🧱"},
+        {"german": "der Keller", "japanese": "地下室 (ちかしつ)", "article": "der", "word": "Keller", "emoji": "🍷"},
+        {"german": "die Wohnung", "japanese": "アパート / マンション", "article": "die", "word": "Wohnung", "emoji": "🏢"},
+        {"german": "der Umzug", "japanese": "引っ越し (ひっこし)", "article": "der", "word": "Umzug", "emoji": "🚚"},
+        {"german": "ausziehen", "japanese": "退去する / 引っ越す", "article": "", "word": "ausziehen", "emoji": "📦"},
+        {"german": "einziehen", "japanese": "入居する / 引っ越してくる", "article": "", "word": "einziehen", "emoji": "🚚"},
+        {"german": "der Eingang", "japanese": "入口 (いりぐち)", "article": "der", "word": "Eingang", "emoji": "🚪"},
+        {"german": "der Ausgang", "japanese": "出口 (でぐち)", "article": "der", "word": "Ausgang", "emoji": "🚪"},
+        {"german": "das Zimmer", "japanese": "部屋 (へや)", "article": "das", "word": "Zimmer", "emoji": "🚪"},
+        {"german": "das Schlafzimmer", "japanese": "寝室 (しんしつ)", "article": "das", "word": "Schlafzimmer", "emoji": "🛌"},
+        {"german": "das Wohnzimmer", "japanese": "居間 / リビング (いま)", "article": "das", "word": "Wohnzimmer", "emoji": "🛋️"},
+        {"german": "das Bad", "japanese": "浴室 (よくしつ)", "article": "das", "word": "Bad", "emoji": "🛁"},
+        {"german": "die Dusche", "japanese": "シャワー", "article": "die", "word": "Dusche", "emoji": "🚿"},
+        {"german": "die Toilette", "japanese": "トイレ", "article": "die", "word": "Toilette", "emoji": "🚽"},
+        {"german": "das Toilettenpapier", "japanese": "トイレットペーパー", "article": "das", "word": "Toilettenpapier", "emoji": "🧻"},
+        {"german": "die Möbel", "japanese": "家具 (かぐ)", "article": "die", "word": "Möbel", "emoji": "🛋️"},
+        {"german": "das Bett", "japanese": "ベッド", "article": "das", "word": "Bett", "emoji": "🛏️"},
+        {"german": "der Schrank", "japanese": "クローゼット / 戸棚", "article": "der", "word": "Schrank", "emoji": "👗"},
+        {"german": "das Regal", "japanese": "棚 / 本棚 (たな)", "article": "das", "word": "Regal", "emoji": "📚"},
+        {"german": "der Tisch", "japanese": "テーブル / 机", "article": "der", "word": "Tisch", "emoji": "🍽️"},
+        {"german": "der Stuhl", "japanese": "椅子 (いす)", "article": "der", "word": "Stuhl", "emoji": "🪑"},
+        {"german": "die Bank", "japanese": "ベンチ", "article": "die", "word": "Bank", "emoji": "🪑"},
+        {"german": "das Sofa", "japanese": "ソファ", "article": "das", "word": "Sofa", "emoji": "🛋️"},
+        {"german": "die Lampe", "japanese": "ランプ / 灯り", "article": "die", "word": "Lampe", "emoji": "💡"},
+        {"german": "der Sessel", "japanese": "1人掛けソファ / アームチェア", "article": "der", "word": "Sessel", "emoji": "🛋️"},
+        {"german": "der Teppich", "japanese": "絨毯 / カーペット", "article": "der", "word": "Teppich", "emoji": "🧶"},
+        {"german": "das Bild", "japanese": "絵 / 写真 (え / しゃしん)", "article": "das", "word": "Bild", "emoji": "🖼️"},
+        {"german": "der Schlüssel", "japanese": "鍵 (かぎ)", "article": "der", "word": "Schlüssel", "emoji": "🔑"}
+      ]
+    }
+  ]
+}

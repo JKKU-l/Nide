@@ -1,0 +1,124 @@
+{
+  "title": "Wörter im Satz 1 (Trật tự từ trong câu 1)",
+  "sections": [
+    {
+      "id": "declarative_sentences",
+      "title": "1. Câu trần thuật (Aussagesätze)",
+      "description": "Trong một câu tiếng Đức tiêu chuẩn, động từ đã chia đóng vai trò là \"mỏ neo\" cố định.",
+      "content": {
+        "rules": [
+          "Quy tắc vàng: Động từ luôn luôn đứng ở Vị trí số 2.",
+          "Tính linh hoạt: Trong khi động từ cố định, Chủ ngữ có thể di chuyển. Nếu bạn bắt đầu bằng Chủ ngữ, nó nằm ở Vị trí 1. Nếu bạn bắt đầu bằng trạng ngữ chỉ thời gian hoặc nơi chốn (để nhấn mạnh), Chủ ngữ phải chuyển sang Vị trí 3 để động từ vẫn giữ nguyên ở Vị trí 2."
+        ],
+        "examples_table": {
+          "headers": ["Vị trí 1 (Chủ đề)", "Vị trí 2 (Động từ)", "Vị trí 3 (Chủ ngữ/Khác)", "Phần còn lại"],
+          "rows": [
+            ["Ich", "heisse", "Peter Schmidt.", ""],
+            ["Peter und seine Frau", "wohnen", "jetzt", "in Heidelberg."],
+            ["Heute", "esse", "ich", "Pizza."]
+          ]
+        },
+        "note": "Tại sao? Tiếng Đức sử dụng cấu trúc \"V2\" (Verb second). Việc bắt đầu bằng \"Heute\" (Hôm nay) khiến thời gian trở thành trọng tâm, nhưng động từ bắt buộc phải đứng thứ hai."
+      }
+    },
+    {
+      "id": "w_questions",
+      "title": "2. Câu hỏi có từ để hỏi (W-Fragen)",
+      "description": "Đây là những câu hỏi sử dụng các từ nghi vấn như Wo (Ở đâu), Woher (Từ đâu đến), hoặc Was (Cái gì).",
+      "content": {
+        "structure": "Cấu trúc: Từ để hỏi (Vị trí 1) + Động từ (Vị trí 2) + Chủ ngữ (Vị trí 3).",
+        "examples": [
+          {
+            "question": "Woher kommen Luis und Paloma? (Luis và Paloma đến từ đâu?)"
+          },
+          {
+            "question": "Was sind Sie von Beruf? (Nghề nghiệp của bạn là gì?)"
+          },
+          {
+            "question": "Wo wohnen Sie jetzt? (Hiện tại bạn đang sống ở đâu?)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yes_no_questions",
+      "title": "3. Câu hỏi Có/Không (Ja/Nein-Fragen)",
+      "description": "Khi không có \"từ để hỏi\", động từ sẽ chiếm vị trí dẫn đầu.",
+      "content": {
+        "structure": "Cấu trúc: Động từ (Vị trí 1) + Chủ ngữ (Vị trí 2) + Thành phần còn lại.",
+        "examples": [
+          {
+            "question": "Kommt sie aus Peru? (Cô ấy đến từ Peru phải không?)"
+          },
+          {
+            "question": "Lernt Paloma Deutsch? (Có phải Paloma đang học tiếng Đức không?)"
+          },
+          {
+            "question": "Sind Sie heute müde? (Hôm nay bạn có mệt không?)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "imperative",
+      "title": "4. Câu mệnh lệnh (Imperativ)",
+      "description": "Đối với các câu mệnh lệnh trang trọng dùng \"Sie\", cấu trúc tương tự như câu hỏi Có/Không nhưng kết thúc bằng dấu chấm than.",
+      "content": {
+        "structure": "Cấu trúc: Động từ (Vị trí 1) + Sie + Tân ngữ/Trạng từ!",
+        "examples": [
+          {
+            "question": "Kommen Sie! (Mời ngài vào/đến!)"
+          },
+          {
+            "question": "Hören Sie die Geschichte! (Hãy nghe câu chuyện này!)"
+          },
+          {
+            "question": "Sagen Sie nichts! (Đừng nói gì cả!)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "time_and_place",
+      "title": "5. Thời gian và Nơi chốn (Zeit und Ort)",
+      "description": "Khi một câu chứa cả thông tin thời gian (Wann?) và địa điểm (Wo?), tiếng Đức tuân theo một logic cụ thể.",
+      "content": {
+        "rules": [
+          "Thời gian (Wann): Thường xuất hiện sớm trong câu (thường ở Vị trí 1 hoặc ngay sau động từ).",
+          "Nơi chốn (Wo): Thường xuất hiện ở phía cuối câu."
+        ],
+        "example_analysis": {
+          "sentence": "Ich wohne seit zwei Jahren in Frankfurt.",
+          "translation": "(Tôi sống ở Frankfurt được hai năm rồi.)",
+          "breakdown": [
+            "Chủ ngữ: Ich (Vị trí 1)",
+            "Động từ: wohne (Vị trí 2)",
+            "Thời gian: seit zwei Jahren (Thời gian - Bao lâu)",
+            "Nơi chốn: in Frankfurt (Địa điểm - Ở đâu)"
+          ]
+        },
+        "more_examples": [
+          "Ich fahre freitags um 17 Uhr (Thời gian) nach Heidelberg (Nơi chốn).",
+          "Ich arbeite von 9 bis 18 Uhr (Thời gian) im Büro (Nơi chốn)."
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Bảng tóm tắt trật tự từ",
+      "description": "Tài liệu tham khảo nhanh cho tất cả các loại câu:",
+      "content": {
+        "summary_table": {
+          "headers": ["Loại câu", "Vị trí 1", "Vị trí 2 (Động từ)", "Vị trí 3"],
+          "rows": [
+            ["Câu trần thuật", "Chủ ngữ / Thời gian", "Động từ", "Thời gian / Chủ ngữ"],
+            ["Câu hỏi W-", "Từ để hỏi", "Động từ", "Chủ ngữ"],
+            ["Câu hỏi Có/Không", "Động từ", "Chủ ngữ", "Tân ngữ/Trạng từ"],
+            ["Câu mệnh lệnh", "Động từ", "Sie (Chủ ngữ)", "Tân ngữ"]
+          ]
+        },
+        "note": "Lưu ý quan trọng: Bất kể bạn thêm bao nhiêu thông tin vào một câu tiêu chuẩn (Thời gian, Cách thức, Nơi chốn), động từ đã chia luôn đóng vai trò là \"chất keo\" dính ở Vị trí số 2. Nếu bạn đưa một thành phần khác lên đầu câu để nhấn mạnh, Chủ ngữ và Động từ phải \"đổi chỗ\" cho nhau để động từ không bị đẩy xuống Vị trí số 3."
+      }
+    }
+  ]
+}

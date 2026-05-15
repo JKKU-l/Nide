@@ -1,0 +1,125 @@
+{
+  "title": "Kann ich oder muss ich? (할 수 있나요, 아니면 해야 하나요? - 화법 조동사의 사용법)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "독일어 화법 조동사",
+      "description": "독일어에서 화법 조동사는 문장의 두 번째 위치에 오며, 실제 동작을 나타내는 본동사(원형)는 문장의 맨 끝으로 보내집니다.",
+      "content": {
+        "description": "화법 조동사는 문장의 의미를 수정하며 필연성, 능력, 허가 또는 소망과 같은 태도를 나타냅니다."
+      }
+    },
+    {
+      "id": "müssen_usage",
+      "title": "müssen (~해야 한다 / 강한 의무)",
+      "description": "선택의 여지가 없는 필연적인 필요성이나 의무를 나타냅니다.",
+      "content": {
+        "grammar_note": "매우 \"강한\" 의무입니다. 하지 않았을 경우 결과나 불이익이 따를 때 주로 사용합니다.",
+        "examples": [
+          "Ich muss arbeiten. (나는 일해야 한다.)",
+          "Ich muss auf die Toilette (gehen). (나는 화장실에 가야 한다.)"
+        ]
+      }
+    },
+    {
+      "id": "können_usage",
+      "title": "können (~할 수 있다 / 능력, 가능성)",
+      "description": "이 동사는 쓰임새가 다양하며 크게 세 가지로 나뉩니다:",
+      "content": {
+        "uses": [
+          "능력/기술: 학습을 통해 습득한 능력.",
+          "가능성: 기회나 상황이 주어짐.",
+          "허가 (비격식): 금지되지 않음 (dürfen과 유사하게 쓰임)."
+        ],
+        "examples": [
+          "Ich kann Englisch (sprechen). (나는 영어를 [말할 수] 있다.)",
+          "Hier kann man essen und trinken. (여기서 먹고 마실 수 있다.)",
+          "Hier kann man parken. (여기 주차할 수 있다.)"
+        ]
+      }
+    },
+    {
+      "id": "dürfen_usage",
+      "title": "dürfen / nicht dürfen (~해도 된다 / 하면 안 된다)",
+      "description": "dürfen: 허가(Permission)를 나타냅니다. nicht dürfen: 금지(Prohibition)를 나타냅니다.",
+      "content": {
+        "exception_note": "영어의 \"must not\"은 금지이지만, 독일어의 \"muss nicht\"는 \"~할 필요가 없다(선택 사항)\"는 뜻입니다. 금지를 말할 때는 반드시 \"darf not\"를 써야 합니다.",
+        "examples": [
+          "Heute dürfen meine Kinder fernsehen. (오늘 우리 아이들은 TV를 봐도 된다.)",
+          "Hier dürfen Sie nicht rauchen. (여기서 담배를 피우시면 안 됩니다.)"
+        ]
+      }
+    },
+    {
+      "id": "möchten_usage",
+      "title": "möchten (~하고 싶다 / 정중한 희망)",
+      "description": "정중한 소망이나 요청을 나타냅니다.",
+      "content": {
+        "grammar_note": "본래 mögen 동사의 접속법 2식 형태이지만, 일상생활에서는 독립된 조동사처럼 사용됩니다.",
+        "examples": [
+          "Ich möchte einen Kaffee (trinken), bitte. (커피 한 잔 [마시고] 싶습니다.)"
+        ]
+      }
+    },
+    {
+      "id": "wollen_usage",
+      "title": "wollen (~하고자 한다 / 강한 의지)",
+      "description": "직접적이고 강한 의지나 계획을 나타냅니다.",
+      "content": {
+        "usage_note": "사람에게 직접 wollen을 쓰면 무례하거나 고집스럽게 들릴 수 있습니다. 예의를 갖춰야 할 때는 möchten을 권장합니다.",
+        "examples": [
+          "Ich will gerne Ski-Urlaub machen. (나는 스키 휴가를 가고 싶다/갈 것이다.)"
+        ]
+      }
+    },
+    {
+      "id": "sollen_usage",
+      "title": "sollen (~해야 한다 / 마땅히 ~하는 것이 좋다)",
+      "description": "이 동사는 주로 외부의 요구 나 충고를 전달할 때 사용합니다.",
+      "content": {
+        "uses": [
+          "제안/질문: 상대방의 의사를 물을 때.",
+          "지시 전달: 의사나 상사 등 타인이 나에게 한 말을 전달할 때."
+        ],
+        "examples": [
+          "Soll ich dir einen Kaffee machen? (커피 한 잔 타 줄까?)",
+          "Der Arzt sagt, ich soll die Tabletten nehmen. (의사 선생님이 나더러 약을 먹으라고 하셨어.)"
+        ]
+      }
+    },
+    {
+      "id": "summary_table",
+      "title": "화법 조동사 요약표",
+      "description": "화법 조동사의 사용 맥락과 한국어 의미.",
+      "content": {
+        "usage_table": {
+          "headers": ["조동사", "사용 맥락", "한국어 의미"],
+          "rows": [
+            ["müssen", "필연적 의무, 강제", "~해야만 한다"],
+            ["können", "능력, 가능성, 허가", "~할 수 있다"],
+            ["dürfen", "허락, 허가", "~해도 된다"],
+            ["nicht dürfen", "금지", "~해서는 안 된다"],
+            ["möchten", "정중한 소망", "~하고 싶다"],
+            ["wollen", "강한 의지, 계획", "~하고자 한다"],
+            ["sollen", "충고, 지시 전달", "~해야 한다 / 하기로 되어 있다"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "grammar_tips",
+      "title": "문법 및 문장 구조 팁",
+      "description": "화법 조동사의 문법 및 문장 구조에 관한 중요한 팁.",
+      "content": {
+        "tips": [
+          "동사 샌드위치 구조: 화법 조동사는 주어에 맞춰 변화(인칭 변화)하여 두 번째 자리에 오고, 원래 동작을 뜻하는 동사는 동사 원형(Infinitive) 그대로 문장 맨 끝에 위치합니다.",
+          "예시: Ich kann heute nicht kommen. (나는 오늘 올 수 없다.)",
+          "본동사 생략: 가다(gehen), 하다(tun) 등 의미가 명확한 이동 동사의 경우, 문장 끝의 본동사를 생략하기도 합니다.",
+          "예시: Ich muss nach Hause (gehen). → Ich muss nach Hause. (나 집에 가야 해.)",
+          "모음 변화 (Vowel Shifts): 대부분의 화법 조동사는 단수 형태(ich, du, er/sie/es)에서 어간 모음이 변합니다.",
+          "예시: können → ich kann / müssen → ich muss"
+        ]
+      }
+    }
+  ]
+}

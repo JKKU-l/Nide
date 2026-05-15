@@ -1,0 +1,109 @@
+{
+  "title": "Sein & Haben",
+  "subtitle": "Special Verbs and Their Conjugations",
+  "sections": [
+    {
+      "id": "auxiliary_verbs",
+      "title": "1. คำกริยาช่วยพื้นฐาน: Sein (เป็น/อยู่/คือ) และ Haben (มี)",
+      "description": "ในภาษาเยอรมัน Sein ใช้บอกเอกลักษณ์ สถานะ หรืออายุ ส่วน Haben ใช้บอกการครอบครอง",
+      "content": {
+        "table": {
+          "headers": ["สรรพนาม (Pronoun)", "Sein (เป็น/อยู่/คือ)", "Haben (มี)", "ตัวอย่างและคำแปลภาษาไทย"],
+          "rows": [
+            ["ich (ฉัน)", "bin", "habe", "Ich bin Lehrer. (ฉันเป็นครู)"],
+            ["du (คุณ - กันเอง)", "bist", "hast", "Hast du Geld? (คุณมีเงินไหม?)"],
+            ["er/sie/es (เขา/เธอ/มัน)", "ist", "hat", "Er ist 5 Jahre alt. (เขาอายุ 5 ขวบ)"],
+            ["wir (พวกเรา)", "sind", "haben", "Wir haben einen Hund. (พวกเรามีสุนัขหนึ่งตัว)"],
+            ["ihr (พวกคุณ)", "seid", "habt", "Seid ihr neu hier? (พวกคุณเพิ่งมาใหม่ที่นี่ใช่ไหม?)"],
+            ["sie/Sie (พวกเขา/คุณสุภาพ)", "sind", "haben", "Sind Sie verheiratet? (คุณแต่งงานแล้วหรือยัง?)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "special_verbs",
+      "title": "2. การผันคำกริยาพิเศษ (Special Verbs)",
+      "description": "คำกริยาเหล่านี้มีความพิเศษตรงที่รูปของ ich และ er/sie/es จะเหมือนกันเสมอ",
+      "content": {
+        "table": {
+          "headers": ["สรรพนาม", "möchte (อยากจะ)", "mögen (ชอบ)", "wissen (รู้/ทราบ)", "tun (ทำ)"],
+          "rows": [
+            ["ich", "möchte", "mag", "weiß", "tue"],
+            ["du", "möchtest", "magst", "weißt", "tust"],
+            ["er/sie/es", "möchte", "mag", "weiß", "tut"],
+            ["wir", "möchten", "mögen", "wissen", "tun"],
+            ["ihr", "möchtet", "mögt", "wisst", "tut"],
+            ["sie/Sie", "möchten", "mögen", "wissen", "tun"]
+          ]
+        },
+        "note": "ข้อควรจำ: คำกริยาในกลุ่มนี้มักจะมีการเปลี่ยนสระที่รากศัพท์ เช่น wissen เปลี่ยนจาก i เป็น ei (weiß)"
+      }
+    },
+    {
+      "id": "detailed_usage",
+      "title": "3. คำอธิบายการใช้งานโดยละเอียด",
+      "description": "เรียนรู้ความหมายและวิธีใช้คำกริยาพิเศษเหล่านี้",
+      "content": {
+        "examples": [
+          {
+            "verb": "Möchten",
+            "meaning": "ใช้แสดงความต้องการที่สุภาพ มักใช้สั่งอาหารหรือขอความช่วยเหลือ",
+            "example": "Wir möchten etwas trinken. (พวกเราอยากจะดื่มอะไรสักหน่อย)"
+          },
+          {
+            "verb": "Mögen",
+            "meaning": "ใช้บอกความชอบทั่วไปต่อสิ่งของ สถานที่ หรือบุคคล",
+            "example": "Sie mag Italien. (เธอชอบประเทศอิตาลี)"
+          },
+          {
+            "verb": "Wissen",
+            "meaning": "ใช้กับการรู้ข้อมูล ข้อเท็จจริง หรือความรู้",
+            "example": "Ich weiß das nicht. (ฉันไม่ทราบเรื่องนั้น)"
+          },
+          {
+            "verb": "Tun",
+            "meaning": "แปลว่า \"ทำ\" แต่บ่อยครั้งใช้คู่กับคำว่า weh (เจ็บ) เพื่อบอกอาการเจ็บปวด",
+            "example": "Meine Ohren tun weh. (ฉันเจ็บหู)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_sentences",
+      "title": "4. รวมประโยคตัวอย่างและคำแปล (Sentence List)",
+      "description": "ฝึกใช้คำกริยาเหล่านี้ในประโยคจริง",
+      "content": {
+        "examples": [
+          {
+            "german": "Mein Name ist Misterek.",
+            "english": "ชื่อของฉันคือมิสเทอเรค"
+          },
+          {
+            "german": "Hast du Zeit?",
+            "english": "คุณมีเวลาไหม?"
+          },
+          {
+            "german": "Ich bin Schülerin.",
+            "english": "ฉันเป็นนักเรียน (หญิง)"
+          },
+          {
+            "german": "Ich möchte einen Kaffee.",
+            "english": "ฉันอยากได้กาแฟหนึ่งแก้วครับ/ค่ะ"
+          },
+          {
+            "german": "Weißt du, wo der Bahnhof ist?",
+            "english": "คุณรู้ไหมว่าสถานีรถไฟอยู่ที่ไหน?"
+          },
+          {
+            "german": "Tun Sie ganz wenig.",
+            "english": "ทำเพียงเล็กน้อยพอ (พักผ่อนบ้าง/อย่าหักโหม)"
+          },
+          {
+            "german": "Was tut weh?",
+            "english": "เจ็บตรงไหน? / เป็นอะไรมา?"
+          }
+        ]
+      }
+    }
+  ]
+}

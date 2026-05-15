@@ -1,0 +1,157 @@
+{
+  "title": "신체와 건강",
+  "description": "독일어로 신체 부위와 건강 관련 필수 어휘를 배워보세요.",
+  "image": "assets/images/body_and_health.png",
+  "vocabulary": [
+    {
+      "german": "der Körper",
+      "korean": "몸",
+      "article": "der",
+      "word": "Körper"
+    },
+    {
+      "german": "der Kopf",
+      "korean": "머리",
+      "article": "der",
+      "word": "Kopf"
+    },
+    {
+      "german": "die Brust",
+      "korean": "가슴",
+      "article": "die",
+      "word": "Brust"
+    },
+    {
+      "german": "das Bein",
+      "korean": "다리",
+      "article": "das",
+      "word": "Bein"
+    },
+    {
+      "german": "der Fuß",
+      "korean": "발",
+      "article": "der",
+      "word": "Fuß"
+    },
+    {
+      "german": "der Hals",
+      "korean": "목 / 인후",
+      "article": "der",
+      "word": "Hals"
+    },
+    {
+      "german": "der Bauch",
+      "korean": "배 / 복부",
+      "article": "der",
+      "word": "Bauch"
+    },
+    {
+      "german": "das Knie",
+      "korean": "무릎",
+      "article": "das",
+      "word": "Knie"
+    },
+    {
+      "german": "der Zeh",
+      "korean": "발가락",
+      "article": "der",
+      "word": "Zeh"
+    },
+    {
+      "german": "der Rücken",
+      "korean": "등",
+      "article": "der",
+      "word": "Rücken"
+    },
+    {
+      "german": "die Schulter",
+      "korean": "어깨",
+      "article": "die",
+      "word": "Schulter"
+    },
+    {
+      "german": "der Arm",
+      "korean": "팔",
+      "article": "der",
+      "word": "Arm"
+    },
+    {
+      "german": "der Ellbogen",
+      "korean": "팔꿈치",
+      "article": "der",
+      "word": "Ellbogen"
+    },
+    {
+      "german": "der Po",
+      "korean": "엉덩이",
+      "article": "der",
+      "word": "Po"
+    },
+    {
+      "german": "die Hand",
+      "korean": "손",
+      "article": "die",
+      "word": "Hand"
+    },
+    {
+      "german": "der Finger",
+      "korean": "손가락",
+      "article": "der",
+      "word": "Finger"
+    },
+    {
+      "german": "das Gesicht",
+      "korean": "얼굴",
+      "article": "das",
+      "word": "Gesicht"
+    },
+    {
+      "german": "das Haar",
+      "korean": "머리카락",
+      "article": "das",
+      "word": "Haar"
+    },
+    {
+      "german": "die Nase",
+      "korean": "코",
+      "article": "die",
+      "word": "Nase"
+    },
+    {
+      "german": "der Mund",
+      "korean": "입",
+      "article": "der",
+      "word": "Mund"
+    },
+    {
+      "german": "die Lippe",
+      "korean": "입술",
+      "article": "die",
+      "word": "Lippe"
+    },
+    {
+      "german": "das Auge",
+      "korean": "눈",
+      "article": "das",
+      "word": "Auge"
+    },
+    {
+      "german": "das Ohr",
+      "korean": "귀",
+      "article": "das",
+      "word": "Ohr"
+    },
+    {
+      "german": "die Zunge",
+      "korean": "혀",
+      "article": "die",
+      "word": "Zunge"
+    },
+    {
+      "german": "der Zahn",
+      "korean": "치아 / 이",
+      "article": "der",
+      "word": "Zahn"
+    }
+  ]
+}

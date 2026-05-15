@@ -1,0 +1,107 @@
+{
+  "title": "Genitiv（属格 / 2格）",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "ドイツ語の属格（Genitiv）",
+      "description": "属格は主に所有、所有権、または2つの名詞間の特定の関係を示すために使われます。日常会話では与格（vonを使用）に置き換えられることが多いですが、属格はフォーマルな文章、文学、学術的な言語では標準のままです。"
+    },
+    {
+      "id": "core_function",
+      "title": "1. 基本機能：所有の表現",
+      "description": "属格は「Wessen?」（誰の？）という質問に答えます。2つの名詞を結び、2番目の名詞が1番目の名詞を「所有」します。",
+      "content": {
+        "declension_table": {
+          "title": "属格の格変化表",
+          "headers": ["性", "定冠詞", "不定冠詞/所有冠詞", "名詞の変化"],
+          "rows": [
+            { "category": "男性名詞", "definite": "des (des Vaters)", "indefinite": "eines / meines", "adjective": "-s または -es を追加" },
+            { "category": "中性名詞", "definite": "des (des Kindes)", "indefinite": "eines / meines", "adjective": "-s または -es を追加" },
+            { "category": "女性名詞", "definite": "der (der Mutter)", "indefinite": "einer / meiner", "adjective": "変化なし" },
+            { "category": "複数形", "definite": "der (der Eltern)", "indefinite": "meiner", "adjective": "変化なし" }
+          ]
+        },
+        "key_rule": "男性名詞と中性名詞は、1音節の場合は通常 -es を追加し（例：des Mannes）、多音節の場合は -s のみ追加します（例：des Computers）。",
+        "translations": [
+          { "label": "男性名詞", "german": "Das Auto des Vaters.", "translation": "父の車。" },
+          { "label": "女性名詞", "german": "Die Farbe einer Blume.", "translation": "花の色。" }
+        ]
+      }
+    },
+    {
+      "id": "prepositions",
+      "title": "2. 前置詞との使用",
+      "description": "特定の前置詞が属格を「引き起こし」ます。これらの語を使うとき、続く名詞は属格の形にしなければなりません。",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_prepositions",
+            "title": "一般的な属格前置詞",
+            "description": "これらの前置詞は常に属格を必要とします：",
+            "prepositions": ["trotz（〜にもかかわらず）", "während（〜の間）", "wegen（〜のために）", "außerhalb（〜の外側）", "innerhalb（〜の内側）"],
+            "examples": [
+              { "german": "Trotz des Regens gehen wir spazieren.", "translation": "雨にもかかわらず、私たちは散歩に行きます。" },
+              { "german": "Während der Fahrt schläft er.", "translation": "旅行中、彼は眠ります。" },
+              { "german": "Wegen des Wetters bleiben wir zu Hause.", "translation": "天気のせいで、私たちは家にいます。" },
+              { "german": "Außerhalb der Stadt.", "translation": "市外。" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "verbs_adjectives",
+      "title": "3. 動詞と形容詞との使用",
+      "description": "現代の日常会話ではあまり一般的ではありませんが、いくつかの高度な動詞と形容詞が属格を必要とします。",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_verbs",
+            "title": "動詞",
+            "description": "これらの動詞は法的行為や内面的な省察を表します。",
+            "subcategories": [
+              { "label": "Anklagen（〜で告発する）", "verbs": "", "german": "Man klagte ihn des Mordes an.", "translation": "彼らは彼を殺人で告発しました。" },
+              { "label": "Gedenken（追悼する）", "verbs": "", "german": "Wir gedenken der Toten.", "translation": "私たちは死者を追悼します。" },
+              { "label": "Sich schämen（〜を恥じる）", "verbs": "", "german": "Er schämt sich seines Fehlers.", "translation": "彼は自分の過ちを恥じています。" }
+            ]
+          },
+          {
+            "id": "genitive_adjectives",
+            "title": "形容詞",
+            "description": "これらの形容詞は属格を必要とします：",
+            "subcategories": [
+              { "label": "Würdig（〜に値する）", "verbs": "", "german": "Das ist eines Königs würdig.", "translation": "それは王に値します。" },
+              { "label": "Sicher（〜を確信する）", "verbs": "", "german": "Ich bin mir meiner Sache sicher.", "translation": "私は自分の主張に確信があります。" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "possessive_pronouns",
+      "title": "4. 属格の所有代名詞",
+      "description": "所有代名詞（私の、あなたの、彼の）を属格で独立した修飾語として使う場合、不定冠詞と同じ語尾に従います。",
+      "content": {
+        "determiners": ["男性/中性の語尾：-es（meines, deines, seines）", "女性/複数の語尾：-er（meiner, deiner, ihrer）"],
+        "example": {
+          "german": "Wegen meines Bruders.",
+          "translation": "兄弟のせいで。",
+          "note": "もう一つの例：Inmitten unserer Freunde.（友人たちの真ん中で。）"
+        }
+      }
+    },
+    {
+      "id": "adjective_declension",
+      "title": "5. 属格の形容詞格変化",
+      "description": "属格で冠詞と名詞の間に形容詞がある場合、ほぼ常に -en で終わります。",
+      "content": {
+        "translations": [
+          { "label": "冠詞あり", "german": "Das Haus des alten Mannes.", "translation": "年老いた男性の家。" },
+          { "label": "冠詞なし（新鮮なコーヒー）", "german": "Der Duft frischen Kaffees.", "translation": "新鮮なコーヒーの香り。（形容詞が冠詞が持つはずだった語尾を取ります。）" },
+          { "label": "冠詞なし（親切な両親）", "german": "Die Hilfe netter Eltern.", "translation": "親切な両親の助け。" }
+        ],
+        "key_rule": "冠詞がある場合、形容詞は常に -en で終わります。冠詞がない場合（複数名詞や抽象概念など）、形容詞は冠詞が持つはずだった語尾を取ります。"
+      }
+    }
+  ]
+}

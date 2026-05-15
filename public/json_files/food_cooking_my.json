@@ -1,0 +1,55 @@
+{
+  "title": "Food & Cooking",
+  "emoji": "🍳",
+  "theme_color": "#9C27B0",
+  "description": "Food, cooking, and kitchen vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "schneiden", "myanmar": "လှီးဖြတ်သည်", "example_german": "Ich schneide das Brot in Scheiben.", "example_myanmar": "ကျွန်တော် ပေါင်မုန့်ကို အချပ်လိုက် လှီးနေပါသည်။"},
+          {"german": "hacken", "myanmar": "စင်းသည်/နုတ်နုတ်စင်းသည်", "example_german": "Kannst du bitte die Zwiebeln fein hacken?", "example_myanmar": "ကြက်သွန်နီတွေကို နုတ်နုတ်စင်းပေးနိုင်မလား။"},
+          {"german": "schälen", "myanmar": "အခွံနွှာသည်", "example_german": "Er schält die Kartoffeln für das Abendessen.", "example_myanmar": "သူသည် ညစာအတွက် အာလူးများကို အခွံနွှာနေပါသည်။"},
+          {"german": "reiben", "myanmar": "ခြစ်သည်", "example_german": "Wir reiben frischen Käse über die Pasta.", "example_myanmar": "ကျွန်ုပ်တို့သည် ပါစတာပေါ်တွင် ဒိန်ခဲအသစ်များကို ခြစ်ချနေပါသည်။"},
+          {"german": "mischen", "myanmar": "ရောမွှေသည်", "example_german": "Mischen Sie alle Zutaten in einer großen Schüssel.", "example_myanmar": "ပါဝင်ပစ္စည်းများအားလုံးကို ဇလုံကြီးတစ်ခုထဲတွင် ရောမွှေပါ။"},
+          {"german": "rühren", "myanmar": "မွှေသည်", "example_german": "Du musst die Suppe regelmäßig umrühren.", "example_myanmar": "ဟင်းရည်ကို ပုံမှန်မွှေပေးရန် လိုအပ်ပါသည်။"},
+          {"german": "kochen", "myanmar": "ချက်ပြုတ်သည်/ဆူပွက်သည်", "example_german": "Das Wasser kocht bereits.", "example_myanmar": "ရေက ဆူပွက်နေပါပြီ။"},
+          {"german": "braten", "myanmar": "ကြော်သည်", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_myanmar": "ကျွန်တော် ဒယ်အိုးထဲတွင် အသားကြော်နေပါသည်။"},
+          {"german": "backen", "myanmar": "ဖုတ်သည်", "example_german": "Am Wochenende backe ich einen Kuchen.", "example_myanmar": "ဝီကန်းတွင် ကျွန်တော် ကိတ်မုန့်ဖုတ်ပါမည်။"},
+          {"german": "grillen", "myanmar": "ကင်သည်", "example_german": "Im Sommer grillen wir oft im Garten.", "example_myanmar": "နွေရာသီတွင် ကျွန်ုပ်တို့သည် ခြံထဲ၌ မကြာခဏ အသားကင်စားလေ့ရှိသည်။"},
+          {"german": "dämpfen", "myanmar": "ပေါင်းသည်", "example_german": "Gemüse ist gesünder, wenn man es dämpft.", "example_myanmar": "ဟင်းသီးဟင်းရွက်များကို ပေါင်းစားခြင်းက ပို၍ကျန်းမာရေးနှင့် ညီညွတ်ပါသည်။"},
+          {"german": "frittieren", "myanmar": "ဆီပူတွင် ကြော်သည်", "example_german": "Die Pommes werden in heißem Öl frittiert.", "example_myanmar": "အာလူးချောင်းများကို ဆီပူထဲတွင် ကြော်ထားပါသည်။"},
+          {"german": "anbraten", "myanmar": "အပေါ်ယံတူးအောင် ကြော်သည်", "example_german": "Zuerst muss man das Fleisch scharf anbraten.", "example_myanmar": "ပထမဦးစွာ အသားကို အပူချိန်ပြင်းပြင်းဖြင့် အပေါ်ယံတူးအောင် ကြော်ရပါမည်။"},
+          {"german": "schmecken", "myanmar": "အရသာရှိသည်", "example_german": "Das Essen schmeckt wirklich hervorragend.", "example_myanmar": "အစားအစာက တကယ်ကို ထူးထူးခြားခြား အရသာရှိပါသည်။"},
+          {"german": "probieren", "myanmar": "မြည်းစမ်းကြည့်သည်", "example_german": "Möchtest du die Sauce mal probieren?", "example_myanmar": "ဆော့စ်ကို မြည်းကြည့်ချင်ပါသလား။"},
+          {"german": "würzen", "myanmar": "ဟင်းခတ်အမွှေးအကြိုင် ထည့်သည်", "example_german": "Du solltest den Salat noch etwas würzen.", "example_myanmar": "အသုပ်ကို ဟင်းခတ်အမွှေးအကြိုင် အနည်းငယ် ထပ်ထည့်သင့်ပါသည်။"},
+          {"german": "salzen", "myanmar": "ဆားခတ်သည်", "example_german": "Ich habe vergessen, die Nudeln zu salzen.", "example_myanmar": "ခေါက်ဆွဲထဲ ဆားခတ်ရန် မေ့သွားပါသည်။"},
+          {"german": "pfeffern", "myanmar": "ငရုတ်ကောင်းခတ်သည်", "example_german": "Er pfeffert sein Steak sehr stark.", "example_myanmar": "သူသည် စတိတ်အသားပေါ်တွင် ငရုတ်ကောင်းများစွာ ခတ်လိုက်ပါသည်။"},
+          {"german": "marinieren", "myanmar": "အသားနှပ်သည်", "example_german": "Das Fleisch muss zwei Stunden marinieren.", "example_myanmar": "အသားကို နှစ်နာရီကြာ နှပ်ထားရပါမည်။"},
+          {"german": "einfrieren", "myanmar": "အေးခဲထားသည်", "example_german": "Wir frieren die Reste der Suppe ein.", "example_myanmar": "ကျန်ရှိသော ဟင်းရည်များကို ကျွန်ုပ်တို့ အေးခဲထားလိုက်သည်။"},
+          {"german": "auftauen", "myanmar": "အေးခဲရာမှ အရည်ဖျော်သည်", "example_german": "Ich muss das Hähnchen vor dem Kochen auftauen.", "example_myanmar": "မချက်ပြုတ်မီ ကြက်သားကို အေးခဲရာမှ အရည်ဖျော်ရန် လိုအပ်သည်။"},
+          {"german": "servieren", "myanmar": "တည်ခင်းဧည့်ခံသည်", "example_german": "Das Dessert wird mit Sahne serviert.", "example_myanmar": "အချိုပွဲကို ခရင်မ်နှင့်အတူ တည်ခင်းပါသည်။"},
+          {"german": "füllen", "myanmar": "အစာသွတ်သည်/ဖြည့်သည်", "example_german": "Sie füllt die Paprika mit Reis und Hackfleisch.", "example_myanmar": "သူမသည် ငရုတ်ပွထဲတွင် ထမင်းနှင့် အသားနုတ်နုတ်စင်းများကို အစာသွတ်နေသည်။"},
+          {"german": "gießen", "myanmar": "လောင်းထည့်သည်", "example_german": "Bitte gieß mir etwas Wasser ins Glas.", "example_myanmar": "ကျေးဇူးပြု၍ ဖန်ခွက်ထဲသို့ ရေအနည်းငယ် လောင်းထည့်ပေးပါ။"},
+          {"german": "bestellen", "myanmar": "မှာယူသည်", "example_german": "Wir bestellen uns heute eine Pizza.", "example_myanmar": "ကျွန်ုပ်တို့ ယနေ့ ပီဇာတစ်ချပ် မှာစားကြမည်။"},
+          {"german": "bezahlen", "myanmar": "ငွေချေသည်", "example_german": "Wir möchten bitte getrennt bezahlen.", "example_myanmar": "ကျွန်ုပ်တို့ သီးခြားစီ ငွေချေလိုပါသည်။"},
+          {"german": "reservieren", "myanmar": "ကြိုတင်မှာယူသည် (Booking)", "example_german": "Hast du einen Tisch im Restaurant reserviert?", "example_myanmar": "စားသောက်ဆိုင်မှာ စားပွဲဝိုင်း ကြိုမှာထားပြီးပြီလား။"},
+          {"german": "empfehlen", "myanmar": "အကြံပြုသည်", "example_german": "Was können Sie uns heute empfehlen?", "example_myanmar": "ယနေ့အတွက် ဘာကို အကြံပြုလိုပါသလဲ။"},
+          {"german": "bringen", "myanmar": "ယူဆောင်လာသည်", "example_german": "Der Kellner bringt uns die Speisekarte.", "example_myanmar": "စားပွဲထိုးက ကျွန်ုပ်တို့ထံသို့ မီနူးကတ် ယူဆောင်လာပါသည်။"},
+          {"german": "holen", "myanmar": "သွားယူသည်", "example_german": "Ich hole nur kurz eine Flasche Wein aus dem Keller.", "example_myanmar": "မြေအောက်ခန်းထဲက ဝိုင်တစ်ပုလင်း ခဏသွားယူလိုက်ဦးမည်။"},
+          {"german": "kaufen", "myanmar": "ဝယ်ယူသည်", "example_german": "Wir müssen noch Brot für morgen kaufen.", "example_myanmar": "မနက်ဖြန်အတွက် ပေါင်မုန့် ဝယ်ရန် လိုအပ်သေးသည်။"},
+          {"german": "finden", "myanmar": "ရှာဖွေတွေ့ရှိသည်", "example_german": "Wo finde ich hier das Salz?", "example_myanmar": "ဤနေရာတွင် ဆားကို ဘယ်မှာ ရှာတွေ့နိုင်မလဲ။"},
+          {"german": "einpacken", "myanmar": "ထုပ်ပိုးသည်", "example_german": "Kann ich den Rest bitte einpacken lassen?", "example_myanmar": "ကျန်တာတွေကို ပါဆယ်ထုပ်ပေးလို့ ရမလား။"},
+          {"german": "auspacken", "myanmar": "ပြန်ထုတ်သည်", "example_german": "Er packt die Einkäufe in der Küche aus.", "example_myanmar": "သူသည် ဝယ်လာသည်များကို မီးဖိုချောင်ထဲတွင် ပြန်ထုတ်နေသည်။"},
+          {"german": "spülen", "myanmar": "ဆေးကြောသည် (ပန်းကန်ဆေးသည်)", "example_german": "Ich muss noch das Geschirr spülen.", "example_myanmar": "ကျွန်တော် ပန်းကန်များ ဆေးကြောရန် ကျန်သေးသည်။"},
+          {"german": "anrichten", "myanmar": "ပြင်ဆင်ပြင်ဆင်သည်", "example_german": "Sie richtet den Salat hübsch auf dem Teller an.", "example_myanmar": "သူမသည် အသုပ်ကို ပန်းကန်ထဲတွင် လှပစွာ ပြင်ဆင်နေသည်။"},
+          {"german": "öffnen", "myanmar": "ဖွင့်သည်", "example_german": "Kannst du bitte die Dose öffnen?", "example_myanmar": "ကျေးဇူးပြု၍ ဘူးကို ဖွင့်ပေးနိုင်မလား။"},
+          {"german": "schließen", "myanmar": "ပိတ်သည်", "example_german": "Bitte schließen Sie die Kühlschranktür.", "example_myanmar": "ကျေးဇူးပြု၍ ရေခဲသေတ္တာတံခါးကို ပိတ်ပေးပါ။"},
+          {"german": "wählen", "myanmar": "ရွေးချယ်သည်", "example_german": "Sie können zwischen Fisch und Fleisch wählen.", "example_myanmar": "ငါးနှင့် အသားထဲမှ သင်ရွေးချယ်နိုင်ပါသည်။"},
+          {"german": "genießen", "myanmar": "အရသာခံစားသည်", "example_german": "Wir genießen das gute Essen und den Wein.", "example_myanmar": "ကျွန်ုပ်တို့သည် ကောင်းမွန်သော အစားအစာနှင့် ဝိုင်ကို အရသာခံစားနေပါသည်။"}
+        ]
+      }
+    }
+  ]
+}

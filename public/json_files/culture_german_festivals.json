@@ -1,0 +1,362 @@
+{
+  "title_en": "Culture: German Festivals",
+  "title_de": "Kultur: Deutsche Feste",
+  "icon": "🎉",
+  "theme_color": "#F97316",
+  "description": "Discover Germany's most beloved festivals — from the world-famous Oktoberfest to enchanting Christmas markets, vibrant Karneval parades, and the prestigious Berlinale film festival.",
+  "interesting_facts": {
+    "title": "Interesting Facts",
+    "title_de": "Interessante Fakten",
+    "facts": [
+      {
+        "de": "Wurst (Würstchen) und Brezel sind unverzichtbare Speisen auf deutschen Festen.",
+        "en": "Wurst (sausage) and Pretzel (crispy bread) are essential foods at German festivals.",
+        "jp": "ヴルスト（ソーセージ）とプレッツェル（カリカリのパン）はドイツの祭りに欠かせない食べ物です。",
+        "kr": "부르스트(소시지)와 프레첼(바삭한 빵)은 독일 축제에서 빠질 수 없는 음식입니다.",
+        "my": "ဝူးစ့် (ဝက်အူချောင်း) နှင့် ပရက်ဇယ် (ကြွပ်ဆတ်သော ပေါင်မုန့်) တို့သည် ဂျာမန်ပွဲတော်များတွင် မရှိမဖြစ် အစားအစာများ ဖြစ်ပါသည်။",
+        "th": "เวิร์สท์ (ไส้กรอก) และเพรตเซล (ขนมปังกรอบ) เป็นอาหารที่ขาดไม่ได้ในเทศกาลเยอรมัน",
+        "vi": "Wurst (xúc xích) và Pretzel (bánh mì giòn) là những món ăn không thể thiếu tại các lễ hội Đức."
+      },
+      {
+        "de": "Die meisten Feste basieren auf saisonalen Veränderungen oder religiösen Traditionen.",
+        "en": "Most festivals are based on seasonal changes or religious traditions.",
+        "jp": "ほとんどの祭りは季節の変化や宗教的な伝統に基づいています。",
+        "kr": "대부분의 축제는 계절의 변화나 종교적 전통에 기반합니다.",
+        "my": "ပွဲတော်အများစုသည် ရာသီဥတုပြောင်းလဲမှုများ သို့မဟုတ် ဘာသာရေးဓလေ့ထုံးစံများကို အခြေခံပါသည်။",
+        "th": "เทศกาลส่วนใหญ่มีพื้นฐานมาจากการเปลี่ยนแปลงของฤดูกาลหรือประเพณีทางศาสนา",
+        "vi": "Hầu hết các lễ hội đều dựa trên sự thay đổi theo mùa hoặc truyền thống tôn giáo."
+      }
+    ]
+  },
+  "subtopics": [
+    {
+      "id": "oktoberfest",
+      "title": "Oktoberfest",
+      "title_de": "Das Oktoberfest",
+      "image": "/images/oktoberfest.jpg",
+      "banner_image": "/images/oktoberfest_1.jpg",
+      "content": "The Oktoberfest is the world's largest and most famous beer festival, held annually in Munich, Bavaria. It usually lasts 16 to 18 days, starting in late September and ending in the first weekend of October. Millions of visitors from all over the world flock to the Theresienwiese fairgrounds to enjoy traditional Bavarian culture. People celebrate wearing traditional German costumes: Lederhosen (leather trousers) for men and Dirndl (traditional dresses) for women. Giant beer tents, amusement rides, brass bands, and hearty Bavarian food make it an unforgettable experience.",
+      "content_de": "Das Oktoberfest ist das größte und berühmteste Bierfest der Welt. Es findet jährlich in München statt und dauert 16 bis 18 Tage. Millionen von Besuchern aus aller Welt kommen auf die Theresienwiese, um die bayerische Kultur zu genießen.",
+      "vocabulary": [
+        {
+          "de": "das Bier",
+          "article": "das",
+          "en": "the beer",
+          "jp": "ビール",
+          "kr": "맥주",
+          "my": "ဘီယာ",
+          "th": "เบียร์",
+          "vi": "bia",
+          "example_de": "Auf dem Oktoberfest trinkt man Bier aus einem großen Maßkrug.",
+          "example_en": "At Oktoberfest, people drink beer from a large stein."
+        },
+        {
+          "de": "die Lederhose",
+          "article": "die",
+          "en": "leather trousers (traditional)",
+          "jp": "レーダーホーゼン（伝統的な革の短パン）",
+          "kr": "레더호젠 (전통 가죽 바지)",
+          "my": "လက်ဒါဟိုဇင် (ရိုးရာသားရေဘောင်းဘီ)",
+          "th": "เลเดอร์โฮเซน (กางเกงหนังแบบดั้งเดิม)",
+          "vi": "Lederhosen (quần da truyền thống)",
+          "example_de": "Viele Männer tragen eine Lederhose zum Oktoberfest.",
+          "example_en": "Many men wear Lederhosen to Oktoberfest."
+        },
+        {
+          "de": "das Dirndl",
+          "article": "das",
+          "en": "traditional dress (for women)",
+          "jp": "ディアンドル（女性の伝統的なドレス）",
+          "kr": "디른들 (여성 전통 의상)",
+          "my": "ဒိန်ဒယ် (အမျိုးသမီး ရိုးရာဝတ်စုံ)",
+          "th": "เดิร์นเดิล (ชุดแบบดั้งเดิมสำหรับผู้หญิง)",
+          "vi": "Dirndl (váy truyền thống cho phụ nữ)",
+          "example_de": "Meine Freundin hat ein schönes Dirndl gekauft.",
+          "example_en": "My girlfriend bought a beautiful Dirndl."
+        },
+        {
+          "de": "das Festzelt",
+          "article": "das",
+          "en": "the festival tent / beer tent",
+          "jp": "祭りのテント / ビールテント",
+          "kr": "축제 텐트 / 맥주 텐트",
+          "my": "ပွဲတော်တဲ / ဘီယာတဲ",
+          "th": "เต็นท์เทศกาล / เต็นท์เบียร์",
+          "vi": "lều lễ hội / lều bia",
+          "example_de": "Im Festzelt spielen Blaskapellen traditionelle Musik.",
+          "example_en": "In the beer tent, brass bands play traditional music."
+        },
+        {
+          "de": "die Brezel",
+          "article": "die",
+          "en": "the pretzel",
+          "jp": "プレッツェル",
+          "kr": "프레첼",
+          "my": "ပရက်ဇယ်",
+          "th": "เพรตเซล",
+          "vi": "bánh pretzel",
+          "example_de": "Brezeln sind ein beliebter Snack auf dem Oktoberfest.",
+          "example_en": "Pretzels are a popular snack at Oktoberfest."
+        },
+        {
+          "de": "die Blaskapelle",
+          "article": "die",
+          "en": "the brass band",
+          "jp": "ブラスバンド",
+          "kr": "브라스 밴드",
+          "my": "ကြေးဝါတီးဝိုင်းအဖွဲ့",
+          "th": "วงดนตรีทองเหลือง",
+          "vi": "ban nhạc kèn đồng",
+          "example_de": "Die Blaskapelle spielt bayerische Volksmusik.",
+          "example_en": "The brass band plays Bavarian folk music."
+        }
+      ]
+    },
+    {
+      "id": "karneval",
+      "title": "Karneval (Carnival)",
+      "title_de": "Der Karneval (Fasching)",
+      "image": "/images/karneval.png",
+      "content": "Karneval, often called the 'Fifth Season' (die fünfte Jahreszeit), is one of Germany's most exuberant celebrations. It is primarily held in Cologne (Köln), Düsseldorf, and Mainz, though cities across the Rhineland join in the festivities. The celebration officially begins on November 11 at 11:11 AM, but the wildest celebrations happen during the final week before Ash Wednesday, typically in February. People wear elaborate, funny costumes and masks while parading through the streets. The highlight is Rosenmontag (Rose Monday), featuring massive parades with decorated floats, marching bands, and spectators shouting 'Helau!' or 'Alaaf!' — the traditional carnival greetings.",
+      "content_de": "Der Karneval, oft als die 'fünfte Jahreszeit' bezeichnet, ist eines der ausgelassensten Feste Deutschlands. Er wird hauptsächlich in Köln, Düsseldorf und Mainz gefeiert. Die Höhepunkte sind im Februar mit dem Rosenmontagszug.",
+      "vocabulary": [
+        {
+          "de": "das Kostüm",
+          "article": "das",
+          "en": "the costume",
+          "jp": "コスチューム / 仮装",
+          "kr": "코스튬 / 의상",
+          "my": "ဝတ်စုံ / အဝတ်အစား",
+          "th": "ชุดแต่งกาย / เครื่องแต่งกาย",
+          "vi": "trang phục / bộ đồ hóa trang",
+          "example_de": "Die Kinder tragen lustige Kostüme zum Karneval.",
+          "example_en": "The children wear funny costumes for Carnival."
+        },
+        {
+          "de": "die Maske",
+          "article": "die",
+          "en": "the mask",
+          "jp": "マスク / 仮面",
+          "kr": "마스크 / 가면",
+          "my": "မျက်နှာဖုံး",
+          "th": "หน้ากาก",
+          "vi": "mặt nạ",
+          "example_de": "Viele Leute tragen bunte Masken während des Karnevals.",
+          "example_en": "Many people wear colorful masks during Carnival."
+        },
+        {
+          "de": "der Umzug",
+          "article": "der",
+          "en": "the parade / procession",
+          "jp": "パレード / 行列",
+          "kr": "퍼레이드 / 행렬",
+          "my": "ချီတက်ပွဲ",
+          "th": "ขบวนพาเหรด",
+          "vi": "đoàn diễu hành",
+          "example_de": "Der Rosenmontagsumzug ist der Höhepunkt des Karnevals.",
+          "example_en": "The Rose Monday parade is the highlight of Carnival."
+        },
+        {
+          "de": "die fünfte Jahreszeit",
+          "article": "die",
+          "en": "the fifth season",
+          "jp": "第五の季節",
+          "kr": "다섯 번째 계절",
+          "my": "ပဉ္စမ ရာသီ",
+          "th": "ฤดูกาลที่ห้า",
+          "vi": "mùa thứ năm",
+          "example_de": "Der Karneval wird auch die fünfte Jahreszeit genannt.",
+          "example_en": "Carnival is also called the fifth season."
+        },
+        {
+          "de": "der Rosenmontag",
+          "article": "der",
+          "en": "Rose Monday (main carnival day)",
+          "jp": "ローゼンモンターク（カーニバルのメインの日）",
+          "kr": "로젠몬탁 (카니발의 메인 날)",
+          "my": "ရိုဇင်မွန်တာ့ခ် (ကာနီဗယ်၏ အဓိကနေ့)",
+          "th": "โรเซนมอนทาค (วันหลักของคาร์นิวัล)",
+          "vi": "Rosenmontag (ngày chính của lễ hội hóa trang)",
+          "example_de": "Am Rosenmontag gibt es den großen Karnevalsumzug.",
+          "example_en": "On Rose Monday there is the big carnival parade."
+        },
+        {
+          "de": "feiern",
+          "article": "",
+          "en": "to celebrate",
+          "jp": "祝う / お祝いする",
+          "kr": "축하하다 / 기념하다",
+          "my": "ဆင်နွှဲသည် / ပျော်ပွဲဆင်နွှဲသည်",
+          "th": "เฉลิมฉลอง",
+          "vi": "ăn mừng / kỷ niệm",
+          "example_de": "Die Menschen feiern den Karneval mit Musik und Tanz.",
+          "example_en": "People celebrate Carnival with music and dance."
+        }
+      ]
+    },
+    {
+      "id": "weihnachtsmaerkte",
+      "title": "Christmas Markets (Weihnachtsmärkte)",
+      "title_de": "Die Weihnachtsmärkte",
+      "image": "/images/christmas.png",
+      "content": "When December arrives, almost every city and town in Germany transforms into a winter wonderland with enchanting Christmas markets (Weihnachtsmärkte). These markets are centuries-old traditions, with some dating back to the 14th century. Wooden stalls decorated with twinkling lights and evergreen branches line the town squares, selling handcrafted ornaments, candles, nutcrackers, and other unique gifts. The aroma of warm Glühwein (mulled wine), roasted almonds, and freshly baked Lebkuchen (gingerbread) fills the crisp winter air. The most famous markets include Nuremberg's Christkindlesmarkt, Dresden's Striezelmarkt, and Cologne's market set against the stunning backdrop of its Gothic cathedral.",
+      "content_de": "Im Dezember verwandeln sich fast alle deutschen Städte mit bezaubernden Weihnachtsmärkten in ein Winterwunderland. An Holzständen werden Handwerk, Glühwein und Lebkuchen verkauft. Die berühmtesten Märkte sind in Nürnberg, Dresden und Köln.",
+      "vocabulary": [
+        {
+          "de": "der Weihnachtsmarkt",
+          "article": "der",
+          "en": "the Christmas market",
+          "jp": "クリスマスマーケット",
+          "kr": "크리스마스 마켓",
+          "my": "ခရစ္စမတ်ဈေး",
+          "th": "ตลาดคริสต์มาส",
+          "vi": "chợ Giáng sinh",
+          "example_de": "Der Weihnachtsmarkt in Nürnberg ist weltberühmt.",
+          "example_en": "The Christmas market in Nuremberg is world-famous."
+        },
+        {
+          "de": "der Glühwein",
+          "article": "der",
+          "en": "the mulled wine",
+          "jp": "グリューワイン（ホットワイン）",
+          "kr": "글뤼바인 (따뜻한 와인)",
+          "my": "ဂလူးဝိုင် (အပူစပ်ဝိုင်)",
+          "th": "กลือไวน์ (ไวน์ร้อน)",
+          "vi": "rượu vang nóng",
+          "example_de": "Im Winter trinke ich gern Glühwein auf dem Weihnachtsmarkt.",
+          "example_en": "In winter I like to drink mulled wine at the Christmas market."
+        },
+        {
+          "de": "der Lebkuchen",
+          "article": "der",
+          "en": "the gingerbread",
+          "jp": "レープクーヘン（ジンジャーブレッド）",
+          "kr": "레프쿠헨 (진저브레드)",
+          "my": "လက်ဘ်ကူးခင် (ခရမ်းချဉ်သီးမုန့်)",
+          "th": "เลปคูเค่น (ขนมปังขิง)",
+          "vi": "bánh gừng Lebkuchen",
+          "example_de": "Lebkuchen sind typische Weihnachtssüßigkeiten.",
+          "example_en": "Gingerbread cookies are typical Christmas sweets."
+        },
+        {
+          "de": "das Weihnachten",
+          "article": "das",
+          "en": "Christmas",
+          "jp": "クリスマス",
+          "kr": "크리스마스",
+          "my": "ခရစ္စမတ်",
+          "th": "คริสต์มาส",
+          "vi": "Giáng sinh",
+          "example_de": "Weihnachten ist das wichtigste Fest in Deutschland.",
+          "example_en": "Christmas is the most important festival in Germany."
+        },
+        {
+          "de": "das Kunsthandwerk",
+          "article": "das",
+          "en": "the handicraft",
+          "jp": "工芸品 / 手工芸",
+          "kr": "공예품 / 수공예",
+          "my": "လက်မှုအနုပညာ",
+          "th": "งานฝีมือ / หัตถกรรม",
+          "vi": "đồ thủ công mỹ nghệ",
+          "example_de": "Auf dem Markt gibt es schönes Kunsthandwerk zu kaufen.",
+          "example_en": "At the market there are beautiful handicrafts to buy."
+        },
+        {
+          "de": "die Lichterkette",
+          "article": "die",
+          "en": "the string of lights / fairy lights",
+          "jp": "イルミネーション / 電飾",
+          "kr": "조명 장식 / 전구 줄",
+          "my": "မီးပုံးကြိုး / မီးစည်း",
+          "th": "สายไฟประดับ / ไฟระย้า",
+          "vi": "dây đèn trang trí",
+          "example_de": "Die Lichterketten machen den Weihnachtsmarkt sehr gemütlich.",
+          "example_en": "The fairy lights make the Christmas market very cozy."
+        }
+      ]
+    },
+    {
+      "id": "berlinale",
+      "title": "Berlinale (Berlin International Film Festival)",
+      "title_de": "Die Berlinale (Internationale Filmfestspiele Berlin)",
+      "image": "/images/berlinale.png",
+      "content": "The Berlinale, officially known as the Internationale Filmfestspiele Berlin (Berlin International Film Festival), is one of the world's most prestigious film festivals, alongside Cannes and Venice. Held every February in Berlin, it showcases hundreds of films from around the globe, ranging from art-house cinema to major blockbusters. The festival's highest honor is the coveted 'Goldener Bär' (Golden Bear) award, given to the best film. The Berlinale is unique among major film festivals for its strong public focus — over 300,000 tickets are sold to the general public each year, making it the largest publicly attended film festival in the world. Stars, directors, and film enthusiasts from every corner of the globe converge on Berlin for this spectacular celebration of cinema.",
+      "content_de": "Die Berlinale ist eines der renommiertesten Filmfestivals der Welt. Jeden Februar werden in Berlin Hunderte von Filmen aus aller Welt gezeigt. Der höchste Preis ist der 'Goldene Bär'. Über 300.000 Tickets werden jährlich an das Publikum verkauft.",
+      "vocabulary": [
+        {
+          "de": "der Film",
+          "article": "der",
+          "en": "the film / movie",
+          "jp": "映画",
+          "kr": "영화",
+          "my": "ရုပ်ရှင်",
+          "th": "ภาพยนตร์",
+          "vi": "phim",
+          "example_de": "Auf der Berlinale werden viele internationale Filme gezeigt.",
+          "example_en": "Many international films are shown at the Berlinale."
+        },
+        {
+          "de": "der Goldene Bär",
+          "article": "der",
+          "en": "the Golden Bear (award)",
+          "jp": "金熊賞（ゴールデン・ベア）",
+          "kr": "황금곰상 (골든 베어)",
+          "my": "ရွှေဝက်ဝံဆု (ဂိုးလ်ဒင်ဘဲယား)",
+          "th": "รางวัลหมีทองคำ (โกลเดน แบร์)",
+          "vi": "giải Gấu Vàng (Golden Bear)",
+          "example_de": "Der Goldene Bär ist der wichtigste Preis der Berlinale.",
+          "example_en": "The Golden Bear is the most important award at the Berlinale."
+        },
+        {
+          "de": "das Filmfestival",
+          "article": "das",
+          "en": "the film festival",
+          "jp": "映画祭",
+          "kr": "영화제",
+          "my": "ရုပ်ရှင်ပွဲတော်",
+          "th": "เทศกาลภาพยนตร์",
+          "vi": "liên hoan phim",
+          "example_de": "Das Filmfestival findet jedes Jahr im Februar statt.",
+          "example_en": "The film festival takes place every year in February."
+        },
+        {
+          "de": "der Regisseur",
+          "article": "der",
+          "en": "the director (film)",
+          "jp": "映画監督",
+          "kr": "감독",
+          "my": "ဒါရိုက်တာ",
+          "th": "ผู้กำกับ",
+          "vi": "đạo diễn",
+          "example_de": "Der Regisseur hat den Goldenen Bären gewonnen.",
+          "example_en": "The director won the Golden Bear."
+        },
+        {
+          "de": "der Schauspieler",
+          "article": "der",
+          "en": "the actor",
+          "jp": "俳優",
+          "kr": "배우",
+          "my": "သရုပ်ဆောင်",
+          "th": "นักแสดง",
+          "vi": "diễn viên",
+          "example_de": "Viele berühmte Schauspieler besuchen die Berlinale.",
+          "example_en": "Many famous actors attend the Berlinale."
+        },
+        {
+          "de": "die Premiere",
+          "article": "die",
+          "en": "the premiere",
+          "jp": "プレミア / 初公開",
+          "kr": "프리미어 / 시사회",
+          "my": "ပထမဆုံးပြသမှု",
+          "th": "รอบปฐมทัศน์",
+          "vi": "buổi công chiếu / buổi ra mắt",
+          "example_de": "Die Premiere des neuen Films war ein großer Erfolg.",
+          "example_en": "The premiere of the new film was a great success."
+        }
+      ]
+    }
+  ]
+}

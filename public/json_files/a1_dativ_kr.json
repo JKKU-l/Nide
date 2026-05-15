@@ -1,0 +1,205 @@
+{
+  "title": "Dativ (3격 - 여격)",
+  "description": "독일어의 3격(Dative case, 여격)은 주로 간접 목적어(~에게)를 나타내거나, mit(~와 함께), bei(~에/와 함께), zu(~로)와 같은 특정 전치사 뒤에 사용됩니다.",
+  "sections": [
+    {
+      "id": "article_transformation",
+      "title": "1. 핵심 변형: 관사의 변화",
+      "description": "3격에서는 명사의 성(Gender)에 따라 관사(the/a)의 형태가 바뀝니다.",
+      "content": {
+        "masculine_neutral": {
+          "title": "남성 및 중성 (형태가 동일함)",
+          "description": "남성 명사(der)와 중성 명사(das)의 경우, 정관사 \"the\"는 dem이 됩니다. 부정관사 \"a\"는 einem, 부정어 \"none\"은 keinem이 됩니다.",
+          "examples": [
+            {
+              "english": "나는 그 남자와 함께 간다.",
+              "german": "Ich gehe mit dem Mann.",
+              "note": "남성"
+            },
+            {
+              "english": "나는 한 아이와 함께 논다.",
+              "german": "Ich spiele mit einem Kind.",
+              "note": "중성"
+            }
+          ]
+        },
+        "feminine": {
+          "title": "여성",
+          "description": "여성 명사(die)의 경우, 정관사 \"the\"는 der가 됩니다. 부정관사 \"a\"는 einer, 부정어 \"none\"은 keiner가 됩니다. der가 남성 정관사처럼 보여서 초보자들이 자주 혼동하지만, 3격에서는 엄연히 여성형입니다.",
+          "examples": [
+            {
+              "english": "나는 그 여자와 대화한다.",
+              "german": "Ich spreche mit der Frau."
+            },
+            {
+              "english": "나는 한 여자친구와 여행한다.",
+              "german": "Ich reise mit einer Freundin."
+            }
+          ]
+        },
+        "plural": {
+          "title": "복수",
+          "description": "복수 명사(die)의 경우, 정관사 \"the\"는 den이 됩니다. 복수형에는 부정관사(한 개의 ~들)가 없지만, 부정어 \"none\"은 keinen이 됩니다.",
+          "crucial_rule": "중요 규칙: 3격 복수형에서는 명사 자체의 끝에도 -n을 붙여야 합니다 (단, 명사가 이미 -n이나 -s로 끝나는 경우는 제외).",
+          "examples": [
+            {
+              "english": "나는 손님들과 대화한다.",
+              "german": "Ich spreche mit den Gästen.",
+              "note": "Gäste 뒤에 'n'이 추가된 것에 주목하세요"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "using_mit",
+      "title": "2. \"Mit\" 사용하기 (교통수단 및 사람)",
+      "description": "전치사 mit은 항상 3격을 유도합니다. 이동 수단이나 동행인에 대해 말할 때 관사가 변하는 이유입니다.",
+      "content": {
+        "logic": "원리: mit이 보이면 그 뒤에 오는 탈것이나 사람의 성별을 확인하세요.",
+        "examples": [
+          {
+            "noun": "Der Zug (남성)",
+            "sentence": "Ich fahre mit dem Zug.",
+            "translation": "나는 기차를 타고 간다."
+          },
+          {
+            "noun": "Die U-Bahn (여성)",
+            "sentence": "Ich fahre mit der U-Bahn.",
+            "translation": "나는 지하철을 타고 간다."
+          },
+          {
+            "noun": "Das Auto (중성)",
+            "sentence": "Ich fahre mit dem Auto.",
+            "translation": "나는 차를 타고 간다."
+          },
+          {
+            "noun": "Die Rollschuhe (복수)",
+            "sentence": "Ich fahre mit den Rollschuhen.",
+            "translation": "나는 롤러스케이트를 타고 간다."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_verbs",
+      "title": "3. 3격 지배 동사: 주고 도와주기",
+      "description": "일부 동사들은 대상을 '받는 사람'으로 취급하여 자동으로 3격을 요구합니다. 대표적으로 helfen(돕다), gratulieren(축하하다), schenken(선물하다) 등이 있습니다.",
+      "content": {
+        "helfern": {
+          "verb": "Helfen (돕다)",
+          "examples": [
+            {
+              "english": "그녀는 한 (여성) 동료를 돕는다.",
+              "german": "Sie hilft einer Kollegin."
+            },
+            {
+              "english": "그녀는 부모님을 돕는다.",
+              "german": "Sie hilft den Eltern."
+            }
+          ]
+        },
+        "gratulieren": {
+          "verb": "Gratulieren (축하하다)",
+          "examples": [
+            {
+              "english": "나는 그 아버지를 축하한다.",
+              "german": "Ich gratuliere dem Vater."
+            },
+            {
+              "english": "나는 한 (여성) 친구를 축하한다.",
+              "german": "Ich gratuliere einer Freundin."
+            }
+          ]
+        },
+        "schenken_geben": {
+          "verb": "Schenken / Geben (주다)",
+          "description": "누군가에게 무언가를 줄 때, 사람은 3격, 물건은 4격(Accusative)을 사용합니다.",
+          "examples": [
+            {
+              "english": "그녀는 그 고양이(die Katze)에게 생선 한 마리를 준다.",
+              "german": "Sie gibt der Katze einen Fisch."
+            },
+            {
+              "english": "그녀는 한 아기(das Baby)에게 우유를 준다.",
+              "german": "Sie gibt einem Baby Milch."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "possessive_articles",
+      "title": "4. 3격에서의 소유관사",
+      "description": "소유관사(나의, 너의, 그녀의 등)는 kein이나 ein과 정확히 같은 어미 변화 패턴을 따릅니다.",
+      "content": {
+        "endings": [
+          {
+            "gender": "남성/중성 어미",
+            "ending": "-em",
+            "examples": "meinem, seinem, ihrem"
+          },
+          {
+            "gender": "여성 어미",
+            "ending": "-er",
+            "examples": "meiner, seiner, ihrer"
+          },
+          {
+            "gender": "복수 어미",
+            "ending": "-en",
+            "examples": "meinen, seinen, ihren"
+          }
+        ],
+        "example_context": "파티에 누군가 남자친구와 함께 왔다면: Sie kommt mit ihrem Freund. (Freund가 남성 3격이므로 ihr + em). 그녀가 아이들과 함께 왔다면: Sie kommt mit ihren Kindern. (복수이므로 ihr + en + 명사 뒤 'n')."
+      }
+    },
+    {
+      "id": "location_prepositions",
+      "title": "5. 장소 전치사 (Bei, Zu, Von)",
+      "description": "mit과 마찬가지로 bei(~에서/와 함께), zu(~로), von(~로부터/의) 전치사도 항상 3격을 사용합니다.",
+      "content": {
+        "examples": [
+          {
+            "preposition": "Bei (누구와 머물 때)",
+            "sentence": "Ich bleibe bei den Freunden.",
+            "translation": "나는 친구들 집에 머문다."
+          },
+          {
+            "preposition": "Zu (장소/사람에게 갈 때)",
+            "sentence": "Ich gehe zu einem See.",
+            "translation": "나는 호수에 간다 - 남성 명사"
+          },
+          {
+            "preposition": "Von (~의 소유/출처)",
+            "sentence": "Das Auto von dem Freund.",
+            "translation": "그 친구의 차"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "6. 관사 어미 요약 (암기 팁)",
+      "description": "표 없이도 쉽게 기억하려면 3격 관사 끝의 \"신호 철자\"에 집중하세요:",
+      "content": {
+        "signal_letters": [
+          {
+            "letter": "M",
+            "meaning": "M: 남성과 중성",
+            "examples": "deM / eineM"
+          },
+          {
+            "letter": "R",
+            "meaning": "R: 여성",
+            "examples": "deR / eineR"
+          },
+          {
+            "letter": "N",
+            "meaning": "N: 복수 + 명사 끝에도 N 추가",
+            "examples": "deN / keineN + 명사 끝에도 N 추가"
+          }
+        ]
+      }
+    }
+  ]
+}

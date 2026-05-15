@@ -1,0 +1,196 @@
+{
+  "title": "Akkusativ (ကံပုဒ်)",
+  "sections": [
+    {
+      "id": "what_is_akkusativ",
+      "title": "၁။ Accusative Case (ကံပုဒ်) ဆိုတာ ဘာလဲ?",
+      "description": "ဂျာမန်ဝါကျတစ်ခုမှာ Nominative ကို ပြုလုပ်သူ (Subject) နေရာမှာ သုံးပြီး၊ Accusative ကိုတော့ အပြုခံရသူ သို့မဟုတ် ကံပုဒ် (Direct Object) နေရာမှာ သုံးပါတယ်။",
+      "content": {
+        "example_sentence": {
+          "sentence": "စားပွဲထိုးက ဖျော်ရည်တစ်ခွက်ကို သောက်နေသည်။",
+          "breakdown": [
+            {
+              "part": "စားပွဲထိုး (The waiter)",
+              "role": "ပြုလုပ်သူ (Nominative)"
+            },
+            {
+              "part": "သောက်သည် (Drinks)",
+              "role": "ကြိယာ (Verb)"
+            },
+            {
+              "part": "ဖျော်ရည်တစ်ခွက် (A juice)",
+              "role": "အပြုခံရသည့်အရာ (Accusative)"
+            }
+          ]
+        },
+        "golden_rule": {
+          "title": "Accusative ၏ ရွှေရောင်စည်းမျဉ်း",
+          "description": "Accusative ဖြစ်သွားတဲ့အခါ Masculine (အဖိုပုဒ်) နာမ်တွေရဲ့ Article တွေပဲ ပြောင်းလဲမှု ရှိပါတယ်။ ကျန်တဲ့ Feminine (အမ), Neutral (အလယ်) နဲ့ Plural (အများကိန်း) တွေကတော့ Nominative အတိုင်းပဲ ရှိနေမှာပါ။",
+          "changes": [
+            {
+              "gender": "Masculine ပြောင်းလဲပုံ",
+              "nominative": "der/ein",
+              "accusative": "den/einen"
+            },
+            {
+              "gender": "Neutral ပုံသေ",
+              "nominative": "das/ein",
+              "accusative": "das/ein"
+            },
+            {
+              "gender": "Feminine ပုံသေ",
+              "nominative": "die/eine",
+              "accusative": "die/eine"
+            },
+            {
+              "gender": "Plural ပုံသေ",
+              "nominative": "die/--",
+              "accusative": "die/--"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_indefinite_articles",
+      "title": "၂။ သတ်မှတ်/မသတ်မှတ် Article များ အသုံးပြုခြင်း (Definite/Indefinite)",
+      "description": "တိကျတဲ့အရာတစ်ခုအကြောင်း ပြောရင် Definite Articles (the) ကိုသုံးပြီး၊ ယေဘုယျ တစ်ခုခု သို့မဟုတ် \"တစ်ခု\" လို့ ပြောချင်ရင် Indefinite Articles (a/an) ကို သုံးပါတယ်။",
+      "content": {
+        "masculine_examples": {
+          "title": "Masculine နာမ်များ ပြောင်းလဲပုံ ဥပမာ:",
+          "examples": [
+            {
+              "english": "ကျွန်တော့်မှာ ပတ်စပို့ရှိတယ်",
+              "german": "Ich habe den Pass.",
+              "note": "Masculine \"der\" မှ \"den\" သို့ပြောင်း"
+            },
+            {
+              "english": "ကျွန်တော် ကွန်ပျူတာတစ်လုံး လိုအပ်တယ်",
+              "german": "Ich brauche einen Computer.",
+              "note": "\"ein\" မှ \"einen\" သို့ပြောင်း"
+            }
+          ]
+        },
+        "neutral_feminine_examples": {
+          "title": "Neutral နှင့် Feminine နာမ်များ (မပြောင်းလဲပုံ) ဥပမာ:",
+          "examples": [
+            {
+              "english": "ကျွန်တော် ပေါင်မုန့်ဝယ်တယ်",
+              "german": "Ich kaufe das Brot.",
+              "note": "Neutral \"das\" မပြောင်းလဲပါ"
+            },
+            {
+              "english": "ကျွန်တော် ဝိုင်တစ်ပုလင်း သောက်တယ်",
+              "german": "Ich trinke eine Flasche Wein.",
+              "note": "Feminine \"eine\" မပြောင်းလဲပါ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "negative_articles",
+      "title": "၃။ အငြင်း Article များ (Kein)",
+      "description": "\"မရှိဘူး\" သို့မဟုတ် \"မဟုတ်ဘူး\" လို့ နာမ်တစ်ခုကို ငြင်းဆိုချင်ရင် kein ကို သုံးပါတယ်။ သူက \"ein\" ရဲ့ အပြောင်းအလဲ ပုံစံအတိုင်းပဲ လိုက်ပါတယ်။",
+      "content": {
+        "examples": [
+          {
+            "gender": "Masculine",
+            "english": "ကျွန်တော့်မှာ ခွေးမရှိဘူး။",
+            "german": "Ich habe keinen Hund.",
+            "note": "-en အဆုံးသတ်ကို သတိပြုပါ"
+          },
+          {
+            "gender": "Neutral",
+            "english": "ကျွန်တော့်မှာ ကားမရှိဘူး။",
+            "german": "Ich habe kein Auto."
+          },
+          {
+            "gender": "Feminine",
+            "english": "ကျွန်တော့်မှာ ကြောင်မရှိဘူး။",
+            "german": "Ich habe keine Katze."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asking_questions",
+      "title": "၄။ \"Wen\" နှင့် \"Was\" အသုံးပြုပြီး မေးခွန်းမေးခြင်း",
+      "description": "Direct Object အကြောင်း မေးခွန်းမေးတဲ့အခါ လူလား၊ အရာဝတ္ထုလား ဆိုတာပေါ် မူတည်ပြီး မေးခွန်းစကားလုံး ကွာခြားပါတယ်။",
+      "content": {
+        "question_words": [
+          {
+            "word": "Wen?",
+            "meaning": "ဘယ်သူ့ကိုလဲ",
+            "usage": "လူတွေ အတွက် သုံးပါတယ်။",
+            "example_question": "Wen lieben Sie? (ဘယ်သူ့ကို ချစ်သလဲ?)",
+            "example_answer": "Ich liebe meinen Mann. (ကျွန်တော့်ခင်ပွန်းကို ချစ်ပါတယ်။)"
+          },
+          {
+            "word": "Was?",
+            "meaning": "ဘာလဲ",
+            "usage": "ပစ္စည်း သို့မဟုတ် အရာဝတ္ထုတွေ အတွက် သုံးပါတယ်။",
+            "example_question": "Was trinken Sie? (ဘာသောက်နေတာလဲ?)",
+            "example_answer": "Ich trinke einen Saft. (ဖျော်ရည်သောက်နေတာပါ။)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_and_when",
+      "title": "၅။ ဘယ်အချိန်မှာ ဘာကြောင့် သုံးရတာလဲ?",
+      "description": "Accusative ကို အဓိကအားဖြင့် ကံပုဒ်လိုအပ်တဲ့ ကြိယာတွေ (Transitive Verbs) ကြောင့် သုံးရတာပါ။ A1 အဆင့်မှာ အတွေ့ရများတဲ့ Accusative ကြိယာတွေကတော့-",
+      "content": {
+        "common_verbs": [
+          {
+            "verb": "haben (ရှိသည်)",
+            "example": "Ich habe einen Bruder."
+          },
+          {
+            "verb": "brauchen (လိုအပ်သည်)",
+            "example": "Wir brauchen den Schirm."
+          },
+          {
+            "verb": "essen/trinken (စားသည်/သောက်သည်)",
+            "example": "Er isst einen Apfel."
+          },
+          {
+            "verb": "sehen (မြင်သည်/ကြည့်သည်)",
+            "example": "Ich sehe den Film."
+          },
+          {
+            "verb": "kaufen (ဝယ်သည်)",
+            "example": "Sie kauft das Haus."
+          },
+          {
+            "verb": "lieben (ချစ်သည်)",
+            "example": "Ich liebe meine Familie."
+          }
+        ],
+        "logic_summary": "အရာတစ်ခုခုအပေါ် လုပ်ဆောင်ချက်တစ်ခုခု လုပ်နေပြီဆိုရင် (ဝယ်တာ၊ စားတာ၊ ကြည့်တာ၊ ပိုင်ဆိုင်တာ) အဲ့ဒီ \"အရာ\" သည် Accusative ဖြစ်ရပါမယ်။ အဲ့ဒီအရာက Masculine ဖြစ်နေရင် article မှာ -en ပေါင်းပေးရမှာဖြစ်ပြီး၊ Feminine ဒါမှမဟုတ် Neutral ဆိုရင်တော့ မပြောင်းလဲဘဲ မူလအတိုင်း ထားရုံပါပဲ။"
+      }
+    },
+    {
+      "id": "context_example",
+      "title": "၆။ အခြေအနေအရ ဥပမာ- \"အိမ်မွေးတိရစ္ဆာန်\" logic",
+      "description": "စာကြောင်းထဲက အခန်းကဏ္ဍပေါ်မူတည်ပြီး Case ဘယ်လိုပြောင်းသွားလဲဆိုတာ ကြည့်ပါ-",
+      "content": {
+        "examples": [
+          {
+            "sentence": "အခု ကျွန်တော့်မှာ ခွေးတစ်ကောင် ရှိပြီ။",
+            "german": "Jetzt habe ich einen Hund",
+            "case": "Accusative",
+            "reason": "\"ရှိသည်/haben\" က အပြုခံကံပုဒ် လိုအပ်လို့ Accusative သုံးထားပါတယ်"
+          },
+          {
+            "sentence": "ဒီခွေးလေးက အရမ်းချစ်ဖို့ကောင်းတယ်။",
+            "german": "Der Hund ist sehr süß",
+            "case": "Nominative",
+            "reason": "ဒီနေရာမှာ ခွေးက ဝါကျရဲ့ အဓိကပြုလုပ်သူ/Subject ဖြစ်သွားလို့ Nominative ပြန်ဖြစ်သွားပါတယ်"
+          }
+        ],
+        "key_insight": "ဒါကိုကြည့်ခြင်းအားဖြင့် ဂျာမန် Case တွေဟာ စကားလုံးအပေါ်မှာတင် မူတည်တာမဟုတ်ဘဲ၊ အဲ့ဒီစကားလုံးက ဝါကျထဲမှာ ဘာအလုပ်လုပ်နေလဲ ဆိုတာပေါ်မှာ မူတည်ကြောင်း သိနိုင်ပါတယ်။"
+      }
+    }
+  ]
+}

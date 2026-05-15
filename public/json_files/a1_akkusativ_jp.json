@@ -1,0 +1,196 @@
+{
+  "title": "Akkusativ (対格)",
+  "sections": [
+    {
+      "id": "what_is_akkusativ",
+      "title": "1. 対格（4格/Akkusativ）とは？",
+      "description": "ドイツ語の文章では、主格（1格/Nominative）は「主語（動作を行う人や物）」を表します。一方、対格（4格/Accusative）は「直接目的語（動作を直接受ける人や物）」を表します。日本語の「〜を」に相当することが多いです。",
+      "content": {
+        "example_sentence": {
+          "sentence": "給仕（ウェイター）がジュースを飲む。",
+          "breakdown": [
+            {
+              "part": "給仕（The waiter）",
+              "role": "主語（主格）"
+            },
+            {
+              "part": "飲む（Drinks）",
+              "role": "動詞"
+            },
+            {
+              "part": "ジュース（A juice）",
+              "role": "直接目的語（対格）"
+            }
+          ]
+        },
+        "golden_rule": {
+          "title": "対格の鉄則",
+          "description": "対格で冠詞の形が変化するのは、男性名詞だけです。女性名詞、中性名詞、および複数形の名詞は、主格のときと全く同じ形を保ちます。",
+          "changes": [
+            {
+              "gender": "男性名詞（変化あり）",
+              "nominative": "der/ein",
+              "accusative": "den/einen"
+            },
+            {
+              "gender": "中性名詞（変化なし）",
+              "nominative": "das/ein",
+              "accusative": "das/ein"
+            },
+            {
+              "gender": "女性名詞（変化なし）",
+              "nominative": "die/eine",
+              "accusative": "die/eine"
+            },
+            {
+              "gender": "複数形（変化なし）",
+              "nominative": "die/--",
+              "accusative": "die/--"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_indefinite_articles",
+      "title": "2. 定冠詞と不定冠詞の使い方",
+      "description": "特定のものを指すときは定冠詞（the）を使い、不特定の「何か一つ」や「ある」ものを指すときは不定冠詞（a/an）を使います。",
+      "content": {
+        "masculine_examples": {
+          "title": "男性名詞の例（形が変わる）:",
+          "examples": [
+            {
+              "english": "私はそのパスポートを持っています",
+              "german": "Ich habe den Pass.",
+              "note": "男性名詞の \"der\" が \"den\" に変化"
+            },
+            {
+              "english": "私はコンピューターが一台必要です",
+              "german": "Ich brauche einen Computer.",
+              "note": "男性名詞の \"ein\" が \"einen\" に変化"
+            }
+          ]
+        },
+        "neutral_feminine_examples": {
+          "title": "中性・女性名詞の例（形が変わらない）:",
+          "examples": [
+            {
+              "english": "私はそのパンを買います",
+              "german": "Ich kaufe das Brot.",
+              "note": "中性名詞の \"das\" は \"das\" のまま"
+            },
+            {
+              "english": "私はワインを1瓶飲みます",
+              "german": "Ich trinke eine Flasche Wein.",
+              "note": "女性名詞の \"eine\" は \"eine\" のまま"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "negative_articles",
+      "title": "3. 否定冠詞 (kein)",
+      "description": "「〜がない」「一つも〜ない」と名詞を否定したいときは kein を使います。これは \"ein\" と全く同じ語尾変化をします。",
+      "content": {
+        "examples": [
+          {
+            "gender": "男性名詞",
+            "english": "私は犬を飼っていません。",
+            "german": "Ich habe keinen Hund.",
+            "note": "語尾が -en になることに注目"
+          },
+          {
+            "gender": "中性名詞",
+            "english": "私は車を持っていません。",
+            "german": "Ich habe kein Auto."
+          },
+          {
+            "gender": "女性名詞",
+            "english": "私は猫を飼っていません。",
+            "german": "Ich habe keine Katze."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asking_questions",
+      "title": "4. 疑問詞: \"Wen\"（誰を） vs. \"Was\"（何を）",
+      "description": "直接目的語について質問する場合、人か物かによって疑問詞を使い分けます。",
+      "content": {
+        "question_words": [
+          {
+            "word": "Wen?",
+            "meaning": "誰を",
+            "usage": "人に対して使います。",
+            "example_question": "Wen lieben Sie?（あなたは誰を愛していますか？）",
+            "example_answer": "Ich liebe meinen Mann.（夫を愛しています）"
+          },
+          {
+            "word": "Was?",
+            "meaning": "何を",
+            "usage": "物や事柄に対して使います。",
+            "example_question": "Was trinken Sie?（あなたは何を飲んでいますか？）",
+            "example_answer": "Ich trinke einen Saft.（ジュースを飲んでいます）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_and_when",
+      "title": "5. なぜ、いつ使うのか？",
+      "description": "対格は主に他動詞によって引き起こされます。他動詞とは、意味を成立させるために目的語を必要とする動詞のことです。A1レベルでよく使われる対格支配の動詞は以下の通りです。",
+      "content": {
+        "common_verbs": [
+          {
+            "verb": "haben（持っている）",
+            "example": "Ich habe einen Bruder."
+          },
+          {
+            "verb": "brauchen（必要とする）",
+            "example": "Wir brauchen den Schirm."
+          },
+          {
+            "verb": "essen/trinken（食べる/飲む）",
+            "example": "Er isst einen Apfel."
+          },
+          {
+            "verb": "sehen（見る）",
+            "example": "Ich sehe den Film."
+          },
+          {
+            "verb": "kaufen（買う）",
+            "example": "Sie kauft das Haus."
+          },
+          {
+            "verb": "lieben（愛する）",
+            "example": "Ich liebe meine Familie."
+          }
+        ],
+        "logic_summary": "何かに対してアクションを起こす場合（買う、食べる、見る、所有するなど）、その「何か」は対格になります。その名詞が男性名詞なら冠詞に -en を付け、女性や中性なら単語リストで覚えた通りの形のまま使います。"
+      }
+    },
+    {
+      "id": "context_example",
+      "title": "6. 文脈による例：「ペット」の論理",
+      "description": "文章の中で名詞の役割が変わると、格も変わります。",
+      "content": {
+        "examples": [
+          {
+            "sentence": "今、私は一匹の犬を飼っています。",
+            "german": "Jetzt habe ich einen Hund",
+            "case": "Accusative",
+            "reason": "「飼っている/持っている」の目的語なので対格"
+          },
+          {
+            "sentence": "その犬はとても可愛いです。",
+            "german": "Der Hund ist sehr süß",
+            "case": "Nominative",
+            "reason": "犬が文章の主語になったので主格"
+          }
+        ],
+        "key_insight": "これは、格が単語そのもので決まるのではなく、その文章の中でその単語がどのような役割を果たしているかによって決まるということを示しています。"
+      }
+    }
+  ]
+}

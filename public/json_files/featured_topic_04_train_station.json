@@ -1,0 +1,39 @@
+{
+  "month": 4,
+  "title_en": "At the Train Station",
+  "title_de": "Im Bahnhof",
+  "icon": "🚂",
+  "theme_color": "#F59E0B",
+  "subtopics": [
+    {
+      "id": "getting_a_ticket",
+      "title": "Getting a Ticket",
+      "content": ""
+    },
+    {
+      "id": "different_types_of_trains",
+      "title": "Different Types of Trains",
+      "content": ""
+    },
+    {
+      "id": "waiting_for_the_train",
+      "title": "Waiting for the Train",
+      "content": ""
+    },
+    {
+      "id": "checking_your_luggage",
+      "title": "Checking Your Luggage",
+      "content": ""
+    },
+    {
+      "id": "getting_on_the_train",
+      "title": "Getting on the Train",
+      "content": ""
+    },
+    {
+      "id": "on_the_train",
+      "title": "On the Train",
+      "content": ""
+    }
+  ]
+}

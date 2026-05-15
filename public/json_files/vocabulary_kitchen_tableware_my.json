@@ -1,0 +1,33 @@
+{
+  "theme_color": "#00BCD4",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Glas", "myanmar": "ဖန်ခွက်", "article": "das", "word": "Glas", "emoji": "🥃"},
+        {"german": "die Flasche", "myanmar": "ပုလင်း", "article": "die", "word": "Flasche", "emoji": "🍾"},
+        {"german": "das Geschirr", "myanmar": "ပန်းကန်ခွက်ယောက်များ", "article": "das", "word": "Geschirr", "emoji": "🍽️"},
+        {"german": "die Tasse", "myanmar": "ကော်ဖီခွက် / လက်ဖက်ရည်ခွက်", "article": "die", "word": "Tasse", "emoji": "☕"},
+        {"german": "die Untertasse", "myanmar": "ပန်းကန်ပြားအောက်ခံခွက်", "article": "die", "word": "Untertasse", "emoji": "☕︎"},
+        {"german": "der Teller", "myanmar": "ပန်းကန်ပြား", "article": "der", "word": "Teller", "emoji": "🍽️"},
+        {"german": "das Besteck", "myanmar": "ဇွန်း၊ ခက်ရင်း၊ ဓား အစုံ", "article": "das", "word": "Besteck", "emoji": "🍴"},
+        {"german": "das Messer", "myanmar": "ဓား", "article": "das", "word": "Messer", "emoji": "🔪"},
+        {"german": "die Gabel", "myanmar": "ခက်ရင်း", "article": "die", "word": "Gabel", "emoji": "🍴"},
+        {"german": "der Löffel", "myanmar": "ဇွန်း", "article": "der", "word": "Löffel", "emoji": "🥄"},
+        {"german": "der Teelöffel", "myanmar": "လက်ဖက်ရည်ဇွန်း", "article": "der", "word": "Teelöffel", "emoji": "🥄"},
+        {"german": "der Geschmack", "myanmar": "အရသာ", "article": "der", "word": "Geschmack", "emoji": "👅"},
+        {"german": "sauer", "myanmar": "ချဉ်သော", "article": "", "word": "sauer", "emoji": "🍋"},
+        {"german": "süß", "myanmar": "ချိုသော", "article": "", "word": "süß", "emoji": "🍬"},
+        {"german": "scharf", "myanmar": "စပ်သော", "article": "", "word": "scharf", "emoji": "🌶️"},
+        {"german": "salzig", "myanmar": "ငန်သော", "article": "", "word": "salzig", "emoji": "🧂"},
+        {"german": "die Küche", "myanmar": "မီးဖိုချောင်", "article": "die", "word": "Küche", "emoji": "🍳"},
+        {"german": "kochen", "myanmar": "ချက်ပြုတ်သည်", "article": "", "word": "kochen", "emoji": "👨‍🍳"},
+        {"german": "der Herd", "myanmar": "မီးဖို", "article": "der", "word": "Herd", "emoji": "🔥"},
+        {"german": "der Ofen", "myanmar": "ပေါင်းဖို / အာဗင်", "article": "der", "word": "Ofen", "emoji": "🔥"},
+        {"german": "das Restaurant", "myanmar": "စားသောက်ဆိုင်", "article": "das", "word": "Restaurant", "emoji": "🍴"},
+        {"german": "der Kellner / die Kellnerin", "myanmar": "စားပွဲထိုး (ကျား/မ)", "article": "der", "word": "Kellner", "emoji": "💁"},
+        {"german": "bestellen", "myanmar": "မှာယူသည်", "article": "", "word": "bestellen", "emoji": "📋"},
+        {"german": "die Speisekarte", "myanmar": "စားသောက်ဖွယ်ရာစာရင်း (မီနူး)", "article": "die", "word": "Speisekarte", "emoji": "📜"}
+      ]
+    }
+  ]
+}

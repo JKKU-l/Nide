@@ -1,0 +1,36 @@
+{
+  "theme_color": "#9C27B0",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Kleidung", "korean": "옷 / 의류", "article": "die", "word": "Kleidung", "emoji": "👚"},
+        {"german": "das Kleid", "korean": "드레스 / 원피스", "article": "das", "word": "Kleid", "emoji": "👗"},
+        {"german": "der Anzug", "korean": "정장 / 양복", "article": "der", "word": "Anzug", "emoji": "🤵"},
+        {"german": "die Hose", "korean": "바지", "article": "die", "word": "Hose", "emoji": "👖"},
+        {"german": "die Bluse", "korean": "블라우스", "article": "die", "word": "Bluse", "emoji": "👚"},
+        {"german": "die Krawatte", "korean": "넥타이", "article": "die", "word": "Krawatte", "emoji": "👔"},
+        {"german": "der Rock", "korean": "치마 / 스커트", "article": "der", "word": "Rock", "emoji": "👗"},
+        {"german": "das Hemd", "korean": "셔츠 / 남방", "article": "das", "word": "Hemd", "emoji": "👕"},
+        {"german": "das Kostüm", "korean": "여성 정장 / 코스튬", "article": "das", "word": "Kostüm", "emoji": "👩‍💼"},
+        {"german": "der Pullover", "korean": "스웨터 / 풀오버", "article": "der", "word": "Pullover", "emoji": "🧶"},
+        {"german": "die Jeans", "korean": "청바지", "article": "die", "word": "Jeans", "emoji": "👖"},
+        {"german": "die Mütze", "korean": "모자 / 비니", "article": "die", "word": "Mütze", "emoji": "🧢"},
+        {"german": "die Weste", "korean": "조끼 / 베스트", "article": "die", "word": "Weste", "emoji": "🦺"},
+        {"german": "die Jacke", "korean": "재킷 / 잠바", "article": "die", "word": "Jacke", "emoji": "🧥"},
+        {"german": "der Handschuh", "korean": "장갑", "article": "der", "word": "Handschuh", "emoji": "🧤"},
+        {"german": "das T-Shirt", "korean": "티셔츠", "article": "das", "word": "T-Shirt", "emoji": "👕"},
+        {"german": "der Mantel", "korean": "코트 / 외투", "article": "der", "word": "Mantel", "emoji": "🧥"},
+        {"german": "der Schal", "korean": "목도리 / 스카프", "article": "der", "word": "Schal", "emoji": "🧣"},
+        {"german": "der Gürtel", "korean": "벨트 / 허리띠", "article": "der", "word": "Gürtel", "emoji": "🥋"},
+        {"german": "der Strumpf", "korean": "스타킹 / 긴 양말", "article": "der", "word": "Strumpf", "emoji": "🧦"},
+        {"german": "der Unterrock", "korean": "속치마", "article": "der", "word": "Unterrock", "emoji": "👙"},
+        {"german": "der Schuh", "korean": "신발 / 구두", "article": "der", "word": "Schuh", "emoji": "👟"},
+        {"german": "das Unterhemd", "korean": "러닝셔츠 / 속옷 상의", "article": "das", "word": "Unterhemd", "emoji": "👕"},
+        {"german": "sich ausziehen", "korean": "옷을 벗다", "article": "", "word": "sich ausziehen", "emoji": "🚿"},
+        {"german": "der Stiefel", "korean": "부츠 / 장화", "article": "der", "word": "Stiefel", "emoji": "👢"},
+        {"german": "die Unterhose", "korean": "팬츠 / 속옷 하의", "article": "die", "word": "Unterhose", "emoji": "🩲"},
+        {"german": "sich anziehen", "korean": "옷을 입다", "article": "", "word": "sich anziehen", "emoji": "👔"}
+      ]
+    }
+  ]
+}

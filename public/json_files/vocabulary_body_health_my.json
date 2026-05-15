@@ -1,0 +1,157 @@
+{
+  "title": "ခန္ဓာကိုယ်နှင့် ကျန်းမာရေး",
+  "description": "ဂျာမန်စာတွင် ခန္ဓာကိုယ်အစိတ်အပိုင်းများနှင့် ကျန်းမာရေးဆိုင်ရာ အသုံးအနှုန်းများကို လေ့လာပါ။",
+  "image": "assets/images/body_and_health.png",
+  "vocabulary": [
+    {
+      "german": "der Körper",
+      "myanmar": "ခန္ဓာကိုယ်",
+      "article": "der",
+      "word": "Körper"
+    },
+    {
+      "german": "der Kopf",
+      "myanmar": "ခေါင်း",
+      "article": "der",
+      "word": "Kopf"
+    },
+    {
+      "german": "die Brust",
+      "myanmar": "ရင်ဘတ်",
+      "article": "die",
+      "word": "Brust"
+    },
+    {
+      "german": "das Bein",
+      "myanmar": "ခြေထောက်",
+      "article": "das",
+      "word": "Bein"
+    },
+    {
+      "german": "der Fuß",
+      "myanmar": "ခြေဖဝါး",
+      "article": "der",
+      "word": "Fuß"
+    },
+    {
+      "german": "der Hals",
+      "myanmar": "လည်ပင်း",
+      "article": "der",
+      "word": "Hals"
+    },
+    {
+      "german": "der Bauch",
+      "myanmar": "ဗိုက် / ဝမ်းဗိုက်",
+      "article": "der",
+      "word": "Bauch"
+    },
+    {
+      "german": "das Knie",
+      "myanmar": "ဒူး",
+      "article": "das",
+      "word": "Knie"
+    },
+    {
+      "german": "der Zeh",
+      "myanmar": "ခြေချောင်း",
+      "article": "der",
+      "word": "Zeh"
+    },
+    {
+      "german": "der Rücken",
+      "myanmar": "ကျောကုန်း",
+      "article": "der",
+      "word": "Rücken"
+    },
+    {
+      "german": "die Schulter",
+      "myanmar": "ပုခုံး",
+      "article": "die",
+      "word": "Schulter"
+    },
+    {
+      "german": "der Arm",
+      "myanmar": "လက်မောင်း",
+      "article": "der",
+      "word": "Arm"
+    },
+    {
+      "german": "der Ellbogen",
+      "myanmar": "တံတောင်ဆစ်",
+      "article": "der",
+      "word": "Ellbogen"
+    },
+    {
+      "german": "der Po",
+      "myanmar": "တင်ပါး",
+      "article": "der",
+      "word": "Po"
+    },
+    {
+      "german": "die Hand",
+      "myanmar": "လက်",
+      "article": "die",
+      "word": "Hand"
+    },
+    {
+      "german": "der Finger",
+      "myanmar": "လက်ချောင်း",
+      "article": "der",
+      "word": "Finger"
+    },
+    {
+      "german": "das Gesicht",
+      "myanmar": "မျက်နှာ",
+      "article": "das",
+      "word": "Gesicht"
+    },
+    {
+      "german": "das Haar",
+      "myanmar": "ဆံပင်",
+      "article": "das",
+      "word": "Haar"
+    },
+    {
+      "german": "die Nase",
+      "myanmar": "နှာခေါင်း",
+      "article": "die",
+      "word": "Nase"
+    },
+    {
+      "german": "der Mund",
+      "myanmar": "ပါးစပ်",
+      "article": "der",
+      "word": "Mund"
+    },
+    {
+      "german": "die Lippe",
+      "myanmar": "နှုတ်ခမ်း",
+      "article": "die",
+      "word": "Lippe"
+    },
+    {
+      "german": "das Auge",
+      "myanmar": "မျက်လုံး",
+      "article": "das",
+      "word": "Auge"
+    },
+    {
+      "german": "das Ohr",
+      "myanmar": "နား",
+      "article": "das",
+      "word": "Ohr"
+    },
+    {
+      "german": "die Zunge",
+      "myanmar": "လျှာ",
+      "article": "die",
+      "word": "Zunge"
+    },
+    {
+      "german": "der Zahn",
+      "myanmar": "သွား",
+      "article": "der",
+      "word": "Zahn"
+    }
+  ]
+}

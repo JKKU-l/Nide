@@ -1,0 +1,37 @@
+{
+  "theme_color": "#2196F3",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Adresse", "thai": "ที่อยู่", "article": "die", "word": "Adresse", "emoji": "📍"},
+        {"german": "der Name", "thai": "ชื่อ", "article": "der", "word": "Name", "emoji": "👤"},
+        {"german": "der Vorname", "thai": "ชื่อจริง", "article": "der", "word": "Vorname", "emoji": "📛"},
+        {"german": "der Familienname", "thai": "นามสกุล", "article": "der", "word": "Familienname", "emoji": "🏷️"},
+        {"german": "die Straße", "thai": "ถนน", "article": "die", "word": "Straße", "emoji": "🛣️"},
+        {"german": "die Nummer", "thai": "หมายเลข", "article": "die", "word": "Nummer", "emoji": "🔢"},
+        {"german": "der Ort", "thai": "สถานที่", "article": "der", "word": "Ort", "emoji": "🏙️"},
+        {"german": "die Postleitzahl", "thai": "รหัสไปรษณีย์", "article": "die", "word": "Postleitzahl", "emoji": "📮"},
+        {"german": "der Geburtsort", "thai": "สถานที่เกิด", "article": "der", "word": "Geburtsort", "emoji": "🐣"},
+        {"german": "das Geburtsjahr", "thai": "ปีเกิด", "article": "das", "word": "Geburtsjahr", "emoji": "📅"},
+        {"german": "das Geburtsdatum", "thai": "วันเดือนปีเกิด", "article": "das", "word": "Geburtsdatum", "emoji": "🗓️"},
+        {"german": "männlich", "thai": "ชาย", "article": "", "word": "männlich", "emoji": "♂️"},
+        {"german": "weiblich", "thai": "หญิง", "article": "", "word": "weiblich", "emoji": "♀️"},
+        {"german": "das Formular", "thai": "แบบฟอร์ม", "article": "das", "word": "Formular", "emoji": "📄"},
+        {"german": "das Alter", "thai": "อายุ", "article": "das", "word": "Alter", "emoji": "🎂"},
+        {"german": "unterschreiben", "thai": "เซ็นชื่อ", "article": "", "word": "unterschreiben", "emoji": "✍️"},
+        {"german": "ausfüllen", "thai": "กรอกข้อมูล", "article": "", "word": "ausfüllen", "emoji": "🖋️"},
+        {"german": "heißen", "thai": "ชื่อว่า", "article": "", "word": "heißen", "emoji": "🗣️"},
+        {"german": "die Unterschrift", "thai": "ลายเซ็น", "article": "die", "word": "Unterschrift", "emoji": "🖋️"},
+        {"german": "der Familienstand", "thai": "สถานภาพสมรส", "article": "der", "word": "Familienstand", "emoji": "💍"},
+        {"german": "geschieden", "thai": "หย่าร้าง", "article": "", "word": "geschieden", "emoji": "💔"},
+        {"german": "die Papiere", "thai": "เอกสาร", "article": "die", "word": "Papiere", "emoji": "📑"},
+        {"german": "ledig", "thai": "โสด", "article": "", "word": "ledig", "emoji": "🙋‍♂️"},
+        {"german": "verwitwet", "thai": "เป็นหม้าย", "article": "", "word": "verwitwet", "emoji": "🖤"},
+        {"german": "der Ausweis", "thai": "บัตรประจำตัวประชาชน", "article": "der", "word": "Ausweis", "emoji": "🆔"},
+        {"german": "verheiratet", "thai": "แต่งงานแล้ว", "article": "", "word": "verheiratet", "emoji": "👩‍❤️‍👨"},
+        {"german": "heiraten", "thai": "แต่งงาน", "article": "", "word": "heiraten", "emoji": "💒"},
+        {"german": "der Pass", "thai": "หนังสือเดินทาง", "article": "der", "word": "Pass", "emoji": "🛂"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Daily Routine & Time",
+  "emoji": "⏰",
+  "theme_color": "#2196F3",
+  "description": "Daily activities and time expressions vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "aufstehen", "myanmar": "အိပ်ရာထသည်", "example_german": "Ich stehe jeden Morgen um sechs Uhr auf.", "example_myanmar": "ကျွန်တော် မနက်တိုင်း ၆ နာရီမှာ အိပ်ရာထပါတယ်။"},
+          {"german": "aufwachen", "myanmar": "နိုးသည်", "example_german": "Ich wache meistens vor dem Wecker auf.", "example_myanmar": "ကျွန်တော် အများအားဖြင့် နှိုးစက်မမြည်ခင် နိုးတတ်ပါတယ်။"},
+          {"german": "schlafen", "myanmar": "အိပ်သည်", "example_german": "Am Wochenende möchte ich lange schlafen.", "example_myanmar": "ပိတ်ရက်မှာ ကျွန်တော် အကြာကြီး အိပ်ချင်ပါတယ်။"},
+          {"german": "einschlafen", "myanmar": "အိပ်ပျော်သွားသည်", "example_german": "Er kann ohne Musik nicht einschlafen.", "example_myanmar": "သူက သီချင်းမပါရင် အိပ်မပျော်နိုင်ပါဘူး။"},
+          {"german": "frühstücken", "myanmar": "မနက်စာစားသည်", "example_german": "Wir frühstücken heute gemütlich auf dem Balkon.", "example_myanmar": "ဒီနေ့ ကျွန်တော်တို့ ဝရံတာမှာ အေးအေးဆေးဆေး မနက်စာ စားကြမယ်။"},
+          {"german": "mittagessen", "myanmar": "နေ့လယ်စာစားသည်", "example_german": "Um 12 Uhr essen wir in der Kantine zu Mittag.", "example_myanmar": "၁၂ နာရီမှာ ကျွန်တော်တို့ ထမင်းစားဆောင်မှာ နေ့လယ်စာ စားကြပါတယ်။"},
+          {"german": "abendessen", "myanmar": "ညစာစားသည်", "example_german": "Was esst ihr heute zu Abend?", "example_myanmar": "ဒီနေ့ ညစာအတွက် မင်းတို့ ဘာစားကြမှာလဲ။"},
+          {"german": "arbeiten", "myanmar": "အလုပ်လုပ်သည်", "example_german": "Mein Bruder arbeitet bei einer Bank.", "example_myanmar": "ကျွန်တော့်အစ်ကိုက ဘဏ်တစ်ခုမှာ အလုပ်လုပ်ပါတယ်။"},
+          {"german": "beginnen", "myanmar": "စတင်သည်", "example_german": "Die Vorlesung beginnt pünktlich.", "example_myanmar": "သင်ခန်းစာက အချိန်မှန် စတင်ပါတယ်။"},
+          {"german": "enden", "myanmar": "ပြီးဆုံးသည်", "example_german": "Wann endet dein Arbeitstag?", "example_myanmar": "မင်းရဲ့ အလုပ်ချိန်က ဘယ်အချိန်မှာ ပြီးဆုံးသလဲ။"},
+          {"german": "anfangen", "myanmar": "စတင်သည် (beginnen နှင့် အဓိပ္ပာယ်တူ)", "example_german": "Der Film fängt in zehn Minuten an.", "example_myanmar": "ရုပ်ရှင်က ၁၀ မိနစ်အတွင်း စပါတော့မယ်။"},
+          {"german": "aufhören", "myanmar": "ရပ်တန့်သည်", "example_german": "Es hört endlich auf zu regnen.", "example_myanmar": "နောက်ဆုံးတော့ မိုးတိတ်သွားပြီ။"},
+          {"german": "kommen", "myanmar": "လာသည်", "example_german": "Kommst du heute Abend zur Party?", "example_myanmar": "မင်း ဒီနေ့ည ပါတီကို လာမှာလား။"},
+          {"german": "gehen", "myanmar": "သွားသည်", "example_german": "Ich gehe jetzt in den Supermarkt.", "example_myanmar": "ကျွန်တော် အခု စူပါမားကတ်ကို သွားတော့မယ်။"},
+          {"german": "zurückkommen", "myanmar": "ပြန်လာသည်", "example_german": "Er kommt erst spät nach Hause zurück.", "example_myanmar": "သူက အိမ်ကို နောက်ကျမှ ပြန်ရောက်လာတတ်တယ်။"},
+          {"german": "bleiben", "myanmar": "နေထိုင်သည် / ကျန်ရှိသည်", "example_german": "Wir bleiben wegen des Wetters drinnen.", "example_myanmar": "ရာသီဥတုကြောင့် ကျွန်တော်တို့ အထဲမှာပဲ နေကြမယ်။"},
+          {"german": "warten", "myanmar": "စောင့်သည်", "example_german": "Ich warte schon seit einer Stunde auf dich.", "example_myanmar": "ကျွန်တော် မင်းကို စောင့်နေတာ တစ်နာရီရှိပြီ။"},
+          {"german": "eilen", "myanmar": "လောသည် / မြန်မြန်လုပ်သည်", "example_german": "Wir müssen uns beeilen, sonst verpassen wir den Bus.", "example_myanmar": "ကျွန်တော်တို့ မြန်မြန်လုပ်မှရမယ်၊ မဟုတ်ရင် ဘတ်စ်ကား လွတ်သွားလိမ့်မယ်။"},
+          {"german": "planen", "myanmar": "စီစဉ်သည်", "example_german": "Wir planen unsere nächste Reise nach Berlin.", "example_myanmar": "ကျွန်တော်တို့ ဘာလင်ကိုသွားဖို့ နောက်ထပ်ခရီးစဉ်ကို စီစဉ်နေပါတယ်။"},
+          {"german": "vorbereiten", "myanmar": "ပြင်ဆင်သည်", "example_german": "Sie bereitet die Präsentation für morgen vor.", "example_myanmar": "သူမက မနက်ဖြန်အတွက် တင်ပြချက်ကို ပြင်ဆင်နေပါတယ်။"},
+          {"german": "vergessen", "myanmar": "မေ့လျော့သည်", "example_german": "Ich habe meinen Schlüssel zu Hause vergessen.", "example_myanmar": "ကျွန်တော် အိမ်မှာ သော့မေ့ခဲ့တယ်။"},
+          {"german": "erinnern", "myanmar": "သတိရသည် / မှတ်မိသည်", "example_german": "Ich erinnere mich gern an meinen Urlaub.", "example_myanmar": "ကျွန်တော့်ရဲ့ အားလပ်ရက်ခရီးစဉ်ကို ကျွန်တော် ပြန်လည်သတိရရတာ နှစ်သက်ပါတယ်။"},
+          {"german": "wiederholen", "myanmar": "ထပ်ခါတလဲလဲလုပ်သည် / ပြန်ပြောသည်", "example_german": "Können Sie das bitte noch einmal wiederholen?", "example_myanmar": "ဒါကို နောက်တစ်ခေါက်လောက် ပြန်ပြောပေးလို့ ရမလားခင်ဗျာ။"},
+          {"german": "prüfen", "myanmar": "စစ်ဆေးသည်", "example_german": "Der Mechaniker prüft den Motor.", "example_myanmar": "စက်ပြင်ဆရာက အင်ဂျင်ကို စစ်ဆေးနေပါတယ်။"},
+          {"german": "notieren", "myanmar": "မှတ်သားသည်", "example_german": "Bitte notieren Sie sich meine Telefonnummer.", "example_myanmar": "ကျေးဇူးပြုပြီး ကျွန်တော့်ရဲ့ ဖုန်းနံပါတ်ကို မှတ်ထားပေးပါ။"},
+          {"german": "organisieren", "myanmar": "စီစဉ်ပြင်ဆင်သည်", "example_german": "Wer organisiert dieses Jahr das Weihnachtsfest?", "example_myanmar": "ဒီနှစ် ခရစ္စမတ်ပွဲကို ဘယ်သူက စီစဉ်မှာလဲ။"},
+          {"german": "ausruhen", "myanmar": "အနားယူသည်", "example_german": "Nach dem Sport muss ich mich kurz ausruhen.", "example_myanmar": "အားကစားလုပ်ပြီးနောက် ခဏလောက် အနားယူဖို့ လိုပါတယ်။"},
+          {"german": "entspannen", "myanmar": "စိတ်အပန်းဖြေသည်", "example_german": "Ein heißes Bad hilft mir zu entspannen.", "example_myanmar": "ရေနွေးနဲ့ ချိုးရတာက ကျွန်တော့်ကို စိတ်အပန်းပြေစေပါတယ်။"},
+          {"german": "duschen", "myanmar": "ရေချိုးသည် (ရေပန်းနှင့်)", "example_german": "Ich dusche lieber morgens als abends.", "example_myanmar": "ကျွန်တော်က ညဘက်ထက် မနက်ဘက် ရေချိုးရတာကို ပိုကြိုက်ပါတယ်။"},
+          {"german": "waschen", "myanmar": "ဆေးကြောသည်", "example_german": "Vergiss nicht, dir die Hände zu waschen.", "example_myanmar": "လက်ဆေးဖို့ မမေ့နဲ့ဦးနော်။"},
+          {"german": "anziehen", "myanmar": "အဝတ်အစားဝတ်သည်", "example_german": "Ich ziehe mir schnell einen Pullover an.", "example_myanmar": "ကျွန်တော် ဆွယ်တာအင်္ကျီ အမြန်ဝတ်လိုက်မယ်။"},
+          {"german": "ausziehen", "myanmar": "အဝတ်အစားချွတ်သည် / ဖိနပ်ချွတ်သည်", "example_german": "Hier muss man die Schuhe ausziehen.", "example_myanmar": "ဒီနေရာမှာ ဖိနပ်ချွတ်ရပါမယ်။"},
+          {"german": "putzen", "myanmar": "သန့်ရှင်းရေးလုပ်သည်", "example_german": "Ich muss heute noch die Wohnung putzen.", "example_myanmar": "ဒီနေ့ ကျွန်တော် အခန်းသန့်ရှင်းရေး လုပ်ရဦးမယ်။"},
+          {"german": "kämmen", "myanmar": "ဘီးဖီးသည်", "example_german": "Er kämmt sich die Haare vor dem Spiegel.", "example_myanmar": "သူ မှန်ရှေ့မှာ ဆံပင်ဖီးနေပါတယ်။"},
+          {"german": "rasieren", "myanmar": "မုတ်ဆိတ်ရိတ်သည်", "example_german": "Mein Vater rasiert sich jeden Morgen.", "example_myanmar": "ကျွန်တော့်အဖေက မနက်တိုင်း မုတ်ဆိတ်ရိတ်ပါတယ်။"},
+          {"german": "aufräumen", "myanmar": "ပစ္စည်းများသပ်ရပ်အောင် သိမ်းဆည်းသည်", "example_german": "Du musst dein Zimmer endlich aufräumen!", "example_myanmar": "မင်းရဲ့အခန်းကို သေသေချာချာ ရှင်းလင်းသိမ်းဆည်းရမယ်။"},
+          {"german": "kochen", "myanmar": "ချက်ပြုတ်သည်", "example_german": "Was kochst du heute Schönes?", "example_myanmar": "ဒီနေ့ ဘာဟင်းကောင်းကောင်း ချက်မလဲ။"},
+          {"german": "schließen", "myanmar": "ပိတ်သည်", "example_german": "Bitte schließen Sie das Fenster.", "example_myanmar": "ကျေးဇူးပြုပြီး ပြတင်းပေါက် ပိတ်ပေးပါ။"}
+        ]
+      }
+    }
+  ]
+}

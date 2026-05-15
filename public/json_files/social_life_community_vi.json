@@ -1,0 +1,53 @@
+{
+  "title": "Social Life & Community",
+  "emoji": "👥",
+  "theme_color": "#E91E63",
+  "description": "Social interactions and community",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "treffen", "vietnamese": "gặp gỡ", "example_german": "Wir treffen uns morgen im Park.", "example_vietnamese": "Ngày mai chúng ta sẽ gặp nhau ở công viên."},
+          {"german": "winken", "vietnamese": "vẫy tay", "example_german": "Sie winkt ihrem Freund zum Abschied.", "example_vietnamese": "Cô ấy vẫy tay chào tạm biệt bạn mình."},
+          {"german": "vorstellen", "vietnamese": "giới thiệu", "example_german": "Darf ich dir meinen Bruder vorstellen?", "example_vietnamese": "Tôi có thể giới thiệu anh trai mình với bạn được không?"},
+          {"german": "begrüßen", "vietnamese": "chào hỏi", "example_german": "Der Gastgeber begrüßt die Gäste an der Tür.", "example_vietnamese": "Chủ nhà chào đón khách ngay tại cửa."},
+          {"german": "einladen", "vietnamese": "mời", "example_german": "Ich lade dich zu meiner Party ein.", "example_vietnamese": "Tôi mời bạn đến dự bữa tiệc của mình."},
+          {"german": "besuchen", "vietnamese": "thăm viếng", "example_german": "Wir besuchen am Wochenende unsere Verwandten.", "example_vietnamese": "Chúng tôi đi thăm họ hàng vào cuối tuần."},
+          {"german": "kommen", "vietnamese": "đến", "example_german": "Wann kommst du heute nach Hause?", "example_vietnamese": "Khi nào hôm nay bạn sẽ về nhà?"},
+          {"german": "gehen", "vietnamese": "đi", "example_german": "Wir gehen heute Abend ins Kino.", "example_vietnamese": "Tối nay chúng tôi đi xem phim."},
+          {"german": "mitbringen", "vietnamese": "mang theo", "example_german": "Soll ich etwas zum Essen mitbringen?", "example_vietnamese": "Tôi có nên mang theo chút gì đó để ăn không?"},
+          {"german": "feiern", "vietnamese": "ăn mừng/kỷ niệm", "example_german": "Wir feiern heute seinen Erfolg.", "example_vietnamese": "Hôm nay chúng tôi ăn mừng thành công của anh ấy."},
+          {"german": "tanzen", "vietnamese": "khiêu vũ/nhảy", "example_german": "Möchtest du mit mir tanzen?", "example_vietnamese": "Bạn có muốn nhảy cùng tôi không?"},
+          {"german": "singen", "vietnamese": "hát", "example_german": "Wir singen gemeinsam ein Lied.", "example_vietnamese": "Chúng ta cùng nhau hát một bài hát nhé."},
+          {"german": "spielen", "vietnamese": "chơi", "example_german": "Die Kinder spielen draußen Fußball.", "example_vietnamese": "Lũ trẻ đang chơi bóng đá ngoài trời."},
+          {"german": "reden", "vietnamese": "nói chuyện", "example_german": "Wir müssen unbedingt miteinander reden.", "example_vietnamese": "Chúng ta nhất định phải nói chuyện với nhau."},
+          {"german": "plaudern", "vietnamese": "tán gẫu", "example_german": "Wir plaudern gerne bei einer Tasse Kaffee.", "example_vietnamese": "Chúng tôi thích tán gẫu bên một tách cà phê."},
+          {"german": "zuhören", "vietnamese": "lắng nghe", "example_german": "Du musst mir besser zuhören.", "example_vietnamese": "Bạn phải lắng nghe tôi kỹ hơn."},
+          {"german": "lachen", "vietnamese": "cười", "example_german": "Er lacht über einen lustigen Witz.", "example_vietnamese": "Anh ấy cười vì một câu đùa hóm hỉnh."},
+          {"german": "helfen", "vietnamese": "giúp đỡ", "example_german": "Kannst du mir beim Tragen helfen?", "example_vietnamese": "Bạn có thể giúp tôi mang đồ được không?"},
+          {"german": "teilnehmen", "vietnamese": "tham gia", "example_german": "Ich nehme an dem Deutschkurs teil.", "example_vietnamese": "Tôi tham gia vào khóa học tiếng Đức."},
+          {"german": "mitmachen", "vietnamese": "cùng tham gia", "example_german": "Jeder darf bei diesem Spiel mitmachen.", "example_vietnamese": "Mọi người đều được phép cùng tham gia trò chơi này."},
+          {"german": "organisieren", "vietnamese": "tổ chức", "example_german": "Sie organisiert ein großes Nachbarschaftsfest.", "example_vietnamese": "Cô ấy tổ chức một lễ hội xóm giềng lớn."},
+          {"german": "planen", "vietnamese": "lên kế hoạch", "example_german": "Wir planen ein Treffen für nächste Woche.", "example_vietnamese": "Chúng tôi lên kế hoạch cho một cuộc hẹn vào tuần tới."},
+          {"german": "unterstützen", "vietnamese": "hỗ trợ/ủng hộ", "example_german": "Meine Familie unterstützt mich immer.", "example_vietnamese": "Gia đình luôn ủng hộ tôi."},
+          {"german": "teilen", "vietnamese": "chia sẻ", "example_german": "Wir teilen uns die Kosten für das Taxi.", "example_vietnamese": "Chúng tôi chia sẻ tiền cước taxi với nhau."},
+          {"german": "geben", "vietnamese": "cho/đưa", "example_german": "Kannst du mir bitte das Salz geben?", "example_vietnamese": "Bạn có thể đưa cho tôi lọ muối được không?"},
+          {"german": "nehmen", "vietnamese": "lấy/nhận", "example_german": "Ich nehme mir ein Stück Kuchen.", "example_vietnamese": "Tôi lấy cho mình một miếng bánh."},
+          {"german": "danken", "vietnamese": "cảm ơn", "example_german": "Ich danke dir für deine Einladung.", "example_vietnamese": "Tôi cảm ơn bạn vì lời mời."},
+          {"german": "entschuldigen", "vietnamese": "xin lỗi", "example_german": "Ich möchte mich für die Verspätung entschuldigen.", "example_vietnamese": "Tôi muốn xin lỗi vì sự chậm trễ."},
+          {"german": "vergeben", "vietnamese": "tha thứ", "example_german": "Es ist wichtig, anderen zu vergeben.", "example_vietnamese": "Tha thứ cho người khác là điều quan trọng."},
+          {"german": "streiten", "vietnamese": "tranh cãi", "example_german": "Wir streiten uns selten über Kleinigkeiten.", "example_vietnamese": "Chúng tôi hiếm khi tranh cãi về những việc nhỏ nhặt."},
+          {"german": "versöhnen", "vietnamese": "làm hòa", "example_german": "Nach dem Streit versöhnen sie sich wieder.", "example_vietnamese": "Sau cuộc tranh cãi, họ lại làm hòa với nhau."},
+          {"german": "respektieren", "vietnamese": "tôn trọng", "example_german": "Wir respektieren die Meinung der anderen.", "example_vietnamese": "Chúng tôi tôn trọng ý kiến của người khác."},
+          {"german": "akzeptieren", "vietnamese": "chấp nhận", "example_german": "Er kann die Entscheidung nicht akzeptieren.", "example_vietnamese": "Anh ấy không thể chấp nhận quyết định đó."},
+          {"german": "ablehnen", "vietnamese": "từ chối", "example_german": "Leider muss ich das Angebot ablehnen.", "example_vietnamese": "Rất tiếc tôi phải từ chối lời đề nghị này."},
+          {"german": "tolerieren", "vietnamese": "dung thứ/khoan dung", "example_german": "Wir tolerieren kein respektloses Verhalten.", "example_vietnamese": "Chúng tôi không dung thứ cho hành vi thiếu tôn trọng."},
+          {"german": "kritisieren", "vietnamese": "chỉ trích/phê bình", "example_german": "Man sollte andere nicht ständig kritisieren.", "example_vietnamese": "Người ta không nên liên tục chỉ trích người khác."},
+          {"german": "loben", "vietnamese": "khen ngợi", "example_german": "Der Lehrer lobt die fleißige Schülerin.", "example_vietnamese": "Thầy giáo khen ngợi cô học trò chăm chỉ."},
+          {"german": "einigen", "vietnamese": "thống nhất/đồng ý", "example_german": "Wir konnten uns auf einen Termin einigen.", "example_vietnamese": "Chúng tôi đã có thể thống nhất được một ngày hẹn."}
+        ]
+      }
+    }
+  ]
+}

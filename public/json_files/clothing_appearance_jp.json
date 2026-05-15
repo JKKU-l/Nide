@@ -1,0 +1,55 @@
+{
+  "title": "Clothing & Appearance",
+  "emoji": "👔",
+  "theme_color": "#3F51B5",
+  "description": "Clothes, accessories, and personal appearance",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "anziehen", "japanese": "着る / 履く", "example_german": "Ich ziehe mir eine warme Jacke an.", "example_japanese": "私は温かいジャケットを着ます。"},
+          {"german": "ausziehen", "japanese": "脱ぐ", "example_german": "Bitte zieh deine Schuhe im Flur aus.", "example_japanese": "廊下で靴を脱いでください。"},
+          {"german": "umziehen", "japanese": "着替える", "example_german": "Ich muss mich für die Party noch umziehen.", "example_japanese": "パーティーのために着替えなければなりません。"},
+          {"german": "tragen", "japanese": "身に着けている / 着ている", "example_german": "Sie trägt heute ein blaues Kleid.", "example_japanese": "彼女は今日、青いワンピースを着ています。"},
+          {"german": "passen", "japanese": "サイズが合う", "example_german": "Die Hose passt mir leider nicht mehr.", "example_japanese": "残念ながら、このズボンはもう私には合いません。"},
+          {"german": "kaufen", "japanese": "買う", "example_german": "Wir kaufen neue Kleidung für den Winter.", "example_japanese": "私たちは冬に向けて新しい服を買います。"},
+          {"german": "anprobieren", "japanese": "試着する", "example_german": "Darf ich diesen Pullover anprobieren?", "example_japanese": "このセーターを試着してもいいですか？"},
+          {"german": "nähen", "japanese": "縫う", "example_german": "Meine Mutter kann sehr gut nähen.", "example_japanese": "私の母は縫い物がとても上手です。"},
+          {"german": "bügeln", "japanese": "アイロンをかける", "example_german": "Er bügelt seine Hemden jeden Sonntag.", "example_japanese": "彼は毎週日曜日、シャツにアイロンをかけます。"},
+          {"german": "waschen", "japanese": "洗う / 洗濯する", "example_german": "Ich muss heute weiße Wäsche waschen.", "example_japanese": "今日は白い洗濯物を洗わなければなりません。"},
+          {"german": "trocknen", "japanese": "乾かす / 乾く", "example_german": "Die Wäsche trocknet draußen in der Sonne.", "example_japanese": "洗濯物が外の日差しで乾いています。"},
+          {"german": "falten", "japanese": "畳む", "example_german": "Ich falte die T-Shirts und lege sie in den Schrank.", "example_japanese": "私はTシャツを畳んでクローゼットにしまいます。"},
+          {"german": "aufhängen", "japanese": "掛ける / 干す", "example_german": "Kannst du bitte die Mäntel aufhängen?", "example_japanese": "コートを掛けてもらえますか？"},
+          {"german": "einpacken", "japanese": "詰め込む / パッキングする", "example_german": "Wir müssen unsere Koffer für den Urlaub einpacken.", "example_japanese": "休暇のためにスーツケースに荷物を詰めなければなりません。"},
+          {"german": "auspacken", "japanese": "取り出す / 荷を解く", "example_german": "Ich packe meine Tasche nach der Reise aus.", "example_japanese": "旅行の後、バッグの荷物を出します。"},
+          {"german": "sortieren", "japanese": "仕分けする / 整理する", "example_german": "Sie sortiert ihre Socken nach Farben.", "example_japanese": "彼女は靴下を色ごとに整理します。"},
+          {"german": "aufräumen", "japanese": "片付ける", "example_german": "Du solltest endlich deinen Kleiderschrank aufräumen.", "example_japanese": "いい加減、クローゼットを片付けるべきです。"},
+          {"german": "färben", "japanese": "染める", "example_german": "Sie möchte sich die Haare schwarz färben.", "example_japanese": "彼女は髪を黒く染めたいと思っています。"},
+          {"german": "schneiden", "japanese": "切る", "example_german": "Der Friseur schneidet mir die Spitzen.", "example_japanese": "美容師が毛先を切ってくれます。"},
+          {"german": "rasieren", "japanese": "剃る", "example_german": "Er rasiert sich jeden zweiten Tag.", "example_japanese": "彼は1日おきに髭を剃ります。"},
+          {"german": "schminken", "japanese": "化粧をする", "example_german": "Sie schminkt sich vor dem Spiegel.", "example_japanese": "彼女は鏡の前で化粧をしています。"},
+          {"german": "kühlen", "japanese": "冷やす", "example_german": "Nach dem Sport muss ich mein Knie kühlen.", "example_japanese": "運動の後、膝を冷やさなければなりません。"},
+          {"german": "wärmen", "japanese": "温める", "example_german": "Der Tee wärmt mich von innen.", "example_japanese": "お茶が体の芯から温めてくれます。"},
+          {"german": "reinigen", "japanese": "クリーニングに出す / 清潔にする", "example_german": "Ich muss diesen Anzug chemisch reinigen lassen.", "example_japanese": "このスーツをドライクリーニングに出さなければなりません。"},
+          {"german": "aufbewahren", "japanese": "保管する", "example_german": "Wo bewahrst du deinen Schmuck auf?", "example_japanese": "アクセサリーはどこに保管していますか？"},
+          {"german": "wegwerfen", "japanese": "捨てる", "example_german": "Diese alten Schuhe kannst du wegwerfen.", "example_japanese": "この古い靴は捨ててもいいですよ。"},
+          {"german": "spenden", "japanese": "寄付する", "example_german": "Wir spenden unsere alte Kleidung an das Rote Kreuz.", "example_japanese": "私たちは古い服を赤十字に寄付します。"},
+          {"german": "schenken", "japanese": "贈る", "example_german": "Ich schenke ihr eine goldene Kette.", "example_japanese": "私は彼女に金のネックレスを贈ります。"},
+          {"german": "leihen", "japanese": "借りる / 貸す", "example_german": "Kannst du mir eine Krawatte leihen?", "example_japanese": "ネクタイを貸してくれますか？"},
+          {"german": "zurückgeben", "japanese": "返す", "example_german": "Ich gebe dir den geliehenen Schal morgen zurück.", "example_japanese": "借りたスカーフは明日返します。"},
+          {"german": "umtauschen", "japanese": "交換する", "example_german": "Ich möchte diese Jacke gegen eine größere umtauschen.", "example_japanese": "このジャケットを大きいサイズと交換したいです。"},
+          {"german": "verlieren", "japanese": "無くす", "example_german": "Ich verliere ständig meine Handschuhe.", "example_japanese": "私はしょっちゅう手袋を無くします。"},
+          {"german": "finden", "japanese": "見つける", "example_german": "Ich kann meine Mütze nirgends finden.", "example_japanese": "帽子がどこにも見つかりません。"},
+          {"german": "suchen", "japanese": "探す", "example_german": "Er sucht nach einer passenden Jeans.", "example_japanese": "彼は自分に合うジーンズを探しています。"},
+          {"german": "anschauen", "japanese": "見る / 眺める", "example_german": "Schau dir diesen schönen Mantel an!", "example_japanese": "この素敵なコートを見て！"},
+          {"german": "zeigen", "japanese": "見せる", "example_german": "Zeig mir bitte deine neuen Schuhe.", "example_japanese": "新しい靴を見せてください。"},
+          {"german": "wählen", "japanese": "選ぶ", "example_german": "Sie kann sich nicht für eine Farbe wählen.", "example_japanese": "彼女は色を決められません。"},
+          {"german": "gefallen", "japanese": "気に入る", "example_german": "Das Hemd gefällt mir sehr gut.", "example_japanese": "そのシャツはとても気に入りました。"},
+          {"german": "stehen", "japanese": "似合う", "example_german": "Die Farbe Grün steht dir ausgezeichnet.", "example_japanese": "緑色が君にとてもよく似合っています。"},
+          {"german": "tragen", "japanese": "運ぶ", "example_german": "Er trägt die schweren Koffer zum Auto.", "example_japanese": "彼は重いスーツケースを車まで運びます。"}
+        ]
+      }
+    }
+  ]
+}

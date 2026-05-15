@@ -1,0 +1,133 @@
+{
+  "title": "分離動詞の理解 (Understanding Separable Verbs)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "分離動詞とは？",
+      "description": "ドイツ語には、基本となる動詞の前に「前綴り（Prefix）」がつく動詞があります。文の形によっては、この前綴りが動詞から「分離」して文の最後に移動するため、分離動詞と呼ばれます。",
+      "content": {
+        "description": "前綴りは動詞の意味を変化させ、通常の文では文の最後に移動します。"
+      }
+    },
+    {
+      "id": "basic_structure",
+      "title": "1. 基本構造（平叙文）",
+      "description": "通常の文で分離動詞を使う場合、動詞は2つのパーツに分かれます。",
+      "content": {
+        "structure": {
+          "parts": [
+            "動詞の本体: 2番目の位置に置きます（主語に合わせて変化させます）。",
+            "前綴り: 文の一番最後に置きます。"
+          ]
+        },
+        "example": {
+          "verb": "einkaufen（買い出しに行く／買い物をする）",
+          "prefix": "ein-",
+          "main_verb": "kaufen（買う）",
+          "table": {
+            "headers": ["主語 (Subject)", "動詞 (Pos 2)", "中間部", "前綴り (End)"],
+            "rows": [
+              ["Ich", "kaufe", "im Supermarkt", "ein."]
+            ],
+            "translation": "意味: 私はスーパーで買い物をします。"
+          }
+        }
+      }
+    },
+    {
+      "id": "common_prefixes",
+      "title": "2. よく使われる分離前綴り",
+      "description": "これらの前綴りを見つけることで、分離動詞であることを見分けることができます。",
+      "content": {
+        "prefixes": [
+          {"prefix": "ab-", "example": "abfahren - 出発する"},
+          {"prefix": "an-", "example": "ankommen - 到着する"},
+          {"prefix": "auf-", "example": "aufstehen - 起きる"},
+          {"prefix": "aus-", "example": "aussteigen - 降りる"},
+          {"prefix": "mit-", "example": "mitkommen - 一緒に来る"},
+          {"prefix": "ein-", "example": "einsteigen - 乗り込む"},
+          {"prefix": "zurück-", "example": "zurückkommen - 戻ってくる"}
+        ]
+      }
+    },
+    {
+      "id": "modal_verbs",
+      "title": "3. 話法の助動詞と一緒に使う場合",
+      "description": "話法の助動詞 (müssen - しなければならない, können - できる, möchten - したい) と一緒に使う場合、分離動詞は分離しません。",
+      "content": {
+        "rule": {
+          "modal": "助動詞を2番目の位置に置きます。",
+          "separable": "分離動詞はそのままの形（不定詞）で文の最後に置きます。"
+        },
+        "example": {
+          "combination": "müssen + aufstehen",
+          "sentence": "Ich muss um 6 Uhr aufstehen.",
+          "translation": "(私は6時に起きなければなりません。)"
+        }
+      }
+    },
+    {
+      "id": "pronunciation",
+      "title": "4. アクセント（発音）",
+      "description": "分離動詞を発音するとき、アクセントは常に前綴りの上にあります。",
+      "content": {
+        "examples": [
+          "ein-kaufen",
+          "auf-stehen",
+          "an-kommen"
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. 具体例と使い方のロジック",
+      "description": "学習者のための具体例と使い方のロジック:",
+      "content": {
+        "examples_table": {
+          "headers": ["Verb", "German Sentence", "Japanese Translation", "Logic/Explanation"],
+          "rows": [
+            ["einsteigen (乗る)", "Ich steige in die U-Bahn ein.", "I get on the subway.", "乗り物の「中へ(ein)」自分を置くイメージ。"],
+            ["umsteigen (乗り換える)", "Ich steige an der Hauptwache um.", "I transfer at Hauptwache.", "別の電車へ「周って(um)」移動するイメージ。"],
+            ["aussteigen (降りる)", "Ich steige am Bahnhof aus.", "I get off at the station.", "電車の「外へ(aus)」出るイメージ。"],
+            ["anfangen (始まる／始める)", "Die Arbeit fängt um 8 Uhr an.", "Work starts at 8 o'clock.", "'an' は開始地点を指します。（※ 'fangen' は 'fängt' に不規則変化します）"],
+            ["aufmachen (開ける)", "Ich mache das Fenster auf.", "I open the window.", "物を「上へ／開いた状態へ(auf)」動かすイメージ。"],
+            ["zumachen (閉める)", "Ich mache das Fenster zu.", "I close the window.", "物を「閉じた場所へ(zu)」動かすイメージ。"],
+            ["fernsehen (テレビを見る)", "Abends sehe ich fern.", "In the evening I watch TV.", "'fern' は「遠く」を意味します。遠くを見る＝テレビを見る。"],
+            ["anrufen (電話する)", "Ich rufe meine Mutter an.", "I call my mother.", "'rufen' は「叫ぶ／呼ぶ」。'an' がつくと「電話をかける」になります。"],
+            ["einladen (招待する)", "Meine Freundin lädt mich ein.", "My girlfriend invites me.", "誰かをイベントの中に「運び入れる(ein)」＝招待する。"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_table",
+      "title": "学習用まとめ表",
+      "description": "様々な状況での分離動詞の使い方の早見表。",
+      "content": {
+        "summary_table": {
+          "headers": ["状況", "ルール", "例文"],
+          "rows": [
+            ["通常の文", "動詞は2番目、前綴りは最後", "Ich stehe um 7 Uhr auf."],
+            ["助動詞がある場合", "助動詞が2番目、動詞は最後にそのまま", "Ich möchte mitkommen."],
+            ["はい/いいえの疑問文", "動詞が1番目、前綴りは最後", "Fängst du morgen an?"],
+            ["従属節 (weilなど)", "動詞と前綴りはくっついて最後", "... weil ich um 6 Uhr aufstehe."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "why_use",
+      "title": "なぜ分離動詞を使うのか？",
+      "description": "ドイツ語は前綴りを使って、動詞の意味を非常に正確に変化させます。例えば、\"machen\" は単に「する／作る」という意味ですが、前綴りをつけるだけでこれだけ変わります。",
+      "content": {
+        "examples": [
+          "aufmachen = 開ける",
+          "zumachen = 閉める",
+          "anmachen = 電源を入れる (明かりや電化製品)",
+          "ausmachen = 電源を切る"
+        ],
+        "explanation": "これにより、1つの基本動詞から多くの具体的な意味を作り出すことができるのです。"
+      }
+    }
+  ]
+}

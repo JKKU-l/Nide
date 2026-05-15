@@ -1,0 +1,33 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Familie", "japanese": "家族", "article": "die", "word": "Familie", "emoji": "👨‍👩‍👧‍👦"},
+        {"german": "die Großeltern", "japanese": "祖父母", "article": "die", "word": "Großeltern", "emoji": "👴👵"},
+        {"german": "der Großvater", "japanese": "おじいさん", "article": "der", "word": "Großvater", "emoji": "👴"},
+        {"german": "die Großmutter", "japanese": "おばあさん", "article": "die", "word": "Großmutter", "emoji": "👵"},
+        {"german": "die Eltern", "japanese": "両親", "article": "die", "word": "Eltern", "emoji": "👪"},
+        {"german": "der Vater", "japanese": "お父さん", "article": "der", "word": "Vater", "emoji": "👨"},
+        {"german": "die Mutter", "japanese": "お母さん", "article": "die", "word": "Mutter", "emoji": "👩"},
+        {"german": "der Sohn", "japanese": "息子", "article": "der", "word": "Sohn", "emoji": "👦"},
+        {"german": "die Tochter", "japanese": "娘", "article": "die", "word": "Tochter", "emoji": "👧"},
+        {"german": "der Papa", "japanese": "パパ", "article": "der", "word": "Papa", "emoji": "🧔"},
+        {"german": "die Mama", "japanese": "ママ", "article": "die", "word": "Mama", "emoji": "👩‍🦰"},
+        {"german": "der Bruder", "japanese": "兄 / 弟", "article": "der", "word": "Bruder", "emoji": "👦"},
+        {"german": "die Schwester", "japanese": "姉 / 妹", "article": "die", "word": "Schwester", "emoji": "👧"},
+        {"german": "die Geschwister", "japanese": "兄弟姉妹", "article": "die", "word": "Geschwister", "emoji": "👦👧"},
+        {"german": "der Onkel", "japanese": "叔父 / 伯父", "article": "der", "word": "Onkel", "emoji": "👨"},
+        {"german": "die Tante", "japanese": "叔母 / 伯母", "article": "die", "word": "Tante", "emoji": "👩"},
+        {"german": "der Cousin", "japanese": "従兄弟 (いとこ)", "article": "der", "word": "Cousin", "emoji": "👱‍♂️"},
+        {"german": "die Cousine", "japanese": "従姉妹 (いとこ)", "article": "die", "word": "Cousine", "emoji": "👱‍♀️"},
+        {"german": "das Ehepaar", "japanese": "夫婦", "article": "das", "word": "Ehepaar", "emoji": "👩‍❤️‍👨"},
+        {"german": "der Mann", "japanese": "男 / 夫", "article": "der", "word": "Mann", "emoji": "🧔‍♂️"},
+        {"german": "die Frau", "japanese": "女 / 妻", "article": "die", "word": "Frau", "emoji": "👩‍💼"},
+        {"german": "der Freund", "japanese": "友達 / 彼氏", "article": "der", "word": "Freund", "emoji": "👨‍❤️‍👨"},
+        {"german": "die Freundin", "japanese": "友達 / 彼女", "article": "die", "word": "Freundin", "emoji": "👩‍❤️‍👩"},
+        {"german": "der Partner / die Partnerin", "japanese": "パートナー", "article": "der / die", "word": "Partner / Partnerin", "emoji": "🤝"}
+      ]
+    }
+  ]
+}

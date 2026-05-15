@@ -1,0 +1,33 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Familie", "english": "the family", "article": "die", "word": "Familie", "emoji": "👨‍👩‍👧‍👦"},
+        {"german": "die Großeltern", "english": "the grandparents", "article": "die", "word": "Großeltern", "emoji": "👵👴"},
+        {"german": "der Großvater", "english": "the grandfather", "article": "der", "word": "Großvater", "emoji": "👴"},
+        {"german": "die Großmutter", "english": "the grandmother", "article": "die", "word": "Großmutter", "emoji": "👵"},
+        {"german": "die Eltern", "english": "the parents", "article": "die", "word": "Eltern", "emoji": "👨‍👩‍👦"},
+        {"german": "der Vater", "english": "the father", "article": "der", "word": "Vater", "emoji": "👨"},
+        {"german": "die Mutter", "english": "the mother", "article": "die", "word": "Mutter", "emoji": "👩"},
+        {"german": "der Sohn", "english": "the son", "article": "der", "word": "Sohn", "emoji": "👦"},
+        {"german": "die Tochter", "english": "the daughter", "article": "die", "word": "Tochter", "emoji": "👧"},
+        {"german": "der Papa", "english": "the dad", "article": "der", "word": "Papa", "emoji": "🧔"},
+        {"german": "die Mama", "english": "the mom", "article": "die", "word": "Mama", "emoji": "👩‍🦰"},
+        {"german": "der Bruder", "english": "the brother", "article": "der", "word": "Bruder", "emoji": "👦"},
+        {"german": "die Schwester", "english": "the sister", "article": "die", "word": "Schwester", "emoji": "👧"},
+        {"german": "die Geschwister", "english": "the siblings", "article": "die", "word": "Geschwister", "emoji": "👦👧"},
+        {"german": "der Onkel", "english": "the uncle", "article": "der", "word": "Onkel", "emoji": "👨‍🦱"},
+        {"german": "die Tante", "english": "the aunt", "article": "die", "word": "Tante", "emoji": "👩‍🦱"},
+        {"german": "der Cousin", "english": "the male cousin", "article": "der", "word": "Cousin", "emoji": "👦"},
+        {"german": "die Cousine", "english": "the female cousin", "article": "die", "word": "Cousine", "emoji": "👧"},
+        {"german": "das Ehepaar", "english": "the married couple", "article": "das", "word": "Ehepaar", "emoji": "👩‍❤️‍👨"},
+        {"german": "der Mann", "english": "the man / husband", "article": "der", "word": "Mann", "emoji": "👨"},
+        {"german": "die Frau", "english": "the woman / wife", "article": "die", "word": "Frau", "emoji": "👩"},
+        {"german": "der Freund", "english": "the (male) friend / boyfriend", "article": "der", "word": "Freund", "emoji": "👦"},
+        {"german": "die Freundin", "english": "the (female) friend / girlfriend", "article": "die", "word": "Freundin", "emoji": "👧"},
+        {"german": "der Partner / die Partnerin", "english": "the partner (male/female)", "article": "der / die", "word": "Partner / Partnerin", "emoji": "👩‍❤️‍💋‍👨"}
+      ]
+    }
+  ]
+}

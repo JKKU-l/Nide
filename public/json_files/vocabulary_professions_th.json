@@ -1,0 +1,27 @@
+{
+  "theme_color": "#009688",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "der Beruf", "thai": "อาชีพ", "article": "der", "word": "Beruf", "emoji": "💼"},
+        {"german": "der Bäcker", "thai": "คนทำขนมปัง", "article": "der", "word": "Bäcker", "emoji": "🥖"},
+        {"german": "der Elektriker", "thai": "ช่างไฟฟ้า", "article": "der", "word": "Elektriker", "emoji": "⚡"},
+        {"german": "der Anwalt", "thai": "ทนายความ", "article": "der", "word": "Anwalt", "emoji": "⚖️"},
+        {"german": "der Bauer", "thai": "ชาวนา / เกษตรกร", "article": "der", "word": "Bauer", "emoji": "👨‍🌾"},
+        {"german": "der Fleischer", "thai": "คนขายเนื้อ", "article": "der", "word": "Fleischer", "emoji": "🥩"},
+        {"german": "der Arbeiter", "thai": "คนงาน", "article": "der", "word": "Arbeiter", "emoji": "👷"},
+        {"german": "der Briefträger", "thai": "บุรุษไปรษณีย์", "article": "der", "word": "Briefträger", "emoji": "📬"},
+        {"german": "der Gärtner", "thai": "คนสวน", "article": "der", "word": "Gärtner", "emoji": "🌳"},
+        {"german": "der Hausmann / die Hausfrau", "thai": "พ่อบ้าน / แม่บ้าน", "article": "der / die", "word": "Hausmann / Hausfrau", "emoji": "🏠"},
+        {"german": "der Maler", "thai": "ช่างทาสี", "article": "der", "word": "Maler", "emoji": "🎨"},
+        {"german": "der Polizist", "thai": "ตำรวจ", "article": "der", "word": "Polizist", "emoji": "👮"},
+        {"german": "der Hausmeister", "thai": "ภารโรง / ผู้ดูแลตึก", "article": "der", "word": "Hausmeister", "emoji": "🔑"},
+        {"german": "der Maurer", "thai": "ช่างก่ออิฐ", "article": "der", "word": "Maurer", "emoji": "🧱"},
+        {"german": "der Schneider", "thai": "ช่างเย็บผ้า", "article": "der", "word": "Schneider", "emoji": "🪡"},
+        {"german": "der Installateur", "thai": "ช่างประปา", "article": "der", "word": "Installateur", "emoji": "🛠️"},
+        {"german": "der Mechaniker", "thai": "ช่างยนต์", "article": "der", "word": "Mechaniker", "emoji": "🔧"},
+        {"german": "der Sekretär / die Sekretärin", "thai": "เลขานุการ", "article": "der / die", "word": "Sekretär / Sekretärin", "emoji": "⌨️"}
+      ]
+    }
+  ]
+}

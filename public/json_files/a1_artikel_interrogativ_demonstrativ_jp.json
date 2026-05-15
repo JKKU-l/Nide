@@ -1,0 +1,173 @@
+{
+  "title": "Artikel: interrogativ und demonstrativ (疑問冠詞と指示冠詞)",
+  "description": "疑問冠詞 (welch-) と指示冠詞 (dies-) の違いを理解しましょう。",
+  "sections": [
+    {
+      "id": "concept_understanding",
+      "title": "コンセプトの理解：疑問冠詞と指示冠詞",
+      "description": "特定のものを尋ねることと指し示すことの違いを学びましょう。",
+      "content": {
+        "definitions": [
+          {
+            "type": "疑問冠詞 (Welcher-)",
+            "description": "グループの中から特定の「人」や「物」を尋ねる時に使います。日本語では 「どの〜？」 にあたります。"
+          },
+          {
+            "type": "指示冠詞 (Dieser-)",
+            "description": "特定の「人」や「物」を指し示す時に使います。日本語では 「この〜」「この人/物」 にあたります。"
+          }
+        ],
+        "golden_rule": {
+          "title": "A1レベルの黄金ルール",
+          "description": "「welch-」の語尾は、必ず「dies-」および定冠詞（der/die/das）の語尾と一致します。"
+        }
+      }
+    },
+    {
+      "id": "nominative_case",
+      "title": "1. 1格：主格 (Nominative)",
+      "description": "1格は文の「主語」（動作を行う人や物、または説明されている対象）として使われます。",
+      "content": {
+        "genders": [
+          {
+            "gender": "男性名詞 (der)",
+            "ending": "語尾は -er を使います",
+            "example_question": "Welcher Mantel ist schön?",
+            "example_question_english": "どのコートがきれいですか？",
+            "example_response": "Dieser Mantel.",
+            "example_response_english": "このコートです。"
+          },
+          {
+            "gender": "中性名詞 (das)",
+            "ending": "語尾は -es を使います",
+            "example_question": "Welches Kleid gefällt dir?",
+            "example_question_english": "どのドレスが気に入りましたか？",
+            "example_response": "Dieses Kleid.",
+            "example_response_english": "このドレスです。"
+          },
+          {
+            "gender": "女性名詞 (die)",
+            "ending": "語尾は -e を使います",
+            "example_question": "Welche Hose ist das?",
+            "example_question_english": "それはどのズボンですか？",
+            "example_response": "Diese Hose.",
+            "example_response_english": "このズボンです。"
+          },
+          {
+            "gender": "複数形 (die)",
+            "ending": "語尾は -e を使います",
+            "example_question": "Welche Schuhe sind neu?",
+            "example_question_english": "どの靴が新しいですか？",
+            "example_response": "Diese Schuhe.",
+            "example_response_english": "これらの靴です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "accusative_case",
+      "title": "2. 4格：対格 (Accusative)",
+      "description": "4格は「直接目的語」（動作の対象となるもの）に使われます。男性名詞のみが1格から変化する点に注目してください。",
+      "content": {
+        "genders": [
+          {
+            "gender": "男性名詞 (den)",
+            "ending": "語尾は -en を使います",
+            "example_question": "Welchen Anzug kaufst du?",
+            "example_question_english": "どのスーツを買いますか？",
+            "example_response": "Ich kaufe diesen Anzug.",
+            "example_response_english": "私はこのスーツを買います。"
+          },
+          {
+            "gender": "中性・女性・複数",
+            "ending": "1格の時と全く同じ語尾 (-es, -e, -e) のままです",
+            "example": "Ich nehme dieses T-Shirt.",
+            "example_english": "私はこのTシャツにします。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_case",
+      "title": "3. 3格：与格 (Dative)",
+      "description": "3格は、特定の前置詞（mit, von, zu, aus, bei など）の後、または「間接目的語」として使われます。",
+      "content": {
+        "genders": [
+          {
+            "gender": "男性名詞 ＆ 中性名詞 (dem)",
+            "ending": "どちらも語尾は -em になります",
+            "example_question": "Zu welchem Arzt gehst du?",
+            "example_question_english": "どの医者のところへ行きますか？",
+            "example_response": "Zu diesem Arzt.",
+            "example_response_english": "この医者のところです。",
+            "note": "例文（前置詞 \"zu\" を使用）"
+          },
+          {
+            "gender": "女性名詞 (der)",
+            "ending": "語尾は -er を使います",
+            "note": "注：男性名詞のように見えますが、3格では女性名詞の定冠詞が der になるため、初心者が間違いやすいポイントです",
+            "example_question": "Mit welcher Freundin gehst du?",
+            "example_question_english": "どの（女の）友達と行きますか？",
+            "example_response": "Mit dieser Freundin.",
+            "example_response_english": "この友達と行きます。",
+            "preposition_note": "例文（前置詞 \"mit\" を使用）"
+          },
+          {
+            "gender": "複数形 (den + 名詞にn)",
+            "ending": "語尾は -en を使います",
+            "example_question": "Welchen Kindern hast du geholfen?",
+            "example_question_english": "どの子供たちを助けましたか？",
+            "example_response": "Diesen Kindern.",
+            "example_response_english": "この子供たちです。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_endings",
+      "title": "なぜこれらの語尾を使うのか？",
+      "description": "ドイツ語では、これらの特定の語尾が「シグナル（合図）」の役割を果たします。ドイツ語は語順が比較的自由なため、これらの語尾によって「誰が、何を、誰に」しているのかを正確に聞き手に伝えることができます。",
+      "content": {
+        "signals": [
+          {
+            "type": "性別のシグナル",
+            "description": "Welcher の -er は名詞が男性(der)であることを示し、Welches の -es は中性(das)であることを示します。"
+          },
+          {
+            "type": "機能のシグナル",
+            "description": "もし Welchen という形を見れば、その男性名詞が文の目的語（4格）であるか、あるいは3格の複数名詞と一緒に使われていることがすぐに分かります。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_tip",
+      "title": "A1のためのまとめヒント",
+      "description": "Welch- と Dies- を 「鏡のような言葉」 だと考えてください。疑問詞につけた語尾は、通常、回答の言葉や定冠詞の語尾をそのまま反映（コピー）します。",
+      "content": {
+        "examples": [
+          {
+            "article": "Der Mann",
+            "question": "Welcher Mann?",
+            "answer": "Dieser Mann."
+          },
+          {
+            "article": "Das Kind",
+            "question": "Welches Kind?",
+            "answer": "Dieses Kind."
+          },
+          {
+            "article": "Die Frau",
+            "question": "Welche Frau?",
+            "answer": "Diese Frau."
+          },
+          {
+            "article": "Den Mann (4格)",
+            "question": "Welchen Mann?",
+            "answer": "Diesen Mann."
+          }
+        ]
+      }
+    }
+  ]
+}

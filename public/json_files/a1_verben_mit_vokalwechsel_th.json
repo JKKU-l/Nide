@@ -1,0 +1,282 @@
+{
+  "title": "Verben mit Vokalwechsel",
+  "subtitle": "คำกริยาที่มีการเปลี่ยนสระ",
+  "sections": [
+    {
+      "id": "grammar_rule",
+      "title": "กฎไวยากรณ์",
+      "description": "ในภาษาเยอรมัน คำกริยาบางคำจะมีการเปลี่ยนรูปสระที่รากศัพท์เมื่อใช้กับประธานบุรุษที่ 2 เอกพจน์ (du) และบุรุษที่ 3 เอกพจน์ (er, sie, es) เท่านั้น ส่วนประธานรูปพหูพจน์และการใช้แบบสุภาพ (Sie) จะยังคงรูปเดิมตามกฎปกติ",
+      "content": {
+        "table": {
+          "headers": ["คำสรรพนาม (Pronomen)", "e → i (ตัวอย่าง: essen)", "a → ä (ตัวอย่าง: schlafen)"],
+          "rows": [
+            ["ich (ฉัน)", "esse", "schlafe"],
+            ["du (คุณ/เธอ)", "isst", "schläfst"],
+            ["er, sie, es (เขา/เธอ/มัน)", "isst", "schläft"],
+            ["wir (พวกเรา)", "essen", "schlafen"],
+            ["ihr (พวกคุณ)", "esst", "schlaft"],
+            ["sie, Sie (พวกเขา/ท่าน)", "essen", "schlafen"]
+          ]
+        },
+        "important_verbs": {
+          "e_to_i_ie": "empfehlen (แนะนำ), essen (กิน), geben (ให้), fernsehen (ดูทีวี), helfen (ช่วย), lesen (อ่าน), mitnehmen (เอาไปด้วย), nehmen (เอา/หยิบ), sehen (ดู), sprechen (พูด), vergessen (ลืม), werden (กลายเป็น).",
+          "a_to_ä": "abfahren (ออกรถ), anfangen (เริ่มต้น), einladen (เชิญ), einschlafen (นอนหลับ), fahren (ขับ/ขี่), gefallen (ถูกใจ), laufen (วิ่ง/เดิน), schlafen (นอน), tragen (ถือ/สวมใส่), waschen (ซัก/ล้าง)."
+        }
+      }
+    },
+    {
+      "id": "exercise_1",
+      "title": "แบบฝึกหัดที่ 1: การหาคำกริยารูปปกติ (Infinitive)",
+      "description": "Wie heißt der Infinitiv? หาคำกริยารูปปกติ",
+      "content": {
+        "exercises": [
+          {
+            "conjugated": "du gibst",
+            "infinitive": "geben",
+            "translation": "ให้"
+          },
+          {
+            "conjugated": "er läuft",
+            "infinitive": "laufen",
+            "translation": "วิ่ง/เดิน"
+          },
+          {
+            "conjugated": "sie hilft",
+            "infinitive": "helfen",
+            "translation": "ช่วย"
+          },
+          {
+            "conjugated": "du nimmst",
+            "infinitive": "nehmen",
+            "translation": "เอา/หยิบ"
+          },
+          {
+            "conjugated": "er wäscht",
+            "infinitive": "waschen",
+            "translation": "ซัก/ล้าง"
+          },
+          {
+            "conjugated": "du siehst",
+            "infinitive": "sehen",
+            "translation": "ดู/เห็น"
+          },
+          {
+            "conjugated": "er spricht",
+            "infinitive": "sprechen",
+            "translation": "พูด"
+          },
+          {
+            "conjugated": "sie vergisst",
+            "infinitive": "vergessen",
+            "translation": "ลืม"
+          },
+          {
+            "conjugated": "er empfiehlt",
+            "infinitive": "empfehlen",
+            "translation": "แนะนำ"
+          },
+          {
+            "conjugated": "wir lesen",
+            "infinitive": "lesen",
+            "translation": "อ่าน"
+          },
+          {
+            "conjugated": "er isst",
+            "infinitive": "essen",
+            "translation": "กิน"
+          },
+          {
+            "conjugated": "du fährst",
+            "infinitive": "fahren",
+            "translation": "ขับ/ขี่/ไป"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_2_3",
+      "title": "แบบฝึกหัดที่ 2 & 3: บทสนทนา (Dialogues)",
+      "description": "Ergänzen Sie die Verben (เติมคำกริยาให้ครบ)",
+      "content": {
+        "dialogues": [
+          {
+            "verb": "essen (กิน)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Esst ihr abends immer zusammen?",
+                "english": "พวกคุณกินเย็นด้วยกันเสมอไหม?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ja, wir essen zusammen, aber heute nicht. Dimitri isst mit Kunden und die Kinder essen bei Freunden. Und du? Isst du abends mit Roland zusammen?",
+                "english": "ใช่ พวกเรากินด้วยกัน แต่วันนี้ไม่ใช่ Dimitri กินกับลูกค้า และเด็กๆ กินที่บ้านเพื่อน แล้วคุณล่ะ? คุณกินเย็นกับ Roland ด้วยไหม?"
+              },
+              {
+                "speaker": "Elke",
+                "german": "Ich esse abends nichts und Roland isst nur eine Kleinigkeit.",
+                "english": "ฉันไม่กินอะไรเลยในตอนเย็น และ Roland กินเพียงเล็กน้อย"
+              }
+            ]
+          },
+          {
+            "verb": "lesen (อ่าน)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Was lest ihr gerne?",
+                "english": "พวกคุณชอบอ่านอะไร?"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Ich lese gern Romane und Petro liest gar nicht.",
+                "english": "ฉันชอบอ่านนิยาย และ Petro ไม่อ่านเลย"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Das stimmt nicht. Ich lese auch!",
+                "english": "นั่นไม่จริง ฉันก็อ่านเหมือนกัน!"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Was liest du denn? Nur Zeitungen oder Kataloge.",
+                "english": "แล้วคุณอ่านอะไรล่ะ? หนังสือพิมพ์หรือแคตตาล็อก?"
+              }
+            ]
+          },
+          {
+            "verb": "nehmen (เอา/หยิบ)",
+            "speakers": [
+              {
+                "speaker": "Kellnerin",
+                "german": "Bitte, was nehmen Sie?",
+                "english": "คุณจะเอาอะไรครับ/ค่ะ?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ich nehme Hähnchen mit Reis. Iliana und Petro, was nehmt ihr?",
+                "english": "ฉันจะเอาไก่กับข้าว Iliana และ Petro คุณทั้งสองจะเอาอะไร?"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Wir nehmen auch ein Schnitzel.",
+                "english": "พวกเราจะเอา Schnitzel ด้วย"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Nein, du nimmst ein Schnitzel, aber ich nehme Spaghetti!",
+                "english": "ไม่ใช่ คุณเอา Schnitzel แต่ฉันจะเอา Spaghetti!"
+              }
+            ]
+          },
+          {
+            "verb": "schlafen (นอน)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Entschuldigung, ich habe eine Frage. Wie lange schlafen Sie in der Nacht meistens?",
+                "english": "ขอโทษครับ/ค่ะ ฉันมีคำถาม ท่านนอนกี่ชั่วโมงในตอนกลางคืนโดยปกติ?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Wir schlafen meistens ungefähr acht Stunden.",
+                "english": "พวกเรานอนประมาณแปดชั่วโมงโดยปกติ"
+              },
+              {
+                "speaker": "Dimitri",
+                "german": "Ja, du schläfst immer acht Stunden. Ich schlafe nur sechs Stunden.",
+                "english": "ใช่ คุณนอนแปดชั่วโมงเสมอ ฉันนอนเพียงหกชั่วโมง"
+              }
+            ]
+          },
+          {
+            "verb": "fahren (ขับ/ขี่)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Wie kommen Sie zur Arbeit? Fahren Sie mit der U-Bahn?",
+                "english": "ท่านไปทำงานอย่างไร? ท่านขับรถไฟใต้ดินไหม?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Nein, ich fahre mit dem Auto.",
+                "english": "ไม่ใช่ ฉันขับรถยนต์ไป"
+              },
+              {
+                "speaker": "Reporter",
+                "german": "Und ihr, Kinder, wie fahrt ihr?",
+                "english": "แล้วพวกเด็กๆ ล่ะ ไปอย่างไร?"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Ich fahre immer mit dem Fahrrad. Aber Iliana fährt immer mit dem Bus.",
+                "english": "ฉันขับจักรยานเสมอ แต่ Iliana ขับรถบัสเสมอ"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_3_claudia",
+      "title": "แบบฝึกหัดที่ 3: Claudias Tag (วันหนึ่งของ Claudia)",
+      "description": "อ่านข้อความเกี่ยวกับวันหนึ่งของ Claudia",
+      "content": {
+        "text": "Claudia steht immer um 6 Uhr auf. Um 7 Uhr isst (essen) sie mit ihrer Familie Frühstück und liest (lesen) die Zeitung. Ihr Mann Dimitri und sie fahren (fahren) mit dem Auto in die Stadt. Da kaufen sie zusammen ein und Dimitri trägt (tragen) alles ins Auto. Claudia läuft (laufen) noch ein bisschen durch die Stadt und Dimitri fährt (fahren) zur Arbeit. Um 11 Uhr nimmt (nehmen) Claudia den Bus zurück nach Hause. Zu Hause wäscht (waschen) sie Wäsche und hilft (helfen) ihrer Mutter. Am Nachmittag gibt (geben) Claudia Deutschunterricht. Sie spricht (sprechen) nur Deutsch mit den Schülern. Die Schüler lesen (lesen) Texte und sehen (sehen) manchmal einen Film. Claudia sieht (sehen) auch gerne Filme."
+      }
+    },
+    {
+      "id": "exercise_4",
+      "title": "แบบฝึกหัดที่ 4: การเปลี่ยนสระหรือไม่?",
+      "description": "คำกริยามีการเปลี่ยนสระหรือไม่?",
+      "content": {
+        "exercises": [
+          {
+            "verb": "leben → er lebt",
+            "has_change": "No"
+          },
+          {
+            "verb": "kaufen → er kauft",
+            "has_change": "No"
+          },
+          {
+            "verb": "machen → er macht",
+            "has_change": "No"
+          },
+          {
+            "verb": "lesen → er liest",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "gehen → er geht",
+            "has_change": "No"
+          },
+          {
+            "verb": "waschen → er wäscht",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "laufen → er läuft",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "geben → er gibt",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "verstehen → er versteht",
+            "has_change": "No"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_5",
+      "title": "แบบฝึกหัดที่ 5: การเขียนจดหมายเชิญ (Einladung)",
+      "description": "อ่านจดหมายเชิญจาก Claudia ถึง Elke",
+      "content": {
+        "letter": "Liebe Elke,\n\nich lade dich ein. Du fährst erst am Sonntag zurück und schläfst eine Nacht bei uns. Du nimmst am besten bequeme Schuhe mit, dann können wir zusammen laufen. Das gefällt dir doch, oder? Wann kommst du an? Wann bist du dann bei uns? Komm nicht so spät!\n\nViele Grüße, Claudia"
+      }
+    }
+  ]
+}

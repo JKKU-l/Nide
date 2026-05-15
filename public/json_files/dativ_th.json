@@ -1,0 +1,123 @@
+{
+  "title": "Dativ (การก์กรรมรอง)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "ทำความเข้าใจ Dativ ในภาษาเยอรมัน",
+      "description": "Dativ มักถูกเรียกว่าการก์ \"ผู้รับ\" ในขณะที่ Akkusativ ระบุกรรมตรง (สิ่งที่ถูกกระทำ) Dativ ระบุกรรมรอง ซึ่งก็คือบุคคลหรือสิ่งที่ได้รับผลลัพธ์ของการกระทำนั้น"
+    },
+    {
+      "id": "identifying_dative",
+      "title": "1. การระบุ Dativ: \"ใคร\" และ \"ที่ไหน\"",
+      "description": "เพื่อหา Dativ ในประโยค ให้ถามคำถามสองข้อ:",
+      "content": {
+        "questions": [
+          { "question": "Wem? (ให้ใคร / เพื่อใคร?)", "explanation": "ระบุผู้ที่ได้รับบางสิ่ง", "german": "Ich gebe dem Lehrer das Buch.", "translation": "ฉันให้หนังสือแก่ครู (ครูคือผู้รับ)" },
+          { "question": "Wo? (ที่ไหน?)", "explanation": "เมื่อเกี่ยวกับตำแหน่ง Dativ อธิบายตำแหน่งคงที่ ไม่ใช่การเคลื่อนที่ไปยังจุดหมาย", "german": "Das Buch liegt auf dem Tisch.", "translation": "หนังสืออยู่บนโต๊ะ (ตำแหน่งคงที่)" }
+        ]
+      }
+    },
+    {
+      "id": "articles_nouns",
+      "title": "2. การเปลี่ยนแปลงของคำนำหน้าและคำนาม",
+      "description": "Dativ ทำให้เกิดการเปลี่ยนแปลงเฉพาะกับคำที่อยู่หน้าคำนาม กฎพิเศษของ Dativ คือ \"n-พหูพจน์\": คำนามพหูพจน์เกือบทั้งหมดใน Dativ ต้องเติม -n ท้าย (เช่น die Kinder → den Kindern)",
+      "content": {
+        "declension_table": {
+          "title": "ตารางการผัน Dativ",
+          "headers": ["เพศ", "คำนำหน้าชี้เฉพาะ (The)", "คำนำหน้าไม่ชี้เฉพาะ/แสดงความเป็นเจ้าของ (A/My)", "คำลงท้ายคำคุณศัพท์ (หลัง \"The\")"],
+          "rows": [
+            { "category": "เพศชาย", "definite": "dem Vater", "indefinite": "einem Vater", "adjective": "dem netten Vater" },
+            { "category": "เพศหญิง", "definite": "der Mutter", "indefinite": "einer Mutter", "adjective": "der netten Mutter" },
+            { "category": "ไม่ระบุเพศ", "definite": "dem Kind", "indefinite": "einem Kind", "adjective": "dem netten Kind" },
+            { "category": "พหูพจน์", "definite": "den Eltern", "indefinite": "(meinen) Eltern", "adjective": "den netten Eltern" }
+          ]
+        },
+        "adjective_note": "ถ้าใช้คำเช่น dieser (นี้) jener (นั้น) หรือ alle (ทั้งหมด) คำคุณศัพท์ใน Dativ จะลงท้ายด้วย -en เสมอ ซึ่งเป็นการผัน \"อ่อน\" ที่สม่ำเสมอและจำง่าย"
+      }
+    },
+    {
+      "id": "dative_pronouns",
+      "title": "3. สรรพนาม Dativ",
+      "description": "เมื่อแทนที่ชื่อหรือคำนามด้วย \"ฉัน\" \"คุณ\" หรือ \"เขา\" ต้องใช้รูป Dativ ของสรรพนาม",
+      "content": {
+        "pronoun_table": {
+          "title": "การเปลี่ยนสรรพนามใน Dativ",
+          "rows": [
+            { "nominative": "ich", "accusative": "mir", "meaning": "ฉัน (กรรมรอง)" },
+            { "nominative": "du", "accusative": "dir", "meaning": "คุณ (กรรมรอง)" },
+            { "nominative": "er", "accusative": "ihm", "meaning": "เขา (กรรมรอง)" },
+            { "nominative": "sie", "accusative": "ihr", "meaning": "เธอ (กรรมรอง)" },
+            { "nominative": "es", "accusative": "ihm", "meaning": "มัน (กรรมรอง)" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "เรา (กรรมรอง)" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "พวกคุณ (กรรมรอง)" },
+            { "nominative": "sie/Sie", "accusative": "ihnen/Ihnen", "meaning": "พวกเขา / คุณ-ทางการ (กรรมรอง)" }
+          ]
+        },
+        "example": {
+          "german": "Er hilft mir.",
+          "translation": "เขาช่วยฉัน",
+          "note": "คุณไม่สามารถพูดว่า \"Er hilft mich\" (Akkusativ) ได้ ต้องพูด \"Er hilft mir\" เพราะกริยา helfen เป็น \"กริยา Dativ\""
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. เมื่อไรจึงใช้ Dativ",
+      "description": "มีสามสาเหตุหลักที่ทำให้ต้องใช้ Dativ:",
+      "content": {
+        "triggers": [
+          {
+            "id": "dative_verbs",
+            "title": "A. กริยาที่ใช้ Dativ",
+            "description": "ในภาษาเยอรมัน กริยาบางตัวเป็น \"Dativ เท่านั้น\" แม้ว่าในภาษาอังกฤษจะไม่มี \"to\" หรือ \"for\" กริยาเหล่านี้สื่อถึงปฏิสัมพันธ์กับบุคคล",
+            "subcategories": [
+              { "label": "ระหว่างบุคคล", "verbs": "danken (ขอบคุณ), helfen (ช่วยเหลือ), gratulieren (แสดงความยินดี)", "german": "Ich danke dir.", "translation": "ฉันขอบคุณคุณ" },
+              { "label": "ความคิดเห็น/ความรู้สึก", "verbs": "gefallen (ชอบ), gehören (เป็นของ), passen (พอดี)", "german": "Das Auto gehört dem Mann.", "translation": "รถเป็นของผู้ชายคนนั้น" }
+            ]
+          },
+          {
+            "id": "dative_prepositions",
+            "title": "B. คำบุพบทที่ใช้ Dativ",
+            "description": "มีกลุ่มคำบุพบทที่ต้องใช้ Dativ เสมอ ไม่ว่าการกระทำจะเป็นอะไร",
+            "prepositions": ["aus (จาก)", "bei (ที่/ใกล้)", "mit (กับ)", "nach (หลังจาก/ไป)", "seit (ตั้งแต่)", "von (จาก/ของ)", "zu (ไป)"],
+            "examples": [
+              { "german": "Ich gehe mit dem Hund spazieren.", "translation": "ฉันไปเดินเล่นกับสุนัข" },
+              { "german": "Er wohnt bei seiner Tante.", "translation": "เขาอยู่ที่บ้านป้า" }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. คำบุพบทสองทาง (Wechselpräpositionen)",
+            "description": "คำบุพบทเหล่านี้ (in, an, auf, unter, über, vor, hinter, neben, zwischen) สามารถเป็น Dativ หรือ Akkusativ ก็ได้",
+            "rule": "ใช้ Dativ สำหรับตำแหน่ง (Wo?): ถ้าวัตถุอยู่กับที่ ใช้ Akkusativ สำหรับทิศทาง (Wohin?): ถ้ามีการเคลื่อนที่ไปยังเป้าหมาย",
+            "examples": [
+              { "german": "Das Buch liegt auf dem Tisch.", "translation": "หนังสืออยู่บนโต๊ะ — คงที่/Dativ" },
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "ฉันวางหนังสือลงบนโต๊ะ — เคลื่อนที่/Akkusativ" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_example",
+      "title": "ตัวอย่างสรุป",
+      "description": "ดู Akkusativ และ Dativ ทำงานร่วมกันในประโยคเดียว:",
+      "content": {
+        "examples": [
+          {
+            "label": "Akkusativ (กรรมตรง)",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe einen Brief.", "translation": "ฉันเขียนอะไร? จดหมาย" },
+            "explanation": "\"จดหมาย\" คือสิ่งที่ถูกกระทำ (Akkusativ)"
+          },
+          {
+            "label": "Dativ (กรรมรอง)",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe meinem Bruder einen Brief.", "translation": "ฉันเขียนถึงใคร? พี่ชาย" },
+            "explanation": "\"พี่ชาย\" คือผู้ที่ได้รับประโยชน์ (Dativ) ส่วน \"จดหมาย\" ยังเป็น Akkusativ"
+          }
+        ]
+      }
+    }
+  ]
+}

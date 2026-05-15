@@ -1,0 +1,124 @@
+{
+  "title": "Wörter im Satz 1 (Word order in sentences 1)",
+  "sections": [
+    {
+      "id": "declarative_sentences",
+      "title": "1. Declarative Sentences (Aussagesätze)",
+      "description": "In a standard German sentence, the conjugated verb is the anchor.",
+      "content": {
+        "rules": [
+          "The Golden Rule: The verb always occupies Position 2.",
+          "Flexibility: While the verb is fixed, the Subject can move. If you start with the Subject, it's in Position 1. If you start with a time or place (to emphasize it), the Subject must move to Position 3 so the verb remains in Position 2."
+        ],
+        "examples_table": {
+          "headers": ["Position 1 (Topic)", "Position 2 (Verb)", "Position 3 (Subject/Other)", "Remainder"],
+          "rows": [
+            ["Ich", "heisse", "Peter Schmidt.", ""],
+            ["Peter und seine Frau", "wohnen", "jetzt", "in Heidelberg."],
+            ["Heute", "esse", "ich", "Pizza."]
+          ]
+        },
+        "note": "Why? German uses \"V2\" word order. Starting with \"Heute\" (Today) makes the time the focus, but the verb must stay second."
+      }
+    },
+    {
+      "id": "w_questions",
+      "title": "2. W-Questions (Information Questions)",
+      "description": "These questions use interrogative words like Wo (Where), Woher (Where from), or Was (What).",
+      "content": {
+        "structure": "Structure: W-Word (Pos 1) + Verb (Pos 2) + Subject (Pos 3).",
+        "examples": [
+          {
+            "question": "Woher kommen Luis und Paloma? (Where do Luis and Paloma come from?)"
+          },
+          {
+            "question": "Was sind Sie von Beruf? (What is your profession?)"
+          },
+          {
+            "question": "Wo wohnen Sie jetzt? (Where do you live now?)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yes_no_questions",
+      "title": "3. Yes/No Questions (Ja/Nein-Fragen)",
+      "description": "When there is no \"W-word,\" the verb takes the lead.",
+      "content": {
+        "structure": "Structure: Verb (Pos 1) + Subject (Pos 2) + Rest of sentence.",
+        "examples": [
+          {
+            "question": "Kommt sie aus Peru? (Does she come from Peru?)"
+          },
+          {
+            "question": "Lernt Paloma Deutsch? (Is Paloma learning German?)"
+          },
+          {
+            "question": "Sind Sie heute müde? (Are you tired today?)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "imperative",
+      "title": "4. The Imperative (Commands/Requests)",
+      "description": "For formal \"Sie\" commands, the structure is similar to a Yes/No question but ends with an exclamation mark.",
+      "content": {
+        "structure": "Structure: Verb (Pos 1) + Sie + Object/Adverb!",
+        "examples": [
+          {
+            "question": "Kommen Sie! (Come!)"
+          },
+          {
+            "question": "Hören Sie die Geschichte! (Listen to the story!)"
+          },
+          {
+            "question": "Sagen Sie nichts! (Say nothing! / Don't say anything!)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "time_and_place",
+      "title": "5. Time and Place (Zeit und Ort)",
+      "description": "When a sentence contains both time (Wann?) and location (Wo?), German follows a specific logical flow.",
+      "content": {
+        "rules": [
+          "Time (Wann): Usually comes early in the sentence (often Position 1 or right after the verb).",
+          "Place (Wo): Usually comes towards the end."
+        ],
+        "example_analysis": {
+          "sentence": "Ich wohne seit zwei Jahren in Frankfurt.",
+          "translation": "(I live in Frankfurt for two years.)",
+          "breakdown": [
+            "Subject: Ich (Pos 1)",
+            "Verb: wohne (Pos 2)",
+            "Time: seit zwei Jahren (Temporal - How long)",
+            "Place: in Frankfurt (Local - Where)"
+          ]
+        },
+        "more_examples": [
+          "Ich fahre freitags um 17 Uhr (Time) nach Heidelberg (Place).",
+          "Ich arbeite von 9 bis 18 Uhr (Time) im Büro (Place)."
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Summary Table of Word Order",
+      "description": "Quick reference for all sentence types:",
+      "content": {
+        "summary_table": {
+          "headers": ["Sentence Type", "Position 1", "Position 2 (Verb)", "Position 3"],
+          "rows": [
+            ["Statement", "Subject / Time", "Verb", "Time / Subject"],
+            ["W-Question", "Question Word", "Verb", "Subject"],
+            ["Yes/No Question", "Verb", "Subject", "Object/Adverb"],
+            ["Imperative", "Verb", "Sie (Subject)", "Object"]
+          ]
+        },
+        "note": "No matter how much information you add to a standard sentence (Time, Manner, Place), the conjugated verb acts as the \"glue\" at Position 2. If you move something to the front of the sentence for emphasis, the Subject and Verb must \"swap\" so the verb doesn't move to Position 3."
+      }
+    }
+  ]
+}

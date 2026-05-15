@@ -1,0 +1,55 @@
+{
+  "title": "Home & Living",
+  "emoji": "🏠",
+  "theme_color": "#2196F3",
+  "description": "House, furniture, and daily life at home",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "wohnen", "vietnamese": "sống / cư trú", "example_german": "Ich wohne seit zwei Jahren in Berlin.", "example_vietnamese": "Tôi đã sống ở Berlin được hai năm rồi."},
+          {"german": "schlafen", "vietnamese": "ngủ", "example_german": "Wie lange schläfst du normalerweise?", "example_vietnamese": "Thông thường bạn ngủ bao lâu?"},
+          {"german": "aufwachen", "vietnamese": "thức giấc", "example_german": "Ich wache jeden Tag ohne Wecker auf.", "example_vietnamese": "Tôi thức dậy mỗi ngày mà không cần đồng hồ báo thức."},
+          {"german": "aufstehen", "vietnamese": "ngủ dậy", "example_german": "Um wie viel Uhr stehst du auf?", "example_vietnamese": "Bạn ngủ dậy lúc mấy giờ?"},
+          {"german": "waschen", "vietnamese": "giặt / rửa", "example_german": "Ich muss heute meine Kleidung waschen.", "example_vietnamese": "Hôm nay tôi phải giặt quần áo."},
+          {"german": "duschen", "vietnamese": "tắm vòi hoa sen", "example_german": "Er duscht sich nach dem Sport.", "example_vietnamese": "Anh ấy tắm sau khi tập thể thao."},
+          {"german": "baden", "vietnamese": "tắm bồn", "example_german": "Am Sonntag bade ich gerne lange.", "example_vietnamese": "Vào Chủ Nhật tôi thích tắm bồn thật lâu."},
+          {"german": "putzen", "vietnamese": "dọn dẹp / lau chùi", "example_german": "Wir putzen am Samstag die ganze Wohnung.", "example_vietnamese": "Chúng tôi dọn dẹp cả căn hộ vào thứ Bảy."},
+          {"german": "kochen", "vietnamese": "nấu ăn", "example_german": "Was kochst du heute zum Abendessen?", "example_vietnamese": "Hôm nay bạn nấu gì cho bữa tối?"},
+          {"german": "backen", "vietnamese": "nướng (bánh)", "example_german": "Meine Mutter backt einen Apfelkuchen.", "example_vietnamese": "Mẹ tôi đang nướng một chiếc bánh táo."},
+          {"german": "braten", "vietnamese": "chiên / rán / quay", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_vietnamese": "Tôi đang rán thịt trong chảo."},
+          {"german": "essen", "vietnamese": "ăn", "example_german": "Wann essen wir heute?", "example_vietnamese": "Khi nào thì hôm nay chúng ta ăn?"},
+          {"german": "trinken", "vietnamese": "uống", "example_german": "Ich trinke morgens immer einen Kaffee.", "example_vietnamese": "Buổi sáng tôi luôn uống một ly cà phê."},
+          {"german": "frühstücken", "vietnamese": "ăn sáng", "example_german": "Wir frühstücken meistens um acht Uhr.", "example_vietnamese": "Chúng tôi thường ăn sáng lúc 8 giờ."},
+          {"german": "mittagessen", "vietnamese": "ăn trưa", "example_german": "Ich esse im Büro zu Mittag.", "example_vietnamese": "Tôi ăn trưa ở văn phòng."},
+          {"german": "abendessen", "vietnamese": "ăn tối", "example_german": "Wir essen heute spät zu Abend.", "example_vietnamese": "Hôm nay chúng tôi ăn tối muộn."},
+          {"german": "abwaschen", "vietnamese": "rửa bát", "example_german": "Wer wäscht heute das Geschirr ab?", "example_vietnamese": "Hôm nay ai rửa bát đĩa vậy?"},
+          {"german": "abtrocknen", "vietnamese": "lau khô (bát đĩa)", "example_german": "Ich trockne die Teller ab.", "example_vietnamese": "Tôi đang lau khô những chiếc đĩa."},
+          {"german": "aufräumen", "vietnamese": "thu dọn / sắp xếp đồ đạc", "example_german": "Du musst dein Zimmer aufräumen.", "example_vietnamese": "Con phải dọn dẹp phòng của mình đi."},
+          {"german": "aufmachen", "vietnamese": "mở ra", "example_german": "Kannst du bitte das Fenster aufmachen?", "example_vietnamese": "Bạn có thể vui lòng mở cửa sổ ra không?"},
+          {"german": "zumachen", "vietnamese": "đóng lại", "example_german": "Es ist kalt, bitte mach die Tür zu.", "example_vietnamese": "Trời lạnh quá, làm ơn đóng cửa lại giúp."},
+          {"german": "einschalten", "vietnamese": "bật (thiết bị)", "example_german": "Ich schalte den Fernseher ein.", "example_vietnamese": "Tôi đang bật tivi."},
+          {"german": "ausschalten", "vietnamese": "tắt (thiết bị)", "example_german": "Bitte schalte das Licht aus.", "example_vietnamese": "Làm ơn hãy tắt đèn đi."},
+          {"german": "heizen", "vietnamese": "sưởi ấm", "example_german": "Im Winter müssen wir viel heizen.", "example_vietnamese": "Vào mùa đông chúng tôi phải sưởi ấm rất nhiều."},
+          {"german": "lüften", "vietnamese": "thông gió / mở cửa cho thoáng khí", "example_german": "Wir lüften das Zimmer zweimal am Tag.", "example_vietnamese": "Chúng tôi thông gió cho phòng hai lần một ngày."},
+          {"german": "staubsaugen", "vietnamese": "hút bụi", "example_german": "Ich muss im Wohnzimmer staubsaugen.", "example_vietnamese": "Tôi cần phải hút bụi trong phòng khách."},
+          {"german": "wischen", "vietnamese": "lau nhà / chùi", "example_german": "Sie wischt den Küchenboden.", "example_vietnamese": "Cô ấy đang lau sàn bếp."},
+          {"german": "bügeln", "vietnamese": "là / ủi quần áo", "example_german": "Er bügelt seine Hemden selbst.", "example_vietnamese": "Anh ấy tự ủi áo sơ mi của mình."},
+          {"german": "nähen", "vietnamese": "khâu / may", "example_german": "Meine Oma näht mir ein Kleid.", "example_vietnamese": "Bà ngoại đang may cho tôi một chiếc váy."},
+          {"german": "reparieren", "vietnamese": "sửa chữa", "example_german": "Mein Vater repariert das kaputte Fahrrad.", "example_vietnamese": "Bố tôi đang sửa chiếc xe đạp bị hỏng."},
+          {"german": "streichen", "vietnamese": "sơn (tường)", "example_german": "Wir streichen die Wände weiß.", "example_vietnamese": "Chúng tôi sơn tường màu trắng."},
+          {"german": "hangen", "vietnamese": "treo", "example_german": "Ich hänge das Bild an die Wand.", "example_vietnamese": "Tôi treo bức tranh lên tường."},
+          {"german": "stellen", "vietnamese": "đặt / để (đứng)", "example_german": "Stell die Vase bitte auf den Tisch.", "example_vietnamese": "Làm ơn đặt bình hoa lên bàn."},
+          {"german": "legen", "vietnamese": "đặt / để (nằm ngang)", "example_german": "Er legt das Buch in das Regal.", "example_vietnamese": "Anh ấy đặt cuốn sách lên kệ."},
+          {"german": "nehmen", "vietnamese": "lấy / cầm", "example_german": "Ich nehme mir ein Glas Wasser.", "example_vietnamese": "Tôi lấy cho mình một cốc nước."},
+          {"german": "bringen", "vietnamese": "mang đến", "example_german": "Bringst du mir bitte die Zeitung?", "example_vietnamese": "Bạn mang cho tôi tờ báo được không?"},
+          {"german": "tragen", "vietnamese": "mang / vác / mặc", "example_german": "Er trägt die schweren Taschen nach oben.", "example_vietnamese": "Anh ấy mang những chiếc túi nặng lên lầu."},
+          {"german": "kaufen", "vietnamese": "mua", "example_german": "Wir kaufen heute frisches Gemüse.", "example_vietnamese": "Hôm nay chúng tôi mua rau tươi."},
+          {"german": "schließen", "vietnamese": "đóng", "example_german": "Bitte schließen Sie die Haustür.", "example_vietnamese": "Vui lòng đóng cửa chính lại."},
+          {"german": "öffnen", "vietnamese": "mở", "example_german": "Ich öffne die Post.", "example_vietnamese": "Tôi đang mở thư điện tử/bưu phẩm."}
+        ]
+      }
+    }
+  ]
+}

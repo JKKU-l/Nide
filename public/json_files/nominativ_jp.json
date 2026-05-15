@@ -1,0 +1,156 @@
+{
+  "title": "Nominativ（主格 / 1格）",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "主格（Nominativ）とは？",
+      "description": "ドイツ語では、主格（Nominativ）は「名前をつける格」です。動詞の作用（与える、見る、所有するなど）によって役割が変わる前の、単語の初期設定のようなものと考えてください。主に文の主語（動作を行う人や物）に使われます。"
+    },
+    {
+      "id": "articles_adjectives_nouns",
+      "title": "1. 冠詞・形容詞・名詞",
+      "description": "形容詞の語尾は、定冠詞（the）、不定冠詞（a）、または冠詞なしのどれに続くかによって変化します。これを形容詞の格変化（Adjektivdeklination）と呼びます。",
+      "content": {
+        "declension_table": {
+          "title": "格変化表",
+          "headers": ["カテゴリー", "定冠詞 (the)", "不定冠詞 (a/my/no)", "冠詞なし"],
+          "rows": [
+            {
+              "category": "男性名詞",
+              "definite": "der nette Vater",
+              "indefinite": "ein netter Vater",
+              "no_article": "netter Vater"
+            },
+            {
+              "category": "女性名詞",
+              "definite": "die nette Mutter",
+              "indefinite": "eine nette Mutter",
+              "no_article": "nette Mutter"
+            },
+            {
+              "category": "中性名詞",
+              "definite": "das nette Kind",
+              "indefinite": "ein nettes Kind",
+              "no_article": "nettes Kind"
+            },
+            {
+              "category": "複数形",
+              "definite": "die netten Eltern",
+              "indefinite": "meine netten Eltern",
+              "no_article": "nette Eltern"
+            }
+          ]
+        },
+        "translations": [
+          {
+            "label": "男性名詞",
+            "german": "Der nette Vater ist hier.",
+            "translation": "優しいお父さんがここにいます。"
+          },
+          {
+            "label": "女性名詞",
+            "german": "Eine nette Mutter hilft.",
+            "translation": "優しいお母さんが助けてくれます。"
+          },
+          {
+            "label": "中性名詞",
+            "german": "Nettes Kind, komm her!",
+            "translation": "いい子、こっちにおいで！（冠詞なしで直接呼びかける場合に使用）"
+          }
+        ],
+        "key_rule": "定冠詞「the」（der/die/das）がすでに性を示している場合、形容詞は単純に -e で終わります（複数形を除く）。不定冠詞 ein のように性を示す「the」がない場合、形容詞が性の標識を担わなければなりません（例：ein netter Vater — der が -r で終わるため）。"
+      }
+    },
+    {
+      "id": "special_determiners",
+      "title": "2. 特別な限定詞",
+      "description": "特定の単語は定冠詞（der/die/das）とまったく同じように機能します。これらを使う場合、形容詞は常に -e（単数）または -en（複数）で終わります。",
+      "content": {
+        "determiners": ["dieser（この）", "jener（あの）", "jeder（すべての）", "alle（全部の）"],
+        "example": {
+          "german": "Jeder gute Schüler lernt.",
+          "translation": "すべての良い生徒は学びます。",
+          "note": "Jeder は der のように機能するので、gut は -e が付くだけです。"
+        }
+      }
+    },
+    {
+      "id": "pronouns",
+      "title": "3. 代名詞",
+      "description": "代名詞は名詞の代わりに使われます。主格では、主語を表します。",
+      "content": {
+        "personal_pronouns": {
+          "title": "人称代名詞（「誰が」）",
+          "description": "文の基本的な主語です：",
+          "singular": ["ich（私）", "du（あなた）", "er/sie/es（彼/彼女/それ）"],
+          "plural": ["wir（私たち）", "ihr（あなたたち）", "sie/Sie（彼ら/あなた様）"]
+        },
+        "possessive_pronouns": {
+          "title": "所有代名詞（「誰の」）",
+          "description": "2つのタイプがあります：",
+          "dependent": {
+            "label": "付加的用法",
+            "explanation": "名詞の前に使います（例：私の犬）。",
+            "german": "Mein Hund ist groß.",
+            "translation": "私の犬は大きいです。"
+          },
+          "independent": {
+            "label": "独立的用法",
+            "explanation": "単独で使います（例：その犬は私のです）。",
+            "german": "Der Hund ist meiner.",
+            "translation": "その犬は私のです。"
+          },
+          "comparison_table": {
+            "title": "独立所有代名詞の比較（例）",
+            "headers": ["人称", "男性名詞（私のもの）", "中性名詞（私のもの）", "女性/複数（私のもの）"],
+            "rows": [
+              {
+                "person": "1人称（私）",
+                "masculine": "meiner",
+                "neuter": "meins",
+                "fem_plural": "meine"
+              },
+              {
+                "person": "2人称（あなた）",
+                "masculine": "deiner",
+                "neuter": "deins",
+                "fem_plural": "deine"
+              },
+              {
+                "person": "3人称（彼）",
+                "masculine": "seiner",
+                "neuter": "seins",
+                "fem_plural": "seine"
+              }
+            ]
+          },
+          "example_dialogue": {
+            "question": "「そのボールは誰のですか？」→「私のです。」",
+            "german": "\"Wessen Ball ist das?\" → \"Es ist meiner.\"",
+            "note": "Ball は男性名詞だからです。"
+          }
+        }
+      }
+    },
+    {
+      "id": "summary",
+      "title": "使い方のまとめ",
+      "description": "主格を使うのは次の場合です：",
+      "content": {
+        "rules": [
+          {
+            "rule": "名詞が主語である場合",
+            "german": "Der Hund bellt.",
+            "translation": "犬が吠えます。"
+          },
+          {
+            "rule": "動詞「sein」（〜である）の後",
+            "german": "Er ist ein guter Mann.",
+            "translation": "彼は良い人です。"
+          }
+        ],
+        "note": "ドイツ語では「sein（〜である）」はイコール記号（A = B）のように機能するため、両方の側が主格になります。"
+      }
+    }
+  ]
+}

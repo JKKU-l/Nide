@@ -1,0 +1,55 @@
+{
+  "title": "Clothing & Appearance",
+  "emoji": "👔",
+  "theme_color": "#3F51B5",
+  "description": "Clothes, accessories, and personal appearance",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "anziehen", "myanmar": "ဝတ်ဆင်သည်", "example_german": "Ich ziehe mir eine warme Jacke an.", "example_myanmar": "ကျွန်တော် နွေးထွေးတဲ့ ဂျာကင်အင်္ကျီတစ်ထည် ဝတ်ဆင်နေပါတယ်။"},
+          {"german": "ausziehen", "myanmar": "ချွတ်သည်", "example_german": "Bitte zieh deine Schuhe im Flur aus.", "example_myanmar": "ကျေးဇူးပြုပြီး မင်းရဲ့ဖိနပ်ကို အိမ်ရှေ့ခန်းမှာ ချွတ်ပေးပါ။"},
+          {"german": "umziehen", "myanmar": "အဝတ်အစားလဲသည်", "example_german": "Ich muss mich für die Party noch umziehen.", "example_myanmar": "ကျွန်တော် ပါတီပွဲအတွက် အဝတ်အစားလဲဖို့ လိုပါသေးတယ်။"},
+          {"german": "tragen", "myanmar": "ဝတ်ဆင်ထားသည်", "example_german": "Sie trägt heute ein blaues Kleid.", "example_myanmar": "သူမ ဒီနေ့ အပြာရောင် ဂါဝန်ကို ဝတ်ဆင်ထားပါတယ်။"},
+          {"german": "passen", "myanmar": "တော်သည်/အံဝင်ခွင်ကျဖြစ်သည်", "example_german": "Die Hose passt mir leider nicht mehr.", "example_myanmar": "ဝမ်းနည်းစရာက ဒီဘောင်းဘီက ကျွန်တော့်အတွက် မတော်တော့ပါဘူး။"},
+          {"german": "kaufen", "myanmar": "ဝယ်သည်", "example_german": "Wir kaufen neue Kleidung für den Winter.", "example_myanmar": "ကျွန်ုပ်တို့ ဆောင်းရာသီအတွက် အဝတ်အစားသစ်တွေ ဝယ်ကြပါတယ်။"},
+          {"german": "anprobieren", "myanmar": "ဝတ်ကြည့်သည်", "example_german": "Darf ich diesen Pullover anprobieren?", "example_myanmar": "ဒီဆွယ်တာအင်္ကျီကို ဝတ်ကြည့်လို့ ရမလားခင်ဗျာ။"},
+          {"german": "nähen", "myanmar": "ချုပ်သည်", "example_german": "Meine Mutter kann sehr gut nähen.", "example_myanmar": "ကျွန်တော့်အမေက အင်္ကျီအရမ်း ကောင်းကောင်းချုပ်တတ်ပါတယ်။"},
+          {"german": "bügeln", "myanmar": "မီးပူတိုက်သည်", "example_german": "Er bügelt seine Hemden jeden Sonntag.", "example_myanmar": "သူက တနင်္ဂနွေနေ့တိုင်း သူ့ရဲ့ ရှပ်အင်္ကျီတွေကို မီးပူတိုက်ပါတယ်။"},
+          {"german": "waschen", "myanmar": "လျှော်ဖွပ်သည်", "example_german": "Ich muss heute weiße Wäsche waschen.", "example_myanmar": "ကျွန်တော် ဒီနေ့ အဖြူရောင်အဝတ်အစားတွေကို လျှော်ရပါမယ်။"},
+          {"german": "trocknen", "myanmar": "အခြောက်ခံသည်", "example_german": "Die Wäsche trocknet draußen in der Sonne.", "example_myanmar": "အဝတ်အစားတွေက အပြင်မှာ နေလှန်းပြီး ခြောက်နေပါတယ်။"},
+          {"german": "falten", "myanmar": "ခေါက်သည်", "example_german": "Ich falte die T-Shirts und lege sie in den Schrank.", "example_myanmar": "ကျွန်တော် တီရှပ်တွေကို ခေါက်ပြီး ဗီရိုထဲ ထည့်လိုက်ပါတယ်။"},
+          {"german": "aufhängen", "myanmar": "ချိတ်ဆွဲသည်", "example_german": "Kannst du bitte die Mäntel aufhängen?", "example_myanmar": "ကျေးဇူးပြုပြီး ကုတ်အင်္ကျီတွေကို ချိတ်ဆွဲပေးနိုင်မလား။"},
+          {"german": "einpacken", "myanmar": "ထုပ်ပိုးသည်", "example_german": "Wir müssen unsere Koffer für den Urlaub einpacken.", "example_myanmar": "ကျွန်ုပ်တို့ အားလပ်ရက် ခရီးစဉ်အတွက် ခရီးဆောင်အိတ်တွေကို ထုပ်ပိုးရပါမယ်။"},
+          {"german": "auspacken", "myanmar": "ထုပ်ပိုးထားသည်ကို ဖြေသည်/ထုတ်သည်", "example_german": "Ich packe meine Tasche nach der Reise aus.", "example_myanmar": "ကျွန်တော် ခရီးကပြန်လာပြီး အိတ်ထဲက ပစ္စည်းတွေကို ပြန်ထုတ်ပါတယ်။"},
+          {"german": "sortieren", "myanmar": "ခွဲခြားသည်", "example_german": "Sie sortiert ihre Socken nach Farben.", "example_myanmar": "သူမက သူမရဲ့ခြေအိတ်တွေကို အရောင်အလိုက် ခွဲခြားပါတယ်။"},
+          {"german": "aufräumen", "myanmar": "သန့်ရှင်းသပ်ရပ်အောင် လုပ်သည်", "example_german": "Du solltest endlich deinen Kleiderschrank aufräumen.", "example_myanmar": "မင်း နောက်ဆုံးတော့ မင်းရဲ့အဝတ်ဗီရိုကို သန့်ရှင်းသပ်ရပ်အောင် လုပ်သင့်ပြီ။"},
+          {"german": "färben", "myanmar": "ဆိုးသည်", "example_german": "Sie möchte sich die Haare schwarz färben.", "example_myanmar": "သူမက သူမရဲ့ဆံပင်ကို အမည်းရောင် ဆိုးချင်နေပါတယ်။"},
+          {"german": "schneiden", "myanmar": "ညှပ်သည်/ဖြတ်သည်", "example_german": "Der Friseur schneidet mir die Spitzen.", "example_myanmar": "ဆံပင်ညှပ်ဆရာက ကျွန်တော့်ရဲ့ ဆံပင်အဖျားတွေကို ညှပ်ပေးနေပါတယ်။"},
+          {"german": "rasieren", "myanmar": "ရိတ်သည်", "example_german": "Er rasiert sich jeden zweiten Tag.", "example_myanmar": "သူက တစ်ရက်ခြား တစ်ခါ မုတ်ဆိတ်ရိတ်ပါတယ်။"},
+          {"german": "schminken", "myanmar": "မိတ်ကပ်လိမ်းသည်", "example_german": "Sie schminkt sich vor dem Spiegel.", "example_myanmar": "သူမက မှန်ရှေ့မှာ မိတ်ကပ်လိမ်းနေပါတယ်။"},
+          {"german": "kühlen", "myanmar": "အအေးခံသည်", "example_german": "Nach dem Sport muss ich mein Knie kühlen.", "example_myanmar": "အားကစားလုပ်ပြီးနောက် ကျွန်တော့်ဒူးကို အအေးခံပေးရပါမယ်။"},
+          {"german": "wärmen", "myanmar": "နွေးထွေးစေသည်", "example_german": "Der Tee wärmt mich von innen.", "example_myanmar": "လက်ဖက်ရည်က ကျွန်တော့်ရဲ့ ကိုယ်တွင်းကို နွေးထွေးစေပါတယ်။"},
+          {"german": "reinigen", "myanmar": "သန့်စင်သည်/အခြောက်လျှော်သည်", "example_german": "Ich muss diesen Anzug chemisch reinigen lassen.", "example_myanmar": "ဒီဆုဒ်(Suit)အင်္ကျီကို အခြောက်လျှော် ဆိုင်ပို့ရပါမယ်။"},
+          {"german": "aufbewahren", "myanmar": "သိမ်းဆည်းသည်", "example_german": "Wo bewahrst du deinen Schmuck auf?", "example_myanmar": "မင်းရဲ့ လက်ဝတ်ရတနာတွေကို ဘယ်မှာ သိမ်းဆည်းထားသလဲ။"},
+          {"german": "wegwerfen", "myanmar": "လွှင့်ပစ်သည်", "example_german": "Diese alten Schuhe kannst du wegwerfen.", "example_myanmar": "ဒီဖိနပ်အဟောင်းတွေကို မင်း လွှင့်ပစ်လို့ရပါတယ်။"},
+          {"german": "spenden", "myanmar": "လှူဒါန်းသည်", "example_german": "Wir spenden unsere alte Kleidung an das Rote Kreuz.", "example_myanmar": "ကျွန်ုပ်တို့ အဝတ်ဟောင်းတွေကို ကြက်ခြေနီအသင်းကို လှူဒါန်းပါတယ်။"},
+          {"german": "schenken", "myanmar": "လက်ဆောင်ပေးသည်", "example_german": "Ich schenke ihr eine goldene Kette.", "example_myanmar": "ကျွန်တော် သူမကို ရွှေဆွဲကြိုးတစ်ကုံး လက်ဆောင်ပေးပါတယ်။"},
+          {"german": "leihen", "myanmar": "ငှားသည်", "example_german": "Kannst du mir eine Krawatte leihen?", "example_myanmar": "ကျွန်တော့်ကို နက်ကတိုင် တစ်ခု ငှားလို့ရမလား။"},
+          {"german": "zurückgeben", "myanmar": "ပြန်ပေးသည်", "example_german": "Ich gebe dir den geliehenen Schal morgen zurück.", "example_myanmar": "မင်းဆီက ငှားထားတဲ့ ပုဝါကို မနက်ဖြန် ပြန်ပေးပါ့မယ်။"},
+          {"german": "umtauschen", "myanmar": "လဲလှယ်သည်", "example_german": "Ich möchte diese Jacke gegen eine größere umtauschen.", "example_myanmar": "ကျွန်တော် ဒီဂျာကင်ကို ပိုကြီးတဲ့ တစ်ထည်နဲ့ လဲချင်ပါတယ်။"},
+          {"german": "verlieren", "myanmar": "ပျောက်ဆုံးသည်", "example_german": "Ich verliere ständig meine Handschuhe.", "example_myanmar": "ကျွန်တော် လက်အိတ်တွေ ခဏခဏ ပျောက်ပါတယ်။"},
+          {"german": "finden", "myanmar": "ရှာတွေ့သည်", "example_german": "Ich kann meine Mütze nirgends finden.", "example_myanmar": "ကျွန်တော့်ရဲ့ ဦးထုပ်ကို ဘယ်နေရာမှာမှ ရှာမတွေ့ပါဘူး။"},
+          {"german": "suchen", "myanmar": "ရှာဖွေသည်", "example_german": "Er sucht nach einer passenden Jeans.", "example_myanmar": "သူက တော်မယ့် ဂျင်းဘောင်းဘီတစ်ထည်ကို ရှာဖွေနေပါတယ်။"},
+          {"german": "anschauen", "myanmar": "ကြည့်သည်", "example_german": "Schau dir diesen schönen Mantel an!", "example_myanmar": "ဒီလှပတဲ့ ကုတ်အင်္ကျီကို ကြည့်လိုက်စမ်းပါ။"},
+          {"german": "zeigen", "myanmar": "ပြသသည်", "example_german": "Zeig mir bitte deine neuen Schuhe.", "example_myanmar": "ကျေးဇူးပြုပြီး မင်းရဲ့ ဖိနပ်အသစ်တွေကို ပြပေးပါ။"},
+          {"german": "wählen", "myanmar": "ရွေးချယ်သည်", "example_german": "Sie kann sich nicht für eine Farbe wählen.", "example_myanmar": "သူမက အရောင်ကို မရွေးချယ်နိုင်ဖြစ်နေပါတယ်။"},
+          {"german": "gefallen", "myanmar": "သဘောကျသည်", "example_german": "Das Hemd gefällt mir sehr gut.", "example_myanmar": "ဒီရှပ်အင်္ကျီကို ကျွန်တော် တော်တော်သဘောကျပါတယ်။"},
+          {"german": "stehen", "myanmar": "လိုက်ဖက်သည်", "example_german": "Die Farbe Grün steht dir ausgezeichnet.", "example_myanmar": "အစိမ်းရောင်က မင်းနဲ့ အရမ်းလိုက်ဖက်ပါတယ်။"},
+          {"german": "tragen", "myanmar": "သယ်ဆောင်သည်", "example_german": "Er trägt die schweren Koffer zum Auto.", "example_myanmar": "သူက လေးလံတဲ့ ခရီးဆောင်အိတ်တွေကို ကားဆီ သယ်ဆောင်သွားပါတယ်။"}
+        ]
+      }
+    }
+  ]
+}

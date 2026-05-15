@@ -1,0 +1,149 @@
+{
+  "title": "Ja/Nein-Fragen (예/아니오 의문문)",
+  "sections": [
+    {
+      "id": "sentence_structure",
+      "title": "1. 독일어 문장 구조: 평서문 vs 의문문",
+      "description": "독일어에서 가장 중요한 규칙은 바로 동사의 위치입니다.",
+      "content": {
+        "categories": [
+          {
+            "category": "평서문 (Aussagesatz)",
+            "description": "일반적인 문장에서 동사는 항상 두 번째 위치(Position 2)에 옵니다.",
+            "table": {
+              "headers": ["규칙", "예시"],
+              "rows": [
+                ["주어 + 동사 + 나머지 정보", "Er kommt aus Berlin. (그는 베를린 출신입니다.)"]
+              ]
+            }
+          },
+          {
+            "category": "예/아니오 의문문 (Ja/Nein-Frage)",
+            "description": "\"예\" 또는 \"아니오\"로 답할 수 있는 의문문을 만들려면 동사를 첫 번째 위치(Position 1)로 옮깁니다.",
+            "table": {
+              "headers": ["규칙", "예시"],
+              "rows": [
+                ["동사 + 주어 + 나머지 정보?", "Kommt er aus Berlin? (그는 베를린 출신인가요?)"]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "answering_questions",
+      "title": "2. 질문에 답하기: Ja, Nein 그리고 Doch",
+      "description": "독일어에는 질문의 형식에 따라 \"네/아니오\"로 답하는 세 가지 방법이 있습니다.",
+      "content": {
+        "categories": [
+          {
+            "category": "긍정 의문문 (Positive Questions)",
+            "description": "질문에 \"nicht\"나 \"kein\" 같은 부정어가 없는 일반적인 경우:",
+            "table": {
+              "headers": ["대답", "사용", "예시"],
+              "rows": [
+                ["Ja (예)", "동의할 때", "Ja, ich spreche Englisch."],
+                ["Nein (아니오)", "부정할 때", "Nein, ich spreche kein Englisch."]
+              ]
+            },
+            "examples": [
+              {
+                "question": "\"Sprechen Sie Englisch?\" (영어를 하시나요?)",
+                "answer": "Ja, ich spreche Englisch. (네, 영어를 합니다.) / Nein, ich spreche kein Englisch. (아니오, 영어를 못 합니다.)"
+              }
+            ]
+          },
+          {
+            "category": "부정 의문문 (Negative Questions)",
+            "description": "질문에 nicht(않다)나 kein(없다/아니다) 같은 부정어가 포함된 경우, 긍정의 대답 \"Ja\"는 Doch로 바뀝니다.",
+            "table": {
+              "headers": ["대답", "사용", "예시"],
+              "rows": [
+                ["Doch (천만에요/아니요, 맞아요)", "부정적인 질문의 내용을 반박하며 긍정할 때 사용합니다", "Doch, ich spreche Englisch."],
+                ["Nein (아니오)", "질문의 부정적인 내용에 동의할 때(즉, 실제로도 아닐 때) 사용합니다", "Nein, ich spreche kein Englisch."]
+              ]
+            },
+            "examples": [
+              {
+                "question": "\"Sprechen Sie nicht Englisch?\" (영어를 못 하시나요?)",
+                "answer": "Doch, ich spreche Englisch. (아니요, 할 줄 압니다. — 상대의 \"못 하냐\"는 추측을 반박) / Nein, ich spreche kein Englisch. (네, 영어를 못 합니다. — 상대의 말대로 못 함)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "polite_requests",
+      "title": "3. 정중한 부탁 (Höfliche Bitten)",
+      "description": "독일인들은 정중하게 무언가를 요청할 때 동사의 \"접속법 2식(Konjunktiv II)\" 형태를 사용합니다. 이는 영어의 \"Give me...\"와 \"Could you please give me...\"의 차이와 같습니다.",
+      "content": {
+        "categories": [
+          {
+            "category": "\"Könnten\"과 \"Würden\" 사용하기",
+            "description": "Könnten Sie... (~하실 수 있을까요?): 능력이나 가능성을 물을 때 사용. Würden Sie... (~해 주시겠어요?): 일반적인 요청이나 행동을 부탁할 때 사용.",
+            "table": {
+              "headers": ["문장 구조", "예시", "한국어 해석"],
+              "rows": [
+                ["Könnten + 주어 + ... + 동사원형?", "Könnten Sie mir bitte helfen?", "저를 좀 도와주실 수 있을까요?"],
+                ["Würden + 주어 + ... + 동사원형?", "Würden Sie bitte das Fenster öffnen?", "창문을 좀 열어주시겠어요?"]
+              ]
+            },
+            "note": "참고: 이 문장들에서 실제 행동을 나타내는 핵심 동사(helfen 또는 öffnen)는 항상 문장의 맨 끝에 원형(infinitive) 형태로 위치합니다."
+          }
+        ]
+      }
+    },
+    {
+      "id": "question_types",
+      "title": "4. 의문사 의문문 vs 예/아니오 의문문",
+      "description": "독일어 의문문은 크게 두 가지 유형으로 나뉩니다.",
+      "content": {
+        "categories": [
+          {
+            "category": "W-의문문 (정보 의문문)",
+            "description": "의문사(Wer, Was, Wie, Wo, Woher 등)로 시작합니다. 동사는 두 번째 위치에 고정됩니다.",
+            "examples": [
+              {
+                "question": "Wie hoch ist Ihre Miete? (임대료가 얼마인가요?)",
+                "answer": "답변: 구체적인 정보 제공 (650 Euro)."
+              }
+            ]
+          },
+          {
+            "category": "동사 시작 의문문 (예/아니오 의문문)",
+            "description": "동사로 문장을 시작합니다.",
+            "examples": [
+              {
+                "question": "Suchen Sie eine Wohnung? (집을 구하고 계신가요?)",
+                "answer": "답변: Ja 또는 Nein으로 시작."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "학습 요약표",
+      "description": "모든 문장 유형의 빠른 참고 자료:",
+      "content": {
+        "summary_table": {
+          "headers": ["문장 유형", "동사 위치", "예시"],
+          "rows": [
+            ["평서문", "2번째", "Ich wohne in Frankfurt."],
+            ["예/아니오 의문문", "1번째", "Wohnen Sie in Frankfurt?"],
+            ["W-의문문", "2번째", "Wo wohnen Sie?"],
+            ["정중한 부탁", "1번째", "Würden Sie mir den Weg sagen?"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "💡 학습자를 위한 꿀팁",
+      "description": "질문에 nicht나 kein 같은 부정어가 보인다면, 긍정의 대답을 하고 싶을 때 즉각적으로 Doch를 떠올리세요! 이는 독일어 일상 대화에서 가장 독특하면서도 중요한 단어 중 하나입니다.",
+      "content": {}
+    }
+  ]
+}

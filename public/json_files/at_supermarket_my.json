@@ -1,0 +1,156 @@
+{
+  "title": "At Supermarket",
+  "theme_color": "#FF6B6B",
+  "difficulty": "A1",
+  "duration_minutes": 6,
+  "audio_file": "at_supermarket.mp3",
+  "sections": [
+    {
+      "id": "story",
+      "title": "Story",
+      "content": {
+        "german_text": "Am Samstagmorgen gehe ich mit meiner Mutter in den Supermarkt. Wir brauchen Gemüse, Brot, Käse und Milch. Im Laden gibt es viele Menschen, die auch einkaufen. Ich nehme einen Einkaufswagen und gehe durch die Gänge. Wir finden frisches Obst und leckere Tomaten. An der Kasse packen wir alles in Taschen. Meine Mutter bezahlt mit Karte. Danach tragen wir die Einkäufe nach Hause. Einkaufen im Supermarkt ist manchmal stressig, aber man findet alles, was man braucht.",
+        "english_translation": "On Saturday morning I go with my mother to the supermarket. We need vegetables, bread, cheese, and milk. In the store there are many people who are also shopping. I take a shopping cart and go through the aisles. We find fresh fruit and tasty tomatoes. At the checkout, we pack everything into bags. My mother pays by card. Then we carry the groceries home. Shopping in the supermarket is sometimes stressful, but you find everything you need.",
+        "myanmar_translation": "စနေနေ့မနက်ပိုင်းမှာ ကျွန်တော်ဟာ အမေနဲ့အတူ ကုန်စုံဆိုင်ကြီးကို သွားပါတယ်။ ကျွန်တော်တို့မှာ ဟင်းသီးဟင်းရွက်၊ ပေါင်မုန့်၊ ဒိန်ခဲနဲ့ နို့တွေ လိုအပ်ပါတယ်။ ဆိုင်ထဲမှာ ဈေးဝယ်နေကြတဲ့သူတွေ အများကြီးရှိပါတယ်။ ကျွန်တော်က ဈေးဝယ်လှည်းတစ်ခုကိုယူပြီး လမ်းကြောင်းတွေတစ်လျှောက် လျှောက်သွားပါတယ်။ ကျွန်တော်တို့ဟာ လတ်ဆတ်တဲ့ သစ်သီးဝလံတွေနဲ့ အရသာရှိတဲ့ ခရမ်းချဉ်သီးတွေကို ရှာဖွေတွေ့ရှိခဲ့ပါတယ်။ ငွေရှင်းကောင်တာမှာတော့ အရာအားလုံးကို အိတ်တွေထဲ ထည့်ပါတယ်။ အမေက ကတ်နဲ့ ငွေပေးချေပါတယ်။ အဲဒီနောက်မှာတော့ ဝယ်လာတဲ့ပစ္စည်းတွေကို အိမ်ကို သယ်လာခဲ့ကြပါတယ်။ ကုန်စုံဆိုင်မှာ ဈေးဝယ်ရတာဟာ တစ်ခါတလေ စိတ်ဖိစီးစရာကောင်းပေမဲ့ ကိုယ်လိုအပ်တာမှန်သမျှကိုတော့ အကုန်ရှာဖွေရရှိနိုင်ပါတယ်။"
+      }
+    },
+    {
+      "id": "exercises",
+      "title": "Practice Exercises",
+      "content": {
+        "exercises": [
+          {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Wann geht die Person in den Supermarkt?",
+            "options": ["Am Sonntagmorgen", "Am Samstagmorgen", "Am Freitagnachmittag", "Am Donnerstagabend"],
+            "correct_answer": "Am Samstagmorgen"
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "question": "Am _______ gehe ich mit meiner Mutter in den Supermarkt.",
+            "answer": "Samstagmorgen"
+          },
+          {
+            "id": 3,
+            "type": "multiple_choice",
+            "question": "Mit wem geht die Person einkaufen?",
+            "options": ["Mit dem Vater", "Mit der Mutter", "Mit dem Freund", "Alleine"],
+            "correct_answer": "Mit der Mutter"
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "Ich gehe mit meiner _______ in den Supermarkt.",
+            "answer": "Mutter"
+          },
+          {
+            "id": 5,
+            "type": "multiple_choice",
+            "question": "Was brauchen sie?",
+            "options": ["Fleisch und Fisch", "Gemüse, Brot, Käse und Milch", "Nudeln und Reis", "Pizza und Eis"],
+            "correct_answer": "Gemüse, Brot, Käse und Milch"
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "question": "Wir brauchen Gemüse, Brot, Käse und _______.",
+            "answer": "Milch"
+          },
+          {
+            "id": 7,
+            "type": "multiple_choice",
+            "question": "Was gibt es im Laden?",
+            "options": ["Wenige Menschen", "Keine Menschen", "Viele Menschen", "Nur Kinder"],
+            "correct_answer": "Viele Menschen"
+          },
+          {
+            "id": 8,
+            "type": "fill_blank",
+            "question": "Im Laden gibt es viele _______.",
+            "answer": "Menschen"
+          },
+          {
+            "id": 9,
+            "type": "multiple_choice",
+            "question": "Was nimmt die Person?",
+            "options": ["Einen Korb", "Einen Einkaufswagen", "Eine Tasche", "Nichts"],
+            "correct_answer": "Einen Einkaufswagen"
+          },
+          {
+            "id": 10,
+            "type": "fill_blank",
+            "question": "Ich nehme einen _______.",
+            "answer": "Einkaufswagen"
+          },
+          {
+            "id": 11,
+            "type": "multiple_choice",
+            "question": "Was finden sie?",
+            "options": ["Altes Obst", "Frisches Obst", "Kein Obst", "Nur Äpfel"],
+            "correct_answer": "Frisches Obst"
+          },
+          {
+            "id": 12,
+            "type": "fill_blank",
+            "question": "Wir finden _______ Obst und leckere Tomaten.",
+            "answer": "frisches"
+          },
+          {
+            "id": 13,
+            "type": "multiple_choice",
+            "question": "Wo packen sie alles ein?",
+            "options": ["In Kisten", "In Taschen", "In Rucksäcke", "In Einkaufswagen"],
+            "correct_answer": "In Taschen"
+          },
+          {
+            "id": 14,
+            "type": "fill_blank",
+            "question": "An der Kasse packen wir alles in _______.",
+            "answer": "Taschen"
+          },
+          {
+            "id": 15,
+            "type": "multiple_choice",
+            "question": "Wie bezahlt die Mutter?",
+            "options": ["Mit Bargeld", "Mit Karte", "Mit Handy", "Mit Scheck"],
+            "correct_answer": "Mit Karte"
+          },
+          {
+            "id": 16,
+            "type": "fill_blank",
+            "question": "Meine Mutter bezahlt mit _______.",
+            "answer": "Karte"
+          },
+          {
+            "id": 17,
+            "type": "multiple_choice",
+            "question": "Wohin tragen sie die Einkäufe?",
+            "options": ["Zum Auto", "Zur Schule", "Nach Hause", "Zur Arbeit"],
+            "correct_answer": "Nach Hause"
+          },
+          {
+            "id": 18,
+            "type": "fill_blank",
+            "question": "Danach tragen wir die Einkäufe nach _______.",
+            "answer": "Hause"
+          },
+          {
+            "id": 19,
+            "type": "multiple_choice",
+            "question": "Ist Einkaufen im Supermarkt stressig?",
+            "options": ["Nie", "Immer", "Manchmal", "Selten"],
+            "correct_answer": "Manchmal"
+          },
+          {
+            "id": 20,
+            "type": "fill_blank",
+            "question": "Einkaufen im Supermarkt ist manchmal _______, aber man findet alles.",
+            "answer": "stressig"
+          }
+        ]
+      }
+    }
+  ]
+}

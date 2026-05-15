@@ -1,0 +1,123 @@
+{
+  "title": "Dativ (여격 / 3격)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "독일어 여격(Dativ) 이해하기",
+      "description": "여격은 종종 \"수혜자\"의 격이라고 불립니다. 목적격이 직접 목적어(동작을 받는 대상)를 나타내는 반면, 여격은 간접 목적어(그 동작의 결과를 받는 사람이나 사물)를 나타냅니다."
+    },
+    {
+      "id": "identifying_dative",
+      "title": "1. 여격 찾기: \"누구에게\"와 \"어디에\"",
+      "description": "문장에서 여격을 찾으려면 두 가지 질문을 합니다:",
+      "content": {
+        "questions": [
+          { "question": "Wem? (누구에게 / 누구를 위해?)", "explanation": "무언가를 받는 사람을 식별합니다.", "german": "Ich gebe dem Lehrer das Buch.", "translation": "나는 선생님에게 책을 줍니다. (선생님이 수혜자입니다)" },
+          { "question": "Wo? (어디에?)", "explanation": "장소를 다룰 때, 여격은 목적지를 향한 이동이 아닌 정적인 위치를 나타냅니다.", "german": "Das Buch liegt auf dem Tisch.", "translation": "책이 테이블 위에 있습니다. (정적 위치)" }
+        ]
+      }
+    },
+    {
+      "id": "articles_nouns",
+      "title": "2. 관사와 명사의 변화",
+      "description": "여격은 명사 앞에 오는 단어들에 특정한 변화를 일으킵니다. 여격의 고유한 규칙은 \"n-복수형\"입니다: 여격의 거의 모든 복수 명사는 끝에 -n을 추가해야 합니다 (예: die Kinder → den Kindern).",
+      "content": {
+        "declension_table": {
+          "title": "여격 격변화표",
+          "headers": ["성", "정관사 (The)", "부정/소유 관사 (A/My)", "형용사 어미 (정관사 뒤)"],
+          "rows": [
+            { "category": "남성 명사", "definite": "dem Vater", "indefinite": "einem Vater", "adjective": "dem netten Vater" },
+            { "category": "여성 명사", "definite": "der Mutter", "indefinite": "einer Mutter", "adjective": "der netten Mutter" },
+            { "category": "중성 명사", "definite": "dem Kind", "indefinite": "einem Kind", "adjective": "dem netten Kind" },
+            { "category": "복수", "definite": "den Eltern", "indefinite": "(meinen) Eltern", "adjective": "den netten Eltern" }
+          ]
+        },
+        "adjective_note": "dieser(이것), jener(저것), alle(모든)와 같은 단어를 사용할 때, 여격에서 형용사는 항상 -en으로 끝납니다. 이것은 기억하기 쉬운 일관된 \"약변화\"를 제공합니다."
+      }
+    },
+    {
+      "id": "dative_pronouns",
+      "title": "3. 여격 대명사",
+      "description": "이름이나 명사를 \"나에게\", \"너에게\", \"그에게\"로 바꿀 때, 대명사의 여격 형태를 사용해야 합니다.",
+      "content": {
+        "pronoun_table": {
+          "title": "여격에서의 대명사 변화",
+          "rows": [
+            { "nominative": "ich", "accusative": "mir", "meaning": "나에게" },
+            { "nominative": "du", "accusative": "dir", "meaning": "너에게" },
+            { "nominative": "er", "accusative": "ihm", "meaning": "그에게" },
+            { "nominative": "sie", "accusative": "ihr", "meaning": "그녀에게" },
+            { "nominative": "es", "accusative": "ihm", "meaning": "그것에게" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "우리에게" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "너희에게" },
+            { "nominative": "sie/Sie", "accusative": "ihnen/Ihnen", "meaning": "그들에게 / 당신에게" }
+          ]
+        },
+        "example": {
+          "german": "Er hilft mir.",
+          "translation": "그는 나를 도와줍니다.",
+          "note": "\"Er hilft mich\"(목적격)라고 할 수 없습니다. helfen은 \"여격 동사\"이므로 \"Er hilft mir\"라고 해야 합니다."
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. 여격을 사용하는 경우",
+      "description": "여격에는 세 가지 주요 촉발 요인이 있습니다:",
+      "content": {
+        "triggers": [
+          {
+            "id": "dative_verbs",
+            "title": "A. 여격 동사",
+            "description": "독일어에서 일부 동사는 \"여격 전용\"입니다. 영어 번역에 \"to\"나 \"for\"가 없어도 이 동사들은 논리적으로 사람과의 상호작용을 의미합니다.",
+            "subcategories": [
+              { "label": "대인 관계", "verbs": "danken (감사하다), helfen (돕다), gratulieren (축하하다)", "german": "Ich danke dir.", "translation": "나는 너에게 감사한다." },
+              { "label": "의견/감정", "verbs": "gefallen (마음에 들다), gehören (~에 속하다), passen (맞다)", "german": "Das Auto gehört dem Mann.", "translation": "그 차는 그 남자의 것입니다." }
+            ]
+          },
+          {
+            "id": "dative_prepositions",
+            "title": "B. 여격 전치사",
+            "description": "동작에 관계없이 항상 여격을 필요로 하는 특정 전치사 그룹이 있습니다.",
+            "prepositions": ["aus (~에서)", "bei (~곁에)", "mit (~와 함께)", "nach (~후에)", "seit (~이래로)", "von (~로부터)", "zu (~에게)"],
+            "examples": [
+              { "german": "Ich gehe mit dem Hund spazieren.", "translation": "나는 개와 산책하러 간다." },
+              { "german": "Er wohnt bei seiner Tante.", "translation": "그는 이모 집에 산다." }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. 양방향 전치사 (Wechselpräpositionen)",
+            "description": "이 전치사들 (in, an, auf, unter, über, vor, hinter, neben, zwischen)은 여격 또는 목적격이 될 수 있습니다.",
+            "rule": "위치(Wo?)에는 여격: 물체가 한 곳에 머물러 있는 경우. 방향(Wohin?)에는 목적격: 목표를 향한 이동이 있는 경우.",
+            "examples": [
+              { "german": "Das Buch liegt auf dem Tisch.", "translation": "책이 테이블 위에 있다 — 정지/여격." },
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "나는 책을 테이블 위에 놓는다 — 이동/목적격." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_example",
+      "title": "요약 예시",
+      "description": "하나의 문장에서 목적격과 여격이 함께 사용되는 예:",
+      "content": {
+        "examples": [
+          {
+            "label": "목적격 (직접 목적어)",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe einen Brief.", "translation": "무엇을 쓰고 있나요? 편지를." },
+            "explanation": "\"편지\"는 동작을 받는 대상(목적격)입니다."
+          },
+          {
+            "label": "여격 (간접 목적어)",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe meinem Bruder einen Brief.", "translation": "누구에게 쓰고 있나요? 형제에게." },
+            "explanation": "\"형제\"는 혜택을 받는 사람(여격)이고 \"편지\"는 목적격으로 남습니다."
+          }
+        ]
+      }
+    }
+  ]
+}

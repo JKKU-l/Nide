@@ -1,0 +1,156 @@
+{
+  "title": "At Restaurant",
+  "theme_color": "#FF6B6B",
+  "difficulty": "A1",
+  "duration_minutes": 8,
+  "audio_file": "at_restaurant.mp3",
+  "sections": [
+    {
+      "id": "story",
+      "title": "Story",
+      "content": {
+        "german_text": "Heute ist Samstagabend. Ich gehe mit meinen Freunden ins Restaurant, um zu essen. Wir bekommen einen Tisch am Fenster. Ich bestelle eine Pizza und ein Glas Wasser. Meine Freunde bestellen Pasta und Salat. Im Restaurant gibt es viele leckere Gerichte. Der Kellner ist freundlich und bringt uns schnell das Essen. Nach dem Essen bestellen wir noch Eis. An der Kasse bezahle ich mit Bargeld. Danach gehen wir alle glücklich nach Hause. Essen im Restaurant macht Freude!",
+        "english_translation": "Today is Saturday evening. I go to the restaurant with my friends in order to eat. We get a table by the window. I order a pizza and a glass of water. My friends order pasta and salad. In the restaurant, there are many delicious dishes. The waiter is friendly and brings us the food quickly. After the meal, we order ice cream. At the counter, I pay with cash. Then we all go home happily. Eating in a restaurant is fun (brings joy)!",
+        "myanmar_translation": "ယနေ့သည် စနေနေ့ည ဖြစ်သည်။ ကျွန်တော်သည် သူငယ်ချင်းများနှင့်အတူ စားသောက်ဆိုင်သို့ အတူတူ သွားစားကြသည်။ ကျွန်တော်တို့သည် ပြတင်းပေါက်နားက စားပွဲတစ်ခုတွင် နေရာရသည်။ ကျွန်တော်က ပီဇာတစ်ချပ်နှင့် ရေတစ်ဖန်ခွက်ကို မှာယူသည်။ ကျွန်တော့်သူငယ်ချင်းများကတော့ ခေါက်ဆွဲနှင့် အသုပ်ကို မှာယူကြသည်။ စားသောက်ဆိုင်တွင် အရသာရှိသော ဟင်းပွဲများစွာ ရှိသည်။ စားပွဲထိုးသည် ဖော်ရွေပျူငှာပြီး ကျွန်တော်တို့ထံသို့ အစားအစာများကို မြန်မြန်ဆန်ဆန် ယူဆောင်လာပေးသည်။ အစားအသောက်များ စားပြီးနောက် ကျွန်တော်တို့ ရေခဲမုန့်ကို ထပ်မံမှာယူကြသည်။ ငွေရှင်းကောင်တာတွင် ကျွန်တော်က လက်ငင်းငွေသားဖြင့် ပေးချေသည်။ ထို့နောက် ကျွန်တော်တို့အားလုံး ပျော်ရွှင်စွာဖြင့် အိမ်သို့ ပြန်ကြသည်။ စားသောက်ဆိုင်တွင် အတူတူ စားသောက်ရခြင်းသည် ပျော်ရွှင်မှုကို ဖြစ်စေသည်။"
+      }
+    },
+    {
+      "id": "exercises",
+      "title": "Practice Exercises",
+      "content": {
+        "exercises": [
+          {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Welcher Tag ist heute?",
+            "options": ["Sonntagabend", "Samstagabend", "Freitagabend", "Montagabend"],
+            "correct_answer": "Samstagabend"
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "question": "Heute ist _______.",
+            "answer": "Samstagabend"
+          },
+          {
+            "id": 3,
+            "type": "multiple_choice",
+            "question": "Mit wem geht die Person ins Restaurant?",
+            "options": ["Mit der Familie", "Mit den Freunden", "Mit der Mutter", "Alleine"],
+            "correct_answer": "Mit den Freunden"
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "Ich gehe mit meinen _______ ins Restaurant.",
+            "answer": "Freunden"
+          },
+          {
+            "id": 5,
+            "type": "multiple_choice",
+            "question": "Wo sitzen sie?",
+            "options": ["An der Tür", "Am Fenster", "In der Ecke", "Im Garten"],
+            "correct_answer": "Am Fenster"
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "question": "Wir bekommen einen Tisch am _______.",
+            "answer": "Fenster"
+          },
+          {
+            "id": 7,
+            "type": "multiple_choice",
+            "question": "Was bestellt die Person?",
+            "options": ["Pasta und Salat", "Pizza und Wasser", "Suppe und Brot", "Fisch und Reis"],
+            "correct_answer": "Pizza und Wasser"
+          },
+          {
+            "id": 8,
+            "type": "fill_blank",
+            "question": "Ich bestelle eine Pizza und ein Glas _______.",
+            "answer": "Wasser"
+          },
+          {
+            "id": 9,
+            "type": "multiple_choice",
+            "question": "Was bestellen die Freunde?",
+            "options": ["Pizza und Eis", "Pasta und Salat", "Suppe und Wasser", "Brot und Käse"],
+            "correct_answer": "Pasta und Salat"
+          },
+          {
+            "id": 10,
+            "type": "fill_blank",
+            "question": "Meine Freunde bestellen _______ und Salat.",
+            "answer": "Pasta"
+          },
+          {
+            "id": 11,
+            "type": "multiple_choice",
+            "question": "Was gibt es im Restaurant?",
+            "options": ["Wenige Gerichte", "Keine Gerichte", "Viele leckere Gerichte", "Nur Pizza"],
+            "correct_answer": "Viele leckere Gerichte"
+          },
+          {
+            "id": 12,
+            "type": "fill_blank",
+            "question": "Im Restaurant gibt es viele _______ Gerichte.",
+            "answer": "lecker"
+          },
+          {
+            "id": 13,
+            "type": "multiple_choice",
+            "question": "Wie ist der Kellner?",
+            "options": ["Unfreundlich", "Langsam", "Freundlich", "Grob"],
+            "correct_answer": "Freundlich"
+          },
+          {
+            "id": 14,
+            "type": "fill_blank",
+            "question": "Der Kellner ist _______ und bringt uns schnell das Essen.",
+            "answer": "freundlich"
+          },
+          {
+            "id": 15,
+            "type": "multiple_choice",
+            "question": "Was bestellen sie nach dem Essen?",
+            "options": ["Kaffee", "Tee", "Eis", "Kuchen"],
+            "correct_answer": "Eis"
+          },
+          {
+            "id": 16,
+            "type": "fill_blank",
+            "question": "Nach dem Essen bestellen wir noch _______.",
+            "answer": "Eis"
+          },
+          {
+            "id": 17,
+            "type": "multiple_choice",
+            "question": "Wie bezahlt die Person?",
+            "options": ["Mit Karte", "Mit Bargeld", "Mit Handy", "Mit Scheck"],
+            "correct_answer": "Mit Bargeld"
+          },
+          {
+            "id": 18,
+            "type": "fill_blank",
+            "question": "An der Kasse bezahle ich mit _______.",
+            "answer": "Bargeld"
+          },
+          {
+            "id": 19,
+            "type": "multiple_choice",
+            "question": "Wie fühlen sich alle danach?",
+            "options": ["Traurig", "Wütend", "Müde", "Glücklich"],
+            "correct_answer": "Glücklich"
+          },
+          {
+            "id": 20,
+            "type": "fill_blank",
+            "question": "Danach gehen wir alle _______ nach Hause.",
+            "answer": "glücklich"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "title": "Sein & Haben",
+  "subtitle": "Special Verbs and Their Conjugations",
+  "sections": [
+    {
+      "id": "auxiliary_verbs",
+      "title": "1. 기초 조동사: Sein (~이다/있다) 및 Haben (가지다)",
+      "description": "독일어에서 가장 중요한 두 동사입니다. Sein은 정체성, 상태, 나이를 나타낼 때 사용하며, Haben은 소유를 나타냅니다.",
+      "content": {
+        "table": {
+          "headers": ["인칭 대명사", "Sein (~이다)", "Haben (가지다)", "예문 및 한국어 해석"],
+          "rows": [
+            ["ich (나)", "bin", "habe", "Ich bin Lehrer. (나는 교사입니다.)"],
+            ["du (너)", "bist", "hast", "Hast du Geld? (너 돈 있니?)"],
+            ["er/sie/es (그/그녀/그것)", "ist", "hat", "Er ist 5 Jahre alt. (그는 5살입니다.)"],
+            ["wir (우리)", "sind", "haben", "Wir haben einen Hund. (우리는 개가 한 마리 있습니다.)"],
+            ["ihr (너희들)", "seid", "habt", "Seid ihr neu hier? (너희들 여기 처음이니?)"],
+            ["sie/Sie (그들/당신)", "sind", "haben", "Sind Sie verheiratet? (당신은 결혼하셨나요?)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "special_verbs",
+      "title": "2. 특수 동사 변화 (Special Verbs)",
+      "description": "이 동사들은 ich(1인칭)와 er/sie/es(3인칭 단수)의 형태가 항상 같다는 특징이 있습니다.",
+      "content": {
+        "table": {
+          "headers": ["인칭", "möchte (~하고 싶다)", "mögen (좋아하다)", "wissen (알다)", "tun (하다)"],
+          "rows": [
+            ["ich", "möchte", "mag", "weiß", "tue"],
+            ["du", "möchtest", "magst", "weißt", "tust"],
+            ["er/sie/es", "möchte", "mag", "weiß", "tut"],
+            ["wir", "möchten", "mögen", "wissen", "tun"],
+            ["ihr", "möchtet", "mögt", "wisst", "tut"],
+            ["sie/Sie", "möchten", "mögen", "wissen", "tun"]
+          ]
+        },
+        "note": "학습 팁:wissen 동사는 단수 형태에서 모음이 i에서 ei로 변합니다 (ich weiß). 또한 mögen은 ö에서 a로 변합니다 (ich mag)."
+      }
+    },
+    {
+      "id": "detailed_usage",
+      "title": "3. 상세 용법 설명",
+      "description": "이 특수 동사들의 의미와 사용법을 배워봅시다.",
+      "content": {
+        "examples": [
+          {
+            "verb": "Möchten",
+            "meaning": "정중한 바람을 나타내며, 식당에서 주문하거나 정중하게 요청할 때 필수적으로 사용됩니다.",
+            "example": "Wir möchten etwas trinken. (우리는 무엇 좀 마시고 싶습니다.)"
+          },
+          {
+            "verb": "Mögen",
+            "meaning": "사물, 사람, 장소에 대한 일반적인 선호(좋아함)를 나타냅니다.",
+            "example": "Sie mag Italien. (그녀는 이탈리아를 좋아합니다.)"
+          },
+          {
+            "verb": "Wissen",
+            "meaning": "사실이나 정보에 대해 \"알고 있다\"는 의미입니다.",
+            "example": "Ich weiß das nicht. (나는 그것을 모릅니다.)"
+          },
+          {
+            "verb": "Tun",
+            "meaning": "\"하다\"라는 뜻이지만, weh tun 형태로 써서 \"아프다\"는 표현으로 자주 쓰입니다.",
+            "example": "Meine Ohren tun weh. (내 귀가 아픕니다.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_sentences",
+      "title": "4. 문장 예시 및 해석 (Sentence List)",
+      "description": "이 동사들을 실제 문장에서 연습해 봅시다.",
+      "content": {
+        "examples": [
+          {
+            "german": "Mein Name ist Misterek.",
+            "english": "제 이름은 미스테렉입니다."
+          },
+          {
+            "german": "Hast du Zeit?",
+            "english": "너 시간 있니?"
+          },
+          {
+            "german": "Ich bin Schülerin.",
+            "english": "나는 (여)학생입니다."
+          },
+          {
+            "german": "Ich möchte einen Kaffee.",
+            "english": "커피 한 잔 하고 싶습니다."
+          },
+          {
+            "german": "Weißt du, wo der Bahnhof ist?",
+            "english": "기차역이 어디인지 아니?"
+          },
+          {
+            "german": "Tun Sie ganz wenig.",
+            "english": "조금만 하세요. (너무 무리하지 마세요.)"
+          },
+          {
+            "german": "Was tut weh?",
+            "english": "어디가 아프신가요?"
+          }
+        ]
+      }
+    }
+  ]
+}

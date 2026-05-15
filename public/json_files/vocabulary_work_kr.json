@@ -1,0 +1,20 @@
+{
+  "theme_color": "#607D8B",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Firma", "korean": "회사", "article": "die", "word": "Firma", "emoji": "🏢"},
+        {"german": "der Empfang", "korean": "접수처", "article": "der", "word": "Empfang", "emoji": "🛎️"},
+        {"german": "das Büro", "korean": "사무실", "article": "das", "word": "Büro", "emoji": "💼"},
+        {"german": "der Schreibtisch", "korean": "책상", "article": "der", "word": "Schreibtisch", "emoji": "🖥️"},
+        {"german": "arbeiten", "korean": "일하다", "article": "", "word": "arbeiten", "emoji": "🛠️"},
+        {"german": "die Arbeit", "korean": "직업 / 일", "article": "die", "word": "Arbeit", "emoji": "👷"},
+        {"german": "telefonieren", "korean": "통화하다", "article": "", "word": "telefonieren", "emoji": "📞"},
+        {"german": "die Pause", "korean": "휴식 시간", "article": "die", "word": "Pause", "emoji": "☕"},
+        {"german": "der Chef / die Chefin", "korean": "상사", "article": "der / die", "word": "Chef / Chefin", "emoji": "👨‍💼👩‍💼"},
+        {"german": "der Kollege / die Kollegin", "korean": "동료", "article": "der / die", "word": "Kollege / Kollegin", "emoji": "🧑‍💻👩‍💻"},
+        {"german": "der Feierabend", "korean": "퇴근", "article": "der", "word": "Feierabend", "emoji": "🏠"}
+      ]
+    }
+  ]
+}

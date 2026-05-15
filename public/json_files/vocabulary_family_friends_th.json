@@ -1,0 +1,33 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Familie", "thai": "ครอบครัว", "article": "die", "word": "Familie", "emoji": "👨‍👩‍👧‍👦"},
+        {"german": "die Großeltern", "thai": "ปู่ย่าตายาย", "article": "die", "word": "Großeltern", "emoji": "👴👵"},
+        {"german": "der Großvater", "thai": "ปู่ / ตา", "article": "der", "word": "Großvater", "emoji": "👴"},
+        {"german": "die Großmutter", "thai": "ย่า / ยาย", "article": "die", "word": "Großmutter", "emoji": "👵"},
+        {"german": "die Eltern", "thai": "พ่อแม่", "article": "die", "word": "Eltern", "emoji": "👪"},
+        {"german": "der Vater", "thai": "พ่อ", "article": "der", "word": "Vater", "emoji": "👨"},
+        {"german": "die Mutter", "thai": "แม่", "article": "die", "word": "Mutter", "emoji": "👩"},
+        {"german": "der Sohn", "thai": "ลูกชาย", "article": "der", "word": "Sohn", "emoji": "👦"},
+        {"german": "die Tochter", "thai": "ลูกสาว", "article": "die", "word": "Tochter", "emoji": "👧"},
+        {"german": "der Papa", "thai": "พ่อ", "article": "der", "word": "Papa", "emoji": "🧔"},
+        {"german": "die Mama", "thai": "แม่", "article": "die", "word": "Mama", "emoji": "👩‍🦰"},
+        {"german": "der Bruder", "thai": "พี่ชาย / น้องชาย", "article": "der", "word": "Bruder", "emoji": "👦"},
+        {"german": "die Schwester", "thai": "พี่สาว / น้องสาว", "article": "die", "word": "Schwester", "emoji": "👧"},
+        {"german": "die Geschwister", "thai": "พี่น้อง", "article": "die", "word": "Geschwister", "emoji": "👦👧"},
+        {"german": "der Onkel", "thai": "ลุง / อา / น้า (ผู้ชาย)", "article": "der", "word": "Onkel", "emoji": "👨‍🦱"},
+        {"german": "die Tante", "thai": "ป้า / อา / น้า (ผู้หญิง)", "article": "die", "word": "Tante", "emoji": "👩‍🦱"},
+        {"german": "der Cousin", "thai": "ลูกพี่ลูกน้อง (ผู้ชาย)", "article": "der", "word": "Cousin", "emoji": "👦"},
+        {"german": "die Cousine", "thai": "ลูกพี่ลูกน้อง (ผู้หญิง)", "article": "die", "word": "Cousine", "emoji": "👧"},
+        {"german": "das Ehepaar", "thai": "คู่สมรส", "article": "das", "word": "Ehepaar", "emoji": "👩‍❤️‍👨"},
+        {"german": "der Mann", "thai": "ผู้ชาย / สามี", "article": "der", "word": "Mann", "emoji": "👨‍💼"},
+        {"german": "die Frau", "thai": "ผู้หญิง / ภรรยา", "article": "die", "word": "Frau", "emoji": "👩‍💼"},
+        {"german": "der Freund", "thai": "เพื่อนผู้ชาย / แฟนหนุ่ม", "article": "der", "word": "Freund", "emoji": "👦💖"},
+        {"german": "die Freundin", "thai": "เพื่อนผู้หญิง / แฟนสาว", "article": "die", "word": "Freundin", "emoji": "👧💖"},
+        {"german": "der Partner / die Partnerin", "thai": "คู่ชีวิต (ชาย/หญิง)", "article": "der / die", "word": "Partner / Partnerin", "emoji": "👩‍❤️‍👨"}
+      ]
+    }
+  ]
+}

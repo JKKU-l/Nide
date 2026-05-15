@@ -1,0 +1,225 @@
+{
+  "title": "Possessivartikel (คำสรรพนามแสดงความเป็นเจ้าของ)",
+  "description": "เพื่อที่จะเข้าใจคำสรรพนามแสดงความเป็นเจ้าของในภาษาเยอรมัน (Possessivartikel) ก่อนอื่นคุณต้องระบุให้ได้ก่อนว่าใครคือ \"เจ้าของ\" (คนที่ครอบครองสิ่งนั้น) และอะไรคือ \"วัตถุ\" (สิ่งของที่ถูกครอบครอง)",
+  "sections": [
+    {
+      "id": "root_words",
+      "title": "1. การเลือกคำหลัก (ตามตัวเจ้าของ)",
+      "description": "ให้คิดว่าคำเหล่านี้เทียบเท่ากับคำว่า \"my, your, his, her\" ในภาษาอังกฤษ โดยคำหลักจะขึ้นอยู่กับว่าเจ้าของคือใคร:",
+      "content": {
+        "owners": [
+          {
+            "pronoun": "ich (ฉัน)",
+            "root": "mein",
+            "english": "ของฉัน"
+          },
+          {
+            "pronoun": "du (เธอ - สนิทกัน)",
+            "root": "dein",
+            "english": "ของเธอ"
+          },
+          {
+            "pronoun": "er (เขาผู้ชาย) / es (มัน)",
+            "root": "sein",
+            "english": "ของเขา/ของมัน"
+          },
+          {
+            "pronoun": "sie (เธอผู้หญิง)",
+            "root": "ihr",
+            "english": "ของเธอ"
+          },
+          {
+            "pronoun": "wir (พวกเรา)",
+            "root": "unser",
+            "english": "ของพวกเรา"
+          },
+          {
+            "pronoun": "ihr (พวกเธอหลายคน)",
+            "root": "euer",
+            "english": "ของพวกเธอ"
+          },
+          {
+            "pronoun": "sie (พวกเขา)",
+            "root": "ihr",
+            "english": "ของพวกเขา"
+          },
+          {
+            "pronoun": "Sie (คุณ - สุภาพ)",
+            "root": "Ihr",
+            "english": "ของคุณ - ต้องเขียนขึ้นต้นด้วยตัวใหญ่เสมอ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "choosing_endings",
+      "title": "2. การเลือกการลงท้าย (ตามวัตถุที่ครอบครอง)",
+      "description": "เมื่อได้คำหลักแล้ว คุณต้องดูคำนามที่ตามมา ในภาษาเยอรมัน คำนามจะมีเพศ (ชาย, กลาง, หญิง) และพจน์ (เอกพจน์, พหูพจน์)",
+      "content": {
+        "nominative": {
+          "title": "รูปประธาน (Nominative Case)",
+          "description": "ในประโยคพื้นฐานเช่น \"นี่คือ... ของฉัน\" เราจะใช้รูป Nominative",
+          "rules": [
+            {
+              "gender": "เพศชาย/เพศกลาง",
+              "ending": "ไม่ต้องเติมท้าย",
+              "examples": [
+                {
+                  "german": "Das ist mein Vater.",
+                  "english": "นี่คือพ่อของฉัน"
+                },
+                {
+                  "german": "Das ist sein Auto.",
+                  "english": "นี่คือรถของเขา"
+                }
+              ]
+            },
+            {
+              "gender": "เพศหญิง/พหูพจน์",
+              "ending": "เติมท้ายด้วย -e",
+              "examples": [
+                {
+                  "german": "Das ist meine Mutter.",
+                  "english": "นี่คือแม่ของฉัน"
+                },
+                {
+                  "german": "Das sind unsere Kinder.",
+                  "english": "นี่คือลูกๆ ของพวกเรา"
+                }
+              ]
+            }
+          ]
+        },
+        "accusative": {
+          "title": "รูปกรรมตรง (Accusative Case)",
+          "description": "หากวัตถุนั้นเป็นผู้ถูกกระทำ (เช่น \"ฉันเห็น... ของฉัน\") การลงท้ายของเพศชายจะเปลี่ยนไป",
+          "rules": [
+            {
+              "gender": "เพศชาย",
+              "ending": "เติมท้ายด้วย -en",
+              "examples": [
+                {
+                  "german": "Ich besuche meinen Bruder.",
+                  "english": "ฉันไปเยี่ยมพี่ชายของฉัน"
+                }
+              ]
+            },
+            {
+              "gender": "เพศกลาง/หญิง/พหูพจน์",
+              "ending": "ยังคงเหมือนรูปประธาน (Nominative)",
+              "note": "ไม่เปลี่ยน"
+            }
+          ]
+        },
+        "dative": {
+          "title": "รูปกรรมรอง (Dative Case)",
+          "description": "หากคุณให้บางอย่างแก่ใครบางคน หรือใช้หลังคำบุพบทเฉพาะเจาะจง การลงท้ายจะเปลี่ยนไปมากขึ้น",
+          "rules": [
+            {
+              "gender": "เพศชาย/เพศกลาง",
+              "ending": "เติมท้ายด้วย -em",
+              "example": "Ich gebe meinem Vater ein Buch."
+            },
+            {
+              "gender": "เพศหญิง",
+              "ending": "เติมท้ายด้วย -er",
+              "example": "Ich gebe meiner Mutter Blumen."
+            },
+            {
+              "gender": "พหูพจน์",
+              "ending": "เติมท้ายด้วย -en (และมักจะเติม -n ที่ท้ายคำนามด้วย)",
+              "example": "Ich spiele mit meinen Kindern."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "practical_examples",
+      "title": "3. ตัวอย่างการใช้งานจริง",
+      "description": "ลองมาดูตรรกะในชีวิตจริงกันครับ:",
+      "content": {
+        "scenario_a": {
+          "title": "สถานการณ์ A: พูดถึงผู้ชาย (Thomas)",
+          "description": "ถ้า Thomas เป็นเจ้าของ สุนัข (เพศชาย), หนังสือ (เพศกลาง), และกระเป๋า (เพศหญิง) เราจะใช้คำหลักคือ sein:",
+          "examples": [
+            {
+              "german": "Sein Hund ist groß.",
+              "english": "สุนัขของเขาตัวใหญ่"
+            },
+            {
+              "german": "Sein Buch ist neu.",
+              "english": "หนังสือของเขาใหม่"
+            },
+            {
+              "german": "Seine Tasche ist braun.",
+              "english": "กระเป๋าของเขาสีน้ำตาล"
+            }
+          ]
+        },
+        "scenario_b": {
+          "title": "สถานการณ์ B: พูดถึงผู้หญิง (Julia)",
+          "description": "ถ้า Julia เป็นเจ้าของสิ่งเดียวกัน เราจะเปลี่ยนคำหลักเป็น ihr:",
+          "examples": [
+            {
+              "german": "Ihr Hund ist groß.",
+              "english": "สุนัขของเธอตัวใหญ่"
+            },
+            {
+              "german": "Ihr Buch ist neu.",
+              "english": "หนังสือของเธอใหม่"
+            },
+            {
+              "german": "Ihre Tasche ist braun.",
+              "english": "กระเป๋าของเธอสีน้ำตาล"
+            }
+          ]
+        },
+        "scenario_c": {
+          "title": "สถานการณ์ C: การพูดคุยกับใครบางคนอย่างเป็นทางการ (Herr Schmidt)",
+          "description": "เมื่อคุยกับเจ้านายหรือคนแปลกหน้า เราจะใช้ Ihr:",
+          "examples": [
+            {
+              "german": "Herr Schmidt, ist das Ihr Koffer?",
+              "english": "คุณชมิดท์ครับ นี่คือกระเป๋าเดินทางของคุณใช่ไหม?"
+            },
+            {
+              "german": "Wo ist Ihre Frau?",
+              "english": "ภรรยาของคุณอยู่ที่ไหนครับ?"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "key_logic",
+      "title": "4. หลักการสำคัญที่ต้องจำ",
+      "description": "คำสรรพนามแสดงความเป็นเจ้าของที่ต้องจำไว้:",
+      "content": {
+        "gender_trap": {
+          "title": "กับดักเรื่องเพศ",
+          "explanation": "มือใหม่มักจะคิดว่าการลงท้ายต้องเข้ากับ \"เจ้าของ\" แต่จริงๆ แล้ว ไม่ใช่ การลงท้ายต้องเข้ากับ \"สิ่งของที่ถูกครอบครอง\" เสมอ",
+          "examples": [
+            "ถ้าผู้ชายมีแม่ จะใช้ seine Mutter (เพราะ \"แม่\" เป็นเพศหญิง)",
+            "ถ้าผู้หญิงมีพ่อ จะใช้ ihr Vater (เพราะ \"พ่อ\" เป็นเพศชาย)"
+          ]
+        },
+        "euer_spelling": {
+          "title": "การเปลี่ยนตัวสะกดของ \"Euer\"",
+          "explanation": "คำว่า euer (ของพวกเธอ) นั้นพิเศษ เมื่อคุณเติมท้ายด้วย -e หรือ -en ตัว \"e\" ตรงกลางมักจะหายไปเพื่อให้กำออกเสียงง่ายขึ้น",
+          "examples": [
+            "euer Vater (ถูกต้อง)",
+            "eure Mutter (ไม่ใช่ euere)"
+          ]
+        },
+        "kein_rule": {
+          "title": "กฎเดียวกับคำว่า \"Kein\"",
+          "explanation": "หากคุณลืมว่าต้องลงท้ายอย่างไร ให้จำไว้ว่าคำสรรพนามเหล่านี้มีการเติมท้ายเหมือนกับคำว่า kein (ไม่) หรือคำนำหน้านาม ein (หนึ่ง) ทุกประการ",
+          "examples": [
+            "Ich habe kein Buch. → Ich habe mein Buch."
+          ]
+        }
+      }
+    }
+  ]
+}

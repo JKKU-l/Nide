@@ -1,0 +1,1204 @@
+{
+  "verbs": [
+    {
+      "id": 1,
+      "verb": "sein",
+      "translation": "to be",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "bin", "du": "bist", "er/sie/es": "ist", "wir": "sind", "ihr": "seid", "sie/Sie": "sind"},
+        "past": {"ich": "war", "du": "warst", "er/sie/es": "war", "wir": "waren", "ihr": "wart", "sie/Sie": "waren"},
+        "perfect": {"ich": "bin gewesen", "du": "bist gewesen", "er/sie/es": "ist gewesen", "wir": "sind gewesen", "ihr": "seid gewesen", "sie/Sie": "sind gewesen"},
+        "future": {"ich": "werde sein", "du": "wirst sein", "er/sie/es": "wird sein", "wir": "werden sein", "ihr": "werdet sein", "sie/Sie": "werden sein"}
+      }
+    },
+    {
+      "id": 2,
+      "verb": "haben",
+      "translation": "to have",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "habe", "du": "hast", "er/sie/es": "hat", "wir": "haben", "ihr": "habt", "sie/Sie": "haben"},
+        "past": {"ich": "hatte", "du": "hattest", "er/sie/es": "hatte", "wir": "hatten", "ihr": "hattet", "sie/Sie": "hatten"},
+        "perfect": {"ich": "habe gehabt", "du": "hast gehabt", "er/sie/es": "hat gehabt", "wir": "haben gehabt", "ihr": "habt gehabt", "sie/Sie": "haben gehabt"},
+        "future": {"ich": "werde haben", "du": "wirst haben", "er/sie/es": "wird haben", "wir": "werden haben", "ihr": "werdet haben", "sie/Sie": "werden haben"}
+      }
+    },
+    {
+      "id": 3,
+      "verb": "gehen",
+      "translation": "to go",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "gehe", "du": "gehst", "er/sie/es": "geht", "wir": "gehen", "ihr": "geht", "sie/Sie": "gehen"},
+        "past": {"ich": "ging", "du": "gingst", "er/sie/es": "ging", "wir": "gingen", "ihr": "gingt", "sie/Sie": "gingen"},
+        "perfect": {"ich": "bin gegangen", "du": "bist gegangen", "er/sie/es": "ist gegangen", "wir": "sind gegangen", "ihr": "seid gegangen", "sie/Sie": "sind gegangen"},
+        "future": {"ich": "werde gehen", "du": "wirst gehen", "er/sie/es": "wird gehen", "wir": "werden gehen", "ihr": "werdet gehen", "sie/Sie": "werden gehen"}
+      }
+    },
+    {
+      "id": 4,
+      "verb": "kommen",
+      "translation": "to come",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "komme", "du": "kommst", "er/sie/es": "kommt", "wir": "kommen", "ihr": "kommt", "sie/Sie": "kommen"},
+        "past": {"ich": "kam", "du": "kamst", "er/sie/es": "kam", "wir": "kamen", "ihr": "kamt", "sie/Sie": "kamen"},
+        "perfect": {"ich": "bin gekommen", "du": "bist gekommen", "er/sie/es": "ist gekommen", "wir": "sind gekommen", "ihr": "seid gekommen", "sie/Sie": "sind gekommen"},
+        "future": {"ich": "werde kommen", "du": "wirst kommen", "er/sie/es": "wird kommen", "wir": "werden kommen", "ihr": "werdet kommen", "sie/Sie": "werden kommen"}
+      }
+    },
+    {
+      "id": 5,
+      "verb": "machen",
+      "translation": "to do / make",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "mache", "du": "machst", "er/sie/es": "macht", "wir": "machen", "ihr": "macht", "sie/Sie": "machen"},
+        "past": {"ich": "machte", "du": "machtest", "er/sie/es": "machte", "wir": "machten", "ihr": "machtet", "sie/Sie": "machten"},
+        "perfect": {"ich": "habe gemacht", "du": "hast gemacht", "er/sie/es": "hat gemacht", "wir": "haben gemacht", "ihr": "habt gemacht", "sie/Sie": "haben gemacht"},
+        "future": {"ich": "werde machen", "du": "wirst machen", "er/sie/es": "wird machen", "wir": "werden machen", "ihr": "werdet machen", "sie/Sie": "werden machen"}
+      }
+    },
+    {
+      "id": 6,
+      "verb": "essen",
+      "translation": "to eat",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "esse", "du": "isst", "er/sie/es": "isst", "wir": "essen", "ihr": "esst", "sie/Sie": "essen"},
+        "past": {"ich": "aß", "du": "aßt", "er/sie/es": "aß", "wir": "aßen", "ihr": "aßt", "sie/Sie": "aßen"},
+        "perfect": {"ich": "habe gegessen", "du": "hast gegessen", "er/sie/es": "hat gegessen", "wir": "haben gegessen", "ihr": "habt gegessen", "sie/Sie": "haben gegessen"},
+        "future": {"ich": "werde essen", "du": "wirst essen", "er/sie/es": "wird essen", "wir": "werden essen", "ihr": "werdet essen", "sie/Sie": "werden essen"}
+      }
+    },
+    {
+      "id": 7,
+      "verb": "trinken",
+      "translation": "to drink",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "trinke", "du": "trinkst", "er/sie/es": "trinkt", "wir": "trinken", "ihr": "trinkt", "sie/Sie": "trinken"},
+        "past": {"ich": "trank", "du": "trankst", "er/sie/es": "trank", "wir": "tranken", "ihr": "trankt", "sie/Sie": "tranken"},
+        "perfect": {"ich": "habe getrunken", "du": "hast getrunken", "er/sie/es": "hat getrunken", "wir": "haben getrunken", "ihr": "habt getrunken", "sie/Sie": "haben getrunken"},
+        "future": {"ich": "werde trinken", "du": "wirst trinken", "er/sie/es": "wird trinken", "wir": "werden trinken", "ihr": "werdet trinken", "sie/Sie": "werden trinken"}
+      }
+    },
+    {
+      "id": 8,
+      "verb": "fahren",
+      "translation": "to drive / go",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "fahre", "du": "fährst", "er/sie/es": "fährt", "wir": "fahren", "ihr": "fahrt", "sie/Sie": "fahren"},
+        "past": {"ich": "fuhr", "du": "fuhrst", "er/sie/es": "fuhr", "wir": "fuhren", "ihr": "fuhrt", "sie/Sie": "fuhren"},
+        "perfect": {"ich": "bin gefahren", "du": "bist gefahren", "er/sie/es": "ist gefahren", "wir": "sind gefahren", "ihr": "seid gefahren", "sie/Sie": "sind gefahren"},
+        "future": {"ich": "werde fahren", "du": "wirst fahren", "er/sie/es": "wird fahren", "wir": "werden fahren", "ihr": "werdet fahren", "sie/Sie": "werden fahren"}
+      }
+    },
+    {
+      "id": 9,
+      "verb": "sehen",
+      "translation": "to see",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "sehe", "du": "siehst", "er/sie/es": "sieht", "wir": "sehen", "ihr": "seht", "sie/Sie": "sehen"},
+        "past": {"ich": "sah", "du": "sahst", "er/sie/es": "sah", "wir": "sahen", "ihr": "saht", "sie/Sie": "sahen"},
+        "perfect": {"ich": "habe gesehen", "du": "hast gesehen", "er/sie/es": "hat gesehen", "wir": "haben gesehen", "ihr": "habt gesehen", "sie/Sie": "haben gesehen"},
+        "future": {"ich": "werde sehen", "du": "wirst sehen", "er/sie/es": "wird sehen", "wir": "werden sehen", "ihr": "werdet sehen", "sie/Sie": "werden sehen"}
+      }
+    },
+    {
+      "id": 10,
+      "verb": "hören",
+      "translation": "to hear",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "höre", "du": "hörst", "er/sie/es": "hört", "wir": "hören", "ihr": "hört", "sie/Sie": "hören"},
+        "past": {"ich": "hörte", "du": "hrtest", "er/sie/es": "hörte", "wir": "hörten", "ihr": "hörtet", "sie/Sie": "hörten"},
+        "perfect": {"ich": "habe gehört", "du": "hast gehört", "er/sie/es": "hat gehört", "wir": "haben gehört", "ihr": "habt gehört", "sie/Sie": "haben gehört"},
+        "future": {"ich": "werde hören", "du": "wirst hören", "er/sie/es": "wird hören", "wir": "werden hören", "ihr": "werdet hören", "sie/Sie": "werden hören"}
+      }
+    },
+    {
+      "id": 11,
+      "verb": "sprechen",
+      "translation": "to speak",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "spreche", "du": "sprichst", "er/sie/es": "spricht", "wir": "sprechen", "ihr": "sprecht", "sie/Sie": "sprechen"},
+        "past": {"ich": "sprach", "du": "sprachst", "er/sie/es": "sprach", "wir": "sprachen", "ihr": "spracht", "sie/Sie": "sprachen"},
+        "perfect": {"ich": "habe gesprochen", "du": "hast gesprochen", "er/sie/es": "hat gesprochen", "wir": "haben gesprochen", "ihr": "habt gesprochen", "sie/Sie": "haben gesprochen"},
+        "future": {"ich": "werde sprechen", "du": "wirst sprechen", "er/sie/es": "wird sprechen", "wir": "werden sprechen", "ihr": "werdet sprechen", "sie/Sie": "werden sprechen"}
+      }
+    },
+    {
+      "id": 12,
+      "verb": "lernen",
+      "translation": "to learn",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "lerne", "du": "lernst", "er/sie/es": "lernt", "wir": "lernen", "ihr": "lernt", "sie/Sie": "lernen"},
+        "past": {"ich": "lernte", "du": "lerntest", "er/sie/es": "lernte", "wir": "lernten", "ihr": "lerntet", "sie/Sie": "lernten"},
+        "perfect": {"ich": "habe gelernt", "du": "hast gelernt", "er/sie/es": "hat gelernt", "wir": "haben gelernt", "ihr": "habt gelernt", "sie/Sie": "haben gelernt"},
+        "future": {"ich": "werde lernen", "du": "wirst lernen", "er/sie/es": "wird lernen", "wir": "werden lernen", "ihr": "werdet lernen", "sie/Sie": "werden lernen"}
+      }
+    },
+    {
+      "id": 13,
+      "verb": "arbeiten",
+      "translation": "to work",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "arbeite", "du": "arbeitest", "er/sie/es": "arbeitet", "wir": "arbeiten", "ihr": "arbeitet", "sie/Sie": "arbeiten"},
+        "past": {"ich": "arbeitete", "du": "arbeitetest", "er/sie/es": "arbeitete", "wir": "arbeiteten", "ihr": "arbeitetet", "sie/Sie": "arbeiteten"},
+        "perfect": {"ich": "habe gearbeitet", "du": "hast gearbeitet", "er/sie/es": "hat gearbeitet", "wir": "haben gearbeitet", "ihr": "habt gearbeitet", "sie/Sie": "haben gearbeitet"},
+        "future": {"ich": "werde arbeiten", "du": "wirst arbeiten", "er/sie/es": "wird arbeiten", "wir": "werden arbeiten", "ihr": "werdet arbeiten", "sie/Sie": "werden arbeiten"}
+      }
+    },
+    {
+      "id": 14,
+      "verb": "wohnen",
+      "translation": "to live",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "wohne", "du": "wohnst", "er/sie/es": "wohnt", "wir": "wohnen", "ihr": "wohnt", "sie/Sie": "wohnen"},
+        "past": {"ich": "wohnte", "du": "wohntest", "er/sie/es": "wohnte", "wir": "wohnten", "ihr": "wohntet", "sie/Sie": "wohnten"},
+        "perfect": {"ich": "habe gewohnt", "du": "hast gewohnt", "er/sie/es": "hat gewohnt", "wir": "haben gewohnt", "ihr": "habt gewohnt", "sie/Sie": "haben gewohnt"},
+        "future": {"ich": "werde wohnen", "du": "wirst wohnen", "er/sie/es": "wird wohnen", "wir": "werden wohnen", "ihr": "werdet wohnen", "sie/Sie": "werden wohnen"}
+      }
+    },
+    {
+      "id": 15,
+      "verb": "bleiben",
+      "translation": "to stay",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "bleibe", "du": "bleibst", "er/sie/es": "bleibt", "wir": "bleiben", "ihr": "bleibt", "sie/Sie": "bleiben"},
+        "past": {"ich": "blieb", "du": "bliebst", "er/sie/es": "blieb", "wir": "blieben", "ihr": "bliebt", "sie/Sie": "blieben"},
+        "perfect": {"ich": "bin geblieben", "du": "bist geblieben", "er/sie/es": "ist geblieben", "wir": "sind geblieben", "ihr": "seid geblieben", "sie/Sie": "sind geblieben"},
+        "future": {"ich": "werde bleiben", "du": "wirst bleiben", "er/sie/es": "wird bleiben", "wir": "werden bleiben", "ihr": "werdet bleiben", "sie/Sie": "werden bleiben"}
+      }
+    },
+    {
+      "id": 16,
+      "verb": "schlafen",
+      "translation": "to sleep",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "schlafe", "du": "schläfst", "er/sie/es": "schläft", "wir": "schlafen", "ihr": "schlaft", "sie/Sie": "schlafen"},
+        "past": {"ich": "schlief", "du": "schliefst", "er/sie/es": "schlief", "wir": "schliefen", "ihr": "schlieft", "sie/Sie": "schliefen"},
+        "perfect": {"ich": "habe geschlafen", "du": "hast geschlafen", "er/sie/es": "hat geschlafen", "wir": "haben geschlafen", "ihr": "habt geschlafen", "sie/Sie": "haben geschlafen"},
+        "future": {"ich": "werde schlafen", "du": "wirst schlafen", "er/sie/es": "wird schlafen", "wir": "werden schlafen", "ihr": "werdet schlafen", "sie/Sie": "werden schlafen"}
+      }
+    },
+    {
+      "id": 17,
+      "verb": "kaufen",
+      "translation": "to buy",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "kaufe", "du": "kaufst", "er/sie/es": "kauft", "wir": "kaufen", "ihr": "kauft", "sie/Sie": "kaufen"},
+        "past": {"ich": "kaufte", "du": "kauftest", "er/sie/es": "kaufte", "wir": "kauften", "ihr": "kauftet", "sie/Sie": "kauften"},
+        "perfect": {"ich": "habe gekauft", "du": "hast gekauft", "er/sie/es": "hat gekauft", "wir": "haben gekauft", "ihr": "habt gekauft", "sie/Sie": "haben gekauft"},
+        "future": {"ich": "werde kaufen", "du": "wirst kaufen", "er/sie/es": "wird kaufen", "wir": "werden kaufen", "ihr": "werdet kaufen", "sie/Sie": "werden kaufen"}
+      }
+    },
+    {
+      "id": 18,
+      "verb": "bezahlen",
+      "translation": "to pay",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "bezahle", "du": "bezahlst", "er/sie/es": "bezahlt", "wir": "bezahlen", "ihr": "bezahlt", "sie/Sie": "bezahlen"},
+        "past": {"ich": "bezahlte", "du": "bezahltest", "er/sie/es": "bezahlte", "wir": "bezahlten", "ihr": "bezahltet", "sie/Sie": "bezahlten"},
+        "perfect": {"ich": "habe bezahlt", "du": "hast bezahlt", "er/sie/es": "hat bezahlt", "wir": "haben bezahlt", "ihr": "habt bezahlt", "sie/Sie": "haben bezahlt"},
+        "future": {"ich": "werde bezahlen", "du": "wirst bezahlen", "er/sie/es": "wird bezahlen", "wir": "werden bezahlen", "ihr": "werdet bezahlen", "sie/Sie": "werden bezahlen"}
+      }
+    },
+    {
+      "id": 19,
+      "verb": "bringen",
+      "translation": "to bring",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "bringe", "du": "bringst", "er/sie/es": "bringt", "wir": "bringen", "ihr": "bringt", "sie/Sie": "bringen"},
+        "past": {"ich": "brachte", "du": "brachtest", "er/sie/es": "brachte", "wir": "brachten", "ihr": "brachtet", "sie/Sie": "brachten"},
+        "perfect": {"ich": "habe gebracht", "du": "hast gebracht", "er/sie/es": "hat gebracht", "wir": "haben gebracht", "ihr": "habt gebracht", "sie/Sie": "haben gebracht"},
+        "future": {"ich": "werde bringen", "du": "wirst bringen", "er/sie/es": "wird bringen", "wir": "werden bringen", "ihr": "werdet bringen", "sie/Sie": "werden bringen"}
+      }
+    },
+    {
+      "id": 20,
+      "verb": "holen",
+      "translation": "to fetch",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "hole", "du": "holst", "er/sie/es": "holt", "wir": "holen", "ihr": "holt", "sie/Sie": "holen"},
+        "past": {"ich": "holte", "du": "holtest", "er/sie/es": "holte", "wir": "holten", "ihr": "holtet", "sie/Sie": "holten"},
+        "perfect": {"ich": "habe geholt", "du": "hast geholt", "er/sie/es": "hat geholt", "wir": "haben geholt", "ihr": "habt geholt", "sie/Sie": "haben geholt"},
+        "future": {"ich": "werde holen", "du": "wirst holen", "er/sie/es": "wird holen", "wir": "werden holen", "ihr": "werdet holen", "sie/Sie": "werden holen"}
+      }
+    },
+    {
+      "id": 21,
+      "verb": "geben",
+      "translation": "to give",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "gebe", "du": "gibst", "er/sie/es": "gibt", "wir": "geben", "ihr": "gebt", "sie/Sie": "geben"},
+        "past": {"ich": "gab", "du": "gabst", "er/sie/es": "gab", "wir": "gaben", "ihr": "gabt", "sie/Sie": "gaben"},
+        "perfect": {"ich": "habe gegeben", "du": "hast gegeben", "er/sie/es": "hat gegeben", "wir": "haben gegeben", "ihr": "habt gegeben", "sie/Sie": "haben gegeben"},
+        "future": {"ich": "werde geben", "du": "wirst geben", "er/sie/es": "wird geben", "wir": "werden geben", "ihr": "werdet geben", "sie/Sie": "werden geben"}
+      }
+    },
+    {
+      "id": 22,
+      "verb": "nehmen",
+      "translation": "to take",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "nehme", "du": "nimmst", "er/sie/es": "nimmt", "wir": "nehmen", "ihr": "nehmt", "sie/Sie": "nehmen"},
+        "past": {"ich": "nahm", "du": "nahmst", "er/sie/es": "nahm", "wir": "nahmen", "ihr": "nahmt", "sie/Sie": "nahmen"},
+        "perfect": {"ich": "habe genommen", "du": "hast genommen", "er/sie/es": "hat genommen", "wir": "haben genommen", "ihr": "habt genommen", "sie/Sie": "haben genommen"},
+        "future": {"ich": "werde nehmen", "du": "wirst nehmen", "er/sie/es": "wird nehmen", "wir": "werden nehmen", "ihr": "werdet nehmen", "sie/Sie": "werden nehmen"}
+      }
+    },
+    {
+      "id": 23,
+      "verb": "finden",
+      "translation": "to find",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "finde", "du": "findest", "er/sie/es": "findet", "wir": "finden", "ihr": "findet", "sie/Sie": "finden"},
+        "past": {"ich": "fand", "du": "fandest", "er/sie/es": "fand", "wir": "fanden", "ihr": "fandet", "sie/Sie": "fanden"},
+        "perfect": {"ich": "habe gefunden", "du": "hast gefunden", "er/sie/es": "hat gefunden", "wir": "haben gefunden", "ihr": "habt gefunden", "sie/Sie": "haben gefunden"},
+        "future": {"ich": "werde finden", "du": "wirst finden", "er/sie/es": "wird finden", "wir": "werden finden", "ihr": "werdet finden", "sie/Sie": "werden finden"}
+      }
+    },
+    {
+      "id": 24,
+      "verb": "fragen",
+      "translation": "to ask",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "frage", "du": "fragst", "er/sie/es": "fragt", "wir": "fragen", "ihr": "fragt", "sie/Sie": "fragen"},
+        "past": {"ich": "fragte", "du": "fragtest", "er/sie/es": "fragte", "wir": "fragten", "ihr": "fragtet", "sie/Sie": "fragten"},
+        "perfect": {"ich": "habe gefragt", "du": "hast gefragt", "er/sie/es": "hat gefragt", "wir": "haben gefragt", "ihr": "habt gefragt", "sie/Sie": "haben gefragt"},
+        "future": {"ich": "werde fragen", "du": "wirst fragen", "er/sie/es": "wird fragen", "wir": "werden fragen", "ihr": "werdet fragen", "sie/Sie": "werden fragen"}
+      }
+    },
+    {
+      "id": 25,
+      "verb": "antworten",
+      "translation": "to answer",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "antworte", "du": "antwortest", "er/sie/es": "antwortet", "wir": "antworten", "ihr": "antwortet", "sie/Sie": "antworten"},
+        "past": {"ich": "antwortete", "du": "antwortetest", "er/sie/es": "antwortete", "wir": "antworteten", "ihr": "antwortetet", "sie/Sie": "antworteten"},
+        "perfect": {"ich": "habe geantwortet", "du": "hast geantwortet", "er/sie/es": "hat geantwortet", "wir": "haben geantwortet", "ihr": "habt geantwortet", "sie/Sie": "haben geantwortet"},
+        "future": {"ich": "werde antworten", "du": "wirst antworten", "er/sie/es": "wird antworten", "wir": "werden antworten", "ihr": "werdet antworten", "sie/Sie": "werden antworten"}
+      }
+    },
+    {
+      "id": 26,
+      "verb": "helfen",
+      "translation": "to help",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "helfe", "du": "hilfst", "er/sie/es": "hilft", "wir": "helfen", "ihr": "helft", "sie/Sie": "helfen"},
+        "past": {"ich": "half", "du": "halfst", "er/sie/es": "half", "wir": "halfen", "ihr": "halft", "sie/Sie": "halfen"},
+        "perfect": {"ich": "habe geholfen", "du": "hast geholfen", "er/sie/es": "hat geholfen", "wir": "haben geholfen", "ihr": "habt geholfen", "sie/Sie": "haben geholfen"},
+        "future": {"ich": "werde helfen", "du": "wirst helfen", "er/sie/es": "wird helfen", "wir": "werden helfen", "ihr": "werdet helfen", "sie/Sie": "werden helfen"}
+      }
+    },
+    {
+      "id": 27,
+      "verb": "treffen",
+      "translation": "to meet",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "treffe", "du": "triffst", "er/sie/es": "trifft", "wir": "treffen", "ihr": "trefft", "sie/Sie": "treffen"},
+        "past": {"ich": "traf", "du": "trafst", "er/sie/es": "traf", "wir": "trafen", "ihr": "traft", "sie/Sie": "trafen"},
+        "perfect": {"ich": "habe getroffen", "du": "hast getroffen", "er/sie/es": "hat getroffen", "wir": "haben getroffen", "ihr": "habt getroffen", "sie/Sie": "haben getroffen"},
+        "future": {"ich": "werde treffen", "du": "wirst treffen", "er/sie/es": "wird treffen", "wir": "werden treffen", "ihr": "werdet treffen", "sie/Sie": "werden treffen"}
+      }
+    },
+    {
+      "id": 28,
+      "verb": "besuchen",
+      "translation": "to visit",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "besuche", "du": "besuchst", "er/sie/es": "besucht", "wir": "besuchen", "ihr": "besucht", "sie/Sie": "besuchen"},
+        "past": {"ich": "besuchte", "du": "besuchtest", "er/sie/es": "besuchte", "wir": "besuchten", "ihr": "besuchtet", "sie/Sie": "besuchten"},
+        "perfect": {"ich": "habe besucht", "du": "hast besucht", "er/sie/es": "hat besucht", "wir": "haben besucht", "ihr": "habt besucht", "sie/Sie": "haben besucht"},
+        "future": {"ich": "werde besuchen", "du": "wirst besuchen", "er/sie/es": "wird besuchen", "wir": "werden besuchen", "ihr": "werdet besuchen", "sie/Sie": "werden besuchen"}
+      }
+    },
+    {
+      "id": 29,
+      "verb": "lieben",
+      "translation": "to love",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "liebe", "du": "liebst", "er/sie/es": "liebt", "wir": "lieben", "ihr": "liebt", "sie/Sie": "lieben"},
+        "past": {"ich": "liebte", "du": "liebtest", "er/sie/es": "liebte", "wir": "liebten", "ihr": "liebtet", "sie/Sie": "liebten"},
+        "perfect": {"ich": "habe geliebt", "du": "hast geliebt", "er/sie/es": "hat geliebt", "wir": "haben geliebt", "ihr": "habt geliebt", "sie/Sie": "haben geliebt"},
+        "future": {"ich": "werde lieben", "du": "wirst lieben", "er/sie/es": "wird lieben", "wir": "werden lieben", "ihr": "werdet lieben", "sie/Sie": "werden lieben"}
+      }
+    },
+    {
+      "id": 30,
+      "verb": "mögen",
+      "translation": "to like",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "mag", "du": "magst", "er/sie/es": "mag", "wir": "mögen", "ihr": "mögt", "sie/Sie": "mögen"},
+        "past": {"ich": "mochte", "du": "mochtest", "er/sie/es": "mochte", "wir": "mochten", "ihr": "mochtet", "sie/Sie": "mochten"},
+        "perfect": {"ich": "habe gemocht", "du": "hast gemocht", "er/sie/es": "hat gemocht", "wir": "haben gemocht", "ihr": "habt gemocht", "sie/Sie": "haben gemocht"},
+        "future": {"ich": "werde mögen", "du": "wirst mögen", "er/sie/es": "wird mögen", "wir": "werden mögen", "ihr": "werdet mögen", "sie/Sie": "werden mögen"}
+      }
+    },
+    {
+      "id": 31,
+      "verb": "brauchen",
+      "translation": "to need",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "brauche", "du": "brauchst", "er/sie/es": "braucht", "wir": "brauchen", "ihr": "braucht", "sie/Sie": "brauchen"},
+        "past": {"ich": "brauchte", "du": "brauchtest", "er/sie/es": "brauchte", "wir": "brauchten", "ihr": "brauchtet", "sie/Sie": "brauchten"},
+        "perfect": {"ich": "habe gebraucht", "du": "hast gebraucht", "er/sie/es": "hat gebraucht", "wir": "haben gebraucht", "ihr": "habt gebraucht", "sie/Sie": "haben gebraucht"},
+        "future": {"ich": "werde brauchen", "du": "wirst brauchen", "er/sie/es": "wird brauchen", "wir": "werden brauchen", "ihr": "werdet brauchen", "sie/Sie": "werden brauchen"}
+      }
+    },
+    {
+      "id": 32,
+      "verb": "spielen",
+      "translation": "to play",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "spiele", "du": "spielst", "er/sie/es": "spielt", "wir": "spielen", "ihr": "spielt", "sie/Sie": "spielen"},
+        "past": {"ich": "spielte", "du": "spieltest", "er/sie/es": "spielte", "wir": "spielten", "ihr": "spieltet", "sie/Sie": "spielten"},
+        "perfect": {"ich": "habe gespielt", "du": "hast gespielt", "er/sie/es": "hat gespielt", "wir": "haben gespielt", "ihr": "habt gespielt", "sie/Sie": "haben gespielt"},
+        "future": {"ich": "werde spielen", "du": "wirst spielen", "er/sie/es": "wird spielen", "wir": "werden spielen", "ihr": "werdet spielen", "sie/Sie": "werden spielen"}
+      }
+    },
+    {
+      "id": 33,
+      "verb": "reisen",
+      "translation": "to travel",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "reise", "du": "reist", "er/sie/es": "reist", "wir": "reisen", "ihr": "reist", "sie/Sie": "reisen"},
+        "past": {"ich": "reiste", "du": "reistest", "er/sie/es": "reiste", "wir": "reisten", "ihr": "reistet", "sie/Sie": "reisten"},
+        "perfect": {"ich": "habe gereist", "du": "hast gereist", "er/sie/es": "hat gereist", "wir": "haben gereist", "ihr": "habt gereist", "sie/Sie": "haben gereist"},
+        "future": {"ich": "werde reisen", "du": "wirst reisen", "er/sie/es": "wird reisen", "wir": "werden reisen", "ihr": "werdet reisen", "sie/Sie": "werden reisen"}
+      }
+    },
+    {
+      "id": 34,
+      "verb": "fliegen",
+      "translation": "to fly",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "fliege", "du": "fliegst", "er/sie/es": "fliegt", "wir": "fliegen", "ihr": "fliegt", "sie/Sie": "fliegen"},
+        "past": {"ich": "flog", "du": "flogst", "er/sie/es": "flog", "wir": "flogen", "ihr": "flogt", "sie/Sie": "flogen"},
+        "perfect": {"ich": "bin geflogen", "du": "bist geflogen", "er/sie/es": "ist geflogen", "wir": "sind geflogen", "ihr": "seid geflogen", "sie/Sie": "sind geflogen"},
+        "future": {"ich": "werde fliegen", "du": "wirst fliegen", "er/sie/es": "wird fliegen", "wir": "werden fliegen", "ihr": "werdet fliegen", "sie/Sie": "werden fliegen"}
+      }
+    },
+    {
+      "id": 35,
+      "verb": "beginnen",
+      "translation": "to begin",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "beginne", "du": "beginnst", "er/sie/es": "beginnt", "wir": "beginnen", "ihr": "beginnt", "sie/Sie": "beginnen"},
+        "past": {"ich": "begann", "du": "begannst", "er/sie/es": "begann", "wir": "begannen", "ihr": "begann", "sie/Sie": "begannen"},
+        "perfect": {"ich": "habe begonnen", "du": "hast begonnen", "er/sie/es": "hat begonnen", "wir": "haben begonnen", "ihr": "habt begonnen", "sie/Sie": "haben begonnen"},
+        "future": {"ich": "werde beginnen", "du": "wirst beginnen", "er/sie/es": "wird beginnen", "wir": "werden beginnen", "ihr": "werdet beginnen", "sie/Sie": "werden beginnen"}
+      }
+    },
+    {
+      "id": 36,
+      "verb": "gewinnen",
+      "translation": "to win",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "gewinne", "du": "gewinnst", "er/sie/es": "gewinnt", "wir": "gewinnen", "ihr": "gewinnt", "sie/Sie": "gewinnen"},
+        "past": {"ich": "gewann", "du": "gewannst", "er/sie/es": "gewann", "wir": "gewannen", "ihr": "gewannt", "sie/Sie": "gewannen"},
+        "perfect": {"ich": "habe gewonnen", "du": "hast gewonnen", "er/sie/es": "hat gewonnen", "wir": "haben gewonnen", "ihr": "habt gewonnen", "sie/Sie": "haben gewonnen"},
+        "future": {"ich": "werde gewinnen", "du": "wirst gewinnen", "er/sie/es": "wird gewinnen", "wir": "werden gewinnen", "ihr": "werdet gewinnen", "sie/Sie": "werden gewinnen"}
+      }
+    },
+    {
+      "id": 37,
+      "verb": "verlieren",
+      "translation": "to lose",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "verliere", "du": "verlierst", "er/sie/es": "verliert", "wir": "verlieren", "ihr": "verliert", "sie/Sie": "verlieren"},
+        "past": {"ich": "verlor", "du": "verlorst", "er/sie/es": "verlor", "wir": "verloren", "ihr": "verloren", "sie/Sie": "verloren"},
+        "perfect": {"ich": "habe verloren", "du": "hast verloren", "er/sie/es": "hat verloren", "wir": "haben verloren", "ihr": "habt verloren", "sie/Sie": "haben verloren"},
+        "future": {"ich": "werde verlieren", "du": "wirst verlieren", "er/sie/es": "wird verlieren", "wir": "werden verlieren", "ihr": "werdet verlieren", "sie/Sie": "werden verlieren"}
+      }
+    },
+    {
+      "id": 38,
+      "verb": "schreiben",
+      "translation": "to write",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "schreibe", "du": "schreibst", "er/sie/es": "schreibt", "wir": "schreiben", "ihr": "schreibt", "sie/Sie": "schreiben"},
+        "past": {"ich": "schrieb", "du": "schriebst", "er/sie/es": "schrieb", "wir": "schrieben", "ihr": "schriebt", "sie/Sie": "schrieben"},
+        "perfect": {"ich": "habe geschrieben", "du": "hast geschrieben", "er/sie/es": "hat geschrieben", "wir": "haben geschrieben", "ihr": "habt geschrieben", "sie/Sie": "haben geschrieben"},
+        "future": {"ich": "werde schreiben", "du": "wirst schreiben", "er/sie/es": "wird schreiben", "wir": "werden schreiben", "ihr": "werdet schreiben", "sie/Sie": "werden schreiben"}
+      }
+    },
+    {
+      "id": 39,
+      "verb": "lesen",
+      "translation": "to read",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "lese", "du": "liest", "er/sie/es": "liest", "wir": "lesen", "ihr": "lest", "sie/Sie": "lesen"},
+        "past": {"ich": "las", "du": "last", "er/sie/es": "las", "wir": "lasen", "ihr": "last", "sie/Sie": "lasen"},
+        "perfect": {"ich": "habe gelesen", "du": "hast gelesen", "er/sie/es": "hat gelesen", "wir": "haben gelesen", "ihr": "habt gelesen", "sie/Sie": "haben gelesen"},
+        "future": {"ich": "werde lesen", "du": "wirst lesen", "er/sie/es": "wird lesen", "wir": "werden lesen", "ihr": "werdet lesen", "sie/Sie": "werden lesen"}
+      }
+    },
+    {
+      "id": 40,
+      "verb": "öffnen",
+      "translation": "to open",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "öffne", "du": "öffnest", "er/sie/es": "öffnet", "wir": "öffnen", "ihr": "öffnet", "sie/Sie": "öffnen"},
+        "past": {"ich": "öffnete", "du": "öffnetest", "er/sie/es": "öffnete", "wir": "öffneten", "ihr": "öffnetet", "sie/Sie": "öffneten"},
+        "perfect": {"ich": "habe geöffnet", "du": "hast geöffnet", "er/sie/es": "hat geöffnet", "wir": "haben geöffnet", "ihr": "habt geöffnet", "sie/Sie": "haben geöffnet"},
+        "future": {"ich": "werde öffnen", "du": "wirst öffnen", "er/sie/es": "wird öffnen", "wir": "werden öffnen", "ihr": "werdet öffnen", "sie/Sie": "werden öffnen"}
+      }
+    },
+    {
+      "id": 41,
+      "verb": "schließen",
+      "translation": "to close",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "schließe", "du": "schließt", "er/sie/es": "schließt", "wir": "schließen", "ihr": "schließt", "sie/Sie": "schließen"},
+        "past": {"ich": "schloss", "du": "schlossest", "er/sie/es": "schloss", "wir": "schlossen", "ihr": "schlosst", "sie/Sie": "schlossen"},
+        "perfect": {"ich": "habe geschlossen", "du": "hast geschlossen", "er/sie/es": "hat geschlossen", "wir": "haben geschlossen", "ihr": "habt geschlossen", "sie/Sie": "haben geschlossen"},
+        "future": {"ich": "werde schließen", "du": "wirst schließen", "er/sie/es": "wird schließen", "wir": "werden schließen", "ihr": "werdet schließen", "sie/Sie": "werden schließen"}
+      }
+    },
+    {
+      "id": 42,
+      "verb": "kochen",
+      "translation": "to cook",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "koche", "du": "kochst", "er/sie/es": "kocht", "wir": "kochen", "ihr": "kocht", "sie/Sie": "kochen"},
+        "past": {"ich": "kochte", "du": "kochtest", "er/sie/es": "kochte", "wir": "kochten", "ihr": "kochtet", "sie/Sie": "kochten"},
+        "perfect": {"ich": "habe gekocht", "du": "hast gekocht", "er/sie/es": "hat gekocht", "wir": "haben gekocht", "ihr": "habt gekocht", "sie/Sie": "haben gekocht"},
+        "future": {"ich": "werde kochen", "du": "wirst kochen", "er/sie/es": "wird kochen", "wir": "werden kochen", "ihr": "werdet kochen", "sie/Sie": "werden kochen"}
+      }
+    },
+    {
+      "id": 43,
+      "verb": "waschen",
+      "translation": "to wash",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "wasche", "du": "wäschst", "er/sie/es": "wäscht", "wir": "waschen", "ihr": "wascht", "sie/Sie": "waschen"},
+        "past": {"ich": "wusch", "du": "wuschst", "er/sie/es": "wusch", "wir": "wuschen", "ihr": "wascht", "sie/Sie": "wuschen"},
+        "perfect": {"ich": "habe gewaschen", "du": "hast gewaschen", "er/sie/es": "hat gewaschen", "wir": "haben gewaschen", "ihr": "habt gewaschen", "sie/Sie": "haben gewaschen"},
+        "future": {"ich": "werde waschen", "du": "wirst waschen", "er/sie/es": "wird waschen", "wir": "werden waschen", "ihr": "werdet waschen", "sie/Sie": "werden waschen"}
+      }
+    },
+    {
+      "id": 44,
+      "verb": "putzen",
+      "translation": "to clean",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "putze", "du": "putzt", "er/sie/es": "putzt", "wir": "putzen", "ihr": "putzt", "sie/Sie": "putzen"},
+        "past": {"ich": "putzte", "du": "putztest", "er/sie/es": "putzte", "wir": "putzten", "ihr": "putztet", "sie/Sie": "putzten"},
+        "perfect": {"ich": "habe geputzt", "du": "hast geputzt", "er/sie/es": "hat geputzt", "wir": "haben geputzt", "ihr": "habt geputzt", "sie/Sie": "haben geputzt"},
+        "future": {"ich": "werde putzen", "du": "wirst putzen", "er/sie/es": "wird putzen", "wir": "werden putzen", "ihr": "werdet putzen", "sie/Sie": "werden putzen"}
+      }
+    },
+    {
+      "id": 45,
+      "verb": "aufräumen",
+      "translation": "to tidy up",
+      "type": "separable",
+      "tenses": {
+        "present": {"ich": "räume auf", "du": "räumst auf", "er/sie/es": "räumt auf", "wir": "räumen auf", "ihr": "räumt auf", "sie/Sie": "räumen auf"},
+        "past": {"ich": "räumte auf", "du": "räumtest auf", "er/sie/es": "räumte auf", "wir": "räumten auf", "ihr": "räumtet auf", "sie/Sie": "räumten auf"},
+        "perfect": {"ich": "habe aufgeräumt", "du": "hast aufgeräumt", "er/sie/es": "hat aufgeräumt", "wir": "haben aufgeräumt", "ihr": "habt aufgeräumt", "sie/Sie": "haben aufgeräumt"},
+        "future": {"ich": "werde aufräumen", "du": "wirst aufräumen", "er/sie/es": "wird aufräumen", "wir": "werden aufräumen", "ihr": "werdet aufräumen", "sie/Sie": "werden aufräumen"}
+      }
+    },
+    {
+      "id": 46,
+      "verb": "anziehen",
+      "translation": "to put on",
+      "type": "separable",
+      "tenses": {
+        "present": {"ich": "ziehe an", "du": "ziehst an", "er/sie/es": "zieht an", "wir": "ziehen an", "ihr": "zieht an", "sie/Sie": "ziehen an"},
+        "past": {"ich": "zog an", "du": "zogst an", "er/sie/es": "zog an", "wir": "zogen an", "ihr": "zogt an", "sie/Sie": "zogen an"},
+        "perfect": {"ich": "habe angezogen", "du": "hast angezogen", "er/sie/es": "hat angezogen", "wir": "haben angezogen", "ihr": "habt angezogen", "sie/Sie": "haben angezogen"},
+        "future": {"ich": "werde anziehen", "du": "wirst anziehen", "er/sie/es": "wird anziehen", "wir": "werden anziehen", "ihr": "werdet anziehen", "sie/Sie": "werden anziehen"}
+      }
+    },
+    {
+      "id": 47,
+      "verb": "ausziehen",
+      "translation": "to take off",
+      "type": "separable",
+      "tenses": {
+        "present": {"ich": "ziehe aus", "du": "ziehst aus", "er/sie/es": "zieht aus", "wir": "ziehen aus", "ihr": "zieht aus", "sie/Sie": "ziehen aus"},
+        "past": {"ich": "zog aus", "du": "zogst aus", "er/sie/es": "zog aus", "wir": "zogen aus", "ihr": "zogt aus", "sie/Sie": "zogen aus"},
+        "perfect": {"ich": "habe ausgezogen", "du": "hast ausgezogen", "er/sie/es": "hat ausgezogen", "wir": "haben ausgezogen", "ihr": "habt ausgezogen", "sie/Sie": "haben ausgezogen"},
+        "future": {"ich": "werde ausziehen", "du": "wirst ausziehen", "er/sie/es": "wird ausziehen", "wir": "werden ausziehen", "ihr": "werdet ausziehen", "sie/Sie": "werden ausziehen"}
+      }
+    },
+    {
+      "id": 48,
+      "verb": "suchen",
+      "translation": "to search",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "suche", "du": "suchst", "er/sie/es": "sucht", "wir": "suchen", "ihr": "sucht", "sie/Sie": "suchen"},
+        "past": {"ich": "suchte", "du": "suchtest", "er/sie/es": "suchte", "wir": "suchten", "ihr": "suchtet", "sie/Sie": "suchten"},
+        "perfect": {"ich": "habe gesucht", "du": "hast gesucht", "er/sie/es": "hat gesucht", "wir": "haben gesucht", "ihr": "habt gesucht", "sie/Sie": "haben gesucht"},
+        "future": {"ich": "werde suchen", "du": "wirst suchen", "er/sie/es": "wird suchen", "wir": "werden suchen", "ihr": "werdet suchen", "sie/Sie": "werden suchen"}
+      }
+    },
+    {
+      "id": 49,
+      "verb": "warten",
+      "translation": "to wait",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "warte", "du": "wartest", "er/sie/es": "wartet", "wir": "warten", "ihr": "wartet", "sie/Sie": "warten"},
+        "past": {"ich": "wartete", "du": "wartetest", "er/sie/es": "wartete", "wir": "warteten", "ihr": "wartetet", "sie/Sie": "warteten"},
+        "perfect": {"ich": "habe gewartet", "du": "hast gewartet", "er/sie/es": "hat gewartet", "wir": "haben gewartet", "ihr": "habt gewartet", "sie/Sie": "haben gewartet"},
+        "future": {"ich": "werde warten", "du": "wirst warten", "er/sie/es": "wird warten", "wir": "werden warten", "ihr": "werdet warten", "sie/Sie": "werden warten"}
+      }
+    },
+    {
+      "id": 50,
+      "verb": "verstehen",
+      "translation": "to understand",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "verstehe", "du": "verstehst", "er/sie/es": "versteht", "wir": "verstehen", "ihr": "versteht", "sie/Sie": "verstehen"},
+        "past": {"ich": "verstand", "du": "verstandst", "er/sie/es": "verstand", "wir": "verstanden", "ihr": "verstandet", "sie/Sie": "verstanden"},
+        "perfect": {"ich": "habe verstanden", "du": "hast verstanden", "er/sie/es": "hat verstanden", "wir": "haben verstanden", "ihr": "habt verstanden", "sie/Sie": "haben verstanden"},
+        "future": {"ich": "werde verstehen", "du": "wirst verstehen", "er/sie/es": "wird verstehen", "wir": "werden verstehen", "ihr": "werdet verstehen", "sie/Sie": "werden verstehen"}
+      }
+    },
+    {
+      "id": 51,
+      "verb": "laufen",
+      "translation": "to run",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "laufe", "du": "läufst", "er/sie/es": "läuft", "wir": "laufen", "ihr": "lauft", "sie/Sie": "laufen"},
+        "past": {"ich": "lief", "du": "liefst", "er/sie/es": "lief", "wir": "liefen", "ihr": "lieft", "sie/Sie": "liefen"},
+        "perfect": {"ich": "bin gelaufen", "du": "bist gelaufen", "er/sie/es": "ist gelaufen", "wir": "sind gelaufen", "ihr": "seid gelaufen", "sie/Sie": "sind gelaufen"},
+        "future": {"ich": "werde laufen", "du": "wirst laufen", "er/sie/es": "wird laufen", "wir": "werden laufen", "ihr": "werdet laufen", "sie/Sie": "werden laufen"}
+      }
+    },
+    {
+      "id": 52,
+      "verb": "stehen",
+      "translation": "to stand",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "stehe", "du": "stehst", "er/sie/es": "steht", "wir": "stehen", "ihr": "steht", "sie/Sie": "stehen"},
+        "past": {"ich": "stand", "du": "standst", "er/sie/es": "stand", "wir": "standen", "ihr": "standet", "sie/Sie": "standen"},
+        "perfect": {"ich": "habe gestanden", "du": "hast gestanden", "er/sie/es": "hat gestanden", "wir": "haben gestanden", "ihr": "habt gestanden", "sie/Sie": "haben gestanden"},
+        "future": {"ich": "werde stehen", "du": "wirst stehen", "er/sie/es": "wird stehen", "wir": "werden stehen", "ihr": "werdet stehen", "sie/Sie": "werden stehen"}
+      }
+    },
+    {
+      "id": 53,
+      "verb": "sitzen",
+      "translation": "to sit",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "sitze", "du": "sitzt", "er/sie/es": "sitzt", "wir": "sitzen", "ihr": "sitzt", "sie/Sie": "sitzen"},
+        "past": {"ich": "saß", "du": "saßt", "er/sie/es": "saß", "wir": "saßen", "ihr": "saßt", "sie/Sie": "saßen"},
+        "perfect": {"ich": "habe gesessen", "du": "hast gesessen", "er/sie/es": "hat gesessen", "wir": "haben gesessen", "ihr": "habt gesessen", "sie/Sie": "haben gesessen"},
+        "future": {"ich": "werde sitzen", "du": "wirst sitzen", "er/sie/es": "wird sitzen", "wir": "werden sitzen", "ihr": "werdet sitzen", "sie/Sie": "werden sitzen"}
+      }
+    },
+    {
+      "id": 54,
+      "verb": "liegen",
+      "translation": "to lie",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "liege", "du": "liegst", "er/sie/es": "liegt", "wir": "liegen", "ihr": "liegt", "sie/Sie": "liegen"},
+        "past": {"ich": "lag", "du": "lagst", "er/sie/es": "lag", "wir": "lagen", "ihr": "lagt", "sie/Sie": "lagen"},
+        "perfect": {"ich": "habe gelegen", "du": "hast gelegen", "er/sie/es": "hat gelegen", "wir": "haben gelegen", "ihr": "habt gelegen", "sie/Sie": "haben gelegen"},
+        "future": {"ich": "werde liegen", "du": "wirst liegen", "er/sie/es": "wird liegen", "wir": "werden liegen", "ihr": "werdet liegen", "sie/Sie": "werden liegen"}
+      }
+    },
+    {
+      "id": 55,
+      "verb": "denken",
+      "translation": "to think",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "denke", "du": "denkst", "er/sie/es": "denkt", "wir": "denken", "ihr": "denkt", "sie/Sie": "denken"},
+        "past": {"ich": "dachte", "du": "dachtest", "er/sie/es": "dachte", "wir": "dachten", "ihr": "dachtet", "sie/Sie": "dachten"},
+        "perfect": {"ich": "habe gedacht", "du": "hast gedacht", "er/sie/es": "hat gedacht", "wir": "haben gedacht", "ihr": "habt gedacht", "sie/Sie": "haben gedacht"},
+        "future": {"ich": "werde denken", "du": "wirst denken", "er/sie/es": "wird denken", "wir": "werden denken", "ihr": "werdet denken", "sie/Sie": "werden denken"}
+      }
+    },
+    {
+      "id": 56,
+      "verb": "glauben",
+      "translation": "to believe",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "glaube", "du": "glaubst", "er/sie/es": "glaubt", "wir": "glauben", "ihr": "glaubt", "sie/Sie": "glauben"},
+        "past": {"ich": "glaubte", "du": "glaubtest", "er/sie/es": "glaubte", "wir": "glaubten", "ihr": "glaubtet", "sie/Sie": "glaubten"},
+        "perfect": {"ich": "habe geglaubt", "du": "hast geglaubt", "er/sie/es": "hat geglaubt", "wir": "haben geglaubt", "ihr": "habt geglaubt", "sie/Sie": "haben geglaubt"},
+        "future": {"ich": "werde glauben", "du": "wirst glauben", "er/sie/es": "wird glauben", "wir": "werden glauben", "ihr": "werdet glauben", "sie/Sie": "werden glauben"}
+      }
+    },
+    {
+      "id": 57,
+      "verb": "meinen",
+      "translation": "to mean",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "meine", "du": "meinst", "er/sie/es": "meint", "wir": "meinen", "ihr": "meint", "sie/Sie": "meinen"},
+        "past": {"ich": "meinte", "du": "meintest", "er/sie/es": "meinte", "wir": "meinten", "ihr": "meintet", "sie/Sie": "meinten"},
+        "perfect": {"ich": "habe gemeint", "du": "hast gemeint", "er/sie/es": "hat gemeint", "wir": "haben gemeint", "ihr": "habt gemeint", "sie/Sie": "haben gemeint"},
+        "future": {"ich": "werde meinen", "du": "wirst meinen", "er/sie/es": "wird meinen", "wir": "werden meinen", "ihr": "werdet meinen", "sie/Sie": "werden meinen"}
+      }
+    },
+    {
+      "id": 58,
+      "verb": "wissen",
+      "translation": "to know - fact",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "weiß", "du": "weißt", "er/sie/es": "weiß", "wir": "wissen", "ihr": "wisst", "sie/Sie": "wissen"},
+        "past": {"ich": "wusste", "du": "wusstest", "er/sie/es": "wusste", "wir": "wussten", "ihr": "wusstet", "sie/Sie": "wussten"},
+        "perfect": {"ich": "habe gewusst", "du": "hast gewusst", "er/sie/es": "hat gewusst", "wir": "haben gewusst", "ihr": "habt gewusst", "sie/Sie": "haben gewusst"},
+        "future": {"ich": "werde wissen", "du": "wirst wissen", "er/sie/es": "wird wissen", "wir": "werden wissen", "ihr": "werdet wissen", "sie/Sie": "werden wissen"}
+      }
+    },
+    {
+      "id": 59,
+      "verb": "kennen",
+      "translation": "to know - person",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "kenne", "du": "kennst", "er/sie/es": "kennt", "wir": "kennen", "ihr": "kennt", "sie/Sie": "kennen"},
+        "past": {"ich": "kannte", "du": "kanntest", "er/sie/es": "kannte", "wir": "kannten", "ihr": "kanntet", "sie/Sie": "kannten"},
+        "perfect": {"ich": "habe gekannt", "du": "hast gekannt", "er/sie/es": "hat gekannt", "wir": "haben gekannt", "ihr": "habt gekannt", "sie/Sie": "haben gekannt"},
+        "future": {"ich": "werde kennen", "du": "wirst kennen", "er/sie/es": "wird kennen", "wir": "werden kennen", "ihr": "werdet kennen", "sie/Sie": "werden kennen"}
+      }
+    },
+    {
+      "id": 60,
+      "verb": "erinnern",
+      "translation": "to remember",
+      "type": "reflexive",
+      "tenses": {
+        "present": {"ich": "erinnere mich", "du": "erinnerst dich", "er/sie/es": "erinnert sich", "wir": "erinnern uns", "ihr": "erinnert euch", "sie/Sie": "erinnern sich"},
+        "past": {"ich": "erinnerte mich", "du": "erinnertest dich", "er/sie/es": "erinnerte sich", "wir": "erinnerten uns", "ihr": "erinnertet euch", "sie/Sie": "erinnerten sich"},
+        "perfect": {"ich": "habe mich erinnert", "du": "hast dich erinnert", "er/sie/es": "hat sich erinnert", "wir": "haben uns erinnert", "ihr": "habt euch erinnert", "sie/Sie": "haben sich erinnert"},
+        "future": {"ich": "werde mich erinnern", "du": "wirst dich erinnern", "er/sie/es": "wird sich erinnern", "wir": "werden uns erinnern", "ihr": "werdet euch erinnern", "sie/Sie": "werden sich erinnern"}
+      }
+    },
+    {
+      "id": 61,
+      "verb": "vergessen",
+      "translation": "to forget",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "vergesse", "du": "vergisst", "er/sie/es": "vergisst", "wir": "vergessen", "ihr": "vergesst", "sie/Sie": "vergessen"},
+        "past": {"ich": "vergaß", "du": "vergaßt", "er/sie/es": "vergaß", "wir": "vergaßen", "ihr": "vergaßt", "sie/Sie": "vergaßen"},
+        "perfect": {"ich": "habe vergessen", "du": "hast vergessen", "er/sie/es": "hat vergessen", "wir": "haben vergessen", "ihr": "habt vergessen", "sie/Sie": "haben vergessen"},
+        "future": {"ich": "werde vergessen", "du": "wirst vergessen", "er/sie/es": "wird vergessen", "wir": "werden vergessen", "ihr": "werdet vergessen", "sie/Sie": "werden vergessen"}
+      }
+    },
+    {
+      "id": 62,
+      "verb": "erzählen",
+      "translation": "to tell",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "erzähle", "du": "erzählst", "er/sie/es": "erzählt", "wir": "erzählen", "ihr": "erzählt", "sie/Sie": "erzählen"},
+        "past": {"ich": "erzählte", "du": "erzähltest", "er/sie/es": "erzählte", "wir": "erzählten", "ihr": "erzähltet", "sie/Sie": "erzählten"},
+        "perfect": {"ich": "habe erzählt", "du": "hast erzählt", "er/sie/es": "hat erzählt", "wir": "haben erzählt", "ihr": "habt erzählt", "sie/Sie": "haben erzählt"},
+        "future": {"ich": "werde erzählen", "du": "wirst erzählen", "er/sie/es": "wird erzählen", "wir": "werden erzählen", "ihr": "werdet erzählen", "sie/Sie": "werden erzählen"}
+      }
+    },
+    {
+      "id": 63,
+      "verb": "erklären",
+      "translation": "to explain",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "erkläre", "du": "erklärst", "er/sie/es": "erklärt", "wir": "erklären", "ihr": "erklärt", "sie/Sie": "erklären"},
+        "past": {"ich": "erklärte", "du": "klärtest", "er/sie/es": "erklärte", "wir": "klärten", "ihr": "klärtet", "sie/Sie": "klärten"},
+        "perfect": {"ich": "habe erklärt", "du": "hast erklärt", "er/sie/es": "hat erklärt", "wir": "haben erklärt", "ihr": "habt erklärt", "sie/Sie": "haben erklärt"},
+        "future": {"ich": "werde erklären", "du": "wirst erklären", "er/sie/es": "wird erklären", "wir": "werden erklären", "ihr": "werdet erklären", "sie/Sie": "werden erklären"}
+      }
+    },
+    {
+      "id": 64,
+      "verb": "bestellen",
+      "translation": "to order",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "bestelle", "du": "bestellst", "er/sie/es": "bestellt", "wir": "bestellen", "ihr": "bestellt", "sie/Sie": "bestellen"},
+        "past": {"ich": "bestellte", "du": "bestelltest", "er/sie/es": "bestellte", "wir": "bestellten", "ihr": "bestelltet", "sie/Sie": "bestellten"},
+        "perfect": {"ich": "habe bestellt", "du": "hast bestellt", "er/sie/es": "hat bestellt", "wir": "haben bestellt", "ihr": "habt bestellt", "sie/Sie": "haben bestellt"},
+        "future": {"ich": "werde bestellen", "du": "wirst bestellen", "er/sie/es": "wird bestellen", "wir": "werden bestellen", "ihr": "werdet bestellen", "sie/Sie": "werden bestellen"}
+      }
+    },
+    {
+      "id": 65,
+      "verb": "reservieren",
+      "translation": "to reserve",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "reserviere", "du": "reservierst", "er/sie/es": "reserviert", "wir": "reservieren", "ihr": "reserviert", "sie/Sie": "reservieren"},
+        "past": {"ich": "reservierte", "du": "reserviertest", "er/sie/es": "reservierte", "wir": "reservierten", "ihr": "reserviertet", "sie/Sie": "reservierten"},
+        "perfect": {"ich": "habe reserviert", "du": "hast reserviert", "er/sie/es": "hat reserviert", "wir": "haben reserviert", "ihr": "habt reserviert", "sie/Sie": "haben reserviert"},
+        "future": {"ich": "werde reservieren", "du": "wirst reservieren", "er/sie/es": "wird reservieren", "wir": "werden reservieren", "ihr": "werdet reservieren", "sie/Sie": "werden reservieren"}
+      }
+    },
+    {
+      "id": 66,
+      "verb": "zahlen",
+      "translation": "to pay",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": " zahle", "du": "zahlt", "er/sie/es": "zahlt", "wir": "zahlen", "ihr": "zahlt", "sie/Sie": "zahlen"},
+        "past": {"ich": "zahlte", "du": "zahltest", "er/sie/es": "zahlte", "wir": "zahlten", "ihr": "zahltet", "sie/Sie": "zahlten"},
+        "perfect": {"ich": "habe gezahlt", "du": "hast gezahlt", "er/sie/es": "hat gezahlt", "wir": "haben gezahlt", "ihr": "habt gezahlt", "sie/Sie": "haben gezahlt"},
+        "future": {"ich": "werde zahlen", "du": "wirst zahlen", "er/sie/es": "wird zahlen", "wir": "werden zahlen", "ihr": "werdet zahlen", "sie/Sie": "werden zahlen"}
+      }
+    },
+    {
+      "id": 67,
+      "verb": "kosten",
+      "translation": "to cost",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "kosten", "du": "kosten", "er/sie/es": "kostet", "wir": "kosten", "ihr": "kosten", "sie/Sie": "kosten"},
+        "past": {"ich": "kostete", "du": "kostetest", "er/sie/es": "kostete", "wir": "kosteten", "ihr": "kostetet", "sie/Sie": "kosteten"},
+        "perfect": {"ich": "habe gekostet", "du": "hast gekostet", "er/sie/es": "hat gekostet", "wir": "haben gekostet", "ihr": "habt gekostet", "sie/Sie": "haben gekostet"},
+        "future": {"ich": "werde kosten", "du": "wirst kosten", "er/sie/es": "wird kosten", "wir": "werden kosten", "ihr": "werdet kosten", "sie/Sie": "werden kosten"}
+      }
+    },
+    {
+      "id": 68,
+      "verb": "sparen",
+      "translation": "to save",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "spare", "du": "sparst", "er/sie/es": "spart", "wir": "sparen", "ihr": "spart", "sie/Sie": "sparen"},
+        "past": {"ich": "sparte", "du": "sparstest", "er/sie/es": "sparte", "wir": "sparten", "ihr": "spartet", "sie/Sie": "sparten"},
+        "perfect": {"ich": "habe gespart", "du": "hast gespart", "er/sie/es": "hat gespart", "wir": "haben gespart", "ihr": "habt gespart", "sie/Sie": "haben gespart"},
+        "future": {"ich": "werde sparen", "du": "wirst sparen", "er/sie/es": "wird sparen", "wir": "werden sparen", "ihr": "werdet sparen", "sie/Sie": "werden sparen"}
+      }
+    },
+    {
+      "id": 69,
+      "verb": "verdienen",
+      "translation": "to earn",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "verdiene", "du": "verdienst", "er/sie/es": "verdient", "wir": "verdienen", "ihr": "verdient", "sie/Sie": "verdienen"},
+        "past": {"ich": "verdiente", "du": "verdientest", "er/sie/es": "verdiente", "wir": "verdienten", "ihr": "verdientet", "sie/Sie": "verdienten"},
+        "perfect": {"ich": "habe verdient", "du": "hast verdient", "er/sie/es": "hat verdient", "wir": "haben verdient", "ihr": "habt verdient", "sie/Sie": "haben verdient"},
+        "future": {"ich": "werde verdienen", "du": "wirst verdienen", "er/sie/es": "wird verdienen", "wir": "werden verdienen", "ihr": "werdet verdienen", "sie/Sie": "werden verdienen"}
+      }
+    },
+    {
+      "id": 70,
+      "verb": "leihen",
+      "translation": "to lend / borrow",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "leihe", "du": "leihst", "er/sie/es": "leiht", "wir": "leihen", "ihr": "leiht", "sie/Sie": "leihen"},
+        "past": {"ich": "lieh", "du": "liehst", "er/sie/es": "lieh", "wir": "liehen", "ihr": "lieht", "sie/Sie": "liehen"},
+        "perfect": {"ich": "habe geliehen", "du": "hast geliehen", "er/sie/es": "hat geliehen", "wir": "haben geliehen", "ihr": "habt geliehen", "sie/Sie": "haben geliehen"},
+        "future": {"ich": "werde leihen", "du": "wirst leihen", "er/sie/es": "wird leihen", "wir": "werden leihen", "ihr": "werdet leihen", "sie/Sie": "werden leihen"}
+      }
+    },
+    {
+      "id": 71,
+      "verb": "mieten",
+      "translation": "to rent",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "miete", "du": "mietest", "er/sie/es": "mietet", "wir": "mieten", "ihr": "mietet", "sie/Sie": "mieten"},
+        "past": {"ich": "mietete", "du": "mietetest", "er/sie/es": "mietete", "wir": "mieteten", "ihr": "mietetet", "sie/Sie": "mieteten"},
+        "perfect": {"ich": "habe gemietet", "du": "hast gemietet", "er/sie/es": "hat gemietet", "wir": "haben gemietet", "ihr": "habt gemietet", "sie/Sie": "haben gemietet"},
+        "future": {"ich": "werde mieten", "du": "wirst mieten", "er/sie/es": "wird mieten", "wir": "werden mieten", "ihr": "werdet mieten", "sie/Sie": "werden mieten"}
+      }
+    },
+    {
+      "id": 72,
+      "verb": "umziehen",
+      "translation": "to move",
+      "type": "separable",
+      "tenses": {
+        "present": {"ich": "ziehe um", "du": "ziehst um", "er/sie/es": "zieht um", "wir": "ziehen um", "ihr": "zieht um", "sie/Sie": "ziehen um"},
+        "past": {"ich": "zog um", "du": "zogst um", "er/sie/es": "zog um", "wir": "zogen um", "ihr": "zogt um", "sie/Sie": "zogen um"},
+        "perfect": {"ich": "bin umgezogen", "du": "bist umgezogen", "er/sie/es": "ist umgezogen", "wir": "sind umgezogen", "ihr": "seid umgezogen", "sie/Sie": "sind umgezogen"},
+        "future": {"ich": "werde umziehen", "du": "wirst umziehen", "er/sie/es": "wird umziehen", "wir": "werden umziehen", "ihr": "werdet umziehen", "sie/Sie": "werden umziehen"}
+      }
+    },
+    {
+      "id": 73,
+      "verb": "einziehen",
+      "translation": "to move in",
+      "type": "separable",
+      "tenses": {
+        "present": {"ich": "ziehe ein", "du": "ziehst ein", "er/sie/es": "zieht ein", "wir": "ziehen ein", "ihr": "zieht ein", "sie/Sie": "ziehen ein"},
+        "past": {"ich": "zog ein", "du": "zogst ein", "er/sie/es": "zog ein", "wir": "zogen ein", "ihr": "zogt ein", "sie/Sie": "zogen ein"},
+        "perfect": {"ich": "bin eingezogen", "du": "bist eingezogen", "er/sie/es": "ist eingezogen", "wir": "sind eingezogen", "ihr": "seid eingezogen", "sie/Sie": "sind eingezogen"},
+        "future": {"ich": "werde einziehen", "du": "wirst einziehen", "er/sie/es": "wird einziehen", "wir": "werden einziehen", "ihr": "werdet einziehen", "sie/Sie": "werden einziehen"}
+      }
+    },
+    {
+      "id": 74,
+      "verb": "ausziehen",
+      "translation": "to move out",
+      "type": "separable",
+      "tenses": {
+        "present": {"ich": "ziehe aus", "du": "ziehst aus", "er/sie/es": "zieht aus", "wir": "ziehen aus", "ihr": "zieht aus", "sie/Sie": "ziehen aus"},
+        "past": {"ich": "zog aus", "du": "zogst aus", "er/sie/es": "zog aus", "wir": "zogen aus", "ihr": "zogt aus", "sie/Sie": "zogen aus"},
+        "perfect": {"ich": "bin ausgezogen", "du": "bist ausgezogen", "er/sie/es": "ist ausgezogen", "wir": "sind ausgezogen", "ihr": "seid ausgezogen", "sie/Sie": "sind ausgezogen"},
+        "future": {"ich": "werde ausziehen", "du": "wirst ausziehen", "er/sie/es": "wird ausziehen", "wir": "werden ausziehen", "ihr": "werdet ausziehen", "sie/Sie": "werden ausziehen"}
+      }
+    },
+    {
+      "id": 75,
+      "verb": "einladen",
+      "translation": "to invite",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "lade ein", "du": "lädst ein", "er/sie/es": "lädt ein", "wir": "laden ein", "ihr": "ladet ein", "sie/Sie": "laden ein"},
+        "past": {"ich": "lud ein", "du": "ludst ein", "er/sie/es": "lud ein", "wir": "luden ein", "ihr": "ludet ein", "sie/Sie": "luden ein"},
+        "perfect": {"ich": "habe eingeladen", "du": "hast eingeladen", "er/sie/es": "hat eingeladen", "wir": "haben eingeladen", "ihr": "habt eingeladen", "sie/Sie": "haben eingeladen"},
+        "future": {"ich": "werde einladen", "du": "wirst einladen", "er/sie/es": "wird einladen", "wir": "werden einladen", "ihr": "werdet einladen", "sie/Sie": "werden einladen"}
+      }
+    },
+    {
+      "id": 76,
+      "verb": "feiern",
+      "translation": "to celebrate",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "feiere", "du": "feierst", "er/sie/es": "feiert", "wir": "feiern", "ihr": "feiert", "sie/Sie": "feiern"},
+        "past": {"ich": "feierte", "du": "feiertest", "er/sie/es": "feierte", "wir": "feierten", "ihr": "feiertet", "sie/Sie": "feierten"},
+        "perfect": {"ich": "habe gefeiert", "du": "hast gefeiert", "er/sie/es": "hat gefeiert", "wir": "haben gefeiert", "ihr": "habt gefeiert", "sie/Sie": "haben gefeiert"},
+        "future": {"ich": "werde feiern", "du": "wirst feiern", "er/sie/es": "wird feiern", "wir": "werden feiern", "ihr": "werdet feiern", "sie/Sie": "werden feiern"}
+      }
+    },
+    {
+      "id": 77,
+      "verb": "tanzen",
+      "translation": "to dance",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "tanze", "du": "tanzst", "er/sie/es": "tanzt", "wir": "tanzen", "ihr": "tanzt", "sie/Sie": "tanzen"},
+        "past": {"ich": "tanzte", "du": "tanztest", "er/sie/es": "tanzte", "wir": "tanzten", "ihr": "tanztet", "sie/Sie": "tanzten"},
+        "perfect": {"ich": "habe getanzt", "du": "hast getanzt", "er/sie/es": "hat getanzt", "wir": "haben getanzt", "ihr": "habt getanzt", "sie/Sie": "haben getanzt"},
+        "future": {"ich": "werde tanzen", "du": "wirst tanzen", "er/sie/es": "wird tanzen", "wir": "werden tanzen", "ihr": "werdet tanzen", "sie/Sie": "werden tanzen"}
+      }
+    },
+    {
+      "id": 78,
+      "verb": "singen",
+      "translation": "to sing",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "singe", "du": "singst", "er/sie/es": "singt", "wir": "singen", "ihr": "singt", "sie/Sie": "singen"},
+        "past": {"ich": "sang", "du": "sangst", "er/sie/es": "sang", "wir": "sangen", "ihr": "sangt", "sie/Sie": "sangen"},
+        "perfect": {"ich": "habe gesungen", "du": "hast gesungen", "er/sie/es": "hat gesungen", "wir": "haben gesungen", "ihr": "habt gesungen", "sie/Sie": "haben gesungen"},
+        "future": {"ich": "werde singen", "du": "wirst singen", "er/sie/es": "wird singen", "wir": "werden singen", "ihr": "werdet singen", "sie/Sie": "werden singen"}
+      }
+    },
+    {
+      "id": 79,
+      "verb": "lachen",
+      "translation": "to laugh",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "lache", "du": "lachst", "er/sie/es": "lacht", "wir": "lachen", "ihr": "lacht", "sie/Sie": "lachen"},
+        "past": {"ich": "lachte", "du": "lachtest", "er/sie/es": "lachte", "wir": "lachten", "ihr": "lachtet", "sie/Sie": "lachten"},
+        "perfect": {"ich": "habe gelacht", "du": "hast gelacht", "er/sie/es": "hat gelacht", "wir": "haben gelacht", "ihr": "habt gelacht", "sie/Sie": "haben gelacht"},
+        "future": {"ich": "werde lachen", "du": "wirst lachen", "er/sie/es": "wird lachen", "wir": "werden lachen", "ihr": "werdet lachen", "sie/Sie": "werden lachen"}
+      }
+    },
+    {
+      "id": 80,
+      "verb": "weinen",
+      "translation": "to cry",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "weine", "du": "weinst", "er/sie/es": "weint", "wir": "weinen", "ihr": "weint", "sie/Sie": "weinen"},
+        "past": {"ich": "weinte", "du": "weintest", "er/sie/es": "weinte", "wir": "weinten", "ihr": "weintet", "sie/Sie": "weinten"},
+        "perfect": {"ich": "habe geweint", "du": "hast geweint", "er/sie/es": "hat geweint", "wir": "haben geweint", "ihr": "habt geweint", "sie/Sie": "haben geweint"},
+        "future": {"ich": "werde weinen", "du": "wirst weinen", "er/sie/es": "wird weinen", "wir": "werden weinen", "ihr": "werdet weinen", "sie/Sie": "werden weinen"}
+      }
+    },
+    {
+      "id": 81,
+      "verb": "anrufen",
+      "translation": "to call",
+      "type": "separable",
+      "tenses": {
+        "present": {"ich": "rufe an", "du": "rufst an", "er/sie/es": "ruft an", "wir": "rufen an", "ihr": "ruft an", "sie/Sie": "rufen an"},
+        "past": {"ich": "rief an", "du": "riefst an", "er/sie/es": "rief an", "wir": "riefen an", "ihr": "rieft an", "sie/Sie": "riefen an"},
+        "perfect": {"ich": "habe angerufen", "du": "hast angerufen", "er/sie/es": "hat angerufen", "wir": "haben angerufen", "ihr": "habt angerufen", "sie/Sie": "haben angerufen"},
+        "future": {"ich": "werde anrufen", "du": "wirst anrufen", "er/sie/es": "wird anrufen", "wir": "werden anrufen", "ihr": "werdet anrufen", "sie/Sie": "werden anrufen"}
+      }
+    },
+    {
+      "id": 82,
+      "verb": "telefonieren",
+      "translation": "to phone",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "telefoniere", "du": "telefonierst", "er/sie/es": "telefoniert", "wir": "telefonieren", "ihr": "telefoniert", "sie/Sie": "telefonieren"},
+        "past": {"ich": "telefonierte", "du": "telefoniertest", "er/sie/es": "telefonierte", "wir": "telefonierten", "ihr": "telefoniertet", "sie/Sie": "telefonierten"},
+        "perfect": {"ich": "habe telefoniert", "du": "hast telefoniert", "er/sie/es": "hat telefoniert", "wir": "haben telefoniert", "ihr": "habt telefoniert", "sie/Sie": "haben telefoniert"},
+        "future": {"ich": "werde telefonieren", "du": "wirst telefonieren", "er/sie/es": "wird telefonieren", "wir": "werden telefonieren", "ihr": "werdet telefonieren", "sie/Sie": "werden telefonieren"}
+      }
+    },
+    {
+      "id": 83,
+      "verb": "schicken",
+      "translation": "to send",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "schicke", "du": "schickst", "er/sie/es": "schickt", "wir": "schicken", "ihr": "schickt", "sie/Sie": "schicken"},
+        "past": {"ich": "schickte", "du": "schicktest", "er/sie/es": "schickte", "wir": "schickten", "ihr": "schicktet", "sie/Sie": "schickten"},
+        "perfect": {"ich": "habe geschickt", "du": "hast geschickt", "er/sie/es": "hat geschickt", "wir": "haben geschickt", "ihr": "habt geschickt", "sie/Sie": "haben geschickt"},
+        "future": {"ich": "werde schicken", "du": "wirst schicken", "er/sie/es": "wird schicken", "wir": "werden schicken", "ihr": "werdet schicken", "sie/Sie": "werden schicken"}
+      }
+    },
+    {
+      "id": 84,
+      "verb": "bekommen",
+      "translation": "to get",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "bekomme", "du": "bekommst", "er/sie/es": "bekommt", "wir": "bekommen", "ihr": "bekommt", "sie/Sie": "bekommen"},
+        "past": {"ich": "bekam", "du": "bekamst", "er/sie/es": "bekam", "wir": "bekamen", "ihr": "bekamt", "sie/Sie": "bekamen"},
+        "perfect": {"ich": "habe bekommen", "du": "hast bekommen", "er/sie/es": "hat bekommen", "wir": "haben bekommen", "ihr": "habt bekommen", "sie/Sie": "haben bekommen"},
+        "future": {"ich": "werde bekommen", "du": "wirst bekommen", "er/sie/es": "wird bekommen", "wir": "werden bekommen", "ihr": "werdet bekommen", "sie/Sie": "werden bekommen"}
+      }
+    },
+    {
+      "id": 85,
+      "verb": "erhalten",
+      "translation": "to receive",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "erhalte", "du": "erhältst", "er/sie/es": "erhält", "wir": "erhalten", "ihr": "erhaltet", "sie/Sie": "erhalten"},
+        "past": {"ich": "erhielt", "du": "erhielst", "er/sie/es": "erhielt", "wir": "erhielten", "ihr": "erhieltet", "sie/Sie": "erhielten"},
+        "perfect": {"ich": "habe erhalten", "du": "hast erhalten", "er/sie/es": "hat erhalten", "wir": "haben erhalten", "ihr": "habt erhalten", "sie/Sie": "haben erhalten"},
+        "future": {"ich": "werde erhalten", "du": "wirst erhalten", "er/sie/es": "wird erhalten", "wir": "werden erhalten", "ihr": "werdet erhalten", "sie/Sie": "werden erhalten"}
+      }
+    },
+    {
+      "id": 86,
+      "verb": "verkaufen",
+      "translation": "to sell",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "verkaufe", "du": "verkaufst", "er/sie/es": "verkauft", "wir": "verkaufen", "ihr": "verkauft", "sie/Sie": "verkaufen"},
+        "past": {"ich": "verkaufte", "du": "verkauftest", "er/sie/es": "verkaufte", "wir": "verkauften", "ihr": "verkauftet", "sie/Sie": "verkauften"},
+        "perfect": {"ich": "habe verkauft", "du": "hast verkauft", "er/sie/es": "hat verkauft", "wir": "haben verkauft", "ihr": "habt verkauft", "sie/Sie": "haben verkauft"},
+        "future": {"ich": "werde verkaufen", "du": "wirst verkaufen", "er/sie/es": "wird verkaufen", "wir": "werden verkaufen", "ihr": "werdet verkaufen", "sie/Sie": "werden verkaufen"}
+      }
+    },
+    {
+      "id": 87,
+      "verb": "benutzen",
+      "translation": "to use",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "benutze", "du": "benutzt", "er/sie/es": "benutzt", "wir": "benutzen", "ihr": "benutzt", "sie/Sie": "benutzen"},
+        "past": {"ich": "benutzte", "du": "benutztest", "er/sie/es": "benutzte", "wir": "benutzten", "ihr": "benutztet", "sie/Sie": "benutzten"},
+        "perfect": {"ich": "habe benutzt", "du": "hast benutzt", "er/sie/es": "hat benutzt", "wir": "haben benutzt", "ihr": "habt benutzt", "sie/Sie": "haben benutzt"},
+        "future": {"ich": "werde benutzen", "du": "wirst benutzen", "er/sie/es": "wird benutzen", "wir": "werden benutzen", "ihr": "werdet benutzen", "sie/Sie": "werden benutzen"}
+      }
+    },
+    {
+      "id": 88,
+      "verb": "ausprobieren",
+      "translation": "to try out",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "probiere aus", "du": "probierst aus", "er/sie/es": "probiert aus", "wir": "probieren aus", "ihr": "probiert aus", "sie/Sie": "probieren aus"},
+        "past": {"ich": "probierte aus", "du": "probiertest aus", "er/sie/es": "probierte aus", "wir": "probierten aus", "ihr": "probiertet aus", "sie/Sie": "probierten aus"},
+        "perfect": {"ich": "habe ausprobiert", "du": "hast ausprobiert", "er/sie/es": "hat ausprobiert", "wir": "haben ausprobiert", "ihr": "habt ausprobiert", "sie/Sie": "haben ausprobiert"},
+        "future": {"ich": "werde ausprobieren", "du": "wirst ausprobieren", "er/sie/es": "wird ausprobieren", "wir": "werden ausprobieren", "ihr": "werdet ausprobieren", "sie/Sie": "werden ausprobieren"}
+      }
+    },
+    {
+      "id": 89,
+      "verb": "anfangen",
+      "translation": "to start",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "fange an", "du": "fängst an", "er/sie/es": "fängt an", "wir": "fangen an", "ihr": "fangt an", "sie/Sie": "fangen an"},
+        "past": {"ich": "fing an", "du": "fingst an", "er/sie/es": "fing an", "wir": "fingen an", "ihr": "fingt an", "sie/Sie": "fingen an"},
+        "perfect": {"ich": "habe angefangen", "du": "hast angefangen", "er/sie/es": "hat angefangen", "wir": "haben angefangen", "ihr": "habt angefangen", "sie/Sie": "haben angefangen"},
+        "future": {"ich": "werde anfangen", "du": "wirst anfangen", "er/sie/es": "wird anfangen", "wir": "werden anfangen", "ihr": "werdet anfangen", "sie/Sie": "werden anfangen"}
+      }
+    },
+    {
+      "id": 90,
+      "verb": "aufhören",
+      "translation": "to stop",
+      "type": "separable",
+      "tenses": {
+        "present": {"ich": "höre auf", "du": "hörst auf", "er/sie/es": "hört auf", "wir": "hören auf", "ihr": "hört auf", "sie/Sie": "hören auf"},
+        "past": {"ich": "hörte auf", "du": "hrtest auf", "er/sie/es": "hörte auf", "wir": "hörten auf", "ihr": "hörtet auf", "sie/Sie": "hörten auf"},
+        "perfect": {"ich": "habe aufgehört", "du": "hast aufgehört", "er/sie/es": "hat aufgehört", "wir": "haben aufgehört", "ihr": "habt aufgehört", "sie/Sie": "haben aufgehört"},
+        "future": {"ich": "werde aufhören", "du": "wirst aufhören", "er/sie/es": "wird aufhören", "wir": "werden aufhören", "ihr": "werdet aufhören", "sie/Sie": "werden aufhören"}
+      }
+    },
+    {
+      "id": 91,
+      "verb": "fortsetzen",
+      "translation": "to continue",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "setze fort", "du": "setzt fort", "er/sie/es": "setzt fort", "wir": "setzen fort", "ihr": "setzt fort", "sie/Sie": "setzen fort"},
+        "past": {"ich": "setzte fort", "du": "setztest fort", "er/sie/es": "setzte fort", "wir": "setzten fort", "ihr": "setztet fort", "sie/Sie": "setzten fort"},
+        "perfect": {"ich": "habe fortgesetzt", "du": "hast fortgesetzt", "er/sie/es": "hat fortgesetzt", "wir": "haben fortgesetzt", "ihr": "habt fortgesetzt", "sie/Sie": "haben fortgesetzt"},
+        "future": {"ich": "werde fortsetzen", "du": "wirst fortsetzen", "er/sie/es": "wird fortsetzen", "wir": "werden fortsetzen", "ihr": "werdet fortsetzen", "sie/Sie": "werden fortsetzen"}
+      }
+    },
+    {
+      "id": 92,
+      "verb": "weitermachen",
+      "translation": "to continue",
+      "type": "separable",
+      "tenses": {
+        "present": {"ich": "mache weiter", "du": "machst weiter", "er/sie/es": "macht weiter", "wir": "machen weiter", "ihr": "macht weiter", "sie/Sie": "machen weiter"},
+        "past": {"ich": "machte weiter", "du": "machtest weiter", "er/sie/es": "machte weiter", "wir": "machten weiter", "ihr": "machtet weiter", "sie/Sie": "machten weiter"},
+        "perfect": {"ich": "habe weitergemacht", "du": "hast weitergemacht", "er/sie/es": "hat weitergemacht", "wir": "haben weitergemacht", "ihr": "habt weitergemacht", "sie/Sie": "haben weitergemacht"},
+        "future": {"ich": "werde weitermachen", "du": "wirst weitermachen", "er/sie/es": "wird weitermachen", "wir": "werden weitermachen", "ihr": "werdet weitermachen", "sie/Sie": "werden weitermachen"}
+      }
+    },
+    {
+      "id": 93,
+      "verb": "vorbereiten",
+      "translation": "to prepare",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "bereite vor", "du": "bereitest vor", "er/sie/es": "bereitet vor", "wir": "bereiten vor", "ihr": "bereitet vor", "sie/Sie": "bereiten vor"},
+        "past": {"ich": "bereitete vor", "du": "bereitetest vor", "er/sie/es": "bereitete vor", "wir": "bereiteten vor", "ihr": "bereitetet vor", "sie/Sie": "bereiteten vor"},
+        "perfect": {"ich": "habe vorbereitet", "du": "hast vorbereitet", "er/sie/es": "hat vorbereitet", "wir": "haben vorbereitet", "ihr": "habt vorbereitet", "sie/Sie": "haben vorbereitet"},
+        "future": {"ich": "werde vorbereiten", "du": "wirst vorbereiten", "er/sie/es": "wird vorbereiten", "wir": "werden vorbereiten", "ihr": "werdet vorbereiten", "sie/Sie": "werden vorbereiten"}
+      }
+    },
+    {
+      "id": 94,
+      "verb": "planen",
+      "translation": "to plan",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "plane", "du": "planst", "er/sie/es": "plant", "wir": "planen", "ihr": "plant", "sie/Sie": "planen"},
+        "past": {"ich": "plante", "du": "plantest", "er/sie/es": "plante", "wir": "planten", "ihr": "plantet", "sie/Sie": "planten"},
+        "perfect": {"ich": "habe geplant", "du": "hast geplant", "er/sie/es": "hat geplant", "wir": "haben geplant", "ihr": "habt geplant", "sie/Sie": "haben geplant"},
+        "future": {"ich": "werde planen", "du": "wirst planen", "er/sie/es": "wird planen", "wir": "werden planen", "ihr": "werdet planen", "sie/Sie": "werden planen"}
+      }
+    },
+    {
+      "id": 95,
+      "verb": "entscheiden",
+      "translation": "to decide",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "entscheide", "du": "entscheidest", "er/sie/es": "entscheidet", "wir": "entscheiden", "ihr": "entscheidet", "sie/Sie": "entscheiden"},
+        "past": {"ich": "entschied", "du": "entschiedest", "er/sie/es": "entschied", "wir": "entschieden", "ihr": "entschiedet", "sie/Sie": "entschieden"},
+        "perfect": {"ich": "habe entschieden", "du": "hast entschieden", "er/sie/es": "hat entschieden", "wir": "haben entschieden", "ihr": "habt entschieden", "sie/Sie": "haben entschieden"},
+        "future": {"ich": "werde entscheiden", "du": "wirst entscheiden", "er/sie/es": "wird entscheiden", "wir": "werden entscheiden", "ihr": "werdet entscheiden", "sie/Sie": "werden entscheiden"}
+      }
+    },
+    {
+      "id": 96,
+      "verb": "versuchen",
+      "translation": "to try",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "versuche", "du": "versuchst", "er/sie/es": "versucht", "wir": "versuchen", "ihr": "versucht", "sie/Sie": "versuchen"},
+        "past": {"ich": "versuchte", "du": "versuchtest", "er/sie/es": "versuchte", "wir": "versuchten", "ihr": "versuchtet", "sie/Sie": "versuchten"},
+        "perfect": {"ich": "habe versucht", "du": "hast versucht", "er/sie/es": "hat versucht", "wir": "haben versucht", "ihr": "habt versucht", "sie/Sie": "haben versucht"},
+        "future": {"ich": "werde versuchen", "du": "wirst versuchen", "er/sie/es": "wird versuchen", "wir": "werden versuchen", "ihr": "werdet versuchen", "sie/Sie": "werden versuchen"}
+      }
+    },
+    {
+      "id": 97,
+      "verb": "üben",
+      "translation": "to practice",
+      "type": "regular",
+      "tenses": {
+        "present": {"ich": "übe", "du": "übst", "er/sie/es": "übt", "wir": "üben", "ihr": "übt", "sie/Sie": "üben"},
+        "past": {"ich": "übte", "du": "übtest", "er/sie/es": "übte", "wir": "übten", "ihr": "übtet", "sie/Sie": "übten"},
+        "perfect": {"ich": "habe geübt", "du": "hast geübt", "er/sie/es": "hat geübt", "wir": "haben geübt", "ihr": "habt geübt", "sie/Sie": "haben geübt"},
+        "future": {"ich": "werde üben", "du": "wirst üben", "er/sie/es": "wird üben", "wir": "werden üben", "ihr": "werdet üben", "sie/Sie": "werden üben"}
+      }
+    },
+    {
+      "id": 98,
+      "verb": "bestehen",
+      "translation": "to pass",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "bestehe", "du": "bestehst", "er/sie/es": "besteht", "wir": "bestehen", "ihr": "besteht", "sie/Sie": "bestehen"},
+        "past": {"ich": "bestand", "du": "bestandest", "er/sie/es": "bestand", "wir": "bestanden", "ihr": "bestandet", "sie/Sie": "bestanden"},
+        "perfect": {"ich": "habe bestanden", "du": "hast bestanden", "er/sie/es": "hat bestanden", "wir": "haben bestanden", "ihr": "habt bestanden", "sie/Sie": "haben bestanden"},
+        "future": {"ich": "werde bestehen", "du": "wirst bestehen", "er/sie/es": "wird bestehen", "wir": "werden bestehen", "ihr": "werdet bestehen", "sie/Sie": "werden bestehen"}
+      }
+    },
+    {
+      "id": 99,
+      "verb": "passieren",
+      "translation": "to happen",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "passiere", "du": "passierst", "er/sie/es": "passiert", "wir": "passieren", "ihr": "passiert", "sie/Sie": "passieren"},
+        "past": {"ich": "passierte", "du": "passiertest", "er/sie/es": "passierte", "wir": "passierten", "ihr": "passiertet", "sie/Sie": "passierten"},
+        "perfect": {"ich": "bin passiert", "du": "bist passiert", "er/sie/es": "ist passiert", "wir": "sind passiert", "ihr": "seid passiert", "sie/Sie": "sind passiert"},
+        "future": {"ich": "werde passieren", "du": "wirst passieren", "er/sie/es": "wird passieren", "wir": "werden passieren", "ihr": "werdet passieren", "sie/Sie": "werden passieren"}
+      }
+    },
+    {
+      "id": 100,
+      "verb": "bestehen",
+      "translation": "to pass",
+      "type": "irregular",
+      "tenses": {
+        "present": {"ich": "bestehe", "du": "bestehst", "er/sie/es": "besteht", "wir": "bestehen", "ihr": "besteht", "sie/Sie": "bestehen"},
+        "past": {"ich": "bestand", "du": "bestandest", "er/sie/es": "bestand", "wir": "bestanden", "ihr": "bestandet", "sie/Sie": "bestanden"},
+        "perfect": {"ich": "habe bestanden", "du": "hast bestanden", "er/sie/es": "hat bestanden", "wir": "haben bestanden", "ihr": "habt bestanden", "sie/Sie": "haben bestanden"},
+        "future": {"ich": "werde bestehen", "du": "wirst bestehen", "er/sie/es": "wird bestehen", "wir": "werden bestehen", "ihr": "werdet bestehen", "sie/Sie": "werden bestehen"}
+      }
+    }
+  ]
+}

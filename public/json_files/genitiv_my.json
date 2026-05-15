@@ -1,0 +1,198 @@
+{
+  "title": "Genitiv (ပိုင်ဆိုင်မှုကာရက / 2格)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "ဂျာမန် Genitiv (ပိုင်ဆိုင်မှုကာရက)",
+      "description": "Genitiv သည် အဓိကအားဖြင့် ပိုင်ဆိုင်မှု၊ ပိုင်ရှင်ဖြစ်ခြင်း သို့မဟုတ် နာမ်နှစ်ခုကြား၏ သီးခြားဆက်ဆံမှုကို ညွှန်ပြရန် အသုံးပြုပါသည်။ နေ့စဉ် စကားပြောတွင် Dativ (von သုံး၍) ဖြင့် အစားထိုးလေ့ရှိသော်လည်း တရားဝင်စာ၊ စာပေ နှင့် ပညာရေးဆိုင်ရာ ဘာသာစကားတွင် Genitiv သည် စံနှုန်းအဖြစ် ကျန်ရှိနေပါသည်။"
+    },
+    {
+      "id": "core_function",
+      "title": "1. အဓိကလုပ်ဆောင်ချက်: ပိုင်ဆိုင်မှုပြသခြင်း",
+      "description": "Genitiv သည် \"Wessen?\" (ဘယ်သူ့?) ဟူသော မေးခွန်းကို ဖြေပါသည်။ ဒုတိယနာမ်က ပထမနာမ်ကို \"ပိုင်ဆိုင်\" သည့်ပုံစံဖြင့် နာမ်နှစ်ခုကို ချိတ်ဆက်ပါသည်။",
+      "content": {
+        "declension_table": {
+          "title": "Genitiv ဝိဘတ်ပြောင်းလဲခြင်း ဇယား",
+          "headers": [
+            "လိင်",
+            "ဝိဘတ်နာမ်သေ",
+            "အမည်မတပ်/ပိုင်ဆိုင်မှု",
+            "နာမ် ပြောင်းလဲခြင်း"
+          ],
+          "rows": [
+            {
+              "category": "အမျိုးသား",
+              "definite": "des (des Vaters)",
+              "indefinite": "eines / meines",
+              "adjective": "-s သို့မဟုတ် -es ထည့်ရန်"
+            },
+            {
+              "category": "ကြားလိင်",
+              "definite": "des (des Kindes)",
+              "indefinite": "eines / meines",
+              "adjective": "-s သို့မဟုတ် -es ထည့်ရန်"
+            },
+            {
+              "category": "အမျိုးသမီး",
+              "definite": "der (der Mutter)",
+              "indefinite": "einer / meiner",
+              "adjective": "ပြောင်းလဲခြင်း မရှိ"
+            },
+            {
+              "category": "အများကိန်း",
+              "definite": "der (der Eltern)",
+              "indefinite": "meiner",
+              "adjective": "ပြောင်းလဲခြင်း မရှိ"
+            }
+          ]
+        },
+        "key_rule": "အမျိုးသား နှင့် ကြားလိင်နာမ်များသည် 1 ဝဏ္ဏဖြစ်လျှင် -es ထည့်ပါသည် (ဥပမာ - des Mannes)၊ ဝဏ္ဏအများဖြစ်လျှင် -s သာ ထည့်ပါသည် (ဥပမာ - des Computers)။",
+        "translations": [
+          {
+            "label": "အမျိုးသား",
+            "german": "Das Auto des Vaters.",
+            "translation": "အဖေ၏ ကား။"
+          },
+          {
+            "label": "အမျိုးသမီး",
+            "german": "Die Farbe einer Blume.",
+            "translation": "ပန်းတစ်ပွင့်၏ အရောင်။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prepositions",
+      "title": "2. ဝိဘတ်စကားလုံးများနှင့် အသုံးပြုခြင်း",
+      "description": "အချို့ ဝိဘတ်စကားလုံးများသည် Genitiv ကို \"ဖြစ်ပေါ်စေ\" ပါသည်။ ဤစကားလုံးများကို သုံးသောအခါ နောက်မှလာသော နာမ်သည် Genitiv ပုံစံဖြစ်ရပါသည်။",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_prepositions",
+            "title": "အသုံးများသော Genitiv ဝိဘတ်စကားလုံးများ",
+            "description": "ဤဝိဘတ်စကားလုံးများသည် Genitiv ကို အမြဲလိုအပ်ပါသည်:",
+            "prepositions": [
+              "trotz (~သော်လည်း)",
+              "während (~စဉ်အတွင်း)",
+              "wegen (~ကြောင့်)",
+              "außerhalb (~အပြင်ဘက်)",
+              "innerhalb (~အတွင်းဘက်)"
+            ],
+            "examples": [
+              {
+                "german": "Trotz des Regens gehen wir spazieren.",
+                "translation": "မိုးရွာသော်လည်း ကျွန်တော်တို့ လမ်းလျှောက်ထွက်ပါသည်။"
+              },
+              {
+                "german": "Während der Fahrt schläft er.",
+                "translation": "ခရီးစဉ်အတွင်း သူ အိပ်ပါသည်။"
+              },
+              {
+                "german": "Wegen des Wetters bleiben wir zu Hause.",
+                "translation": "ရာသီဥတုကြောင့် ကျွန်တော်တို့ အိမ်မှာ နေပါသည်။"
+              },
+              {
+                "german": "Außerhalb der Stadt.",
+                "translation": "မြို့ပြင်ဘက်။"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "verbs_adjectives",
+      "title": "3. ကြိယာ နှင့် နာမဝိသေသနများနှင့် အသုံးပြုခြင်း",
+      "description": "ခေတ်သစ် နေ့စဉ်စကားတွင် အသုံးနည်းသော်လည်း အဆင့်မြင့် ကြိယာ နှင့် နာမဝိသေသနအချို့သည် Genitiv ကို လိုအပ်ပါသည်။",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_verbs",
+            "title": "ကြိယာများ",
+            "description": "ဤကြိယာများသည် ဥပဒေဆိုင်ရာ လုပ်ဆောင်ချက်များ သို့မဟုတ် စိတ်တွင်းဆင်ခြင်ခြင်းများကို ဖော်ပြပါသည်။",
+            "subcategories": [
+              {
+                "label": "Anklagen (~ဖြင့် စွဲချက်တင်သည်)",
+                "verbs": "",
+                "german": "Man klagte ihn des Mordes an.",
+                "translation": "သူတို့ သူ့ကို လူသတ်မှုဖြင့် စွဲချက်တင်ခဲ့ပါသည်။"
+              },
+              {
+                "label": "Gedenken (ဂုဏ်ပြုအမှတ်ရသည်)",
+                "verbs": "",
+                "german": "Wir gedenken der Toten.",
+                "translation": "ကျွန်တော်တို့ သေဆုံးသူများကို ဂုဏ်ပြုပါသည်။"
+              },
+              {
+                "label": "Sich schämen (~ကို ရှက်သည်)",
+                "verbs": "",
+                "german": "Er schämt sich seines Fehlers.",
+                "translation": "သူ မိမိအမှားကို ရှက်ပါသည်။"
+              }
+            ]
+          },
+          {
+            "id": "genitive_adjectives",
+            "title": "နာမဝိသေသနများ",
+            "description": "ဤနာမဝိသေသနများသည် Genitiv ကို လိုအပ်ပါသည်:",
+            "subcategories": [
+              {
+                "label": "Würdig (~နှင့် ထိုက်တန်သော)",
+                "verbs": "",
+                "german": "Das ist eines Königs würdig.",
+                "translation": "ထိုအရာသည် ဘုရင်နှင့် ထိုက်တန်ပါသည်။"
+              },
+              {
+                "label": "Sicher (~ကို သေချာသော)",
+                "verbs": "",
+                "german": "Ich bin mir meiner Sache sicher.",
+                "translation": "ကျွန်တော် ကိုယ့်အကြောင်းကို သေချာပါသည်။"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "possessive_pronouns",
+      "title": "4. Genitiv ရှိ ပိုင်ဆိုင်မှု နာမ်စားများ",
+      "description": "ပိုင်ဆိုင်မှုနာမ်စားများ (ကျွန်တော်၏၊ မင်း၏၊ သူ၏) ကို Genitiv တွင် သီးခြားပြင်ဆင်စကားလုံးအဖြစ် သုံးသောအခါ အမည်မတပ်နာမ်သေနှင့် အတူတူ အဆုံးသတ်ကို လိုက်နာပါသည်။",
+      "content": {
+        "determiners": [
+          "အမျိုးသား/ကြားလိင် အဆုံးသတ်: -es (meines, deines, seines)",
+          "အမျိုးသမီး/အများကိန်း အဆုံးသတ်: -er (meiner, deiner, ihrer)"
+        ],
+        "example": {
+          "german": "Wegen meines Bruders.",
+          "translation": "အစ်ကိုကြောင့်။",
+          "note": "နောက်ထပ်ဥပမာ: Inmitten unserer Freunde. (ကျွန်တော်တို့ မိတ်ဆွေများအလယ်တွင်။)"
+        }
+      }
+    },
+    {
+      "id": "adjective_declension",
+      "title": "5. Genitiv ရှိ နာမဝိသေသန ဝိဘတ်ပြောင်းလဲခြင်း",
+      "description": "Genitiv တွင် နာမ်သေနှင့် နာမ်ကြားတွင် နာမဝိသေသနရှိလျှင် အမြဲနီးပါး -en ဖြင့် ဆုံးပါသည်။",
+      "content": {
+        "translations": [
+          {
+            "label": "နာမ်သေပါ",
+            "german": "Das Haus des alten Mannes.",
+            "translation": "အိုမင်းသော လူကြီး၏ အိမ်။"
+          },
+          {
+            "label": "နာမ်သေမပါ (လတ်ဆတ်ကော်ဖီ)",
+            "german": "Der Duft frischen Kaffees.",
+            "translation": "လတ်ဆတ်ကော်ဖီ၏ ရနံ့။ (နာမဝိသေသနသည် နာမ်သေပါမည့် အဆုံးသတ်ကို ယူပါသည်။)"
+          },
+          {
+            "label": "နာမ်သေမပါ (ကြင်နာသော မိဘ)",
+            "german": "Die Hilfe netter Eltern.",
+            "translation": "ကြင်နာသော မိဘများ၏ အကူအညီ။"
+          }
+        ],
+        "key_rule": "နာမ်သေပါလျှင် နာမဝိသေသနသည် အမြဲ -en ဖြင့် ဆုံးပါသည်။ နာမ်သေမပါလျှင် (အများကိန်းနာမ် သို့မဟုတ် စိတ်ကူးနာမ်) နာမဝိသေသနသည် နာမ်သေပါမည့် အဆုံးသတ်ကို ယူပါသည်။"
+      }
+    }
+  ]
+}

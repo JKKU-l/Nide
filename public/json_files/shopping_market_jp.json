@@ -1,0 +1,55 @@
+{
+  "title": "Shopping & Market",
+  "emoji": "🛒",
+  "theme_color": "#009688",
+  "description": "Essential verbs for shopping, stores, and marketplaces in German",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "einkaufen", "japanese": "買い物をする", "example_german": "Ich muss heute für das Abendessen einkaufen.", "example_japanese": "今日は夕食の買い物をしなければなりません。"},
+          {"german": "kaufen", "japanese": "買う", "example_german": "Ich kaufe mir ein neues Hemd.", "example_japanese": "私は新しいシャツを買います。"},
+          {"german": "verkaufen", "japanese": "売る", "example_german": "Er verkauft sein altes Auto.", "example_japanese": "彼は古い車を売ります。"},
+          {"german": "bezahlen", "japanese": "支払う", "example_german": "Kann ich bitte mit Karte bezahlen?", "example_japanese": "カードで支払ってもいいですか？"},
+          {"german": "kosten", "japanese": "（値段が）かかる", "example_german": "Wie viel kostet dieser Apfel?", "example_japanese": "このリンゴはいくらですか？"},
+          {"german": "suchen", "japanese": "探す", "example_german": "Ich suche nach einem Geschenk für meine Mutter.", "example_japanese": "母へのプレゼントを探しています。"},
+          {"german": "finden", "japanese": "見つける", "example_german": "Hast du deine Schlüssel gefunden?", "example_japanese": "鍵は見つかりましたか？"},
+          {"german": "anprobieren", "japanese": "試着する", "example_german": "Darf ich diese Hose anprobieren?", "example_japanese": "このズボンを試着してもいいですか？"},
+          {"german": "passen", "japanese": "合う", "example_german": "Die Schuhe passen mir perfekt.", "example_japanese": "靴がぴったり合います。"},
+          {"german": "gefallen", "japanese": "気に入る", "example_german": "Das Kleid gefällt mir sehr gut.", "example_japanese": "そのワンピースがとても気に入りました。"},
+          {"german": "wählen", "japanese": "選ぶ", "example_german": "Bitte wählen Sie eine Farbe aus.", "example_japanese": "色を選んでください。"},
+          {"german": "nehmen", "japanese": "取る / もらう", "example_german": "Ich nehme zwei Kilo Kartoffeln.", "example_japanese": "じゃがいもを2キロください。"},
+          {"german": "wechseln", "japanese": "両替する", "example_german": "Können Sie mir diesen 50-Euro-Schein wechseln?", "example_japanese": "この50ユーロ紙幣を両替してもらえますか？"},
+          {"german": "zurückgeben", "japanese": "返品する", "example_german": "Ich möchte dieses Produkt zurückgeben.", "example_japanese": "この商品を返品したいです。"},
+          {"german": "umtauschen", "japanese": "交換する", "example_german": "Kann ich dieses T-Shirt gegen eine andere Größe umtauschen?", "example_japanese": "このTシャツを別のサイズに交換できますか？"},
+          {"german": "bestellen", "japanese": "注文する", "example_german": "Wir bestellen uns heute Abend eine Pizza.", "example_japanese": "今晩ピザを注文します。"},
+          {"german": "liefern", "japanese": "配達する", "example_german": "Das Geschäft liefert die Möbel direkt nach Hause.", "example_japanese": "お店が家具を家まで直接配達してくれます。"},
+          {"german": "abholen", "japanese": "受け取りに行く", "example_german": "Ich hole meine Bestellung morgen im Laden ab.", "example_japanese": "明日お店で注文品を受け取ります。"},
+          {"german": "einpacken", "japanese": "包む / 梱包する", "example_german": "Können Sie das bitte als Geschenk einpacken?", "example_japanese": "プレゼント用に包んでいただけますか？"},
+          {"german": "vergleichen", "japanese": "比較する", "example_german": "Man sollte immer die Preise vergleichen.", "example_japanese": "いつも価格を比較すべきです。"},
+          {"german": "anschauen", "japanese": "見る / 眺める", "example_german": "Ich möchte mir nur kurz die Auslage anschauen.", "example_japanese": "ちょっとショーウィンドウを見たいだけです。"},
+          {"german": "fragen", "japanese": "質問する / 尋ねる", "example_german": "Darf ich Sie etwas fragen?", "example_japanese": "ちょっとお聞きしてもいいですか？"},
+          {"german": "antworten", "japanese": "答える", "example_german": "Der Verkäufer antwortet auf meine Fragen.", "example_japanese": "店員が私の質問に答えます。"},
+          {"german": "helfen", "japanese": "助ける / 手伝う", "example_german": "Kann ich Ihnen helfen?", "example_japanese": "お手伝いしましょうか？"},
+          {"german": "empfehlen", "japanese": "勧める / おすすめする", "example_german": "Welchen Wein können Sie mir empfehlen?", "example_japanese": "どのワインがおすすめですか？"},
+          {"german": "brauchen", "japanese": "必要とする", "example_german": "Ich brauche eine neue Tasche.", "example_japanese": "新しいバッグが必要です。"},
+          {"german": "wollen", "japanese": "〜したい", "example_german": "Ich will heute nicht mehr einkaufen gehen.", "example_japanese": "今日はもう買い物に行きたくないです。"},
+          {"german": "haben", "japanese": "持っている", "example_german": "Haben Sie auch frische Erdbeeren?", "example_japanese": "新鮮なイチゴもありますか？"},
+          {"german": "geben", "japanese": "あげる / くれる", "example_german": "Können Sie mir bitte eine Quittung geben?", "example_japanese": "レシートをいただけますか？"},
+          {"german": "zeigen", "japanese": "見せる", "example_german": "Können Sie mir bitte die Uhr dort zeigen?", "example_japanese": "あそこの時計を見せていただけますか？"},
+          {"german": "mitnehmen", "japanese": "持っていく", "example_german": "Ich nehme diese Zeitschrift noch mit.", "example_japanese": "この雑誌も持っていきます。"},
+          {"german": "tragen", "japanese": "運ぶ", "example_german": "Er trägt die schweren Einkaufstüten zum Auto.", "example_japanese": "彼は重い買い物袋を車まで運びます。"},
+          {"german": "laufen", "japanese": "歩く", "example_german": "Wir laufen durch den Supermarkt.", "example_japanese": "私たちはスーパーマーケットを歩き回ります。"},
+          {"german": "stehen", "japanese": "立つ / 並ぶ", "example_german": "Wir stehen an der Kasse an.", "example_japanese": "私たちはレジに並んでいます。"},
+          {"german": "warten", "japanese": "待つ", "example_german": "Ich warte auf meine Wechselgeld.", "example_japanese": "お釣りを待っています。"},
+          {"german": "sparen", "japanese": "節約する / 貯める", "example_german": "Diesen Monat möchte ich etwas Geld sparen.", "example_japanese": "今月はお金を少し貯めたいです。"},
+          {"german": "ausgeben", "japanese": "使う（お金を）", "example_german": "Sie hat viel Geld für Kleidung ausgegeben.", "example_japanese": "彼女は洋服にたくさんお金を使いました。"},
+          {"german": "rechnen", "japanese": "計算する", "example_german": "Ich muss kurz den Gesamtbetrag rechnen.", "example_japanese": "合計金額をちょっと計算しなければなりません。"},
+          {"german": "zählen", "japanese": "数える", "example_german": "Er zählt sein Geld an der Kasse.", "example_japanese": "彼はレジでお金を数えています。"},
+          {"german": "prüfen", "japanese": "確認する", "example_german": "Bitte prüfen Sie Ihren Kassenbon.", "example_japanese": "レシートを確認してください。"}
+        ]
+      }
+    }
+  ]
+}

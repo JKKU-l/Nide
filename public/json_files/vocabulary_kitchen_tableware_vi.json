@@ -1,0 +1,33 @@
+{
+  "theme_color": "#00BCD4",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Glas", "vietnamese": "cái ly", "article": "das", "word": "Glas", "emoji": "🥃"},
+        {"german": "die Flasche", "vietnamese": "cái chai", "article": "die", "word": "Flasche", "emoji": "🍾"},
+        {"german": "das Geschirr", "vietnamese": "bát đĩa / đồ dùng ăn uống", "article": "das", "word": "Geschirr", "emoji": "🍽️"},
+        {"german": "die Tasse", "vietnamese": "cái tách / chén", "article": "die", "word": "Tasse", "emoji": "☕"},
+        {"german": "die Untertasse", "vietnamese": "đĩa lót tách", "article": "die", "word": "Untertasse", "emoji": "☕︎"},
+        {"german": "der Teller", "vietnamese": "cái đĩa", "article": "der", "word": "Teller", "emoji": "🍽️"},
+        {"german": "das Besteck", "vietnamese": "bộ dao muỗng nĩa", "article": "das", "word": "Besteck", "emoji": "🍴"},
+        {"german": "das Messer", "vietnamese": "con dao", "article": "das", "word": "Messer", "emoji": "🔪"},
+        {"german": "die Gabel", "vietnamese": "cái nĩa", "article": "die", "word": "Gabel", "emoji": "🍴"},
+        {"german": "der Löffel", "vietnamese": "cái muỗng / thìa", "article": "der", "word": "Löffel", "emoji": "🥄"},
+        {"german": "der Teelöffel", "vietnamese": "thìa cà phê / thìa trà", "article": "der", "word": "Teelöffel", "emoji": "🥄"},
+        {"german": "der Geschmack", "vietnamese": "hương vị", "article": "der", "word": "Geschmack", "emoji": "👅"},
+        {"german": "sauer", "vietnamese": "chua", "article": "", "word": "sauer", "emoji": "🍋"},
+        {"german": "süß", "vietnamese": "ngọt", "article": "", "word": "süß", "emoji": "🍭"},
+        {"german": "scharf", "vietnamese": "cay", "article": "", "word": "scharf", "emoji": "🌶️"},
+        {"german": "salzig", "vietnamese": "mặn", "article": "", "word": "salzig", "emoji": "🧂"},
+        {"german": "die Küche", "vietnamese": "nhà bếp", "article": "die", "word": "Küche", "emoji": "🍳"},
+        {"german": "kochen", "vietnamese": "nấu ăn", "article": "", "word": "kochen", "emoji": "👨‍🍳"},
+        {"german": "der Herd", "vietnamese": "bếp nấu", "article": "der", "word": "Herd", "emoji": "🧑‍🍳"},
+        {"german": "der Ofen", "vietnamese": "lò nướng", "article": "der", "word": "Ofen", "emoji": "🍞"},
+        {"german": "das Restaurant", "vietnamese": "nhà hàng", "article": "das", "word": "Restaurant", "emoji": "🏨"},
+        {"german": "der Kellner / die Kellnerin", "vietnamese": "nam phục vụ / nữ phục vụ", "article": "der", "word": "Kellner", "emoji": "💁"},
+        {"german": "bestellen", "vietnamese": "đặt món", "article": "", "word": "bestellen", "emoji": "📝"},
+        {"german": "die Speisekarte", "vietnamese": "thực đơn", "article": "die", "word": "Speisekarte", "emoji": "📜"}
+      ]
+    }
+  ]
+}

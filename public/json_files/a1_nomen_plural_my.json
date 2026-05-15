@@ -1,0 +1,241 @@
+{
+  "title": "Nomen: Plural (နာမ်များ၏ အများကိန်း ပြောင်းလဲမှု)",
+  "sections": [
+    {
+      "id": "golden_rule",
+      "title": "အဓိကရွှေစည်းမျဉ်း- \"die\"",
+      "description": "မူလနာမ် (Singular) က ကျား၊ မ၊ နပုလ္လိင် (der, die, das) ကြိုက်တာဖြစ်ပါစေ၊ အများကိန်း (Plural) ဖြစ်သွားရင် Article က အမြဲတမ်း \"die\" ဖြစ်သွားပါတယ်။",
+      "content": {}
+    },
+    {
+      "id": "the_n_ending",
+      "title": "၁။ -(e)n နဲ့ ဆုံးခြင်း",
+      "description": "ဒါက ဂျာမန်ဘာသာမှာ အသုံးအများဆုံး အများကိန်းပုံစံဖြစ်ပါတယ်။",
+      "content": {
+        "when_to_use": [
+          "-ung, -heit, -keit, -ie, -or, -ion နဲ့ ဆုံးတဲ့ နာမ်များ",
+          "မနာမ် (Feminine nouns) အများစု",
+          "ျိုးသမီး အလုပ်အကိုင်ပြ နာမ်များ (-in နဲ့ ဆုံးရင် -innen ပြောင်းပေးရပါမယ်)"
+        ],
+        "examples": [
+          {
+            "singular": "die Übung",
+            "translation": "လေ့ကျင့်ခန်း",
+            "plural": "die Übungen"
+          },
+          {
+            "singular": "die Tasche",
+            "translation": "အိတ်",
+            "plural": "die Taschen"
+          },
+          {
+            "singular": "die Kundin",
+            "translation": "ျိုးသမီး ဖောက်သည်",
+            "plural": "die Kundinnen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_er_ending",
+      "title": "၂။ -er နဲ့ ဆုံးခြင်း",
+      "description": "အဓိကအားဖြင့် စကားလုံးတိုတဲ့ နပုလ္လိင် (Neutral) နာမ်တွေမှာ တွေ့ရတတ်ပါတယ်။",
+      "content": {
+        "when_to_use": [
+          "das (Neutral) ဖြစ်တဲ့ နာမ်တိုလေးများ",
+          "အချို့သော der (Masculine) နာမ်များ"
+        ],
+        "note": "စကားလုံးထဲမှာ a, o, u ဒါမှမဟုတ် au ပါရင် များသောအားဖြင့် Umlaut (ä, ö, ü) ပြောင်းပေးရပါတယ်။",
+        "examples": [
+          {
+            "singular": "das Kind",
+            "translation": "ကလေး",
+            "plural": "die Kinder"
+          },
+          {
+            "singular": "das Buch",
+            "translation": "စာအုပ်",
+            "plural": "die Bücher",
+            "note": "Umlaut ပေါင်းထည့်သည်"
+          },
+          {
+            "singular": "der Mann",
+            "translation": "ယောက်ျား",
+            "plural": "die Männer",
+            "note": "Umlaut ပေါင်းထည့်သည်"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_e_ending",
+      "title": "၃။ -e နဲ့ ဆုံးခြင်း",
+      "description": "ကျား၊ မ၊ နပုလ္လိင် အစုံမှာ တွေ့ရတတ်တဲ့ အများကိန်းပုံစံပါ။",
+      "content": {
+        "when_to_use": [
+          "ကျားနာမ် (Masculine) နဲ့ နပုလ္လိင် (Neutral) နာမ် အများစု",
+          "မနာမ် (Feminine) တွေမှာဆိုရင် များသောအားဖြင့် Umlaut ပါ ထည့်ရတတ်ပါတယ်"
+        ],
+        "examples": [
+          {
+            "singular": "der Tisch",
+            "translation": "စားပွဲ",
+            "plural": "die Tische"
+          },
+          {
+            "singular": "der Stuhl",
+            "translation": "ကုလားထိုင်",
+            "plural": "die Stühle",
+            "note": "ကျားနာမ် + Umlaut"
+          },
+          {
+            "singular": "die Hand",
+            "translation": "လက်",
+            "plural": "die Hände",
+            "note": "မနာမ် + Umlaut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "no_ending",
+      "title": "၄။ \"အဆုံးသတ်မရှိ\" အုပ်စု (—)",
+      "description": "အချို့စကားလုံးတွေက အနောက်က ဘာမှ ထပ်ပေါင်းစရာမလိုဘဲ မူလအတိုင်း ရှိနေတာ ဒါမှမဟုတ် ဗျည်းသံ (Vowel) တစ်ခုပဲ ပြောင်းလဲတာမျိုးပါ။",
+      "content": {
+        "when_to_use": [
+          "-er, -en, -el နဲ့ ဆုံးတဲ့ နာမ်များ",
+          "သေးငယ်တဲ့အရာကို ပြတဲ့ -chen သို့မဟုတ် -lein နဲ့ ဆုံးတဲ့ နာမ်များ"
+        ],
+        "examples": [
+          {
+            "singular": "der Sessel",
+            "translation": "လက်တင်ကုလားထိုင်",
+            "plural": "die Sessel",
+            "note": "ဘာမှမပြောင်းလဲပါ"
+          },
+          {
+            "singular": "das Mädchen",
+            "translation": "မိန်းကလေး",
+            "plural": "die Mädchen",
+            "note": "ဘာမှမပြောင်းလဲပါ"
+          },
+          {
+            "singular": "der Vater",
+            "translation": "အဖေ",
+            "plural": "die Väter",
+            "note": "Umlaut တစ်ခုပဲ ပြောင်းသည်"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_s_ending",
+      "title": "၅။ -s နဲ့ ဆုံးခြင်း",
+      "description": "နိုင်ငံခြား (အင်္ဂလိပ်/ပြင်သစ်) က ဆင်းသက်လာတဲ့ စကားလုံးတွေမှာ သုံးပါတယ်။",
+      "content": {
+        "when_to_use": [
+          "-a, -i, -o, -u, -y အက္ခရာတွေနဲ့ ဆုံးတဲ့ စကားလုံးများ",
+          "အတိုကောက် စကားလုံးများ (ဥပမာ- PKW)"
+        ],
+        "examples": [
+          {
+            "singular": "das Auto",
+            "translation": "ကား",
+            "plural": "die Autos"
+          },
+          {
+            "singular": "das Hobby",
+            "translation": "ဝါသနာ",
+            "plural": "die Hobbies"
+          },
+          {
+            "singular": "der Job",
+            "translation": "အလုပ်",
+            "plural": "die Jobs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "special_cases",
+      "title": "အထူးအခြေအနေများ",
+      "description": "အချို့သော နာမ်တွေမှာ ပုံမှန်မဟုတ်တဲ့ ပြောင်းလဲမှုများ သို့မဟုတ် အနည်းကိန်း/အများကိန်း တစ်ခုတည်း ရှိတာမျိုးတွေ ရှိပါတယ်။",
+      "content": {
+        "categories": [
+          {
+            "category": "ပုံမှန်မဟုတ်သော အများကိန်းများ (Irregulars)",
+            "description": "လက်တင် သို့မဟုတ် ဂရိက ဆင်းသက်လာတဲ့ စကားလုံးတွေက သီးသန့်ပြောင်းလဲပါတယ်။",
+            "examples": [
+              {
+                "singular": "das Museum",
+                "plural": "die Museen"
+              },
+              {
+                "singular": "das Praktikum",
+                "plural": "die Praktika"
+              },
+              {
+                "singular": "die Firma",
+                "plural": "die Firmen"
+              }
+            ]
+          },
+          {
+            "category": "အများကိန်းမရှိသော နာမ်များ (Singular Only)",
+            "description": "စိတ်ကူး/ခံစားချက် သို့မဟုတ် ကုန်ကြမ်းပစ္စည်း အစုအဝေးများကို ဆိုလိုတယ်။",
+            "examples": [
+              {
+                "type": "စိတ်ကူး/ခံစားချက်",
+                "examples": "das Glück (ကံကောင်းခြင်း)၊ die Liebe (အချစ်)"
+              },
+              {
+                "type": "ကုန်ကြမ်းပစ္စည်း",
+                "examples": "das Gold (ရွှေ)၊ die Milch (နို့)"
+              },
+              {
+                "type": "အစုအဝေးပြ",
+                "examples": "das Obst (သစ်သီး)၊ die Kleidung (အဝတ်အထည်)"
+              }
+            ]
+          },
+          {
+            "category": "အနည်းကိန်းမရှိသော နာမ်များ (Plural Only)",
+            "description": "ဒီစကားလုံးတွေက အစုလိုက်အဖွဲ့လိုက်ပဲ ရှိတတ်တယ်။",
+            "examples": [
+              {
+                "type": "ပထဝီဝင်",
+                "examples": "die USA, die Alpen (အယ်လ်ပ်တောင်တန်း)"
+              },
+              {
+                "type": "လူစုလူဝေး",
+                "examples": "die Eltern (မိဘများ)၊ die Leute (လူများ)"
+              },
+              {
+                "type": "လှုပ်ရှားမှု",
+                "examples": "die Ferien (ကျောင်းပိတ်ရက်/အားလပ်ရက်)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "အကျဉ်းချုပ်ဇယား",
+      "description": "အမြန်ကြည့်ရှုနိုင်သော အကျဉ်းချုပ်ဇယား:",
+      "content": {
+        "summary_table": {
+          "headers": ["အနည်းကိန်းအဆုံးသတ်", "အများကိန်းပြောင်းပုံ", "ဥပမာ"],
+          "rows": [
+            ["-e (မနာမ်)", "-n", "die Lampe → die Lampen"],
+            ["-in (အလုပ်အကိုင်)", "-innen", "die Lehrerin → die Lehrerinnen"],
+            ["-er / -el / -en", "- (မပြောင်းလဲ)", "der Teller → die Teller"],
+            ["-ung / -heit", "-en", "die Zeitung → die Zeitungen"],
+            ["-a / -o / -i", "-s", "das Sofa → die Sofas"]
+          ]
+        },
+        "pro_tip": "အကြံပြုချက်: ဂျာမန်နာမ်အသစ်တစ်ခုကို လေ့လာတိုင်း Article (der/die/das) ရော၊ အများကိန်း (Plural) ပုံစံကိုပါ တစ်ခါတည်း တွဲမှတ်ထားတာ အကောင်းဆုံးပါပဲ။ ပုံသေနည်းတွေက အမြဲတမ်း ၁၀၀ ရာခိုင်နှုန်း မမှန်နိုင်လို့ တွဲမှတ်တဲ့ အကျင့်က ပိုထိရောက်ပါတယ်။"
+      }
+    }
+  ]
+}

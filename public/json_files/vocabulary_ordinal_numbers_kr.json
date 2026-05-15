@@ -1,0 +1,19 @@
+{
+  "theme_color": "#FF9800",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "erste", "korean": "첫 번째", "article": "die", "word": "erste", "emoji": "🥇"},
+        {"german": "zweite", "korean": "두 번째", "article": "die", "word": "zweite", "emoji": "🥈"},
+        {"german": "dritte", "korean": "세 번째", "article": "die", "word": "dritte", "emoji": "🥉"},
+        {"german": "vierte", "korean": "네 번째", "article": "die", "word": "vierte", "emoji": "4️⃣"},
+        {"german": "fünfte", "korean": "다섯 번째", "article": "die", "word": "fünfte", "emoji": "5️⃣"},
+        {"german": "sechste", "korean": "여섯 번째", "article": "die", "word": "sechste", "emoji": "6️⃣"},
+        {"german": "siebte", "korean": "일곱 번째", "article": "die", "word": "siebte", "emoji": "7️⃣"},
+        {"german": "achte", "korean": "여덟 번째", "article": "die", "word": "achte", "emoji": "8️⃣"},
+        {"german": "neunte", "korean": "아홉 번째", "article": "die", "word": "neunte", "emoji": "9️⃣"},
+        {"german": "zehnte", "korean": "열 번째", "article": "die", "word": "zehnte", "emoji": "🔟"}
+      ]
+    }
+  ]
+}

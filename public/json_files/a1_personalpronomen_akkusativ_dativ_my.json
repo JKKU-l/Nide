@@ -1,0 +1,182 @@
+{
+  "title": "နာမ်စားများ (Akkusativ·Dative)",
+  "description": "နာမ်စားများသည် ဝါကျထဲတွင် သူတို့၏အခန်းကဏ္ဍ (ကတ္တား၊ တိုက်ရိုက်ကံ သို့မဟုတ် သွယ်ဝိုက်ကံ) အပေါ်မူတည်ပြီး ပုံစံပြောင်းလဲသွားပုံကို လေ့လာပါ။",
+  "sections": [
+    {
+      "id": "understanding_cases",
+      "title": "၁။ အဓိက Case (၃) မျိုးကို နားလည်ခြင်း",
+      "description": "ဂျာမန်စာမှာ နာမ်စားတစ်ခုဟာ ဝါကျထဲမှာ သူလုပ်ဆောင်ရတဲ့ \"အလုပ်\" (Duty) အပေါ်မူတည်ပြီး ပုံစံပြောင်းလဲသွားပါတယ်။",
+      "content": {
+        "cases": [
+          {
+            "case": "Nominative (ကတ္တား)",
+            "description": "အလုပ်ကို လုပ်ဆောင်သူ (Subject)။"
+          },
+          {
+            "case": "Accusative (တိုက်ရိုက်ကံ)",
+            "description": "အလုပ်ကို တိုက်ရိုက်ခံရသူ (Direct Object)။"
+          },
+          {
+            "case": "Dative (သွယ်ဝိုက်ကံ)",
+            "description": "ပစ္စည်းတစ်ခုခုကို လက်ခံရရှိသူ သို့မဟုတ် တစ်စုံတစ်ယောက်အတွက် ရည်ရွယ်လုပ်ဆောင်ပေးသူ။ ၎င်းအပြင် \"mit\" (နှင့်) သို့မဟုတ် \"zu\" (သို့) ကဲ့သို့သော ဝိဘတ် (Prepositions) များနောက်တွင်လည်း အသုံးပြုရပါသည်။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "akkusativ_pronouns",
+      "title": "၂။ Accusative ပုံစံ နာမ်စားများ",
+      "description": "လူတစ်ဦးဟာ ကြိယာတစ်ခုရဲ့ တိုက်ရိုက်ခံရတဲ့သူဖြစ်တဲ့အခါ Accusative ကို သုံးပါတယ်။ Accusative နဲ့ တွဲသုံးလေ့ရှိတဲ့ ကြိယာအချို့မှာ lieben (ချစ်သည်)၊ mögen (နှစ်သက်သည်)၊ kennen (လူတစ်ဦးကို သိကျွမ်းသည်) နှင့် sehen (မြင်သည်) တို့ ဖြစ်ကြပါတယ်။",
+      "content": {
+        "examples": [
+          {
+            "english": "ကျွန်တော် သူ့ကို ချစ်တယ်။",
+            "german": "Ich liebe ihn.",
+            "explanation": "\"Ich\" က ကတ္တား (Nominative) ဖြစ်ပြီး၊ \"သူ\" က အချစ်ခံရသူ (Direct Object) ဖြစ်သွားတဲ့အတွက် \"er\" ကနေ ihn ဖြစ်သွားတာပါ။"
+          },
+          {
+            "english": "မင်း ငါ့ကို ကြိုက်လား?",
+            "german": "Magst du mich?",
+            "explanation": "\"du\" က ကတ္တားဖြစ်ပြီး၊ \"ငါ\" က အကြိုက်ခံရသူဖြစ်လို့ \"ich\" ကနေ mich ပြောင်းသွားတာပါ။"
+          },
+          {
+            "english": "ကျွန်တော်တို့ မင်းတို့ကို မြင်တယ်။",
+            "german": "Wir sehen euch.",
+            "explanation": "\"Wir\" က မြင်တဲ့သူ၊ \"မင်းတို့\" (အများကိန်း) က အမြင်ခံရသူဖြစ်လို့ \"ihr\" ကနေ euch ဖြစ်သွားပါတယ်။"
+          }
+        ],
+        "note": "မှတ်ချက်: sie (သူမ/သူတို့)၊ es (၎င်း) နှင့် Sie (လူကြီးမင်း - အယဉ်အကျေး) တို့သည် Nominative နှင့် Accusative တွင် ပုံစံမပြောင်းလဲပါ။"
+      }
+    },
+    {
+      "id": "dativ_pronouns",
+      "title": "၃။ Dative ပုံစံ နာမ်စားများ",
+      "description": "Dative ကို အကျိုးခံစားခွင့်ရှိသူ (တစ်စုံတစ်ခု ရရှိသူ) သို့မဟုတ် helfen (ကူညီသည်)၊ gefallen (သဘောကျသည်) နှင့် antworten (ပြန်ဖြေသည်) ကဲ့သို့သော သီးသန့် Dative ကြိယာများနောက်တွင် သုံးပါတယ်။",
+      "content": {
+        "examples": [
+          {
+            "english": "ကျွန်တော် မင်းကို စာအုပ်ပေးတယ်။",
+            "german": "Ich gebe dir das Buch.",
+            "explanation": "စာအုပ်က တိုက်ရိုက်ကံ (Accusative) ဖြစ်ပေမဲ့၊ \"မင်း\" က လက်ခံရရှိသူဖြစ်လို့ \"du\" ကနေ dir ပြောင်းသွားပါတယ်။"
+          },
+          {
+            "english": "ဒီဝတ်စုံကို ငါသဘောကျတယ်။",
+            "german": "Das Kleid gefällt mir.",
+            "explanation": "\"gefallen\" ကြိယာဟာ အမြဲတမ်း သဘောကျတဲ့သူကို Dative ပြောင်းခိုင်းပါတယ်။ ဒါကြောင့် \"ich\" ကနေ mir ဖြစ်သွားတာပါ။"
+          },
+          {
+            "english": "ကျွန်တော် သူမကို ကူညီနေတယ်။",
+            "german": "Ich helfe ihr.",
+            "explanation": "\"helfen\" ဟာ Dative ကြိယာဖြစ်ပါတယ်။ အင်္ဂလိပ်စာမှာတော့ Direct Object ဖြစ်နေပေမဲ့ ဂျာမန်မှာတော့ သူမ (sie) ကို ihr လို့ ပြောင်းသုံးရပါတယ်။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prepositions_role",
+      "title": "၄။ ဝိဘတ် (Prepositions) များ၏ အခန်းကဏ္ဍ",
+      "description": "တစ်ခါတရံမှာ Case ကို ကြိယာက မဆုံးဖြတ်ဘဲ နာမ်စားရှေ့က စကားလုံးလေးတွေက ဆုံးဖြတ်ပါတယ်။",
+      "content": {
+        "prepositions": [
+          {
+            "preposition": "Mit (နှင့်)",
+            "case": "Dative",
+            "example_english": "ငါ သူနဲ့အတူသွားမယ်။",
+            "example_german": "Ich gehe mit ihm."
+          },
+          {
+            "preposition": "Für (အတွက်)",
+            "case": "Accusative",
+            "example_english": "ဒါက မင်းအတွက်ပါ။",
+            "example_german": "Das ist für dich."
+          }
+        ]
+      }
+    },
+    {
+      "id": "key_transformations",
+      "title": "၅။ အဓိကပြောင်းလဲပုံ အကျဉ်းချုပ်",
+      "description": "ဇယားမပါဘဲ မှတ်မိလွယ်အောင် အုပ်စုလိုက် ခွဲခြားကြည့်ရအောင် -",
+      "content": {
+        "groups": [
+          {
+            "title": "\"ငါ\" (I) နာမ်စား",
+            "transformations": [
+              {"form": "ကတ္တား", "pronoun": "ich (ငါ)"},
+              {"form": "တိုက်ရိုက်ကံ", "pronoun": "mich (ငါ့ကို)"},
+              {"form": "သွယ်ဝိုက်ကံ", "pronoun": "mir (ငါ့ဆီ)"}
+            ]
+          },
+          {
+            "title": "\"မင်း\" (You - ရင်းနှီးသူ) နာမ်စား",
+            "transformations": [
+              {"form": "ကတ္တား", "pronoun": "du (မင်း)"},
+              {"form": "တိုက်ရိုက်ကံ", "pronoun": "dich (မင်းကို)"},
+              {"form": "သွယ်ဝိုက်ကံ", "pronoun": "dir (မင်းဆီ)"}
+            ]
+          },
+          {
+            "title": "\"သူ\" (He) နာမ်စား (အပြောင်းအလဲ အများဆုံး)",
+            "transformations": [
+              {"form": "ကတ္တား", "pronoun": "er (သူ)"},
+              {"form": "တိုက်ရိုက်ကံ", "pronoun": "ihn (သူ့ကို)"},
+              {"form": "သွယ်ဝိုက်ကံ", "pronoun": "ihm (သူ့ဆီ)"}
+            ]
+          },
+          {
+            "title": "\"သူမ\" (She) နာမ်စား",
+            "transformations": [
+              {"form": "ကတ္တား", "pronoun": "sie (သူမ)"},
+              {"form": "တိုက်ရိုက်ကံ", "pronoun": "sie (သူမကို - မပြောင်းလဲပါ)"},
+              {"form": "သွယ်ဝိုက်ကံ", "pronoun": "ihr (သူမဆီ)"}
+            ]
+          },
+          {
+            "title": "\"ကျွန်တော်တို့\" နှင့် \"မင်းတို့\" (အများကိန်း)",
+            "note": "wir (we) သည် Accusative ရော Dative မှာပါ uns ဖြစ်သည်။ ihr (you all) သည် Accusative ရော Dative မှာပါ euch ဖြစ်သည်။",
+            "transformations": [
+              {"form": "ကတ္တား", "pronoun": "wir (ကျွန်တော်တို့) / ihr (မင်းတို့)"},
+              {"form": "Accusative & Dative", "pronoun": "uns / euch"}
+            ]
+          },
+          {
+            "title": "\"သူတို့\" နှင့် \"လူကြီးမင်း\" (အယဉ်အကျေး)",
+            "note": "sie/Sie သည် Accusative တွင် sie/Sie ပဲဖြစ်သည်။ sie/Sie သည် Dative တွင် ihnen/Ihnen ပြောင်းလဲသွားသည်။",
+            "transformations": [
+              {"form": "ကတ္တား", "pronoun": "sie (သူတို့) / Sie (လူကြီးမင်း)"},
+              {"form": "Accusative", "pronoun": "sie / Sie"},
+              {"form": "Dative", "pronoun": "ihnen / Ihnen"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_usage",
+      "title": "၆။ လက်တွေ့အသုံးချမှု - \"နေကောင်းလား?\"",
+      "description": "ဂျာမန်စာမှာ \"Wie geht es...?\" ဆိုတာဟာ နာမည်ကျော် Dative အသုံးအနှုန်းဖြစ်ပါတယ်။ ဂျာမန်လို \"မင်း နေကောင်းလား?\" လို့ မမေးဘဲ \"မင်းဆီမှာ အခြေအနေတွေ ဘယ်လိုသွားနေသလဲ?\" လို့ မေးတဲ့သဘောပါ။",
+      "content": {
+        "examples": [
+          {
+            "english": "နေကောင်းလား (ရင်းနှီးသူ)?",
+            "german": "Wie geht es dir?"
+          },
+          {
+            "english": "နေကောင်းလား (လူကြီးမင်း)?",
+            "german": "Wie geht es Ihnen?"
+          },
+          {
+            "english": "မင်းအဖေ နေကောင်းလား?",
+            "german": "Wie geht es ihm?",
+            "note": "အဖေသည် \"er\" ဖြစ်သောကြောင့် Dative မှာ ihm ဖြစ်သွားသည်"
+          },
+          {
+            "english": "ကျွန်တော် နေကောင်းပါတယ်။",
+            "german": "Es geht mir gut.",
+            "note": "စာသားအတိုင်းဆိုလျှင် \"ငါ့ဆီမှာ ကောင်းကောင်းသွားနေတယ်\" ဟု အဓိပ္ပာယ်ရသည်"
+          }
+        ]
+      }
+    }
+  ]
+}

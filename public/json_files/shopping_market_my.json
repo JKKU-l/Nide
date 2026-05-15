@@ -1,0 +1,55 @@
+{
+  "title": "Shopping & Market",
+  "emoji": "🛒",
+  "theme_color": "#009688",
+  "description": "Essential verbs for shopping, stores, and marketplaces in German",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "einkaufen", "myanmar": "ဈေးဝယ်သည်", "example_german": "Ich muss heute für das Abendessen einkaufen.", "example_myanmar": "ဒီနေ့ ညစာအတွက် ဈေးဝယ်ရပါမယ်။"},
+          {"german": "kaufen", "myanmar": "ဝယ်သည်", "example_german": "Ich kaufe mir ein neues Hemd.", "example_myanmar": "ကျွန်တော် အင်္ကျီအသစ်တစ်ထည် ဝယ်ပါတယ်။"},
+          {"german": "verkaufen", "myanmar": "ရောင်းသည်", "example_german": "Er verkauft sein altes Auto.", "example_myanmar": "သူ သူ့ကားဟောင်းကို ရောင်းပါတယ်။"},
+          {"german": "bezahlen", "myanmar": "ပေးချေသည်", "example_german": "Kann ich bitte mit Karte bezahlen?", "example_myanmar": "ကတ်နဲ့ ပေးချေလို့ရမလား?"},
+          {"german": "kosten", "myanmar": "ကုန်ကျသည်", "example_german": "Wie viel kostet dieser Apfel?", "example_myanmar": "ဒီပန်းသီး ဘယ်လောက်ကျပါသလဲ?"},
+          {"german": "suchen", "myanmar": "ရှာသည်", "example_german": "Ich suche nach einem Geschenk für meine Mutter.", "example_myanmar": "အမေ့အတွက် လက်ဆောင်တစ်ခု ရှာနေပါတယ်။"},
+          {"german": "finden", "myanmar": "တွေ့သည်", "example_german": "Hast du deine Schlüssel gefunden?", "example_myanmar": "မင်းသော့ တွေ့ပြီလား?"},
+          {"german": "anprobieren", "myanmar": "ဝတ်ကြည့်သည်", "example_german": "Darf ich diese Hose anprobieren?", "example_myanmar": "ဒီဘောင်းဘီ ဝတ်ကြည့်လို့ရမလား?"},
+          {"german": "passen", "myanmar": "တော်သည်", "example_german": "Die Schuhe passen mir perfekt.", "example_myanmar": "ဖိနပ်တွေ ကျွန်တော့်ကို အတော်ပဲ။"},
+          {"german": "gefallen", "myanmar": "ကြိုက်သည်", "example_german": "Das Kleid gefällt mir sehr gut.", "example_myanmar": "ဒီဝတ်စုံကို အရမ်းကြိုက်ပါတယ်။"},
+          {"german": "wählen", "myanmar": "ရွေးချယ်သည်", "example_german": "Bitte wählen Sie eine Farbe aus.", "example_myanmar": "အရောင်တစ်ခု ရွေးချယ်ပါ။"},
+          {"german": "nehmen", "myanmar": "ယူသည်", "example_german": "Ich nehme zwei Kilo Kartoffeln.", "example_myanmar": "အာလူး ၂ ကီလို ယူပါမယ်။"},
+          {"german": "wechseln", "myanmar": "လဲသည်", "example_german": "Können Sie mir diesen 50-Euro-Schein wechseln?", "example_myanmar": "ဒီ ၅၀ ယူရို ငွေစက္ကူကို လဲပေးနိုင်မလား?"},
+          {"german": "zurückgeben", "myanmar": "ပြန်အပ်သည်", "example_german": "Ich möchte dieses Produkt zurückgeben.", "example_myanmar": "ဒီပစ္စည်းကို ပြန်အပ်ချင်ပါတယ်။"},
+          {"german": "umtauschen", "myanmar": "လဲလှယ်သည်", "example_german": "Kann ich dieses T-Shirt gegen eine andere Größe umtauschen?", "example_myanmar": "ဒီတီရှပ်ကို တစ်ခြားအရွယ်အစားနဲ့ လဲလှယ်လို့ရမလား?"},
+          {"german": "bestellen", "myanmar": "မှာယူသည်", "example_german": "Wir bestellen uns heute Abend eine Pizza.", "example_myanmar": "ဒီည ပီဇာ မှာယူပါမယ်။"},
+          {"german": "liefern", "myanmar": "ပို့ဆောင်သည်", "example_german": "Das Geschäft liefert die Möbel direkt nach Hause.", "example_myanmar": "ဆိုင်က ပရိဘောဂကို အိမ်အထိ တိုက်ရိုက်ပို့ပေးပါတယ်။"},
+          {"german": "abholen", "myanmar": "ထုတ်ယူသည်", "example_german": "Ich hole meine Bestellung morgen im Laden ab.", "example_myanmar": "မနက်ဖြန် ဆိုင်မှာ မှာထားတာကို ထုတ်ယူပါမယ်။"},
+          {"german": "einpacken", "myanmar": "ထုပ်ပိုးသည်", "example_german": "Können Sie das bitte als Geschenk einpacken?", "example_myanmar": "လက်ဆောင်အဖြစ် ထုပ်ပိုးပေးနိုင်မလား?"},
+          {"german": "vergleichen", "myanmar": "နှိုင်းယှဉ်သည်", "example_german": "Man sollte immer die Preise vergleichen.", "example_myanmar": "ဈေးနှုန်းတွေကို အမြဲနှိုင်းယှဉ်သင့်ပါတယ်။"},
+          {"german": "anschauen", "myanmar": "ကြည့်သည်", "example_german": "Ich möchte mir nur kurz die Auslage anschauen.", "example_myanmar": "ပြခန်းကို ခဏလေး ကြည့်ချင်ပါတယ်။"},
+          {"german": "fragen", "myanmar": "မေးသည်", "example_german": "Darf ich Sie etwas fragen?", "example_myanmar": "တစ်ခုခု မေးလို့ရမလား?"},
+          {"german": "antworten", "myanmar": "ဖြေသည်", "example_german": "Der Verkäufer antwortet auf meine Fragen.", "example_myanmar": "အရောင်းသမားက ကျွန်တော့်မေးခွန်းတွေကို ဖြေပါတယ်။"},
+          {"german": "helfen", "myanmar": "ကူညီသည်", "example_german": "Kann ich Ihnen helfen?", "example_myanmar": "ကူညီပေးရမလား?"},
+          {"german": "empfehlen", "myanmar": "အကြံပြုသည်", "example_german": "Welchen Wein können Sie mir empfehlen?", "example_myanmar": "ဘယ်ဝိုင်ကို အကြံပြုပါသလဲ?"},
+          {"german": "brauchen", "myanmar": "လိုအပ်သည်", "example_german": "Ich brauche eine neue Tasche.", "example_myanmar": "အိတ်အသစ်တစ်လုံး လိုအပ်ပါတယ်။"},
+          {"german": "wollen", "myanmar": "လိုချင်သည်", "example_german": "Ich will heute nicht mehr einkaufen gehen.", "example_myanmar": "ဒီနေ့ ဈေးဝယ်ထွက်ချင်စိတ် မရှိတော့ပါ။"},
+          {"german": "haben", "myanmar": "ရှိသည်", "example_german": "Haben Sie auch frische Erdbeeren?", "example_myanmar": "စတော်ဘယ်ရီ လတ်လတ်ဆတ်ဆတ် ရှိပါသလား?"},
+          {"german": "geben", "myanmar": "ပေးသည်", "example_german": "Können Sie mir bitte eine Quittung geben?", "example_myanmar": "ပြေစာတစ်ခု ပေးနိုင်မလား?"},
+          {"german": "zeigen", "myanmar": "ပြသည်", "example_german": "Können Sie mir bitte die Uhr dort zeigen?", "example_myanmar": "ဟိုနာရီကို ပြပေးနိုင်မလား?"},
+          {"german": "mitnehmen", "myanmar": "ယူသွားသည်", "example_german": "Ich nehme diese Zeitschrift noch mit.", "example_myanmar": "ဒီမဂ္ဂဇင်းကိုလည်း ယူသွားပါမယ်။"},
+          {"german": "tragen", "myanmar": "သယ်သည်", "example_german": "Er trägt die schweren Einkaufstüten zum Auto.", "example_myanmar": "သူ လေးတဲ့ဈေးဝယ်အိတ်တွေကို ကားဆီ သယ်သွားပါတယ်။"},
+          {"german": "laufen", "myanmar": "လမ်းလျှောက်သည်", "example_german": "Wir laufen durch den Supermarkt.", "example_myanmar": "ကျွန်တော်တို့ စူပါမားကက်ထဲ လမ်းလျှောက်ပါတယ်။"},
+          {"german": "stehen", "myanmar": "ရပ်သည် / တန်းစီသည်", "example_german": "Wir stehen an der Kasse an.", "example_myanmar": "ကျွန်တော်တို့ ငွေကောင်တာမှာ တန်းစီနေပါတယ်။"},
+          {"german": "warten", "myanmar": "စောင့်သည်", "example_german": "Ich warte auf meine Wechselgeld.", "example_myanmar": "အကြွေးပြန်ကို စောင့်နေပါတယ်။"},
+          {"german": "sparen", "myanmar": "စုဆောင်းသည်", "example_german": "Diesen Monat möchte ich etwas Geld sparen.", "example_myanmar": "ဒီလ ငွေအနည်းငယ် စုဆောင်းချင်ပါတယ်။"},
+          {"german": "ausgeben", "myanmar": "သုံးစွဲသည်", "example_german": "Sie hat viel Geld für Kleidung ausgegeben.", "example_myanmar": "သူမ အဝတ်အစားအတွက် ငွေအများကြီး သုံးစွဲခဲ့ပါတယ်။"},
+          {"german": "rechnen", "myanmar": "တွက်ချက်သည်", "example_german": "Ich muss kurz den Gesamtbetrag rechnen.", "example_myanmar": "စုစုပေါင်းပမာဏကို ခဏတွက်ချက်ရပါမယ်။"},
+          {"german": "zählen", "myanmar": "ရေတွက်သည်", "example_german": "Er zählt sein Geld an der Kasse.", "example_myanmar": "သူ ငွေကောင်တာမှာ ငွေရေတွက်ပါတယ်။"},
+          {"german": "prüfen", "myanmar": "စစ်ဆေးသည်", "example_german": "Bitte prüfen Sie Ihren Kassenbon.", "example_myanmar": "ပြေစာကို စစ်ဆေးပါ။"}
+        ]
+      }
+    }
+  ]
+}

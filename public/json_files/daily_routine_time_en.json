@@ -1,0 +1,53 @@
+{
+  "title": "Daily Routine & Time",
+  "emoji": "⏰",
+  "theme_color": "#2196F3",
+  "description": "Daily activities and time expressions vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "aufstehen", "english": "to get up", "example_german": "Ich stehe jeden Morgen um sechs Uhr auf.", "example_english": "I get up every morning at six o'clock."},
+          {"german": "aufwachen", "english": "to wake up", "example_german": "Ich wache meistens vor dem Wecker auf.", "example_english": "I usually wake up before the alarm clock."},
+          {"german": "schlafen", "english": "to sleep", "example_german": "Am Wochenende möchte ich lange schlafen.", "example_english": "On the weekend, I want to sleep long."},
+          {"german": "einschlafen", "english": "to fall asleep", "example_german": "Er kann ohne Musik nicht einschlafen.", "example_english": "He cannot fall asleep without music."},
+          {"german": "frühstücken", "english": "to have breakfast", "example_german": "Wir frühstücken heute gemütlich auf dem Balkon.", "example_english": "We are having a relaxed breakfast on the balcony today."},
+          {"german": "mittagessen", "english": "to have lunch", "example_german": "Um 12 Uhr essen wir in der Kantine zu Mittag.", "example_english": "At 12 o'clock, we have lunch in the cafeteria."},
+          {"german": "abendessen", "english": "to have dinner", "example_german": "Was esst ihr heute zu Abend?", "example_english": "What are you having for dinner today?"},
+          {"german": "arbeiten", "english": "to work", "example_german": "Mein Bruder arbeitet bei einer Bank.", "example_english": "My brother works at a bank."},
+          {"german": "beginnen", "english": "to begin", "example_german": "Die Vorlesung beginnt pünktlich.", "example_english": "The lecture begins on time."},
+          {"german": "enden", "english": "to end", "example_german": "Wann endet dein Arbeitstag?", "example_english": "When does your workday end?"},
+          {"german": "anfangen", "english": "to start", "example_german": "Der Film fängt in zehn Minuten an.", "example_english": "The movie starts in ten minutes."},
+          {"german": "aufhören", "english": "to stop", "example_german": "Es hört endlich auf zu regnen.", "example_english": "It is finally stopping raining."},
+          {"german": "kommen", "english": "to come", "example_german": "Kommst du heute Abend zur Party?", "example_english": "Are you coming to the party tonight?"},
+          {"german": "gehen", "english": "to go", "example_german": "Ich gehe jetzt in den Supermarkt.", "example_english": "I am going to the supermarket now."},
+          {"german": "zurückkommen", "english": "to come back", "example_german": "Er kommt erst spät nach Hause zurück.", "example_english": "He only comes back home late."},
+          {"german": "bleiben", "english": "to stay", "example_german": "Wir bleiben wegen des Wetters drinnen.", "example_english": "We are staying inside because of the weather."},
+          {"german": "warten", "english": "to wait", "example_german": "Ich warte schon seit einer Stunde auf dich.", "example_english": "I have been waiting for you for an hour."},
+          {"german": "eilen", "english": "to hurry", "example_german": "Wir müssen uns beeilen, sonst verpassen wir den Bus.", "example_english": "We have to hurry, otherwise we'll miss the bus."},
+          {"german": "planen", "english": "to plan", "example_german": "Wir planen unsere nächste Reise nach Berlin.", "example_english": "We are planning our next trip to Berlin."},
+          {"german": "vorbereiten", "english": "to prepare", "example_german": "Sie bereitet die Präsentation für morgen vor.", "example_english": "She is preparing the presentation for tomorrow."},
+          {"german": "vergessen", "english": "to forget", "example_german": "Ich habe meinen Schlüssel zu Hause vergessen.", "example_english": "I forgot my key at home."},
+          {"german": "erinnern", "english": "to remember", "example_german": "Ich erinnere mich gern an meinen Urlaub.", "example_english": "I like remembering my vacation."},
+          {"german": "wiederholen", "english": "to repeat", "example_german": "Können Sie das bitte noch einmal wiederholen?", "example_english": "Could you please repeat that one more time?"},
+          {"german": "prüfen", "english": "to check", "example_german": "Der Mechaniker prüft den Motor.", "example_english": "The mechanic checks the engine."},
+          {"german": "notieren", "english": "to note down", "example_german": "Bitte notieren Sie sich meine Telefonnummer.", "example_english": "Please note down my phone number."},
+          {"german": "organisieren", "english": "to organize", "example_german": "Wer organisiert dieses Jahr das Weihnachtsfest?", "example_english": "Who is organizing the Christmas party this year?"},
+          {"german": "ausruhen", "english": "to rest", "example_german": "Nach dem Sport muss ich mich kurz ausruhen.", "example_english": "After sports, I need to rest for a bit."},
+          {"german": "entspannen", "english": "to relax", "example_german": "Ein heißes Bad hilft mir zu entspannen.", "example_english": "A hot bath helps me to relax."},
+          {"german": "duschen", "english": "to shower", "example_german": "Ich dusche lieber morgens als abends.", "example_english": "I prefer showering in the morning rather than the evening."},
+          {"german": "waschen", "english": "to wash", "example_german": "Vergiss nicht, dir die Hände zu waschen.", "example_english": "Don't forget to wash your hands."},
+          {"german": "anziehen", "english": "to get dressed", "example_german": "Ich ziehe mir schnell einen Pullover an.", "example_english": "I'm quickly putting on a sweater."},
+          {"german": "ausziehen", "english": "to undress / take off", "example_german": "Hier muss man die Schuhe ausziehen.", "example_english": "You have to take off your shoes here."},
+          {"german": "putzen", "english": "to clean", "example_german": "Ich muss heute noch die Wohnung putzen.", "example_english": "I still have to clean the apartment today."},
+          {"german": "kämmen", "english": "to comb", "example_german": "Er kämmt sich die Haare vor dem Spiegel.", "example_english": "He combs his hair in front of the mirror."},
+          {"german": "rasieren", "english": "to shave", "example_german": "Mein Vater rasiert sich jeden Morgen.", "example_english": "My father shaves every morning."},
+          {"german": "aufräumen", "english": "to tidy up", "example_german": "Du musst dein Zimmer endlich aufräumen!", "example_english": "You finally have to tidy up your room!"},
+          {"german": "kochen", "english": "to cook", "example_german": "Was kochst du heute Schönes?", "example_english": "What nice thing are you cooking today?"},
+          {"german": "schließen", "english": "to close", "example_german": "Bitte schließen Sie das Fenster.", "example_english": "Please close the window."}
+        ]
+      }
+    }
+  ]
+}

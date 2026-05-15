@@ -1,0 +1,25 @@
+{
+  "category": "Family & People",
+  "category_de": "Familie & Menschen",
+  "icon": "👨‍👩‍👧‍👦",
+  "words": [
+    {"de":"der Mann","word":"Mann","article":"der","en":"man/husband","jp":"男性/夫","kr":"남자/남편","my":"ယောက်ျား/ခင်ပွန်း","th":"ผู้ชาย/สามี","vi":"đàn ông/chồng","pronunciation":"/man/","example_de":"Der Mann arbeitet im Büro.","example_en":"The man works in the office."},
+    {"de":"die Frau","word":"Frau","article":"die","en":"woman/wife","jp":"女性/妻","kr":"여자/아내","my":"အမျိုးသမီး/ဇနီး","th":"ผู้หญิง/ภรรยา","vi":"phụ nữ/vợ","pronunciation":"/fʁaʊ̯/","example_de":"Die Frau liest ein Buch.","example_en":"The woman reads a book."},
+    {"de":"das Kind","word":"Kind","article":"das","en":"child","jp":"子供","kr":"아이","my":"ကလေး","th":"เด็ก","vi":"trẻ em","pronunciation":"/kɪnt/","example_de":"Das Kind spielt im Garten.","example_en":"The child plays in the garden."},
+    {"de":"der Junge","word":"Junge","article":"der","en":"boy","jp":"男の子","kr":"소년","my":"လူငယ်","th":"เด็กผู้ชาย","vi":"cậu bé","pronunciation":"/ˈjʊŋə/","example_de":"Der Junge geht zur Schule.","example_en":"The boy goes to school."},
+    {"de":"das Mädchen","word":"Mädchen","article":"das","en":"girl","jp":"女の子","kr":"소녀","my":"မိန်းကလေး","th":"เด็กผู้หญิง","vi":"cô bé","pronunciation":"/ˈmɛːtçən/","example_de":"Das Mädchen singt sehr schön.","example_en":"The girl sings very beautifully."},
+    {"de":"die Mutter","word":"Mutter","article":"die","en":"mother","jp":"母","kr":"어머니","my":"အမေ","th":"แม่","vi":"mẹ","pronunciation":"/ˈmʊtɐ/","example_de":"Meine Mutter kocht jeden Tag.","example_en":"My mother cooks every day."},
+    {"de":"der Vater","word":"Vater","article":"der","en":"father","jp":"父","kr":"아버지","my":"အဖေ","th":"พ่อ","vi":"bố","pronunciation":"/ˈfaːtɐ/","example_de":"Mein Vater fährt zur Arbeit.","example_en":"My father drives to work."},
+    {"de":"die Eltern","word":"Eltern","article":"die","en":"parents","jp":"両親","kr":"부모님","my":"မိဘ","th":"พ่อแม่","vi":"bố mẹ","pronunciation":"/ˈɛltɐn/","example_de":"Meine Eltern leben in Berlin.","example_en":"My parents live in Berlin."},
+    {"de":"der Bruder","word":"Bruder","article":"der","en":"brother","jp":"兄弟","kr":"형제","my":"အစ်ကို/မောင်","th":"พี่ชาย/น้องชาย","vi":"anh/em trai","pronunciation":"/ˈbʁuːdɐ/","example_de":"Mein Bruder ist älter als ich.","example_en":"My brother is older than me."},
+    {"de":"die Schwester","word":"Schwester","article":"die","en":"sister","jp":"姉妹","kr":"자매","my":"အစ်မ/ညီမ","th":"พี่สาว/น้องสาว","vi":"chị/em gái","pronunciation":"/ˈʃvɛstɐ/","example_de":"Meine Schwester studiert Medizin.","example_en":"My sister studies medicine."},
+    {"de":"der Sohn","word":"Sohn","article":"der","en":"son","jp":"息子","kr":"아들","my":"သား","th":"ลูกชาย","vi":"con trai","pronunciation":"/zoːn/","example_de":"Ihr Sohn ist fünf Jahre alt.","example_en":"Her son is five years old."},
+    {"de":"die Tochter","word":"Tochter","article":"die","en":"daughter","jp":"娘","kr":"딸","my":"သမီး","th":"ลูกสาว","vi":"con gái","pronunciation":"/ˈtɔxtɐ/","example_de":"Ihre Tochter geht in den Kindergarten.","example_en":"Her daughter goes to kindergarten."},
+    {"de":"die Oma","word":"Oma","article":"die","en":"grandma","jp":"おばあちゃん","kr":"할머니","my":"အဘွား","th":"คุณยาย","vi":"bà","pronunciation":"/ˈoːma/","example_de":"Die Oma erzählt Geschichten.","example_en":"Grandma tells stories."},
+    {"de":"der Opa","word":"Opa","article":"der","en":"grandpa","jp":"おじいちゃん","kr":"할아버지","my":"အဘိုး","th":"คุณปู่","vi":"ông","pronunciation":"/ˈoːpa/","example_de":"Der Opa geht gern spazieren.","example_en":"Grandpa likes to go for walks."},
+    {"de":"die Familie","word":"Familie","article":"die","en":"family","jp":"家族","kr":"가족","my":"မိသားစု","th":"ครอบครัว","vi":"gia đình","pronunciation":"/faˈmiːli̯ə/","example_de":"Die Familie isst zusammen.","example_en":"The family eats together."},
+    {"de":"der Freund","word":"Freund","article":"der","en":"male friend/boyfriend","jp":"男友達/彼氏","kr":"남자 친구","my":"သူငယ်ချင်း(ယောက်ျား)","th":"เพื่อนผู้ชาย/แฟน","vi":"bạn nam/bạn trai","pronunciation":"/fʁɔʏ̯nt/","example_de":"Mein Freund kommt aus Deutschland.","example_en":"My friend comes from Germany."},
+    {"de":"die Freundin","word":"Freundin","article":"die","en":"female friend/girlfriend","jp":"女友達/彼女","kr":"여자 친구","my":"သူငယ်ချင်း(မိန်းမ)","th":"เพื่อนผู้หญิง/แฟน","vi":"bạn nữ/bạn gái","pronunciation":"/ˈfʁɔʏ̯ndɪn/","example_de":"Meine Freundin spricht drei Sprachen.","example_en":"My girlfriend speaks three languages."},
+    {"de":"das Baby","word":"Baby","article":"das","en":"baby","jp":"赤ちゃん","kr":"아기","my":"ကလေးငယ်","th":"ทารก","vi":"em bé","pronunciation":"/ˈbeːbi/","example_de":"Das Baby schläft friedlich.","example_en":"The baby sleeps peacefully."}
+  ]
+}

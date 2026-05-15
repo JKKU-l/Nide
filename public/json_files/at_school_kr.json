@@ -1,0 +1,160 @@
+{
+  "title": "At School",
+  "theme_color": "#FF6B6B",
+  "difficulty": "A1",
+  "duration_minutes": 7,
+  "audio_file": "at_school.mp3",
+  "sections": [
+    {
+      "id": "story",
+      "title": "Story",
+      "content": {
+        "german_text": "Heute gehe ich in die Schule, weil wir einen Test schreiben. Ich treffe meine Freunde im Klassenzimmer, wir sprechen kurz über die Aufgaben. Die Lehrerin kommt und verteilt die Blätter. Der Test ist schwer, aber ich habe gelernt. Nach dem Test machen wir Pause im Schulhof. Wir essen belegte Brote und trinken Saft. Danach haben wir Mathematik und Sport. Am Ende des Tages gehen alle müde, aber zufrieden nach Hause. Schule ist manchmal anstrengend, aber wichtig!",
+        "english_translation": "Today I go to school because we are taking a test. I meet my friends in the classroom; we talk briefly about the tasks. The teacher comes and hands out the sheets. The test is difficult, but I studied. After the test, we take a break in the schoolyard. We eat sandwiches (open-faced sandwiches) and drink juice. After that, we have math and sports. At the end of the day, everyone goes home tired but satisfied. School is sometimes tiring, but important!",
+        "myanmar_translation": "ဒီနေ့ ကျွန်တော်/ကျွန်မ ကျောင်းသွားပါတယ်၊ ဘာဖြစ်လို့လဲဆိုတော့ ကျွန်တော်တို့ စာမေးပွဲဖြေရမှာမို့လို့ပါ။ ကျွန်တော်/ကျွန်မ သူငယ်ချင်းတွေကို စာသင်ခန်းထဲမှာတွေ့ပြီး၊ ကျွန်တော်တို့ ပုစ္ဆာတွေအကြောင်း ခဏတဖြုတ် စကားပြောကြပါတယ်။ ဆရာမရောက်လာပြီး မေးခွန်းလွှာတွေ ဝေပေးပါတယ်။ စာမေးပွဲက ခက်ပါတယ်၊ ဒါပေမဲ့ ကျွန်တော်/ကျွန်မ စာကျက်ထားပါတယ်။ စာမေးပွဲဖြေပြီးတဲ့နောက် ကျောင်းဝင်းထဲမှာ အနားယူကြပါတယ်။ ကျွန်တော်တို့ ဆင်ဒဝစ်ချ်တွေစားပြီး ဖျော်ရည်သောက်ကြပါတယ်။ အဲဒီနောက်မှာတော့ သင်္ချာနဲ့ အားကစားဘာသာရပ်တွေ ရှိပါတယ်။ နေ့တစ်နေ့ရဲ့အဆုံးမှာ လူတိုင်း ပင်ပန်းပေမဲ့ ကျေနပ်ပျော်ရွှင်စွာနဲ့ အိမ်ပြန်ကြပါတယ်။ ကျောင်းတက်ရတာ တစ်ခါတလေ ပင်ပန်းရသော်လည်း အရေးကြီးပါတယ်!",
+        "japanese_translation": "今日、私はテストがあるので学校に行きます。教室で友達に会い、私たちは少しテストの課題について話します。先生が来て、解答用紙を配ります。テストは難しいですが、私は勉強しました。テストの後、校庭で休み時間を過ごします。私たちはサンドイッチを食べ、ジュースを飲みます。その後、数学と体育の授業があります。一日の終わりに、みんな疲れ果てていますが、満足して家に帰ります。学校は時々大変ですが、大切です！",
+        "thai_translation": "วันนี้ฉันไปโรงเรียนเพราะเรามีสอบ ฉันเจอเพื่อนๆ ในห้องเรียน และเราคุยกันสั้นๆ เกี่ยวกับบททดสอบ ครูเข้ามาและแจกกระดาษคำถาม ข้อสอบยากแต่ฉันได้อ่านหนังสือมา หลังจากสอบเสร็จเราก็ได้พักผ่อนที่ลานกว้างของโรงเรียน พวกเรากินแซนด์วิชและดื่มน้ำผลไม้ หลังจากนั้นเรามีเรียนวิชาคณิตศาสตร์และพละ เมื่อสิ้นสุดวันทุกคนก็กลับบ้านด้วยความเหนื่อยล้าแต่ก็มีความสุข บางครั้งการไปโรงเรียนก็น่าเหนื่อย แต่ก็เป็นเรื่องที่สำคัญมาก!",
+        "vietnamese_translation": "Hôm nay tôi đến trường vì chúng tôi có một bài kiểm tra. Tôi gặp bạn bè trong lớp, chúng tôi trò chuyện ngắn gọn về các bài tập. Cô giáo bước vào và phát đề. Bài kiểm tra khá khó, nhưng tôi đã ôn tập kỹ. Sau giờ kiểm tra, chúng tôi nghỉ giải lao ở sân trường. Chúng tôi ăn bánh mì kẹp và uống nước trái cây. Sau đó, chúng tôi học môn Toán và Thể dục. Cuối ngày, mọi người ra về trong trạng thái mệt mỏi nhưng hài lòng. Trường học đôi khi vất vả, nhưng rất quan trọng!",
+        "korean_translation": "오늘 나는 시험이 있어서 학교에 갑니다. 교실에서 친구들을 만나 잠시 문제에 대해 이야기를 나눕니다. 선생님께서 오셔서 시험지를 나눠주십니다. 시험은 어렵지만 나는 공부를 했습니다. 시험이 끝난 후 우리는 운동장에서 휴식을 취합니다. 우리는 샌드위치를 먹고 주스를 마십니다. 그 후에는 수학과 체육 수업이 있습니다. 하루가 끝날 때 모두가 피곤하지만 만족하며 집으로 돌아갑니다. 학교는 때때로 힘들지만 중요합니다!"
+      }
+    },
+    {
+      "id": "exercises",
+      "title": "Practice Exercises",
+      "content": {
+        "exercises": [
+          {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Warum geht die Person heute in die Schule?",
+            "options": ["Weil sie spielen wollen", "Weil sie einen Test schreiben", "Weil sie Freunde treffen", "Weil es Spaß macht"],
+            "correct_answer": "Weil sie einen Test schreiben"
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "question": "Heute gehe ich in die Schule, weil wir einen _______ schreiben.",
+            "answer": "Test"
+          },
+          {
+            "id": 3,
+            "type": "multiple_choice",
+            "question": "Wo trifft die Person ihre Freunde?",
+            "options": ["Im Schulhof", "Im Klassenzimmer", "In der Bibliothek", "In der Mensa"],
+            "correct_answer": "Im Klassenzimmer"
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "Ich treffe meine Freunde im _______.",
+            "answer": "Klassenzimmer"
+          },
+          {
+            "id": 5,
+            "type": "multiple_choice",
+            "question": "Wer kommt und verteilt die Blätter?",
+            "options": ["Der Direktor", "Die Lehrerin", "Ein Freund", "Ein Schüler"],
+            "correct_answer": "Die Lehrerin"
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "question": "Die _______ kommt und verteilt die Blätter.",
+            "answer": "Lehrerin"
+          },
+          {
+            "id": 7,
+            "type": "multiple_choice",
+            "question": "Wie ist der Test?",
+            "options": ["Leicht", "Mittel", "Schwer", "Sehr einfach"],
+            "correct_answer": "Schwer"
+          },
+          {
+            "id": 8,
+            "type": "fill_blank",
+            "question": "Der Test ist _______.",
+            "answer": "schwer"
+          },
+          {
+            "id": 9,
+            "type": "multiple_choice",
+            "question": "Wo machen sie Pause?",
+            "options": ["Im Klassenzimmer", "In der Bibliothek", "Im Schulhof", "In der Sporthalle"],
+            "correct_answer": "Im Schulhof"
+          },
+          {
+            "id": 10,
+            "type": "fill_blank",
+            "question": "Nach dem Test machen wir Pause im _______.",
+            "answer": "Schulhof"
+          },
+          {
+            "id": 11,
+            "type": "multiple_choice",
+            "question": "Was essen sie in der Pause?",
+            "options": ["Pizza", "Belegte Brote", "Nudeln", "Salat"],
+            "correct_answer": "Belegte Brote"
+          },
+          {
+            "id": 12,
+            "type": "fill_blank",
+            "question": "Wir essen _______ Brote und trinken Saft.",
+            "answer": "belegte"
+          },
+          {
+            "id": 13,
+            "type": "multiple_choice",
+            "question": "Was trinken sie?",
+            "options": ["Wasser", "Kaffee", "Saft", "Tee"],
+            "correct_answer": "Saft"
+          },
+          {
+            "id": 14,
+            "type": "fill_blank",
+            "question": "Wir essen belegte Brote und trinken _______.",
+            "answer": "Saft"
+          },
+          {
+            "id": 15,
+            "type": "multiple_choice",
+            "question": "Welche Fächer haben sie danach?",
+            "options": ["Deutsch und Englisch", "Mathematik und Sport", "Kunst und Musik", "Geschichte und Biologie"],
+            "correct_answer": "Mathematik und Sport"
+          },
+          {
+            "id": 16,
+            "type": "fill_blank",
+            "question": "Danach haben wir _______ und Sport.",
+            "answer": "Mathematik"
+          },
+          {
+            "id": 17,
+            "type": "multiple_choice",
+            "question": "Wie fühlen sich alle am Ende des Tages?",
+            "options": ["Müde und zufrieden", "Glücklich und energisch", "Traurig und müde", "Wütend und müde"],
+            "correct_answer": "Müde und zufrieden"
+          },
+          {
+            "id": 18,
+            "type": "fill_blank",
+            "question": "Am Ende des Tages gehen alle _______, aber zufrieden nach Hause.",
+            "answer": "müde"
+          },
+          {
+            "id": 19,
+            "type": "multiple_choice",
+            "question": "Ist die Schule wichtig?",
+            "options": ["Nein", "Manchmal", "Ja", "Niemals"],
+            "correct_answer": "Ja"
+          },
+          {
+            "id": 20,
+            "type": "fill_blank",
+            "question": "Schule ist manchmal anstrengend, aber _______!",
+            "answer": "wichtig"
+          }
+        ]
+      }
+    }
+  ]
+}

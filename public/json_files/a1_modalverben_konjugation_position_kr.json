@@ -1,0 +1,107 @@
+{
+  "title": "독일어 화법 조동사 (Modalverben)",
+  "subtitle": "화법 조동사(Modalverben)는 문장의 주요 행동에 대한 능력, 의무, 허가, 소망 등의 태도나 상태를 나타낼 때 사용됩니다.",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "화법 조동사란 무엇인가?",
+      "description": "화법 조동사(Modalverben)는 문장의 주요 행동에 대한 능력, 의무, 허가, 소망 등의 태도나 상태를 나타낼 때 사용됩니다.",
+      "content": {
+        "modal_verbs_table": {
+          "headers": ["동사", "의미", "주요 용법"],
+          "rows": [
+            ["können", "~할 수 있다", "능력 또는 가능성 설명"],
+            ["müssen", "~해야만 한다", "필요성 또는 강한 의무"],
+            ["wollen", "~하고 싶다 (의지)", "강한 의도나 계획"],
+            ["möchten", "~하고 싶다 (정중)", "정중한 소망이나 요청"],
+            ["dürfen", "~해도 된다", "허가 또는 금지 (부정형일 때)"],
+            ["sollen", "~해야 한다", "조언, 의무 또는 타인의 지시"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "conjugation_rules",
+      "title": "동사 변화 규칙 (Conjugation)",
+      "description": "독일어 화법 조동사 변화에는 두 가지 중요한 특징이 있습니다.",
+      "content": {
+        "rules": [
+          "모음 변화: 단수형(ich, du, er/sie/es)에서 어간의 모음이 바뀌는 경우가 많습니다.",
+          "1인칭 및 3인칭 일치: ich와 er/sie/es의 형태는 항상 동일하며 어미가 붙지 않습니다."
+        ],
+        "conjugation_table": {
+          "headers": ["인칭", "können", "müssen", "wollen", "dürfen"],
+          "rows": [
+            ["ich", "kann", "muss", "will", "darf"],
+            ["du", "kannst", "musst", "willst", "darfst"],
+            ["er/sie/es", "kann", "muss", "will", "darf"],
+            ["wir", "können", "müssen", "wollen", "dürfen"],
+            ["ihr", "könnt", "müsst", "wollt", "dürft"],
+            ["sie/Sie", "können", "müssen", "wollen", "dürfen"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "sentence_architecture",
+      "title": "문장 구조 (Sentence Structure)",
+      "description": "화법 조동사가 포함된 문장에는 엄격한 어순 규칙이 있습니다.",
+      "content": {
+        "structure": [
+          "2번 위치: 주어에 맞게 변화된 화법 조동사가 문장의 두 번째 자리에 옵니다.",
+          "문장 끝: 의미상 중요한 본동사(Main Verb)는 원형(Infinitive) 그대로 문장의 맨 마지막에 위치합니다.",
+          "주어 + 화법 조동사 (변화형) + ... + 본동사 (원형/문장 끝)"
+        ],
+        "formula": "주어 + 화법 조동사 (변화형) + ... + 본동사 (원형/문장 끝)"
+      }
+    },
+    {
+      "id": "usage_examples",
+      "title": "사용 예시",
+      "description": "화법 조동사 사용 예시:",
+      "content": {
+        "examples": [
+          {
+            "category": "능력 (können)",
+            "german": "Ich kann sehr gut Fußball spielen.",
+            "english": "나는 축구를 아주 잘할 수 있다."
+          },
+          {
+            "category": "의무 (müssen)",
+            "german": "Du musst Hausaufgaben machen.",
+            "english": "너는 숙제를 해야만 한다."
+          },
+          {
+            "category": "허가 (dürfen)",
+            "german": "Hier darf man nicht rauchen.",
+            "english": "여기서는 담배를 피우면 안 됩니다 (허가되지 않음)."
+          },
+          {
+            "category": "조언 (sollen)",
+            "german": "Der Arzt sagt, ich soll im Bett bleiben.",
+            "english": "의사가 말하기를, 나는 침대에 누워 있어야 한다고 한다."
+          }
+        ]
+      }
+    },
+    {
+      "id": "advanced_note",
+      "title": "추가 참고: 본동사의 생략",
+      "description": "구어체에서 맥락상 어떤 행동(가다, 오다, 먹다 등)인지 명확한 경우 문장 끝의 본동사를 생략할 수 있습니다.",
+      "content": {
+        "examples": [
+          {
+            "full": "Ich muss nach Hause gehen.",
+            "shortened": "Ich muss nach Hause.",
+            "english": "gehen 생략"
+          },
+          {
+            "full": "Ich will ein Eis essen.",
+            "shortened": "Ich will ein Eis.",
+            "english": "essen 생략"
+          }
+        ]
+      }
+    }
+  ]
+}

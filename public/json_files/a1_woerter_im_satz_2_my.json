@@ -1,0 +1,127 @@
+{
+  "title": "Wörter im Satz 2 (ဝါကျတည်ဆောက်ပုံ ၂)",
+  "sections": [
+    {
+      "id": "golden_rule",
+      "title": "၁။ ဂျာမန်ဝါကျတည်ဆောက်ပုံ၏ ရွှေစည်းမျဉ်း (The Golden Rule)",
+      "description": "သာမန်ဝါကျတစ်ခုတွင် Conjugated Verb (ပြုပြင်ပြောင်းလဲထားသော ကြိယာ) သည် အမြဲတမ်း Position 2 (ဒုတိယနေရာ) တွင် ရှိနေရပါမည်။ ကျန်ရှိသော ကြိယာအပိုင်းအစများ (Infinitive များ၊ ရှေ့ဆက်စကားလုံး prefix များ သို့မဟုတ် participle များ) ကို ဝါကျ၏ နောက်ဆုံး (End Position) သို့ ပို့ရပါမည်။",
+      "content": {
+        "examples_table": {
+          "headers": ["Position 1 (Subject/Time)", "Position 2 (Conjugated Verb)", "Middle (Details)", "End Position (Other Verb Part)"],
+          "rows": [
+            ["Ich (ကျွန်ုပ်)", "will (လိုချင်သည်)", "heute (ယနေ့)", "einkaufen (စျေးဝယ်ထွက်ခြင်း)။"],
+            ["Ich (ကျွန်ုပ်)", "kaufe (ဝယ်သည်)", "Obst (သစ်သီး)", "ein (Separable Prefix)။"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "grammar_categories",
+      "title": "၂။ သဒ္ဒါအမျိုးအစားများနှင့် နမူနာများ",
+      "description": "ဘယ်အမျိုးအစား grammar ကိုသုံးလဲဆိုတဲ့အလိုက် ကြိယာအစိတ်အပိုင်းများကို ဝါကျ၏နောက်ဆုံးသို့ ပို့ရသည်။",
+      "content": {
+        "categories": [
+          {
+            "category": "A. Modal Verbs (အထောက်အကူပြု ကြိယာများ)",
+            "description": "Modal verbs များ (wollen, müssen, können စသည်) သည် တတ်နိုင်ခြင်း၊ လိုအပ်ခြင်း သို့မဟုတ် ဆန္ဒရှိခြင်းတို့ကို ဖော်ပြသည်။ Modal verb ကို Position 2 တွင် ပုဒ်ခွဲ (conjugate) ပြီး၊ အဓိကလုပ်ဆောင်ချက်ကြိယာကို မူလပုံစံ (infinitive) အတိုင်း ဝါကျအဆုံးသို့ ပို့ရသည်။",
+            "rule": "စည်းမျဉ်း: Conjugated Modal Verb (Pos 2) ... Main Verb (End)",
+            "examples": [
+              {
+                "german": "Sie wollen eine Deutschlandreise machen.",
+                "translation": "သူတို့ ဂျာမနီကို ခရီးထွက်ချင်ကြသည်။",
+                "explanation": "ဘာကြောင့်လဲ? \"Wollen\" သည် ကာလနှင့် လူပုဂ္ဂိုလ်အလိုက် ပြောင်းလဲပေးရသော အကူကြိယာဖြစ်ပြီး \"machen\" (ပြုလုပ်သည်) က ဝါကျ၏အဓိပ္ပာယ်ကို ပြည့်စုံစေရန် အဆုံးတွင် နေခြင်းဖြစ်သည်။"
+              }
+            ]
+          },
+          {
+            "category": "B. Separable Verbs (ခွဲထုတ်နိုင်သော ကြိယာများ)",
+            "description": "ဂျာမန်ကြိယာအချို့တွင် ရှေ့ဆက်စကားလုံးများ (um-, auf-, ein-, aus- စသည်) ပါရှိသည်။ ၎င်းတို့ကို ဝါကျတွင် သုံးသောအခါ ရှေ့ဆက်စကားလုံးသည် ကြိယာမှ \"ပြုတ်ထွက်\" သွားပြီး ဝါကျ၏ အဆုံးသို့ ရောက်သွားသည်။",
+            "rule": "စည်းမျဉ်း: Verb Stem (Pos 2) ... Prefix (End)",
+            "examples": [
+              {
+                "german": "Wir ziehen nach Hamburg um.",
+                "translation": "ကျွန်ုပ်တို့ ဟမ်းဘတ် (Hamburg) သို့ ပြောင်းရွှေ့နေထိုင်မည်။",
+                "explanation": "ဘာကြောင့်လဲ? မူလကြိယာမှာ umziehen ဖြစ်သည်။ \"um\" သည် ခွဲထုတ်နိုင်သော prefix ဖြစ်သဖြင့် ၎င်းကို ဝါကျ၏ အဆုံးတွင် ထားရခြင်းဖြစ်သည်။"
+              }
+            ]
+          },
+          {
+            "category": "C. Verb + Verb Combinations (ကြိယာ နှစ်ခုတွဲများ)",
+            "description": "ကြိယာနှစ်ခုတွဲ၍ သုံးသောအခါ (ဥပမာ- \"ရေကူးသွားသည်\" )၊ လှုပ်ရှားမှုကိုပြသောကြိယာကို Position 2 တွင်ထားပြီး လုပ်ဆောင်ချက်ကြိယာကို အဆုံးတွင် မူလအတိုင်းထားရသည်။",
+            "rule": "စည်းမျဉ်း: Conjugated Verb (Pos 2) ... Infinitive (End)",
+            "examples": [
+              {
+                "german": "Wir gehen heute Nachmittag schwimmen.",
+                "translation": "ကျွန်ုပ်တို့ ယနေ့မွန်းလွဲပိုင်းတွင် ရေကူးသွားမည်။",
+                "explanation": "ဘာကြောင့်လဲ? \"Gehen\" သည် သွားခြင်း (လှုပ်ရှားမှု) ကို ပြပြီး \"schwimmen\" က မည်သည့်လုပ်ဆောင်ချက်ဖြစ်သည်ကို ဝါကျအဆုံးမှ ဖြခြင်းဖြစ်သည်။"
+              }
+            ]
+          },
+          {
+            "category": "D. Noun-Verb Combinations (နာမ်နှင့် ကြိယာ တွဲဖက်မှုများ)",
+            "description": "အချို့သော နာမ်နှင့် ကြိယာများသည် အဓိပ္ပာယ်တစ်ခုတည်းအဖြစ် တွဲလျက်ရှိနေတတ်သည် (ဥပမာ- Tennis spielen - တင်းနစ်ကစားသည်၊ Deutsch lernen - ဂျာမန်စာသင်သည်)။",
+            "rule": "စည်းမျဉ်း: Conjugated Verb (Pos 2) ... Noun (End)",
+            "examples": [
+              {
+                "german": "Heute Abend spiele ich mit meiner Freundin Tennis.",
+                "translation": "ယနေ့ညတွင် ကျွန်ုပ်သည် သူငယ်ချင်းနှင့် တင်းနစ်ကစားမည်။",
+                "explanation": "ဘာကြောင့်လဲ? \"Tennis\" သည် နာမ်ဖြစ်သော်လည်း \"တင်းနစ်ကစားခြင်း\" ဟူသော ကြိယာလုပ်ဆောင်ချက်၏ အစိတ်အပိုင်းတစ်ခုအဖြစ် သတ်မှတ်သဖြင့် ၎င်းကို နောက်ဆုံးနေရာတွင် ထားခြင်းဖြစ်သည်။"
+              }
+            ]
+          },
+          {
+            "category": "E. Perfect Tense (အတိတ်ကာလပြ Perfekt)",
+            "description": "အတိတ်ကာလ (Perfekt) အကြောင်း ပြောသောအခါ အကူကြိယာ (haben သို့မဟုတ် sein) ကို Position 2 တွင် ထားပြီး Past Participle (Partizip II) ကို ဝါကျအဆုံးတွင် ထားရသည်။",
+            "rule": "စည်းမျဉ်း: Haben/Sein (Pos 2) ... Participle (End)",
+            "examples": [
+              {
+                "german": "Ich habe schon Getränke eingekauft.",
+                "translation": "ကျွန်ုပ် အဖျော်ယမကာများ ဝယ်ပြီးပြီ။",
+                "explanation": "ဘာကြောင့်လဲ? ကြိယာ၏ \"ge-\" ပုံစံ (eingekauft) သည် Perfekt ဝါကျများတွင် အမြဲတမ်း နောက်ဆုံးကနေ ကျောက်ချရပ်တည်ရသောကြောင့် ဖြစ်သည်။"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentence_variation",
+      "title": "၃။ ဝါကျ အပြောင်းအလဲများ (Position 1 ၏ လိုက်လျောညီထွေမှု)",
+      "description": "ဂျာမန်ဘာသာစကားတွင် ကြိယာကို Position 2 တွင် ထားသရွေ့ ဝါကျကို ဘယ်အချက်နှင့်မဆို စတင်နိုင်သည်။ အချိန် (Time) သို့မဟုတ် ကံပုဒ် (Object) ကို အသားပေးလိုပါက ၎င်းတို့ကို Position 1 တွင် ထားနိုင်သည်။",
+      "content": {
+        "example_intro": "ဥပမာ: \"ကျွန်ုပ် မနေ့က မောင်လေးကို CD တစ်ချပ် ပေးခဲ့သည်။\"",
+        "examples": [
+          {
+            "german": "Ich habe meinem Bruder gestern eine CD geschenkt.",
+            "translation": "ကတ္တားကို အရှေ့ထားခြင်း"
+          },
+          {
+            "german": "Gestern habe ich meinem Bruder eine CD geschenkt.",
+            "translation": "အချိန်ကို အရှေ့ထားခြင်း"
+          },
+          {
+            "german": "Meinem Bruder habe ich gestern eine CD geschenkt.",
+            "translation": "လက်ခံသူကို အရှေ့ထားခြင်း"
+          }
+        ],
+        "note": "မှတ်ချက်: ဝါကျကို ဘာနှင့်ပဲစစ၊ Conjugated Verb (habe) သည် အမြဲတမ်း ဒုတိယနေရာတွင် ရှိနေပြီး Participle (geschenkt) သည် အမြဲတမ်း အဆုံးတွင် ရှိနေရမည်။"
+      }
+    },
+    {
+      "id": "summary",
+      "title": "၄။ အမြန်ကြည့်ရန် အနှစ်ချုပ်ဇယား",
+      "description": "အမျိုးအစားအားလုံးအတွက် အမြန်ကြည့်ရန် မှတ်တမ်း:",
+      "content": {
+        "summary_table": {
+          "headers": ["အမျိုးအစား", "Conjugated (Pos 2)", "နောက်ဆုံးနေရာ (End)", "နမူနာ"],
+          "rows": [
+            ["Modal", "will / muss / kann", "Infinitive", "Er muss heute arbeiten."],
+            ["Separable", "kaufe / räume", "Prefix", "Ich räume die Wohnung auf."],
+            ["Perfect", "habe / ist", "Partizip II", "Er ist nach Berlin gefahren."],
+            ["Fixed Pair", "spiele / gehe", "Noun/Verb", "Wir gehen heute einkaufen."]
+          ]
+        }
+      }
+    }
+  ]
+}

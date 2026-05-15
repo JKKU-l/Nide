@@ -1,0 +1,55 @@
+{
+  "title": "Family & Relationships",
+  "emoji": "👨‍👩‍👧‍👦",
+  "theme_color": "#4CAF50",
+  "description": "Family members and relationships",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "lieben", "english": "to love", "example_german": "Ich liebe meine Familie über alles.", "example_english": "I love my family more than anything."},
+          {"german": "heiraten", "english": "to marry", "example_german": "Sie heiraten nächsten Monat in Italien.", "example_english": "They are getting married in Italy next month."},
+          {"german": "treffen", "english": "to meet", "example_german": "Ich treffe mich heute Abend mit Freunden.", "example_english": "I am meeting friends tonight."},
+          {"german": "besuchen", "english": "to visit", "example_german": "Wir besuchen am Wochenende unsere Großeltern.", "example_english": "We are visiting our grandparents on the weekend."},
+          {"german": "einladen", "english": "to invite", "example_german": "Ich lade dich zu meinem Geburtstag ein.", "example_english": "I am inviting you to my birthday."},
+          {"german": "feiern", "english": "to celebrate", "example_german": "Wir feiern heute den Hochzeitstag meiner Eltern.", "example_english": "We are celebrating my parents' wedding anniversary today."},
+          {"german": "schenken", "english": "to give a gift", "example_german": "Was schenkst du deinem Bruder zu Weihnachten?", "example_english": "What are you giving your brother for Christmas?"},
+          {"german": "spielen", "english": "to play", "example_german": "Der Vater spielt mit seinen Kindern im Garten.", "example_english": "The father is playing with his children in the garden."},
+          {"german": "helfen", "english": "to help", "example_german": "Kannst du mir bitte beim Kochen helfen?", "example_english": "Can you please help me with the cooking?"},
+          {"german": "pflegen", "english": "to care for / nurse", "example_german": "Sie pflegt ihren kranken Vater zu Hause.", "example_english": "She is caring for her sick father at home."},
+          {"german": "erziehen", "english": "to raise / bring up", "example_german": "Es ist nicht immer leicht, Kinder zu erziehen.", "example_english": "It is not always easy to raise children."},
+          {"german": "wachsen", "english": "to grow", "example_german": "Die Kinder wachsen so schnell!", "example_english": "The children are growing so fast!"},
+          {"german": "leben", "english": "to live", "example_german": "Wir leben glücklich zusammen.", "example_english": "We live happily together."},
+          {"german": "sterben", "english": "to die", "example_german": "Sein Großvater starb vor vielen Jahren.", "example_english": "His grandfather died many years ago."},
+          {"german": "weinen", "english": "to cry", "example_german": "Das Baby weint, weil es Hunger hat.", "example_english": "The baby is crying because it is hungry."},
+          {"german": "lachen", "english": "to laugh", "example_german": "Wir lachen viel, wenn wir zusammen sind.", "example_english": "We laugh a lot when we are together."},
+          {"german": "streiten", "english": "to argue", "example_german": "Geschwister streiten sich manchmal.", "example_english": "Siblings sometimes argue with each other."},
+          {"german": "umarmen", "english": "to hug", "example_german": "Sie umarmt ihre Mutter zur Begrüßung.", "example_english": "She hugs her mother as a greeting."},
+          {"german": "küssen", "english": "to kiss", "example_german": "Sie küssen sich zum Abschied.", "example_english": "They kiss each other goodbye."},
+          {"german": "anrufen", "english": "to call (on the phone)", "example_german": "Ich rufe meine Mutter jeden Sonntag an.", "example_english": "I call my mother every Sunday."},
+          {"german": "schreiben", "english": "to write", "example_german": "Ich schreibe meiner Tante eine Postkarte.", "example_english": "I am writing a postcard to my aunt."},
+          {"german": "lesen", "english": "to read", "example_german": "Der Vater liest den Kindern eine Geschichte vor.", "example_english": "The father reads a story to the children."},
+          {"german": "erzählen", "english": "to tell / narrate", "example_german": "Er erzählt uns von seiner Reise.", "example_english": "He is telling us about his trip."},
+          {"german": "zuhören", "english": "to listen", "example_german": "Bitte hör mir gut zu.", "example_english": "Please listen to me carefully."},
+          {"german": "verstehen", "english": "to understand", "example_german": "Wir verstehen uns sehr gut.", "example_english": "We understand/get along with each other very well."},
+          {"german": "vergeben", "english": "to forgive", "example_german": "Ich kann ihm diesen Fehler nicht vergeben.", "example_english": "I cannot forgive him for this mistake."},
+          {"german": "danken", "english": "to thank", "example_german": "Ich danke dir für deine Hilfe.", "example_english": "I thank you for your help."},
+          {"german": "gratulieren", "english": "to congratulate", "example_german": "Ich gratuliere dir herzlich zum Geburtstag!", "example_english": "I congratulate you warmly on your birthday!"},
+          {"german": "wünschen", "english": "to wish", "example_german": "Ich wünsche dir alles Gute.", "example_english": "I wish you all the best."},
+          {"german": "kennen", "english": "to know (someone/somewhere)", "example_german": "Ich kenne deine Schwester schon lange.", "example_english": "I have known your sister for a long time."},
+          {"german": "vorstellen", "english": "to introduce", "example_german": "Darf ich dir meine Freundin vorstellen?", "example_english": "May I introduce my girlfriend to you?"},
+          {"german": "erinnern", "english": "to remember", "example_german": "Erinnerst du dich an unseren ersten Urlaub?", "example_english": "Do you remember our first vacation?"},
+          {"german": "vergessen", "english": "to forget", "example_german": "Ich habe deinen Geburtstag nicht vergessen.", "example_english": "I haven't forgotten your birthday."},
+          {"german": "sprechen", "english": "to speak", "example_german": "Wir müssen über das Problem sprechen.", "example_english": "We need to speak about the problem."},
+          {"german": "reden", "english": "to talk", "example_german": "Sie reden stundenlang über Gott und die Welt.", "example_english": "They talk for hours about everything and anything."},
+          {"german": "diskutieren", "english": "to discuss", "example_german": "Wir diskutieren oft über Politik.", "example_english": "We often discuss politics."},
+          {"german": "sorgen", "english": "to care / worry", "example_german": "Eltern sorgen sich immer um ihre Kinder.", "example_english": "Parents always worry about their children."},
+          {"german": "schützen", "english": "to protect", "example_german": "Er will seine Familie vor Gefahren schützen.", "example_english": "He wants to protect his family from dangers."},
+          {"german": "unterstützen", "english": "to support", "example_german": "Meine Freunde unterstützen mich immer.", "example_english": "My friends always support me."},
+          {"german": "zusammen sein", "english": "to be together", "example_german": "Wir sind seit fünf Jahren zusammen.", "example_english": "We have been together for five years."}
+        ]
+      }
+    }
+  ]
+}

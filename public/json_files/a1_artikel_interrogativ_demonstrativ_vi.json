@@ -1,0 +1,173 @@
+{
+  "title": "Artikel: interrogativ und demonstrativ (Từ để hỏi và Từ chỉ định)",
+  "description": "Hiểu về sự khác biệt giữa từ để hỏi (welch-) dùng để hỏi \"cái nào?\" và từ chỉ định (dies-) dùng để chỉ \"cái này/đây\"",
+  "sections": [
+    {
+      "id": "concept_understanding",
+      "title": "Hiểu về khái niệm: Từ để hỏi và Từ chỉ định",
+      "description": "Học sự khác biệt giữa việc hỏi về một thứ cụ thể và chỉ ra một thứ cụ thể",
+      "content": {
+        "definitions": [
+          {
+            "type": "Từ để hỏi (Welcher-)",
+            "description": "Được dùng để hỏi về một người hoặc một vật cụ thể trong một nhóm. Trong tiếng Việt, nó có nghĩa là \"Nào...?\" hoặc \"Cái nào...?\"."
+          },
+          {
+            "type": "Từ chỉ định (Dieser-)",
+            "description": "Được dùng để chỉ ra một người hoặc một vật cụ thể. Trong tiếng Việt, nó có nghĩa là \"Này...\" hoặc \"Cái này...\"."
+          }
+        ],
+        "golden_rule": {
+          "title": "Quy tắc vàng cho người học A1",
+          "description": "Đuôi của từ \"welch-\" phải khớp với đuôi của từ \"dies-\" và mạo từ xác định tương ứng (der/die/das)."
+        }
+      }
+    },
+    {
+      "id": "nominative_case",
+      "title": "1. Cách 1: Nominativ (Danh cách/Chủ ngữ)",
+      "description": "Cách Nominativ được sử dụng cho chủ ngữ của câu (người hoặc vật thực hiện hành động hoặc được mô tả).",
+      "content": {
+        "genders": [
+          {
+            "gender": "Giống đực (der)",
+            "ending": "Sử dụng đuôi -er",
+            "example_question": "Welcher Mantel ist schön?",
+            "example_question_english": "Chiếc áo khoác nào thì đẹp?",
+            "example_response": "Dieser Mantel.",
+            "example_response_english": "Chiếc áo khoác này."
+          },
+          {
+            "gender": "Giống trung (das)",
+            "ending": "Sử dụng đuôi -es",
+            "example_question": "Welches Kleid gefällt dir?",
+            "example_question_english": "Bạn thích chiếc váy nào?",
+            "example_response": "Dieses Kleid.",
+            "example_response_english": "Chiếc váy này."
+          },
+          {
+            "gender": "Giống cái (die)",
+            "ending": "Sử dụng đuôi -e",
+            "example_question": "Welche Hose ist das?",
+            "example_question_english": "Đó là chiếc quần nào vậy?",
+            "example_response": "Diese Hose.",
+            "example_response_english": "Chiếc quần này."
+          },
+          {
+            "gender": "Số nhiều (die)",
+            "ending": "Sử dụng đuôi -e",
+            "example_question": "Welche Schuhe sind neu?",
+            "example_question_english": "Đôi giày nào là giày mới?",
+            "example_response": "Diese Schuhe.",
+            "example_response_english": "Những đôi giày này."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accusative_case",
+      "title": "2. Cách 4: Akkusativ (Đối cách/Tân ngữ trực tiếp)",
+      "description": "Cách Akkusativ được dùng cho tân ngữ trực tiếp (đối tượng chịu tác động của hành động). Lưu ý rằng chỉ có giống đực là thay đổi so với cách Nominativ.",
+      "content": {
+        "genders": [
+          {
+            "gender": "Giống đực (den)",
+            "ending": "Sử dụng đuôi -en",
+            "example_question": "Welchen Anzug kaufst du?",
+            "example_question_english": "Bạn mua bộ com-lê nào?",
+            "example_response": "Ich kaufe diesen Anzug.",
+            "example_response_english": "Tôi mua bộ com-lê này."
+          },
+          {
+            "gender": "Giống trung, Giống cái và Số nhiều",
+            "ending": "Các đuôi vẫn giữ nguyên như ở cách Nominativ (-es, -e, -e)",
+            "example": "Ich nehme dieses T-Shirt.",
+            "example_english": "Tôi sẽ lấy chiếc áo thun này."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_case",
+      "title": "3. Cách 3: Dativ (Biến cách/Tân ngữ gián tiếp hoặc đi với giới từ)",
+      "description": "Cách Dativ được sử dụng sau một số giới từ nhất định (như mit, von, zu, aus, bei) hoặc cho tân ngữ gián tiếp.",
+      "content": {
+        "genders": [
+          {
+            "gender": "Giống đực & Giống trung (dem)",
+            "ending": "Cả hai đều sử dụng đuôi -em",
+            "example_question": "Zu welchem Arzt gehst du?",
+            "example_question_english": "Bạn đi đến bác sĩ nào?",
+            "example_response": "Zu diesem Arzt.",
+            "example_response_english": "Đến bác sĩ này.",
+            "note": "Ví dụ với giới từ \"zu\" (đến)"
+          },
+          {
+            "gender": "Giống cái (der)",
+            "ending": "Sử dụng đuôi -er",
+            "note": "Lưu ý: Điều này thường gây nhầm lẫn cho người mới bắt đầu vì nó trông giống đuôi của giống đực, nhưng trong cách Dativ, giống cái biến đổi thành der",
+            "example_question": "Mit welcher Freundin gehst du?",
+            "example_question_english": "Bạn đi cùng với người bạn nữ nào?",
+            "example_response": "Mit dieser Freundin.",
+            "example_response_english": "Với người bạn nữ này.",
+            "preposition_note": "Ví dụ với giới từ \"mit\" (với)"
+          },
+          {
+            "gender": "Số nhiều (den + n)",
+            "ending": "Sử dụng đuôi -en",
+            "example_question": "Welchen Kindern hast du geholfen?",
+            "example_question_english": "Bạn đã giúp đỡ những đứa trẻ nào?",
+            "example_response": "Diesen Kindern.",
+            "example_response_english": "Những đứa trẻ này."
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_endings",
+      "title": "Tại sao chúng ta sử dụng các đuôi này?",
+      "description": "Tiếng Đức sử dụng các đuôi cụ thể này để tạo ra các \"tín hiệu\". Vì trật tự từ trong tiếng Đức có thể linh hoạt, các đuôi này giúp người nghe biết chính xác ai đang làm gì.",
+      "content": {
+        "signals": [
+          {
+            "type": "Tín hiệu về giống",
+            "description": "Đuôi -er trong Welcher cho bạn biết danh từ đó là giống đực (der). Đuôi -es trong Welches cho biết đó là giống trung (das)."
+          },
+          {
+            "type": "Tín hiệu về chức năng",
+            "description": "Nếu bạn thấy Welchen, bạn biết ngay danh từ giống đực đó là tân ngữ của câu (Akkusativ) hoặc đang được dùng với danh từ số nhiều ở cách Dativ."
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_tip",
+      "title": "Mẹo tóm tắt cho trình độ A1",
+      "description": "Hãy coi Welch- và Dies- như là \"những từ soi gương\". Bất kỳ đuôi nào bạn đặt vào từ để hỏi thường sẽ phản chiếu y hệt vào từ trả lời và mạo từ xác định:",
+      "content": {
+        "examples": [
+          {
+            "article": "Der Mann",
+            "question": "Welcher Mann?",
+            "answer": "Dieser Mann."
+          },
+          {
+            "article": "Das Kind",
+            "question": "Welches Kind?",
+            "answer": "Dieses Kind."
+          },
+          {
+            "article": "Die Frau",
+            "question": "Welche Frau?",
+            "answer": "Diese Frau."
+          },
+          {
+            "article": "Den Mann (Akkusativ)",
+            "question": "Welchen Mann?",
+            "answer": "Diesen Mann."
+          }
+        ]
+      }
+    }
+  ]
+}

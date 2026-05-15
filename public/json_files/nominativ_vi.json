@@ -1,0 +1,83 @@
+{
+  "title": "Nominativ (Cách chủ ngữ)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Cách chủ ngữ (Nominativ) là gì?",
+      "description": "Trong tiếng Đức, Nominativ là cách \"đặt tên\". Hãy coi nó như cài đặt mặc định của một từ trước khi hành động (như cho, nhìn, sở hữu) thay đổi vai trò của nó. Nó chủ yếu được dùng cho chủ ngữ của câu — người hoặc vật thực hiện hành động."
+    },
+    {
+      "id": "articles_adjectives_nouns",
+      "title": "1. Mạo từ, Tính từ và Danh từ",
+      "description": "Đuôi tính từ thay đổi tùy thuộc vào việc nó đứng sau mạo từ xác định (the), mạo từ không xác định (a), hay không có mạo từ. Điều này gọi là biến cách tính từ (Adjektivdeklination).",
+      "content": {
+        "declension_table": {
+          "title": "Bảng biến cách",
+          "headers": ["Loại", "Mạo từ xác định (the)", "Mạo từ không xác định (a/my/no)", "Không có mạo từ"],
+          "rows": [
+            { "category": "Giống đực", "definite": "der nette Vater", "indefinite": "ein netter Vater", "no_article": "netter Vater" },
+            { "category": "Giống cái", "definite": "die nette Mutter", "indefinite": "eine nette Mutter", "no_article": "nette Mutter" },
+            { "category": "Giống trung", "definite": "das nette Kind", "indefinite": "ein nettes Kind", "no_article": "nettes Kind" },
+            { "category": "Số nhiều", "definite": "die netten Eltern", "indefinite": "meine netten Eltern", "no_article": "nette Eltern" }
+          ]
+        },
+        "translations": [
+          { "label": "Giống đực", "german": "Der nette Vater ist hier.", "translation": "Người cha tốt bụng ở đây." },
+          { "label": "Giống cái", "german": "Eine nette Mutter hilft.", "translation": "Một người mẹ tốt bụng giúp đỡ." },
+          { "label": "Giống trung", "german": "Nettes Kind, komm her!", "translation": "Đứa trẻ ngoan, lại đây! (Dùng khi gọi trực tiếp mà không có mạo từ)" }
+        ],
+        "key_rule": "Nếu từ \"the\" (der/die/das) đã chỉ ra giống rồi, tính từ chỉ cần đuôi -e đơn giản (trừ số nhiều). Nếu không có \"the\" để chỉ giống (như với ein), tính từ phải \"mang\" dấu hiệu giống (ví dụ: ein netter Vater vì der kết thúc bằng -r)."
+      }
+    },
+    {
+      "id": "special_determiners",
+      "title": "2. Từ hạn định đặc biệt",
+      "description": "Một số từ hoạt động giống hệt mạo từ xác định (der/die/das). Nếu dùng những từ này, tính từ sẽ luôn kết thúc bằng -e (số ít) hoặc -en (số nhiều).",
+      "content": {
+        "determiners": ["dieser (này)", "jener (kia)", "jeder (mỗi)", "alle (tất cả)"],
+        "example": { "german": "Jeder gute Schüler lernt.", "translation": "Mỗi học sinh giỏi đều học.", "note": "Jeder hoạt động như der, nên gut chỉ thêm -e." }
+      }
+    },
+    {
+      "id": "pronouns",
+      "title": "3. Đại từ",
+      "description": "Đại từ thay thế danh từ. Trong Nominativ, chúng đại diện cho chủ ngữ.",
+      "content": {
+        "personal_pronouns": {
+          "title": "Đại từ nhân xưng (\"Ai\")",
+          "description": "Đây là các chủ ngữ cơ bản của câu:",
+          "singular": ["ich (tôi)", "du (bạn)", "er/sie/es (anh ấy/cô ấy/nó)"],
+          "plural": ["wir (chúng tôi)", "ihr (các bạn)", "sie/Sie (họ/Quý vị)"]
+        },
+        "possessive_pronouns": {
+          "title": "Đại từ sở hữu (\"Của ai\")",
+          "description": "Có hai loại:",
+          "dependent": { "label": "Phụ thuộc", "explanation": "Dùng trước danh từ (ví dụ: Con chó của tôi).", "german": "Mein Hund ist groß.", "translation": "Con chó của tôi to." },
+          "independent": { "label": "Độc lập", "explanation": "Dùng một mình (ví dụ: Con chó là của tôi).", "german": "Der Hund ist meiner.", "translation": "Con chó là của tôi." },
+          "comparison_table": {
+            "title": "So sánh đại từ sở hữu độc lập",
+            "headers": ["Ngôi", "Giống đực (của tôi)", "Giống trung (của tôi)", "Giống cái/Số nhiều (của tôi)"],
+            "rows": [
+              { "person": "Ngôi 1 (Tôi)", "masculine": "meiner", "neuter": "meins", "fem_plural": "meine" },
+              { "person": "Ngôi 2 (Bạn)", "masculine": "deiner", "neuter": "deins", "fem_plural": "deine" },
+              { "person": "Ngôi 3 (Anh ấy)", "masculine": "seiner", "neuter": "seins", "fem_plural": "seine" }
+            ]
+          },
+          "example_dialogue": { "question": "\"Quả bóng đó của ai?\" → \"Của tôi.\"", "german": "\"Wessen Ball ist das?\" → \"Es ist meiner.\"", "note": "Vì Ball là danh từ giống đực." }
+        }
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Tóm tắt cách sử dụng",
+      "description": "Bạn dùng hệ thống Nominativ khi:",
+      "content": {
+        "rules": [
+          { "rule": "Danh từ là chủ ngữ", "german": "Der Hund bellt.", "translation": "Con chó sủa." },
+          { "rule": "Sau động từ \"sein\" (là/thì)", "german": "Er ist ein guter Mann.", "translation": "Anh ấy là một người đàn ông tốt." }
+        ],
+        "note": "Trong tiếng Đức, \"sein\" hoạt động như dấu bằng (A = B), nên cả hai vế đều là Nominativ."
+      }
+    }
+  ]
+}

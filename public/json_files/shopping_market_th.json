@@ -1,0 +1,55 @@
+{
+  "title": "Shopping & Market",
+  "emoji": "🛒",
+  "theme_color": "#009688",
+  "description": "Essential verbs for shopping, stores, and marketplaces in German",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "einkaufen", "thai": "ซื้อของ", "example_german": "Ich muss heute für das Abendessen einkaufen.", "example_thai": "วันนี้ฉันต้องไปซื้อของสำหรับอาหารเย็น"},
+          {"german": "kaufen", "thai": "ซื้อ", "example_german": "Ich kaufe mir ein neues Hemd.", "example_thai": "ฉันซื้อเสื้อเชิ้ตตัวใหม่ให้ตัวเอง"},
+          {"german": "verkaufen", "thai": "ขาย", "example_german": "Er verkauft sein altes Auto.", "example_thai": "เขาขายรถเก่าของเขา"},
+          {"german": "bezahlen", "thai": "จ่ายเงิน", "example_german": "Kann ich bitte mit Karte bezahlen?", "example_thai": "ฉันจ่ายด้วยบัตรได้ไหมคะ?"},
+          {"german": "kosten", "thai": "ราคา / มีราคา", "example_german": "Wie viel kostet dieser Apfel?", "example_thai": "แอปเปิ้ลนี้ราคาเท่าไหร่?"},
+          {"german": "suchen", "thai": "ค้นหา / มองหา", "example_german": "Ich suche nach einem Geschenk für meine Mutter.", "example_thai": "ฉันกำลังมองหาของขวัญให้แม่"},
+          {"german": "finden", "thai": "พบ / เจอ", "example_german": "Hast du deine Schlüssel gefunden?", "example_thai": "คุณเจอกุญแจแล้วหรือยัง?"},
+          {"german": "anprobieren", "thai": "ลองสวม", "example_german": "Darf ich diese Hose anprobieren?", "example_thai": "ฉันลองกางเกงตัวนี้ได้ไหม?"},
+          {"german": "passen", "thai": "พอดี", "example_german": "Die Schuhe passen mir perfekt.", "example_thai": "รองเท้าคู่นี้พอดีกับฉันเลย"},
+          {"german": "gefallen", "thai": "ชอบ", "example_german": "Das Kleid gefällt mir sehr gut.", "example_thai": "ฉันชอบชุดนี้มาก"},
+          {"german": "wählen", "thai": "เลือก", "example_german": "Bitte wählen Sie eine Farbe aus.", "example_thai": "กรุณาเลือกสีหนึ่งสี"},
+          {"german": "nehmen", "thai": "เอา / หยิบ", "example_german": "Ich nehme zwei Kilo Kartoffeln.", "example_thai": "ฉันจะเอามันฝรั่งสองกิโลกรัม"},
+          {"german": "wechseln", "thai": "แลก", "example_german": "Können Sie mir diesen 50-Euro-Schein wechseln?", "example_thai": "คุณแลกธนบัตร 50 ยูโรนี้ให้ฉันได้ไหม?"},
+          {"german": "zurückgeben", "thai": "คืน", "example_german": "Ich möchte dieses Produkt zurückgeben.", "example_thai": "ฉันอยากคืนสินค้าชิ้นนี้"},
+          {"german": "umtauschen", "thai": "แลกเปลี่ยน", "example_german": "Kann ich dieses T-Shirt gegen eine andere Größe umtauschen?", "example_thai": "ฉันแลกเสื้อยืดตัวนี้เป็นไซส์อื่นได้ไหม?"},
+          {"german": "bestellen", "thai": "สั่ง", "example_german": "Wir bestellen uns heute Abend eine Pizza.", "example_thai": "เราสั่งพิซซ่าคืนนี้"},
+          {"german": "liefern", "thai": "จัดส่ง", "example_german": "Das Geschäft liefert die Möbel direkt nach Hause.", "example_thai": "ร้านจัดส่งเฟอร์นิเจอร์ถึงบ้านโดยตรง"},
+          {"german": "abholen", "thai": "รับ / ไปรับ", "example_german": "Ich hole meine Bestellung morgen im Laden ab.", "example_thai": "พรุ่งนี้ฉันจะไปรับของที่สั่งที่ร้าน"},
+          {"german": "einpacken", "thai": "ห่อ / แพ็ค", "example_german": "Können Sie das bitte als Geschenk einpacken?", "example_thai": "คุณช่วยห่อเป็นของขวัญได้ไหม?"},
+          {"german": "vergleichen", "thai": "เปรียบเทียบ", "example_german": "Man sollte immer die Preise vergleichen.", "example_thai": "ควรเปรียบเทียบราคาเสมอ"},
+          {"german": "anschauen", "thai": "ดู", "example_german": "Ich möchte mir nur kurz die Auslage anschauen.", "example_thai": "ฉันแค่อยากดูหน้าร้านสักครู่"},
+          {"german": "fragen", "thai": "ถาม", "example_german": "Darf ich Sie etwas fragen?", "example_thai": "ฉันถามอะไรหน่อยได้ไหม?"},
+          {"german": "antworten", "thai": "ตอบ", "example_german": "Der Verkäufer antwortet auf meine Fragen.", "example_thai": "พนักงานขายตอบคำถามของฉัน"},
+          {"german": "helfen", "thai": "ช่วย", "example_german": "Kann ich Ihnen helfen?", "example_thai": "ฉันช่วยอะไรคุณได้ไหม?"},
+          {"german": "empfehlen", "thai": "แนะนำ", "example_german": "Welchen Wein können Sie mir empfehlen?", "example_thai": "คุณแนะนำไวน์ตัวไหนให้ฉันได้บ้าง?"},
+          {"german": "brauchen", "thai": "ต้องการ", "example_german": "Ich brauche eine neue Tasche.", "example_thai": "ฉันต้องการกระเป๋าใบใหม่"},
+          {"german": "wollen", "thai": "อยาก", "example_german": "Ich will heute nicht mehr einkaufen gehen.", "example_thai": "วันนี้ฉันไม่อยากไปซื้อของอีกแล้ว"},
+          {"german": "haben", "thai": "มี", "example_german": "Haben Sie auch frische Erdbeeren?", "example_thai": "มีสตรอว์เบอร์รี่สดด้วยไหม?"},
+          {"german": "geben", "thai": "ให้", "example_german": "Können Sie mir bitte eine Quittung geben?", "example_thai": "คุณช่วยให้ใบเสร็จฉันได้ไหม?"},
+          {"german": "zeigen", "thai": "แสดง / ชี้ให้ดู", "example_german": "Können Sie mir bitte die Uhr dort zeigen?", "example_thai": "คุณช่วยชี้ให้ดูนาฬิกาตรงนั้นได้ไหม?"},
+          {"german": "mitnehmen", "thai": "นำติดตัวไป", "example_german": "Ich nehme diese Zeitschrift noch mit.", "example_thai": "ฉันจะเอานิตยสารเล่มนี้ไปด้วย"},
+          {"german": "tragen", "thai": "ถือ / แบก", "example_german": "Er trägt die schweren Einkaufstüten zum Auto.", "example_thai": "เขาแบกถุงช้อปปิ้งหนักๆ ไปที่รถ"},
+          {"german": "laufen", "thai": "เดิน", "example_german": "Wir laufen durch den Supermarkt.", "example_thai": "เราเดินผ่านซูเปอร์มาร์เก็ต"},
+          {"german": "stehen", "thai": "ยืน / ต่อแถว", "example_german": "Wir stehen an der Kasse an.", "example_thai": "เรายืนต่อแถวที่แคชเชียร์"},
+          {"german": "warten", "thai": "รอ", "example_german": "Ich warte auf meine Wechselgeld.", "example_thai": "ฉันรอเงินทอน"},
+          {"german": "sparen", "thai": "ประหยัด / เก็บออม", "example_german": "Diesen Monat möchte ich etwas Geld sparen.", "example_thai": "เดือนนี้ฉันอยากเก็บเงินสักหน่อย"},
+          {"german": "ausgeben", "thai": "ใช้จ่าย", "example_german": "Sie hat viel Geld für Kleidung ausgegeben.", "example_thai": "เธอใช้จ่ายเงินมากไปกับเสื้อผ้า"},
+          {"german": "rechnen", "thai": "คำนวณ", "example_german": "Ich muss kurz den Gesamtbetrag rechnen.", "example_thai": "ฉันต้องคำนวณยอดรวมสักครู่"},
+          {"german": "zählen", "thai": "นับ", "example_german": "Er zählt sein Geld an der Kasse.", "example_thai": "เขานับเงินที่แคชเชียร์"},
+          {"german": "prüfen", "thai": "ตรวจสอบ", "example_german": "Bitte prüfen Sie Ihren Kassenbon.", "example_thai": "กรุณาตรวจสอบใบเสร็จของคุณ"}
+        ]
+      }
+    }
+  ]
+}

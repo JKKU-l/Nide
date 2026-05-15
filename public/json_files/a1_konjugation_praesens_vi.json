@@ -1,0 +1,110 @@
+{
+  "title": "Chia dynamic  tai hien tai (Konjugation Präsens)",
+  "subtitle": "Chia dynamic tai hien tai (Konjugation Präsens)",
+  "sections": [
+    {
+      "id": "regular_verb_conjugation",
+      "title": "1. Chia dynamic co quy tac (Regular Verbs)",
+      "description": "Trong tieng Duc, duoi dynamic thay doi theo chu ngu. Ta lay goc dynamic va them cac hau to sau:",
+      "content": {
+        "table": {
+          "headers": ["Chu ngu (Subject)", "Hau to (Ending)", "Vi du: kommen (den)"],
+          "rows": [
+            ["Ich (Toi)", "-e", "komme"],
+            ["Du (Ban)", "-st", "kommst"],
+            ["Er / Sie / Es (Anh ay/Co ay/No)", "-t", "kommt"],
+            ["Wir (Chung toi)", "-en", "kommen"],
+            ["Ihr (Cac ban)", "-t", "kommt"],
+            ["Sie / sie (Ngai / Ho)", "-en", "kommen"]
+          ]
+        },
+        "dialogues": [
+          {
+            "speaker": "Marc",
+            "german": "Woher kommst du?",
+            "english": "Ban den tu dau?"
+          },
+          {
+            "speaker": "Alice",
+            "german": "Ich komme aus Brasilien. Das ist mein Freund, er kommt aus Russland.",
+            "english": "Toi den tu Brazil. Day la ban toi, anh ay den tu Nga.",
+            "tip": "Luu y: Chu ngu Ich luon di voi duoi -e va Er luon di voi -t."
+          },
+          {
+            "speaker": "Alice & Yuri",
+            "german": "Wo arbeitest du?",
+            "english": "Ban lam viec o dau?",
+            "tip": "Meo giao vien: Voi dynamic ket thuc bang 't' nhu arbeiten, ta them e vao truoc hau to -st de de pham am."
+          }
+        ]
+      }
+    },
+    {
+      "id": "irregular_verbs_sein_haben",
+      "title": "2. Dynamic bat quy tac: Sein & Haben",
+      "description": "Day la hai dynamic quan trong nhat, can hoc thuoc long:",
+      "content": {
+        "examples": [
+          {
+            "german": "Das sind Angela und Pascal.",
+            "english": "Do la Angela va Pascal."
+          },
+          {
+            "german": "Sie haben einen Hund.",
+            "english": "Ho co mot con cho."
+          },
+          {
+            "german": "Er ist fünf Monate alt.",
+            "english": "No duoc 5 thang tuoi."
+          }
+        ]
+      }
+    },
+    {
+      "id": "preferences_wishes",
+      "title": "3. Mong muon va So thich",
+      "description": "Möchten (Muon - Lich su) - Mögen (Thich)",
+      "content": {
+        "dialogues": [
+          {
+            "speaker": "Kellner",
+            "german": "Was möchten Sie?",
+            "english": "Ngai muon dung gi a?"
+          },
+          {
+            "speaker": "Frau Taylor",
+            "german": "Ich möchte einen Kaffee.",
+            "english": "Toi muon mot tach ca phe."
+          }
+        ],
+        "examples": [
+          {
+            "german": "Ich mag Kaffee.",
+            "english": "Toi thich ca phe."
+          },
+          {
+            "german": "Meine Eltern mögen keinen Fisch.",
+            "english": "Bo me toi khong thich ca."
+          }
+        ]
+      }
+    },
+    {
+      "id": "knowing_facts",
+      "title": "4. Biet thong tin: Wissen",
+      "description": "Biet thong tin: Wissen",
+      "content": {
+        "examples": [
+          {
+            "german": "Wissen Sie, wo der Bahnhof ist?",
+            "english": "Ngai co biet nha ga o dau khong?"
+          },
+          {
+            "german": "Tut mir leid, das weiß ich nicht.",
+            "english": "Rat tiec, toi khong biet dieu do."
+          }
+        ]
+      }
+    }
+  ]
+}

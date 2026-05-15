@@ -1,0 +1,159 @@
+{
+  "title": "Articles (Definite, Indefinite, Zero)",
+  "sections": [
+    {
+      "id": "indefinite_articles",
+      "title": "1. Indefinite Articles (Indefiniter Artikel)",
+      "description": "Use these when introducing something for the first time or when referring to a non-specific item (equivalent to \"a\" or \"an\" in English).",
+      "content": {
+        "examples_table": {
+          "headers": ["Gender", "Nominative (Subject)", "Accusative (Direct Object)"],
+          "rows": [
+            ["Masculine", "ein Mann", "einen Kaffee"],
+            ["Neutral", "ein Haus", "ein Brötchen"],
+            ["Feminine", "eine Frau", "eine Banane"],
+            ["Plural", "(No article) Autos", "(No article) Kartoffeln"]
+          ]
+        },
+        "why_use_them": {
+          "title": "Why use them?",
+          "rules": [
+            {
+              "rule": "Nominative: Used for the subject of the sentence or after the verb sein (to be).",
+              "example": "Das ist ein Stuhl. (That is a chair.)"
+            },
+            {
+              "rule": "Accusative: Used when the noun is the direct object of an action. Note: Only the masculine article changes from ein to einen.",
+              "example": "Ich möchte einen Kaffee. (I would like a coffee.)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_articles",
+      "title": "2. Definite Articles (Definiter Artikel)",
+      "description": "Use these when referring to a specific item already mentioned or known to the listener (equivalent to \"the\" in English).",
+      "content": {
+        "examples_table": {
+          "headers": ["Gender", "Nominative (Subject)", "Accusative (Direct Object)"],
+          "rows": [
+            ["Masculine", "der Mann", "den Kaffee"],
+            ["Neutral", "das Haus", "das Brötchen"],
+            ["Feminine", "die Frau", "die Banane"],
+            ["Plural", "die Autos", "die Kartoffeln"]
+          ]
+        },
+        "why_use_them": {
+          "title": "Why use them?",
+          "rules": [
+            {
+              "rule": "Specific Identification: Once you have introduced \"a chair\" (ein Stuhl), it becomes \"the chair\" (der Stuhl).",
+              "example": "Das ist ein Laptop. Der Laptop ist gut. (That is a laptop. The laptop is good.)"
+            },
+            {
+              "rule": "Accusative Change: Just like indefinite articles, only the masculine changes from der to den.",
+              "example": "Ich finde den Rock schön. (I find the skirt beautiful.)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zero_article",
+      "title": "3. Zero Article (Kein Artikel)",
+      "description": "In certain German sentences, you do not use an article at all.",
+      "content": {
+        "key_rules": [
+          {
+            "category": "Uncountable Things",
+            "description": "Concepts you cannot count (Time, Luck, Money, Hunger).",
+            "examples": [
+              "Ich habe Zeit. (I have time.) — Not \"a time\"",
+              "Er hat Glück. (He has luck.)"
+            ]
+          },
+          {
+            "category": "Professions/Jobs",
+            "description": "When saying what your job is.",
+            "examples": [
+              "Ich bin Pilotin. (I am a pilot.) — In English we say \"a pilot\", but in German, we omit the article."
+            ]
+          },
+          {
+            "category": "General Plurals",
+            "description": "When speaking about more than one item in a general sense.",
+            "examples": [
+              "Das sind Blumen. (Those are flowers.)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_application",
+      "title": "4. Practical Application (From Exercises)",
+      "description": "How to transition between articles in real usage.",
+      "content": {
+        "transitioning": {
+          "title": "Transitioning from Indefinite to Definite",
+          "description": "When describing objects, you usually follow this pattern:",
+          "steps": [
+            "Introduce: Das ist + Indefinite Article (ein/eine).",
+            "Describe: Definite Article (der/die/das) + Adjective."
+          ],
+          "examples": [
+            {
+              "gender": "Masculine",
+              "introduce": "Das ist ein Laptop. (General introduction)",
+              "describe": "Der Laptop ist gut. (Specific description)"
+            },
+            {
+              "gender": "Feminine",
+              "introduce": "Das ist eine Vase.",
+              "describe": "Die Vase ist schön."
+            },
+            {
+              "gender": "Neutral",
+              "introduce": "Das ist ein Bild.",
+              "describe": "Das Bild ist teuer."
+            }
+          ]
+        },
+        "accusative_questions": {
+          "title": "The Accusative Case in Questions",
+          "description": "When asking \"Do you have...?\" (Hast du...?), the object you are asking about is in the Accusative Case.",
+          "examples": [
+            {
+              "gender": "Masculine",
+              "example": "Hast du einen Kuli?",
+              "note": "Did you notice the -en ending? This is because Kuli is masculine and the direct object."
+            },
+            {
+              "gender": "Feminine",
+              "example": "Hast du eine Uhr?",
+              "note": "No change"
+            },
+            {
+              "gender": "Neutral",
+              "example": "Hast du ein Handy?",
+              "note": "No change"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "narrative_usage",
+      "title": "5. Narrative Usage (The \"Märchen\" Example)",
+      "description": "In storytelling, the article changes as the story progresses.",
+      "content": {
+        "example": {
+          "introduction": "Es war einmal ein König. (Once upon a time there was a king - first introduction)",
+          "continuation": "Der König war sehr reich. (The king was very rich - now we know which king we are talking about)"
+        },
+        "grammar_tip": "Always learn the gender (der/die/das) with every new noun. If you don't know the gender, you cannot choose the correct article for Nominative or Accusative cases!"
+      }
+    }
+  ]
+}

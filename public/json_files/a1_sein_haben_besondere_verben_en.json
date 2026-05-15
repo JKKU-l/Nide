@@ -1,0 +1,109 @@
+{
+  "title": "Sein & Haben",
+  "subtitle": "Special Verbs and Their Conjugations",
+  "sections": [
+    {
+      "id": "auxiliary_verbs",
+      "title": "1. Auxiliary Verbs: Sein (To Be) & Haben (To Have)",
+      "description": "In German, these are the most fundamental verbs. Sein is used for identity, state, and age, while Haben is used for possession.",
+      "content": {
+        "table": {
+          "headers": ["Pronoun", "Sein (To Be)", "Haben (To Have)", "Examples & English Translation"],
+          "rows": [
+            ["ich (I)", "bin", "habe", "Ich bin Lehrer. (I am a teacher.)"],
+            ["du (you)", "bist", "hast", "Hast du Geld? (Do you have money?)"],
+            ["er/sie/es (he/she/it)", "ist", "hat", "Er ist 5 Jahre alt. (He is 5 years old.)"],
+            ["wir (we)", "sind", "haben", "Wir haben einen Hund. (We have a dog.)"],
+            ["ihr (you all)", "seid", "habt", "Seid ihr neu hier? (Are you all new here?)"],
+            ["sie/Sie (they/You formal)", "sind", "haben", "Sind Sie verheiratet? (Are you married?)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "special_verbs",
+      "title": "2. Special Verbs (Conjugation)",
+      "description": "These verbs are \"special\" because they follow unique patterns, such as vowel changes in the stem or identical forms for ich and er/sie/es.",
+      "content": {
+        "table": {
+          "headers": ["Pronoun", "möchte (would like)", "mögen (to like)", "wissen (to know)", "tun (to do)"],
+          "rows": [
+            ["ich", "möchte", "mag", "weiß", "tue"],
+            ["du", "möchtest", "magst", "weißt", "tust"],
+            ["er/sie/es", "möchte", "mag", "weiß", "tut"],
+            ["wir", "möchten", "mögen", "wissen", "tun"],
+            ["ihr", "möchtet", "mögt", "wisst", "tut"],
+            ["sie/Sie", "möchten", "mögen", "wissen", "tun"]
+          ]
+        },
+        "note": "Note for Learners: In many special or modal-like verbs, the 1st person (ich) and 3rd person (er/sie/es) forms are identical (e.g., Ich mag / Er mag)."
+      }
+    },
+    {
+      "id": "detailed_usage",
+      "title": "3. Detailed Usage & Meaning",
+      "description": "Learn the specific meanings and usage contexts of these special verbs.",
+      "content": {
+        "examples": [
+          {
+            "verb": "Möchten (Would like)",
+            "meaning": "Used for polite requests or orders in restaurants/shops.",
+            "example": "Wir möchten etwas trinken. (We would like something to drink.)"
+          },
+          {
+            "verb": "Mögen (To like)",
+            "meaning": "Used to express a general preference for objects, people, or places.",
+            "example": "Sie mag Italien. (She likes Italy.)"
+          },
+          {
+            "verb": "Wissen (To know)",
+            "meaning": "Used for knowing facts or pieces of information.",
+            "example": "Ich weiß das nicht. (I don't know that.)"
+          },
+          {
+            "verb": "Tun (To do / To hurt)",
+            "meaning": "Besides meaning \"to do,\" it is commonly used with \"weh\" to express physical pain.",
+            "example": "Meine Ohren tun weh. (My ears hurt.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_sentences",
+      "title": "4. Practice Sentences & Translations",
+      "description": "Practice using these verbs in real sentences with translations.",
+      "content": {
+        "examples": [
+          {
+            "german": "Mein Name ist Misterek.",
+            "english": "My name is Misterek."
+          },
+          {
+            "german": "Hast du Zeit?",
+            "english": "Do you have time?"
+          },
+          {
+            "german": "Ich bin Schülerin.",
+            "english": "I am a student (female)."
+          },
+          {
+            "german": "Ich möchte einen Kaffee.",
+            "english": "I would like a coffee."
+          },
+          {
+            "german": "Weißt du, wo der Bahnhof ist?",
+            "english": "Do you know where the train station is?"
+          },
+          {
+            "german": "Tun Sie ganz wenig.",
+            "english": "Do very little. (Take it easy / Work less)"
+          },
+          {
+            "german": "Was tut weh?",
+            "english": "What hurts? / Where is the pain?"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "title": "Akkusativ (4격 - 대격)",
+  "sections": [
+    {
+      "id": "what_is_akkusativ",
+      "title": "1. 4격(Akkusativ)이란 무엇인가요?",
+      "description": "독일어 문장에서 1격(Nominative, 주격)은 문장의 주어(행동을 하는 사람이나 사물)를 나타냅니다. 반면 4격(Accusative, 대격)은 직접 목적어(행동의 대상을 받는 사람이나 사물)를 나타낼 때 사용합니다.",
+      "content": {
+        "example_sentence": {
+          "sentence": "웨이터가 주스를 마십니다.",
+          "breakdown": [
+            {
+              "part": "웨이터 (The waiter)",
+              "role": "주어 (1격)"
+            },
+            {
+              "part": "마십니다 (Drinks)",
+              "role": "동사"
+            },
+            {
+              "part": "주스를 (A juice)",
+              "role": "직접 목적어 (4격)"
+            }
+          ]
+        },
+        "golden_rule": {
+          "title": "4격의 황금 법칙",
+          "description": "4격에서 관사가 변하는 것은 오직 남성 명사뿐입니다. 여성, 중성, 그리고 복수 명사는 1격(주격)일 때와 형태가 똑같습니다.",
+          "changes": [
+            {
+              "gender": "남성 명사의 변화",
+              "nominative": "der/ein",
+              "accusative": "den/einen"
+            },
+            {
+              "gender": "중성 명사 유지",
+              "nominative": "das/ein",
+              "accusative": "das/ein"
+            },
+            {
+              "gender": "여성 명사 유지",
+              "nominative": "die/eine",
+              "accusative": "die/eine"
+            },
+            {
+              "gender": "복수 명사 유지",
+              "nominative": "die/--",
+              "accusative": "die/--"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_indefinite_articles",
+      "title": "2. 정관사와 부정관사의 사용",
+      "description": "특정한 대상을 지칭할 때는 정관사(the)를 사용하고, 정해지지 않은 \"아무것이나 하나\"를 말할 때는 부정관사(a/an)를 사용합니다.",
+      "content": {
+        "masculine_examples": {
+          "title": "남성 명사의 예시 (변화 발생):",
+          "examples": [
+            {
+              "english": "나는 그 여권을 가지고 있다",
+              "german": "Ich habe den Pass.",
+              "note": "남성 \"der\"가 \"den\"으로 변경"
+            },
+            {
+              "english": "나는 컴퓨터 한 대가 필요하다",
+              "german": "Ich brauche einen Computer.",
+              "note": "남성 \"ein\"이 \"einen\"으로 변경"
+            }
+          ]
+        },
+        "neutral_feminine_examples": {
+          "title": "중성 및 여성 명사의 예시 (변화 없음):",
+          "examples": [
+            {
+              "english": "나는 그 빵을 산다",
+              "german": "Ich kaufe das Brot.",
+              "note": "중성 \"das\"는 그대로 \"das\""
+            },
+            {
+              "english": "나는 와인 한 병을 마신다",
+              "german": "Ich trinke eine Flasche Wein.",
+              "note": "여성 \"eine\"는 그대로 \"eine\""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "negative_articles",
+      "title": "3. 부정 관사 (Kein - \"없다\"를 의미)",
+      "description": "명사를 부정하여 \"~이 없다\"라고 말할 때는 kein을 사용합니다. 이는 \"ein\"의 변화 패턴을 그대로 따릅니다.",
+      "content": {
+        "examples": [
+          {
+            "gender": "남성",
+            "english": "나는 개가 없다.",
+            "german": "Ich habe keinen Hund.",
+            "note": "-en 어미에 주목하세요"
+          },
+          {
+            "gender": "중성",
+            "english": "나는 차가 없다.",
+            "german": "Ich habe kein Auto."
+          },
+          {
+            "gender": "여성",
+            "english": "나는 고양이가 없다.",
+            "german": "Ich habe keine Katze."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asking_questions",
+      "title": "4. 의문문 만들기: \"Wen\" vs. \"Was\"",
+      "description": "목적어에 대해 질문할 때, 그 대상이 사람인지 사물인지에 따라 의문사가 달라집니다.",
+      "content": {
+        "question_words": [
+          {
+            "word": "Wen?",
+            "meaning": "누구를",
+            "usage": "사람에게 사용합니다.",
+            "example_question": "Wen lieben Sie? (당신은 누구를 사랑합니까?)",
+            "example_answer": "Ich liebe meinen Mann. (제 남편을 사랑합니다.)"
+          },
+          {
+            "word": "Was?",
+            "meaning": "무엇을",
+            "usage": "사물이나 대상에 사용합니다.",
+            "example_question": "Was trinken Sie? (무엇을 마시고 있습니까?)",
+            "example_answer": "Ich trinke einen Saft. (주스를 마시고 있습니다.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_and_when",
+      "title": "5. 왜, 그리고 언제 사용하는가?",
+      "description": "4격은 주로 타동사에 의해 결정됩니다. 타동사는 의미 전달을 위해 목적어가 반드시 필요한 동사들입니다. A1 단계에서 자주 쓰이는 4격 지배 동사들은 다음과 같습니다:",
+      "content": {
+        "common_verbs": [
+          {
+            "verb": "haben (~을 가지다)",
+            "example": "Ich habe einen Bruder."
+          },
+          {
+            "verb": "brauchen (~이 필요하다)",
+            "example": "Wir brauchen den Schirm."
+          },
+          {
+            "verb": "essen/trinken (먹다/마시다)",
+            "example": "Er isst einen Apfel."
+          },
+          {
+            "verb": "sehen (~을 보다)",
+            "example": "Ich sehe den Film."
+          },
+          {
+            "verb": "kaufen (~을 사다)",
+            "example": "Sie kauft das Haus."
+          },
+          {
+            "verb": "lieben (~을 사랑하다)",
+            "example": "Ich liebe meine Familie."
+          }
+        ],
+        "logic_summary": "무언가에 대해 행동을 수행한다면(그것을 사거나, 먹거나, 보거나, 소유하는 등), 그 '무언가'는 반드시 4격이어야 합니다. 그 대상이 남성 명사라면 관사에 -en을 붙이고, 여성이나 중성이라면 기초 단어장에서 배운 형태를 그대로 유지하면 됩니다."
+      }
+    },
+    {
+      "id": "context_example",
+      "title": "6. 상황 예시: \"반려동물\" 논리",
+      "description": "문맥에 따라 격이 어떻게 변하는지 주의 깊게 보세요:",
+      "content": {
+        "examples": [
+          {
+            "sentence": "지금 나는 개 한 마리를 가지고 있다.",
+            "german": "Jetzt habe ich einen Hund",
+            "case": "Accusative",
+            "reason": "동사 'have'의 목적어이므로 4격"
+          },
+          {
+            "sentence": "그 개는 매우 귀엽다.",
+            "german": "Der Hund ist sehr süß",
+            "case": "Nominative",
+            "reason": "그 개가 문장의 주인공이므로 1격"
+          }
+        ],
+        "key_insight": "이것은 격(Case)이 단어 자체의 고정된 형태가 아니라, 그 문장에서 단어가 어떤 역할(주어인가 목적어인가)을 하느냐에 따라 결정된다는 것을 보여줍니다."
+      }
+    }
+  ]
+}

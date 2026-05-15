@@ -1,0 +1,263 @@
+{
+  "title": "독일어 알파벳과 발음 가이드",
+  "subtitle": "German Alphabet & Pronunciation Guide (Korean Edition)",
+  "sections": [
+    {
+      "id": "basic_alphabet",
+      "title": "기본 알파벳 (Das Alphabet)",
+      "description": "독일어 알파벳 26자의 이름과 한국어 발음 표기입니다.",
+      "content": [
+        {
+          "letter": "A a",
+          "name": "Ah",
+          "sounds_like": "아",
+          "tts_text": "A"
+        },
+        {
+          "letter": "B b",
+          "name": "Beh",
+          "sounds_like": "베",
+          "tts_text": "B"
+        },
+        {
+          "letter": "C c",
+          "name": "Tseh",
+          "sounds_like": "체",
+          "tts_text": "C"
+        },
+        {
+          "letter": "D d",
+          "name": "Deh",
+          "sounds_like": "데",
+          "tts_text": "D"
+        },
+        {
+          "letter": "E e",
+          "name": "Eh",
+          "sounds_like": "에",
+          "tts_text": "E"
+        },
+        {
+          "letter": "F f",
+          "name": "Eff",
+          "sounds_like": "에프",
+          "tts_text": "F"
+        },
+        {
+          "letter": "G g",
+          "name": "Geh",
+          "sounds_like": "게",
+          "tts_text": "G"
+        },
+        {
+          "letter": "H h",
+          "name": "Hah",
+          "sounds_like": "하",
+          "tts_text": "H"
+        },
+        {
+          "letter": "I i",
+          "name": "Ee",
+          "sounds_like": "이",
+          "tts_text": "I"
+        },
+        {
+          "letter": "J j",
+          "name": "Yot",
+          "sounds_like": "요트 (한국어의 '이/야/요' 발음)",
+          "tts_text": "J"
+        },
+        {
+          "letter": "K k",
+          "name": "Kah",
+          "sounds_like": "카",
+          "tts_text": "K"
+        },
+        {
+          "letter": "L l",
+          "name": "Ell",
+          "sounds_like": "엘",
+          "tts_text": "L"
+        },
+        {
+          "letter": "M m",
+          "name": "Emm",
+          "sounds_like": "엠",
+          "tts_text": "M"
+        },
+        {
+          "letter": "N n",
+          "name": "Enn",
+          "sounds_like": "엔",
+          "tts_text": "N"
+        },
+        {
+          "letter": "O o",
+          "name": "Oh",
+          "sounds_like": "오",
+          "tts_text": "O"
+        },
+        {
+          "letter": "P p",
+          "name": "Peh",
+          "sounds_like": "페",
+          "tts_text": "P"
+        },
+        {
+          "letter": "Q q",
+          "name": "Koo",
+          "sounds_like": "쿠",
+          "tts_text": "Q"
+        },
+        {
+          "letter": "R r",
+          "name": "Err",
+          "sounds_like": "에르 (목젖을 떠는 소리)",
+          "tts_text": "R"
+        },
+        {
+          "letter": "S s",
+          "name": "Ess",
+          "sounds_like": "에스 (모음 앞에서는 '즈' 발음)",
+          "tts_text": "S"
+        },
+        {
+          "letter": "T t",
+          "name": "Teh",
+          "sounds_like": "테",
+          "tts_text": "T"
+        },
+        {
+          "letter": "U u",
+          "name": "Oo",
+          "sounds_like": "우",
+          "tts_text": "U"
+        },
+        {
+          "letter": "V v",
+          "name": "Fow",
+          "sounds_like": "파우 ('프' 발음)",
+          "tts_text": "V"
+        },
+        {
+          "letter": "W w",
+          "name": "Veh",
+          "sounds_like": "베 ('브' 발음)",
+          "tts_text": "W"
+        },
+        {
+          "letter": "X x",
+          "name": "Iks",
+          "sounds_like": "익스",
+          "tts_text": "X"
+        },
+        {
+          "letter": "Y y",
+          "name": "Ypsilon",
+          "sounds_like": "윕실론",
+          "tts_text": "Y"
+        },
+        {
+          "letter": "Z z",
+          "name": "Tsett",
+          "sounds_like": "체트 ('츠' 발음)",
+          "tts_text": "Z"
+        }
+      ]
+    },
+    {
+      "id": "special_characters",
+      "title": "변모음과 특수문자 (Umlauts & Eszett)",
+      "description": "독일어에는 올바른 철자와 의미를 위해 필수적인 4개의 추가 문자가 있습니다",
+      "content": [
+        {
+          "letter": "Ä ä",
+          "name": "A-Umlaut",
+          "how_to_produce": "한국어의 '에'와 유사하게 발음합니다",
+          "tts_text": "Ä"
+        },
+        {
+          "letter": "Ö ö",
+          "name": "O-Umlaut",
+          "how_to_produce": "입모양은 '오'를 유지하며 '에' 소리를 냅니다",
+          "tts_text": "Ö"
+        },
+        {
+          "letter": "Ü ü",
+          "name": "U-Umlaut",
+          "how_to_produce": "입모양은 '우'를 유지하며 '이' 소리를 냅니다",
+          "tts_text": "Ü"
+        },
+        {
+          "letter": "ß",
+          "name": "Eszett (Sharp S)",
+          "how_to_produce": "강한 '스' 소리가 나며 'ss'와 같습니다",
+          "tts_text": "ß"
+        }
+      ]
+    },
+    {
+      "id": "diphthongs",
+      "title": "이중모음 (Diphthongs)",
+      "description": "이중모음은 두 개의 모음이 결합하여 새로운 단일 소리를 만드는 것입니다",
+      "content": [
+        {
+          "combination": "ei / ai",
+          "sounds_like": "'아이'로 발음합니다",
+          "examples": "Nein - 나인",
+          "tts_text": "EI"
+        },
+        {
+          "combination": "ie",
+          "sounds_like": "'이-' 하고 길게 발음합니다",
+          "examples": "Sie - 지-",
+          "tts_text": "IE"
+        },
+        {
+          "combination": "eu / äu",
+          "sounds_like": "'오이'로 발음합니다",
+          "examples": "Neu - 노이",
+          "tts_text": "EU"
+        },
+        {
+          "combination": "au",
+          "sounds_like": "'아우'로 발음합니다",
+          "examples": "Haus - 하우스",
+          "tts_text": "AU"
+        }
+      ]
+    },
+    {
+      "id": "consonant_combinations",
+      "title": "주요 자음 발음 주의사항",
+      "description": "독일어에는 특별한 주의가 필요한 몇 가지 자음 조합이 있습니다",
+      "content": [
+        {
+          "combination": "W",
+          "description": "한국어의 '브' 발음 (영어의 V 사운드)",
+          "tts_text": "W"
+        },
+        {
+          "combination": "V",
+          "description": "주로 한국어의 '프' 발음 (영어의 F 사운드)",
+          "tts_text": "V"
+        },
+        {
+          "combination": "J",
+          "description": "한국어의 '야, 여, 요, 유'의 첫소리 (영어의 Y 사운드)",
+          "tts_text": "J"
+        },
+        {
+          "combination": "sch",
+          "description": "'슈' 소리가 납니다 (예: Schule)",
+          "tts_text": "Schule"
+        },
+        {
+          "combination": "ch",
+          "description": "단어에 따라 부드러운 '하' 또는 '크' 소리가 납니다",
+          "tts_text": "Bach"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Home & Living",
+  "emoji": "🏠",
+  "theme_color": "#2196F3",
+  "description": "House, furniture, and daily life at home",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "wohnen", "korean": "살다/거주하다", "example_german": "Ich wohne seit zwei Jahren in Berlin.", "example_korean": "나는 2년 전부터 베를린에 살고 있습니다."},
+          {"german": "schlafen", "korean": "자다", "example_german": "Wie lange schläfst du normalerweise?", "example_korean": "보통 얼마나 오래 자나요?"},
+          {"german": "aufwachen", "korean": "잠에서 깨다", "example_german": "Ich wache jeden Tag ohne Wecker auf.", "example_korean": "나는 매일 알람 없이 잠에서 깹니다."},
+          {"german": "aufstehen", "korean": "일어나다", "example_german": "Um wie viel Uhr stehst du auf?", "example_korean": "몇 시에 일어나나요?"},
+          {"german": "waschen", "korean": "씻다/세탁하다", "example_german": "Ich muss heute meine Kleidung waschen.", "example_korean": "나는 오늘 옷을 세탁해야 합니다."},
+          {"german": "duschen", "korean": "샤워하다", "example_german": "Er duscht sich nach dem Sport.", "example_korean": "그는 운동 후에 샤워를 합니다."},
+          {"german": "baden", "korean": "목욕하다", "example_german": "Am Sonntag bade ich gerne lange.", "example_korean": "일요일에 나는 느긋하게 목욕하는 것을 좋아합니다."},
+          {"german": "putzen", "korean": "닦다/청소하다", "example_german": "Wir putzen am Samstag die ganze Wohnung.", "example_korean": "우리는 토요일에 집 전체를 청소합니다."},
+          {"german": "kochen", "korean": "요리하다", "example_german": "Was kochst du heute zum Abendessen?", "example_korean": "오늘 저녁으로 무엇을 요리하나요?"},
+          {"german": "backen", "korean": "(빵 등을) 굽다", "example_german": "Meine Mutter backt einen Apfelkuchen.", "example_korean": "우리 어머니는 사과 케이크를 굽고 계십니다."},
+          {"german": "braten", "korean": "굽다/튀기다", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_korean": "나는 팬에 고기를 굽고 있습니다."},
+          {"german": "essen", "korean": "먹다", "example_german": "Wann essen wir heute?", "example_korean": "우리 오늘 언제 먹나요?"},
+          {"german": "trinken", "korean": "마시다", "example_german": "Ich trinke morgens immer einen Kaffee.", "example_korean": "나는 아침에 항상 커피를 마십니다."},
+          {"german": "frühstücken", "korean": "아침 식사를 하다", "example_german": "Wir frühstücken meistens um acht Uhr.", "example_korean": "우리는 보통 8시에 아침을 먹습니다."},
+          {"german": "mittagessen", "korean": "점심 식사를 하다", "example_german": "Ich esse im Büro zu Mittag.", "example_korean": "나는 사무실에서 점심을 먹습니다."},
+          {"german": "abendessen", "korean": "저녁 식사를 하다", "example_german": "Wir essen heute spät zu Abend.", "example_korean": "우리는 오늘 저녁을 늦게 먹습니다."},
+          {"german": "abwaschen", "korean": "설거지하다", "example_german": "Wer wäscht heute das Geschirr ab?", "example_korean": "오늘 누가 설거지를 하나요?"},
+          {"german": "abtrocknen", "korean": "물기를 닦다", "example_german": "Ich trockne die Teller ab.", "example_korean": "나는 접시의 물기를 닦습니다."},
+          {"german": "aufräumen", "korean": "정리하다", "example_german": "Du musst dein Zimmer aufräumen.", "example_korean": "너는 네 방을 정리해야 한다."},
+          {"german": "aufmachen", "korean": "열다", "example_german": "Kannst du bitte das Fenster aufmachen?", "example_korean": "창문 좀 열어 줄 수 있나요?"},
+          {"german": "zumachen", "korean": "닫다", "example_german": "Es ist kalt, bitte mach die Tür zu.", "example_korean": "추워요, 문 좀 닫아 주세요."},
+          {"german": "einschalten", "korean": "켜다", "example_german": "Ich schalte den Fernseher ein.", "example_korean": "나는 TV를 켭니다."},
+          {"german": "ausschalten", "korean": "끄다", "example_german": "Bitte schalte das Licht aus.", "example_korean": "불 좀 꺼 주세요."},
+          {"german": "heizen", "korean": "난방하다", "example_german": "Im Winter müssen wir viel heizen.", "example_korean": "겨울에는 난방을 많이 해야 합니다."},
+          {"german": "lüften", "korean": "환기하다", "example_german": "Wir lüften das Zimmer zweimal am Tag.", "example_korean": "우리는 하루에 두 번 방을 환기합니다."},
+          {"german": "staubsaugen", "korean": "진공청소기를 돌리다", "example_german": "Ich muss im Wohnzimmer staubsaugen.", "example_korean": "나는 거실 청소기를 돌려야 합니다."},
+          {"german": "wischen", "korean": "닦다/걸레질하다", "example_german": "Sie wischt den Küchenboden.", "example_korean": "그녀는 주방 바닥을 닦고 있습니다."},
+          {"german": "bügeln", "korean": "다림질하다", "example_german": "Er bügelt seine Hemden selbst.", "example_korean": "그는 자기 셔츠를 직접 다립니다."},
+          {"german": "nähen", "korean": "바느질하다", "example_german": "Meine Oma näht mir ein Kleid.", "example_korean": "할머니께서 저에게 옷을 한 벌 꿰매 주십니다."},
+          {"german": "reparieren", "korean": "수리하다", "example_german": "Mein Vater repariert das kaputte Fahrrad.", "example_korean": "아버지가 고장 난 자전거를 수리하십니다."},
+          {"german": "streichen", "korean": "페인트칠하다", "example_german": "Wir streichen die Wände weiß.", "example_korean": "우리는 벽을 하얗게 칠합니다."},
+          {"german": "hangen", "korean": "걸다", "example_german": "Ich hänge das Bild an die Wand.", "example_korean": "나는 벽에 그림을 겁니다."},
+          {"german": "stellen", "korean": "세워 놓다", "example_german": "Stell die Vase bitte auf den Tisch.", "example_korean": "꽃병을 탁자 위에 세워 놓으세요."},
+          {"german": "legen", "korean": "눕혀 놓다/놓다", "example_german": "Er legt das Buch in das Regal.", "example_korean": "그는 책을 선반에 놓습니다."},
+          {"german": "nehmen", "korean": "집다/가져가다", "example_german": "Ich nehme mir ein Glas Wasser.", "example_korean": "나는 물 한 잔을 마십니다/가져갑니다."},
+          {"german": "bringen", "korean": "가져오다", "example_german": "Bringst du mir bitte die Zeitung?", "example_korean": "신문 좀 가져다줄래요?"},
+          {"german": "tragen", "korean": "옮기다/들다", "example_german": "Er trägt die schweren Taschen nach oben.", "example_korean": "그는 무거운 가방들을 위로 옮깁니다."},
+          {"german": "kaufen", "korean": "사다", "example_german": "Wir kaufen heute frisches Gemüse.", "example_korean": "우리는 오늘 신선한 채소를 삽니다."},
+          {"german": "schließen", "korean": "닫다", "example_german": "Bitte schließen Sie die Haustür.", "example_korean": "현관문을 닫아 주세요."},
+          {"german": "öffnen", "korean": "열다", "example_german": "Ich öffne die Post.", "example_korean": "나는 우편물을 확인합니다/엽니다."}
+        ]
+      }
+    }
+  ]
+}

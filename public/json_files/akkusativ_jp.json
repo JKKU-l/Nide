@@ -1,0 +1,130 @@
+{
+  "title": "Akkusativ（対格 / 4格）",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "ドイツ語の対格（Akkusativ）を理解する",
+      "description": "ドイツ語では、対格（Akkusativ）は主に文の直接目的語に使われます。これは動詞の動作によって直接影響を受ける人や物です。主格が「行為者」（主語）であるなら、対格は「受け手」です。"
+    },
+    {
+      "id": "identifying_accusative",
+      "title": "1. 対格の見分け方：「誰を」「何を」",
+      "description": "対格の目的語を見つけるには、「誰が/何が〜されているのか？」と自問してください。",
+      "content": {
+        "example": {
+          "german": "Ich kaufe den Apfel.",
+          "translation": "私はリンゴを買います。",
+          "note": "何を買っていますか？→ Den Apfel（リンゴを）。したがって「リンゴ」は対格です。"
+        }
+      }
+    },
+    {
+      "id": "articles_adjective_endings",
+      "title": "2. 冠詞と形容詞の語尾",
+      "description": "対格で最も重要なことは、男性名詞だけが変化するということです。女性名詞、中性名詞、複数形の冠詞は主格と同じままです。",
+      "content": {
+        "declension_table": {
+          "title": "対格の格変化表",
+          "headers": ["性", "定冠詞 (The)", "不定冠詞 (A/None)", "形容詞語尾 (定冠詞付き)"],
+          "rows": [
+            { "category": "男性名詞", "definite": "den", "indefinite": "einen / keinen", "adjective": "-en (den netten Vater)" },
+            { "category": "女性名詞", "definite": "die", "indefinite": "eine / keine", "adjective": "-e (die nette Mutter)" },
+            { "category": "中性名詞", "definite": "das", "indefinite": "ein / kein", "adjective": "-e (das nette Kind)" },
+            { "category": "複数形", "definite": "die", "indefinite": "- / keine", "adjective": "-en (die netten Eltern)" }
+          ]
+        },
+        "adjective_note": "dieser（この）、jener（あの）、welcher（どの）のような語を使う場合、それに続く形容詞は定冠詞と同じパターンに従います（男性/複数は -en、女性/中性は -e）。"
+      }
+    },
+    {
+      "id": "personal_pronouns",
+      "title": "3. 人称代名詞",
+      "description": "人が直接目的語になる場合（例：「彼は私を見る」）、代名詞の対格形を使わなければなりません。",
+      "content": {
+        "pronoun_table": {
+          "title": "対格での代名詞の変化",
+          "rows": [
+            { "nominative": "ich", "accusative": "mich", "meaning": "私を" },
+            { "nominative": "du", "accusative": "dich", "meaning": "あなたを" },
+            { "nominative": "er", "accusative": "ihn", "meaning": "彼を" },
+            { "nominative": "sie", "accusative": "sie", "meaning": "彼女を" },
+            { "nominative": "es", "accusative": "es", "meaning": "それを" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "私たちを" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "あなたたちを" },
+            { "nominative": "sie/Sie", "accusative": "sie/Sie", "meaning": "彼らを / あなた様を" }
+          ]
+        },
+        "example": {
+          "german": "Ich liebe dich.",
+          "translation": "私はあなたを愛しています。",
+          "note": "ここで「あなた」は愛される人なので、du は dich になります。"
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. 対格を使う場面",
+      "description": "対格には3つの主なきっかけがあります：",
+      "content": {
+        "triggers": [
+          {
+            "id": "accusative_verbs",
+            "title": "A. 対格動詞",
+            "description": "ほとんどのドイツ語動詞は、何かに対して何かをすることを含むため対格を必要とします。",
+            "subcategories": [
+              { "label": "身体的動作", "verbs": "essen（食べる）、trinken（飲む）、kaufen（買う）", "german": "Er isst einen Kuchen.", "translation": "彼はケーキを食べます — 男性名詞の変化。" },
+              { "label": "所有", "verbs": "haben（持つ）、besitzen（所有する）", "german": "Ich habe einen Bruder.", "translation": "私には兄弟がいます。" },
+              { "label": "精神/感覚", "verbs": "hören（聞く）、verstehen（理解する）、suchen（探す）", "german": "Wir suchen den Hund.", "translation": "私たちは犬を探しています。" }
+            ]
+          },
+          {
+            "id": "accusative_prepositions",
+            "title": "B. 対格前置詞",
+            "description": "特定の前置詞は、動詞に関係なく常に対格を取ります：",
+            "prepositions": ["durch（〜を通って）", "für（〜のために）", "gegen（〜に対して）", "ohne（〜なしで）", "um（〜の周りに）", "bis（〜まで）"],
+            "examples": [
+              { "german": "Das Geschenk ist für dich.", "translation": "プレゼントはあなたのためです。" },
+              { "german": "Er geht ohne den Schirm.", "translation": "彼は傘なしで行きます。" }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. 二方向前置詞（移動 vs. 場所）",
+            "description": "一部の前置詞（an, auf, hinter, in, neben, über, unter, vor, zwischen）は与格にも対格にもなります。",
+            "rule": "移動/方向には対格を使います：A地点からB地点へ移動する場合（質問：Wohin？/ どこへ？）。",
+            "examples": [
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "私は本をテーブルの上に置きます — 動作/移動。" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. 理解を深める詳細な例",
+      "description": "さまざまなシナリオで対格の使い方を見てみましょう：",
+      "content": {
+        "examples": [
+          {
+            "label": "男性名詞の変化",
+            "nominative": { "german": "Der Tisch ist alt.", "translation": "テーブルは古いです。" },
+            "accusative": { "german": "Ich verkaufe den Tisch.", "translation": "私はテーブルを売っています。" },
+            "explanation": "テーブルが売られる対象（目的語）になったからです。"
+          },
+          {
+            "label": "中性/女性名詞は変化なし",
+            "nominative": { "german": "Das Auto ist schnell.", "translation": "車は速いです。" },
+            "accusative": { "german": "Ich kaufe das Auto.", "translation": "私は車を買います。" },
+            "explanation": "\"Auto\" は中性名詞です。冠詞 \"das\" は対格でも変化しません。"
+          },
+          {
+            "label": "\"Haben\" の使い方",
+            "nominative": null,
+            "accusative": { "german": "Sie hat einen neuen Job.", "translation": "彼女は新しい仕事を持っています。" },
+            "explanation": "\"Job\" は男性名詞（der Job）です。haben の後なので einen になります。"
+          }
+        ]
+      }
+    }
+  ]
+}

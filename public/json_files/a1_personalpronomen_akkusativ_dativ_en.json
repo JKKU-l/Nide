@@ -1,0 +1,182 @@
+{
+  "title": "Personal Pronouns (Accusative & Dative)",
+  "description": "Learn how German personal pronouns change their form depending on their role in the sentence - whether they are the subject, direct object, or indirect object.",
+  "sections": [
+    {
+      "id": "understanding_cases",
+      "title": "1. Understanding the Three Main Cases",
+      "description": "In German, a pronoun changes its form depending on its \"job\" in the sentence.",
+      "content": {
+        "cases": [
+          {
+            "case": "Nominative (Subject)",
+            "description": "The person or thing doing the action."
+          },
+          {
+            "case": "Accusative (Direct Object)",
+            "description": "The person or thing receiving the action directly."
+          },
+          {
+            "case": "Dative (Indirect Object)",
+            "description": "Usually the \"receiver\" of a gift or the person for whom something is done. It is also required after specific prepositions like \"mit\" (with) or \"zu\" (to)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "akkusativ_pronouns",
+      "title": "2. Personal Pronouns in Accusative",
+      "description": "We use the Accusative when a person is the direct object of a verb. Common \"Accusative Verbs\" include lieben (to love), mögen (to like), kennen (to know a person), and sehen (to see).",
+      "content": {
+        "examples": [
+          {
+            "english": "I love him.",
+            "german": "Ich liebe ihn.",
+            "explanation": "\"Ich\" is the subject (Nominative). \"He\" becomes \"ihn\" because he is being loved (Direct Object)."
+          },
+          {
+            "english": "Do you like me?",
+            "german": "Magst du mich?",
+            "explanation": "\"Du\" is the subject. \"Me\" becomes \"mich\" because I am the object of the liking."
+          },
+          {
+            "english": "We see you (plural).",
+            "german": "Wir sehen euch.",
+            "explanation": "\"Wir\" is doing the seeing. \"You all\" becomes \"euch.\""
+          }
+        ],
+        "note": "For the pronouns sie (she/they), es (it), and Sie (formal You), the form does not change between Nominative and Accusative."
+      }
+    },
+    {
+      "id": "dativ_pronouns",
+      "title": "3. Personal Pronouns in Dative",
+      "description": "The Dative case is used for the \"beneficiary\" of an action (the person getting something) or after specific verbs like helfen (to help), gefallen (to please/like), and antworten (to answer).",
+      "content": {
+        "examples": [
+          {
+            "english": "I give you the book.",
+            "german": "Ich gebe dir das Buch.",
+            "explanation": "The book is the direct object (Accusative), but \"you\" are the receiver, so \"du\" becomes dir."
+          },
+          {
+            "english": "The dress pleases me (I like the dress).",
+            "german": "Das Kleid gefällt mir.",
+            "explanation": "The verb \"gefallen\" always triggers the Dative case for the person who likes the object."
+          },
+          {
+            "english": "I am helping her.",
+            "german": "Ich helfe ihr.",
+            "explanation": "\"Helfen\" is a Dative verb. Even though she is the direct object in English, in German, she is Dative."
+          }
+        ]
+      }
+    },
+    {
+      "id": "prepositions_role",
+      "title": "4. The Role of Prepositions",
+      "description": "Sometimes the case is decided not by the verb, but by the little word before the pronoun.",
+      "content": {
+        "prepositions": [
+          {
+            "preposition": "With (Mit)",
+            "case": "Dative",
+            "example_english": "I go with him.",
+            "example_german": "Ich gehe mit ihm."
+          },
+          {
+            "preposition": "For (Für)",
+            "case": "Accusative",
+            "example_english": "This is for you.",
+            "example_german": "Das ist für dich."
+          }
+        ]
+      }
+    },
+    {
+      "id": "key_transformations",
+      "title": "5. Summary of Key Transformations",
+      "description": "To help you remember these without a chart, think of them in groups:",
+      "content": {
+        "groups": [
+          {
+            "title": "The \"I\" Pronoun",
+            "transformations": [
+              {"form": "Subject", "pronoun": "ich (I)"},
+              {"form": "Direct Object", "pronoun": "mich (me)"},
+              {"form": "Indirect Object", "pronoun": "mir (to me / for me)"}
+            ]
+          },
+          {
+            "title": "The \"You\" (informal) Pronoun",
+            "transformations": [
+              {"form": "Subject", "pronoun": "du (you)"},
+              {"form": "Direct Object", "pronoun": "dich (you)"},
+              {"form": "Indirect Object", "pronoun": "dir (to you / for you)"}
+            ]
+          },
+          {
+            "title": "The \"He\" Pronoun (The biggest changes)",
+            "transformations": [
+              {"form": "Subject", "pronoun": "er (he)"},
+              {"form": "Direct Object", "pronoun": "ihn (him)"},
+              {"form": "Indirect Object", "pronoun": "ihm (to him)"}
+            ]
+          },
+          {
+            "title": "The \"She\" Pronoun",
+            "transformations": [
+              {"form": "Subject", "pronoun": "sie (she)"},
+              {"form": "Direct Object", "pronoun": "sie (her)"},
+              {"form": "Indirect Object", "pronoun": "ihr (to her)"}
+            ]
+          },
+          {
+            "title": "The \"We\" and \"You plural\" Pronouns",
+            "note": "wir (we) becomes uns in both Accusative and Dative. ihr (you all) becomes euch in both Accusative and Dative.",
+            "transformations": [
+              {"form": "Subject", "pronoun": "wir (we) / ihr (you all)"},
+              {"form": "Accusative & Dative", "pronoun": "uns / euch"}
+            ]
+          },
+          {
+            "title": "The \"They\" and Formal \"You\" Pronouns",
+            "note": "sie/Sie stays sie/Sie in Accusative. sie/Sie becomes ihnen/Ihnen in Dative.",
+            "transformations": [
+              {"form": "Subject", "pronoun": "sie (they) / Sie (formal You)"},
+              {"form": "Accusative", "pronoun": "sie / Sie"},
+              {"form": "Dative", "pronoun": "ihnen / Ihnen"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_usage",
+      "title": "6. Practical Usage: \"How are you?\"",
+      "description": "This is a classic Dative expression. In German, you don't say \"How are you?\"; you say \"How is it going to you?\"",
+      "content": {
+        "examples": [
+          {
+            "english": "How are you (informal)?",
+            "german": "Wie geht es dir?"
+          },
+          {
+            "english": "How are you (formal)?",
+            "german": "Wie geht es Ihnen?"
+          },
+          {
+            "english": "How is your father?",
+            "german": "Wie geht es ihm?",
+            "note": "Since \"father\" is a \"he\""
+          },
+          {
+            "english": "I am doing well.",
+            "german": "Es geht mir gut.",
+            "note": "Literally: It goes well to me"
+          }
+        ]
+      }
+    }
+  ]
+}

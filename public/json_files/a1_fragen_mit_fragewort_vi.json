@@ -1,0 +1,133 @@
+{
+  "title": "Fragen mit Fragewort (Câu hỏi W)",
+  "sections": [
+    {
+      "id": "sentence_structure",
+      "title": "Phần 1: Cấu trúc câu (Quy tắc câu hỏi W)",
+      "description": "Trong tiếng Đức, khi bạn đặt câu hỏi với một từ để hỏi (như Ai, Cái gì, Ở đâu), cấu trúc câu rất nghiêm ngặt. Đây thường được gọi là Quy tắc V2 vì động từ luôn phải đứng ở vị trí thứ hai.",
+      "content": {
+        "wh_position_table": {
+          "title": "Bảng vị trí câu hỏi W",
+          "headers": ["Vị trí 1: Từ để hỏi", "Vị trí 2: Động từ", "Vị trí 3: Chủ ngữ", "Thành phần phụ"],
+          "rows": [
+            ["Wie (Như thế nào)", "heißen", "Sie", "?"],
+            ["Wo (Ở đâu)", "ist", "er", "?"],
+            ["Woher (Từ đâu)", "kommt", "er", "?"],
+            ["Was (Cái gì)", "hat", "er", "gemacht?"]
+          ]
+        },
+        "key_rule": "Quy tắc chính: Từ để hỏi luôn bắt đầu bằng chữ cái \"w\" và nằm ở Vị trí 1. Động từ đã chia sẽ theo ngay sau đó ở Vị trí 2."
+      }
+    },
+    {
+      "id": "common_w_words",
+      "title": "Phần 2: Các từ W thông dụng và cách dùng",
+      "description": "Dưới đây là phân tích các từ để hỏi phổ biến nhất, cách sử dụng và lý do tại sao chúng được chọn.",
+      "content": {
+        "categories": [
+          {
+            "category": "1. Wer vs. Wen vs. Wem (Ai)",
+            "description": "Tiếng Đức thay đổi từ \"ai\" tùy thuộc vào cách (biến cách) ngữ pháp (Chủ ngữ, Tân ngữ trực tiếp, hoặc Tân ngữ gián tiếp).",
+            "table": {
+              "headers": ["Hình thái", "Cách", "Sử dụng", "Ví dụ câu hỏi", "Ví dụ câu trả lời"],
+              "rows": [
+                ["Wer?", "Nominative - Chủ ngữ", "Dùng để xác định một người.", "Wer ist das? (Đây là ai?)", "Das ist mein Mann. (Đây là chồng tôi.)"],
+                ["Wen?", "Accusative - Tân ngữ trực tiếp", "Dùng khi người đó là đối tượng nhận hành động.", "Wen suchst du? (Bạn đang tìm ai?)", "Den Lehrer. (Tìm thầy giáo.)"],
+                ["Mit wem?", "Dative - Với ai", "Dùng sau các giới từ đi với Cách 3 như \"mit\".", "Mit wem gehst du? (Bạn đi với ai?)", "Mit einem Freund. (Với một người bạn.)"]
+              ]
+            }
+          },
+          {
+            "category": "2. Wo vs. Woher vs. Wohin (Địa điểm)",
+            "description": "Tiếng Đức phân biệt giữa việc ở yên một chỗ, đến từ đâu đó, hoặc đang di chuyển đến một điểm đến.",
+            "table": {
+              "headers": ["Hình thái", "Ý nghĩa", "Sử dụng", "Ví dụ câu hỏi", "Ví dụ câu trả lời"],
+              "rows": [
+                ["Wo?", "Ở đâu", "Hỏi về một địa điểm tĩnh, không chuyển động.", "Wo wohnen Sie? (Ngài sống ở đâu?)", "In Berlin."],
+                ["Woher?", "Từ đâu", "Hỏi về nguồn gốc, xuất thân của ai đó/vật gì đó.", "Woher kommen Sie? (Ngài đến từ đâu?)", "Aus China. (Từ Trung Quốc.)"],
+                ["Wohin?", "Đi đâu", "Hỏi về đích đến hoặc hướng di chuyển.", "Wohin gehen Sie? (Ngài đi đâu thế?)", "Ins Kino. (Đến rạp chiếu phim.)"]
+              ]
+            }
+          },
+          {
+            "category": "3. Was (Cái gì)",
+            "description": "Dùng cho đồ vật, sự việc hoặc hoạt động.",
+            "examples": [
+              {
+                "question": "Was ist das? (Đây là cái gì?)",
+                "answer": "Das ist mein Handy. (Đây là điện thoại của tôi.)"
+              },
+              {
+                "question": "Was sind Sie von Beruf? (Nghề nghiệp của ngài là gì?)",
+                "answer": "Friseur. (Thợ cắt tóc.)"
+              }
+            ]
+          },
+          {
+            "category": "4. Wie (Như thế nào)",
+            "description": "Dùng cho tên gọi, mô tả hoặc đặc điểm.",
+            "examples": [
+              {
+                "question": "Wie heißen Sie? (Ngài tên là gì? / Ngài được gọi như thế nào?)",
+                "answer": "Edith Müller."
+              },
+              {
+                "question": "Wie alt ist er? (Cậu ấy bao nhiêu tuổi?)",
+                "answer": "5 Jahre. (5 tuổi.)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "advanced_w_words",
+      "title": "Phần 3: Các từ W nâng cao",
+      "description": "Các từ để hỏi phức tạp hơn cho ngữ cảnh cụ thể:",
+      "content": {
+        "categories": [
+          {
+            "category": "Tại sao và Khi nào",
+            "table": {
+              "headers": ["Từ để hỏi", "Ý nghĩa", "Sử dụng", "Ví dụ câu hỏi", "Ví dụ câu trả lời"],
+              "rows": [
+                ["Warum?", "Tại sao", "Hỏi về lý do. Câu trả lời thường bắt đầu bằng Weil (Bởi vì).", "Warum kommst du spät? (Tại sao bạn đến muộn?)", "Weil der Zug Verspätung hat. (Vì tàu bị trễ.)"],
+                ["Wann?", "Khi nào", "Hỏi về thời gian nói chung.", "Wann beginnt der Film? (Khi nào bộ phim bắt đầu?)", "Um acht. (Lúc 8 giờ.)"]
+              ]
+            }
+          },
+          {
+            "category": "Số lượng",
+            "table": {
+              "headers": ["Từ để hỏi", "Ý nghĩa", "Sử dụng", "Ví dụ câu hỏi", "Ví dụ câu trả lời"],
+              "rows": [
+                ["Wie viel?", "Bao nhiêu", "Dùng cho danh từ không đếm được hoặc giá cả.", "Wie viel kostet das? (Cái này giá bao nhiêu?)", "3,50 Euro."],
+                ["Wie viele?", "Bao nhiêu", "Dùng cho danh từ số nhiều đếm được.", "Wie viele Kinder haben Sie? (Ngài có bao nhiêu người con?)", "Fünf. (5 người.)"]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Bảng tổng hợp dành cho học viên",
+      "description": "Tài liệu tham khảo nhanh cho tất cả các từ để hỏi W:",
+      "content": {
+        "summary_table": {
+          "headers": ["Từ tiếng Đức", "Ý nghĩa", "Mẹo sử dụng"],
+          "rows": [
+            ["Wer", "Ai", "Dùng cho chủ ngữ (người thực hiện hành động)."],
+            ["Was", "Cái gì", "Dùng cho đồ vật hoặc hành động."],
+            ["Wo", "Ở đâu", "Dùng cho vị trí cố định (không chuyển động)."],
+            ["Woher", "Từ đâu", "Thường dùng với động từ \"kommen\"."],
+            ["Wohin", "Đi đâu", "Dùng với động từ chuyển động như \"gehen\" hoặc \"fahren\"."],
+            ["Wie", "Như thế nào", "Dùng cho tên, tuổi, hoặc câu hỏi \"Như thế nào...\"."],
+            ["Wann", "Khi nào", "Dùng cho thời gian hoặc ngày tháng."],
+            ["Warum", "Tại sao", "Dùng để hỏi nguyên nhân hoặc lý do."]
+          ]
+        }
+      }
+    }
+  ]
+}

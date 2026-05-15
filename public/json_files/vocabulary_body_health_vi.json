@@ -1,0 +1,157 @@
+{
+  "title": "Cơ thể và Sức khỏe",
+  "description": "Học từ vựng tiếng Đức cơ bản về các bộ phận cơ thể và thuật ngữ liên quan đến sức khỏe.",
+  "image": "assets/images/body_and_health.png",
+  "vocabulary": [
+    {
+      "german": "der Körper",
+      "vietnamese": "cơ thể",
+      "article": "der",
+      "word": "Körper"
+    },
+    {
+      "german": "der Kopf",
+      "vietnamese": "đầu",
+      "article": "der",
+      "word": "Kopf"
+    },
+    {
+      "german": "die Brust",
+      "vietnamese": "ngực",
+      "article": "die",
+      "word": "Brust"
+    },
+    {
+      "german": "das Bein",
+      "vietnamese": "chân",
+      "article": "das",
+      "word": "Bein"
+    },
+    {
+      "german": "der Fuß",
+      "vietnamese": "bàn chân",
+      "article": "der",
+      "word": "Fuß"
+    },
+    {
+      "german": "der Hals",
+      "vietnamese": "cổ / họng",
+      "article": "der",
+      "word": "Hals"
+    },
+    {
+      "german": "der Bauch",
+      "vietnamese": "bụng",
+      "article": "der",
+      "word": "Bauch"
+    },
+    {
+      "german": "das Knie",
+      "vietnamese": "đầu gối",
+      "article": "das",
+      "word": "Knie"
+    },
+    {
+      "german": "der Zeh",
+      "vietnamese": "ngón chân",
+      "article": "der",
+      "word": "Zeh"
+    },
+    {
+      "german": "der Rücken",
+      "vietnamese": "lưng",
+      "article": "der",
+      "word": "Rücken"
+    },
+    {
+      "german": "die Schulter",
+      "vietnamese": "vai",
+      "article": "die",
+      "word": "Schulter"
+    },
+    {
+      "german": "der Arm",
+      "vietnamese": "cánh tay",
+      "article": "der",
+      "word": "Arm"
+    },
+    {
+      "german": "der Ellbogen",
+      "vietnamese": "khuỷu tay",
+      "article": "der",
+      "word": "Ellbogen"
+    },
+    {
+      "german": "der Po",
+      "vietnamese": "mông",
+      "article": "der",
+      "word": "Po"
+    },
+    {
+      "german": "die Hand",
+      "vietnamese": "bàn tay",
+      "article": "die",
+      "word": "Hand"
+    },
+    {
+      "german": "der Finger",
+      "vietnamese": "ngón tay",
+      "article": "der",
+      "word": "Finger"
+    },
+    {
+      "german": "das Gesicht",
+      "vietnamese": "khuôn mặt",
+      "article": "das",
+      "word": "Gesicht"
+    },
+    {
+      "german": "das Haar",
+      "vietnamese": "tóc",
+      "article": "das",
+      "word": "Haar"
+    },
+    {
+      "german": "die Nase",
+      "vietnamese": "mũi",
+      "article": "die",
+      "word": "Nase"
+    },
+    {
+      "german": "der Mund",
+      "vietnamese": "miệng",
+      "article": "der",
+      "word": "Mund"
+    },
+    {
+      "german": "die Lippe",
+      "vietnamese": "môi",
+      "article": "die",
+      "word": "Lippe"
+    },
+    {
+      "german": "das Auge",
+      "vietnamese": "mắt",
+      "article": "das",
+      "word": "Auge"
+    },
+    {
+      "german": "das Ohr",
+      "vietnamese": "tai",
+      "article": "das",
+      "word": "Ohr"
+    },
+    {
+      "german": "die Zunge",
+      "vietnamese": "lưỡi",
+      "article": "die",
+      "word": "Zunge"
+    },
+    {
+      "german": "der Zahn",
+      "vietnamese": "răng",
+      "article": "der",
+      "word": "Zahn"
+    }
+  ]
+}

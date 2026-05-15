@@ -1,0 +1,46 @@
+{
+  "title": "Hygiene and Medicine",
+  "description": "Learn essential German vocabulary for hygiene, medicine, clothing, food, kitchen items, colors, housing, and numbers.",
+  "images": [
+    "assets/images/hygiene_and_medicine_1.png",
+    "assets/images/hygiene_and_medicine_2.png"
+  ],
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "id": "hygiene_medicine",
+      "title": "Hygiene and Medicine",
+      "emoji": "🧼",
+      "vocabulary": [
+        {"german": "duschen", "english": "to shower", "article": "", "word": "duschen"},
+        {"german": "baden", "english": "to bathe", "article": "", "word": "baden"},
+        {"german": "das Shampoo", "english": "the shampoo", "article": "das", "word": "Shampoo"},
+        {"german": "die Zahnpasta", "english": "the toothpaste", "article": "die", "word": "Zahnpasta"},
+        {"german": "das Handtuch", "english": "the towel", "article": "das", "word": "Handtuch"},
+        {"german": "die Creme", "english": "the cream / lotion", "article": "die", "word": "Creme"},
+        {"german": "die Seife", "english": "the soap", "article": "die", "word": "Seife"},
+        {"german": "die Zahnbürste", "english": "the toothbrush", "article": "die", "word": "Zahnbürste"},
+        {"german": "sich kämmen", "english": "to comb oneself", "article": "", "word": "sich kämmen"},
+        {"german": "sich rasieren", "english": "to shave oneself", "article": "", "word": "sich rasieren"},
+        {"german": "tot", "english": "dead", "article": "", "word": "tot"},
+        {"german": "das Blut", "english": "the blood", "article": "das", "word": "Blut"},
+        {"german": "gesund", "english": "healthy", "article": "", "word": "gesund"},
+        {"german": "der Schmerz", "english": "the pain", "article": "der", "word": "Schmerz"},
+        {"german": "das Pflaster", "english": "the plaster / band-aid", "article": "das", "word": "Pflaster"},
+        {"german": "krank", "english": "sick", "article": "", "word": "krank"},
+        {"german": "das Fieber", "english": "the fever", "article": "das", "word": "Fieber"},
+        {"german": "das Medikament", "english": "the medication", "article": "das", "word": "Medikament"},
+        {"german": "die Tablette", "english": "the tablet / pill", "article": "die", "word": "Tablette"},
+        {"german": "der Arzt", "english": "the doctor (male)", "article": "der", "word": "Arzt"},
+        {"german": "die Ärztin", "english": "the doctor (female)", "article": "die", "word": "Ärztin"},
+        {"german": "der Patient", "english": "the patient (male)", "article": "der", "word": "Patient"},
+        {"german": "die Patientin", "english": "the patient (female)", "article": "die", "word": "Patientin"},
+        {"german": "die Versichertenkarte", "english": "the insurance card", "article": "die", "word": "Versichertenkarte"},
+        {"german": "die Krankenschwester", "english": "the nurse", "article": "die", "word": "Krankenschwester"},
+        {"german": "die Praxis", "english": "the medical practice", "article": "die", "word": "Praxis"},
+        {"german": "das Krankenhaus", "english": "the hospital", "article": "das", "word": "Krankenhaus"},
+        {"german": "der Krankenwagen", "english": "the ambulance", "article": "der", "word": "Krankenwagen"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Farbe", "myanmar": "အရောင်", "article": "die", "word": "Farbe", "emoji": "🎨"},
+        {"german": "blau", "myanmar": "အပြာရောင်", "article": "", "word": "blau", "emoji": "🔵"},
+        {"german": "rot", "myanmar": "အနီရောင်", "article": "", "word": "rot", "emoji": "🔴"},
+        {"german": "gelb", "myanmar": "အဝါရောင်", "article": "", "word": "gelb", "emoji": "🟡"},
+        {"german": "grün", "myanmar": "အစိမ်းရောင်", "article": "", "word": "grün", "emoji": "🟢"},
+        {"german": "braun", "myanmar": "အညိုရောင်", "article": "", "word": "braun", "emoji": "🟤"},
+        {"german": "grau", "myanmar": "မီးခိုးရောင်", "article": "", "word": "grau", "emoji": "🔘"},
+        {"german": "schwarz", "myanmar": "အနက်ရောင်", "article": "", "word": "schwarz", "emoji": "⚫"},
+        {"german": "rosa", "myanmar": "ပန်းရောင်", "article": "", "word": "rosa", "emoji": "🌸"},
+        {"german": "weiß", "myanmar": "အဖြူရောင်", "article": "", "word": "weiß", "emoji": "⚪"},
+        {"german": "orange", "myanmar": "လိမ္မော်ရောင်", "article": "", "word": "orange", "emoji": "🟠"},
+        {"german": "lila", "myanmar": "ခရမ်းရောင်", "article": "", "word": "lila", "emoji": "🟣"}
+      ]
+    }
+  ]
+}

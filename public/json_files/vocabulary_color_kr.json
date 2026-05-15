@@ -1,0 +1,21 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Farbe", "korean": "색깔", "article": "die", "word": "Farbe", "emoji": "🎨"},
+        {"german": "blau", "korean": "파란색", "article": "", "word": "blau", "emoji": "💙"},
+        {"german": "rot", "korean": "빨간색", "article": "", "word": "rot", "emoji": "❤️"},
+        {"german": "gelb", "korean": "노란색", "article": "", "word": "gelb", "emoji": "💛"},
+        {"german": "grün", "korean": "초록색", "article": "", "word": "grün", "emoji": "💚"},
+        {"german": "braun", "korean": "갈색", "article": "", "word": "braun", "emoji": "🤎"},
+        {"german": "grau", "korean": "회색", "article": "", "word": "grau", "emoji": "⚪"},
+        {"german": "schwarz", "korean": "검정색", "article": "", "word": "schwarz", "emoji": "🖤"},
+        {"german": "rosa", "korean": "분홍색", "article": "", "word": "rosa", "emoji": "🌸"},
+        {"german": "weiß", "korean": "하얀색", "article": "", "word": "weiß", "emoji": "🤍"},
+        {"german": "orange", "korean": "주황색", "article": "", "word": "orange", "emoji": "🧡"},
+        {"german": "lila", "korean": "보라색", "article": "", "word": "lila", "emoji": "💜"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "title": "Verben mit Vokalwechsel",
+  "subtitle": "Vokalwechsel (모음 변화 동사)",
+  "sections": [
+    {
+      "id": "grammar_rule",
+      "title": "Vokalwechsel (모음 변화 동사)",
+      "description": "독일어의 일부 동사는 현재형 인칭 변화 시, 2인칭 단수(du)와 3인칭 단수(er, sie, es)에서 어간 모음이 변화합니다. 그 외 인칭(ich, wir, ihr, sie/Sie)에서는 규칙적으로 변화합니다.",
+      "content": {
+        "table": {
+          "headers": ["인칭 대명사", "e -> i (예: essen)", "a -> ä (예: schlafen)"],
+          "rows": [
+            ["ich (나)", "esse", "schlafe"],
+            ["du (너)", "isst", "schläfst"],
+            ["er, sie, es (그/그녀/그것)", "isst", "schläft"],
+            ["wir (우리)", "essen", "schlafen"],
+            ["ihr (너희들)", "esst", "schlaft"],
+            ["sie, Sie (그들/당신)", "essen", "schlafen"]
+          ]
+        },
+        "important_verbs": {
+          "e_to_i_ie": "empfehlen (추천하다), essen (먹다), geben (주다), fernsehen (TV를 보다), helfen (돕다), lesen (읽다), mitnehmen (지참하다), nehmen (가지다/잡다), sehen (보다), sprechen (말하다), vergessen (잊다), werden (~이 되다).",
+          "a_to_ä": "abfahren (출발하다), anfangen (시작하다), einladen (초대하다), einschlafen (잠들다), fahren (타다/운전하다), gefallen (마음에 들다), laufen (달리다/걷다), schlafen (자다), tragen (나르다/입다), waschen (씻다/세탁하다)."
+        }
+      }
+    },
+    {
+      "id": "exercise_1",
+      "title": "연습 1: 원형(Infinitive) 찾기",
+      "description": "Wie heißt der Infinitiv? 원형을 찾으세요.",
+      "content": {
+        "exercises": [
+          {
+            "conjugated": "du gibst",
+            "infinitive": "geben",
+            "translation": "주다"
+          },
+          {
+            "conjugated": "er läuft",
+            "infinitive": "laufen",
+            "translation": "달리다/걷다"
+          },
+          {
+            "conjugated": "sie hilft",
+            "infinitive": "helfen",
+            "translation": "돕다"
+          },
+          {
+            "conjugated": "du nimmst",
+            "infinitive": "nehmen",
+            "translation": "잡다/취하다"
+          },
+          {
+            "conjugated": "er wäscht",
+            "infinitive": "waschen",
+            "translation": "씻다/세탁하다"
+          },
+          {
+            "conjugated": "du siehst",
+            "infinitive": "sehen",
+            "translation": "보다"
+          },
+          {
+            "conjugated": "er spricht",
+            "infinitive": "sprechen",
+            "translation": "말하다"
+          },
+          {
+            "conjugated": "sie vergisst",
+            "infinitive": "vergessen",
+            "translation": "잊다"
+          },
+          {
+            "conjugated": "er empfiehlt",
+            "infinitive": "empfehlen",
+            "translation": "추천하다"
+          },
+          {
+            "conjugated": "wir lesen",
+            "infinitive": "lesen",
+            "translation": "읽다"
+          },
+          {
+            "conjugated": "er isst",
+            "infinitive": "essen",
+            "translation": "먹다"
+          },
+          {
+            "conjugated": "du fährst",
+            "infinitive": "fahren",
+            "translation": "가다/운전하다"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_2_3",
+      "title": "연습 2 & 3: 대화 완성하기",
+      "description": "Ergänzen Sie die Verben (동사를 완성하세요)",
+      "content": {
+        "dialogues": [
+          {
+            "verb": "essen (먹다)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Esst ihr abends immer zusammen?",
+                "english": "너희들 저녁에 항상 함께 먹니?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ja, wir essen zusammen, aber heute nicht. Dimitri isst mit Kunden und die Kinder essen bei Freunden. Und du? Isst du abends mit Roland zusammen?",
+                "english": "응, 우리 같이 먹어, 근데 오늘은 아니야. 디미트리는 손님들이랑 먹고 있고 아이들은 친구들 집에서 먹고 있어. 그리고 너? 너 롤랑드랑 저녁에 같이 먹니?"
+              },
+              {
+                "speaker": "Elke",
+                "german": "Ich esse abends nichts und Roland isst nur eine Kleinigkeit.",
+                "english": "나는 저녁에 아무것도 안 먹고 롤랑드는 조금만 먹어."
+              }
+            ]
+          },
+          {
+            "verb": "lesen (읽다)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Was lest ihr gerne?",
+                "english": "너희들 뭐 읽는 걸 좋아해?"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Ich lese gern Romane und Petro liest gar nicht.",
+                "english": "나는 소설 읽는 걸 좋아하고 페트로는 전혀 읽지 않아."
+              },
+              {
+                "speaker": "Petro",
+                "german": "Das stimmt nicht. Ich lese auch!",
+                "english": "그건 사실이 아니야. 나도 읽어!"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Was liest du denn? Nur Zeitungen oder Kataloge.",
+                "english": "그럼 넌 뭐 읽어? 신문이나 카탈로그만?"
+              }
+            ]
+          },
+          {
+            "verb": "nehmen (가지다)",
+            "speakers": [
+              {
+                "speaker": "Kellnerin",
+                "german": "Bitte, was nehmen Sie?",
+                "english": "저기요, 뭐 드시겠어요?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ich nehme Hähnchen mit Reis. Iliana und Petro, was nehmt ihr?",
+                "english": "저는 닭고리와 밥을 먹을게요. 일리아나와 페트로, 너희들은 뭐 먹을래?"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Wir nehmen auch ein Schnitzel.",
+                "english": "우리도 슈니첼을 먹을게."
+              },
+              {
+                "speaker": "Petro",
+                "german": "Nein, du nimmst ein Schnitzel, aber ich nehme Spaghetti!",
+                "english": "아니, 넌 슈니첼을 먹지만, 나는 스파게티를 먹을 거야!"
+              }
+            ]
+          },
+          {
+            "verb": "schlafen (자다)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Entschuldigung, ich habe eine Frage. Wie lange schlafen Sie in der Nacht meistens?",
+                "english": "실례합니다, 질문이 있습니다. 보통 밤에 몇 시간 자세요?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Wir schlafen meistens ungefähr acht Stunden.",
+                "english": "우리는 보통 약 8시간 자요."
+              },
+              {
+                "speaker": "Dimitri",
+                "german": "Ja, du schläfst immer acht Stunden. Ich schlafe nur sechs Stunden.",
+                "english": "응, 너는 항상 8시간 자. 나는 6시간만 자."
+              }
+            ]
+          },
+          {
+            "verb": "fahren (타다/운전하다)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Wie kommen Sie zur Arbeit? Fahren Sie mit der U-Bahn?",
+                "english": "어떻게 출근하세요? 지하철 타세요?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Nein, ich fahre mit dem Auto.",
+                "english": "아니요, 저는 차로 운전해요."
+              },
+              {
+                "speaker": "Reporter",
+                "german": "Und ihr, Kinder, wie fahrt ihr?",
+                "english": "그리고 너희 아이들은, 어떻게 가니?"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Ich fahre immer mit dem Fahrrad. Aber Iliana fährt immer mit dem Bus.",
+                "english": "나는 항상 자전거로 가. 하지만 일리아나는 항상 버스로 가."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_3_claudia",
+      "title": "연습 3: Claudias Tag (클라우디아의 하루)",
+      "description": "클라우디아의 하루에 대한 텍스트의 동사를 완성하세요.",
+      "content": {
+        "text": "Claudia steht immer um 6 Uhr auf. Um 7 Uhr isst (essen) sie mit ihrer Familie Frühstück und liest (lesen) die Zeitung. Ihr Mann Dimitri und sie fahren (fahren) mit dem Auto in die Stadt. Da kaufen sie zusammen ein und Dimitri trägt (tragen) alles ins Auto. Claudia läuft (laufen) noch ein bisschen durch die Stadt und Dimitri fährt (fahren) zur Arbeit. Um 11 Uhr nimmt (nehmen) Claudia den Bus zurück nach Hause. Zu Hause wäscht (waschen) sie Wäsche und hilft (helfen) ihrer Mutter. Am Nachmittag gibt (geben) Claudia Deutschunterricht. Sie spricht (sprechen) nur Deutsch mit den Schülern. Die Schüler lesen (lesen) Texte und sehen (sehen) manchmal einen Film. Claudia sieht (sehen) auch gerne Filme."
+      }
+    },
+    {
+      "id": "exercise_4",
+      "title": "연습 4: Vokalwechsel oder nicht?",
+      "description": "동사에 모음 변화가 있습니까?",
+      "content": {
+        "exercises": [
+          {
+            "verb": "leben -> er lebt",
+            "has_change": "No"
+          },
+          {
+            "verb": "kaufen -> er kauft",
+            "has_change": "No"
+          },
+          {
+            "verb": "machen -> er macht",
+            "has_change": "No"
+          },
+          {
+            "verb": "lesen -> er liest",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "gehen -> er geht",
+            "has_change": "No"
+          },
+          {
+            "verb": "waschen -> er wäscht",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "laufen -> er läuft",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "geben -> er gibt",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "verstehen -> er versteht",
+            "has_change": "No"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_5",
+      "title": "연습 5: Eine Einladung (초대장)",
+      "description": "클라우디아가 엘케에게 보낸 초대장을 읽어보세요.",
+      "content": {
+        "letter": "Liebe Elke,\n\nich lade dich ein. Du fährst erst am Sonntag zurück und schläfst eine Nacht bei uns. Du nimmst am besten bequeme Schuhe mit, dann können wir zusammen durch die Stadt laufen und alles besichtigen. Das gefällt dir doch, oder? Wann kommst du in Pirgos an? Wann bist du dann bei uns? Komm nicht so spät!\n\nViele Grüße, Claudia"
+      }
+    }
+  ]
+}

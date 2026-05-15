@@ -1,0 +1,53 @@
+{
+  "title": "Social Life & Community",
+  "emoji": "👥",
+  "theme_color": "#E91E63",
+  "description": "Social interactions and community",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "treffen", "thai": "พบ / เจอ", "example_german": "Wir treffen uns morgen im Park.", "example_thai": "พวกเราจะพบกันที่สวนสาธารณะในวันพรุ่งนี้"},
+          {"german": "winken", "thai": "โบกมือ", "example_german": "Sie winkt ihrem Freund zum Abschied.", "example_thai": "เธอบอกมือลาเพื่อนของเธอ"},
+          {"german": "vorstellen", "thai": "แนะนำให้รู้จัก", "example_german": "Darf ich dir meinen Bruder vorstellen?", "example_thai": "ขออนุญาตแนะนำพี่ชาย/น้องชายให้คุณรู้จักนะครับ/คะ"},
+          {"german": "begrüßen", "thai": "ทักทาย", "example_german": "Der Gastgeber begrüßt die Gäste an der Tür.", "example_thai": "เจ้าภาพทักทายแขกที่ประตู"},
+          {"german": "einladen", "thai": "เชิญ", "example_german": "Ich lade dich zu meiner Party ein.", "example_thai": "ฉันขอเชิญคุณมางานปาร์ตี้ของฉัน"},
+          {"german": "besuchen", "thai": "เยี่ยม / ไปหา", "example_german": "Wir besuchen am Wochenende unsere Verwandten.", "example_thai": "พวกเราจะไปเยี่ยมญาติในวันหยุดสุดสัปดาห์"},
+          {"german": "kommen", "thai": "มา", "example_german": "Wann kommst du heute nach Hause?", "example_thai": "วันนี้คุณจะกลับมาบ้านเมื่อไหร่"},
+          {"german": "gehen", "thai": "ไป", "example_german": "Wir gehen heute Abend ins Kino.", "example_thai": "เย็นนี้พวกเราจะไปโรงภาพยนตร์"},
+          {"german": "mitbringen", "thai": "นำมาด้วย / ติดไม้ติดมือมา", "example_german": "Soll ich etwas zum Essen mitbringen?", "example_thai": "ให้ฉันนำอะไรมาทานด้วยไหม"},
+          {"german": "feiern", "thai": "เฉลิมฉลอง", "example_german": "Wir feiern heute seinen Erfolg.", "example_thai": "วันนี้พวกเราฉลองความสำเร็จของเขา"},
+          {"german": "tanzen", "thai": "เต้นรำ", "example_german": "Möchtest du mit mir tanzen?", "example_thai": "คุณอยากเต้นรำกับฉันไหม"},
+          {"german": "singen", "thai": "ร้องเพลง", "example_german": "Wir singen gemeinsam ein Lied.", "example_thai": "พวกเราร้องเพลงด้วยกันหนึ่งเพลง"},
+          {"german": "spielen", "thai": "เล่น", "example_german": "Die Kinder spielen draußen Fußball.", "example_thai": "เด็กๆ เล่นฟุตบอลกันอยู่ข้างนอก"},
+          {"german": "reden", "thai": "พูดคุย", "example_german": "Wir müssen unbedingt miteinander reden.", "example_thai": "พวกเราต้องคุยกันให้ได้"},
+          {"german": "plaudern", "thai": "พูดคุยสัพเพเหระ / ชิตแชท", "example_german": "Wir plaudern gerne bei einer Tasse Kaffee.", "example_thai": "พวกเราชอบคุยกันระหว่างดื่มกาแฟ"},
+          {"german": "zuhören", "thai": "ฟัง / ตั้งใจฟัง", "example_german": "Du musst mir besser zuhören.", "example_thai": "คุณต้องฟังฉันให้ดีกว่านี้"},
+          {"german": "lachen", "thai": "หัวเราะ", "example_german": "Er lacht über einen lustigen Witz.", "example_thai": "เขาหัวเราะให้กับเรื่องตลกที่น่าขำ"},
+          {"german": "helfen", "thai": "ช่วยเหลือ", "example_german": "Kannst du mir beim Tragen helfen?", "example_thai": "คุณช่วยฉันถือของหน่อยได้ไหม"},
+          {"german": "teilnehmen", "thai": "เข้าร่วม", "example_german": "Ich nehme an dem Deutschkurs teil.", "example_thai": "ฉันเข้าร่วมหลักสูตรภาษาเยอรมัน"},
+          {"german": "mitmachen", "thai": "ร่วมด้วย / มีส่วนร่วม", "example_german": "Jeder darf bei diesem Spiel mitmachen.", "example_thai": "ทุกคนสามารถมีส่วนร่วมในเกมนี้ได้"},
+          {"german": "organisieren", "thai": "จัดการ / จัดเตรียม", "example_german": "Sie organisiert ein großes Nachbarschaftsfest.", "example_thai": "เธอกำลังจัดงานฉลองเพื่อนบ้านครั้งใหญ่"},
+          {"german": "planen", "thai": "วางแผน", "example_german": "Wir planen ein Treffen für nächste Woche.", "example_thai": "พวกเรากำลังวางแผนนัดพบกันสำหรับสัปดาห์หน้า"},
+          {"german": "unterstützen", "thai": "สนับสนุน", "example_german": "Meine Familie unterstützt mich immer.", "example_thai": "ครอบครัวสนับสนุนฉันเสมอ"},
+          {"german": "teilen", "thai": "แบ่งปัน / หาร", "example_german": "Wir teilen uns die Kosten für das Taxi.", "example_thai": "พวกเราหารค่าแท็กซี่กัน"},
+          {"german": "geben", "thai": "ให้", "example_german": "Kannst du mir bitte das Salz geben?", "example_thai": "คุณช่วยส่งเกลือให้ฉันหน่อยได้ไหม"},
+          {"german": "nehmen", "thai": "หยิบ / เอา", "example_german": "Ich nehme mir ein Stück Kuchen.", "example_thai": "ฉันหยิบเค้กหนึ่งชิ้น"},
+          {"german": "danken", "thai": "ขอบคุณ", "example_german": "Ich danke dir für deine Einladung.", "example_thai": "ฉันขอบคุณที่คุณเชิญฉัน"},
+          {"german": "entschuldigen", "thai": "ขอโทษ", "example_german": "Ich möchte mich für die Verspätung entschuldigen.", "example_thai": "ฉันอยากจะขอโทษที่มาสาย"},
+          {"german": "vergeben", "thai": "ให้อภัย", "example_german": "Es ist wichtig, anderen zu vergeben.", "example_thai": "การให้อภัยผู้อื่นเป็นสิ่งสำคัญ"},
+          {"german": "streiten", "thai": "ทะเลาะ / โต้เถียง", "example_german": "Wir streiten uns selten über Kleinigkeiten.", "example_thai": "พวกเราไม่ค่อยทะเลาะกันเรื่องเล็กๆ น้อยๆ"},
+          {"german": "versöhnen", "thai": "คืนดีกัน", "example_german": "Nach dem Streit versöhnen sie sich wieder.", "example_thai": "หลังจากทะเลาะกัน พวกเขาก็กลับมาคืนดีกัน"},
+          {"german": "respektieren", "thai": "เคารพ / ให้เกียรติ", "example_german": "Wir respektieren die Meinung der anderen.", "example_thai": "พวกเราเคารพความคิดเห็นของผู้อื่น"},
+          {"german": "akzeptieren", "thai": "ยอมรับ", "example_german": "Er kann die Entscheidung nicht akzeptieren.", "example_thai": "เขาไม่สามารถยอมรับการตัดสินใจได้"},
+          {"german": "ablehnen", "thai": "ปฏิเสธ", "example_german": "Leider muss ich das Angebot ablehnen.", "example_thai": "น่าเสียดายที่ฉันต้องปฏิเสธข้อเสนอนี้"},
+          {"german": "tolerieren", "thai": "อดทน / ยอมให้เป็นไป", "example_german": "Wir tolerieren kein respektloses Verhalten.", "example_thai": "พวกเราไม่ยอมรับพฤติกรรมที่ไม่ให้เกียรติ"},
+          {"german": "kritisieren", "thai": "วิจารณ์", "example_german": "Man sollte andere nicht ständig kritisieren.", "example_thai": "คนเราไม่ควรวิจารณ์คนอื่นอยู่ตลอดเวลา"},
+          {"german": "loben", "thai": "ชมเชย", "example_german": "Der Lehrer lobt die fleißige Schülerin.", "example_thai": "คุณครูชมเชยนักเรียนที่ขยัน"},
+          {"german": "einigen", "thai": "ตกลงกัน / เห็นพ้องกัน", "example_german": "Wir konnten uns auf einen Termin einigen.", "example_thai": "พวกเราสามารถตกลงเรื่องวันเวลานัดหมายกันได้"}
+        ]
+      }
+    }
+  ]
+}

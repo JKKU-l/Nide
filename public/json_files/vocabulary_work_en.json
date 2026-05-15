@@ -1,0 +1,20 @@
+{
+  "theme_color": "#607D8B",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Firma", "english": "the company", "article": "die", "word": "Firma", "emoji": "🏢"},
+        {"german": "der Empfang", "english": "the reception", "article": "der", "word": "Empfang", "emoji": "🛎️"},
+        {"german": "das Büro", "english": "the office", "article": "das", "word": "Büro", "emoji": "💼"},
+        {"german": "der Schreibtisch", "english": "the desk", "article": "der", "word": "Schreibtisch", "emoji": "🖥️"},
+        {"german": "arbeiten", "english": "to work", "article": "", "word": "arbeiten", "emoji": "🛠️"},
+        {"german": "die Arbeit", "english": "the work / job", "article": "die", "word": "Arbeit", "emoji": "👷"},
+        {"german": "telefonieren", "english": "to talk on the phone", "article": "", "word": "telefonieren", "emoji": "📞"},
+        {"german": "die Pause", "english": "the break", "article": "die", "word": "Pause", "emoji": "☕"},
+        {"german": "der Chef / die Chefin", "english": "the boss", "article": "der / die", "word": "Chef / Chefin", "emoji": "👔"},
+        {"german": "der Kollege / die Kollegin", "english": "the colleague", "article": "der / die", "word": "Kollege / Kollegin", "emoji": "👥"},
+        {"german": "der Feierabend", "english": "the end of the working day", "article": "der", "word": "Feierabend", "emoji": "🍻"}
+      ]
+    }
+  ]
+}

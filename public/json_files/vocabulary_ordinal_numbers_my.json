@@ -1,0 +1,19 @@
+{
+  "theme_color": "#FF9800",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "erste", "myanmar": "ပထမ", "article": "die", "word": "erste", "emoji": "🥇"},
+        {"german": "zweite", "myanmar": "ဒုတိယ", "article": "die", "word": "zweite", "emoji": "🥈"},
+        {"german": "dritte", "myanmar": "တတိယ", "article": "die", "word": "dritte", "emoji": "🥉"},
+        {"german": "vierte", "myanmar": "စတုတ္ထ", "article": "die", "word": "vierte", "emoji": "🏅"},
+        {"german": "fünfte", "myanmar": "ပဉ္စမ", "article": "die", "word": "fünfte", "emoji": "🖐️"},
+        {"german": "sechste", "myanmar": "ဆဋ္ဌမ", "article": "die", "word": "sechste", "emoji": "🔢"},
+        {"german": "siebte", "myanmar": "သတ္တမ", "article": "die", "word": "siebte", "emoji": "🗓️"},
+        {"german": "achte", "myanmar": "အဋ္ဌမ", "article": "die", "word": "achte", "emoji": "🎱"},
+        {"german": "neunte", "myanmar": "နဝမ", "article": "die", "word": "neunte", "emoji": "🕘"},
+        {"german": "zehnte", "myanmar": "ဒသမ", "article": "die", "word": "zehnte", "emoji": "🔟"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "title": "My Hobby",
+  "theme_color": "#FF6B6B",
+  "difficulty": "A1",
+  "duration_minutes": 4,
+  "audio_file": "hobbies.mp3",
+  "sections": [
+    {
+      "id": "story",
+      "title": "Story",
+      "content": {
+        "german_text": "Guten Abend! Ich heiße Anna, und ich habe viele Hobbys. Ich male gern. Ich male oft in Schwarz und Weiß. Ich fotografiere gern im Urlaub. Ich höre oft Musik und singe manchmal, aber nicht gut. Ich höre Bandmusik. Mein Bruder Lukas spielt gern Fußball und surft einmal pro Woche. Jeden Abend spielt er Fußball mit seinen Freunden. Am Mittwoch geht er in die Bibliothek, um Bücher zu lesen. Manchmal gehen wir am Wochenende zusammen joggen. Das macht Spaß! Meine Freundin Julia liebt es zu singen und spielt oft Volleyball im Park. Julia macht auch jeden Morgen Yoga. Sie lernt auch, Französisch zu sprechen. Wir haben alle verschiedene Hobbys, aber wir haben immer viel Spaß!",
+        "english_translation": "Good evening! My name is Anna, and I have many hobbies. I like to paint. I often paint in black and white. I like to take photos on vacation. I often listen to music and sometimes sing, but not well. I listen to band music. My brother Lukas likes playing football and surfs once a week. Every evening he plays football with his friends. On Wednesday he goes to the library to read books. Sometimes we go jogging together on the weekend. That is fun! My friend Julia loves to sing and often plays volleyball in the park. Julia also does yoga every morning. She is also learning to speak French. We all have different hobbies, but we always have a lot of fun!",
+        "myanmar_translation": "မင်္ဂလာညချမ်းပါ။ ကျွန်မနာမည်က အန်နာ ဖြစ်ပြီး ဝါသနာတွေ အများကြီးရှိပါတယ်။ ကျွန်မ ပန်းချီဆွဲရတာကို ဝါသနာပါပါတယ်။ ကျွန်မ ပန်းချီကို အဖြူအမည်းနဲ့ မကြာခဏ ဆွဲလေ့ရှိပါတယ်။ အားလပ်ရက်တွေမှာ ဓာတ်ပုံရိုက်ရတာကိုလည်း နှစ်သက်ပါတယ်။ ကျွန်မ သီချင်းတွေ ခဏခဏ နားထောင်တတ်ပြီး တစ်ခါတလေမှာ သီချင်းဆိုတတ်ပေမဲ့ သိပ်တော့ မတော်ပါဘူး။ ကျွန်မ တေးဂီတအဖွဲ့တွေရဲ့ သီချင်းတွေကို နားထောင်ပါတယ်။ ကျွန်မရဲ့မောင် လူကပ်စ်ကတော့ ဘောလုံးကစားရတာကို ဝါသနာပါပြီး တစ်ပတ်ကို တစ်ကြိမ် လှိုင်းစီးတတ်ပါတယ်။ ညနေတိုင်းမှာ သူဟာ သူငယ်ချင်းတွေနဲ့အတူ ဘောလုံးကစားပါတယ်။ ဗုဒ္ဓဟူးနေ့မှာတော့ သူဟာ စာအုပ်ဖတ်ဖို့ စာကြည့်တိုက်ကို သွားပါတယ်။ တစ်ခါတလေမှာ ကျွန်မတို့ဟာ တနင်္ဂနွေ အားလပ်ရက်တွေမှာ အတူတူ အပြေးလေ့ကျင့်လေ့ ရှိကြပါတယ်။ ဒါက တကယ်ကို ပျော်စရာကောင်းပါတယ်။ ကျွန်မရဲ့သူငယ်ချင်း ဂျူလီယာကတော့ သီချင်းဆိုရတာကို ချစ်မြတ်နိုးပြီး ပန်းခြံထဲမှာ ဗော်လီဘော ခဏခဏ ကစားလေ့ရှိပါတယ်။ ဂျူလီယာဟာ မနက်တိုင်းမှာ ယောဂလည်း ကျင့်ပါတယ်။ သူမဟာ ပြင်သစ်စကားပြောဖို့ကိုလည်း သင်ယူနေပါတယ်။ ကျွန်မတို့အားလုံးမှာ မတူညီတဲ့ ဝါသနာတွေ အသီးသီးရှိကြပေမဲ့ အမြဲတမ်း အရမ်းကို ပျော်ရွှင်ရပါတယ်။",
+        "japanese_translation": "こんばんは！私の名前はアンナです。趣味がたくさんあります。絵を描くのが好きです。よく白黒で描きます。休暇中には写真を撮るのが好きです。よく音楽を聴きます。時々歌いますが、あまり上手ではありません。バンドの音楽を聴きます。弟のルーカスはサッカーをすることと、週に一度サーフィンをすることが好きです。彼は毎晩、友達とサッカーをしています。水曜日には本を読むために図書館へ行きます。週末には時々一緒にジョギングをします。とても楽しいです！友人のユリアは歌うことが大好きで、よく公園でバレーボールをしています。ユリアは毎朝ヨガもしています。彼女はフランス語も勉強しています。私たちはみんな違う趣味を持っていますが、いつもとても楽しいです！",
+        "thai_translation": "สวัสดีตอนเย็นค่ะ! ฉันชื่ออันนาและฉันมีงานอดิเรกมากมาย ฉันชอบวาดรูป ฉันมักจะวาดภาพด้วยสีขาวและดำ ฉันชอบถ่ายรูปตอนไปเที่ยวพักผ่อน ฉันฟังเพลงบ่อยๆ และบางครั้งก็ร้องเพลงด้วยแต่ร้องไม่ค่อยเก่งเท่าไหร่ ฉันชอบฟังเพลงแนววงดนตรี ลูคัสพี่ชายของฉันชอบเล่นฟุตบอลและไปเล่นเซิร์ฟสัปดาห์ละครั้ง เขาเล่นฟุตบอลกับเพื่อนๆ ทุกเย็น ในวันพุธเขาจะไปที่ห้องสมุดเพื่ออ่านหนังสือ บางครั้งพวกเราก็ไปวิ่งจ๊อกกิ้งด้วยกันในวันหยุดสุดสัปดาห์ มันสนุกมากเลย! จูเลียเพื่อนของฉันรักการร้องเพลงและมักจะไปเล่นวอลเลย์บอลที่สวนสาธารณะ จูเลียยังเล่นโยคะทุกเช้าด้วย เธอกำลังเรียนพูดภาษาฝรั่งเศสอยู่เหมือนกัน พวกเราทุกคนมีงานอดิเรกที่แตกต่างกัน แต่พวกเราก็มีความสุขและสนุกสนานเสมอ!"
+      }
+    },
+    {
+      "id": "exercises",
+      "title": "Practice Exercises",
+      "content": {
+        "exercises": [
+          {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Was macht Anna gern?",
+            "options": ["Kochen", "Malen", "Schlafen", "Lesen"],
+            "correct_answer": "Malen"
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "question": "Ich male oft in Schwarz und _______.",
+            "answer": "Weiß"
+          },
+          {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "Ich fotografiere gern im _______.",
+            "answer": "Urlaub"
+          },
+          {
+            "id": 4,
+            "type": "multiple_choice",
+            "question": "Was singt Anna?",
+            "options": ["Gut", "Nicht gut", "Laut", "Leise"],
+            "correct_answer": "Nicht gut"
+          },
+          {
+            "id": 5,
+            "type": "fill_blank",
+            "question": "Mein Bruder Lukas spielt gern _______.",
+            "answer": "Fußball"
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "question": "Jeden Abend spielt er Fußball mit seinen _______.",
+            "answer": "Freunden"
+          },
+          {
+            "id": 7,
+            "type": "multiple_choice",
+            "question": "Wann geht Lukas in die Bibliothek?",
+            "options": ["Montag", "Dienstag", "Mittwoch", "Donnerstag"],
+            "correct_answer": "Mittwoch"
+          },
+          {
+            "id": 8,
+            "type": "fill_blank",
+            "question": "Am Mittwoch geht er in die Bibliothek, um Bücher zu _______.",
+            "answer": "lesen"
+          },
+          {
+            "id": 9,
+            "type": "multiple_choice",
+            "question": "Was macht Julia gern?",
+            "options": ["Fußball spielen", "Singen", "Schwimmen", "Tanzen"],
+            "correct_answer": "Singen"
+          },
+          {
+            "id": 10,
+            "type": "fill_blank",
+            "question": "Julia spielt oft _______ im Park.",
+            "answer": "Volleyball"
+          },
+          {
+            "id": 11,
+            "type": "fill_blank",
+            "question": "Julia macht auch jeden Morgen _______.",
+            "answer": "Yoga"
+          },
+          {
+            "id": 12,
+            "type": "fill_blank",
+            "question": "Sie lernt auch, _______ zu sprechen.",
+            "answer": "Französisch"
+          }
+        ]
+      }
+    }
+  ]
+}

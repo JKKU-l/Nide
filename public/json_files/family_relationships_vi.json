@@ -1,0 +1,55 @@
+{
+  "title": "Family & Relationships",
+  "emoji": "👨‍👩‍👧‍👦",
+  "theme_color": "#4CAF50",
+  "description": "Family members and relationships",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "lieben", "vietnamese": "yêu", "example_german": "Ich liebe meine Familie über alles.", "example_vietnamese": "Tôi yêu gia đình mình hơn tất cả mọi thứ."},
+          {"german": "heiraten", "vietnamese": "kết hôn", "example_german": "Sie heiraten nächsten Monat in Italien.", "example_vietnamese": "Họ sẽ kết hôn vào tháng tới tại Ý."},
+          {"german": "treffen", "vietnamese": "gặp gỡ", "example_german": "Ich treffe mich heute Abend mit Freunden.", "example_vietnamese": "Tôi sẽ gặp gỡ bạn bè vào tối nay."},
+          {"german": "besuchen", "vietnamese": "thăm hỏi", "example_german": "Wir besuchen am Wochenende unsere Großeltern.", "example_vietnamese": "Chúng tôi đi thăm ông bà vào cuối tuần."},
+          {"german": "einladen", "vietnamese": "mời", "example_german": "Ich lade dich zu meinem Geburtstag ein.", "example_vietnamese": "Tôi mời bạn đến dự sinh nhật của tôi."},
+          {"german": "feiern", "vietnamese": "kỷ niệm / ăn mừng", "example_german": "Wir feiern heute den Hochzeitstag meiner Eltern.", "example_vietnamese": "Hôm nay chúng tôi kỷ niệm ngày cưới của bố mẹ."},
+          {"german": "schenken", "vietnamese": "tặng quà", "example_german": "Was schenkst du deinem Bruder zu Weihnachten?", "example_vietnamese": "Bạn tặng gì cho anh trai vào dịp Giáng sinh?"},
+          {"german": "spielen", "vietnamese": "chơi", "example_german": "Der Vater spielt mit seinen Kindern im Garten.", "example_vietnamese": "Người cha đang chơi với các con trong vườn."},
+          {"german": "helfen", "vietnamese": "giúp đỡ", "example_german": "Kannst du mir bitte beim Kochen helfen?", "example_vietnamese": "Bạn có thể giúp tôi nấu ăn được không?"},
+          {"german": "pflegen", "vietnamese": "chăm sóc", "example_german": "Sie pflegt ihren kranken Vater zu Hause.", "example_vietnamese": "Cô ấy chăm sóc người cha bị ốm tại nhà."},
+          {"german": "erziehen", "vietnamese": "nuôi dạy", "example_german": "Es ist nicht immer leicht, Kinder zu erziehen.", "example_vietnamese": "Nuôi dạy con cái không phải lúc nào cũng dễ dàng."},
+          {"german": "wachsen", "vietnamese": "lớn lên / trưởng thành", "example_german": "Die Kinder wachsen so schnell!", "example_vietnamese": "Lũ trẻ lớn nhanh quá!"},
+          {"german": "leben", "vietnamese": "sống", "example_german": "Wir leben glücklich zusammen.", "example_vietnamese": "Chúng tôi sống hạnh phúc bên nhau."},
+          {"german": "sterben", "vietnamese": "qua đời / chết", "example_german": "Sein Großvater starb vor vielen Jahren.", "example_vietnamese": "Ông nội của anh ấy đã qua đời cách đây nhiều năm."},
+          {"german": "weinen", "vietnamese": "khóc", "example_german": "Das Baby weint, weil es Hunger hat.", "example_vietnamese": "Em bé khóc vì đói."},
+          {"german": "lachen", "vietnamese": "cười", "example_german": "Wir lachen viel, wenn wir zusammen sind.", "example_vietnamese": "Chúng tôi cười rất nhiều khi ở bên nhau."},
+          {"german": "streiten", "vietnamese": "tranh cãi", "example_german": "Geschwister streiten sich manchmal.", "example_vietnamese": "Anh chị em đôi khi tranh cãi với nhau."},
+          {"german": "umarmen", "vietnamese": "ôm", "example_german": "Sie umarmt ihre Mutter zur Begrüßung.", "example_vietnamese": "Cô ấy ôm mẹ mình để chào hỏi."},
+          {"german": "küssen", "vietnamese": "hôn", "example_german": "Sie küssen sich zum Abschied.", "example_vietnamese": "Họ hôn nhau khi tạm biệt."},
+          {"german": "anrufen", "vietnamese": "gọi điện thoại", "example_german": "Ich rufe meine Mutter jeden Sonntag an.", "example_vietnamese": "Tôi gọi điện cho mẹ vào mỗi Chủ Nhật."},
+          {"german": "schreiben", "vietnamese": "viết", "example_german": "Ich schreibe meiner Tante eine Postkarte.", "example_vietnamese": "Tôi viết một tấm bưu thiếp cho dì của mình."},
+          {"german": "lesen", "vietnamese": "đọc", "example_german": "Der Vater liest den Kindern eine Geschichte vor.", "example_vietnamese": "Người cha đọc một câu chuyện cho các con nghe."},
+          {"german": "erzählen", "vietnamese": "kể chuyện", "example_german": "Er erzählt uns von seiner Reise.", "example_vietnamese": "Anh ấy kể cho chúng tôi nghe về chuyến đi của mình."},
+          {"german": "zuhören", "vietnamese": "lắng nghe", "example_german": "Bitte hör mir gut zu.", "example_vietnamese": "Làm ơn hãy lắng nghe tôi kỹ nhé."},
+          {"german": "verstehen", "vietnamese": "thấu hiểu / hiểu", "example_german": "Wir verstehen uns sehr gut.", "example_vietnamese": "Chúng tôi thấu hiểu nhau rất tốt."},
+          {"german": "vergeben", "vietnamese": "tha thứ", "example_german": "Ich kann ihm diesen Fehler nicht vergeben.", "example_vietnamese": "Tôi không thể tha thứ cho anh ta lỗi lầm này."},
+          {"german": "danken", "vietnamese": "cảm ơn", "example_german": "Ich danke dir für deine Hilfe.", "example_vietnamese": "Tôi cảm ơn bạn vì sự giúp đỡ."},
+          {"german": "gratulieren", "vietnamese": "chúc mừng", "example_german": "Ich gratuliere dir herzlich zum Geburtstag!", "example_vietnamese": "Tôi chân thành chúc mừng sinh nhật bạn!"},
+          {"german": "wünschen", "vietnamese": "chúc / mong ước", "example_german": "Ich wünsche dir alles Gute.", "example_vietnamese": "Tôi chúc bạn mọi điều tốt đẹp nhất."},
+          {"german": "kennen", "vietnamese": "biết / quen biết", "example_german": "Ich kenne deine Schwester schon lange.", "example_vietnamese": "Tôi đã biết chị gái bạn từ lâu rồi."},
+          {"german": "vorstellen", "vietnamese": "giới thiệu", "example_german": "Darf ich dir meine Freundin vorstellen?", "example_vietnamese": "Tôi có thể giới thiệu bạn gái của mình với bạn được không?"},
+          {"german": "erinnern", "vietnamese": "nhớ lại", "example_german": "Erinnerst du dich an unseren ersten Urlaub?", "example_vietnamese": "Bạn có nhớ chuyến du lịch đầu tiên của chúng ta không?"},
+          {"german": "vergessen", "vietnamese": "quên", "example_german": "Ich habe deinen Geburtstag nicht vergessen.", "example_vietnamese": "Tôi đã không quên sinh nhật của bạn."},
+          {"german": "sprechen", "vietnamese": "nói chuyện / thảo luận", "example_german": "Wir müssen über das Problem sprechen.", "example_vietnamese": "Chúng ta cần nói chuyện về vấn đề này."},
+          {"german": "reden", "vietnamese": "trò chuyện / tán gẫu", "example_german": "Sie reden stundenlang über Gott und die Welt.", "example_vietnamese": "Họ tán gẫu hàng giờ đồng hồ về đủ mọi chuyện trên đời."},
+          {"german": "diskutieren", "vietnamese": "thảo luận / tranh luận", "example_german": "Wir diskutieren oft über Politik.", "example_vietnamese": "Chúng tôi thường xuyên thảo luận về chính trị."},
+          {"german": "sorgen", "vietnamese": "lo lắng / chăm lo", "example_german": "Eltern sorgen sich immer um ihre Kinder.", "example_vietnamese": "Cha mẹ luôn lo lắng cho con cái của mình."},
+          {"german": "schützen", "vietnamese": "bảo vệ", "example_german": "Er will seine Familie vor Gefahren schützen.", "example_vietnamese": "Anh ấy muốn bảo vệ gia đình mình khỏi những nguy hiểm."},
+          {"german": "unterstützen", "vietnamese": "hỗ trợ / ủng hộ", "example_german": "Meine Freunde unterstützen mich immer.", "example_vietnamese": "Bạn bè luôn hỗ trợ tôi."},
+          {"german": "zusammen sein", "vietnamese": "bên nhau", "example_german": "Wir sind seit fünf Jahren zusammen.", "example_vietnamese": "Chúng tôi đã bên nhau được năm năm rồi."}
+        ]
+      }
+    }
+  ]
+}

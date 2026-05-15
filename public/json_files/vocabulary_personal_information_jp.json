@@ -1,0 +1,37 @@
+{
+  "theme_color": "#2196F3",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Adresse", "japanese": "住所", "article": "die", "word": "Adresse", "emoji": "📍"},
+        {"german": "der Name", "japanese": "名前", "article": "der", "word": "Name", "emoji": "📛"},
+        {"german": "der Vorname", "japanese": "名（下の名前）", "article": "der", "word": "Vorname", "emoji": "👤"},
+        {"german": "der Familienname", "japanese": "姓（名字）", "article": "der", "word": "Familienname", "emoji": "🏘️"},
+        {"german": "die Straße", "japanese": "通り", "article": "die", "word": "Straße", "emoji": "🛣️"},
+        {"german": "die Nummer", "japanese": "番号", "article": "die", "word": "Nummer", "emoji": "🔢"},
+        {"german": "der Ort", "japanese": "場所 / 地点", "article": "der", "word": "Ort", "emoji": "📍"},
+        {"german": "die Postleitzahl", "japanese": "郵便番号", "article": "die", "word": "Postleitzahl", "emoji": "📮"},
+        {"german": "der Geburtsort", "japanese": "出生地", "article": "der", "word": "Geburtsort", "emoji": "👶🗺️"},
+        {"german": "das Geburtsjahr", "japanese": "生まれ年", "article": "das", "word": "Geburtsjahr", "emoji": "📅"},
+        {"german": "das Geburtsdatum", "japanese": "生年月日", "article": "das", "word": "Geburtsdatum", "emoji": "🎂"},
+        {"german": "männlich", "japanese": "男性", "article": "", "word": "männlich", "emoji": "♂️"},
+        {"german": "weiblich", "japanese": "女性", "article": "", "word": "weiblich", "emoji": "♀️"},
+        {"german": "das Formular", "japanese": "用紙 / フォーム", "article": "das", "word": "Formular", "emoji": "📄"},
+        {"german": "das Alter", "japanese": "年齢", "article": "das", "word": "Alter", "emoji": "🎂"},
+        {"german": "unterschreiben", "japanese": "署名する", "article": "", "word": "unterschreiben", "emoji": "✍️"},
+        {"german": "ausfüllen", "japanese": "記入する", "article": "", "word": "ausfüllen", "emoji": "🖊️"},
+        {"german": "heißen", "japanese": "〜という名前である", "article": "", "word": "heißen", "emoji": "🗣️"},
+        {"german": "die Unterschrift", "japanese": "署名", "article": "die", "word": "Unterschrift", "emoji": "🖋️"},
+        {"german": "der Familienstand", "japanese": "家族構成 / 婚姻状況", "article": "der", "word": "Familienstand", "emoji": "💍"},
+        {"german": "geschieden", "japanese": "離婚した", "article": "", "word": "geschieden", "emoji": "💔"},
+        {"german": "die Papiere", "japanese": "書類", "article": "die", "word": "Papiere", "emoji": "📑"},
+        {"german": "ledig", "japanese": "独身の", "article": "", "word": "ledig", "emoji": "🚶"},
+        {"german": "verwitwet", "japanese": "未亡人の / 配偶者と死別した", "article": "", "word": "verwitwet", "emoji": "🥀"},
+        {"german": "der Ausweis", "japanese": "身分証明書", "article": "der", "word": "Ausweis", "emoji": "🆔"},
+        {"german": "verheiratet", "japanese": "結婚している", "article": "", "word": "verheiratet", "emoji": "💍👩‍❤️‍👨"},
+        {"german": "heiraten", "japanese": "結婚する", "article": "", "word": "heiraten", "emoji": "💒"},
+        {"german": "der Pass", "japanese": "パスポート", "article": "der", "word": "Pass", "emoji": "🛂"}
+      ]
+    }
+  ]
+}

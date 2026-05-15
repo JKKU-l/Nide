@@ -1,0 +1,19 @@
+{
+  "category": "Common Phrases",
+  "category_de": "Häufige Redewendungen",
+  "icon": "💬",
+  "words": [
+    {"de":"Alles klar!","word":"Alles klar!","article":"","en":"All good! / Got it!","jp":"了解！","kr":"알겠어요!","my":"အားလုံးအဆင်ပြေ!","th":"เข้าใจแล้ว!","vi":"Rõ rồi!","pronunciation":"/ˈaləs klaːɐ̯/","example_de":"Alles klar, ich komme um 8 Uhr.","example_en":"All good, I'll come at 8 o'clock."},
+    {"de":"Mahlzeit!","word":"Mahlzeit!","article":"","en":"Enjoy your meal! (office greeting)","jp":"お食事を！（昼の挨拶）","kr":"맛있게 드세요! (점심 인사)","my":"ကောင်းကောင်းစားပါ!","th":"ทานอาหารให้อร่อย!","vi":"Chúc ngon miệng!","pronunciation":"/ˈmaːltsaɪ̯t/","example_de":"Mahlzeit! Was gibt es heute in der Kantine?","example_en":"Enjoy your meal! What's in the cafeteria today?"},
+    {"de":"Guten Appetit!","word":"Guten Appetit!","article":"","en":"Enjoy your meal!","jp":"召し上がれ！","kr":"맛있게 드세요!","my":"ကောင်းကောင်းစားပါ!","th":"ทานให้อร่อย!","vi":"Ăn ngon nhé!","pronunciation":"/ˌɡuːtn̩ apeˈtiːt/","example_de":"Das Essen ist fertig. Guten Appetit!","example_en":"The food is ready. Enjoy your meal!"},
+    {"de":"Viel Glück!","word":"Viel Glück!","article":"","en":"Good luck!","jp":"頑張って！","kr":"행운을 빌어요!","my":"ကံကောင်းပါစေ!","th":"โชคดี!","vi":"Chúc may mắn!","pronunciation":"/fiːl ɡlʏk/","example_de":"Du hast morgen eine Prüfung? Viel Glück!","example_en":"You have an exam tomorrow? Good luck!"},
+    {"de":"Herzlichen Glückwunsch!","word":"Herzlichen Glückwunsch!","article":"","en":"Congratulations!","jp":"おめでとう！","kr":"축하합니다!","my":"ဂုဏ်ယူပါတယ်!","th":"ยินดีด้วย!","vi":"Chúc mừng!","pronunciation":"/ˈhɛʁtslɪçn̩ ˈɡlʏkvʊnʃ/","example_de":"Herzlichen Glückwunsch zum Geburtstag!","example_en":"Happy birthday!"},
+    {"de":"Keine Ahnung.","word":"Keine Ahnung.","article":"","en":"No idea.","jp":"わかりません。","kr":"모르겠어요.","my":"မသိဘူး။","th":"ไม่รู้เลย","vi":"Không biết.","pronunciation":"/ˈkaɪ̯nə ˈaːnʊŋ/","example_de":"Wo ist der Schlüssel? Keine Ahnung.","example_en":"Where is the key? No idea."},
+    {"de":"Es tut mir leid.","word":"Es tut mir leid.","article":"","en":"I am sorry.","jp":"すみません。","kr":"죄송합니다.","my":"တောင်းပန်ပါတယ်။","th":"ขอโทษครับ/ค่ะ","vi":"Tôi xin lỗi.","pronunciation":"/ɛs tuːt miːɐ̯ laɪ̯t/","example_de":"Es tut mir leid, ich komme zu spät.","example_en":"I'm sorry, I'm late."},
+    {"de":"Gute Besserung!","word":"Gute Besserung!","article":"","en":"Get well soon!","jp":"お大事に！","kr":"빨리 나으세요!","my":"မကြာခင်ပျောက်ကင်းပါစေ!","th":"หายไวๆ นะ!","vi":"Chúc mau khỏe!","pronunciation":"/ˌɡuːtə ˈbɛsəʁʊŋ/","example_de":"Du bist krank? Gute Besserung!","example_en":"You are sick? Get well soon!"},
+    {"de":"Vielen Dank.","word":"Vielen Dank.","article":"","en":"Thank you very much.","jp":"ありがとうございます。","kr":"정말 감사합니다.","my":"ကျေးဇူးအများကြီးတင်ပါတယ်။","th":"ขอบคุณมาก","vi":"Cảm ơn rất nhiều.","pronunciation":"/ˈfiːlən daŋk/","example_de":"Vielen Dank für Ihre Hilfe!","example_en":"Thank you very much for your help!"},
+    {"de":"Gerne geschehen.","word":"Gerne geschehen.","article":"","en":"You're welcome.","jp":"どういたしまして。","kr":"천만에요.","my":"ကိစ္စမရှိပါဘူး။","th":"ยินดีครับ/ค่ะ","vi":"Không có gì.","pronunciation":"/ˈɡɛʁnə ɡəˈʃeːən/","example_de":"Danke! — Gerne geschehen.","example_en":"Thanks! — You're welcome."},
+    {"de":"Schönes Wochenende!","word":"Schönes Wochenende!","article":"","en":"Have a nice weekend!","jp":"良い週末を！","kr":"좋은 주말 보내세요!","my":"အပတ်ကုန်ကောင်းပါစေ!","th":"สุดสัปดาห์ที่ดี!","vi":"Cuối tuần vui vẻ!","pronunciation":"/ˌʃøːnəs ˈvɔxn̩ˌɛndə/","example_de":"Tschüss und schönes Wochenende!","example_en":"Bye and have a nice weekend!"},
+    {"de":"Was ist los?","word":"Was ist los?","article":"","en":"What's going on?","jp":"どうしたの？","kr":"무슨 일이야?","my":"ဘာဖြစ်လို့လဲ?","th":"เกิดอะไรขึ้น?","vi":"Có chuyện gì vậy?","pronunciation":"/vas ɪst loːs/","example_de":"Du siehst traurig aus. Was ist los?","example_en":"You look sad. What's going on?"}
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "title": "Fragen mit Fragewort (W-의문문)",
+  "sections": [
+    {
+      "id": "sentence_structure",
+      "title": "파트 1: 문장 구조 (의문사 문장 규칙)",
+      "description": "독일어에서 의문사(누구, 무엇, 어디 등)를 사용하여 질문할 때 문장 구조는 매우 엄격합니다. 동사가 항상 두 번째 위치에 와야 하기 때문에 이를 V2 규칙이라고 부릅니다.",
+      "content": {
+        "wh_position_table": {
+          "title": "W-의문문 어순 차트",
+          "headers": ["위치 1: 의문사", "위치 2: 동사", "위치 3: 주어", "나머지 문장"],
+          "rows": [
+            ["Wie (어떻게)", "heißen", "Sie", "?"],
+            ["Wo (어디에)", "ist", "er", "?"],
+            ["Woher (어디로부터)", "kommt", "er", "?"],
+            ["Was (무엇을)", "hat", "er", "gemacht?"]
+          ]
+        },
+        "key_rule": "핵심 규칙: 의문사는 항상 알파벳 \"w\"로 시작하며 첫 번째 위치에 옵니다. 인칭 변화된 동사는 바로 뒤인 두 번째 위치에 위치합니다."
+      }
+    },
+    {
+      "id": "common_w_words",
+      "title": "파트 2: 자주 쓰이는 의문사와 사용법",
+      "description": "가장 일반적인 의문사들의 종류와 사용 이유, 그리고 어떻게 사용하는지 정리했습니다.",
+      "content": {
+        "categories": [
+          {
+            "category": "1. Wer vs. Wen vs. Wem (누구)",
+            "description": "독일어는 문법적 격(주격, 대격/목적격, 여격)에 따라 \"누구\"에 해당하는 단어가 바뀝니다.",
+            "table": {
+              "headers": ["형태", "격", "사용법", "예시 질문", "예시 답변"],
+              "rows": [
+                ["Wer?", "1격 주격 - 주어", "사람의 정체를 확인할 때 사용합니다.", "Wer ist das? (이 사람은 누구입니까?)", "Das ist mein Mann. (제 남편입니다.)"],
+                ["Wen?", "4격 대격 - 직접 목적어", "그 사람이 동작의 대상이 될 때 사용합니다.", "Wen suchst du? (누구를 찾고 있나요?)", "Den Lehrer. (선생님을요.)"],
+                ["Mit wem?", "3격 여격 - 누구와", "\"mit\"과 같은 전치사 뒤에 사용됩니다.", "Mit wem gehst du? (누구와 함께 가나요?)", "Mit einem Freund. (친구와 함께요.)"]
+              ]
+            }
+          },
+          {
+            "category": "2. Wo vs. Woher vs. Wohin (장소)",
+            "description": "독일어는 위치가 고정되어 있는지, 어디서 오는지, 아니면 어디로 향하는지에 따라 장소 의문사를 구분합니다.",
+            "table": {
+              "headers": ["형태", "의미", "사용법", "예시 질문", "예시 답변"],
+              "rows": [
+                ["Wo?", "위치", "정지된 장소에 대해 묻습니다.", "Wo wohnen Sie? (어디에 사십니까?)", "In Berlin. (베를린에 삽니다.)"],
+                ["Woher?", "출처", "누군가 혹은 무언가가 어디에서 왔는지 묻습니다.", "Woher kommen Sie? (어디 출신이신가요?)", "Aus China. (중국에서 왔습니다.)"],
+                ["Wohin?", "방향", "목적지나 어디로 가고 있는지를 묻습니다.", "Wohin gehen Sie? (어디로 가시나요?)", "Ins Kino. (영화관에 갑니다.)"]
+              ]
+            }
+          },
+          {
+            "category": "3. Was (무엇)",
+            "description": "사물, 물건 또는 활동에 대해 묻을 때 사용합니다.",
+            "examples": [
+              {
+                "question": "Was ist das? (이것은 무엇입니까?)",
+                "answer": "Das ist mein Handy. (제 휴대폰입니다.)"
+              },
+              {
+                "question": "Was sind Sie von Beruf? (직업이 무엇입니까?)",
+                "answer": "Friseur. (미용사입니다.)"
+              }
+            ]
+          },
+          {
+            "category": "4. Wie (어떻게)",
+            "description": "이름, 묘사 또는 특징을 물을 때 사용합니다.",
+            "examples": [
+              {
+                "question": "Wie heißen Sie? (성함이 어떻게 되시나요?)",
+                "answer": "Edith Müller. (에디트 뮐러입니다.)"
+              },
+              {
+                "question": "Wie alt ist er? (그는 몇 살인가요?)",
+                "answer": "5 Jahre. (5살입니다.)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "advanced_w_words",
+      "title": "파트 3: 심화 의문사",
+      "description": "특정한 상황에서 사용되는 더 복잡한 의문사:",
+      "content": {
+        "categories": [
+          {
+            "category": "이유와 시간",
+            "table": {
+              "headers": ["의문사", "의미", "사용법", "예시 질문", "예시 답변"],
+              "rows": [
+                ["Warum?", "왜", "이유를 묻습니다. 대답은 주로 Weil(~때문에)로 시작합니다.", "Warum kommst du spät? (왜 늦었니?)", "Weil der Zug Verspätung hat. (기차가 연착됐기 때문이야.)"],
+                ["Wann?", "언제", "일반적인 시간에 대해 묻습니다.", "Wann beginnt der Film? (영화가 언제 시작하나요?)", "Um acht. (8시에요.)"]
+              ]
+            }
+          },
+          {
+            "category": "수량",
+            "table": {
+              "headers": ["의문사", "의미", "사용법", "예시 질문", "예시 답변"],
+              "rows": [
+                ["Wie viel?", "얼마나 많이 (불가산)", "셀 수 없는 것이나 가격을 물을 때 사용합니다.", "Wie viel kostet das? (이것은 얼마인가요?)", "3,50 Euro. (3.50 유로입니다.)"],
+                ["Wie viele?", "얼마나 많이 (가산)", "셀 수 있는 복수 명사에 사용합니다.", "Wie viele Kinder haben Sie? (자녀가 몇 명인가요?)", "Fünf. (다섯 명입니다.)"]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "학생용 요약 표",
+      "description": "모든 W-의문사에 대한 빠른 참조 자료:",
+      "content": {
+        "summary_table": {
+          "headers": ["독일어 단어", "의미", "사용 팁"],
+          "rows": [
+            ["Wer", "누구", "주어(동작을 하는 사람)를 물을 때 사용."],
+            ["Was", "무엇", "사물이나 행동을 물을 때 사용."],
+            ["Wo", "어디에", "고정된 장소(움직임 없음)를 물을 때 사용."],
+            ["Woher", "어디서부터", "\"kommen\" 동사와 함께 사용."],
+            ["Wohin", "어디로", "\"gehen\"이나 \"fahren\" 같은 이동 동사와 사용."],
+            ["Wie", "어떻게", "이름, 나이, 혹은 \"상태가 어떤지\" 물을 때 사용."],
+            ["Wann", "언제", "시간이나 날짜를 물을 때 사용."],
+            ["Warum", "왜", "이유나 원인을 물을 때 사용."]
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title": "Tìm hiểu về Thể Mệnh lệnh trong tiếng Đức (Imperativ)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Thể Mệnh lệnh là gì?",
+      "description": "Imperativ (Thể mệnh lệnh) là hình thái ngữ pháp được sử dụng để đưa ra mệnh lệnh, yêu cầu, lời khuyên hoặc hướng dẫn. Trong tiếng Đức, hình thái của động từ sẽ thay đổi tùy thuộc vào việc bạn đang nói chuyện với ai.",
+      "content": {
+        "forms": {
+          "title": "Có ba hình thức chính của Thể mệnh lệnh:",
+          "form_1": "1. Formell (Trang trọng): Dùng khi nói với một hoặc nhiều người một cách lịch sự (Sie).",
+          "form_2": "2. Informell Singular (Thân mật số ít): Dùng khi nói với một người bạn, một đứa trẻ hoặc thành viên trong gia đình (du).",
+          "form_3": "3. Informell Plural (Thân mật số nhiều): Dùng khi nói với hai hoặc nhiều người bạn hoặc trẻ em (ihr)."
+        }
+      }
+    },
+    {
+      "id": "formation",
+      "title": "1. Cách hình thành Thể mệnh lệnh",
+      "description": "Thể mệnh lệnh phụ thuộc vào đại từ và ngữ cảnh.",
+      "content": {
+        "formation_table": {
+          "headers": ["Ngữ cảnh", "Đại từ", "Quy tắc động từ", "Ví dụ (kommen)"],
+          "rows": [
+            ["Trang trọng", "Sie", "Dùng động từ nguyên thể + \"Sie\". Trật tự từ bị đảo ngược.", "Kommen Sie!"],
+            ["Thân mật (Nhóm)", "ihr", "Dùng dạng chia của \"ihr\", nhưng lược bỏ đại từ.", "Kommt!"],
+            ["Thân mật (Cá nhân)", "du", "Dùng dạng chia của \"du\", nhưng bỏ đuôi \"-st\" và lược bỏ đại từ.", "Komm!"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "special_verbs",
+      "title": "2. Các nhóm động từ đặc biệt",
+      "description": "Không phải tất cả động từ đều tuân theo quy tắc cơ bản một cách hoàn hảo. Dưới đây là cách xử lý các trường hợp bất quy tắc:",
+      "content": {
+        "special_verbs_table": {
+          "headers": ["Nhóm", "Mô tả", "Ví dụ động từ", "Trang trọng", "Thân mật (Cá nhân)", "Thân mật (Nhóm)"],
+          "rows": [
+            ["A. Động từ thay đổi nguyên âm (e → i)", "Nếu một động từ thay đổi từ e sang i (hoặc ie) ở thì hiện tại, thể mệnh lệnh thân mật số ít vẫn giữ sự thay đổi đó.", "nehmen (cầm/lấy)", "Nehmen Sie!", "Nimm! (Chữ \"e\" biến thành \"i\")", "Nehmt!"],
+            ["B. Động từ có dấu biến âm (a → ä)", "Khác với nhóm e → i, các động từ có dấu biến âm ở dạng \"du\" sẽ mất dấu biến âm trong thể mệnh lệnh.", "fahren (lái xe/đi)", "Fahren Sie!", "Fahr! (Không phải \"Fährst\")", "Fahrt!"],
+            ["C. Động từ tách (Trennbare Verben)", "Tiền tố luôn luôn chuyển xuống cuối câu.", "mitbringen (mang theo)", "Bringen Sie den Kuchen mit!", "Bring den Kuchen mit!", "Bringt den Kuchen mit!"],
+            ["D. Động từ bất quy tắc: sein", "Động từ sein (thì/là/ở) rất đặc biệt và cần phải học thuộc lòng.", "sein (thì/là/ở)", "Seien Sie!", "Sei!", "Seid!"],
+            ["D. Động từ bất quy tắc: haben", "Động từ haben (có) rất đặc biệt và cần phải học thuộc lòng.", "haben (có)", "Haben Sie!", "Hab!", "Habt!"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "politeness",
+      "title": "3. Làm nhẹ câu lệnh (Sự lịch sự)",
+      "description": "Mệnh lệnh trong tiếng Đức có thể nghe hơi nặng nề. Để làm chúng giống như một lời khuyên thân thiện hoặc yêu cầu lịch sự hơn, chúng ta thêm các từ cụ thể:",
+      "content": {
+        "politeness_table": {
+          "headers": ["Từ/Hư từ", "Mô tả", "Ví dụ"],
+          "rows": [
+            ["Bitte (Làm ơn/Vui lòng)", "Có thể đặt ở đầu hoặc cuối câu.", "Helfen Sie mir bitte! (Vui lòng giúp tôi với!)"],
+            ["Mal", "Giúp câu văn nghe tự nhiên hơn và bớt giống như một mệnh lệnh.", "Komm mal her! (Lại đây một chút nào!)"],
+            ["Doch", "Làm nhẹ câu lệnh, khiến nó nghe như lời khuyên khuyến khích.", "Probier doch den Kuchen! (Cứ thử bánh đi mà!)"],
+            ["Doch mal", "Kết hợp này rất tự nhiên và thân thiện.", "Mach doch mal Pause! (Cứ nghỉ ngơi đi mà!)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "practical_examples",
+      "title": "4. Ví dụ thực tế cho các tình huống hàng ngày",
+      "description": "Các ví dụ sử dụng Thể mệnh lệnh trong ngữ cảnh khác nhau:",
+      "content": {
+        "practical_examples_table": {
+          "headers": ["Tình huống", "Hoàn cảnh", "Hình thức", "Câu tiếng Đức", "Bản dịch tiếng Việt"],
+          "rows": [
+            ["Đưa ra lời khuyên (Ratschläge)", "Một người đang bị căng thẳng.", "Trang trọng", "Machen Sie Yoga!", "Ngài hãy tập Yoga đi!"],
+            ["Đưa ra lời khuyên (Ratschläge)", "Một người đang bị căng thẳng.", "Thân mật", "Mach Yoga!", "Tập Yoga đi!"],
+            ["Hướng dẫn trong lớp học", "Giáo viên nói với cả lớp.", "Thân mật (Nhóm)", "Schreibt den Text!", "Các em hãy viết văn bản này!"],
+            ["Hướng dẫn trong lớp học", "Giáo viên nói với cả lớp.", "Thân mật (Nhóm)", "Lest das Beispiel!", "Các em hãy đọc ví dụ!"],
+            ["Giao tiếp xã hội", "Mời một người lạ ngồi xuống.", "Trang trọng", "Nehmen Sie bitte Platz.", "Mời Ngài ngồi."],
+            ["Giao tiếp xã hội", "Nói với một người bạn đừng sợ hãi.", "Thân mật", "Hab keine Angst!", "Đừng sợ nhé!"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Danh sách kiểm tra tóm tắt cho học viên",
+      "description": "Tài liệu tham khảo nhanh để hình thành thể mệnh lệnh đúng cách:",
+      "content": {
+        "checklist": [
+          "Xác định đối tượng: Đó là Sie, du, hay ihr?",
+          "Sie: Giữ đuôi \"-n\" và giữ từ \"Sie\".",
+          "ihr: Sử dụng đuôi \"-t\", bỏ từ \"ihr\".",
+          "du: Bỏ đuôi \"-st\", bỏ từ \"du\", và kiểm tra xem \"e\" có cần đổi thành \"i\" hay không."
+        ]
+      }
+    }
+  ]
+}

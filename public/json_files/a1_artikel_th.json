@@ -1,0 +1,159 @@
+{
+  "title": "คำนำหน้าคำนาม (เจาะจง·ไม่เจาะจง·ไม่ใช้)",
+  "sections": [
+    {
+      "id": "indefinite_articles",
+      "title": "1. คำนำหน้าคำนามที่ไม่เจาะจง (Indefinite Articles)",
+      "description": "ใช้เมื่อต้องการแนะนำสิ่งของบางอย่างเป็นครั้งแรก หรือเมื่อพูดถึงสิ่งของทั่วไปที่ไม่เฉพาะเจาะจง (เทียบเท่ากับ \"a\" หรือ \"an\" ในภาษาอังกฤษ)",
+      "content": {
+        "examples_table": {
+          "headers": ["เพศ (Gender)", "Nominative (ประธาน)", "Accusative (กรรมตรง)"],
+          "rows": [
+            ["เพศชาย (Masculine)", "ein Mann", "einen Kaffee"],
+            ["เพศกลาง (Neutral)", "ein Haus", "ein Brötchen"],
+            ["เพศหญิง (Feminine)", "eine Frau", "eine Banane"],
+            ["พหูพจน์ (Plural)", "(ไม่มี Article) Autos", "(ไม่มี Article) Kartoffeln"]
+          ]
+        },
+        "why_use_them": {
+          "title": "ทำไมต้องใช้?",
+          "rules": [
+            {
+              "rule": "Nominative: ใช้สำหรับประธานของประโยค หรือใช้หลังคำกริยา sein (to be)",
+              "example": "Das ist ein Stuhl. (นั่นคือเก้าอี้ตัวหนึ่ง)"
+            },
+            {
+              "rule": "Accusative: ใช้เมื่อคำนามนั้นทำหน้าที่เป็นกรรมตรงของการกระทำ ข้อควรระวัง: เฉพาะคำนำหน้าของเพศชายเท่านั้นที่จะเปลี่ยนจาก ein เป็น einen",
+              "example": "Ich möchte einen Kaffee. (ฉันต้องการกาแฟสักแก้ว)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_articles",
+      "title": "2. คำนำหน้าคำนามที่เจาะจง (Definite Articles)",
+      "description": "ใช้เมื่ออ้างถึงสิ่งของเฉพาะเจาะจงที่เคยพูดถึงไปแล้ว หรือเป็นที่รู้กันดีระหว่างผู้พูดและผู้ฟัง (เทียบเท่ากับ \"the\" ในภาษาอังกฤษ)",
+      "content": {
+        "examples_table": {
+          "headers": ["เพศ (Gender)", "Nominative (ประธาน)", "Accusative (กรรมตรง)"],
+          "rows": [
+            ["เพศชาย (Masculine)", "der Mann", "den Kaffee"],
+            ["เพศกลาง (Neutral)", "das Haus", "das Brötchen"],
+            ["เพศหญิง (Feminine)", "die Frau", "die Banane"],
+            ["พหูพจน์ (Plural)", "die Autos", "die Kartoffeln"]
+          ]
+        },
+        "why_use_them": {
+          "title": "ทำไมต้องใช้?",
+          "rules": [
+            {
+              "rule": "การระบุเฉพาะเจาะจง: เมื่อคุณแนะนำ \"เก้าอี้ตัวหนึ่ง\" (ein Stuhl) ไปแล้ว ในประโยคถัดไปมันจะกลายเป็น \"เก้าอี้ตัวนั้น\" (der Stuhl)",
+              "example": "Das ist ein Laptop. Der Laptop ist gut. (นี่คือแล็ปท็อปเครื่องหนึ่ง แล็ปท็อปเครื่องนี้ดีมาก)"
+            },
+            {
+              "rule": "การเปลี่ยนรูปในช่อง Accusative: เช่นเดียวกับแบบไม่เจาะจง เฉพาะเพศชายเท่านั้นที่เปลี่ยนจาก der เป็น den",
+              "example": "Ich finde den Rock schön. (ฉันว่ากระโปรงตัวนี้สวยดี)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zero_article",
+      "title": "3. การไม่ใช้คำนำหน้าคำนาม (Zero Article)",
+      "description": "ในประโยคภาษาเยอรมันบางประเภท เราไม่ต้องใส่คำนำหน้าหน้าคำนามเลย",
+      "content": {
+        "key_rules": [
+          {
+            "category": "สิ่งที่นับไม่ได้",
+            "description": "แนวคิดที่เป็นนามธรรมหรือสิ่งที่นับไม่ได้ (เวลา, โชค, เงิน, ความหิว)",
+            "examples": [
+              "Ich habe Zeit. (ฉันมีเวลา) — ไม่ใช้ \"a time\"",
+              "Er hat Glück. (เขามีโชค/เขาโชคดี)"
+            ]
+          },
+          {
+            "category": "อาชีพ",
+            "description": "เมื่อบอกว่าคุณทำงานอะไร",
+            "examples": [
+              "Ich bin Pilotin. (ฉันเป็นนักบิน) — ในภาษาอังกฤษต้องมี \"a pilot\" แต่ภาษาเยอรมันจะละไว้"
+            ]
+          },
+          {
+            "category": "พหูพจน์ทั่วไป",
+            "description": "เมื่อพูดถึงของหลายสิ่งในเชิงทั่วไป",
+            "examples": [
+              "Das sind Blumen. (นี่คือดอกไม้หลายดอก)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_application",
+      "title": "4. การประยุกต์ใช้จริง",
+      "description": "การใช้ Article เปลี่ยนไปในสถานการณ์ต่างๆ",
+      "content": {
+        "transitioning": {
+          "title": "การเปลี่ยนจาก \"ไม่เจาะจง\" เป็น \"เจาะจง\"",
+          "description": "เมื่อบรรยายสิ่งของ มักจะใช้รูปแบบนี้:",
+          "steps": [
+            "แนะนำก่อน: Das ist + Indefinite Article (ein/eine).",
+            "ขยายความ: Definite Article (der/die/das) + คำคุณศัพท์ (Adjective)."
+          ],
+          "examples": [
+            {
+              "gender": "เพศชาย",
+              "introduce": "Das ist ein Laptop.",
+              "describe": "Der Laptop ist gut."
+            },
+            {
+              "gender": "เพศหญิง",
+              "introduce": "Das ist eine Vase.",
+              "describe": "Die Vase ist schön."
+            },
+            {
+              "gender": "เพศกลาง",
+              "introduce": "Das ist ein Bild.",
+              "describe": "Das Bild ist teuer."
+            }
+          ]
+        },
+        "accusative_questions": {
+          "title": "การใช้ Accusative ในประโยคคำถาม",
+          "description": "เมื่อถามว่า \"คุณมี...ไหม?\" (Hast du...?) สิ่งของที่คุณถามถึงจะอยู่ในรูป Accusative Case",
+          "examples": [
+            {
+              "gender": "เพศชาย",
+              "example": "Hast du einen Kuli?",
+              "note": "สังเกตการลงท้ายด้วย -en เพราะ Kuli เป็นเพศชายและเป็นกรรมตรง"
+            },
+            {
+              "gender": "เพศหญิง",
+              "example": "Hast du eine Uhr?",
+              "note": "ไม่มีการเปลี่ยนรูป"
+            },
+            {
+              "gender": "เพศกลาง",
+              "example": "Hast du ein Handy?",
+              "note": "ไม่มีการเปลี่ยนรูป"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "narrative_usage",
+      "title": "5. การใช้ในการเล่าเรื่อง (ตัวอย่างจากนิทาน)",
+      "description": "ในการเล่าเรื่อง คำนำหน้าจะเปลี่ยนไปตามลำดับเหตุการณ์:",
+      "content": {
+        "example": {
+          "introduction": "Es war einmal ein König. (กาลครั้งหนึ่งนานมาแล้ว มีพระราชาองค์หนึ่ง — เป็นการแนะนำครั้งแรก)",
+          "continuation": "Der König war sehr reich. (พระราชาองค์นั้นรวยมาก — ตอนนี้เรารู้แล้วว่าหมายถึงพระราชาองค์ไหน)"
+        },
+        "grammar_tip": "เคล็ดลับไวยากรณ์: ควรท่องจำเพศ (der/die/das) ไปพร้อมๆ กับคำศัพท์ใหม่ทุกครั้ง เพราะถ้าคุณไม่รู้เพศของคำนาม คุณจะไม่สามารถเลือกใช้ Article ในช่อง Nominative หรือ Accusative ได้ถูกต้องเลย!"
+      }
+    }
+  ]
+}

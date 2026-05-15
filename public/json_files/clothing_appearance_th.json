@@ -1,0 +1,55 @@
+{
+  "title": "Clothing & Appearance",
+  "emoji": "👔",
+  "theme_color": "#3F51B5",
+  "description": "Clothes, accessories, and personal appearance",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "anziehen", "thai": "สวมใส่", "example_german": "Ich ziehe mir eine warme Jacke an.", "example_thai": "ฉันกำลังสวมเสื้อแจ็คเก็ตที่ให้ความอบอุ่น"},
+          {"german": "ausziehen", "thai": "ถอดออก", "example_german": "Bitte zieh deine Schuhe im Flur aus.", "example_thai": "กรุณาถอดรองเท้าไว้ที่ทางเดินด้วยครับ"},
+          {"german": "umziehen", "thai": "เปลี่ยนชุด", "example_german": "Ich muss mich für die Party noch umziehen.", "example_thai": "ฉันยังต้องเปลี่ยนชุดสำหรับไปงานปาร์ตี้"},
+          {"german": "tragen", "thai": "สวมใส่", "example_german": "Sie trägt heute ein blaues Kleid.", "example_thai": "วันนี้เธอนุ่งชุดกระโปรงสีฟ้า"},
+          {"german": "passen", "thai": "พอดี/เหมาะสม", "example_german": "Die Hose passt mir leider nicht mehr.", "example_thai": "น่าเสียดายที่กางเกงตัวนี้ฉันใส่ไม่ได้แล้ว/ไม่พอดีแล้ว"},
+          {"german": "kaufen", "thai": "ซื้อ", "example_german": "Wir kaufen neue Kleidung für den Winter.", "example_thai": "พวกเราซื้อเสื้อผ้าใหม่สำหรับฤดูหนาว"},
+          {"german": "anprobieren", "thai": "ลองสวม", "example_german": "Darf ich diesen Pullover anprobieren?", "example_thai": "ฉันขอ ลองสวมเสื้อพูลโอเวอร์ตัวนี้ได้ไหมครับ"},
+          {"german": "nähen", "thai": "เย็บ", "example_german": "Meine Mutter kann sehr gut nähen.", "example_thai": "แม่ของฉันเย็บผ้าเก่งมาก"},
+          {"german": "bügeln", "thai": "รีดผ้า", "example_german": "Er bügelt seine Hemden jeden Sonntag.", "example_thai": "เขารีดเสื้อเชิ้ตของเขาทุกวันอาทิตย์"},
+          {"german": "waschen", "thai": "ซัก", "example_german": "Ich muss heute weiße Wäsche waschen.", "example_thai": "วันนี้ฉันต้องซักผ้าขาว"},
+          {"german": "trocknen", "thai": "ทำให้แห้ง/ตาก", "example_german": "Die Wäsche trocknet draußen in der Sonne.", "example_thai": "ผ้ากำลังตากให้แห้งอยู่ข้างนอกกลางแดด"},
+          {"german": "falten", "thai": "พับ", "example_german": "Ich falte die T-Shirts und lege sie in den Schrank.", "example_thai": "ฉันพับเสื้อยืดแล้วเก็บเข้าตู้"},
+          {"german": "aufhängen", "thai": "แขวน", "example_german": "Kannst du bitte die Mäntel aufhängen?", "example_thai": "คุณช่วยแขวนเสื้อโค้ทหน่อยได้ไหมครับ"},
+          {"german": "einpacken", "thai": "จัดของ/ห่อ", "example_german": "Wir müssen unsere Koffer für den Urlaub einpacken.", "example_thai": "พวกเราต้องจัดกระเป๋าเดินทางสำหรับไปพักร้อน"},
+          {"german": "auspacken", "thai": "แกะของ/นำของออกจากกระเป๋า", "example_german": "Ich packe meine Tasche nach der Reise aus.", "example_thai": "ฉันนำของออกจากกระเป๋าหลังจากจบทริปเดินทาง"},
+          {"german": "sortieren", "thai": "แยกแยะ/จัดประเภท", "example_german": "Sie sortiert ihre Socken nach Farben.", "example_thai": "เธอแยกถุงเท้าตามสี"},
+          {"german": "aufräumen", "thai": "จัดระเบียบ/จัดของให้เรียบร้อย", "example_german": "Du solltest endlich deinen Kleiderschrank aufräumen.", "example_thai": "ในที่สุดคุณควรจัดตู้เสื้อผ้าให้เป็นระเบียบเสียที"},
+          {"german": "färben", "thai": "ย้อมสี", "example_german": "Sie möchte sich die Haare schwarz färben.", "example_thai": "เธอต้องการย้อมผมเป็นสีดำ"},
+          {"german": "schneiden", "thai": "ตัด", "example_german": "Der Friseur schneidet mir die Spitzen.", "example_thai": "ช่างทำผมกำลังเล็มปลายผมให้ฉัน"},
+          {"german": "rasieren", "thai": "โกน", "example_german": "Er rasiert sich jeden zweiten Tag.", "example_thai": "เขาโกนหนวดทุกๆ สองวัน"},
+          {"german": "schminken", "thai": "แต่งหน้า", "example_german": "Sie schminkt sich vor dem Spiegel.", "example_thai": "เธอกำลังแต่งหน้าอยู่หน้ากระจก"},
+          {"german": "kühlen", "thai": "ทำให้เย็น/ประคบเย็น", "example_german": "Nach dem Sport muss ich mein Knie kühlen.", "example_thai": "หลังเล่นกีฬา ฉันต้องประคบเย็นที่หัวเข่า"},
+          {"german": "wärmen", "thai": "ทำให้อุ่น", "example_german": "Der Tee wärmt mich von innen.", "example_thai": "น้ำชาช่วยทำให้อุ่นจากภายใน"},
+          {"german": "reinigen", "thai": "ทำความสะอาด/ซักแห้ง", "example_german": "Ich muss diesen Anzug chemisch reinigen lassen.", "example_thai": "ฉันต้องเอาชุดสูทนี้ไปซักแห้ง"},
+          {"german": "aufbewahren", "thai": "เก็บรักษา", "example_german": "Wo bewahrst du deinen Schmuck auf?", "example_thai": "คุณเก็บเครื่องประดับไว้ที่ไหนครับ"},
+          {"german": "wegwerfen", "thai": "ทิ้ง", "example_german": "Diese alten Schuhe kannst du wegwerfen.", "example_thai": "รองเท้าเก่าคู่นี้คุณทิ้งไปได้เลย"},
+          {"german": "spenden", "thai": "บริจาค", "example_german": "Wir spenden unsere alte Kleidung an das Rote Kreuz.", "example_thai": "พวกเราบริจาคเสื้อผ้าเก่าให้กับสภากาชาด"},
+          {"german": "schenken", "thai": "ให้ (เป็นของขวัญ)", "example_german": "Ich schenke ihr eine goldene Kette.", "example_thai": "ฉันให้สร้อยคอทองคำเป็นของขวัญแก่เธอ"},
+          {"german": "leihen", "thai": "ยืม/ให้ยืม", "example_german": "Kannst du mir eine Krawatte leihen?", "example_thai": "คุณให้ฉันยืมเนคไทหน่อยได้ไหมครับ"},
+          {"german": "zurückgeben", "thai": "คืนให้", "example_german": "Ich gebe dir den geliehenen Schal morgen zurück.", "example_thai": "ฉันจะคืนผ้าพันคอที่ยืมมาให้คุณในวันพรุ่งนี้"},
+          {"german": "umtauschen", "thai": "แลกเปลี่ยน/เปลี่ยนสินค้า", "example_german": "Ich möchte diese Jacke gegen eine größere umtauschen.", "example_thai": "ฉันต้องการเปลี่ยนเสื้อแจ็คเก็ตตัวนี้เป็นไซส์ที่ใหญ่ขึ้น"},
+          {"german": "verlieren", "thai": "ทำหาย", "example_german": "Ich verliere ständig meine Handschuhe.", "example_thai": "ฉันทำถุงมือหายอยู่เรื่อยเลย"},
+          {"german": "finden", "thai": "หาเจอ", "example_german": "Ich kann meine Mütze nirgends finden.", "example_thai": "ฉันหาหมวกแก๊ปไม่เจอเลยสักที่"},
+          {"german": "suchen", "thai": "ค้นหา", "example_german": "Er sucht nach einer passenden Jeans.", "example_thai": "เขากำลังมองหากางเกงยีนส์ที่เหมาะสมสักตัว"},
+          {"german": "anschauen", "thai": "มองดู", "example_german": "Schau dir diesen schönen Mantel an!", "example_thai": "ดูเสื้อโค้ทที่สวยงามตัวนี้สิ!"},
+          {"german": "zeigen", "thai": "แสดงให้ดู", "example_german": "Zeig mir bitte deine neuen Schuhe.", "example_thai": "ช่วยขอดูรองเท้าคู่ใหม่ของคุณหน่อยครับ"},
+          {"german": "wählen", "thai": "เลือก", "example_german": "Sie kann sich nicht für eine Farbe wählen.", "example_thai": "เธอไม่สามารถเลือกสีได้"},
+          {"german": "gefallen", "thai": "ถูกใจ/ชอบ", "example_german": "Das Hemd gefällt mir sehr gut.", "example_thai": "ฉันถูกใจเสื้อเชิ้ตตัวนี้มาก"},
+          {"german": "stehen", "thai": "เหมาะสมกับ (สี/สไตล์)", "example_german": "Die Farbe Grün steht dir ausgezeichnet.", "example_thai": "สีเขียวเหมาะกับคุณอย่างยอดเยี่ยมเลย"},
+          {"german": "tragen", "thai": "แบก/ถือ", "example_german": "Er trägt die schweren Koffer zum Auto.", "example_thai": "เขากำลังแบกกระเป๋าเดินทางหนักๆ ไปที่รถ"}
+        ]
+      }
+    }
+  ]
+}

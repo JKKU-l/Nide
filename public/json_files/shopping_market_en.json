@@ -1,0 +1,55 @@
+{
+  "title": "Shopping & Market",
+  "emoji": "🛒",
+  "theme_color": "#009688",
+  "description": "Essential verbs for shopping, stores, and marketplaces in German",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "einkaufen", "english": "to shop", "example_german": "Ich muss heute für das Abendessen einkaufen.", "example_english": "I have to shop for dinner today."},
+          {"german": "kaufen", "english": "to buy", "example_german": "Ich kaufe mir ein neues Hemd.", "example_english": "I am buying myself a new shirt."},
+          {"german": "verkaufen", "english": "to sell", "example_german": "Er verkauft sein altes Auto.", "example_english": "He is selling his old car."},
+          {"german": "bezahlen", "english": "to pay", "example_german": "Kann ich bitte mit Karte bezahlen?", "example_english": "Can I pay with a card, please?"},
+          {"german": "kosten", "english": "to cost", "example_german": "Wie viel kostet dieser Apfel?", "example_english": "How much does this apple cost?"},
+          {"german": "suchen", "english": "to search / look for", "example_german": "Ich suche nach einem Geschenk für meine Mutter.", "example_english": "I am looking for a gift for my mother."},
+          {"german": "finden", "english": "to find", "example_german": "Hast du deine Schlüssel gefunden?", "example_english": "Did you find your keys?"},
+          {"german": "anprobieren", "english": "to try on", "example_german": "Darf ich diese Hose anprobieren?", "example_english": "May I try on these pants?"},
+          {"german": "passen", "english": "to fit", "example_german": "Die Schuhe passen mir perfekt.", "example_english": "The shoes fit me perfectly."},
+          {"german": "gefallen", "english": "to like", "example_german": "Das Kleid gefällt mir sehr gut.", "example_english": "I like the dress very much."},
+          {"german": "wählen", "english": "to choose", "example_german": "Bitte wählen Sie eine Farbe aus.", "example_english": "Please choose a color."},
+          {"german": "nehmen", "english": "to take", "example_german": "Ich nehme zwei Kilo Kartoffeln.", "example_english": "I'll take two kilos of potatoes."},
+          {"german": "wechseln", "english": "to exchange", "example_german": "Können Sie mir diesen 50-Euro-Schein wechseln?", "example_english": "Can you exchange this 50-euro bill for me?"},
+          {"german": "zurückgeben", "english": "to return", "example_german": "Ich möchte dieses Produkt zurückgeben.", "example_english": "I would like to return this product."},
+          {"german": "umtauschen", "english": "to swap / exchange", "example_german": "Kann ich dieses T-Shirt gegen eine andere Größe umtauschen?", "example_english": "Can I exchange this t-shirt for a different size?"},
+          {"german": "bestellen", "english": "to order", "example_german": "Wir bestellen uns heute Abend eine Pizza.", "example_english": "We are ordering a pizza tonight."},
+          {"german": "liefern", "english": "to deliver", "example_german": "Das Geschäft liefert die Möbel direkt nach Hause.", "example_english": "The shop delivers the furniture directly to the house."},
+          {"german": "abholen", "english": "to pick up", "example_german": "Ich hole meine Bestellung morgen im Laden ab.", "example_english": "I will pick up my order at the store tomorrow."},
+          {"german": "einpacken", "english": "to wrap / pack", "example_german": "Können Sie das bitte als Geschenk einpacken?", "example_english": "Can you please wrap that as a gift?"},
+          {"german": "vergleichen", "english": "to compare", "example_german": "Man sollte immer die Preise vergleichen.", "example_english": "One should always compare prices."},
+          {"german": "anschauen", "english": "to look at", "example_german": "Ich möchte mir nur kurz die Auslage anschauen.", "example_english": "I just want to take a quick look at the display."},
+          {"german": "fragen", "english": "to ask", "example_german": "Darf ich Sie etwas fragen?", "example_english": "May I ask you something?"},
+          {"german": "antworten", "english": "to answer", "example_german": "Der Verkäufer antwortet auf meine Fragen.", "example_english": "The salesman answers my questions."},
+          {"german": "helfen", "english": "to help", "example_german": "Kann ich Ihnen helfen?", "example_english": "Can I help you?"},
+          {"german": "empfehlen", "english": "to recommend", "example_german": "Welchen Wein können Sie mir empfehlen?", "example_english": "Which wine can you recommend to me?"},
+          {"german": "brauchen", "english": "to need", "example_german": "Ich brauche eine neue Tasche.", "example_english": "I need a new bag."},
+          {"german": "wollen", "english": "to want", "example_german": "Ich will heute nicht mehr einkaufen gehen.", "example_english": "I don't want to go shopping anymore today."},
+          {"german": "haben", "english": "to have", "example_german": "Haben Sie auch frische Erdbeeren?", "example_english": "Do you also have fresh strawberries?"},
+          {"german": "geben", "english": "to give", "example_german": "Können Sie mir bitte eine Quittung geben?", "example_english": "Can you please give me a receipt?"},
+          {"german": "zeigen", "english": "to show", "example_german": "Können Sie mir bitte die Uhr dort zeigen?", "example_english": "Can you please show me the watch over there?"},
+          {"german": "mitnehmen", "english": "to take along", "example_german": "Ich nehme diese Zeitschrift noch mit.", "example_english": "I'll take this magazine along as well."},
+          {"german": "tragen", "english": "to carry", "example_german": "Er trägt die schweren Einkaufstüten zum Auto.", "example_english": "He carries the heavy shopping bags to the car."},
+          {"german": "laufen", "english": "to walk", "example_german": "Wir laufen durch den Supermarkt.", "example_english": "We are walking through the supermarket."},
+          {"german": "stehen", "english": "to stand", "example_german": "Wir stehen an der Kasse an.", "example_english": "We are standing in line at the checkout."},
+          {"german": "warten", "english": "to wait", "example_german": "Ich warte auf meine Wechselgeld.", "example_english": "I am waiting for my change."},
+          {"german": "sparen", "english": "to save", "example_german": "Diesen Monat möchte ich etwas Geld sparen.", "example_english": "This month I want to save some money."},
+          {"german": "ausgeben", "english": "to spend", "example_german": "Sie hat viel Geld für Kleidung ausgegeben.", "example_english": "She spent a lot of money on clothes."},
+          {"german": "rechnen", "english": "to calculate", "example_german": "Ich muss kurz den Gesamtbetrag rechnen.", "example_english": "I need to quickly calculate the total amount."},
+          {"german": "zählen", "english": "to count", "example_german": "Er zählt sein Geld an der Kasse.", "example_english": "He counts his money at the checkout."},
+          {"german": "prüfen", "english": "to check", "example_german": "Bitte prüfen Sie Ihren Kassenbon.", "example_english": "Please check your receipt."}
+        ]
+      }
+    }
+  ]
+}

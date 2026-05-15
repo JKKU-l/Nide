@@ -1,0 +1,78 @@
+{
+  "title": "My Family",
+  "theme_color": "#FF6B6B",
+  "description": "A story about my family members and our daily life",
+  "audio_file": "my_family.mp3",
+  "difficulty": "A1",
+  "duration_minutes": 5,
+  "sections": [
+    {
+      "id": "story",
+      "title": "Meine Familie",
+      "content": {
+        "german_text": "Mein Name ist Lisa. Ich lebe mit meiner Familie in Berlin. Berlin ist eine schöne Stadt in Deutschland. Meine Familie hat fünf Personen. Ich habe eine Schwester und einen Bruder. Meine Mutter ist Lehrerin, und sie kocht leckeres Hühnchen. Mein Vater ist Arzt. Er arbeitet im Krankenhaus. Mein Bruder ist groß. Er spielt Fußball mit seinen Freunden. Meine Schwester ist Studentin. Sie lernt an einer Universität in der Nähe. Sie studiert Geschichte und Psychologie. Am Wochenende gehen wir in den Park. Manchmal besuchen wir Oma und Opa. Meine Großeltern sind sehr nett. Sie haben Hühner, Ziegen und Kühe. Ich liebe meine Familie sehr.",
+        "korean_translation": "제 이름은 리사입니다. 저는 베를린에서 가족과 함께 살고 있습니다. 베를린은 독일의 아름다운 도시입니다. 저희 가족은 다섯 명입니다. 저에게는 여동생 한 명과 남동생 한 명이 있습니다. 저희 어머니는 선생님이시고 맛있는 치킨 요리를 해주십니다. 저희 아버지는 의사입니다. 아버지는 병원에서 일하십니다. 제 남동생은 키가 큽니다. 그는 친구들과 축구를 합니다. 제 여동생은 대학생입니다. 그녀는 근처 대학교에서 공부합니다. 그녀는 역사와 심리학을 전공합니다. 주말에는 우리 가족은 공원에 갑니다. 가끔 우리는 할머니와 할아버지를 방문합니다. 저의 조부모님은 매우 친절하십니다. 그분들은 닭, 염소, 소를 키우십니다. 저는 제 가족을 매우 사랑합니다."
+      }
+    },
+    
+    {
+      "id": "exercises",
+      "title": "Practice Exercises",
+      "content": {
+        "exercises": [
+          {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Wie viele Personen hat Lisas Familie?",
+            "options": ["3", "4", "5", "6"],
+            "correct_answer": "5"
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "question": "Meine Mutter ist _______.",
+            "answer": "Lehrerin"
+          },
+          {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "Mein Vater ist _______.",
+            "answer": "Arzt"
+          },
+          {
+            "id": 4,
+            "type": "multiple_choice",
+            "question": "Was ist Lisas Vater von Beruf?",
+            "options": ["Lehrer", "Arzt", "Student", "Koch"],
+            "correct_answer": "Arzt"
+          },
+          {
+            "id": 5,
+            "type": "fill_blank",
+            "question": "Mein Bruder spielt _______.",
+            "answer": "Fußball"
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "question": "Ich habe eine _______.",
+            "answer": "Schwester"
+          },
+          {
+            "id": 7,
+            "type": "fill_blank",
+            "question": "Meine Großeltern wohnen auf einem _______.",
+            "answer": "Bauernhof"
+          },
+          {
+            "id": 8,
+            "type": "multiple_choice",
+            "question": "Wo wohnen Lisas Großeltern?",
+            "options": ["In Berlin", "Auf einem Bauernhof", "Im Krankenhaus", "An der Universität"],
+            "correct_answer": "Auf einem Bauernhof"
+          }
+        ]
+      }
+    }
+  ]
+}

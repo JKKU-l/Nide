@@ -1,0 +1,33 @@
+{
+  "theme_color": "#00BCD4",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Glas", "japanese": "コップ", "article": "das", "word": "Glas", "emoji": "🍷"},
+        {"german": "die Flasche", "japanese": "瓶", "article": "die", "word": "Flasche", "emoji": "🍾"},
+        {"german": "das Geschirr", "japanese": "食器", "article": "das", "word": "Geschirr", "emoji": "🍽️"},
+        {"german": "die Tasse", "japanese": "カップ", "article": "die", "word": "Tasse", "emoji": "☕"},
+        {"german": "die Untertasse", "japanese": "受け皿", "article": "die", "word": "Untertasse", "emoji": "☕"},
+        {"german": "der Teller", "japanese": "お皿", "article": "der", "word": "Teller", "emoji": "🍽️"},
+        {"german": "das Besteck", "japanese": "カトラリー", "article": "das", "word": "Besteck", "emoji": "🍴"},
+        {"german": "das Messer", "japanese": "ナイフ", "article": "das", "word": "Messer", "emoji": "🔪"},
+        {"german": "die Gabel", "japanese": "フォーク", "article": "die", "word": "Gabel", "emoji": "🍴"},
+        {"german": "der Löffel", "japanese": "スプーン", "article": "der", "word": "Löffel", "emoji": "🥄"},
+        {"german": "der Teelöffel", "japanese": "ティースプーン", "article": "der", "word": "Teelöffel", "emoji": "🥄"},
+        {"german": "der Geschmack", "japanese": "味", "article": "der", "word": "Geschmack", "emoji": "👅"},
+        {"german": "sauer", "japanese": "酸っぱい", "article": "", "word": "sauer", "emoji": "🍋"},
+        {"german": "süß", "japanese": "甘い", "article": "", "word": "süß", "emoji": "🍭"},
+        {"german": "scharf", "japanese": "辛い", "article": "", "word": "scharf", "emoji": "🌶️"},
+        {"german": "salzig", "japanese": "塩辛い", "article": "", "word": "salzig", "emoji": "🧂"},
+        {"german": "die Küche", "japanese": "台所", "article": "die", "word": "Küche", "emoji": "🍳"},
+        {"german": "kochen", "japanese": "料理する", "article": "", "word": "kochen", "emoji": "👨‍🍳"},
+        {"german": "der Herd", "japanese": "コンロ", "article": "der", "word": "Herd", "emoji": "🔥"},
+        {"german": "der Ofen", "japanese": "オーブン", "article": "der", "word": "Ofen", "emoji": "🍞"},
+        {"german": "das Restaurant", "japanese": "レストラン", "article": "das", "word": "Restaurant", "emoji": "🍴"},
+        {"german": "der Kellner / die Kellnerin", "japanese": "ウェイター / ウェイトレス", "article": "der", "word": "Kellner", "emoji": "🤵"},
+        {"german": "bestellen", "japanese": "注文する", "article": "", "word": "bestellen", "emoji": "📝"},
+        {"german": "die Speisekarte", "japanese": "メニュー", "article": "die", "word": "Speisekarte", "emoji": "📖"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "title": "German Personal Pronouns",
+  "subtitle": "Personal Pronouns in the Nominative Case",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "1. Overview of Personal Pronouns",
+      "description": "German pronouns are categorized by person (speaker, listener, or others) and number (singular or plural).",
+      "content": {
+        "table": {
+          "headers": ["Person", "Singular", "Plural"],
+          "rows": [
+            ["1st Person (Self)", "ich (I)", "wir (we)"],
+            ["2nd Person (Informal)", "du (you)", "ihr (you all)"],
+            ["2nd Person (Formal)", "Sie (you)", "Sie (you all)"],
+            ["3rd Person (Masculine)", "er (he)", ""],
+            ["3rd Person (Feminine)", "sie (she)", ""],
+            ["3rd Person (Neuter)", "es (it)", "sie (they)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pronouns_for_nouns",
+      "title": "2. Pronouns for Nouns (Objects)",
+      "description": "Unlike English, where objects are usually \"it,\" German objects use er, sie, or es based on their grammatical gender.",
+      "content": {
+        "examples": [
+          {
+            "gender": "Masculine (der)",
+            "example": "der Löffel → er (it/he)",
+            "explanation": "The spoon → it/he"
+          },
+          {
+            "gender": "Feminine (die)",
+            "example": "die Gabel → sie (it/she)",
+            "explanation": "The fork → it/she"
+          },
+          {
+            "gender": "Neuter (das)",
+            "example": "das Messer → es (it)",
+            "explanation": "The knife → it"
+          },
+          {
+            "gender": "Plural (die)",
+            "example": "die Tassen → sie (they)",
+            "explanation": "The cups → they"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pronoun_combination_rules",
+      "title": "3. Pronoun Combination Rules",
+      "description": "To identify the correct plural pronoun when multiple people are involved, use these logic rules:",
+      "content": {
+        "rules": [
+          {
+            "rule": "ich + anyone else = wir (we)",
+            "example": "ich + du = wir (we)"
+          },
+          {
+            "rule": "du + anyone (not ich) = ihr (you all)",
+            "example": "du + er = ihr (you all)"
+          },
+          {
+            "rule": "er/sie/es + no ich/du = sie (they)",
+            "example": "er + sie = sie (they)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_examples",
+      "title": "4. Practice Examples & Usage",
+      "description": "Learn how to use personal pronouns in real conversations.",
+      "content": {
+        "conversational_context": {
+          "title": "A. Conversational Context",
+          "examples": [
+            {
+              "german": "Wir sprechen Deutsch.",
+              "english": "We speak German."
+            },
+            {
+              "german": "Haben Sie Zeit?",
+              "english": "Do you have time? - Formal"
+            },
+            {
+              "german": "Hilfst du mir?",
+              "english": "Can you help me? - Informal"
+            },
+            {
+              "german": "Er ist Programmierer.",
+              "english": "He is a programmer."
+            }
+          ]
+        },
+        "replacing_names_objects": {
+          "title": "B. Replacing Names and Objects",
+          "examples": [
+            {
+              "original": "Herr Gupta kommt aus Indien.",
+              "replacement": "Er kommt aus Indien.",
+              "english": "Mr. Gupta comes from India. → He comes from India."
+            },
+            {
+              "original": "Anna und ich gehen nach Hause.",
+              "replacement": "Wir gehen nach Hause.",
+              "english": "Anna and I are going home. → We are going home."
+            },
+            {
+              "original": "Der Schrank ist teuer.",
+              "replacement": "Er kommt aus Italien.",
+              "english": "The closet is expensive. → It comes from Italy."
+            },
+            {
+              "original": "Das Kind ist müde.",
+              "replacement": "Es ist müde.",
+              "english": "The child is tired. → It is tired."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "Pro-Tip: Formal vs. Informal",
+      "description": "Understanding when to use formal and informal pronouns is crucial in German.",
+      "content": {
+        "guidelines": [
+          {
+            "type": "Formal",
+            "pronoun": "Sie (capitalized)",
+            "usage": "Always use Sie for adults you don't know, teachers, or in business."
+          },
+          {
+            "type": "Informal",
+            "pronoun": "du",
+            "usage": "Use du for friends, family, and children."
+          }
+        ]
+      }
+    }
+  ]
+}

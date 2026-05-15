@@ -1,0 +1,242 @@
+{
+  "title": "Nomen: Plural (名詞の複数形)",
+  "sections": [
+    {
+      "id": "golden_rule",
+      "title": "鉄則：定冠詞はすべて \"die\"",
+      "description": "単数形が男性名詞 (der)、女性名詞 (die)、中性名詞 (das) のいずれであっても、複数形になると定冠詞はすべて \"die\" に変わります。",
+      "content": {}
+    },
+    {
+      "id": "the_n_ending",
+      "title": "1. 語尾が -(e)n になるパターン",
+      "description": "ドイツ語で最も一般的な複数形の形です。",
+      "content": {
+        "when_to_use": [
+          "語尾が -ung, -heit, -keit, -ie, -or, -ion で終わる名詞",
+          "多くの女性名詞",
+          "-in で終わる女性の職業名（複数形では -innen になります）"
+        ],
+        "examples": [
+          {
+            "singular": "die Übung",
+            "translation": "練習",
+            "plural": "die Übungen"
+          },
+          {
+            "singular": "die Tasche",
+            "translation": "鞄",
+            "plural": "die Taschen"
+          },
+          {
+            "singular": "die Kundin",
+            "translation": "女性客",
+            "plural": "die Kundinnen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_er_ending",
+      "title": "2. 語尾が -er になるパターン",
+      "description": "主に短めの中性名詞に見られます。",
+      "content": {
+        "when_to_use": [
+          "多くの中性名詞 (das)",
+          "一部の男性名詞 (der)"
+        ],
+        "note": "単語の中に a, o, u, au が含まれる場合、多くはウムラウト (ä, ö, ü) が付きます。",
+        "examples": [
+          {
+            "singular": "das Kind",
+            "translation": "子供",
+            "plural": "die Kinder"
+          },
+          {
+            "singular": "das Buch",
+            "translation": "本",
+            "plural": "die Bücher",
+            "note": "ウムラウトが付く"
+          },
+          {
+            "singular": "der Mann",
+            "translation": "男の人",
+            "plural": "die Männer",
+            "note": "ウムラウトが付く"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_e_ending",
+      "title": "3. 語尾が -e になるパターン",
+      "description": "多くの短い名詞（さまざまな性別）に使われる非常に一般的な形です。",
+      "content": {
+        "when_to_use": [
+          "多くの男性名詞および中性名詞",
+          "女性名詞の場合、このパターンでは多くの場合ウムラウトが付きます"
+        ],
+        "examples": [
+          {
+            "singular": "der Tisch",
+            "translation": "机",
+            "plural": "die Tische"
+          },
+          {
+            "singular": "der Stuhl",
+            "translation": "椅子",
+            "plural": "die Stühle",
+            "note": "男性名詞＋ウムラウト"
+          },
+          {
+            "singular": "die Hand",
+            "translation": "手",
+            "plural": "die Hände",
+            "note": "女性名詞＋ウムラウト"
+          }
+        ]
+      }
+    },
+    {
+      "id": "no_ending",
+      "title": "4. 語尾が変化しないパターン (—)",
+      "description": "語尾に何も付け足さないグループです。形が変わらないか、母音がウムラウトに変化するだけです。",
+      "content": {
+        "when_to_use": [
+          "語尾が -er, -en, -el で終わる名詞",
+          "縮小語の -chen や -lein（常に中性名詞）"
+        ],
+        "examples": [
+          {
+            "singular": "der Sessel",
+            "translation": "アームチェア",
+            "plural": "die Sessel",
+            "note": "変化なし"
+          },
+          {
+            "singular": "das Mädchen",
+            "translation": "女の子",
+            "plural": "die Mädchen",
+            "note": "変化なし"
+          },
+          {
+            "singular": "der Vater",
+            "translation": "父親",
+            "plural": "die Väter",
+            "note": "母音がウムラウトに変化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_s_ending",
+      "title": "5. 語尾が -s になるパターン",
+      "description": "外来語や特定の母音で終わる単語に使われます。",
+      "content": {
+        "when_to_use": [
+          "語尾が -a, -i, -o, -u, -y で終わる名詞",
+          "略語（例：PKW）",
+          "外来語（英語やフランス語由来の言葉）"
+        ],
+        "examples": [
+          {
+            "singular": "das Auto",
+            "translation": "車",
+            "plural": "die Autos"
+          },
+          {
+            "singular": "das Hobby",
+            "translation": "趣味",
+            "plural": "die Hobbys"
+          },
+          {
+            "singular": "der Job",
+            "translation": "仕事",
+            "plural": "die Jobs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "special_cases",
+      "title": "特殊なケース：不規則形と数",
+      "description": "一部の名詞には不規則な複数形や、単数のみまたは複数のみの形があります。",
+      "content": {
+        "categories": [
+          {
+            "category": "不規則な複数形",
+            "description": "ラテン語やギリシャ語由来の単語は、独自の形をとります。",
+            "examples": [
+              {
+                "singular": "das Museum",
+                "plural": "die Museen"
+              },
+              {
+                "singular": "das Praktikum",
+                "plural": "die Praktika"
+              },
+              {
+                "singular": "die Firma",
+                "plural": "die Firmen"
+              }
+            ]
+          },
+          {
+            "category": "複数形がない名詞（単数のみ）",
+            "description": "概念や物質を表す言葉です。",
+            "examples": [
+              {
+                "type": "抽象概念",
+                "examples": "das Glück (幸福), die Liebe (愛)"
+              },
+              {
+                "type": "物質",
+                "examples": "das Gold (金), die Milch (牛乳)"
+              },
+              {
+                "type": "集合名詞",
+                "examples": "das Obst (果物), die Kleidung (衣類)"
+              }
+            ]
+          },
+          {
+            "category": "単数形がない名詞（複数のみ）",
+            "description": "常にグループとして扱われるものです。",
+            "examples": [
+              {
+                "type": "地名",
+                "examples": "die USA, die Alpen (アルプス山脈)"
+              },
+              {
+                "type": "人々",
+                "examples": "die Eltern (両親), die Leute (人々)"
+              },
+              {
+                "type": "活動",
+                "examples": "die Ferien (休暇)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "クイック参照表",
+      "description": "全てのパターンのクイックリファレンス:",
+      "content": {
+        "summary_table": {
+          "headers": ["単数形の語尾", "一般的な複数語尾", "例"],
+          "rows": [
+            ["-e (女性名詞)", "-n", "die Lampe → die Lampen"],
+            ["-in (女性の職業)", "-innen", "die Lehrerin → die Lehrerinnen"],
+            ["-er / -el / -en", "- (なし)", "der Teller → die Teller"],
+            ["-ung / -heit", "-en", "die Zeitung → die Zeitungen"],
+            ["-a / -o / -i", "-s", "das Sofa → die Sofas"]
+          ]
+        },
+        "pro_tip": "プロのアドバイス: 新しいドイツ語の名詞を覚えるときは、必ず 「定冠詞」と「複数形」をセットで 暗記しましょう。100%完璧なルールはないので、一つのパッケージとして覚えるのが一番の近道です！"
+      }
+    }
+  ]
+}

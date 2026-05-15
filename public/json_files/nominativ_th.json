@@ -1,0 +1,83 @@
+{
+  "title": "Nominativ (การก์ประธาน)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "การก์ประธาน (Nominativ) คืออะไร?",
+      "description": "ในภาษาเยอรมัน Nominativ คือการก์ \"ตั้งชื่อ\" ให้คิดว่ามันเป็นค่าเริ่มต้นของคำก่อนที่การกระทำ (เช่น การให้ การเห็น การเป็นเจ้าของ) จะเปลี่ยนบทบาทของมัน ใช้สำหรับประธานของประโยค ซึ่งก็คือบุคคลหรือสิ่งที่ทำการกระทำ"
+    },
+    {
+      "id": "articles_adjectives_nouns",
+      "title": "1. คำนำหน้านาม คำคุณศัพท์ และคำนาม",
+      "description": "คำลงท้ายของคำคุณศัพท์จะเปลี่ยนไปขึ้นอยู่กับว่าตามหลังคำนำหน้าชี้เฉพาะ (the) คำนำหน้าไม่ชี้เฉพาะ (a) หรือไม่มีคำนำหน้าเลย นี่เรียกว่า adjective declension (การผันคำคุณศัพท์)",
+      "content": {
+        "declension_table": {
+          "title": "ตารางการผัน",
+          "headers": ["หมวดหมู่", "Definite (the)", "Indefinite (a/my/no)", "ไม่มี Article"],
+          "rows": [
+            { "category": "เพศชาย", "definite": "der nette Vater", "indefinite": "ein netter Vater", "no_article": "netter Vater" },
+            { "category": "เพศหญิง", "definite": "die nette Mutter", "indefinite": "eine nette Mutter", "no_article": "nette Mutter" },
+            { "category": "ไม่ระบุเพศ", "definite": "das nette Kind", "indefinite": "ein nettes Kind", "no_article": "nettes Kind" },
+            { "category": "พหูพจน์", "definite": "die netten Eltern", "indefinite": "meine netten Eltern", "no_article": "nette Eltern" }
+          ]
+        },
+        "translations": [
+          { "label": "เพศชาย", "german": "Der nette Vater ist hier.", "translation": "พ่อที่ใจดีอยู่ที่นี่" },
+          { "label": "เพศหญิง", "german": "Eine nette Mutter hilft.", "translation": "แม่ที่ใจดีคนหนึ่งช่วยเหลือ" },
+          { "label": "ไม่ระบุเพศ", "german": "Nettes Kind, komm her!", "translation": "เด็กน่ารัก มานี่สิ! (ใช้เมื่อเรียกโดยตรงโดยไม่มี article)" }
+        ],
+        "key_rule": "ถ้าคำ \"the\" (der/die/das) แสดงเพศอยู่แล้ว คำคุณศัพท์จะลงท้ายด้วย -e อย่างง่าย (ยกเว้นพหูพจน์) ถ้าไม่มี \"the\" แสดงเพศ (เช่น กับ ein) คำคุณศัพท์ต้อง \"แบก\" เครื่องหมายเพศเอง (เช่น ein netter Vater เพราะ der ลงท้ายด้วย -r)"
+      }
+    },
+    {
+      "id": "special_determiners",
+      "title": "2. Determiners พิเศษ",
+      "description": "คำบางคำทำหน้าที่เหมือน definite article (der/die/das) ทุกประการ ถ้าใช้คำเหล่านี้ คำคุณศัพท์จะลงท้ายด้วย -e (เอกพจน์) หรือ -en (พหูพจน์) เสมอ",
+      "content": {
+        "determiners": ["dieser (นี้)", "jener (นั้น)", "jeder (ทุก)", "alle (ทั้งหมด)"],
+        "example": { "german": "Jeder gute Schüler lernt.", "translation": "นักเรียนดีทุกคนเรียนรู้", "note": "Jeder ทำหน้าที่เหมือน der ดังนั้น gut จึงเติม -e เท่านั้น" }
+      }
+    },
+    {
+      "id": "pronouns",
+      "title": "3. สรรพนาม",
+      "description": "สรรพนามใช้แทนคำนาม ใน Nominativ สรรพนามแทนประธาน",
+      "content": {
+        "personal_pronouns": {
+          "title": "สรรพนามบุรุษ (\"ใคร\")",
+          "description": "ประธานพื้นฐานของประโยค:",
+          "singular": ["ich (ฉัน)", "du (คุณ)", "er/sie/es (เขา/เธอ/มัน)"],
+          "plural": ["wir (เรา)", "ihr (พวกคุณ)", "sie/Sie (พวกเขา/คุณ-ทางการ)"]
+        },
+        "possessive_pronouns": {
+          "title": "สรรพนามแสดงความเป็นเจ้าของ (\"ของใคร\")",
+          "description": "มีสองประเภท:",
+          "dependent": { "label": "แบบพึ่งพา", "explanation": "ใช้หน้าคำนาม (เช่น สุนัขของฉัน)", "german": "Mein Hund ist groß.", "translation": "สุนัขของฉันตัวใหญ่" },
+          "independent": { "label": "แบบอิสระ", "explanation": "ใช้เดี่ยวๆ (เช่น สุนัขเป็นของฉัน)", "german": "Der Hund ist meiner.", "translation": "สุนัขเป็นของฉัน" },
+          "comparison_table": {
+            "title": "เปรียบเทียบสรรพนามแสดงความเป็นเจ้าของแบบอิสระ",
+            "headers": ["บุรุษ", "เพศชาย (ของฉัน)", "ไม่ระบุเพศ (ของฉัน)", "เพศหญิง/พหูพจน์ (ของฉัน)"],
+            "rows": [
+              { "person": "บุรุษที่ 1 (ฉัน)", "masculine": "meiner", "neuter": "meins", "fem_plural": "meine" },
+              { "person": "บุรุษที่ 2 (คุณ)", "masculine": "deiner", "neuter": "deins", "fem_plural": "deine" },
+              { "person": "บุรุษที่ 3 (เขา)", "masculine": "seiner", "neuter": "seins", "fem_plural": "seine" }
+            ]
+          },
+          "example_dialogue": { "question": "\"ลูกบอลนั้นของใคร?\" → \"ของฉัน\"", "german": "\"Wessen Ball ist das?\" → \"Es ist meiner.\"", "note": "เพราะ Ball เป็นคำนามเพศชาย" }
+        }
+      }
+    },
+    {
+      "id": "summary",
+      "title": "สรุปการใช้งาน",
+      "description": "ใช้ระบบ Nominativ เมื่อ:",
+      "content": {
+        "rules": [
+          { "rule": "คำนามเป็นประธาน", "german": "Der Hund bellt.", "translation": "สุนัขเห่า" },
+          { "rule": "หลังกริยา \"sein\" (เป็น/คือ)", "german": "Er ist ein guter Mann.", "translation": "เขาเป็นคนดี" }
+        ],
+        "note": "ในภาษาเยอรมัน \"sein\" ทำหน้าที่เหมือนเครื่องหมายเท่ากับ (A = B) ดังนั้นทั้งสองด้านจึงเป็น Nominativ"
+      }
+    }
+  ]
+}

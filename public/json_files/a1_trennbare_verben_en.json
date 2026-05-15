@@ -1,0 +1,133 @@
+{
+  "title": "Understanding Trennbare Verben (Separable Verbs)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "What are Separable Verbs?",
+      "description": "In German, some verbs have a prefix (a small word at the beginning) that changes the meaning of the base verb. These are called \"Separable Verbs\" because the prefix \"separates\" from the main verb in certain sentence structures.",
+      "content": {
+        "description": "The prefix changes the meaning of the base verb and moves to the end of the sentence in main clauses."
+      }
+    },
+    {
+      "id": "basic_structure",
+      "title": "1. Basic Structure (Main Clause)",
+      "description": "When you use a separable verb in a normal sentence, the verb splits into two parts:",
+      "content": {
+        "structure": {
+          "parts": [
+            "The Main Verb Part: Goes to Position 2 (conjugated to match the subject).",
+            "The Prefix: Goes to the very end of the sentence."
+          ]
+        },
+        "example": {
+          "verb": "einkaufen (to shop/to go shopping)",
+          "prefix": "ein-",
+          "main_verb": "kaufen (to buy)",
+          "table": {
+            "headers": ["Subject", "Verb (Pos 2)", "Middle Part", "Prefix (End)"],
+            "rows": [
+              ["Ich", "kaufe", "im Supermarkt", "ein."]
+            ],
+            "translation": "English Translation: I shop at the supermarket."
+          }
+        }
+      }
+    },
+    {
+      "id": "common_prefixes",
+      "title": "2. Common Separable Prefixes",
+      "description": "You can recognize these verbs by their prefixes. Here are the most common ones from your textbook:",
+      "content": {
+        "prefixes": [
+          {"prefix": "ab-", "example": "abfahren - to depart"},
+          {"prefix": "an-", "example": "ankommen - to arrive"},
+          {"prefix": "auf-", "example": "aufstehen - to get up"},
+          {"prefix": "aus-", "example": "aussteigen - to get off/exit"},
+          {"prefix": "mit-", "example": "mitkommen - to come along"},
+          {"prefix": "ein-", "example": "einsteigen - to get in/board"},
+          {"prefix": "zurück-", "example": "zurückkommen - to come back"}
+        ]
+      }
+    },
+    {
+      "id": "modal_verbs",
+      "title": "3. Usage with Modal Verbs",
+      "description": "When you use a Modal Verb (like müssen - must, können - can, möchten - would like), the separable verb does not split.",
+      "content": {
+        "rule": {
+          "modal": "The Modal Verb goes to Position 2.",
+          "separable": "The whole separable verb goes to the end in its infinitive form (original form)."
+        },
+        "example": {
+          "combination": "müssen + aufstehen",
+          "sentence": "Ich muss um 6 Uhr aufstehen.",
+          "translation": "(I must get up at 6 o'clock.)"
+        }
+      }
+    },
+    {
+      "id": "pronunciation",
+      "title": "4. Word Accent (Pronunciation)",
+      "description": "In separable verbs, the stress (accent) is always on the prefix.",
+      "content": {
+        "examples": [
+          "ein-kaufen",
+          "auf-stehen",
+          "an-kommen"
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. Examples & Detailed Logic",
+      "description": "Here is how you use the verbs found in your exercise, explained with logic:",
+      "content": {
+        "examples_table": {
+          "headers": ["Verb", "German Sentence", "English Translation", "Logic/Explanation"],
+          "rows": [
+            ["einsteigen (to get in/board)", "Ich steige in die U-Bahn ein.", "I get on the subway.", "You are putting yourself \"into\" (ein) the vehicle."],
+            ["umsteigen (to change/transfer)", "Ich steige an der Hauptwache um.", "I transfer at Hauptwache.", "You are changing \"around\" (um) from one train to another."],
+            ["aussteigen (to get off)", "Ich steige am Bahnhof aus.", "I get off at the station.", "You are going \"out\" (aus) of the train."],
+            ["anfangen (to start/begin)", "Die Arbeit fängt um 8 Uhr an.", "Work starts at 8 o'clock.", "The prefix 'an' marks the start point. Note: 'fangen' changes to 'fängt' (irregular)."],
+            ["aufmachen (to open)", "Ich mache das Fenster auf.", "I open the window.", "Moving something \"up/open\" (auf)."],
+            ["zumachen (to close)", "Ich mache das Fenster zu.", "I close the window.", "Moving something \"to/closed\" (zu)."],
+            ["fernsehen (to watch TV)", "Abends sehe ich fern.", "In the evening I watch TV.", "\"Fern\" means far. You are \"looking far\" (watching TV)."],
+            ["anrufen (to call someone)", "Ich rufe meine Mutter an.", "I call my mother.", "'Rufen' is to shout/call; 'anrufen' specifically means to phone."],
+            ["einladen (to invite)", "Meine Freundin lädt mich ein.", "My girlfriend invites me.", "To \"load someone in\" to an event (invite)."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_table",
+      "title": "Summary Table for Students",
+      "description": "Quick reference for using separable verbs in different scenarios.",
+      "content": {
+        "summary_table": {
+          "headers": ["Scenario", "Rule", "Example"],
+          "rows": [
+            ["Normal Sentence", "Verb at Pos 2, Prefix at the end.", "Ich stehe um 7 Uhr auf."],
+            ["With Modal Verb", "Modal at Pos 2, Full Verb at the end.", "Ich möchte mitkommen."],
+            ["Questions (Yes/No)", "Verb at Pos 1, Prefix at the end.", "Fängst du morgen an?"],
+            ["Subordinate Clause", "Verb + Prefix stay together at the end.", "... weil ich um 6 Uhr aufstehe."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "why_use",
+      "title": "Why do we use this?",
+      "description": "German uses these prefixes to be very precise. For example, the verb \"machen\" just means \"to do/make.\" But by adding prefixes, we get:",
+      "content": {
+        "examples": [
+          "aufmachen = to open",
+          "zumachen = to close",
+          "anmachen = to turn on (light/electronics)",
+          "ausmachen = to turn off"
+        ],
+        "explanation": "This allows German to create many specific meanings from one simple base verb."
+      }
+    }
+  ]
+}

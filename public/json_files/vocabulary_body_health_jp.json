@@ -1,0 +1,157 @@
+{
+  "title": "体と健康",
+  "description": "ドイツ語で体の部位と健康に関する基本的な語彙を学びましょう。",
+  "image": "assets/images/body_and_health.png",
+  "vocabulary": [
+    {
+      "german": "der Körper",
+      "japanese": "体 (からだ)",
+      "article": "der",
+      "word": "Körper"
+    },
+    {
+      "german": "der Kopf",
+      "japanese": "頭 (あたま)",
+      "article": "der",
+      "word": "Kopf"
+    },
+    {
+      "german": "die Brust",
+      "japanese": "胸 (むね)",
+      "article": "die",
+      "word": "Brust"
+    },
+    {
+      "german": "das Bein",
+      "japanese": "脚 (あし)",
+      "article": "das",
+      "word": "Bein"
+    },
+    {
+      "german": "der Fuß",
+      "japanese": "足 (あし)",
+      "article": "der",
+      "word": "Fuß"
+    },
+    {
+      "german": "der Hals",
+      "japanese": "首 / 喉 (くび / のど)",
+      "article": "der",
+      "word": "Hals"
+    },
+    {
+      "german": "der Bauch",
+      "japanese": "お腹 (おなか)",
+      "article": "der",
+      "word": "Bauch"
+    },
+    {
+      "german": "das Knie",
+      "japanese": "膝 (ひざ)",
+      "article": "das",
+      "word": "Knie"
+    },
+    {
+      "german": "der Zeh",
+      "japanese": "足の指 (あしのゆび)",
+      "article": "der",
+      "word": "Zeh"
+    },
+    {
+      "german": "der Rücken",
+      "japanese": "背中 (せなか)",
+      "article": "der",
+      "word": "Rücken"
+    },
+    {
+      "german": "die Schulter",
+      "japanese": "肩 (かた)",
+      "article": "die",
+      "word": "Schulter"
+    },
+    {
+      "german": "der Arm",
+      "japanese": "腕 (うで)",
+      "article": "der",
+      "word": "Arm"
+    },
+    {
+      "german": "der Ellbogen",
+      "japanese": "肘 (ひじ)",
+      "article": "der",
+      "word": "Ellbogen"
+    },
+    {
+      "german": "der Po",
+      "japanese": "お尻 (おしり)",
+      "article": "der",
+      "word": "Po"
+    },
+    {
+      "german": "die Hand",
+      "japanese": "手 (て)",
+      "article": "die",
+      "word": "Hand"
+    },
+    {
+      "german": "der Finger",
+      "japanese": "指 (ゆび)",
+      "article": "der",
+      "word": "Finger"
+    },
+    {
+      "german": "das Gesicht",
+      "japanese": "顔 (かお)",
+      "article": "das",
+      "word": "Gesicht"
+    },
+    {
+      "german": "das Haar",
+      "japanese": "髪 (かみ)",
+      "article": "das",
+      "word": "Haar"
+    },
+    {
+      "german": "die Nase",
+      "japanese": "鼻 (はな)",
+      "article": "die",
+      "word": "Nase"
+    },
+    {
+      "german": "der Mund",
+      "japanese": "口 (くち)",
+      "article": "der",
+      "word": "Mund"
+    },
+    {
+      "german": "die Lippe",
+      "japanese": "唇 (くちびる)",
+      "article": "die",
+      "word": "Lippe"
+    },
+    {
+      "german": "das Auge",
+      "japanese": "目 (め)",
+      "article": "das",
+      "word": "Auge"
+    },
+    {
+      "german": "das Ohr",
+      "japanese": "耳 (みみ)",
+      "article": "das",
+      "word": "Ohr"
+    },
+    {
+      "german": "die Zunge",
+      "japanese": "舌 (した)",
+      "article": "die",
+      "word": "Zunge"
+    },
+    {
+      "german": "der Zahn",
+      "japanese": "歯 (は)",
+      "article": "der",
+      "word": "Zahn"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "theme_color": "#009688",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "der Beruf", "korean": "직업", "article": "der", "word": "Beruf", "emoji": "💼"},
+        {"german": "der Bäcker", "korean": "제빵사", "article": "der", "word": "Bäcker", "emoji": "🥖"},
+        {"german": "der Elektriker", "korean": "전기기사", "article": "der", "word": "Elektriker", "emoji": "⚡"},
+        {"german": "der Anwalt", "korean": "변호사", "article": "der", "word": "Anwalt", "emoji": "⚖️"},
+        {"german": "der Bauer", "korean": "농부", "article": "der", "word": "Bauer", "emoji": "👨‍🌾"},
+        {"german": "der Fleischer", "korean": "정육점 주인", "article": "der", "word": "Fleischer", "emoji": "🥩"},
+        {"german": "der Arbeiter", "korean": "노동자", "article": "der", "word": "Arbeiter", "emoji": "👷"},
+        {"german": "der Briefträger", "korean": "우체부", "article": "der", "word": "Briefträger", "emoji": "📬"},
+        {"german": "der Gärtner", "korean": "정원사", "article": "der", "word": "Gärtner", "emoji": "🌿"},
+        {"german": "der Hausmann / die Hausfrau", "korean": "주부", "article": "der / die", "word": "Hausmann / Hausfrau", "emoji": "🏠"},
+        {"german": "der Maler", "korean": "화가 / 도장공", "article": "der", "word": "Maler", "emoji": "🎨"},
+        {"german": "der Polizist", "korean": "경찰관", "article": "der", "word": "Polizist", "emoji": "👮"},
+        {"german": "der Hausmeister", "korean": "관리인", "article": "der", "word": "Hausmeister", "emoji": "🔑"},
+        {"german": "der Maurer", "korean": "벽돌공", "article": "der", "word": "Maurer", "emoji": "🧱"},
+        {"german": "der Schneider", "korean": "재봉사", "article": "der", "word": "Schneider", "emoji": "🧵"},
+        {"german": "der Installateur", "korean": "배관공 / 설치기사", "article": "der", "word": "Installateur", "emoji": "🔧"},
+        {"german": "der Mechaniker", "korean": "정비사", "article": "der", "word": "Mechaniker", "emoji": "🛠️"},
+        {"german": "der Sekretär / die Sekretärin", "korean": "비서", "article": "der / die", "word": "Sekretär / Sekretärin", "emoji": "⌨️"}
+      ]
+    }
+  ]
+}

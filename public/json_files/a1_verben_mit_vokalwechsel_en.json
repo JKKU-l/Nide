@@ -1,0 +1,282 @@
+{
+  "title": "Verbs with Vowel Changes",
+  "subtitle": "Grammar & Exercises",
+  "sections": [
+    {
+      "id": "grammar_rule",
+      "title": "Grammar Rule",
+      "description": "In certain German verbs, the stem vowel changes in the du and er/sie/es forms. Bei Verben mit Vokalwechsel wechselt bei du und er, sie, es der Vokal.",
+      "content": {
+        "table": {
+          "headers": ["Pronomen", "e → i / ie (essen)", "a → ä (schlafen)"],
+          "rows": [
+            ["ich", "esse", "schlafe"],
+            ["du", "isst", "schläfst"],
+            ["er/sie/es", "isst", "schläft"],
+            ["wir", "essen", "schlafen"],
+            ["ihr", "esst", "schlaft"],
+            ["sie/Sie", "essen", "schlafen"]
+          ]
+        },
+        "important_verbs": {
+          "e_to_i_ie": "empfehlen (empfiehlt), essen (isst), geben (gibt), fernsehen (sieht fern), helfen (hilft), lesen (liest), mitnehmen (nimmt mit), nehmen (nimmt), sehen (sieht), sprechen (spricht), vergessen (vergisst), werden (wird).",
+          "a_to_ä": "abfahren (fährt ab), anfangen (fängt an), einladen (lädt ein), einschlafen (schläft ein), fahren (fährt), gefallen (gefällt), laufen (läuft), schlafen (schläft), tragen (trägt), waschen (wäscht)."
+        }
+      }
+    },
+    {
+      "id": "exercise_1",
+      "title": "Exercise 1: Infinitives",
+      "description": "Wie heißt der Infinitiv? What is the infinitive?",
+      "content": {
+        "exercises": [
+          {
+            "conjugated": "du gibst",
+            "infinitive": "geben",
+            "translation": "to give"
+          },
+          {
+            "conjugated": "er läuft",
+            "infinitive": "laufen",
+            "translation": "to run/walk"
+          },
+          {
+            "conjugated": "sie hilft",
+            "infinitive": "helfen",
+            "translation": "to help"
+          },
+          {
+            "conjugated": "du nimmst",
+            "infinitive": "nehmen",
+            "translation": "to take"
+          },
+          {
+            "conjugated": "er wäscht",
+            "infinitive": "waschen",
+            "translation": "to wash"
+          },
+          {
+            "conjugated": "du siehst",
+            "infinitive": "sehen",
+            "translation": "to see"
+          },
+          {
+            "conjugated": "er spricht",
+            "infinitive": "sprechen",
+            "translation": "to speak"
+          },
+          {
+            "conjugated": "sie vergisst",
+            "infinitive": "vergessen",
+            "translation": "to forget"
+          },
+          {
+            "conjugated": "er empfiehlt",
+            "infinitive": "empfehlen",
+            "translation": "to recommend"
+          },
+          {
+            "conjugated": "wir lesen",
+            "infinitive": "lesen",
+            "translation": "to read"
+          },
+          {
+            "conjugated": "er isst",
+            "infinitive": "essen",
+            "translation": "to eat"
+          },
+          {
+            "conjugated": "du fährst",
+            "infinitive": "fahren",
+            "translation": "to drive/go"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_2_3",
+      "title": "Exercise 2 & 3: Dialogues",
+      "description": "Ergänzen Sie die Verben (Complete the verbs)",
+      "content": {
+        "dialogues": [
+          {
+            "verb": "essen (to eat)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Esst ihr abends immer zusammen?",
+                "english": "Do you always eat together in the evening?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ja, wir essen zusammen, aber heute nicht. Dimitri isst mit Kunden und die Kinder essen bei Freunden. Und du? Isst du abends mit Roland zusammen?",
+                "english": "Yes, we eat together, but not today. Dimitri is eating with customers and the children are eating with friends. And you? Do you eat with Roland in the evening?"
+              },
+              {
+                "speaker": "Elke",
+                "german": "Ich esse abends nichts und Roland isst nur eine Kleinigkeit.",
+                "english": "I eat nothing in the evening and Roland only eats a little something."
+              }
+            ]
+          },
+          {
+            "verb": "lesen (to read)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Was lest ihr gerne?",
+                "english": "What do you like to read?"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Ich lese gern Romane und Petro liest gar nicht.",
+                "english": "I like to read novels and Petro doesn't read at all."
+              },
+              {
+                "speaker": "Petro",
+                "german": "Das stimmt nicht. Ich lese auch!",
+                "english": "That's not true. I also read!"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Was liest du denn? Nur Zeitungen oder Kataloge.",
+                "english": "What do you read then? Only newspapers or catalogs."
+              }
+            ]
+          },
+          {
+            "verb": "nehmen (to take)",
+            "speakers": [
+              {
+                "speaker": "Kellnerin",
+                "german": "Bitte, was nehmen Sie?",
+                "english": "Please, what will you have?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ich nehme Hähnchen mit Reis. Iliana und Petro, was nehmt ihr?",
+                "english": "I'll have chicken with rice. Iliana and Petro, what will you have?"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Wir nehmen auch ein Schnitzel.",
+                "english": "We'll also have a schnitzel."
+              },
+              {
+                "speaker": "Petro",
+                "german": "Nein, du nimmst ein Schnitzel, aber ich nehme Spaghetti!",
+                "english": "No, you're having a schnitzel, but I'm having spaghetti!"
+              }
+            ]
+          },
+          {
+            "verb": "schlafen (to sleep)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Entschuldigung, ich habe eine Frage. Wie lange schlafen Sie in der Nacht meistens?",
+                "english": "Excuse me, I have a question. How long do you usually sleep at night?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Wir schlafen meistens ungefähr acht Stunden.",
+                "english": "We usually sleep about eight hours."
+              },
+              {
+                "speaker": "Dimitri",
+                "german": "Ja, du schläfst immer acht Stunden. Ich schlafe nur sechs Stunden.",
+                "english": "Yes, you always sleep eight hours. I only sleep six hours."
+              }
+            ]
+          },
+          {
+            "verb": "fahren (to drive/go)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Wie kommen Sie zur Arbeit? Fahren Sie mit der U-Bahn?",
+                "english": "How do you get to work? Do you take the subway?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Nein, ich fahre mit dem Auto.",
+                "english": "No, I drive by car."
+              },
+              {
+                "speaker": "Reporter",
+                "german": "Und ihr, Kinder, wie fahrt ihr?",
+                "english": "And you children, how do you go?"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Ich fahre immer mit dem Fahrrad. Aber Iliana fährt immer mit dem Bus.",
+                "english": "I always go by bicycle. But Iliana always goes by bus."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_3_claudia",
+      "title": "Exercise 3: Claudias Tag (Claudia's Day)",
+      "description": "Complete the verbs in the text about Claudia's day.",
+      "content": {
+        "text": "Claudia steht immer um 6 Uhr auf. Um 7 Uhr isst (essen) sie mit ihrer Familie Frühstück und liest (lesen) die Zeitung. Ihr Mann Dimitri und sie fahren (fahren) mit dem Auto in die Stadt. Da kaufen sie zusammen ein und Dimitri trägt (tragen) alles ins Auto. Claudia läuft (laufen) noch ein bisschen durch die Stadt und Dimitri fährt (fahren) zur Arbeit. Um 11 Uhr nimmt (nehmen) Claudia den Bus zurück nach Hause. Zu Hause wäscht (waschen) sie Wäsche und hilft (helfen) ihrer Mutter. Am Nachmittag gibt (geben) Claudia Deutschunterricht. Sie spricht (sprechen) nur Deutsch mit den Schülern. Die Schüler lesen (lesen) Texte und sehen (sehen) manchmal einen Film. Claudia sieht (sehen) auch gerne Filme."
+      }
+    },
+    {
+      "id": "exercise_4",
+      "title": "Exercise 4: Vokalwechsel oder nicht?",
+      "description": "Does the verb have a vowel change or not?",
+      "content": {
+        "exercises": [
+          {
+            "verb": "leben → er lebt",
+            "has_change": "No"
+          },
+          {
+            "verb": "kaufen → er kauft",
+            "has_change": "No"
+          },
+          {
+            "verb": "machen → er macht",
+            "has_change": "No"
+          },
+          {
+            "verb": "lesen → er liest",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "gehen → er geht",
+            "has_change": "No"
+          },
+          {
+            "verb": "waschen → er wäscht",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "laufen → er läuft",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "geben → er gibt",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "verstehen → er versteht",
+            "has_change": "No"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_5",
+      "title": "Exercise 5: Eine Einladung (An Invitation)",
+      "description": "Read the invitation letter from Claudia to Elke.",
+      "content": {
+        "letter": "Liebe Elke,\n\nich lade dich zu meinem Geburtstag ein. Die Party ist am 9.3. abends bei uns im \"Amalias\". Ich habe eine Idee: Du fährst erst am Sonntag zurück und schläfst eine Nacht bei uns. Du nimmst am besten bequeme Schuhe mit, dann können wir am Sonntag zusammen durch die Stadt laufen und alles besichtigen. Das gefällt dir doch, oder? Wann kommst du in Pirgos an? Wann bist du dann bei uns? Komm nicht so spät!\n\nViele Grüße, Claudia"
+      }
+    }
+  ]
+}

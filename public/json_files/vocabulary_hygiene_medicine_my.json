@@ -1,0 +1,46 @@
+{
+  "title": "သန့်ရှင်းရေးနှင့် ဆေးဝါး",
+  "description": "သန့်ရှင်းရေး၊ ဆေးဝါး၊ လူနာစောင့်ရှောက်ရေးနှင့် ဆေးရုံဆေးခန်းဆိုင်ရာ ဂျာမန်စကားလုံးများကို လေ့လာပါ။",
+  "images": [
+    "assets/images/hygiene_and_medicine_1.png",
+    "assets/images/hygiene_and_medicine_2.png"
+  ],
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "id": "hygiene_medicine",
+      "title": "သန့်ရှင်းရေးနှင့် ဆေးဝါး",
+      "emoji": "🧼",
+      "vocabulary": [
+        {"german": "duschen", "myanmar": "ရေချိုးသည်", "article": "", "word": "duschen"},
+        {"german": "baden", "myanmar": "ရေချိုးသည်", "article": "", "word": "baden"},
+        {"german": "das Shampoo", "myanmar": "ခေါင်းလျှော်ရည်", "article": "das", "word": "Shampoo"},
+        {"german": "die Zahnpasta", "myanmar": "သွားတိုက်ဆေး", "article": "die", "word": "Zahnpasta"},
+        {"german": "das Handtuch", "myanmar": "မျက်နှာသုတ်ပဝါ", "article": "das", "word": "Handtuch"},
+        {"german": "die Creme", "myanmar": "လိမ်းဆေးခရင်မ် / လိုးရှင်း", "article": "die", "word": "Creme"},
+        {"german": "die Seife", "myanmar": "ဆပ်ပြာ", "article": "die", "word": "Seife"},
+        {"german": "die Zahnbürste", "myanmar": "သွားတိုက်တံ", "article": "die", "word": "Zahnbürste"},
+        {"german": "sich kämmen", "myanmar": "ခေါင်းဖြီးသည်", "article": "", "word": "sich kämmen"},
+        {"german": "sich rasieren", "myanmar": "မုတ်ဆိတ်ရိတ်သည်", "article": "", "word": "sich rasieren"},
+        {"german": "tot", "myanmar": "သေဆုံးသော", "article": "", "word": "tot"},
+        {"german": "das Blut", "myanmar": "သွေး", "article": "das", "word": "Blut"},
+        {"german": "gesund", "myanmar": "ကျန်းမာသော", "article": "", "word": "gesund"},
+        {"german": "der Schmerz", "myanmar": "နာကျင်မှု", "article": "der", "word": "Schmerz"},
+        {"german": "das Pflaster", "myanmar": "ပတ်တီးစတေကာ", "article": "das", "word": "Pflaster"},
+        {"german": "krank", "myanmar": "ဖျားနာသော", "article": "", "word": "krank"},
+        {"german": "das Fieber", "myanmar": "အဖျား", "article": "das", "word": "Fieber"},
+        {"german": "das Medikament", "myanmar": "ဆေးဝါး", "article": "das", "word": "Medikament"},
+        {"german": "die Tablette", "myanmar": "ဆေးလုံး / ဆေးပြား", "article": "die", "word": "Tablette"},
+        {"german": "der Arzt", "myanmar": "ဆရာဝန်", "article": "der", "word": "Arzt"},
+        {"german": "die Ärztin", "myanmar": "ဆရာဝန်မ", "article": "die", "word": "Ärztin"},
+        {"german": "der Patient", "myanmar": "လူနာ (ကျား)", "article": "der", "word": "Patient"},
+        {"german": "die Patientin", "myanmar": "လူနာ (မ)", "article": "die", "word": "Patientin"},
+        {"german": "die Versichertenkarte", "myanmar": "အာမခံကတ်ပြား", "article": "die", "word": "Versichertenkarte"},
+        {"german": "die Krankenschwester", "myanmar": "နာပြုဆရာမ", "article": "die", "word": "Krankenschwester"},
+        {"german": "die Praxis", "myanmar": "ဆေးခန်း", "article": "die", "word": "Praxis"},
+        {"german": "das Krankenhaus", "myanmar": "ဆေးရုံ", "article": "das", "word": "Krankenhaus"},
+        {"german": "der Krankenwagen", "myanmar": "လူနာတင်ယာဉ်", "article": "der", "word": "Krankenwagen"}
+      ]
+    }
+  ]
+}

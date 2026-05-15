@@ -1,0 +1,46 @@
+{
+  "title": "위생과 의학",
+  "description": "독일어로 위생, 의학, 환자 관리, 병원 및 진료소에 관한 어휘를 배워보세요.",
+  "images": [
+    "assets/images/hygiene_and_medicine_1.png",
+    "assets/images/hygiene_and_medicine_2.png"
+  ],
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "id": "hygiene_medicine",
+      "title": "위생과 의학",
+      "emoji": "🧼",
+      "vocabulary": [
+        {"german": "duschen", "korean": "샤워하다", "article": "", "word": "duschen"},
+        {"german": "baden", "korean": "목욕하다", "article": "", "word": "baden"},
+        {"german": "das Shampoo", "korean": "샴푸", "article": "das", "word": "Shampoo"},
+        {"german": "die Zahnpasta", "korean": "치약", "article": "die", "word": "Zahnpasta"},
+        {"german": "das Handtuch", "korean": "수건", "article": "das", "word": "Handtuch"},
+        {"german": "die Creme", "korean": "크림 / 로션", "article": "die", "word": "Creme"},
+        {"german": "die Seife", "korean": "비누", "article": "die", "word": "Seife"},
+        {"german": "die Zahnbürste", "korean": "칫솔", "article": "die", "word": "Zahnbürste"},
+        {"german": "sich kämmen", "korean": "머리를 빗다", "article": "", "word": "sich kämmen"},
+        {"german": "sich rasieren", "korean": "면도하다", "article": "", "word": "sich rasieren"},
+        {"german": "tot", "korean": "죽은", "article": "", "word": "tot"},
+        {"german": "das Blut", "korean": "피 / 혈액", "article": "das", "word": "Blut"},
+        {"german": "gesund", "korean": "건강한", "article": "", "word": "gesund"},
+        {"german": "der Schmerz", "korean": "통증 / 아픔", "article": "der", "word": "Schmerz"},
+        {"german": "das Pflaster", "korean": "반창고", "article": "das", "word": "Pflaster"},
+        {"german": "krank", "korean": "아픈 / 병든", "article": "", "word": "krank"},
+        {"german": "das Fieber", "korean": "열", "article": "das", "word": "Fieber"},
+        {"german": "das Medikament", "korean": "약 / 의약품", "article": "das", "word": "Medikament"},
+        {"german": "die Tablette", "korean": "알약", "article": "die", "word": "Tablette"},
+        {"german": "der Arzt", "korean": "의사 (남성)", "article": "der", "word": "Arzt"},
+        {"german": "die Ärztin", "korean": "의사 (여성)", "article": "die", "word": "Ärztin"},
+        {"german": "der Patient", "korean": "환자 (남성)", "article": "der", "word": "Patient"},
+        {"german": "die Patientin", "korean": "환자 (여성)", "article": "die", "word": "Patientin"},
+        {"german": "die Versichertenkarte", "korean": "보험증", "article": "die", "word": "Versichertenkarte"},
+        {"german": "die Krankenschwester", "korean": "간호사", "article": "die", "word": "Krankenschwester"},
+        {"german": "die Praxis", "korean": "개인 병원 / 진료소", "article": "die", "word": "Praxis"},
+        {"german": "das Krankenhaus", "korean": "병원", "article": "das", "word": "Krankenhaus"},
+        {"german": "der Krankenwagen", "korean": "구급차", "article": "der", "word": "Krankenwagen"}
+      ]
+    }
+  ]
+}

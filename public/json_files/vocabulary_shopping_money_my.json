@@ -1,0 +1,38 @@
+{
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Geschäft", "myanmar": "ဆိုင် / စီးပွားရေးလုပ်ငန်း", "article": "das", "word": "Geschäft", "emoji": "🏪"},
+        {"german": "die Kasse", "myanmar": "ငွေရှင်းကောင်တာ", "article": "die", "word": "Kasse", "emoji": "💸"},
+        {"german": "einkaufen", "myanmar": "ဈေးဝယ်ထွက်သည်", "article": "", "word": "einkaufen", "emoji": "🛍️"},
+        {"german": "der Verkäufer / die Verkäuferin", "myanmar": "အရောင်းဝန်ထမ်း 💁‍♂️/💁‍♀️", "article": "der / die", "word": "Verkäufer / Verkäuferin", "emoji": "💁‍♂️"},
+        {"german": "der Kunde / die Kundin", "myanmar": "ဝယ်သူ / ဖောက်သည်", "article": "der / die", "word": "Kunde / Kundin", "emoji": "👤"},
+        {"german": "der Preis", "myanmar": "ဈေးနှုန်း", "article": "der", "word": "Preis", "emoji": "🏷️"},
+        {"german": "kosten", "myanmar": "တန်ဖိုးကျသင့်သည်", "article": "", "word": "kosten", "emoji": "💰"},
+        {"german": "verkaufen", "myanmar": "ရောင်းချသည်", "article": "", "word": "verkaufen", "emoji": "🤝"},
+        {"german": "billig", "myanmar": "ဈေးပေါသော", "article": "", "word": "billig", "emoji": "🪙"},
+        {"german": "teuer", "myanmar": "ဈေးကြီးသော", "article": "", "word": "teuer", "emoji": "💎"},
+        {"german": "kaufen", "myanmar": "ဝယ်ယူသည်", "article": "", "word": "kaufen", "emoji": "🛒"},
+        {"german": "die Tüte", "myanmar": "အိတ် (ပလတ်စတစ် သို့မဟုတ် စက္ကူ)", "article": "die", "word": "Tüte", "emoji": "🛍️"},
+        {"german": "der Markt", "myanmar": "ဈေး ဈေးကွက်", "article": "der", "word": "Markt", "emoji": "🏘️"},
+        {"german": "die Bäckerei", "myanmar": "မုန့်တိုက်", "article": "die", "word": "Bäckerei", "emoji": "🥖"},
+        {"german": "die Geldbörse", "myanmar": "ပိုက်ဆံအိတ်", "article": "die", "word": "Geldbörse", "emoji": "👛"},
+        {"german": "der Supermarkt", "myanmar": "စူပါမားကတ်", "article": "der", "word": "Supermarkt", "emoji": "🛒"},
+        {"german": "die Fleischerei", "myanmar": "အသားဆိုင်", "article": "die", "word": "Fleischerei", "emoji": "🥩"},
+        {"german": "die Brieftasche", "myanmar": "ပိုက်ဆံအိတ်", "article": "die", "word": "Brieftasche", "emoji": "💼"},
+        {"german": "der Kiosk", "myanmar": "သတင်းစာနှင့် မဂ္ဂဇင်းအရောင်းဆိုင်ငယ်  kiosk", "article": "der", "word": "Kiosk", "emoji": "🏪"},
+        {"german": "der Frisör / Friseur", "myanmar": "ဆံပင်ညှပ်ဆရာ", "article": "der", "word": "Frisör / Friseur", "emoji": "💇‍♂️"},
+        {"german": "die Rechnung", "myanmar": "ကျသင့်ငွေစာရင်း", "article": "die", "word": "Rechnung", "emoji": "🧾"},
+        {"german": "zahlen", "myanmar": "ငွေပေးချေသည်", "article": "", "word": "zahlen", "emoji": "💳"},
+        {"german": "der Euro", "myanmar": "ယူရို", "article": "der", "word": "Euro", "emoji": "💶"},
+        {"german": "die Kontonummer", "myanmar": "ဘဏ်အကောင့်နံပါတ်", "article": "die", "word": "Kontonummer", "emoji": "🔢"},
+        {"german": "die Kreditkarte", "myanmar": "ခရက်ဒစ်ကတ်", "article": "die", "word": "Kreditkarte", "emoji": "💳"},
+        {"german": "der Cent", "myanmar": "ဆင့် (ယူရို၏ ရာခိုင်နှုန်းစိတ်)", "article": "der", "word": "Cent", "emoji": "🪙"},
+        {"german": "die Bankleitzahl", "myanmar": "ဘဏ်ခွဲကုဒ်နံပါတ်", "article": "die", "word": "Bankleitzahl", "emoji": "🏦"},
+        {"german": "das Geld", "myanmar": "ပိုက်ဆံ", "article": "das", "word": "Geld", "emoji": "💵"},
+        {"german": "die Bank", "myanmar": "ဘဏ်", "article": "die", "word": "Bank", "emoji": "🏦"}
+      ]
+    }
+  ]
+}

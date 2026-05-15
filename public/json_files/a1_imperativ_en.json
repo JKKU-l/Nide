@@ -1,0 +1,97 @@
+{
+  "title": "Understanding the German Imperative (Imperativ)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "What is the Imperative?",
+      "description": "The Imperative is the grammatical mood used to give commands, requests, advice, or instructions. In German, the form of the verb changes depending on who you are talking to.",
+      "content": {
+        "forms": {
+          "title": "There are three main forms of the Imperative:",
+          "form_1": "1. Formell (Formal): Addressing one or more people formally (Sie).",
+          "form_2": "2. Informell Singular (Informal): Addressing one friend, child, or family member (du).",
+          "form_3": "3. Informell Plural (Informal): Addressing two or more friends or children (ihr)."
+        }
+      }
+    },
+    {
+      "id": "formation",
+      "title": "1. How to Form the Imperative",
+      "description": "The imperative form depends on the pronoun and context.",
+      "content": {
+        "formation_table": {
+          "headers": ["Context", "Pronoun", "Verb", "Rule", "Example (kommen)"],
+          "rows": [
+            ["Formal", "Sie", "Use the Infinitive + \"Sie\". The word order flips.", "Kommen Sie!"],
+            ["Informal (Group)", "ihr", "Use the \"ihr\" form of the verb, but drop the pronoun.", "Kommt!"],
+            ["Informal (Single)", "du", "Use the \"du\" form, but drop the \"st\" ending and the pronoun.", "Komm!"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "special_verbs",
+      "title": "2. Specialized Verb Categories",
+      "description": "Not all verbs follow the basic pattern perfectly. Here is how we handle irregulars:",
+      "content": {
+        "special_verbs_table": {
+          "headers": ["Category", "Description", "Example Verb", "Formal", "Informal (Single)", "Informal (Group)"],
+          "rows": [
+            ["A. Verbs with Stem Changes (e → i)", "If a verb changes from e to i in the present tense, the singular informal imperative keeps that change.", "nehmen (to take)", "Nehmen Sie!", "Nimm! (The \"e\" becomes \"i\")", "Nehmt!"],
+            ["B. Verbs with Umlauts (a → ä)", "Unlike the e → i verbs, verbs that get an umlaut in the \"du\" form lose the umlaut in the imperative.", "fahren (to drive/go)", "Fahren Sie!", "Fahr! (Not \"Fährst\")", "Fahrt!"],
+            ["C. Separable Verbs (Trennbare Verben)", "The prefix always moves to the very end of the sentence.", "mitbringen (to bring along)", "Bringen Sie den Kuchen mit!", "Bring den Kuchen mit!", "Bringt den Kuchen mit!"],
+            ["D. Essential Irregular: sein", "The verb sein (to be) is unique and must be memorized.", "sein (to be)", "Seien Sie!", "Sei!", "Seid!"],
+            ["D. Essential Irregular: haben", "The verb haben (to have) is unique and must be memorized.", "haben (to have)", "Haben Sie!", "Hab!", "Habt!"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "politeness",
+      "title": "3. Softening the Command (Politeness)",
+      "description": "Commands can sound harsh in German. To make them sound like friendly advice or polite requests, we add specific words:",
+      "content": {
+        "politeness_table": {
+          "headers": ["Word/Particle", "Description", "Example(s)"],
+          "rows": [
+            ["Bitte (Please)", "Can be placed at the beginning or end.", "Helfen Sie mir bitte! (Help me, please!)"],
+            ["Mal", "Makes the command sound more natural and less harsh.", "Komm mal her! (Just come over here for a second!)"],
+            ["Doch", "Softens the command, makes it sound like encouragement.", "Probier doch den Kuchen! (Go ahead and try the cake!)"],
+            ["Doch mal", "Combination that sounds very natural and friendly.", "Mach doch mal Pause! (Take a break sometime!)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "practical_examples",
+      "title": "4. Practical Examples for Everyday Situations",
+      "description": "Here is how you would use these rules in different contexts:",
+      "content": {
+        "practical_examples_table": {
+          "headers": ["Scenario", "Situation", "Form", "German Sentence", "English Translation"],
+          "rows": [
+            ["Giving Advice (Ratschläge)", "Someone is stressed.", "Formal", "Machen Sie Yoga!", "Do yoga!"],
+            ["Giving Advice (Ratschläge)", "Someone is stressed.", "Informal", "Mach Yoga!", "Do yoga!"],
+            ["Classroom Instructions", "A teacher speaking to a whole class.", "Informal Plural", "Schreibt den Text!", "Write the text!"],
+            ["Classroom Instructions", "A teacher speaking to a whole class.", "Informal Plural", "Lest das Beispiel!", "Read the example!"],
+            ["Social Interactions", "Offering a seat to a stranger.", "Formal", "Nehmen Sie bitte Platz.", "Please take a seat."],
+            ["Social Interactions", "Telling a friend not to be afraid.", "Informal", "Hab keine Angst!", "Don't have any fear/Don't be afraid!"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Summary Checklist for Students",
+      "description": "Quick reference for forming the imperative correctly:",
+      "content": {
+        "checklist": [
+          "Identify your audience: Is it Sie, du, or ihr?",
+          "Sie: Keep the \"n\" and keep the \"Sie\".",
+          "ihr: Use the \"t\" ending, delete \"ihr\".",
+          "du: Delete the \"st\" ending, delete \"du\", and check if the \"e\" needs to change to \"i\"."
+        ]
+      }
+    }
+  ]
+}

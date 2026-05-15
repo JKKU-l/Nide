@@ -1,0 +1,225 @@
+{
+  "title": "Possessivartikel (所有冠詞)",
+  "description": "ドイツ語の所有冠詞（Possessivartikel）を理解するには、まず「誰が（持ち主）」持っていて、「何を（対象物）」持っているのかを特定する必要があります。",
+  "sections": [
+    {
+      "id": "root_words",
+      "title": "1. 語幹（持ち主）を選ぶ",
+      "description": "これは英語の \"my, your, his, her\" などにあたります。誰の持ち物かによって語幹が決まります。",
+      "content": {
+        "owners": [
+          {
+            "pronoun": "ich (私)",
+            "root": "mein",
+            "english": "私の"
+          },
+          {
+            "pronoun": "du (君 - 親しい1人)",
+            "root": "dein",
+            "english": "君の"
+          },
+          {
+            "pronoun": "er (彼) / es (それ)",
+            "root": "sein",
+            "english": "彼の／それの"
+          },
+          {
+            "pronoun": "sie (彼女)",
+            "root": "ihr",
+            "english": "彼女の"
+          },
+          {
+            "pronoun": "wir (私たち)",
+            "root": "unser",
+            "english": "私たちの"
+          },
+          {
+            "pronoun": "ihr (君たち - 親しい複数)",
+            "root": "euer",
+            "english": "君たちの"
+          },
+          {
+            "pronoun": "sie (彼ら)",
+            "root": "ihr",
+            "english": "彼らの"
+          },
+          {
+            "pronoun": "Sie (あなた/あなた方 - 丁寧)",
+            "root": "Ihr",
+            "english": "あなたの／あなた方の - 常に大文字開始"
+          }
+        ]
+      }
+    },
+    {
+      "id": "choosing_endings",
+      "title": "2. 語尾（対象物）を選ぶ",
+      "description": "語幹が決まったら、次に来る名詞に注目します。ドイツ語の名詞には性別（男性、中性、女性）と数（複数）があります。",
+      "content": {
+        "nominative": {
+          "title": "主格（Nominative：～は）",
+          "description": "「これは私の～です」という基本的な文では、主格を使います。",
+          "rules": [
+            {
+              "gender": "男性／中性名詞",
+              "ending": "語尾なし",
+              "examples": [
+                {
+                  "german": "Das ist mein Vater.",
+                  "english": "こちらは私の父です。"
+                },
+                {
+                  "german": "Das ist sein Auto.",
+                  "english": "これは彼の車です。"
+                }
+              ]
+            },
+            {
+              "gender": "女性／複数名詞",
+              "ending": "語尾に -e を付ける",
+              "examples": [
+                {
+                  "german": "Das ist meine Mutter.",
+                  "english": "こちらは私の母です。"
+                },
+                {
+                  "german": "Das sind unsere Kinder.",
+                  "english": "この子たちは私たちの子供です。"
+                }
+              ]
+            }
+          ]
+        },
+        "accusative": {
+          "title": "対格（Accusative：～を）",
+          "description": "持ち物が動作の対象（直接目的語）になる場合（例：「私の～を見る」）、男性名詞の語尾のみ変化します。",
+          "rules": [
+            {
+              "gender": "男性名詞",
+              "ending": "語尾に -en を付ける",
+              "examples": [
+                {
+                  "german": "Ich besuche meinen Bruder.",
+                  "english": "私は兄を訪ねます。"
+                }
+              ]
+            },
+            {
+              "gender": "中性／女性／複数名詞",
+              "ending": "主格と同じままです",
+              "note": "変化なし"
+            }
+          ]
+        },
+        "dative": {
+          "title": "与格（Dative：～に）",
+          "description": "誰かに何かをあげる時や、特定の前置詞の後では、語尾がより大きく変化します。",
+          "rules": [
+            {
+              "gender": "男性／中性名詞",
+              "ending": "語尾に -em を付ける",
+              "example": "Ich gebe meinem Vater ein Buch."
+            },
+            {
+              "gender": "女性名詞",
+              "ending": "語尾に -er を付ける",
+              "example": "Ich gebe meiner Mutter Blumen."
+            },
+            {
+              "gender": "複数名詞",
+              "ending": "語尾に -en を付ける（名詞自体にも -n を足すのが一般的です）",
+              "example": "Ich spiele mit meinen Kindern."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "practical_examples",
+      "title": "3. 実践的な使い方",
+      "description": "イメージしやすいように、論理的な例を見てみましょう。",
+      "content": {
+        "scenario_a": {
+          "title": "ケースA：男性（トーマス）について話す場合",
+          "description": "トーマスが犬（男性名詞）、本（中性名詞）、バッグ（女性名詞）を持っているなら、語幹 sein を使います。",
+          "examples": [
+            {
+              "german": "Sein Hund ist groß.",
+              "english": "彼の犬は大きい。"
+            },
+            {
+              "german": "Sein Buch ist neu.",
+              "english": "彼の本は新しい。"
+            },
+            {
+              "german": "Seine Tasche ist braun.",
+              "english": "彼のバッグは茶色い。"
+            }
+          ]
+        },
+        "scenario_b": {
+          "title": "ケースB：女性（ユリア）について話す場合",
+          "description": "ユリアが同じものを持っているなら、語幹を ihr に切り替えます。",
+          "examples": [
+            {
+              "german": "Ihr Hund ist groß.",
+              "english": "彼女の犬は大きい。"
+            },
+            {
+              "german": "Ihr Buch ist neu.",
+              "english": "彼女の本は新しい。"
+            },
+            {
+              "german": "Ihre Tasche ist braun.",
+              "english": "彼女のバッグは茶色い。"
+            }
+          ]
+        },
+        "scenario_c": {
+          "title": "ケースC：丁寧に誰かに呼びかける場合（シュミットさん）",
+          "description": "上司や初対面の人と話す時は Ihr を使います。",
+          "examples": [
+            {
+              "german": "Herr Schmidt, ist das Ihr Koffer?",
+              "english": "シュミットさん、これはあなたのスーツケースですか？"
+            },
+            {
+              "german": "Wo ist Ihre Frau?",
+              "english": "奥様はどこですか？"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "key_logic",
+      "title": "4. 覚えておくべき重要なポイント",
+      "description": "所有冠詞を使う際の重要なルールです。",
+      "content": {
+        "gender_trap": {
+          "title": "性別の罠",
+          "explanation": "初心者は語尾を持ち主の性別に合わせようとしがちですが、それは間違いです。語尾は常に「持たれている物」の性別に合わせます。",
+          "examples": [
+            "男性に母親がいる場合：seine Mutter（「母親」が女性名詞なので -e が付く）。",
+            "女性に父親がいる場合：ihr Vater（「父親」が男性名詞なので語尾なし）。"
+          ]
+        },
+        "euer_spelling": {
+          "title": "\"euer\" の綴りの変化",
+          "explanation": "euer (君たちの) は少し特殊です。-e や -en などの語尾が付くとき、発音しやすくするために真ん中の \"e\" が抜けることがよくあります。",
+          "examples": [
+            "euer Vater（正しい）",
+            "eure Mutter（euere ではなく eure）"
+          ]
+        },
+        "kein_rule": {
+          "title": "\"kein\" のルール",
+          "explanation": "どの語尾を使えばいいか迷ったら、否定の kein (一つもない) や不定冠詞の ein (一つの) と全く同じルールで動くと覚えておけば大丈夫です。",
+          "examples": [
+            "Ich habe kein Buch. → Ich habe mein Buch."
+          ]
+        }
+      }
+    }
+  ]
+}

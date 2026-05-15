@@ -1,0 +1,38 @@
+{
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Geschäft", "korean": "상점 / 사업", "article": "das", "word": "Geschäft", "emoji": "🏪"},
+        {"german": "die Kasse", "korean": "계산대  cashier", "article": "die", "word": "Kasse", "emoji": "💰"},
+        {"german": "einkaufen", "korean": "쇼핑하다", "article": "", "word": "einkaufen", "emoji": "🛍️"},
+        {"german": "der Verkäufer / die Verkäufer인", "korean": "판매원 🧑‍💼👩‍💼", "article": "der / die", "word": "Verkäufer / Verkäuferin", "emoji": "🧑‍💼"},
+        {"german": "der Kunde / die Kundin", "korean": "고객", "article": "der / die", "word": "Kunde / Kundin", "emoji": "👤"},
+        {"german": "der Preis", "korean": "가격", "article": "der", "word": "Preis", "emoji": "🏷️"},
+        {"german": "kosten", "korean": "비용이 들다", "article": "", "word": "kosten", "emoji": "💸"},
+        {"german": "verkaufen", "korean": "팔다", "article": "", "word": "verkaufen", "emoji": "📤"},
+        {"german": "billig", "korean": "싸다", "article": "", "word": "billig", "emoji": "📉"},
+        {"german": "teuer", "korean": "비싸다", "article": "", "word": "teuer", "emoji": "📈"},
+        {"german": "kaufen", "korean": "사다", "article": "", "word": "kaufen", "emoji": "🛒"},
+        {"german": "die Tüte", "korean": "봉투", "article": "die", "word": "Tüte", "emoji": "🛍️"},
+        {"german": "der Markt", "korean": "시장", "article": "der", "word": "Markt", "emoji": "🍎"},
+        {"german": "die Bäckerei", "korean": "빵집", "article": "die", "word": "Bäckerei", "emoji": "🥖"},
+        {"german": "die Geldbörse", "korean": "지갑", "article": "die", "word": "Geldbörse", "emoji": "👛"},
+        {"german": "der Supermarkt", "korean": "슈퍼마켓", "article": "der", "word": "Supermarkt", "emoji": "🛒"},
+        {"german": "die Fleischerei", "korean": "정육점", "article": "die", "word": "Fleischerei", "emoji": "🥩"},
+        {"german": "die Brieftasche", "korean": "지갑", "article": "die", "word": "Brieftasche", "emoji": "💳"},
+        {"german": "der Kiosk", "korean": "매점", "article": "der", "word": "Kiosk", "emoji": "📰"},
+        {"german": "der Frisör / Friseur", "korean": "미용사 💇‍♂️💇‍♀️", "article": "der", "word": "Frisör / Friseur", "emoji": "💇‍♂️"},
+        {"german": "die Rechnung", "korean": "영수증 / 계산서", "article": "die", "word": "Rechnung", "emoji": "🧾"},
+        {"german": "zahlen", "korean": "지불하다", "article": "", "word": "zahlen", "emoji": "💶"},
+        {"german": "der Euro", "korean": "유로", "article": "der", "word": "Euro", "emoji": "💶"},
+        {"german": "die Kontonummer", "korean": "계좌 번호", "article": "die", "word": "Kontonummer", "emoji": "🔢"},
+        {"german": "die Kreditkarte", "korean": "신용카드", "article": "die", "word": "Kreditkarte", "emoji": "💳"},
+        {"german": "der Cent", "korean": "센트", "article": "der", "word": "Cent", "emoji": "🪙"},
+        {"german": "die Bankleitzahl", "korean": "은행 코드", "article": "die", "word": "Bankleitzahl", "emoji": "🏦"},
+        {"german": "das Geld", "korean": "돈", "article": "das", "word": "Geld", "emoji": "💵"},
+        {"german": "die Bank", "korean": "은행", "article": "die", "word": "Bank", "emoji": "🏦"}
+      ]
+    }
+  ]
+}

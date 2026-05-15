@@ -1,0 +1,262 @@
+{
+  "title": "German Alphabet & Pronunciation",
+  "sections": [
+    {
+      "id": "basic_alphabet",
+      "title": "The Basic Alphabet",
+      "description": "The 26 letters of the German alphabet with their names and closest sounds are as follows:",
+      "content": [
+        {
+          "letter": "A a",
+          "name": "Ah",
+          "sounds_like": "\"father\"",
+          "tts_text": "A"
+        },
+        {
+          "letter": "B b",
+          "name": "Beh",
+          "sounds_like": "\"bed\"",
+          "tts_text": "B"
+        },
+        {
+          "letter": "C c",
+          "name": "Tseh",
+          "sounds_like": "\"tsunami\" (usually)",
+          "tts_text": "C"
+        },
+        {
+          "letter": "D d",
+          "name": "Deh",
+          "sounds_like": "\"dog\"",
+          "tts_text": "D"
+        },
+        {
+          "letter": "E e",
+          "name": "Eh",
+          "sounds_like": "\"elephant\" or \"pay\"",
+          "tts_text": "E"
+        },
+        {
+          "letter": "F f",
+          "name": "Eff",
+          "sounds_like": "\"fish\"",
+          "tts_text": "F"
+        },
+        {
+          "letter": "G g",
+          "name": "Geh",
+          "sounds_like": "\"go\" (always hard)",
+          "tts_text": "G"
+        },
+        {
+          "letter": "H h",
+          "name": "Hah",
+          "sounds_like": "\"hat\"",
+          "tts_text": "H"
+        },
+        {
+          "letter": "I i",
+          "name": "Ee",
+          "sounds_like": "\"meet\"",
+          "tts_text": "I"
+        },
+        {
+          "letter": "J j",
+          "name": "Yot",
+          "sounds_like": "\"yes\" (never 'j' as in 'jam')",
+          "tts_text": "J"
+        },
+        {
+          "letter": "K k",
+          "name": "Kah",
+          "sounds_like": "\"king\"",
+          "tts_text": "K"
+        },
+        {
+          "letter": "L l",
+          "name": "Ell",
+          "sounds_like": "\"lamp\"",
+          "tts_text": "L"
+        },
+        {
+          "letter": "M m",
+          "name": "Emm",
+          "sounds_like": "\"mouse\"",
+          "tts_text": "M"
+        },
+        {
+          "letter": "N n",
+          "name": "Enn",
+          "sounds_like": "\"night\"",
+          "tts_text": "N"
+        },
+        {
+          "letter": "O o",
+          "name": "Oh",
+          "sounds_like": "\"old\"",
+          "tts_text": "O"
+        },
+        {
+          "letter": "P p",
+          "name": "Peh",
+          "sounds_like": "\"pen\"",
+          "tts_text": "P"
+        },
+        {
+          "letter": "Q q",
+          "name": "Koo",
+          "sounds_like": "Always used with 'u' (kv sound)",
+          "tts_text": "Q"
+        },
+        {
+          "letter": "R r",
+          "name": "Err",
+          "sounds_like": "Guttural (back of throat)",
+          "tts_text": "R"
+        },
+        {
+          "letter": "S s",
+          "name": "Ess",
+          "sounds_like": "\"zebra\" at start of words; \"bus\" at end",
+          "tts_text": "S"
+        },
+        {
+          "letter": "T t",
+          "name": "Teh",
+          "sounds_like": "\"tea\"",
+          "tts_text": "T"
+        },
+        {
+          "letter": "U u",
+          "name": "Oo",
+          "sounds_like": "\"boot\"",
+          "tts_text": "U"
+        },
+        {
+          "letter": "V v",
+          "name": "Fow",
+          "sounds_like": "\"father\" (sounds like 'f')",
+          "tts_text": "V"
+        },
+        {
+          "letter": "W w",
+          "name": "Veh",
+          "sounds_like": "\"van\" (sounds like 'v')",
+          "tts_text": "W"
+        },
+        {
+          "letter": "X x",
+          "name": "Iks",
+          "sounds_like": "\"taks\"",
+          "tts_text": "X"
+        },
+        {
+          "letter": "Y y",
+          "name": "Ypsilon",
+          "sounds_like": "\"ue\" (pursed lips)",
+          "tts_text": "Y"
+        },
+        {
+          "letter": "Z z",
+          "name": "Tsett",
+          "sounds_like": "\"pizza\" (ts sound)",
+          "tts_text": "Z"
+        }
+      ]
+    },
+    {
+      "id": "special_characters",
+      "title": "The Special Characters (Umlauts & Eszett)",
+      "description": "German has four additional letters that are vital for correct spelling and meaning.",
+      "content": [
+        {
+          "letter": "Ä ä",
+          "name": "A-Umlaut",
+          "how_to_produce": "Like the 'e' in \"every\" or 'ai' in \"hair\".",
+          "tts_text": "Ä"
+        },
+        {
+          "letter": "Ö ö",
+          "name": "O-Umlaut",
+          "how_to_produce": "Shape your lips for 'O' but try to say 'E'.",
+          "tts_text": "Ö"
+        },
+        {
+          "letter": "Ü ü",
+          "name": "U-Umlaut",
+          "how_to_produce": "Shape your lips for 'U' but try to say 'I'.",
+          "tts_text": "Ü"
+        },
+        {
+          "letter": "ß",
+          "name": "Eszett (Sharp S)",
+          "how_to_produce": "A long \"ss\" sound. Never starts a word.",
+          "tts_text": "ß"
+        }
+      ]
+    },
+    {
+      "id": "diphthongs",
+      "title": "Diphthongs (Vowel Combinations)",
+      "description": "Diphthongs are combinations of two vowels that create a new, single sound.",
+      "content": [
+        {
+          "combination": "EI / AI",
+          "sounds_like": "\"eye\"",
+          "examples": "Nein, Mai",
+          "tts_text": "EI"
+        },
+        {
+          "combination": "IE",
+          "sounds_like": "\"ee\"",
+          "examples": "Sie, Wien",
+          "tts_text": "IE"
+        },
+        {
+          "combination": "EU / ÄU",
+          "sounds_like": "\"oy\" in \"boy\"",
+          "examples": "Neu, Häuser",
+          "tts_text": "EU"
+        },
+        {
+          "combination": "AU",
+          "sounds_like": "\"ow\" in \"cow\"",
+          "examples": "Haus, Blau",
+          "tts_text": "AU"
+        }
+      ]
+    },
+    {
+      "id": "consonant_combinations",
+      "title": "Key Consonant Combinations",
+      "description": "German has several consonant combinations that require special attention.",
+      "content": [
+        {
+          "combination": "W",
+          "description": "Always pronounced as an English \"V\" sound.",
+          "tts_text": "W"
+        },
+        {
+          "combination": "V",
+          "description": "Usually pronounced as an English \"F\" sound.",
+          "tts_text": "V"
+        },
+        {
+          "combination": "J",
+          "description": "Always pronounced as an English \"Y\" sound.",
+          "tts_text": "J"
+        },
+        {
+          "combination": "sch",
+          "description": "Sounds like \"sh\" in \"shoe\". (Example: Schule)",
+          "tts_text": "Schule"
+        },
+        {
+          "combination": "ch",
+          "description": "Depending on the word, sounds like a soft \"h\" or \"kh\" sound.",
+          "tts_text": "Bach"
+        }
+      ]
+    }
+  ]
+}

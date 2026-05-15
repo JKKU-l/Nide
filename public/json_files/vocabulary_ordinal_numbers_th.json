@@ -1,0 +1,19 @@
+{
+  "theme_color": "#FF9800",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "erste", "thai": "ที่หนึ่ง", "article": "die", "word": "erste", "emoji": "🥇"},
+        {"german": "zweite", "thai": "ที่สอง", "article": "die", "word": "zweite", "emoji": "🥈"},
+        {"german": "dritte", "thai": "ที่สาม", "article": "die", "word": "dritte", "emoji": "🥉"},
+        {"german": "vierte", "thai": "ที่สี่", "article": "die", "word": "vierte", "emoji": "🏅"},
+        {"german": "fünfte", "thai": "ที่ห้า", "article": "die", "word": "fünfte", "emoji": "🖐️"},
+        {"german": "sechste", "thai": "ที่หก", "article": "die", "word": "sechste", "emoji": "🕕"},
+        {"german": "siebte", "thai": "ที่เจ็ด", "article": "die", "word": "siebte", "emoji": "📅"},
+        {"german": "achte", "thai": "ที่แปด", "article": "die", "word": "achte", "emoji": "🎱"},
+        {"german": "neunte", "thai": "ที่เก้า", "article": "die", "word": "neunte", "emoji": "🕘"},
+        {"german": "zehnte", "thai": "ที่สิบ", "article": "die", "word": "zehnte", "emoji": "🔟"}
+      ]
+    }
+  ]
+}

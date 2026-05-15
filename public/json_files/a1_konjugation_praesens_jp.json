@@ -1,0 +1,111 @@
+{
+  "title": "🇩🇪 Konjugation Präsens 🔤",
+  "subtitle": "現在形の動詞活用 (Präsens Konjugation)",
+  "sections": [
+    {
+      "id": "regular_verb_conjugation",
+      "title": "1. 規則動詞の活用規則 (Regular Verbs)",
+      "description": "ドイツ語では、主語によって動詞の語尾を変化させます。基本的には語幹に以下の語尾を追加します。",
+      "content": {
+        "table": {
+          "headers": ["主語 (Subject)", "語尾", "例: kommen (来る)"],
+          "rows": [
+            ["Ich (私)", "-e", "komme"],
+            ["Du (君)", "-st", "kommst"],
+            ["Er / Sie / Es (彼/彼女/それ)", "-t", "kommt"],
+            ["Wir (私たち)", "-en", "kommen"],
+            ["Ihr (君たち)", "-t", "kommt"],
+            ["Sie / sie (あなた/彼ら)", "-en", "kommen"]
+          ]
+        },
+        "dialogues": [
+          {
+            "speaker": "Marc",
+            "german": "Woher kommst du?",
+            "english": "どこから来たの？"
+          },
+          {
+            "speaker": "Alice",
+            "german": "Ich komme aus Brasilien. Das ist mein Freund, er kommt aus Russland.",
+            "english": "ブラジルから来ました。こちらは私の友人です。彼はロシア出身です。",
+            "tip": "先生のポイント: 主語が「彼(er)」の場合も、語尾は -t になります。"
+          },
+          {
+            "speaker": "Alice & Yuri",
+            "german": "Wir wohnen ganz in der Nähe. Wo arbeitest du?",
+            "english": "すぐ近くに住んでいます。君はどこで働いているの？",
+            "tip": "注意: arbeiten のように語幹が t で終わる動詞は、発音を助けるために -e- を挟みます。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "irregular_verbs_sein_haben",
+      "title": "2. 不規則動詞： Sein と Haben",
+      "description": "これらは英語の be動詞と have にあたり、非常に重要ですが活用が不規則です。",
+      "content": {
+        "examples": [
+          {
+            "german": "Das sind Angela und Pascal.",
+            "english": "こちらはアンゲラとパスカルです。"
+          },
+          {
+            "german": "Sie haben einen Hund.",
+            "english": "彼らは犬を飼っています。"
+          },
+          {
+            "german": "Er ist fünf Monate alt.",
+            "english": "彼は生後5ヶ月です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "preferences_wishes",
+      "title": "3. 願望と好み： Möchten / Mögen",
+      "description": "Möchten (注文や依頼) - Mögen (好き嫌い)",
+      "content": {
+        "dialogues": [
+          {
+            "speaker": "Kellner",
+            "german": "Was möchten Sie?",
+            "english": "何になさいますか？"
+          },
+          {
+            "speaker": "Frau Taylor",
+            "german": "Ich möchte einen Kaffee.",
+            "english": "コーヒーを1つお願いします。"
+          }
+        ],
+        "examples": [
+          {
+            "german": "Ich mag Kaffee.",
+            "english": "私はコーヒーが好きです。"
+          },
+          {
+            "german": "Meine Eltern mögen keinen Fisch.",
+            "english": "両親は魚が好きではありません。",
+            "note": "先生のポイント: mag のように、単数形では母音が変化することがあります。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "knowing_facts",
+      "title": "4. 知識： Wissen",
+      "description": "知識： Wissen",
+      "content": {
+        "examples": [
+          {
+            "german": "Wissen Sie, wo der Bahnhof ist?",
+            "english": "駅がどこかご存知ですか？"
+          },
+          {
+            "german": "Tut mir leid, das weiß ich nicht.",
+            "english": "すみません、それは知りません。"
+          }
+        ]
+      }
+    }
+  ]
+}

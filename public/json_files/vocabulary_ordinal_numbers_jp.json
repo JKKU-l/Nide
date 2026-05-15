@@ -1,0 +1,19 @@
+{
+  "theme_color": "#FF9800",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "erste", "japanese": "1番目 (いちばんめ)", "article": "die", "word": "erste", "emoji": "🥇"},
+        {"german": "zweite", "japanese": "2番目 (にばんめ)", "article": "die", "word": "zweite", "emoji": "🥈"},
+        {"german": "dritte", "japanese": "3番目 (さんばんめ)", "article": "die", "word": "dritte", "emoji": "🥉"},
+        {"german": "vierte", "japanese": "4番目 (よんばんめ)", "article": "die", "word": "vierte", "emoji": "🍀"},
+        {"german": "fünfte", "japanese": "5番目 (ごばんめ)", "article": "die", "word": "fünfte", "emoji": "🖐️"},
+        {"german": "sechste", "japanese": "6番目 (ろくばんめ)", "article": "die", "word": "sechste", "emoji": "🎲"},
+        {"german": "siebte", "japanese": "7番目 (ななばんめ)", "article": "die", "word": "siebte", "emoji": "🌈"},
+        {"german": "achte", "japanese": "8番目 (はちばんめ)", "article": "die", "word": "achte", "emoji": "🎱"},
+        {"german": "neunte", "japanese": "9番目 (きゅうばんめ)", "article": "die", "word": "neunte", "emoji": "☁️"},
+        {"german": "zehnte", "japanese": "10番目 (じゅうばんめ)", "article": "die", "word": "zehnte", "emoji": "🔟"}
+      ]
+    }
+  ]
+}

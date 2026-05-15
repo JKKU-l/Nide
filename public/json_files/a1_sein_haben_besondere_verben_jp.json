@@ -1,0 +1,105 @@
+{
+  "title": "Sein & Haben",
+  "subtitle": "Special Verbs and Their Conjugations",
+  "sections": [
+    {
+      "id": "auxiliary_verbs",
+      "title": "1. 基本の動詞：Sein（〜です）と Haben（持っている）",
+      "description": "ドイツ語で最も重要な2つの動詞です。Seinは状態や正体（英語のbe動詞）、Habenは所有（英語のhave）を表します。",
+      "content": {
+        "table": {
+          "headers": ["人称代名詞", "Sein", "Haben", "例文と日本語訳"],
+          "rows": [
+            ["ich (私)", "bin", "habe", "Ich bin Lehrer. (私は教師です。)"],
+            ["du (君)", "bist", "hast", "Hast du Geld? (お金持ってる？)"],
+            ["er/sie/es (彼/彼女/それ)", "ist", "hat", "Er ist 5 Jahre alt. (彼は5歳です。)"],
+            ["wir (私たち)", "sind", "haben", "Wir haben einen Hund. (私たちは犬を飼っています。)"],
+            ["ihr (君たち)", "seid", "habt", "Seid ihr neu hier? (君たちはここへは初めて？)"],
+            ["sie/Sie (彼ら/あなた)", "sind", "haben", "Sind Sie verheiratet? (結婚されていますか？)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "special_verbs",
+      "title": "2. 特殊な動詞（活用表）",
+      "description": "これらの動詞は、ich（私）とer/sie/es（彼/彼女）の形が同じになるなど、特別な変化をします。",
+      "content": {
+        "table": {
+          "headers": ["人称", "möchte (〜したい)", "mögen (好き)", "wissen (知っている)", "tun (する)"],
+          "rows": [
+            ["ich", "möchte", "mag", "weiß", "tue"],
+            ["du", "möchtest", "magst", "weißt", "tust"],
+            ["er/sie/es", "möchte", "mag", "weiß", "tut"],
+            ["wir", "möchten", "mögen", "wissen", "tun"],
+            ["ihr", "möchtet", "mögt", "wisst", "tut"],
+            ["sie/Sie", "möchten", "mögen", "wissen", "tun"]
+          ]
+        },
+        "note": "ポイント：ich と er/sie/es の形が一致するのが、これら特殊な動詞（話法の助動詞に似た動詞）の特徴です。"
+      }
+    },
+    {
+      "id": "detailed_usage",
+      "title": "3. 詳しい使い方の解説",
+      "description": "これらの特殊動詞の意味と使い方を学びましょう。",
+      "content": {
+        "examples": [
+          {
+            "verb": "Möchten",
+            "meaning": "丁寧な希望を表します。レストランでの注文や、丁寧に何かを頼む時に使います。",
+            "example": "Wir möchten etwas trinken. (私たちは何か飲みたいです。)"
+          },
+          {
+            "verb": "Mögen",
+            "meaning": "一般的な「好み」を表します。食べ物、場所、人などが好きな時に使います。",
+            "example": "Sie mag Italien. (彼女はイタリアが好きです。)"
+          },
+          {
+            "verb": "Wissen",
+            "meaning": "「知識」として知っている時に使います（事実や情報など）。",
+            "example": "Ich weiß das nicht. (それは知りません。)"
+          },
+          {
+            "verb": "Tun",
+            "meaning": "「する」という意味ですが、weh tun（痛む）という熟語で非常によく使われます。",
+            "example": "Meine Ohren tun weh. (耳が痛いです。)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_sentences",
+      "title": "4. 例文と日本語訳の一覧",
+      "description": "これらの動詞を実際に使って練習しましょう。",
+      "content": {
+        "examples": [
+          {
+            "german": "Mein Name ist Misterek.",
+            "english": "私の名前はミステレクです。"
+          },
+          {
+            "german": "Hast du Zeit?",
+            "english": "時間はありますか？"
+          },
+          {
+            "german": "Ich bin Schülerin.",
+            "english": "私は（女子）生徒です。"
+          },
+          {
+            "german": "Ich möchte einen Kaffee.",
+            "english": "コーヒーを一杯お願いします（飲みたいです）。"
+          },
+          {
+            "german": "Weißt du, wo der Bahnhof ist?",
+            "english": "駅がどこか知っていますか？"
+          },
+          {
+            "german": "Tun Sie ganz wenig.",
+            "english": "（無理せず）少しだけやってください。"
+          }
+        ]
+      }
+    }
+  ]
+}

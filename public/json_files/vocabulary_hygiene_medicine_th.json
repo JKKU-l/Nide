@@ -1,0 +1,46 @@
+{
+  "title": "สุขอนามัยและการแพทย์",
+  "description": "เรียนรู้คำศัพท์ภาษาเยอรมันเกี่ยวกับสุขอนามัย การแพทย์ การดูแลผู้ป่วย และโรงพยาบาล",
+  "images": [
+    "assets/images/hygiene_and_medicine_1.png",
+    "assets/images/hygiene_and_medicine_2.png"
+  ],
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "id": "hygiene_medicine",
+      "title": "สุขอนามัยและการแพทย์",
+      "emoji": "🧼",
+      "vocabulary": [
+        {"german": "duschen", "thai": "อาบน้ำ (ฝักบัว)", "article": "", "word": "duschen"},
+        {"german": "baden", "thai": "อาบน้ำ (ในอ่าง)", "article": "", "word": "baden"},
+        {"german": "das Shampoo", "thai": "ยาสระผม", "article": "das", "word": "Shampoo"},
+        {"german": "die Zahnpasta", "thai": "ยาสีฟัน", "article": "die", "word": "Zahnpasta"},
+        {"german": "das Handtuch", "thai": "ผ้าเช็ดตัว", "article": "das", "word": "Handtuch"},
+        {"german": "die Creme", "thai": "ครีม / โลชั่น", "article": "die", "word": "Creme"},
+        {"german": "die Seife", "thai": "สบู่", "article": "die", "word": "Seife"},
+        {"german": "die Zahnbürste", "thai": "แปรงสีฟัน", "article": "die", "word": "Zahnbürste"},
+        {"german": "sich kämmen", "thai": "หวีผม", "article": "", "word": "sich kämmen"},
+        {"german": "sich rasieren", "thai": "โกนหนวด / โกนขน", "article": "", "word": "sich rasieren"},
+        {"german": "tot", "thai": "ตาย", "article": "", "word": "tot"},
+        {"german": "das Blut", "thai": "เลือด", "article": "das", "word": "Blut"},
+        {"german": "gesund", "thai": "แข็งแรง / สุขภาพดี", "article": "", "word": "gesund"},
+        {"german": "der Schmerz", "thai": "ความเจ็บปวด", "article": "der", "word": "Schmerz"},
+        {"german": "das Pflaster", "thai": "พลาสเตอร์ยา", "article": "das", "word": "Pflaster"},
+        {"german": "krank", "thai": "ป่วย", "article": "", "word": "krank"},
+        {"german": "das Fieber", "thai": "ไข้", "article": "das", "word": "Fieber"},
+        {"german": "das Medikament", "thai": "ยา", "article": "das", "word": "Medikament"},
+        {"german": "die Tablette", "thai": "ยาเม็ด", "article": "die", "word": "Tablette"},
+        {"german": "der Arzt", "thai": "หมอ (ชาย)", "article": "der", "word": "Arzt"},
+        {"german": "die Ärztin", "thai": "หมอ (หญิง)", "article": "die", "word": "Ärztin"},
+        {"german": "der Patient", "thai": "คนไข้ (ชาย)", "article": "der", "word": "Patient"},
+        {"german": "die Patientin", "thai": "คนไข้ (หญิง)", "article": "die", "word": "Patientin"},
+        {"german": "die Versichertenkarte", "thai": "บัตรประกันสุขภาพ", "article": "die", "word": "Versichertenkarte"},
+        {"german": "die Krankenschwester", "thai": "พยาบาล", "article": "die", "word": "Krankenschwester"},
+        {"german": "die Praxis", "thai": "คลินิก / สถานพยาบาล", "article": "die", "word": "Praxis"},
+        {"german": "das Krankenhaus", "thai": "โรงพยาบาล", "article": "das", "word": "Krankenhaus"},
+        {"german": "der Krankenwagen", "thai": "รถพยาบาล", "article": "der", "word": "Krankenwagen"}
+      ]
+    }
+  ]
+}

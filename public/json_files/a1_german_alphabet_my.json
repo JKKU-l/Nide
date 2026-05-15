@@ -1,0 +1,262 @@
+{
+  "title": "ဂျာမန်အက္ခရာများနှင့် အသံထွက်လမ်းညွှန်",
+  "sections": [
+    {
+      "id": "basic_alphabet",
+      "title": "အခြေခံအက္ခရာများ (The Basic Alphabet)",
+      "description": "ဂျာမန်အက္ခရာ ၂၆ လုံး၏ အမည်နှင့် အနီးစပ်ဆုံး အသံထွက်များမှာ အောက်ပါအတိုင်းဖြစ်ပါသည်။",
+      "content": [
+        {
+          "letter": "A a",
+          "name": "Ah",
+          "sounds_like": "အာ",
+          "tts_text": "A"
+        },
+        {
+          "letter": "B b",
+          "name": "Beh",
+          "sounds_like": "ဗေး",
+          "tts_text": "B"
+        },
+        {
+          "letter": "C c",
+          "name": "Tseh",
+          "sounds_like": "ဆး (သို့) ဆေး",
+          "tts_text": "C"
+        },
+        {
+          "letter": "D d",
+          "name": "Deh",
+          "sounds_like": "ဒေး",
+          "tts_text": "D"
+        },
+        {
+          "letter": "E e",
+          "name": "Eh",
+          "sounds_like": "အေး",
+          "tts_text": "E"
+        },
+        {
+          "letter": "F f",
+          "name": "Eff",
+          "sounds_like": "အက်ဖ်",
+          "tts_text": "F"
+        },
+        {
+          "letter": "G g",
+          "name": "Geh",
+          "sounds_like": "ဂေ",
+          "tts_text": "G"
+        },
+        {
+          "letter": "H h",
+          "name": "Hah",
+          "sounds_like": "ဟာ",
+          "tts_text": "H"
+        },
+        {
+          "letter": "I i",
+          "name": "Ee",
+          "sounds_like": "အီး",
+          "tts_text": "I"
+        },
+        {
+          "letter": "J j",
+          "name": "Yot",
+          "sounds_like": "ယော့တ် (ယေ အသံထွက်ရသည်)",
+          "tts_text": "J"
+        },
+        {
+          "letter": "K k",
+          "name": "Kah",
+          "sounds_like": "ခ",
+          "tts_text": "K"
+        },
+        {
+          "letter": "L l",
+          "name": "Ell",
+          "sounds_like": "အဲလ်",
+          "tts_text": "L"
+        },
+        {
+          "letter": "M m",
+          "name": "Emm",
+          "sounds_like": "အမ်",
+          "tts_text": "M"
+        },
+        {
+          "letter": "N n",
+          "name": "Enn",
+          "sounds_like": "အန်",
+          "tts_text": "N"
+        },
+        {
+          "letter": "O o",
+          "name": "Oh",
+          "sounds_like": "အိုး",
+          "tts_text": "O"
+        },
+        {
+          "letter": "P p",
+          "name": "Peh",
+          "sounds_like": "ပေး",
+          "tts_text": "P"
+        },
+        {
+          "letter": "Q q",
+          "name": "Koo",
+          "sounds_like": "ခု",
+          "tts_text": "Q"
+        },
+        {
+          "letter": "R r",
+          "name": "Err",
+          "sounds_like": "အဲရ် (လည်ပတ်သံ)",
+          "tts_text": "R"
+        },
+        {
+          "letter": "S s",
+          "name": "Ess",
+          "sounds_like": "အက်စ် (ဇအသံထွက်လျှင်းသိ)",
+          "tts_text": "S"
+        },
+        {
+          "letter": "T t",
+          "name": "Teh",
+          "sounds_like": "တေး",
+          "tts_text": "T"
+        },
+        {
+          "letter": "U u",
+          "name": "Oo",
+          "sounds_like": "အူး",
+          "tts_text": "U"
+        },
+        {
+          "letter": "V v",
+          "name": "Fow",
+          "sounds_like": "ဖောင် (ဖ အသံထွက်ရသည်)",
+          "tts_text": "V"
+        },
+        {
+          "letter": "W w",
+          "name": "Veh",
+          "sounds_like": "ဗေး (ဗ အသံထွက်ရသည်)",
+          "tts_text": "W"
+        },
+        {
+          "letter": "X x",
+          "name": "Iks",
+          "sounds_like": "အစ်ခ်စ်",
+          "tts_text": "X"
+        },
+        {
+          "letter": "Y y",
+          "name": "Ypsilon",
+          "sounds_like": "အစ်ပဆီလွန်",
+          "tts_text": "Y"
+        },
+        {
+          "letter": "Z z",
+          "name": "Tsett",
+          "sounds_like": "ဆက်တ် (ဆ အသံပြတ်)",
+          "tts_text": "Z"
+        }
+      ]
+    },
+    {
+      "id": "special_characters",
+      "title": "အထူးအက္ခရာများ (Umlauts & Eszett)",
+      "description": "ဂျာမန်ဘာသာတွင် အရေးအသားနှင့် အဓိပ္ပာယ်အတွက် အရေးကြီးသော အက္ခရာအထူး ၄ လုံး ရှိပါသည်။",
+      "content": [
+        {
+          "letter": "Ä ä",
+          "name": "A-Umlaut",
+          "how_to_produce": "\"အဲ\" ဟု အသံထွက်သည်။ (ဥပမာ - Apfel → Äpfel)",
+          "tts_text": "Ä"
+        },
+        {
+          "letter": "Ö ö",
+          "name": "O-Umlaut",
+          "how_to_produce": "နှုတ်ခမ်းကို \"အိုး\" ပုံစံလုပ်ပြီး \"အေး\" ဟု အသံထွက်ရန် ကြိုးစားပါ။",
+          "tts_text": "Ö"
+        },
+        {
+          "letter": "Ü ü",
+          "name": "U-Umlaut",
+          "how_to_produce": "နှုတ်ခမ်းကို \"အူး\" ပုံစံလုပ်ပြီး \"အီး\" ဟု အသံထွက်ရန် ကြိုးစားပါ။",
+          "tts_text": "Ü"
+        },
+        {
+          "letter": "ß",
+          "name": "Eszett (Sharp S)",
+          "how_to_produce": "\"အက်စ်\" အသံပြတ်ပြတ် ထွက်ရသည်။ \"Double S\" နှင့် အတူတူပင် ဖြစ်သည်။",
+          "tts_text": "ß"
+        }
+      ]
+    },
+    {
+      "id": "diphthongs",
+      "title": "သရတွဲအသံထွက်များ (Diphthongs)",
+      "description": "သရတွဲများသည် သရနှစ်လုံးပေါင်းစပ်၍ အသစ်တစ်ခုသာလို အသံထွက်ရသော အသံများဖြစ်သည်။",
+      "content": [
+        {
+          "combination": "ei / ai",
+          "sounds_like": "\"အိုင်\" ဟု အသံထွက်သည်။",
+          "examples": "Nein - နိုင်း",
+          "tts_text": "EI"
+        },
+        {
+          "combination": "ie",
+          "sounds_like": "\"အီး\" ဟု အသံဆွဲထွက်သည်။",
+          "examples": "Sie - ဇီး",
+          "tts_text": "IE"
+        },
+        {
+          "combination": "eu / äu",
+          "sounds_like": "\"အွိုင်\" ဟု အသံထွက်သည်။",
+          "examples": "Neu - နွိုင်",
+          "tts_text": "EU"
+        },
+        {
+          "combination": "au",
+          "sounds_like": "\"အာင်း\" (သို့) \"အာင်\" ဟု အသံထွက်သည်။",
+          "examples": "Haus - ဟာက်စ်",
+          "tts_text": "AU"
+        }
+      ]
+    },
+    {
+      "id": "consonant_combinations",
+      "title": "အရစ်ကီးသာ ဗျည်းတွဲများ",
+      "description": "ဂျာမန်စကားတွင် အောက်ပါ ဗျည်းတွဲများကို အထူးသဖြင့် သတိပြုရပါမည်။",
+      "content": [
+        {
+          "combination": "W",
+          "description": "\"ဗေ\" သံ ထွက်ရသည်။ (English 'V' sound)",
+          "tts_text": "W"
+        },
+        {
+          "combination": "V",
+          "description": "အများအားဖြင့် \"အက်ဖ်\" အသံထွက်ရသည်။",
+          "tts_text": "V"
+        },
+        {
+          "combination": "J",
+          "description": "အမြဲတမ်းတောင်းတို့ကဲ့သို့ \"ဝိုင်\" အသံထွက်ရသည်။",
+          "tts_text": "J"
+        },
+        {
+          "combination": "sch",
+          "description": "\"ရှု\" ဟု အသံထွက်သည်။ (ဥပမာ - Schule - ရှုလား)",
+          "tts_text": "Schule"
+        },
+        {
+          "combination": "ch",
+          "description": "စကားလုံးအလိုက် \"ဟ\" (သို့) \"ခ\" သံ ပြတ်ပြတ် ထွက်ရသည်။",
+          "tts_text": "Bach"
+        }
+      ]
+    }
+  ]
+}

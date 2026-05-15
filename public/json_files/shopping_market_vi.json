@@ -1,0 +1,55 @@
+{
+  "title": "Shopping & Market",
+  "emoji": "🛒",
+  "theme_color": "#009688",
+  "description": "Essential verbs for shopping, stores, and marketplaces in German",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "einkaufen", "vietnamese": "mua sắm", "example_german": "Ich muss heute für das Abendessen einkaufen.", "example_vietnamese": "Hôm nay tôi phải đi mua sắm cho bữa tối."},
+          {"german": "kaufen", "vietnamese": "mua", "example_german": "Ich kaufe mir ein neues Hemd.", "example_vietnamese": "Tôi mua cho mình một chiếc áo sơ mi mới."},
+          {"german": "verkaufen", "vietnamese": "bán", "example_german": "Er verkauft sein altes Auto.", "example_vietnamese": "Anh ấy bán chiếc xe cũ của mình."},
+          {"german": "bezahlen", "vietnamese": "thanh toán", "example_german": "Kann ich bitte mit Karte bezahlen?", "example_vietnamese": "Tôi có thể thanh toán bằng thẻ được không?"},
+          {"german": "kosten", "vietnamese": "có giá", "example_german": "Wie viel kostet dieser Apfel?", "example_vietnamese": "Quả táo này giá bao nhiêu?"},
+          {"german": "suchen", "vietnamese": "tìm kiếm", "example_german": "Ich suche nach einem Geschenk für meine Mutter.", "example_vietnamese": "Tôi đang tìm một món quà cho mẹ."},
+          {"german": "finden", "vietnamese": "tìm thấy", "example_german": "Hast du deine Schlüssel gefunden?", "example_vietnamese": "Bạn đã tìm thấy chìa khóa chưa?"},
+          {"german": "anprobieren", "vietnamese": "thử (quần áo)", "example_german": "Darf ich diese Hose anprobieren?", "example_vietnamese": "Tôi có thể thử chiếc quần này không?"},
+          {"german": "passen", "vietnamese": "vừa", "example_german": "Die Schuhe passen mir perfekt.", "example_vietnamese": "Đôi giày vừa với tôi hoàn hảo."},
+          {"german": "gefallen", "vietnamese": "thích", "example_german": "Das Kleid gefällt mir sehr gut.", "example_vietnamese": "Tôi rất thích chiếc váy này."},
+          {"german": "wählen", "vietnamese": "chọn", "example_german": "Bitte wählen Sie eine Farbe aus.", "example_vietnamese": "Xin hãy chọn một màu."},
+          {"german": "nehmen", "vietnamese": "lấy", "example_german": "Ich nehme zwei Kilo Kartoffeln.", "example_vietnamese": "Tôi lấy hai ký khoai tây."},
+          {"german": "wechseln", "vietnamese": "đổi", "example_german": "Können Sie mir diesen 50-Euro-Schein wechseln?", "example_vietnamese": "Bạn có thể đổi tờ 50 euro này cho tôi không?"},
+          {"german": "zurückgeben", "vietnamese": "trả lại", "example_german": "Ich möchte dieses Produkt zurückgeben.", "example_vietnamese": "Tôi muốn trả lại sản phẩm này."},
+          {"german": "umtauschen", "vietnamese": "đổi hàng", "example_german": "Kann ich dieses T-Shirt gegen eine andere Größe umtauschen?", "example_vietnamese": "Tôi có thể đổi chiếc áo thun này sang size khác không?"},
+          {"german": "bestellen", "vietnamese": "đặt hàng", "example_german": "Wir bestellen uns heute Abend eine Pizza.", "example_vietnamese": "Tối nay chúng tôi đặt một chiếc pizza."},
+          {"german": "liefern", "vietnamese": "giao hàng", "example_german": "Das Geschäft liefert die Möbel direkt nach Hause.", "example_vietnamese": "Cửa hàng giao nội thất trực tiếp đến nhà."},
+          {"german": "abholen", "vietnamese": "đến lấy", "example_german": "Ich hole meine Bestellung morgen im Laden ab.", "example_vietnamese": "Ngày mai tôi sẽ đến cửa hàng lấy đơn hàng."},
+          {"german": "einpacken", "vietnamese": "gói lại", "example_german": "Können Sie das bitte als Geschenk einpacken?", "example_vietnamese": "Bạn có thể gói làm quà tặng được không?"},
+          {"german": "vergleichen", "vietnamese": "so sánh", "example_german": "Man sollte immer die Preise vergleichen.", "example_vietnamese": "Nên luôn so sánh giá cả."},
+          {"german": "anschauen", "vietnamese": "xem / nhìn", "example_german": "Ich möchte mir nur kurz die Auslage anschauen.", "example_vietnamese": "Tôi chỉ muốn xem qua tủ trưng bày."},
+          {"german": "fragen", "vietnamese": "hỏi", "example_german": "Darf ich Sie etwas fragen?", "example_vietnamese": "Tôi có thể hỏi bạn điều gì đó không?"},
+          {"german": "antworten", "vietnamese": "trả lời", "example_german": "Der Verkäufer antwortet auf meine Fragen.", "example_vietnamese": "Nhân viên bán hàng trả lời câu hỏi của tôi."},
+          {"german": "helfen", "vietnamese": "giúp", "example_german": "Kann ich Ihnen helfen?", "example_vietnamese": "Tôi có thể giúp gì cho bạn?"},
+          {"german": "empfehlen", "vietnamese": "giới thiệu / đề xuất", "example_german": "Welchen Wein können Sie mir empfehlen?", "example_vietnamese": "Bạn có thể giới thiệu loại rượu vang nào cho tôi?"},
+          {"german": "brauchen", "vietnamese": "cần", "example_german": "Ich brauche eine neue Tasche.", "example_vietnamese": "Tôi cần một chiếc túi mới."},
+          {"german": "wollen", "vietnamese": "muốn", "example_german": "Ich will heute nicht mehr einkaufen gehen.", "example_vietnamese": "Hôm nay tôi không muốn đi mua sắm nữa."},
+          {"german": "haben", "vietnamese": "có", "example_german": "Haben Sie auch frische Erdbeeren?", "example_vietnamese": "Bạn có dâu tây tươi không?"},
+          {"german": "geben", "vietnamese": "cho / đưa", "example_german": "Können Sie mir bitte eine Quittung geben?", "example_vietnamese": "Bạn có thể cho tôi hóa đơn được không?"},
+          {"german": "zeigen", "vietnamese": "cho xem", "example_german": "Können Sie mir bitte die Uhr dort zeigen?", "example_vietnamese": "Bạn có thể cho tôi xem chiếc đồng hồ ở đó không?"},
+          {"german": "mitnehmen", "vietnamese": "mang theo", "example_german": "Ich nehme diese Zeitschrift noch mit.", "example_vietnamese": "Tôi mang theo cuốn tạp chí này luôn."},
+          {"german": "tragen", "vietnamese": "mang / xách", "example_german": "Er trägt die schweren Einkaufstüten zum Auto.", "example_vietnamese": "Anh ấy xách những túi mua sắm nặng ra xe."},
+          {"german": "laufen", "vietnamese": "đi bộ", "example_german": "Wir laufen durch den Supermarkt.", "example_vietnamese": "Chúng tôi đi bộ qua siêu thị."},
+          {"german": "stehen", "vietnamese": "đứng / xếp hàng", "example_german": "Wir stehen an der Kasse an.", "example_vietnamese": "Chúng tôi đang xếp hàng ở quầy thanh toán."},
+          {"german": "warten", "vietnamese": "chờ", "example_german": "Ich warte auf meine Wechselgeld.", "example_vietnamese": "Tôi đang chờ tiền thối."},
+          {"german": "sparen", "vietnamese": "tiết kiệm", "example_german": "Diesen Monat möchte ich etwas Geld sparen.", "example_vietnamese": "Tháng này tôi muốn tiết kiệm một chút tiền."},
+          {"german": "ausgeben", "vietnamese": "tiêu (tiền)", "example_german": "Sie hat viel Geld für Kleidung ausgegeben.", "example_vietnamese": "Cô ấy đã tiêu rất nhiều tiền cho quần áo."},
+          {"german": "rechnen", "vietnamese": "tính toán", "example_german": "Ich muss kurz den Gesamtbetrag rechnen.", "example_vietnamese": "Tôi cần tính nhanh tổng số tiền."},
+          {"german": "zählen", "vietnamese": "đếm", "example_german": "Er zählt sein Geld an der Kasse.", "example_vietnamese": "Anh ấy đếm tiền ở quầy thanh toán."},
+          {"german": "prüfen", "vietnamese": "kiểm tra", "example_german": "Bitte prüfen Sie Ihren Kassenbon.", "example_vietnamese": "Xin hãy kiểm tra hóa đơn của bạn."}
+        ]
+      }
+    }
+  ]
+}

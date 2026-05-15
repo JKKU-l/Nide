@@ -1,0 +1,23 @@
+{
+  "category": "Places & Transport",
+  "category_de": "Orte & Verkehr",
+  "icon": "🏙️",
+  "words": [
+    {"de":"die Stadt","word":"Stadt","article":"die","en":"city","jp":"都市","kr":"도시","my":"မြို့","th":"เมือง","vi":"thành phố","pronunciation":"/ʃtat/","example_de":"Berlin ist eine große Stadt.","example_en":"Berlin is a big city."},
+    {"de":"die Straße","word":"Straße","article":"die","en":"street","jp":"通り","kr":"거리","my":"လမ်း","th":"ถนน","vi":"đường","pronunciation":"/ˈʃtʁaːsə/","example_de":"Die Straße ist heute ruhig.","example_en":"The street is quiet today."},
+    {"de":"der Park","word":"Park","article":"der","en":"park","jp":"公園","kr":"공원","my":"ပန်းခြံ","th":"สวนสาธารณะ","vi":"công viên","pronunciation":"/paʁk/","example_de":"Wir gehen im Park spazieren.","example_en":"We go for a walk in the park."},
+    {"de":"die Schule","word":"Schule","article":"die","en":"school","jp":"学校","kr":"학교","my":"ကျောင်း","th":"โรงเรียน","vi":"trường học","pronunciation":"/ˈʃuːlə/","example_de":"Die Kinder gehen zur Schule.","example_en":"The children go to school."},
+    {"de":"das Krankenhaus","word":"Krankenhaus","article":"das","en":"hospital","jp":"病院","kr":"병원","my":"ဆေးရုံ","th":"โรงพยาบาล","vi":"bệnh viện","pronunciation":"/ˈkʁaŋkn̩ˌhaʊ̯s/","example_de":"Er liegt im Krankenhaus.","example_en":"He is in the hospital."},
+    {"de":"die Apotheke","word":"Apotheke","article":"die","en":"pharmacy","jp":"薬局","kr":"약국","my":"ဆေးဆိုင်","th":"ร้านขายยา","vi":"nhà thuốc","pronunciation":"/apoˈteːkə/","example_de":"Die Apotheke ist um die Ecke.","example_en":"The pharmacy is around the corner."},
+    {"de":"der Bahnhof","word":"Bahnhof","article":"der","en":"train station","jp":"駅","kr":"기차역","my":"ဘူတာ","th":"สถานีรถไฟ","vi":"nhà ga","pronunciation":"/ˈbaːnhoːf/","example_de":"Der Zug fährt vom Bahnhof ab.","example_en":"The train departs from the station."},
+    {"de":"der Flughafen","word":"Flughafen","article":"der","en":"airport","jp":"空港","kr":"공항","my":"လေဆိပ်","th":"สนามบิน","vi":"sân bay","pronunciation":"/ˈfluːkˌhaːfn̩/","example_de":"Der Flughafen ist weit weg.","example_en":"The airport is far away."},
+    {"de":"das Auto","word":"Auto","article":"das","en":"car","jp":"車","kr":"자동차","my":"ကား","th":"รถยนต์","vi":"ô tô","pronunciation":"/ˈaʊ̯to/","example_de":"Ich fahre mit dem Auto zur Arbeit.","example_en":"I drive to work by car."},
+    {"de":"der Bus","word":"Bus","article":"der","en":"bus","jp":"バス","kr":"버스","my":"ဘတ်စ်ကား","th":"รถบัส","vi":"xe buýt","pronunciation":"/bʊs/","example_de":"Der Bus kommt alle 10 Minuten.","example_en":"The bus comes every 10 minutes."},
+    {"de":"das Fahrrad","word":"Fahrrad","article":"das","en":"bicycle","jp":"自転車","kr":"자전거","my":"စက်ဘီး","th":"จักรยาน","vi":"xe đạp","pronunciation":"/ˈfaːɐ̯ˌʁaːt/","example_de":"Ich fahre gern mit dem Fahrrad.","example_en":"I like to ride the bicycle."},
+    {"de":"das Flugzeug","word":"Flugzeug","article":"das","en":"airplane","jp":"飛行機","kr":"비행기","my":"လေယာဉ်","th":"เครื่องบิน","vi":"máy bay","pronunciation":"/ˈfluːktsɔʏ̯k/","example_de":"Das Flugzeug fliegt nach Tokyo.","example_en":"The airplane flies to Tokyo."},
+    {"de":"die U-Bahn","word":"U-Bahn","article":"die","en":"subway","jp":"地下鉄","kr":"지하철","my":"မြေအောက်ရထား","th":"รถไฟใต้ดิน","vi":"tàu điện ngầm","pronunciation":"/ˈuːbaːn/","example_de":"Ich fahre mit der U-Bahn.","example_en":"I take the subway."},
+    {"de":"das Hotel","word":"Hotel","article":"das","en":"hotel","jp":"ホテル","kr":"호텔","my":"ဟိုတယ်","th":"โรงแรม","vi":"khách sạn","pronunciation":"/hoˈtɛl/","example_de":"Das Hotel ist sehr komfortabel.","example_en":"The hotel is very comfortable."},
+    {"de":"das Restaurant","word":"Restaurant","article":"das","en":"restaurant","jp":"レストラン","kr":"레스토랑","my":"စားသောက်ဆိုင်","th":"ร้านอาหาร","vi":"nhà hàng","pronunciation":"/ʁɛstoˈʁɑ̃ː/","example_de":"Wir essen heute im Restaurant.","example_en":"We are eating at the restaurant today."},
+    {"de":"der Supermarkt","word":"Supermarkt","article":"der","en":"supermarket","jp":"スーパー","kr":"슈퍼마켓","my":"စူပါမားကက်","th":"ซูเปอร์มาร์เก็ต","vi":"siêu thị","pronunciation":"/ˈzuːpɐˌmaʁkt/","example_de":"Ich kaufe Lebensmittel im Supermarkt.","example_en":"I buy groceries at the supermarket."}
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "title": "ทำความรู้จักกับ Trennbare Verben",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "คำกริยาแยกส่วนคืออะไร?",
+      "description": "ในภาษาเยอรมัน คำกริยาบางคำจะมี ส่วนหน้า (Prefix) แปะอยู่ข้างหน้า ซึ่งจะทำให้ความหมายของคำกริยาพื้นฐานเปลี่ยนไป เราเรียกว่า \"คำกริยาแยกส่วน\" เพราะในประโยคปกติ ส่วนหน้าจะ \"กระเด็น\" แยกออกจากตัวกริยาหลักไปอยู่ที่ท้ายประโยคครับ",
+      "content": {
+        "description": "ส่วนหน้าจะเปลี่ยนความหมายของกริยา และในประโยคปกติจะถูกเตะไปไว้ท้ายประโยค"
+      }
+    },
+    {
+      "id": "basic_structure",
+      "title": "1. โครงสร้างประโยคพื้นฐาน (Main Clause)",
+      "description": "เมื่อใช้กริยาแยกส่วนในประโยคบอกเล่า กริยาจะถูกแบ่งเป็น 2 ส่วน:",
+      "content": {
+        "structure": {
+          "parts": [
+            "กริยาหลัก: อยู่ตำแหน่งที่ 2 (ผันตามประธาน)",
+            "ส่วนหน้า (Prefix): ถูกเตะไปไว้ ท้ายสุด ของประโยค"
+          ]
+        },
+        "example": {
+          "verb": "einkaufen (ซื้อของ/ช็อปปิ้ง)",
+          "prefix": "ein-",
+          "main_verb": "kaufen (ซื้อ)",
+          "table": {
+            "headers": ["ประธาน (Subject)", "กริยาตำแหน่ง 2", "ส่วนขยาย", "ส่วนหน้า (ท้ายประโยค)"],
+            "rows": [
+              ["Ich", "kaufe", "im Supermarkt", "ein."]
+            ],
+            "translation": "ความหมาย: ฉันซื้อของที่ซูเปอร์มาร์เก็ต"
+          }
+        }
+      }
+    },
+    {
+      "id": "common_prefixes",
+      "title": "2. ส่วนหน้า (Prefix) ที่พบบ่อย",
+      "description": "เราจะรู้ว่าเป็นกริยาแยกส่วนได้จากการสังเกตคำข้างหน้าเหล่านี้:",
+      "content": {
+        "prefixes": [
+          {"prefix": "ab-", "example": "abfahren - ออกรถ/ออกเดินทาง"},
+          {"prefix": "an-", "example": "ankommen - มาถึง"},
+          {"prefix": "auf-", "example": "aufstehen - ตื่นนอน/ลุกขึ้น"},
+          {"prefix": "aus-", "example": "aussteigen - ลงจากรถ"},
+          {"prefix": "mit-", "example": "mitkommen - มาด้วยกัน"},
+          {"prefix": "ein-", "example": "einsteigen - ขึ้นรถ"},
+          {"prefix": "zurück-", "example": "zurückkommen - กลับมา"}
+        ]
+      }
+    },
+    {
+      "id": "modal_verbs",
+      "title": "3. การใช้ร่วมกับกริยาช่วย (Modal Verbs)",
+      "description": "เมื่อมีกริยาช่วย (เช่น müssen - ต้อง, können - สามารถ, möchten - อยากจะ) เข้ามาในประโยค กริยาแยกส่วนจะไม่แยกจากกัน",
+      "content": {
+        "rule": {
+          "modal": "กริยาช่วย จะอยู่ตำแหน่งที่ 2 (และผันตามประธาน)",
+          "separable": "กริยาแยกส่วน (รูปเดิม) จะไปอยู่ท้ายประโยคโดยไม่ต้องแยกส่วนและไม่ต้องผัน"
+        },
+        "example": {
+          "combination": "müssen + aufstehen",
+          "sentence": "Ich muss um 6 Uhr aufstehen.",
+          "translation": "(ฉันต้องตื่นนอนตอน 6 โมงเช้า)"
+        }
+      }
+    },
+    {
+      "id": "pronunciation",
+      "title": "4. การเน้นเสียง (Pronunciation)",
+      "description": "สำหรับกริยาประเภทนี้ เวลาออกเสียงเราจะ เน้นเสียงหนัก (Stress) ที่ส่วนหน้า เสมอ:",
+      "content": {
+        "examples": [
+          "ein-kaufen",
+          "auf-stehen",
+          "an-kommen"
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. ตัวอย่างการใช้งานและตรรกะเบื้องหลัง",
+      "description": "สำหรับนักเรียน ตัวอย่างการใช้งานและตรรกะเบื้องหลัง:",
+      "content": {
+        "examples_table": {
+          "headers": ["Verb", "German Sentence", "Thai Translation", "Logic/Explanation"],
+          "rows": [
+            ["einsteigen (ขึ้นรถ)", "Ich steige in die U-Bahn ein.", "I get on the subway.", "'ein' สื่อถึงการเข้าไป \"ข้างใน\" พาหนะ"],
+            ["umsteigen (เปลี่ยนขบวน)", "Ich steige an der Hauptwache um.", "I transfer at Hauptwache.", "'um' สื่อถึงการเปลี่ยนรอบๆ หรือเปลี่ยนถ่าย"],
+            ["aussteigen (ลงรถ)", "Ich steige am Bahnhof aus.", "I get off at the station.", "'aus' สื่อถึงการออกมา \"ข้างนอก\""],
+            ["anfangen (เริ่มต้น)", "Die Arbeit fängt um 8 Uhr an.", "Work starts at 8 o'clock.", "'an' หมายถึงจุดเริ่มต้น (หมายเหตุ: fangen เปลี่ยนเป็น fängt เป็นกริยาไม่ปกติ)"],
+            ["aufmachen (เปิด)", "Ich mache das Fenster auf.", "I open the window.", "ขยับสิ่งของไป \"ขึ้น/เปิด\" (auf)"],
+            ["zumachen (ปิด)", "Ich mache das Fenster zu.", "I close the window.", "ขยับสิ่งของไป \"ปิด/ปิดกั้น\" (zu)"],
+            ["fernsehen (ดูทีวี)", "Abends sehe ich fern.", "In the evening I watch TV.", "'fern' แปลว่า ไกล การมองไกลๆ คือการดูทีวี"],
+            ["anrufen (โทรหา)", "Ich rufe meine Mutter an.", "I call my mother.", "'rufen' คือตะโกน/เรียก 'anrufen' คือโทรหา"],
+            ["einladen (เชิญ)", "Meine Freundin lädt mich ein.", "My girlfriend invites me.", "พาคนเข้ามาในงาน (ein) คือการเชิญ"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_table",
+      "title": "ตารางสรุปสำหรับนักเรียน",
+      "description": "ตารางอ้างอิงด่วนสำหรับการใช้กริยาแยกส่วนในสถานการณ์ต่างๆ",
+      "content": {
+        "summary_table": {
+          "headers": ["สถานการณ์", "กฎการใช้", "ตัวอย่างประโยค"],
+          "rows": [
+            ["ประโยคปกติ", "กริยาอยู่ตำแหน่ง 2, ส่วนหน้าอยู่ท้าย", "Ich stehe um 7 Uhr auf."],
+            ["มีกริยาช่วย", "กริยาช่วยอยู่ตำแหน่ง 2, กริยาหลัก(ไม่แยก)อยู่ท้าย", "Ich möchte mitkommen."],
+            ["ประโยคคำถาม (Yes/No)", "กริยาอยู่ตำแหน่ง 1, ส่วนหน้าอยู่ท้าย", "Fängst du morgen an?"],
+            ["ประโยคย่อย (Subordinate)", "กริยาและส่วนหน้าเขียนติดกันไว้ท้ายสุด", "... weil ich um 6 Uhr aufstehe."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "why_use",
+      "title": "ทำไมต้องมีกริยาแยกส่วน?",
+      "description": "ภาษาเยอรมันใช้ส่วนหน้าเหล่านี้เพื่อให้ความหมายแม่นยำขึ้น เช่น คำว่า \"machen\" แปลว่า \"ทำ\" เฉยๆ แต่พอเติมส่วนหน้าเข้าไป ความหมายจะเปลี่ยนไปทันที:",
+      "content": {
+        "examples": [
+          "aufmachen = เปิด (หน้าต่าง/ประตู)",
+          "zumachen = ปิด (หน้าต่าง/ประตู)",
+          "anmachen = เปิด (ไฟ/เครื่องใช้ไฟฟ้า)",
+          "ausmachen = ปิด (ไฟ/เครื่องใช้ไฟฟ้า)"
+        ],
+        "explanation": "นี่คือเสน่ห์ของภาษาเยอรมันที่ใช้รากศัพท์เดิมแต่เปลี่ยนความหมายได้หลากหลายครับ!"
+      }
+    }
+  ]
+}

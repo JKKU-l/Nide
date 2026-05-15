@@ -1,0 +1,54 @@
+{
+  "month": 9,
+  "title_en": "At Home",
+  "title_de": "Zu Hause",
+  "icon": "🏠",
+  "theme_color": "#14B8A6",
+  "subtopics": [
+    {
+      "id": "the_kitchen",
+      "title": "The Kitchen",
+      "content": ""
+    },
+    {
+      "id": "washing_the_dishes",
+      "title": "Washing the Dishes",
+      "content": ""
+    },
+    {
+      "id": "cooking",
+      "title": "Cooking",
+      "content": ""
+    },
+    {
+      "id": "the_bathroom",
+      "title": "The Bathroom",
+      "content": ""
+    },
+    {
+      "id": "the_dining_room",
+      "title": "The Dining Room",
+      "content": ""
+    },
+    {
+      "id": "the_living_room",
+      "title": "The Living Room",
+      "content": ""
+    },
+    {
+      "id": "the_bedroom",
+      "title": "The Bedroom",
+      "content": ""
+    },
+    {
+      "id": "housework",
+      "title": "Housework",
+      "content": ""
+    },
+    {
+      "id": "minor_problems_home",
+      "title": "Some Minor Problems Around the Home",
+      "content": ""
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "title": "Ja/Nein-Fragen (はい／いいえ疑問文)",
+  "sections": [
+    {
+      "id": "sentence_structure",
+      "title": "1. ドイツ語の文構造：平叙文 vs 疑問文",
+      "description": "ドイツ語において、動詞の位置は最も重要なルールです。",
+      "content": {
+        "categories": [
+          {
+            "category": "平叙文 (Aussagesatz)",
+            "description": "通常の文（述べる文）では、動詞は常に2番目に置かれます。",
+            "table": {
+              "headers": ["ルール", "例文"],
+              "rows": [
+                ["主語 + 動詞 + 情報", "Er kommt aus Berlin.（彼はベルリン出身です。）"]
+              ]
+            }
+          },
+          {
+            "category": "はい／いいえ疑問文 (Ja/Nein-Frage)",
+            "description": "「はい」または「いいえ」で答えられる疑問文にするには、動詞を1番目に移動させます。",
+            "table": {
+              "headers": ["ルール", "例文"],
+              "rows": [
+                ["動詞 + 主語 + 情報?", "Kommt er aus Berlin?（彼はベルリン出身ですか？）"]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "answering_questions",
+      "title": "2. 疑問文への答え方：Ja, Nein, そして Doch",
+      "description": "ドイツ語には、質問の形式に応じて3種類の答え方があります。",
+      "content": {
+        "categories": [
+          {
+            "category": "肯定の疑問文",
+            "description": "質問に「〜ない（nicht/kein）」が含まれていない場合：",
+            "table": {
+              "headers": ["答え", "使い方", "例文"],
+              "rows": [
+                ["Ja（はい）", "同意する場合", "Ja, ich spreche Englisch."],
+                ["Nein（いいえ）", "否定する場合", "Nein, ich spreche kein Englisch."]
+              ]
+            },
+            "examples": [
+              {
+                "question": "\"Sprechen Sie Englisch?\"（英語を話しますか？）",
+                "answer": "Ja, ich spreche Englisch.（はい、話します。） / Nein, ich spreche kein Englisch.（いいえ、話しません。）"
+              }
+            ]
+          },
+          {
+            "category": "否定の疑問文",
+            "description": "質問に nicht（〜ない）や kein（一つも〜ない）などの否定語が含まれている場合、「はい」にあたる言葉は Doch に変わります。",
+            "table": {
+              "headers": ["答え", "使い方", "例文"],
+              "rows": [
+                ["Doch（いいえ、違います／いいえ、話します）", "否定的な質問に対して、「いいえ、実際は〜ですよ」と反論・訂正する場合に使います", "Doch, ich spreche Englisch."],
+                ["Nein（はい、そうです）", "否定的な内容に同意する場合（＝話さない場合）", "Nein, ich spreche kein Englisch."]
+              ]
+            },
+            "examples": [
+              {
+                "question": "\"Sprechen Sie nicht Englisch?\"（英語を話さないのですか？）",
+                "answer": "Doch, ich spreche Englisch.（いいえ、話しますよ。— 相手の「ない」を打ち消す） / Nein, ich spreche kein Englisch.（はい、話しません。— 相手の言う通り「ない」）"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "polite_requests",
+      "title": "3. 丁寧な依頼 (Höfliche Bitten)",
+      "description": "丁寧にお願いをする際、ドイツ語では動詞の「接続法第II式」を使います。これは「本をくれ」と「本を貸していただけますか？」の違いのようなものです。",
+      "content": {
+        "categories": [
+          {
+            "category": "「Könnten」と「Würden」の使い方",
+            "description": "Könnten Sie...（〜していただけますか）: 能力や可能性に基づいた丁寧な依頼。Würden Sie...（〜してくださいますか）: 一般的な動作の丁寧な依頼。",
+            "table": {
+              "headers": ["構造", "例文", "意味"],
+              "rows": [
+                ["Könnten + 主語 + ... + 動詞?", "Könnten Sie mir bitte helfen?", "助けていただけますか？"],
+                ["Würden + 主語 + ... + 動詞?", "Würden Sie bitte das Fenster öffnen?", "窓を開けてくださいますか？"]
+              ]
+            },
+            "note": "注意: これらの文では、メインの動作を表す動詞（helfen や öffnen）は、常に文の最後に不定形（元の形）で置かれます。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "question_types",
+      "title": "4. 疑問詞のある疑問文 vs はい／いいえ疑問文",
+      "description": "ドイツ語の疑問文には主に2つのタイプがあります。",
+      "content": {
+        "categories": [
+          {
+            "category": "W疑問文（情報を求める疑問文）",
+            "description": "疑問詞（Wer, Was, Wie, Wo, Woher など）で始まる文です。動詞は2番目に置かれます。",
+            "examples": [
+              {
+                "question": "Wie hoch ist Ihre Miete?（家賃はいくらですか？）",
+                "answer": "答え: 具体的な詳細（650ユーロ、など）を答えます。"
+              }
+            ]
+          },
+          {
+            "category": "動詞先頭の疑問文（はい／いいえ疑問文）",
+            "description": "動詞から始まる文です。",
+            "examples": [
+              {
+                "question": "Suchen Sie eine Wohnung?（アパートを探していますか？）",
+                "answer": "答え: Ja または Nein で答え始めます。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "学習のためのまとめ表",
+      "description": "すべての文のタイプのクイックリファレンス:",
+      "content": {
+        "summary_table": {
+          "headers": ["文のタイプ", "動詞の位置", "例文"],
+          "rows": [
+            ["平叙文", "2番目", "Ich wohne in Frankfurt."],
+            ["Ja/Nein 疑問文", "1番目", "Wohnen Sie in Frankfurt?"],
+            ["W 疑問文", "2番目", "Wo wohnen Sie?"],
+            ["丁寧な依頼", "1番目", "Würden Sie mir den Weg sagen?"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "💡 学習のアドバイス",
+      "description": "質問の中に nicht や kein という否定語を見つけたら、もし「いいえ、そんなことないですよ（＝肯定）」と答えたいなら、すぐに Doch を使う準備をしましょう！これはドイツ語の日常会話において最もユニークで重要な単語の一つです。",
+      "content": {}
+    }
+  ]
+}

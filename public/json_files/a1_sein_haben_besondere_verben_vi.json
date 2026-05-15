@@ -1,0 +1,109 @@
+{
+  "title": "Sein & Haben",
+  "subtitle": "Special Verbs and Their Conjugations",
+  "sections": [
+    {
+      "id": "auxiliary_verbs",
+      "title": "1. Động từ Trợ giúp: Sein (Thì/Là/Ở) và Haben (Có)",
+      "description": "Trong tiếng Đức, Sein dùng để mô tả danh tính, trạng thái, và Haben dùng để chỉ sự sở hữu.",
+      "content": {
+        "table": {
+          "headers": ["Đại từ (Pronoun)", "Sein (Thì/Là/Ở)", "Haben (Có)", "Ví dụ và Dịch nghĩa"],
+          "rows": [
+            ["ich (tôi)", "bin", "habe", "Ich bin Lehrer. (Tôi là giáo viên.)"],
+            ["du (bạn)", "bist", "hast", "Hast du Geld? (Bạn có tiền không?)"],
+            ["er/sie/es (anh/chị/nó)", "ist", "hat", "Er ist 5 Jahre alt. (Cậu ấy 5 tuổi.)"],
+            ["wir (chúng tôi)", "sind", "haben", "Wir haben einen Hund. (Chúng tôi có một con chó.)"],
+            ["ihr (các bạn)", "seid", "habt", "Seid ihr neu hier? (Các bạn mới đến đây à?)"],
+            ["sie/Sie (họ/Ngài)", "sind", "haben", "Sind Sie verheiratet? (Ngài đã kết hôn chưa?)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "special_verbs",
+      "title": "2. Chia Động từ Đặc biệt (Special Verbs)",
+      "description": "Các động từ này đặc biệt vì ngôi ich và ngôi er/sie/es luôn có cách chia giống hệt nhau.",
+      "content": {
+        "table": {
+          "headers": ["Đại từ", "möchte (muốn)", "mögen (thích)", "wissen (biết)", "tun (làm)"],
+          "rows": [
+            ["ich", "möchte", "mag", "weiß", "tue"],
+            ["du", "möchtest", "magst", "weißt", "tust"],
+            ["er/sie/es", "möchte", "mag", "weiß", "tut"],
+            ["wir", "möchten", "mögen", "wissen", "tun"],
+            ["ihr", "möchtet", "mögt", "wisst", "tut"],
+            ["sie/Sie", "möchten", "mögen", "wissen", "tun"]
+          ]
+        },
+        "note": "Lưu ý cho người học: Động từ wissen có sự thay đổi nguyên âm từ i sang ei ở các ngôi số ít (ich weiß, du weißt, er weiß)."
+      }
+    },
+    {
+      "id": "detailed_usage",
+      "title": "3. Giải thích chi tiết cách dùng",
+      "description": "Học ý nghĩa và cách sử dụng các động từ đặc biệt này.",
+      "content": {
+        "examples": [
+          {
+            "verb": "Möchten",
+            "meaning": "Dùng để đưa ra yêu cầu lịch sự, thường dùng khi gọi món trong nhà hàng.",
+            "example": "Wir möchten etwas trinken. (Chúng tôi muốn uống gì đó.)"
+          },
+          {
+            "verb": "Mögen",
+            "meaning": "Dùng để diễn tả sở thích chung đối với đồ vật, con người hoặc địa điểm.",
+            "example": "Sie mag Italien. (Cô ấy thích nước Ý.)"
+          },
+          {
+            "verb": "Wissen",
+            "meaning": "Dùng khi nói về việc biết một thông tin hoặc sự thật nào đó.",
+            "example": "Ich weiß das nicht. (Tôi không biết điều đó.)"
+          },
+          {
+            "verb": "Tun",
+            "meaning": "Có nghĩa là \"làm\", nhưng thường dùng với \"weh\" để diễn tả sự đau đớn.",
+            "example": "Meine Ohren tun weh. (Tai tôi bị đau.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_sentences",
+      "title": "4. Danh sách câu ví dụ và Dịch nghĩa",
+      "description": "Thực hành sử dụng các động từ này trong câu thực tế.",
+      "content": {
+        "examples": [
+          {
+            "german": "Mein Name ist Misterek.",
+            "english": "Tên tôi là Misterek."
+          },
+          {
+            "german": "Hast du Zeit?",
+            "english": "Bạn có thời gian không?"
+          },
+          {
+            "german": "Ich bin Schülerin.",
+            "english": "Tôi là học sinh (nữ)."
+          },
+          {
+            "german": "Ich möchte einen Kaffee.",
+            "english": "Tôi muốn một ly cà phê."
+          },
+          {
+            "german": "Weißt du, wo der Bahnhof ist?",
+            "english": "Bạn có biết nhà ga ở đâu không?"
+          },
+          {
+            "german": "Tun Sie ganz wenig.",
+            "english": "Hãy làm ít thôi (nghỉ ngơi đi/đừng làm quá sức)."
+          },
+          {
+            "german": "Was tut weh?",
+            "english": "Bạn đau ở đâu?"
+          }
+        ]
+      }
+    }
+  ]
+}

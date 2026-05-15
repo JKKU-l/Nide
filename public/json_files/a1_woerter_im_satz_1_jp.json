@@ -1,0 +1,124 @@
+{
+  "title": "Wörter im Satz 1 (文の語順 1)",
+  "sections": [
+    {
+      "id": "declarative_sentences",
+      "title": "1. 平叙文 (Aussagesätze)",
+      "description": "ドイツ語の標準的な文章では、変化した動詞（定動詞）がアンカー（固定点）となります。",
+      "content": {
+        "rules": [
+          "黄金律: 動詞は常に2番目（ポジション2）に配置されます。",
+          "柔軟性: 動詞の位置は固定されていますが、主語は移動できます。主語から始める場合は「ポジション1」になります。時や場所を強調するためにそれらを文頭に置く場合、主語は「ポジション3」に移動し、動詞が常に「ポジション2」を維持するようにします。"
+        ],
+        "examples_table": {
+          "headers": ["ポジション 1 (トピック)", "ポジション 2 (動詞)", "ポジション 3 (主語/その他)", "残り"],
+          "rows": [
+            ["Ich", "heisse", "Peter Schmidt.", ""],
+            ["Peter und seine Frau", "wohnen", "jetzt", "in Heidelberg."],
+            ["Heute", "esse", "ich", "Pizza."]
+          ]
+        },
+        "note": "なぜ？ ドイツ語は「V2語順（動詞2番目の原則）」を採用しています。「Heute（今日）」から文を始めると時間が強調されますが、動詞は必ず2番目に残らなければなりません。"
+      }
+    },
+    {
+      "id": "w_questions",
+      "title": "2. W-疑問文 (疑問詞のある疑問文)",
+      "description": "Wo (どこ), Woher (どこから), Was (何) などの疑問詞（W-Word）を使います。",
+      "content": {
+        "structure": "構造: 疑問詞 (Pos 1) + 動詞 (Pos 2) + 主語 (Pos 3).",
+        "examples": [
+          {
+            "question": "Woher kommen Luis und Paloma? (ルイスとパロマはどこの出身ですか？)"
+          },
+          {
+            "question": "Was sind Sie von Beruf? (あなたのお仕事は何ですか？)"
+          },
+          {
+            "question": "Wo wohnen Sie jetzt? (あなたは今どこに住んでいますか？)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yes_no_questions",
+      "title": "3. はい/いいえ疑問文 (Ja/Nein-Fragen)",
+      "description": "疑問詞がない場合、動詞が文頭に立ちます。",
+      "content": {
+        "structure": "構造: 動詞 (Pos 1) + 主語 (Pos 2) + 文の残り.",
+        "examples": [
+          {
+            "question": "Kommt sie aus Peru? (彼女はペルー出身ですか？)"
+          },
+          {
+            "question": "Lernt Paloma Deutsch? (パロマはドイツ語を学んでいますか？)"
+          },
+          {
+            "question": "Sind Sie heute müde? (あなたは今日疲れていますか？)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "imperative",
+      "title": "4. 命令形 (Imperativ)",
+      "description": "フォーマルな「Sie」に対する命令や依頼の場合、構造は「はい/いいえ疑問文」に似ていますが、文末に「！」がつきます。",
+      "content": {
+        "structure": "構造: 動詞 (Pos 1) + Sie + 目的語/副詞 !",
+        "examples": [
+          {
+            "question": "Kommen Sie! (来てください！)"
+          },
+          {
+            "question": "Hören Sie die Geschichte! (その話を聞いてください！)"
+          },
+          {
+            "question": "Sagen Sie nichts! (何も言わないでください！)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "time_and_place",
+      "title": "5. 時間と場所 (Zeit und Ort)",
+      "description": "文の中に「時間 (Wann?)」と「場所 (Wo?)」の両方が含まれる場合、ドイツ語には特定の論理的な流れがあります。",
+      "content": {
+        "rules": [
+          "時間 (Wann): 通常、文の早い段階にきます（ポジション1、または動詞の直後が多い）。",
+          "場所 (Wo): 通常、文の終盤にきます。"
+        ],
+        "example_analysis": {
+          "sentence": "Ich wohne seit zwei Jahren in Frankfurt.",
+          "translation": "（私は2年前からフランクフルトに住んでいます。）",
+          "breakdown": [
+            "主語: Ich (Pos 1)",
+            "動詞: wohne (Pos 2)",
+            "時間: seit zwei Jahren (時間的要素 - どのくらいの期間)",
+            "場所: in Frankfurt (場所的要素 - どこに)"
+          ]
+        },
+        "more_examples": [
+          "Ich fahre freitags um 17 Uhr (時間) nach Heidelberg (場所).",
+          "Ich arbeite von 9 bis 18 Uhr (時間) im Büro (場所)."
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "語順のまとめ表",
+      "description": "全ての文の種類のためのクイックリファレンス:",
+      "content": {
+        "summary_table": {
+          "headers": ["文の種類", "ポジション 1", "ポジション 2 (動詞)", "ポジション 3"],
+          "rows": [
+            ["平叙文", "主語 / 時間", "動詞", "時間 / 主語"],
+            ["W-疑問文", "疑問詞", "動詞", "主語"],
+            ["はい/いいえ疑問文", "動詞", "主語", "目的語/副詞"],
+            ["命令形", "動詞", "Sie (主語)", "目的語"]
+          ]
+        },
+        "note": "A1学習者のためのポイント: 標準的な文章にどれだけ多くの情報（時間、方法、場所など）を追加しても、変化した動詞が「接着剤」のようにポジション2に固定されます。強調のために何かを文頭に持ってきた場合、動詞がポジション3に押し出されないよう、主語と動詞を「入れ替える（倒置させる）」必要があります。"
+      }
+    }
+  ]
+}

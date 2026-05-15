@@ -1,0 +1,173 @@
+{
+  "title": "Artikel: interrogativ und demonstrativ (Interrogative and demonstrative articles)",
+  "description": "Understanding the difference between interrogative articles (welch-) used for asking \"which?\" and demonstrative articles (dies-) used for pointing out \"this/that.\"",
+  "sections": [
+    {
+      "id": "concept_understanding",
+      "title": "Understanding the Concept: Interrogative vs. Demonstrative",
+      "description": "Learn the difference between asking for a specific item and pointing out a specific item.",
+      "content": {
+        "definitions": [
+          {
+            "type": "Interrogative (Welcher-)",
+            "description": "This is used to ask for a specific person or thing out of a group. In English, it translates to \"Which...?\""
+          },
+          {
+            "type": "Demonstrative (Dieser-)",
+            "description": "This is used to point out a specific person or thing. In English, it translates to \"This...\" or \"This one.\""
+          }
+        ],
+        "golden_rule": {
+          "title": "The golden rule for A1 learners",
+          "description": "The ending of \"welch-\" must match the ending of \"dies-\" and the definite article (der/die/das)."
+        }
+      }
+    },
+    {
+      "id": "nominative_case",
+      "title": "1. The Nominative Case (Subject)",
+      "description": "The Nominative case is used for the subject of the sentence (the person or thing doing the action or being described).",
+      "content": {
+        "genders": [
+          {
+            "gender": "Masculine (der)",
+            "ending": "Use the ending -er",
+            "example_question": "Welcher Mantel ist schön?",
+            "example_question_english": "Which coat is beautiful?",
+            "example_response": "Dieser Mantel.",
+            "example_response_english": "This coat."
+          },
+          {
+            "gender": "Neutral (das)",
+            "ending": "Use the ending -es",
+            "example_question": "Welches Kleid gefällt dir?",
+            "example_question_english": "Which dress do you like?",
+            "example_response": "Dieses Kleid.",
+            "example_response_english": "This dress."
+          },
+          {
+            "gender": "Feminine (die)",
+            "ending": "Use the ending -e",
+            "example_question": "Welche Hose ist das?",
+            "example_question_english": "Which pair of pants is that?",
+            "example_response": "Diese Hose.",
+            "example_response_english": "These pants."
+          },
+          {
+            "gender": "Plural (die)",
+            "ending": "Use the ending -e",
+            "example_question": "Welche Schuhe sind neu?",
+            "example_question_english": "Which shoes are new?",
+            "example_response": "Diese Schuhe.",
+            "example_response_english": "These shoes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accusative_case",
+      "title": "2. The Accusative Case (Direct Object)",
+      "description": "The Accusative case is used for the direct object (the thing being acted upon). Notice that only the masculine gender changes compared to the Nominative.",
+      "content": {
+        "genders": [
+          {
+            "gender": "Masculine (den)",
+            "ending": "Use the ending -en",
+            "example_question": "Welchen Anzug kaufst du?",
+            "example_question_english": "Which suit are you buying?",
+            "example_response": "Ich kaufe diesen Anzug.",
+            "example_response_english": "I am buying this suit."
+          },
+          {
+            "gender": "Neutral, Feminine, and Plural",
+            "ending": "These stay exactly the same as in the Nominative case (-es, -e, -e)",
+            "example": "Ich nehme dieses T-Shirt.",
+            "example_english": "I'll take this T-shirt."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_case",
+      "title": "3. The Dative Case (Indirect Object/Prepositions)",
+      "description": "The Dative case is used after certain prepositions (like mit, von, zu, aus, bei) or for indirect objects.",
+      "content": {
+        "genders": [
+          {
+            "gender": "Masculine & Neutral (dem)",
+            "ending": "Both use the ending -em",
+            "example_question": "Zu welchem Arzt gehst du?",
+            "example_question_english": "To which doctor are you going?",
+            "example_response": "Zu diesem Arzt.",
+            "example_response_english": "To this doctor.",
+            "note": "Example with preposition \"zu\" (to)"
+          },
+          {
+            "gender": "Feminine (der)",
+            "ending": "Use the ending -er",
+            "note": "This is often confusing for beginners because it looks masculine, but in Dative, feminine becomes der",
+            "example_question": "Mit welcher Freundin gehst du?",
+            "example_question_english": "With which [female] friend are you going?",
+            "example_response": "Mit dieser Freundin.",
+            "example_response_english": "With this friend.",
+            "preposition_note": "Example with preposition \"mit\" (with)"
+          },
+          {
+            "gender": "Plural (den + n)",
+            "ending": "Use the ending -en",
+            "example_question": "Welchen Kindern hast du geholfen?",
+            "example_question_english": "Which children did you help?",
+            "example_response": "Diesen Kindern.",
+            "example_response_english": "These children."
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_endings",
+      "title": "Why do we use these endings?",
+      "description": "German uses these specific endings to provide \"signals.\" Because word order in German can be flexible, these endings tell the listener exactly who is doing what.",
+      "content": {
+        "signals": [
+          {
+            "type": "Gender Signal",
+            "description": "The -er in Welcher tells you the noun is masculine (der). The -es in Welches tells you it is neutral (das)."
+          },
+          {
+            "type": "Function Signal",
+            "description": "If you see Welchen, you immediately know the masculine noun is the object of the sentence (Accusative) or used with a Dative plural noun."
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_tip",
+      "title": "Summary Tip for A1",
+      "description": "Think of Welch- and Dies- as \"mirror words.\" Whatever ending you put on the question word usually mirrors the ending on the answer word and the definite article:",
+      "content": {
+        "examples": [
+          {
+            "article": "Der Mann",
+            "question": "Welcher Mann?",
+            "answer": "Dieser Mann."
+          },
+          {
+            "article": "Das Kind",
+            "question": "Welches Kind?",
+            "answer": "Dieses Kind."
+          },
+          {
+            "article": "Die Frau",
+            "question": "Welche Frau?",
+            "answer": "Diese Frau."
+          },
+          {
+            "article": "Den Mann (Accusative)",
+            "question": "Welchen Mann?",
+            "answer": "Diesen Mann."
+          }
+        ]
+      }
+    }
+  ]
+}

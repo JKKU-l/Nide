@@ -1,0 +1,107 @@
+{
+  "title": "คำกริยำนุเครำะห์ในภำษำเยอรมัน (Modalverben)",
+  "subtitle": "คำกริยำนุเครำะห์ (Modal Verbs) คือคำที่ใช้เพื่อบอกทัศนคติหรือสภาวะของการกระทำหลักในประโยค เช่น ความสามารถ ความจำเป็น ความต้องการ หรือการอนุญาต",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Modal Verbs คืออะไร?",
+      "description": "คำกริยำนุเครำะห์ (Modal Verbs) คือคำที่ใช้เพื่อบอกทัศนคติหรือสภาวะของการกระทำหลักในประโยค เช่น ความสามารถ ความจำเป็น ความต้องการ หรือการอนุญาต",
+      "content": {
+        "modal_verbs_table": {
+          "headers": ["คำกริยำ", "ความหมาย", "การใช้งำน"],
+          "rows": [
+            ["können", "สำมำรถ / ทำได้", "บอกความสำมำรถ หรือความเป็นไปได้"],
+            ["müssen", "ต้อง", "บอกความจำเป็น หรือหน้าที่ที่เลี้ยงไม่ได้"],
+            ["wollen", "ต้องการ (ตั้งใจ)", "บอกความปรารถนาหรือความตั้งใจที่แน่วแน่"],
+            ["möchten", "อยากจะ / ต้องการ", "บอกความต้องการอย่างสุภาพ"],
+            ["dürfen", "ได้รับอนุญาต", "บอกการขออนุญาต หรือการสั่งห้าม (เมื่อเป็นปฏิเสธ)"],
+            ["sollen", "ควรจะ", "บอกคำแนะนำ หน้าที่ หรือสิ่งที่ได้รับมอบหมาย"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "conjugation_rules",
+      "title": "กฎการผันกริยำ (Conjugation)",
+      "description": "มีกฎสำคัญ 2 ข้อที่ต้องจำสำหรับการผัน Modal Verbs:",
+      "content": {
+        "rules": [
+          "การเปลี่ยนสระ: ในรูปเอกพจน์ (ich, du, er/sie/es) สระตรงกลางมักจะเปลี่ยนไป",
+          "รูปที่เหมือนกัน: รูปของ ich และ er/sie/es จะเหมือนกันเสมอ และไม่มีการเติมหาง (Ending)"
+        ],
+        "conjugation_table": {
+          "headers": ["ประธำน", "können", "müssen", "wollen", "dürfen"],
+          "rows": [
+            ["ich", "kann", "muss", "will", "darf"],
+            ["du", "kannst", "musst", "willst", "darfst"],
+            ["er/sie/es", "kann", "muss", "will", "darf"],
+            ["wir", "können", "müssen", "wollen", "dürfen"],
+            ["ihr", "könnt", "müsst", "wollt", "dürft"],
+            ["sie/Sie", "können", "müssen", "wollen", "dürfen"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "sentence_architecture",
+      "title": "โครงสร้างประโยค (Sentence Structure)",
+      "description": "ในการสร้างประโยคที่มี Modal Verb มีกฎเหล็กดังนี้:",
+      "content": {
+        "structure": [
+          "ตำแหน่งที่ 2: วำง Modal Verb ที่ผันตำมประธำนไว้ที่ตำแหน่งที่ 2 ของประโยค",
+          "ท้ำยประโยค: วำงคำกริยำหลัก (Main Verb) ในรูปเดิม (Infinitive) ไว้ท้ำยสุดของประโยค",
+          "ประธำน + Modal Verb (ผันตำมประธำน) + ... + กริยำหลัก (รูปเดิม/ท้ำยประโยค)"
+        ],
+        "formula": "ประธำน + Modal Verb (ผันตำมประธำน) + ... + กริยำหลัก (รูปเดิม/ท้ำยประโยค)"
+      }
+    },
+    {
+      "id": "usage_examples",
+      "title": "ตัวอย่างการใช้งำน",
+      "description": "ตัวอย่างการใช้ Modal Verbs ในประโยค:",
+      "content": {
+        "examples": [
+          {
+            "category": "ความสำมำรถ (können)",
+            "german": "Ich kann sehr gut Fußball spielen.",
+            "english": "ฉันสำมำรถเล่นฟุตบอลได้ดีมำก"
+          },
+          {
+            "category": "ความจำเป็น (müssen)",
+            "german": "Du musst Hausaufgaben machen.",
+            "english": "คุณต้องทำกำรบ้ำน"
+          },
+          {
+            "category": "กำรอนุญำต (dürfen)",
+            "german": "Hier darf man nicht rauchen.",
+            "english": "ไม่อนุญำตให้สูบบุหรี่ที่นี่"
+          },
+          {
+            "category": "คำแนะนำ (sollen)",
+            "german": "Der Arzt sagt, ich soll im Bett bleiben.",
+            "english": "หมอบอกว่ำฉันควรพักผ่อนอยู่บนเตียง"
+          }
+        ]
+      }
+    },
+    {
+      "id": "advanced_note",
+      "title": "ข้อสังเกตเพิ่มเติม: กำรละกริยำหลัก",
+      "description": "ในภำษำพูด หำกบริบทชัดเจนว่ำกำลังจะทำอะไร (เช่น กำรไป กำรมำ กำรกิน) เรำสำมำรถละกริยำหลักที่อยู่ท้ำยประโยคได้",
+      "content": {
+        "examples": [
+          {
+            "full": "Ich muss nach Hause gehen.",
+            "shortened": "Ich muss nach Hause.",
+            "english": "ละคำว่ำ gehen"
+          },
+          {
+            "full": "Ich will ein Eis essen.",
+            "shortened": "Ich will ein Eis.",
+            "english": "ละคำว่ำ essen"
+          }
+        ]
+      }
+    }
+  ]
+}

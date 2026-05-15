@@ -1,0 +1,53 @@
+{
+  "title": "Daily Routine & Time",
+  "emoji": "⏰",
+  "theme_color": "#2196F3",
+  "description": "Daily activities and time expressions vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "aufstehen", "thai": "ตื่นนอน (ลุกจากเตียง)", "example_german": "Ich stehe jeden Morgen um sechs Uhr auf.", "example_thai": "ฉันตื่นนอนตอนหกโมงเช้าทุกวัน"},
+          {"german": "aufwachen", "thai": "ลืมตาตื่น", "example_german": "Ich wache meistens vor dem Wecker auf.", "example_thai": "ส่วนใหญ่ฉันมักจะตื่นก่อนที่นาฬิกาปลุกจะดัง"},
+          {"german": "schlafen", "thai": "นอนหลับ", "example_german": "Am Wochenende möchte ich lange schlafen.", "example_thai": "ในวันหยุดสุดสัปดาห์ ฉันอยากจะนอนตื่นสายๆ"},
+          {"german": "einschlafen", "thai": "ผลอยหลับ", "example_german": "Er kann ohne Musik nicht einschlafen.", "example_thai": "เขาไม่สามารถผลอยหลับได้ถ้าไม่มีเสียงเพลง"},
+          {"german": "frühstücken", "thai": "ทานอาหารเช้า", "example_german": "Wir frühstücken heute gemütlich auf dem Balkon.", "example_thai": "วันนี้พวกเราทานอาหารเช้ากันสบายๆ ที่ระเบียง"},
+          {"german": "mittagessen", "thai": "ทานอาหารกลางวัน", "example_german": "Um 12 Uhr essen wir in der Kantine zu Mittag.", "example_thai": "พวกเราทานอาหารกลางวันตอนเที่ยงที่โรงอาหาร"},
+          {"german": "abendessen", "thai": "ทานอาหารเย็น", "example_german": "Was esst ihr heute zu Abend?", "example_thai": "วันนี้พวกคุณจะทานอะไรเป็นอาหารเย็นกัน?"},
+          {"german": "arbeiten", "thai": "ทำงาน", "example_german": "Mein Bruder arbeitet bei einer Bank.", "example_thai": "พี่ชายของฉันทำงานที่ธนาคาร"},
+          {"german": "beginnen", "thai": "เริ่มต้น", "example_german": "Die Vorlesung beginnt pünktlich.", "example_thai": "การบรรยายเริ่มต้นตรงเวลา"},
+          {"german": "enden", "thai": "สิ้นสุด / จบลง", "example_german": "Wann endet dein Arbeitstag?", "example_thai": "วันทำงานของคุณสิ้นสุดลงเมื่อไหร่?"},
+          {"german": "anfangen", "thai": "เริ่มต้น", "example_german": "Der Film fängt in zehn Minuten an.", "example_thai": "ภาพยนตร์จะเริ่มในอีก 10 นาทีข้างหน้า"},
+          {"german": "aufhören", "thai": "หยุด / เลิก", "example_german": "Es hört endlich auf zu regnen.", "example_thai": "ในที่สุดฝนก็หยุดตกเสียที"},
+          {"german": "kommen", "thai": "มา", "example_german": "Kommst du heute Abend zur Party?", "example_thai": "เย็นนี้คุณจะมางานปาร์ตี้ไหม?"},
+          {"german": "gehen", "thai": "ไป", "example_german": "Ich gehe jetzt in den Supermarkt.", "example_thai": "ตอนนี้ฉันกำลังจะไปซูเปอร์มาร์เก็ต"},
+          {"german": "zurückkommen", "thai": "กลับมา", "example_german": "Er kommt erst spät nach Hause zurück.", "example_thai": "เขากลับมาถึงบ้านดึกมาก"},
+          {"german": "bleiben", "thai": "พักอยู่ / อยู่ที่เดิม", "example_german": "Wir bleiben wegen des Wetters drinnen.", "example_thai": "พวกเราอยู่ข้างในอาคารเพราะสภาพอากาศ"},
+          {"german": "warten", "thai": "รอ", "example_german": "Ich warte schon seit einer Stunde auf dich.", "example_thai": "ฉันรอคุณมาหนึ่งชั่วโมงแล้วนะ"},
+          {"german": "eilen", "thai": "รีบเร่ง", "example_german": "Wir müssen uns beeilen, sonst verpassen wir den Bus.", "example_thai": "พวกเราต้องรีบแล้วล่ะ ไม่อย่างนั้นจะตกรถบัส"},
+          {"german": "planen", "thai": "วางแผน", "example_german": "Wir planen unsere nächste Reise nach Berlin.", "example_thai": "พวกเรากำลังวางแผนไปเที่ยวเบอร์ลินครั้งหน้า"},
+          {"german": "vorbereiten", "thai": "เตรียมตัว / เตรียมการ", "example_german": "Sie bereitet die Präsentation für morgen vor.", "example_thai": "เธอกำลังเตรียมงานนำเสนอสำหรับวันพรุ่งนี้"},
+          {"german": "vergessen", "thai": "ลืม", "example_german": "Ich habe meinen Schlüssel zu Hause vergessen.", "example_thai": "ฉันลืมกุญแจไว้ที่บ้าน"},
+          {"german": "erinnern", "thai": "จำได้ / ระลึกถึง", "example_german": "Ich erinnere mich gern an meinen Urlaub.", "example_thai": "ฉันชอบนึกถึงช่วงเวลาพักร้อนของฉัน"},
+          {"german": "wiederholen", "thai": "พูดซ้ำ / ทำซ้ำ", "example_german": "Können Sie das bitte noch einmal wiederholen?", "example_thai": "คุณช่วยพูดซ้ำอีกรอบได้ไหมครับ/คะ?"},
+          {"german": "prüfen", "thai": "ตรวจสอบ / ตรวจทาน", "example_german": "Der Mechaniker prüft den Motor.", "example_thai": "ช่างเครื่องกำลังตรวจสอบเครื่องยนต์"},
+          {"german": "notieren", "thai": "จดบันทึก", "example_german": "Bitte notieren Sie sich meine Telefonnummer.", "example_thai": "กรุณาจดเบอร์โทรศัพท์ของฉันไว้ด้วยครับ/คะ"},
+          {"german": "organisieren", "thai": "จัดการ / จัดระเบียบ", "example_german": "Wer organisiert dieses Jahr das Weihnachtsfest?", "example_thai": "ปีนี้ใครเป็นคนจัดงานฉลองคริสต์มาส?"},
+          {"german": "ausruhen", "thai": "พักผ่อน", "example_german": "Nach dem Sport muss ich mich kurz ausruhen.", "example_thai": "หลังจากเล่นกีฬา ฉันต้องพักผ่อนครู่หนึ่ง"},
+          {"german": "entspannen", "thai": "ผ่อนคลาย", "example_german": "Ein heißes Bad hilft mir zu entspannen.", "example_thai": "การแช่น้ำอุ่นช่วยให้ฉันผ่อนคลาย"},
+          {"german": "duschen", "thai": "อาบน้ำ (ฝักบัว)", "example_german": "Ich dusche lieber morgens als abends.", "example_thai": "ฉันชอบอาบน้ำตอนเช้ามากกว่าตอนเย็น"},
+          {"german": "waschen", "thai": "ล้าง / ซัก", "example_german": "Vergiss nicht, dir die Hände zu waschen.", "example_thai": "อย่าลืมล้างมือด้วยนะ"},
+          {"german": "anziehen", "thai": "สวมใส่เสื้อผ้า", "example_german": "Ich ziehe mir schnell einen Pullover an.", "example_thai": "ฉันรีบสวมเสื้อไหมพรม"},
+          {"german": "ausziehen", "thai": "ถอดเสื้อผ้า / ถอดรองเท้า", "example_german": "Hier muss man die Schuhe ausziehen.", "example_thai": "ที่นี่ต้องถอดรองเท้าด้วย"},
+          {"german": "putzen", "thai": "ทำความสะอาด / ขัด", "example_german": "Ich muss heute noch die Wohnung putzen.", "example_thai": "วันนี้ฉันยังต้องทำความสะอาดห้องพักอีก"},
+          {"german": "kämmen", "thai": "หวีผม", "example_german": "Er kämmt sich die Haare vor dem Spiegel.", "example_thai": "เขาหวีผมอยู่หน้ากระจก"},
+          {"german": "rasieren", "thai": "โกน (หนวด/เครา)", "example_german": "Mein Vater rasiert sich jeden Morgen.", "example_thai": "พ่อของฉันโกนหนวดทุกเช้า"},
+          {"german": "aufräumen", "thai": "จัดของให้เป็นระเบียบ", "example_german": "Du musst dein Zimmer endlich aufräumen!", "example_thai": "คุณต้องจัดห้องให้เป็นระเบียบเสียทีนะ!"},
+          {"german": "kochen", "thai": "ทำอาหาร", "example_german": "Was kochst du heute Schönes?", "example_thai": "วันนี้คุณจะทำอะไรอร่อยๆ ทานเหรอ?"},
+          {"german": "schließen", "thai": "ปิด", "example_german": "Bitte schließen Sie das Fenster.", "example_thai": "กรุณาปิดหน้าต่างด้วยครับ/คะ"}
+        ]
+      }
+    }
+  ]
+}

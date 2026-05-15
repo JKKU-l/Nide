@@ -1,0 +1,130 @@
+{
+  "title": "Akkusativ (ကံကာရက / တိုက်ရိုက်ကံ)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "ဂျာမန် Akkusativ (ကံကာရက) ကို နားလည်ခြင်း",
+      "description": "ဂျာမန်ဘာသာစကားတွင် Akkusativ သည် အဓိကအားဖြင့် ဝါကျ၏ တိုက်ရိုက်ကံ (Direct Object) အတွက် အသုံးပြုပါသည်။ ဒါက ကြိယာ၏ လုပ်ဆောင်ချက်ကြောင့် တိုက်ရိုက်သက်ရောက်ခြင်းခံရသော လူ သို့မဟုတ် အရာဖြစ်ပါသည်။ Nominativ သည် \"လုပ်ဆောင်သူ\" (ကတ္တား) ဖြစ်လျှင် Akkusativ သည် \"လက်ခံသူ\" ဖြစ်ပါသည်။"
+    },
+    {
+      "id": "identifying_accusative",
+      "title": "1. Akkusativ ကို ခွဲခြားသိရှိခြင်း: \"ဘယ်သူကို\" သို့မဟုတ် \"ဘာကို\"",
+      "description": "ကံကာရက ကံကို ရှာရန် ကိုယ့်ကိုယ်ကို မေးပါ: \"ဘယ်သူကို/ဘာကို ~လုပ်နေပါသလဲ?\"",
+      "content": {
+        "example": {
+          "german": "Ich kaufe den Apfel.",
+          "translation": "ကျွန်တော် ပန်းသီးကို ဝယ်ပါသည်။",
+          "note": "ဘာကို ဝယ်နေပါသလဲ? → Den Apfel (ပန်းသီးကို)။ ထို့ကြောင့် \"ပန်းသီး\" သည် ကံကာရကတွင် ရှိပါသည်။"
+        }
+      }
+    },
+    {
+      "id": "articles_adjective_endings",
+      "title": "2. နာမ်သေ နှင့် နာမဝိသေသန အဆုံးသတ်များ",
+      "description": "Akkusativ အကြောင်း အရေးကြီးဆုံး မှတ်ရန်မှာ အမျိုးသား (masculine) လိင်သာ ပြောင်းလဲသည်ဟူသောအချက်ဖြစ်ပါသည်။ အမျိုးသမီး၊ ကြားလိင်၊ နှင့် အများကိန်းတို့သည် Nominativ နှင့် အတူတူပင်ဖြစ်ပါသည်။",
+      "content": {
+        "declension_table": {
+          "title": "Akkusativ ဝိဘတ်ပြောင်းလဲခြင်း ဇယား",
+          "headers": ["လိင်", "Definite (The)", "Indefinite (A/None)", "နာမဝိသေသန အဆုံးသတ် (\"the\" ဖြင့်)"],
+          "rows": [
+            { "category": "အမျိုးသား", "definite": "den", "indefinite": "einen / keinen", "adjective": "-en (den netten Vater)" },
+            { "category": "အမျိုးသမီး", "definite": "die", "indefinite": "eine / keine", "adjective": "-e (die nette Mutter)" },
+            { "category": "ကြားလိင်", "definite": "das", "indefinite": "ein / kein", "adjective": "-e (das nette Kind)" },
+            { "category": "အများကိန်း", "definite": "die", "indefinite": "- / keine", "adjective": "-en (die netten Eltern)" }
+          ]
+        },
+        "adjective_note": "dieser (ဤ)၊ jener (ထို)၊ welcher (ဘယ်) ကဲ့သို့သော စကားလုံးများကို သုံးလျှင် နောက်မှ လိုက်သော နာမဝိသေသနသည် ဝိဘတ်ပြောင်းလဲခြင်းမှာ definite article နှင့် အတူတူပင်ဖြစ်ပါသည် (အမျိုးသား/အများကိန်းအတွက် -en၊ အမျိုးသမီး/ကြားလိင်အတွက် -e)။"
+      }
+    },
+    {
+      "id": "personal_pronouns",
+      "title": "3. ပုဂ္ဂိုလ်နာမ်စား",
+      "description": "လူတစ်ယောက်သည် တိုက်ရိုက်ကံဖြစ်သောအခါ (ဥပမာ - \"သူ ကျွန်တော့်ကို မြင်သည်\")၊ နာမ်စား၏ Akkusativ ပုံစံကို သုံးရပါသည်။",
+      "content": {
+        "pronoun_table": {
+          "title": "Akkusativ တွင် နာမ်စား ပြောင်းလဲခြင်း",
+          "rows": [
+            { "nominative": "ich", "accusative": "mich", "meaning": "ကျွန်တော့်ကို" },
+            { "nominative": "du", "accusative": "dich", "meaning": "မင်းကို" },
+            { "nominative": "er", "accusative": "ihn", "meaning": "သူ့ကို" },
+            { "nominative": "sie", "accusative": "sie", "meaning": "သူမကို" },
+            { "nominative": "es", "accusative": "es", "meaning": "အဲဒါကို" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "ကျွန်တော်တို့ကို" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "မင်းတို့ကို" },
+            { "nominative": "sie/Sie", "accusative": "sie/Sie", "meaning": "သူတို့ကို / ခင်ဗျားကို" }
+          ]
+        },
+        "example": {
+          "german": "Ich liebe dich.",
+          "translation": "ကျွန်တော် မင်းကို ချစ်တယ်။",
+          "note": "ဒီမှာ \"မင်း\" က ချစ်ခြင်းခံရသူဖြစ်သောကြောင့် du သည် dich ဖြစ်သွားပါသည်။"
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. Akkusativ ကို အသုံးပြုရသည့်အခါ",
+      "description": "Akkusativ အတွက် အဓိက အကြောင်းရင်း သုံးခု ရှိပါသည်:",
+      "content": {
+        "triggers": [
+          {
+            "id": "accusative_verbs",
+            "title": "A. Akkusativ ကြိယာများ",
+            "description": "ဂျာမန် ကြိယာအများစုသည် တစ်ခုခုကို တစ်ခုခု လုပ်ခြင်းပါဝင်သောကြောင့် Akkusativ ကို လိုအပ်ပါသည်။",
+            "subcategories": [
+              { "label": "ရုပ်ပိုင်းဆိုင်ရာ လုပ်ဆောင်ချက်", "verbs": "essen (စားသည်)၊ trinken (သောက်သည်)၊ kaufen (ဝယ်သည်)", "german": "Er isst einen Kuchen.", "translation": "သူ ကိတ်မုန့်ကို စားသည် — အမျိုးသားနာမ် ပြောင်းလဲခြင်း။" },
+              { "label": "ပိုင်ဆိုင်ခြင်း", "verbs": "haben (ရှိသည်)၊ besitzen (ပိုင်ဆိုင်သည်)", "german": "Ich habe einen Bruder.", "translation": "ကျွန်တော့်မှာ အစ်ကိုတစ်ယောက် ရှိပါသည်။" },
+              { "label": "စိတ်ပိုင်း/အာရုံခံ", "verbs": "hören (ကြားသည်)၊ verstehen (နားလည်သည်)၊ suchen (ရှာသည်)", "german": "Wir suchen den Hund.", "translation": "ကျွန်တော်တို့ ခွေးကို ရှာနေပါသည်။" }
+            ]
+          },
+          {
+            "id": "accusative_prepositions",
+            "title": "B. Akkusativ ဝိဘတ်စကားလုံးများ",
+            "description": "အချို့ ဝိဘတ်စကားလုံးများသည် ကြိယာမည်သို့ပင်ဖြစ်စေ Akkusativ ကို အမြဲတမ်းယူပါသည်:",
+            "prepositions": ["durch (~ကို ဖြတ်၍)", "für (~အတွက်)", "gegen (~ကို ဆန့်ကျင်၍)", "ohne (~မပါဘဲ)", "um (~ပတ်ဝန်းကျင်)", "bis (~အထိ)"],
+            "examples": [
+              { "german": "Das Geschenk ist für dich.", "translation": "လက်ဆောင်က မင်းအတွက်ပါ။" },
+              { "german": "Er geht ohne den Schirm.", "translation": "သူ ထီးမပါဘဲ သွားပါသည်။" }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. နှစ်ဖက်သုံး ဝိဘတ်စကားလုံးများ (ရွေ့လျားခြင်း vs. တည်နေရာ)",
+            "description": "အချို့ ဝိဘတ်စကားလုံးများ (an, auf, hinter, in, neben, über, unter, vor, zwischen) သည် Dativ သို့မဟုတ် Akkusativ ဖြစ်နိုင်ပါသည်။",
+            "rule": "ရွေ့လျားခြင်း/ဦးတည်ရာအတွက် Akkusativ ကို သုံးပါ: A နေရာမှ B နေရာသို့ ရွေ့လျားနေလျှင် (မေးခွန်း: Wohin? / ဘယ်ကို?)။",
+            "examples": [
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "ကျွန်တော် စာအုပ်ကို စားပွဲပေါ်မှာ တင်ပါသည် — လုပ်ဆောင်ချက်/ရွေ့လျားခြင်း။" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. ရှင်းလင်းစေရန် အသေးစိတ် ဥပမာများ",
+      "description": "မတူညီသော အခြေအနေများတွင် Akkusativ ကို လက်တွေ့ကြည့်ကြရအောင်:",
+      "content": {
+        "examples": [
+          {
+            "label": "အမျိုးသားနာမ် ပြောင်းလဲခြင်း",
+            "nominative": { "german": "Der Tisch ist alt.", "translation": "စားပွဲသည် ဟောင်းသည်။" },
+            "accusative": { "german": "Ich verkaufe den Tisch.", "translation": "ကျွန်တော် စားပွဲကို ရောင်းပါသည်။" },
+            "explanation": "စားပွဲသည် ယခု ရောင်းချခြင်းခံရသော ကံ (object) ဖြစ်သွားသောကြောင့်ဖြစ်ပါသည်။"
+          },
+          {
+            "label": "ကြားလိင်/အမျိုးသမီးနာမ် ပြောင်းလဲခြင်း မရှိ",
+            "nominative": { "german": "Das Auto ist schnell.", "translation": "ကားသည် မြန်သည်။" },
+            "accusative": { "german": "Ich kaufe das Auto.", "translation": "ကျွန်တော် ကားကို ဝယ်ပါသည်။" },
+            "explanation": "\"Auto\" သည် ကြားလိင်နာမ်ဖြစ်ပါသည်။ နာမ်သေ \"das\" သည် Akkusativ တွင် မပြောင်းလဲပါ။"
+          },
+          {
+            "label": "\"Haben\" အသုံးပြုခြင်း",
+            "nominative": null,
+            "accusative": { "german": "Sie hat einen neuen Job.", "translation": "သူမမှာ အလုပ်သစ် ရှိပါသည်။" },
+            "explanation": "\"Job\" သည် အမျိုးသားနာမ် (der Job) ဖြစ်ပါသည်။ haben နောက်တွင် ဖြစ်သောကြောင့် einen ဖြစ်ရပါသည်။"
+          }
+        ]
+      }
+    }
+  ]
+}

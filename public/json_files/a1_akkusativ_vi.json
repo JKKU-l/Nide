@@ -1,0 +1,196 @@
+{
+  "title": "Akkusativ (Cách 4 - Tân ngữ)",
+  "sections": [
+    {
+      "id": "what_is_akkusativ",
+      "title": "1. Cách 4 (Akkusativ) là gì?",
+      "description": "Trong một câu tiếng Đức, Cách 1 (Nominativ) được dùng cho Chủ ngữ (người hoặc vật thực hiện hành động). Cách 4 (Akkusativ) được dùng cho Tân ngữ trực tiếp (người hoặc vật chịu tác động của hành động).",
+      "content": {
+        "example_sentence": {
+          "sentence": "Người bồi bàn uống một ly nước hoa quả.",
+          "breakdown": [
+            {
+              "part": "Người bồi bàn",
+              "role": "Chủ ngữ (Nominative)"
+            },
+            {
+              "part": "Uống",
+              "role": "Động từ"
+            },
+            {
+              "part": "Một ly nước hoa quả",
+              "role": "Tân ngữ trực tiếp (Accusative)"
+            }
+          ]
+        },
+        "golden_rule": {
+          "title": "Quy tắc vàng của Cách 4 (Akkusativ)",
+          "description": "Chỉ có các danh từ giống đực (masculine) mới thay đổi mạo từ khi ở Cách 4. Danh từ giống cái, giống trung và số nhiều vẫn giữ nguyên như ở Cách 1.",
+          "changes": [
+            {
+              "gender": "Giống đực thay đổi",
+              "nominative": "der/ein",
+              "accusative": "den/einen"
+            },
+            {
+              "gender": "Giống trung giữ nguyên",
+              "nominative": "das/ein",
+              "accusative": "das/ein"
+            },
+            {
+              "gender": "Giống cái giữ nguyên",
+              "nominative": "die/eine",
+              "accusative": "die/eine"
+            },
+            {
+              "gender": "Số nhiều giữ nguyên",
+              "nominative": "die/--",
+              "accusative": "die/--"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_indefinite_articles",
+      "title": "2. Sử dụng Mạo từ Xác định và Không xác định",
+      "description": "Khi bạn nói về một vật cụ thể, bạn dùng Mạo từ xác định (the). Khi bạn nói về \"bất kỳ\" vật nào hoặc \"một\" vật nào đó, bạn dùng Mạo từ không xác định (a/an).",
+      "content": {
+        "masculine_examples": {
+          "title": "Ví dụ với Danh từ Giống đực (Có thay đổi):",
+          "examples": [
+            {
+              "english": "Tôi có cái hộ chiếu",
+              "german": "Ich habe den Pass.",
+              "note": "Giống đực \"der\" chuyển thành \"den\""
+            },
+            {
+              "english": "Tôi cần một chiếc máy tính",
+              "german": "Ich brauche einen Computer.",
+              "note": "Giống đực \"ein\" chuyển thành \"einen\""
+            }
+          ]
+        },
+        "neutral_feminine_examples": {
+          "title": "Ví dụ với Giống trung và Giống cái (Không thay đổi):",
+          "examples": [
+            {
+              "english": "Tôi mua ổ bánh mì",
+              "german": "Ich kaufe das Brot.",
+              "note": "Giống trung \"das\" vẫn là \"das\""
+            },
+            {
+              "english": "Tôi uống một chai rượu vang",
+              "german": "Ich trinke eine Flasche Wein.",
+              "note": "Giống cái \"eine\" vẫn là \"eine\""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "negative_articles",
+      "title": "3. Mạo từ Phủ định (Kein)",
+      "description": "Khi bạn muốn nói \"không có\" (phủ định một danh từ), bạn dùng kein. Cách chia này tuân theo chính xác quy luật của mạo từ \"ein\".",
+      "content": {
+        "examples": [
+          {
+            "gender": "Giống đực",
+            "english": "Tôi không có con chó nào.",
+            "german": "Ich habe keinen Hund.",
+            "note": "Lưu ý đuôi -en"
+          },
+          {
+            "gender": "Giống trung",
+            "english": "Tôi không có ô tô.",
+            "german": "Ich habe kein Auto."
+          },
+          {
+            "gender": "Giống cái",
+            "english": "Tôi không có con mèo nào.",
+            "german": "Ich habe keine Katze."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asking_questions",
+      "title": "4. Cách đặt câu hỏi: \"Wen\" so với \"Was\"",
+      "description": "Khi bạn hỏi về một tân ngữ trực tiếp, từ để hỏi sẽ phụ thuộc vào việc bạn đang nói về người hay vật.",
+      "content": {
+        "question_words": [
+          {
+            "word": "Wen?",
+            "meaning": "Ai/Cho ai",
+            "usage": "Dùng cho người.",
+            "example_question": "Wen lieben Sie? (Bạn yêu ai?)",
+            "example_answer": "Ich liebe meinen Mann. (Tôi yêu chồng tôi)"
+          },
+          {
+            "word": "Was?",
+            "meaning": "Cái gì",
+            "usage": "Dùng cho vật hoặc đồ vật.",
+            "example_question": "Was trinken Sie? (Bạn uống gì?)",
+            "example_answer": "Ich trinke einen Saft. (Tôi uống một ly nước hoa quả)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_and_when",
+      "title": "5. Tại sao và Khi nào thì sử dụng?",
+      "description": "Cách 4 (Akkusativ) chủ yếu được kích hoạt bởi các Ngoại động từ. Đây là những động từ cần một tân ngữ đi kèm để câu có nghĩa hoàn chỉnh.",
+      "content": {
+        "common_verbs": [
+          {
+            "verb": "haben (có)",
+            "example": "Ich habe einen Bruder."
+          },
+          {
+            "verb": "brauchen (cần)",
+            "example": "Wir brauchen den Schirm."
+          },
+          {
+            "verb": "essen/trinken (ăn/uống)",
+            "example": "Er isst einen Apfel."
+          },
+          {
+            "verb": "sehen (nhìn/xem)",
+            "example": "Ich sehe den Film."
+          },
+          {
+            "verb": "kaufen (mua)",
+            "example": "Sie kauft das Haus."
+          },
+          {
+            "verb": "lieben (yêu)",
+            "example": "Ich liebe meine Familie."
+          }
+        ],
+        "logic_summary": "Nếu bạn thực hiện một hành động lên vật gì đó (mua, ăn, nhìn, có nó), thì \"vật đó\" phải ở Cách 4 (Akkusativ). Nếu vật đó giống đực, hãy thêm đuôi -en vào mạo từ. Nếu là giống cái hoặc giống trung, hãy giữ nguyên như cách bạn đã học trong danh sách từ vựng cơ bản."
+      }
+    },
+    {
+      "id": "context_example",
+      "title": "6. Ví dụ ngữ cảnh: Logic về \"Thú cưng\"",
+      "description": "Hãy chú ý cách biến đổi cách:",
+      "content": {
+        "examples": [
+          {
+            "sentence": "Bây giờ tôi có một con chó.",
+            "german": "Jetzt habe ich einen Hund",
+            "case": "Accusative",
+            "reason": "Dùng Akkusativ vì động từ \"có\" cần một tân ngữ"
+          },
+          {
+            "sentence": "Con chó rất đáng yêu.",
+            "german": "Der Hund ist sehr süß",
+            "case": "Nominative",
+            "reason": "Dùng Nominativ vì bây giờ con chó là chủ ngữ của câu"
+          }
+        ],
+        "key_insight": "Điều này cho thấy rằng \"Cách\" không phụ thuộc vào bản thân từ đó, mà phụ thuộc vào vai trò của từ đó trong câu cụ thể."
+      }
+    }
+  ]
+}

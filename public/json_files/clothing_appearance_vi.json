@@ -1,0 +1,55 @@
+{
+  "title": "Clothing & Appearance",
+  "emoji": "👔",
+  "theme_color": "#3F51B5",
+  "description": "Clothes, accessories, and personal appearance",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "anziehen", "vietnamese": "mặc vào", "example_german": "Ich ziehe mir eine warme Jacke an.", "example_vietnamese": "Tôi đang mặc một chiếc áo khoác ấm vào."},
+          {"german": "ausziehen", "vietnamese": "cởi ra", "example_german": "Bitte zieh deine Schuhe im Flur aus.", "example_vietnamese": "Vui lòng cởi giày của bạn ở hành lang."},
+          {"german": "umziehen", "vietnamese": "thay đồ", "example_german": "Ich muss mich für die Party noch umziehen.", "example_vietnamese": "Tôi vẫn cần phải thay đồ để đi dự tiệc."},
+          {"german": "tragen", "vietnamese": "mặc/đeo", "example_german": "Sie trägt heute ein blaues Kleid.", "example_vietnamese": "Hôm nay cô ấy đang mặc một chiếc váy màu xanh dương."},
+          {"german": "passen", "vietnamese": "vừa vặn", "example_german": "Die Hose passt mir leider nicht mehr.", "example_vietnamese": "Thật tiếc là chiếc quần này không còn vừa với tôi nữa."},
+          {"german": "kaufen", "vietnamese": "mua", "example_german": "Wir kaufen neue Kleidung für den Winter.", "example_vietnamese": "Chúng tôi đang mua quần áo mới cho mùa đông."},
+          {"german": "anprobieren", "vietnamese": "mặc thử", "example_german": "Darf ich diesen Pullover anprobieren?", "example_vietnamese": "Tôi có thể mặc thử chiếc áo len này không?"},
+          {"german": "nähen", "vietnamese": "may/khâu", "example_german": "Meine Mutter kann sehr gut nähen.", "example_vietnamese": "Mẹ tôi có thể may vá rất giỏi."},
+          {"german": "bügeln", "vietnamese": "là/ủi", "example_german": "Er bügelt seine Hemden jeden Sonntag.", "example_vietnamese": "Anh ấy ủi áo sơ mi của mình vào mỗi Chủ nhật."},
+          {"german": "waschen", "vietnamese": "giặt", "example_german": "Ich muss heute weiße Wäsche waschen.", "example_vietnamese": "Hôm nay tôi phải giặt quần áo trắng."},
+          {"german": "trocknen", "vietnamese": "làm khô/phơi khô", "example_german": "Die Wäsche trocknet draußen in der Sonne.", "example_vietnamese": "Quần áo đang được phơi khô ngoài nắng."},
+          {"german": "falten", "vietnamese": "gấp", "example_german": "Ich falte die T-Shirts und lege sie in den Schrank.", "example_vietnamese": "Tôi gấp những chiếc áo thun và cất chúng vào tủ."},
+          {"german": "aufhängen", "vietnamese": "treo lên", "example_german": "Kannst du bitte die Mäntel aufhängen?", "example_vietnamese": "Bạn có thể vui lòng treo những chiếc áo khoác lên không?"},
+          {"german": "einpacken", "vietnamese": "đóng gói/xếp đồ vào", "example_german": "Wir müssen unsere Koffer für den Urlaub einpacken.", "example_vietnamese": "Chúng tôi phải xếp đồ vào vali để đi nghỉ lễ."},
+          {"german": "auspacken", "vietnamese": "mở gói/lấy đồ ra", "example_german": "Ich packe meine Tasche nach der Reise aus.", "example_vietnamese": "Tôi đang lấy đồ ra khỏi túi sau chuyến đi."},
+          {"german": "sortieren", "vietnamese": "phân loại", "example_german": "Sie sortiert ihre Socken nach Farben.", "example_vietnamese": "Cô ấy phân loại tất theo màu sắc."},
+          {"german": "aufräumen", "vietnamese": "dọn dẹp", "example_german": "Du solltest endlich deinen Kleiderschrank aufräumen.", "example_vietnamese": "Cuối cùng thì bạn cũng nên dọn dẹp tủ quần áo của mình đi."},
+          {"german": "färben", "vietnamese": "nhuộm", "example_german": "Sie möchte sich die Haare schwarz färben.", "example_vietnamese": "Cô ấy muốn nhuộm tóc màu đen."},
+          {"german": "schneiden", "vietnamese": "cắt", "example_german": "Der Friseur schneidet mir die Spitzen.", "example_vietnamese": "Thợ cắt tóc đang cắt tỉa phần ngọn tóc cho tôi."},
+          {"german": "rasieren", "vietnamese": "cạo (râu/lông)", "example_german": "Er rasiert sich jeden zweiten Tag.", "example_vietnamese": "Anh ấy cạo râu hai ngày một lần."},
+          {"german": "schminken", "vietnamese": "trang điểm", "example_german": "Sie schminkt sich vor dem Spiegel.", "example_vietnamese": "Cô ấy đang trang điểm trước gương."},
+          {"german": "kühlen", "vietnamese": "làm mát/chườm lạnh", "example_german": "Nach dem Sport muss ich mein Knie kühlen.", "example_vietnamese": "Sau khi tập thể thao, tôi cần chườm lạnh đầu gối của mình."},
+          {"german": "wärmen", "vietnamese": "làm ấm", "example_german": "Der Tee wärmt mich von innen.", "example_vietnamese": "Trà làm ấm cơ thể tôi từ bên trong."},
+          {"german": "reinigen", "vietnamese": "làm sạch/giặt khô", "example_german": "Ich muss diesen Anzug chemisch reinigen lassen.", "example_vietnamese": "Tôi cần phải đem bộ com-lê này đi giặt khô."},
+          {"german": "aufbewahren", "vietnamese": "cất giữ/bảo quản", "example_german": "Wo bewahrst du deinen Schmuck auf?", "example_vietnamese": "Bạn cất giữ đồ trang sức của mình ở đâu?"},
+          {"german": "wegwerfen", "vietnamese": "vứt đi", "example_german": "Diese alten Schuhe kannst du wegwerfen.", "example_vietnamese": "Bạn có thể vứt đôi giày cũ này đi."},
+          {"german": "spenden", "vietnamese": "quyên góp", "example_german": "Wir spenden unsere alte Kleidung an das Rote Kreuz.", "example_vietnamese": "Chúng tôi quyên góp quần áo cũ cho Hội Chữ thập đỏ."},
+          {"german": "schenken", "vietnamese": "tặng quà", "example_german": "Ich schenke ihr eine goldene Kette.", "example_vietnamese": "Tôi tặng cô ấy một sợi dây chuyền vàng."},
+          {"german": "leihen", "vietnamese": "mượn/cho mượn", "example_german": "Kannst du mir eine Krawatte leihen?", "example_vietnamese": "Bạn có thể cho tôi mượn một chiếc cà vạt không?"},
+          {"german": "zurückgeben", "vietnamese": "trả lại", "example_german": "Ich gebe dir den geliehenen Schal morgen zurück.", "example_vietnamese": "Tôi sẽ trả lại chiếc khăn quàng cổ đã mượn cho bạn vào ngày mai."},
+          {"german": "umtauschen", "vietnamese": "đổi trả", "example_german": "Ich möchte diese Jacke gegen eine größere umtauschen.", "example_vietnamese": "Tôi muốn đổi chiếc áo khoác này lấy một chiếc lớn hơn."},
+          {"german": "verlieren", "vietnamese": "làm mất", "example_german": "Ich verliere ständig meine Handschuhe.", "example_vietnamese": "Tôi liên tục làm mất găng tay của mình."},
+          {"german": "finden", "vietnamese": "tìm thấy", "example_german": "Ich kann meine Mütze nirgends finden.", "example_vietnamese": "Tôi không thể tìm thấy mũ len của mình ở đâu cả."},
+          {"german": "suchen", "vietnamese": "tìm kiếm", "example_german": "Er sucht nach einer passenden Jeans.", "example_vietnamese": "Anh ấy đang tìm một chiếc quần jean phù hợp."},
+          {"german": "anschauen", "vietnamese": "nhìn vào/ngắm", "example_german": "Schau dir diesen schönen Mantel an!", "example_vietnamese": "Hãy nhìn chiếc áo khoác đẹp này xem!"},
+          {"german": "zeigen", "vietnamese": "cho xem/cho thấy", "example_german": "Zeig mir bitte deine neuen Schuhe.", "example_vietnamese": "Làm ơn cho tôi xem đôi giày mới của bạn."},
+          {"german": "wählen", "vietnamese": "lựa chọn", "example_german": "Sie kann sich nicht für eine Farbe wählen.", "example_vietnamese": "Cô ấy không thể lựa chọn được một màu sắc nào."},
+          {"german": "gefallen", "vietnamese": "thích/làm cho hài lòng", "example_german": "Das Hemd gefällt mir sehr gut.", "example_vietnamese": "Tôi rất thích chiếc áo sơ mi này."},
+          {"german": "stehen", "vietnamese": "hợp/xứng", "example_german": "Die Farbe Grün steht dir ausgezeichnet.", "example_vietnamese": "Màu xanh lá cây cực kỳ hợp với bạn."},
+          {"german": "tragen", "vietnamese": "bê/mang/vác", "example_german": "Er trägt die schweren Koffer zum Auto.", "example_vietnamese": "Anh ấy đang bê những chiếc vali nặng ra xe ô tô."}
+        ]
+      }
+    }
+  ]
+}

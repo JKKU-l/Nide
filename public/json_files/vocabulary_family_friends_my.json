@@ -1,0 +1,33 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Familie", "myanmar": "မိသားစု", "article": "die", "word": "Familie", "emoji": "👨‍👩‍👧‍👦"},
+        {"german": "die Großeltern", "myanmar": "အဘိုးအဘွားများ", "article": "die", "word": "Großeltern", "emoji": "👴👵"},
+        {"german": "der Großvater", "myanmar": "အဘိုး", "article": "der", "word": "Großvater", "emoji": "👴"},
+        {"german": "die Großmutter", "myanmar": "အဘွား", "article": "die", "word": "Großmutter", "emoji": "👵"},
+        {"german": "die Eltern", "myanmar": "မိဘများ", "article": "die", "word": "Eltern", "emoji": "👨‍👩‍👦"},
+        {"german": "der Vater", "myanmar": "ဖခင်", "article": "der", "word": "Vater", "emoji": "👨"},
+        {"german": "die Mutter", "myanmar": "မိခင်", "article": "die", "word": "Mutter", "emoji": "👩"},
+        {"german": "der Sohn", "myanmar": "သား", "article": "der", "word": "Sohn", "emoji": "👦"},
+        {"german": "die Tochter", "myanmar": "သမီး", "article": "die", "word": "Tochter", "emoji": "👧"},
+        {"german": "der Papa", "myanmar": "ဖေဖေ", "article": "der", "word": "Papa", "emoji": "🧔"},
+        {"german": "die Mama", "myanmar": "မေမေ", "article": "die", "word": "Mama", "emoji": "👩‍🦰"},
+        {"german": "der Bruder", "myanmar": "ညီအစ်ကို", "article": "der", "word": "Bruder", "emoji": "👦"},
+        {"german": "die Schwester", "myanmar": "ညီအစ်မ", "article": "die", "word": "Schwester", "emoji": "👧"},
+        {"german": "die Geschwister", "myanmar": "မောင်နှမများ", "article": "die", "word": "Geschwister", "emoji": "🧑‍🤝‍🧑"},
+        {"german": "der Onkel", "myanmar": "ဦးလေး", "article": "der", "word": "Onkel", "emoji": "👨‍🦳"},
+        {"german": "die Tante", "myanmar": "အဒေါ်", "article": "die", "word": "Tante", "emoji": "👩‍🦳"},
+        {"german": "der Cousin", "myanmar": "မောင်နှမတစ်ဝမ်းကွဲ (အမျိုးသား)", "article": "der", "word": "Cousin", "emoji": "👦"},
+        {"german": "die Cousine", "myanmar": "မောင်နှမတစ်ဝမ်းကွဲ (ျိုးသမီး)", "article": "die", "word": "Cousine", "emoji": "👧"},
+        {"german": "das Ehepaar", "myanmar": "ဇနီးမောင်နှံ", "article": "das", "word": "Ehepaar", "emoji": "👩‍❤️‍👨"},
+        {"german": "der Mann", "myanmar": "အမျိုးသား / ခင်ပွန်း", "article": "der", "word": "Mann", "emoji": "👨"},
+        {"german": "die Frau", "myanmar": "ျိုးသမီး / ဇနီး", "article": "die", "word": "Frau", "emoji": "👩"},
+        {"german": "der Freund", "myanmar": "သူငယ်ချင်း (အမျိုးသား) / ရည်းစား", "article": "der", "word": "Freund", "emoji": "👱‍♂️"},
+        {"german": "die Freundin", "myanmar": "သူငယ်ချင်း (ျိုးသမီး) / ရည်းစား", "article": "die", "word": "Freundin", "emoji": "👱‍♀️"},
+        {"german": "der Partner / die Partnerin", "myanmar": "လက်တွဲဖော် (အမျိုးသား /ျိုးသမီး)", "article": "der / die", "word": "Partner / Partnerin", "emoji": "🤝"}
+      ]
+    }
+  ]
+}

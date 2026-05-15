@@ -1,0 +1,33 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Familie", "vietnamese": "gia đình", "article": "die", "word": "Familie", "emoji": "👨‍👩‍👧‍👦"},
+        {"german": "die Großeltern", "vietnamese": "ông bà", "article": "die", "word": "Großeltern", "emoji": "👴👵"},
+        {"german": "der Großvater", "vietnamese": "ông", "article": "der", "word": "Großvater", "emoji": "👴"},
+        {"german": "die Großmutter", "vietnamese": "bà", "article": "die", "word": "Großmutter", "emoji": "👵"},
+        {"german": "die Eltern", "vietnamese": "bố mẹ", "article": "die", "word": "Eltern", "emoji": "👨‍👩‍👦"},
+        {"german": "der Vater", "vietnamese": "bố / cha", "article": "der", "word": "Vater", "emoji": "👨"},
+        {"german": "die Mutter", "vietnamese": "mẹ", "article": "die", "word": "Mutter", "emoji": "👩"},
+        {"german": "der Sohn", "vietnamese": "con trai", "article": "der", "word": "Sohn", "emoji": "👦"},
+        {"german": "die Tochter", "vietnamese": "con gái", "article": "die", "word": "Tochter", "emoji": "👧"},
+        {"german": "der Papa", "vietnamese": "ba / bố", "article": "der", "word": "Papa", "emoji": "🧔"},
+        {"german": "die Mama", "vietnamese": "mẹ / má", "article": "die", "word": "Mama", "emoji": "👩‍🦰"},
+        {"german": "der Bruder", "vietnamese": "anh trai / em trai", "article": "der", "word": "Bruder", "emoji": "👦"},
+        {"german": "die Schwester", "vietnamese": "chị gái / em gái", "article": "die", "word": "Schwester", "emoji": "👧"},
+        {"german": "die Geschwister", "vietnamese": "anh chị em", "article": "die", "word": "Geschwister", "emoji": "🧑‍🤝‍🧑"},
+        {"german": "der Onkel", "vietnamese": "chú / bác / cậu", "article": "der", "word": "Onkel", "emoji": "👨‍💼"},
+        {"german": "die Tante", "vietnamese": "cô / dì / bác gái", "article": "die", "word": "Tante", "emoji": "👩‍💼"},
+        {"german": "der Cousin", "vietnamese": "anh em họ (nam)", "article": "der", "word": "Cousin", "emoji": "👦"},
+        {"german": "die Cousine", "vietnamese": "chị em họ (nữ)", "article": "die", "word": "Cousine", "emoji": "👧"},
+        {"german": "das Ehepaar", "vietnamese": "vợ chồng", "article": "das", "word": "Ehepaar", "emoji": "👫"},
+        {"german": "der Mann", "vietnamese": "người đàn ông / chồng", "article": "der", "word": "Mann", "emoji": "🧔"},
+        {"german": "die Frau", "vietnamese": "người phụ nữ / vợ", "article": "die", "word": "Frau", "emoji": "👩"},
+        {"german": "der Freund", "vietnamese": "bạn trai", "article": "der", "word": "Freund", "emoji": "👱‍♂️"},
+        {"german": "die Freundin", "vietnamese": "bạn gái", "article": "die", "word": "Freundin", "emoji": "👱‍♀️"},
+        {"german": "der Partner / die Partnerin", "vietnamese": "đối tác / người đồng hành", "article": "der / die", "word": "Partner / Partnerin", "emoji": "🤝"}
+      ]
+    }
+  ]
+}

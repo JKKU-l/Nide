@@ -1,0 +1,127 @@
+{
+  "title": "Wörter im Satz 2 (Word order in sentences 2)",
+  "sections": [
+    {
+      "id": "golden_rule",
+      "title": "1. The Golden Rule of German Word Order",
+      "description": "In a standard statement, the conjugated verb always occupies Position 2. Any other part of the verb (infinitives, prefixes, or participles) is pushed to the End Position.",
+      "content": {
+        "examples_table": {
+          "headers": ["Position 1 (Subject/Time)", "Position 2 (Conjugated Verb)", "Middle (Details)", "End Position (Other Verb Part)"],
+          "rows": [
+            ["Ich", "will", "heute", "einkaufen."],
+            ["Ich", "kaufe", "Obst", "ein."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "grammar_categories",
+      "title": "2. Grammar Categories & Examples",
+      "description": "Different grammar structures place parts of the verb at the end of the sentence.",
+      "content": {
+        "categories": [
+          {
+            "category": "A. Modal Verbs (Modalverben)",
+            "description": "Modal verbs (wollen, müssen, können, etc.) express ability, necessity, or desire. The modal verb is conjugated in Position 2, and the main action verb goes to the end in its basic form (infinitive).",
+            "rule": "Rule: Conjugated Modal Verb (Pos 2) ... Main Verb (End).",
+            "examples": [
+              {
+                "german": "Sie wollen eine Deutschlandreise machen.",
+                "translation": "They want to take a trip to Germany.",
+                "explanation": "Why? \"Wollen\" is the helping verb that carries the tense/person, while \"machen\" (to do/make) completes the meaning at the end."
+              }
+            ]
+          },
+          {
+            "category": "B. Separable Verbs (Trennbare Verben)",
+            "description": "Some German verbs have prefixes (like um-, auf-, ein-, aus-). When conjugated, the prefix \"breaks off\" and flies to the end of the sentence.",
+            "rule": "Rule: Verb Stem (Pos 2) ... Prefix (End).",
+            "examples": [
+              {
+                "german": "Wir ziehen nach Hamburg um.",
+                "translation": "We are moving to Hamburg.",
+                "explanation": "Why? The verb is umziehen. The \"um\" is a separable prefix, so it must land at the very end."
+              }
+            ]
+          },
+          {
+            "category": "C. Verb + Verb Combinations",
+            "description": "When two verbs are used together (like \"go swimming\"), the movement verb is conjugated in Position 2, and the activity verb stays at the end.",
+            "rule": "Rule: Conjugated Verb (Pos 2) ... Infinitive (End).",
+            "examples": [
+              {
+                "german": "Wir gehen heute Nachmittag schwimmen.",
+                "translation": "We are going swimming this afternoon.",
+                "explanation": "Why? \"Gehen\" indicates the movement/intent, while \"schwimmen\" defines the action."
+              }
+            ]
+          },
+          {
+            "category": "D. Noun-Verb Combinations",
+            "description": "Certain nouns and verbs function together as a single unit of meaning (e.g., Tennis spielen, Deutsch lernen).",
+            "rule": "Rule: Conjugated Verb (Pos 2) ... Noun (End).",
+            "examples": [
+              {
+                "german": "Heute Abend spiele ich mit meiner Freundin Tennis.",
+                "translation": "Tonight I am playing tennis with my girlfriend.",
+                "explanation": "Why? Even though \"Tennis\" is a noun, it is treated as part of the verb action \"to play tennis,\" so it takes the end position."
+              }
+            ]
+          },
+          {
+            "category": "E. Perfect Tense (Perfekt)",
+            "description": "In the past tense (Perfekt), you use a helping verb (haben or sein) in Position 2 and the Past Participle (Partizip II) at the end.",
+            "rule": "Rule: Haben/Sein (Pos 2) ... Participle (End).",
+            "examples": [
+              {
+                "german": "Ich habe schon Getränke eingekauft.",
+                "translation": "I have already bought drinks.",
+                "explanation": "Why? The \"ge-\" form of the verb (eingekauft) always anchors the end of a Perfect tense sentence."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentence_variation",
+      "title": "3. Sentence Variation (Flexible Position 1)",
+      "description": "German is flexible about what starts a sentence, as long as the verb stays in Position 2. You can emphasize Time or Object by putting them in Position 1.",
+      "content": {
+        "example_intro": "Example: \"I gave my brother a CD yesterday.\"",
+        "examples": [
+          {
+            "german": "Ich habe meinem Bruder gestern eine CD geschenkt.",
+            "translation": "Subject First"
+          },
+          {
+            "german": "Gestern habe ich meinem Bruder eine CD geschenkt.",
+            "translation": "Time First"
+          },
+          {
+            "german": "Meinem Bruder habe ich gestern eine CD geschenkt.",
+            "translation": "Indirect Object First"
+          }
+        ],
+        "note": "Note: Regardless of what starts the sentence, the conjugated verb (habe) is always the 2nd element, and the participle (geschenkt) is always last."
+      }
+    },
+    {
+      "id": "summary",
+      "title": "4. Quick Reference Summary Table",
+      "description": "Quick reference for all categories:",
+      "content": {
+        "summary_table": {
+          "headers": ["Category", "Conjugated (Pos 2)", "End Position", "Example"],
+          "rows": [
+            ["Modal", "will / muss / kann", "Infinitive", "Er muss heute arbeiten."],
+            ["Separable", "kaufe / räume", "Prefix", "Ich räume die Wohnung auf."],
+            ["Perfect", "habe / ist", "Partizip II", "Er ist nach Berlin gefahren."],
+            ["Fixed Pair", "spiele / gehe", "Noun/Verb", "Wir gehen heute einkaufen."]
+          ]
+        }
+      }
+    }
+  ]
+}

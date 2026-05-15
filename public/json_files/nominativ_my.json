@@ -1,0 +1,83 @@
+{
+  "title": "Nominativ (နာမ်ဝိဘတ် / ပထမကာရက)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "နာမ်ဝိဘတ် (Nominativ) ဆိုတာ ဘာလဲ?",
+      "description": "ဂျာမန်ဘာသာစကားတွင် Nominativ သည် \"အမည်ပေး\" ကာရကဖြစ်သည်။ ကြိယာ၏ လုပ်ဆောင်ချက်များ (ပေးခြင်း၊ မြင်ခြင်း၊ ပိုင်ဆိုင်ခြင်း) ကြောင့် စကားလုံး၏ အခန်းကဏ္ဍ မပြောင်းလဲမီ မူလအခြေအနေဟု မှတ်ယူပါ။ အဓိကအားဖြင့် ဝါကျ၏ ကတ္တား (လုပ်ဆောင်သူ သို့မဟုတ် အရာ) အတွက် အသုံးပြုပါသည်။"
+    },
+    {
+      "id": "articles_adjectives_nouns",
+      "title": "1. နာမ်သေ၊ နာမဝိသေသန နှင့် နာမ်များ",
+      "description": "နာမဝိသေသန၏ အဆုံးသတ်သည် definite article (the)၊ indefinite article (a) သို့မဟုတ် article မပါဘဲ ပါမပါပေါ်မူတည်၍ ပြောင်းလဲပါသည်။ ဒါကို adjective declension (နာမဝိသေသန ဝိဘတ်ပြောင်းလဲခြင်း) ဟုခေါ်ပါသည်။",
+      "content": {
+        "declension_table": {
+          "title": "ဝိဘတ်ပြောင်းလဲခြင်း ဇယား",
+          "headers": ["အမျိုးအစား", "Definite (the)", "Indefinite (a/my/no)", "Article မပါ"],
+          "rows": [
+            { "category": "အမျိုးသား", "definite": "der nette Vater", "indefinite": "ein netter Vater", "no_article": "netter Vater" },
+            { "category": "အမျိုးသမီး", "definite": "die nette Mutter", "indefinite": "eine nette Mutter", "no_article": "nette Mutter" },
+            { "category": "ကြားလိင်", "definite": "das nette Kind", "indefinite": "ein nettes Kind", "no_article": "nettes Kind" },
+            { "category": "အများကိန်း", "definite": "die netten Eltern", "indefinite": "meine netten Eltern", "no_article": "nette Eltern" }
+          ]
+        },
+        "translations": [
+          { "label": "အမျိုးသား", "german": "Der nette Vater ist hier.", "translation": "ကြင်နာသော အဖေသည် ဒီမှာရှိသည်။" },
+          { "label": "အမျိုးသမီး", "german": "Eine nette Mutter hilft.", "translation": "ကြင်နာသော အမေတစ်ယောက် ကူညီသည်။" },
+          { "label": "ကြားလိင်", "german": "Nettes Kind, komm her!", "translation": "ချစ်စဖွယ် ကလေး၊ ဒီကို လာခဲ့! (article မပါဘဲ တိုက်ရိုက်ခေါ်သောအခါ သုံးသည်)" }
+        ],
+        "key_rule": "\"the\" (der/die/das) ဟူသော စကားလုံးက လိင်ကို ပြသပြီးသားဖြစ်လျှင် နာမဝိသေသနသည် ရိုးရှင်းစွာ -e ဖြင့် ဆုံးသည် (အများကိန်းမှလွဲ၍)။ ein ကဲ့သို့ လိင်ကိုပြသော \"the\" မရှိလျှင် နာမဝိသေသနကိုယ်တိုင်က လိင်အမှတ်အသားကို ဆောင်ရွက်ရပါသည် (ဥပမာ - ein netter Vater၊ der သည် -r ဖြင့် ဆုံးသောကြောင့်)။"
+      }
+    },
+    {
+      "id": "special_determiners",
+      "title": "2. အထူး Determiners များ",
+      "description": "အချို့စကားလုံးများသည် definite article (der/die/das) နှင့် အတိအကျတူညီစွာ လုပ်ဆောင်ပါသည်။ ဤစကားလုံးများကို သုံးလျှင် နာမဝိသေသနသည် အမြဲတမ်း -e (အနည်းကိန်း) သို့မဟုတ် -en (အများကိန်း) ဖြင့် ဆုံးပါသည်။",
+      "content": {
+        "determiners": ["dieser (ဤ)", "jener (ထို)", "jeder (တိုင်း)", "alle (အားလုံး)"],
+        "example": { "german": "Jeder gute Schüler lernt.", "translation": "ကောင်းသော ကျောင်းသားတိုင်း သင်ယူသည်။", "note": "Jeder သည် der ကဲ့သို့ လုပ်ဆောင်သောကြောင့် gut တွင် -e သာ ထည့်ပါသည်။" }
+      }
+    },
+    {
+      "id": "pronouns",
+      "title": "3. နာမ်စား",
+      "description": "နာမ်စားများသည် နာမ်များကို အစားထိုးပါသည်။ Nominativ တွင် ကတ္တားကို ကိုယ်စားပြုပါသည်။",
+      "content": {
+        "personal_pronouns": {
+          "title": "ပုဂ္ဂိုလ်နာမ်စား (\"ဘယ်သူ\")",
+          "description": "ဝါကျ၏ အခြေခံကတ္တားများဖြစ်သည်:",
+          "singular": ["ich (ကျွန်တော်/ကျွန်မ)", "du (မင်း)", "er/sie/es (သူ/သူမ/အဲဒါ)"],
+          "plural": ["wir (ကျွန်တော်တို့)", "ihr (မင်းတို့)", "sie/Sie (သူတို့/ခင်ဗျား)"]
+        },
+        "possessive_pronouns": {
+          "title": "ပိုင်ဆိုင်မှု နာမ်စား (\"ဘယ်သူ့\")",
+          "description": "အမျိုးအစား နှစ်မျိုးရှိသည်:",
+          "dependent": { "label": "မှီခိုအသုံးအနှုန်း", "explanation": "နာမ်ရှေ့တွင် သုံးသည် (ဥပမာ - ကျွန်တော့်ခွေး)။", "german": "Mein Hund ist groß.", "translation": "ကျွန်တော့်ခွေးသည် ကြီးသည်။" },
+          "independent": { "label": "သီးခြားအသုံးအနှုန်း", "explanation": "တစ်ခုတည်း သုံးသည် (ဥပမာ - ခွေးသည် ကျွန်တော့်ဟာ)။", "german": "Der Hund ist meiner.", "translation": "ခွေးသည် ကျွန်တော့်ဟာဖြစ်သည်။" },
+          "comparison_table": {
+            "title": "သီးခြား ပိုင်ဆိုင်မှု နာမ်စား နှိုင်းယှဉ်ခြင်း",
+            "headers": ["ပုဂ္ဂိုလ်", "အမျိုးသား (ကျွန်တော့်ဟာ)", "ကြားလိင် (ကျွန်တော့်ဟာ)", "အမျိုးသမီး/အများ (ကျွန်တော့်ဟာ)"],
+            "rows": [
+              { "person": "ပထမပုဂ္ဂိုလ် (ငါ)", "masculine": "meiner", "neuter": "meins", "fem_plural": "meine" },
+              { "person": "ဒုတိယပုဂ္ဂိုလ် (မင်း)", "masculine": "deiner", "neuter": "deins", "fem_plural": "deine" },
+              { "person": "တတိယပုဂ္ဂိုလ် (သူ)", "masculine": "seiner", "neuter": "seins", "fem_plural": "seine" }
+            ]
+          },
+          "example_dialogue": { "question": "\"ဘယ်သူ့ဘောလုံးလဲ?\" → \"ကျွန်တော့်ဟာပါ။\"", "german": "\"Wessen Ball ist das?\" → \"Es ist meiner.\"", "note": "Ball သည် အမျိုးသားနာမ်ဖြစ်သောကြောင့်ဖြစ်သည်။" }
+        }
+      }
+    },
+    {
+      "id": "summary",
+      "title": "အသုံးပြုပုံ အကျဉ်းချုပ်",
+      "description": "Nominativ ကို အသုံးပြုရသည့်အခါ:",
+      "content": {
+        "rules": [
+          { "rule": "နာမ်သည် ကတ္တားဖြစ်သောအခါ", "german": "Der Hund bellt.", "translation": "ခွေးသည် ဟောင်သည်။" },
+          { "rule": "ကြိယာ \"sein\" (ဖြစ်သည်) နောက်တွင်", "german": "Er ist ein guter Mann.", "translation": "သူသည် ကောင်းသောလူတစ်ယောက်ဖြစ်သည်။" }
+        ],
+        "note": "ဂျာမန်ဘာသာတွင် \"sein\" သည် ညီမျှခြင်းသင်္ကေတ (A = B) ကဲ့သို့ လုပ်ဆောင်သောကြောင့် နှစ်ဖက်စလုံး Nominativ ဖြစ်ပါသည်။"
+      }
+    }
+  ]
+}

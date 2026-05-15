@@ -1,0 +1,19 @@
+{
+  "month": 3,
+  "title_en": "Passport Control and Customs",
+  "title_de": "Passkontrolle und Zollabfertigung",
+  "icon": "🛂",
+  "theme_color": "#10B981",
+  "subtopics": [
+    {
+      "id": "passport_control_immigration",
+      "title": "Passport Control and Immigration",
+      "content": ""
+    },
+    {
+      "id": "at_customs",
+      "title": "At Customs",
+      "content": ""
+    }
+  ]
+}

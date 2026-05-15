@@ -1,0 +1,159 @@
+{
+  "title": "冠詞 (定冠詞・不定冠詞・無冠詞)",
+  "sections": [
+    {
+      "id": "indefinite_articles",
+      "title": "1. 不定冠詞 (Indefinitar Artikel)",
+      "description": "初めて話題にのぼるものや、特定の「これ」と決まっていないものについて話す時に使います（英語の \"a\" や \"an\" に相当します）。",
+      "content": {
+        "examples_table": {
+          "headers": ["性 (Gender)", "主格/ノミナティーフ (Subject)", "対格/アキュザティーフ (Direct Object)"],
+          "rows": [
+            ["男性名詞", "ein Mann", "einen Kaffee"],
+            ["中性名詞", "ein Haus", "ein Brötchen"],
+            ["女性名詞", "eine Frau", "eine Banane"],
+            ["複数形", "(冠詞なし) Autos", "(冠詞なし) Kartoffeln"]
+          ]
+        },
+        "why_use_them": {
+          "title": "なぜこれを使うのか？",
+          "rules": [
+            {
+              "rule": "主格 (Nominative): 文の主語、または動詞 sein (～である) の後に使われます。",
+              "example": "Das ist ein Stuhl. (これは椅子です。)"
+            },
+            {
+              "rule": "対格 (Accusative): 動作の直接的な対象（目的語）になる時に使われます。注意: 男性名詞の冠詞のみ、ein から einen に変化します。",
+              "example": "Ich möchte einen Kaffee. (コーヒーを一杯ください。)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_articles",
+      "title": "2. 定冠詞 (Definiter Artikel)",
+      "description": "すでに話題に出たものや、聞き手が「それ」と特定できるものについて話す時に使います（英語の \"the\" に相当します）。",
+      "content": {
+        "examples_table": {
+          "headers": ["性 (Gender)", "主格/ノミナティーフ (Subject)", "対格/アキュザティーフ (Direct Object)"],
+          "rows": [
+            ["男性名詞", "der Mann", "den Kaffee"],
+            ["中性名詞", "das Haus", "das Brötchen"],
+            ["女性名詞", "die Frau", "die Banane"],
+            ["複数形", "die Autos", "die Kartoffeln"]
+          ]
+        },
+        "why_use_them": {
+          "title": "なぜこれを使うのか？",
+          "rules": [
+            {
+              "rule": "特定の識別: 一度「椅子（ein Stuhl）」として紹介されると、次からは「その椅子（der Stuhl）」になります。",
+              "example": "Das ist ein Laptop. Der Laptop ist gut. (これはノートPCです。そのPCは性能が良いです。)"
+            },
+            {
+              "rule": "対格の変化: 不定冠詞と同様に、男性名詞のみが der から den に変化します。",
+              "example": "Ich finde den Rock schön. (私はそのスカートが素敵だと思います。)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zero_article",
+      "title": "3. 無冠詞 (Kein Artikel)",
+      "description": "ドイツ語では、特定の状況で冠詞を全く使わないことがあります。",
+      "content": {
+        "key_rules": [
+          {
+            "category": "数えられないもの",
+            "description": "時間、運、お金、空腹など、数えられない概念。",
+            "examples": [
+              "Ich habe Zeit. (時間があります。) — \"a time\" とは言いません",
+              "Er hat Glück. (彼は運が良い。)"
+            ]
+          },
+          {
+            "category": "職業・仕事",
+            "description": "自分の職業を言う時。",
+            "examples": [
+              "Ich bin Pilotin. (私はパイロットです。) — 英語では \"a pilot\" と言いますが、ドイツ語では冠詞を省きます。"
+            ]
+          },
+          {
+            "category": "一般的な複数形",
+            "description": "一般的な意味で複数のものについて話す時。",
+            "examples": [
+              "Das sind Blumen. (これらは花です。)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_application",
+      "title": "4. 実践的な使い方",
+      "description": "実際の使い方で冠詞はどう変化するのか",
+      "content": {
+        "transitioning": {
+          "title": "不定冠詞から定冠詞への移行",
+          "description": "物を説明する時は、通常以下のパターンに従います：",
+          "steps": [
+            "紹介: Das ist + 不定冠詞 (ein/eine).",
+            "詳細説明: 定冠詞 (der/die/das) + 形容詞."
+          ],
+          "examples": [
+            {
+              "gender": "男性名詞",
+              "introduce": "Das ist ein Laptop. (一般的な紹介)",
+              "describe": "Der Laptop ist gut. (特定のPCの説明)"
+            },
+            {
+              "gender": "女性名詞",
+              "introduce": "Das ist eine Vase.",
+              "describe": "Die Vase ist schön."
+            },
+            {
+              "gender": "中性名詞",
+              "introduce": "Das ist ein Bild.",
+              "describe": "Das Bild ist teuer."
+            }
+          ]
+        },
+        "accusative_questions": {
+          "title": "疑問文における対格",
+          "description": "「～を持っていますか？ (Hast du...?)」と尋ねる時、その対象は対格（Accusative）になります。",
+          "examples": [
+            {
+              "gender": "男性名詞",
+              "example": "Hast du einen Kuli?",
+              "note": "語尾が -en になっていることに注目してください。Kuli は男性名詞で、文の目的語だからです。"
+            },
+            {
+              "gender": "女性名詞",
+              "example": "Hast du eine Uhr?",
+              "note": "変化なし"
+            },
+            {
+              "gender": "中性名詞",
+              "example": "Hast du ein Handy?",
+              "note": "変化なし"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "narrative_usage",
+      "title": "5. 物語での使われ方 (童話の例)",
+      "description": "物語の中では、話が進むにつれて冠詞が変化します：",
+      "content": {
+        "example": {
+          "introduction": "Es war einmal ein König. (昔々、ある王様がいました。 — 初登場)",
+          "continuation": "Der König war sehr reich. (その王様はとても裕福でした。 — どの王様か特定された状態)"
+        },
+        "grammar_tip": "学習のコツ: 新しい名詞を覚える時は、必ず「性別 (der/die/das)」をセットで覚えましょう。性別がわからないと、主格や対格で正しい冠詞を選ぶことができません！"
+      }
+    }
+  ]
+}

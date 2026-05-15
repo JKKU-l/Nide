@@ -1,0 +1,117 @@
+{
+  "title": "Modal Verbs ဆိုတာဘာလဲ? (What are Modal Verbs?)",
+  "subtitle": "Modal verbs တွေဟာ ဝါကျတစ်ခုမှာ အဓိကလုပ်ဆောင်ချက် (Action) ရဲ့ သဘောထား ဒါမှမဟုတ် အခြေအနေကို ဖော်ပြပေးတာပါ။",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Modal Verbs ရှင်းလင်းချက်",
+      "description": "Modal verbs တွေဟာ ဝါကျတစ်ခုမှာ အဓိကလုပ်ဆောင်ချက် (Action) ရဲ့ သဘောထား ဒါမှမဟုတ် အခြေအနေကို ဖော်ပြပေးတာပါ။ ဥပမာ- \"ငါ ထမင်းစားတယ်\" ဆိုတဲ့ ရိုးရိုးဝါကျမှာ \"ငါ ထမင်းစားချင်တယ်\" ဒါမှမဟုတ် \"ငါ ထမင်းစားနိုင်တယ်\" ဆိုပြီး အဓိပ္ပာယ်ပြောင်းသွားစေတာ သူတို့ကြောင့်ပါ။",
+      "content": {
+        "modal_verbs_table": {
+          "headers": ["Verb", "English Meaning", "Usage (အသုံးပြုပုံ)"],
+          "rows": [
+            ["können", "can / be able to", "စွမ်းရည် (Ability) ဒါမှမဟုတ် ဖြစ်နိုင်ခြေကို ပြချင်ရင် သုံးပါတယ်။"],
+            ["müssen", "must / have to", "မဖြစ်မနေ လုပ်ရမယ့် တာဝန် (Obligation/Necessity) ကို ပြပါတယ်။"],
+            ["wollen", "want to", "ခိုင်မာတဲ့ ဆန္ဒ (Strong desire/Intention) ကို ပြပါတယ်။"],
+            ["möchten", "would like to", "ယဉ်ကျေးတဲ့ တောင်းဆိုမှု ဒါမှမဟုတ် ဆန္ဒ (Polite wish) ကို ပြပါတယ်။"],
+            ["dürfen", "be allowed to / may", "ခွင့်ပြုချက် (Permission) ရှိ၊ မရှိ ပြောချင်ရင် သုံးပါတယ်။"],
+            ["sollen", "should / supposed to", "တစ်ယောက်ယောက်ရဲ့ အကြံပေးချက် ဒါမှမဟုတ် တာဝန်ပေးချက် (Advice/Duty) ကို ပြပါတယ်။"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "conjugation_rules",
+      "title": "Conjugation (ကြိယာဝိဘတ် ပြောင်းလဲပုံ)",
+      "description": "Modal verbs တွေမှာ မှတ်ထားရမယ့် ထူးခြားချက် (၂) ခု ရှိပါတယ်။",
+      "content": {
+        "rules": [
+          "Vowel Change: အနည်းကိန်း (Singular: ich, du, er/sie/es) တွေမှာ Vowel ပြောင်းလဲတတ်ပါတယ်။",
+          "1st & 3rd Person Identity: ich နဲ့ er/sie/es ရဲ့ verb conjugation ဟာ အမြဲတမ်း တူညီနေတတ်ပြီး ending မှာ -e ဒါမှမဟုတ် -t မပါဝင်ပါဘူး။"
+        ],
+        "conjugation_table": {
+          "headers": ["Person", "können", "müssen", "wollen", "dürfen"],
+          "rows": [
+            ["ich", "kann", "muss", "will", "darf"],
+            ["du", "kannst", "musst", "willst", "darfst"],
+            ["er/sie/es", "kann", "muss", "will", "darf"],
+            ["wir", "können", "müssen", "wollen", "dürfen"],
+            ["ihr", "könnt", "müsst", "wollt", "dürft"],
+            ["sie/Sie", "können", "müssen", "wollen", "dürfen"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "sentence_architecture",
+      "title": "Sentence Structure (ဝါကျ တည်ဆောက်ပုံ)",
+      "description": "ဂျာမန် Modal verb ဝါကျတွေမှာ အရေးကြီးဆုံး စည်းမျဉ်းတစ်ခု ရှိပါတယ်။",
+      "content": {
+        "structure": [
+          "Position 2: Modal verb ကို ဝါကျရဲ့ ဒုတိယနေရာမှာ ထားပြီး Subject နဲ့အညီ Conjugate လုပ်ရပါတယ်။",
+          "End of Sentence: ဝါကျရဲ့ အဓိက Action (Main Verb) ကိုတော့ ဘာမှမပြောင်းလဲဘဲ မူရင်းပုံစံ (Infinitive) အတိုင်း ဝါကျရဲ့ အဆုံးဆုံးမှာ ထားရပါတယ်။",
+          "Structure: Subject + Modal Verb (Pos 2) + ... + Main Verb (Infinitive at End)"
+        ],
+        "formula": "Subject + Modal Verb (Pos 2) + ... + Main Verb (Infinitive at End)"
+      }
+    },
+    {
+      "id": "usage_examples",
+      "title": "ဥပမာများဖြင့် ရှင်းလင်းချက် (Examples)",
+      "description": "Modal verbs တွေကို ဘယ်လိုသုံးရမလဲဆိုတာကို ဥပမာတွေနဲ့ ရှင်းပြပေးပါတယ်။",
+      "content": {
+        "examples": [
+          {
+            "category": "können (Ability)",
+            "german": "Ich kann sehr gut Fußball spielen.",
+            "english": "I can play football very well."
+          },
+          {
+            "category": "müssen (Obligation)",
+            "german": "Du musst Hausaufgaben machen.",
+            "english": "You must do homework."
+          },
+          {
+            "category": "wollen vs möchten (Desire)",
+            "german": "Wir wollen zu Oma fahren.",
+            "english": "We want to drive to Grandma's."
+          },
+          {
+            "category": "wollen vs möchten (Desire)",
+            "german": "Was möchten Sie trinken?",
+            "english": "What would you like to drink?"
+          },
+          {
+            "category": "dürfen (Permission)",
+            "german": "Hier darf man nicht rauchen.",
+            "english": "One is not allowed to smoke here."
+          },
+          {
+            "category": "sollen (Advice/Instruction)",
+            "german": "Der Arzt sagt, ich soll nicht arbeiten.",
+            "english": "The doctor says I should not work."
+          }
+        ]
+      }
+    },
+    {
+      "id": "advanced_note",
+      "title": "အထူးမှတ်သားရန် (Special Note)",
+      "description": "ဂျာမန်စကားပြောမှာ context (အခြေအနေ) အရ ဘာလုပ်မှာလဲဆိုတာ ရှင်းနေရင် ဝါကျအဆုံးက Main Verb ကို ချန်လှပ်ထားခဲ့လို့ ရပါတယ်။",
+      "content": {
+        "examples": [
+          {
+            "full": "Ich muss nach Hause gehen.",
+            "shortened": "Ich muss nach Hause.",
+            "english": "I have to go home."
+          },
+          {
+            "full": "Ich will ein Eis essen.",
+            "shortened": "Ich will ein Eis.",
+            "english": "I want to eat an ice cream."
+          }
+        ]
+      }
+    }
+  ]
+}

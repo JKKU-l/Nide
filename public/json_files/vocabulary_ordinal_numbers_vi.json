@@ -1,0 +1,19 @@
+{
+  "theme_color": "#FF9800",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "erste", "vietnamese": "thứ nhất", "article": "die", "word": "erste", "emoji": "🥇"},
+        {"german": "zweite", "vietnamese": "thứ hai", "article": "die", "word": "zweite", "emoji": "🥈"},
+        {"german": "dritte", "vietnamese": "thứ ba", "article": "die", "word": "dritte", "emoji": "🥉"},
+        {"german": "vierte", "vietnamese": "thứ tư", "article": "die", "word": "vierte", "emoji": "🏅"},
+        {"german": "fünfte", "vietnamese": "thứ năm", "article": "die", "word": "fünfte", "emoji": "🖐️"},
+        {"german": "sechste", "vietnamese": "thứ sáu", "article": "die", "word": "sechste", "emoji": "🕕"},
+        {"german": "siebte", "vietnamese": "thứ bảy", "article": "die", "word": "siebte", "emoji": "📅"},
+        {"german": "achte", "vietnamese": "thứ tám", "article": "die", "word": "achte", "emoji": "🎱"},
+        {"german": "neunte", "vietnamese": "thứ chín", "article": "die", "word": "neunte", "emoji": "🕘"},
+        {"german": "zehnte", "vietnamese": "thứ mười", "article": "die", "word": "zehnte", "emoji": "🔟"}
+      ]
+    }
+  ]
+}

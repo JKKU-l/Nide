@@ -1,0 +1,158 @@
+{
+  "title": "Negation (การปฏิเสธ)",
+  "sections": [
+    {
+      "id": "using_kein",
+      "title": "1. การใช้ \"kein\" (ตัวปฏิเสธคำนาม)",
+      "description": "ให้คุณนึกถึง kein ว่าเป็นรูปปฏิเสธของคำนำหน้านามที่ไม่เฉพาะเจาะจง (ein/eine) โดยจะใช้เฉพาะเจาะจงเพื่อปฏิเสธคำนามที่ใช้คำนำหน้านามแบบไม่เฉพาะเจาะจง หรือคำนามที่ไม่มีคำนำหน้านามเลย",
+      "content": {
+        "how_to_use": {
+          "title": "วิธีใช้:",
+          "rules": [
+            {
+              "rule": "ใช้กับคำนามที่ไม่เฉพาะเจาะจง: หากคุณจะพูดว่า \"ฉันมีหนังสือเล่มหนึ่ง\" (Ich habe ein Buch) ประโยคปฏิเสธคือ \"ฉันไม่มีหนังสือ\" (Ich habe kein Buch)"
+            },
+            {
+              "rule": "ใช้กับคำนามที่นับไม่ได้: สำหรับสิ่งที่คุณนับไม่ได้ เช่น เวลา หรือความหิว \"ฉันไม่มีเวลา\" จะกลายเป็น Ich habe keine Zeit"
+            },
+            {
+              "rule": "คำนามพหูพจน์: เนื่องจาก \"ein\" ไม่มีรูปพหูพจน์ เราจึงใช้ keine สำหรับการปฏิเสธในรูปพหูพจน์ เช่น \"ฉันไม่มีลูก\" คือ Ich habe keine Kinder"
+            }
+          ]
+        },
+        "examples": [
+          {
+            "context": "สถานการณ์: มีคนส่งแอปเปิลให้คุณ แต่มันคือลูกแพร์",
+            "example": "Das ist kein Apfel.",
+            "translation": "นี่ไม่ใช่แอปเปิล"
+          },
+          {
+            "context": "สถานการณ์: พูดถึงสถานะทางครอบครัว",
+            "example": "Ich habe keine Geschwister.",
+            "translation": "ฉันไม่มีพี่น้อง"
+          },
+          {
+            "context": "สถานการณ์: การซื้อของ",
+            "example": "Ich kaufe kein Brot.",
+            "translation": "ฉันไม่ซื้อขนมปัง"
+          }
+        ]
+      }
+    },
+    {
+      "id": "using_nicht",
+      "title": "2. การใช้ \"nicht\" (ตัวปฏิเสธทั่วไป)",
+      "description": "Nicht มีความหลากหลายในการใช้งานมากกว่า โดยใช้เพื่อปฏิเสธคำกริยา, คำคุณศัพท์, คำวิเศษณ์, คำสรรพนาม และคำนามที่มีคำนำหน้านามเฉพาะเจาะจง (der/die/das) หรือคำแสดงความเป็นเจ้าของ (mein/dein)",
+      "content": {
+        "how_to_use": {
+          "title": "วิธีใช้:",
+          "rules": [
+            {
+              "rule": "การปฏิเสธคำกริยา: มักจะวางไว้ท้ายประโยคพื้นฐาน \"ฉันไม่มา\" คือ Ich komme nicht"
+            },
+            {
+              "rule": "การปฏิเสธคำคุณศัพท์: \"ฉันไม่มีความสุข\" คือ Ich bin nicht glücklich"
+            },
+            {
+              "rule": "การปฏิเสธคำนามเฉพาะเจาะจง: หากคำนามนั้นมีคำว่า \"the\" (der/die/das) หรือ \"my\" (mein) ให้ใช้ nicht เช่น \"นั่นไม่ใช่ลูกของฉัน\" คือ Das ist nicht mein Kind"
+            },
+            {
+              "rule": "การปฏิเสธสถานที่/คำบุพบท: \"ฉันไม่ได้อาศัยอยู่ในเบอร์ลิน\" คือ Ich wohne nicht in Berlin"
+            }
+          ]
+        },
+        "examples": [
+          {
+            "context": "สถานการณ์: พูดถึงอายุ",
+            "example": "Ich bin nicht 23 Jahre alt.",
+            "translation": "ฉันอายุไม่ถึง 23 ปี"
+          },
+          {
+            "context": "สถานการณ์: แหล่งที่มาหรือที่พำนัก",
+            "example": "Ich komme nicht aus Sri Lanka.",
+            "translation": "ฉันไม่ได้มาจากศรีลังกา"
+          },
+          {
+            "context": "สถานการณ์: ความสามารถ",
+            "example": "Ich kann nicht kochen.",
+            "translation": "ฉันทำอาหารไม่เป็น"
+          }
+        ]
+      }
+    },
+    {
+      "id": "other_negation_words",
+      "title": "3. คำปฏิเสธอื่น ๆ (คำตรงข้าม)",
+      "description": "ภาษาเยอรมันมีคู่คำเฉพาะเพื่อแสดงสถานะบอกเล่าและปฏิเสธดังนี้:",
+      "content": {
+        "opposites": [
+          {
+            "category": "เสมอ (Always) vs. ไม่เคย (Never)",
+            "positive": "immer (เสมอ) -> Ich esse immer Brot.",
+            "negative": "nie (ไม่เคย) -> Ich esse nie Brot."
+          },
+          {
+            "category": "ทุกคน (Everyone) vs. ไม่มีใคร (No one)",
+            "positive": "alle (ทุกคน) -> Ich kenne alle.",
+            "negative": "niemand (ไม่มีใคร) -> Ich kenne niemand."
+          },
+          {
+            "category": "บางอย่าง (Something) vs. ไม่มีอะไรเลย (Nothing)",
+            "positive": "etwas/alles (บางอย่าง/ทุกอย่าง) -> Isst du etwas?",
+            "negative": "nichts (ไม่มีอะไรเลย) -> Ich esse nichts."
+          },
+          {
+            "category": "ยังคง (Still) vs. ไม่...อีกต่อไป (No longer)",
+            "positive": "noch (ยังคง) -> Ich bin noch jung. (ฉันยังเด็กอยู่)",
+            "negative": "nicht mehr (ไม่...อีกต่อไป) -> Ich bin nicht mehr jung. (ฉันไม่เด็กแล้ว)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_use_one_over_other",
+      "title": "4. ทำไมเราถึงใช้คำหนึ่งแทนอีกคำหนึ่ง?",
+      "description": "เหตุผลนั้นขึ้นอยู่กับว่าคุณกำลังพยายามจะ \"ยกเลิก\" อะไร:",
+      "content": {
+        "explanation": [
+          {
+            "type": "การยกเลิกการมีอยู่ (kein)",
+            "description": "หากคุณกำลังยกเลิก การมีอยู่ของวัตถุ (คำนาม) ให้ใช้ kein ซึ่งทำหน้าที่เหมือน \"จำนวนเป็นศูนย์\"",
+            "example": "Ich habe kein Geld. (ฉันไม่มีเงินเลย — มีเงิน 0 บาท)"
+          },
+          {
+            "type": "การยกเลิกข้อเท็จจริง (nicht)",
+            "description": "หากคุณกำลังยกเลิก ข้อเท็จจริง, การกระทำ หรือคำอธิบาย ให้ใช้ nicht",
+            "example": "Das Geld ist nicht hier. (เงินไม่ได้อยู่ที่นี่ — คุณไม่ได้บอกว่าเงินไม่มีอยู่จริง แต่คุณกำลังบอกว่า \"ข้อเท็จจริง\" ที่มันอยู่ที่นี่นั้นไม่เป็นความจริง)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_usage_logic",
+      "title": "5. สรุปหลักการใช้งาน",
+      "description": "คู่มือการตัดสินใจอย่างรวดเร็วว่าควรใช้คำปฏิเสธคำไหน:",
+      "content": {
+        "rules": [
+          {
+            "question": "มีคำนามหรือไม่?",
+            "yes_indefinite": "ถ้ามี และใช้คำว่า \"a/an\" (รูปหนึ่ง) หรือไม่มีคำนำหน้านาม: ใช้ kein",
+            "yes_definite": "ถ้ามี แต่ใช้คำว่า \"the\" (เฉพาะเจาะจง) หรือ \"my/your\" (ของฉัน/ของคุณ): ใช้ nicht"
+          },
+          {
+            "question": "เป็นคำกริยา, คำคุณศัพท์ หรือชื่อเฉพาะหรือไม่?",
+            "answer": "ใช้ nicht"
+          },
+          {
+            "question": "คุณกำลังจะบอกว่า \"ไม่อีกต่อไป\" ใช่ไหม?",
+            "answer": "ใช้ nicht mehr"
+          },
+          {
+            "question": "คุณกำลังจะบอกว่า \"ไม่เคย\" ใช่ไหม?",
+            "answer": "ใช้ nie"
+          }
+        ]
+      }
+    }
+  ]
+}

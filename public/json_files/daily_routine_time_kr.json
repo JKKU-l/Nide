@@ -1,0 +1,53 @@
+{
+  "title": "Daily Routine & Time",
+  "emoji": "⏰",
+  "theme_color": "#2196F3",
+  "description": "Daily activities and time expressions vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "aufstehen", "korean": "일어나다", "example_german": "Ich stehe jeden Morgen um sechs Uhr auf.", "example_korean": "나는 매일 아침 6시에 일어납니다."},
+          {"german": "aufwachen", "korean": "잠에서 깨다", "example_german": "Ich wache meistens vor dem Wecker auf.", "example_korean": "나는 보통 알람이 울리기 전에 깹니다."},
+          {"german": "schlafen", "korean": "자다", "example_german": "Am Wochenende möchte ich lange schlafen.", "example_korean": "주말에는 잠을 오래 자고 싶어요."},
+          {"german": "einschlafen", "korean": "잠들다", "example_german": "Er kann ohne Musik nicht einschlafen.", "example_korean": "그는 음악 없이는 잠들지 못합니다."},
+          {"german": "frühstücken", "korean": "아침 식사를 하다", "example_german": "Wir frühstücken heute gemütlich auf dem Balkon.", "example_korean": "우리는 오늘 발코니에서 여유롭게 아침을 먹습니다."},
+          {"german": "mittagessen", "korean": "점심 식사를 하다", "example_german": "Um 12 Uhr essen wir in der Kantine zu Mittag.", "example_korean": "12시에 우리는 구내식당에서 점심을 먹습니다."},
+          {"german": "abendessen", "korean": "저녁 식사를 하다", "example_german": "Was esst ihr heute zu Abend?", "example_korean": "오늘 저녁으로 무엇을 먹나요?"},
+          {"german": "arbeiten", "korean": "일하다", "example_german": "Mein Bruder arbeitet bei einer Bank.", "example_korean": "내 형제는 은행에서 일합니다."},
+          {"german": "beginnen", "korean": "시작하다", "example_german": "Die Vorlesung beginnt pünktlich.", "example_korean": "강의가 정시에 시작됩니다."},
+          {"german": "enden", "korean": "끝나다", "example_german": "Wann endet dein Arbeitstag?", "example_korean": "당신의 업무 일과는 언제 끝나나요?"},
+          {"german": "anfangen", "korean": "시작하다", "example_german": "Der Film fängt in zehn Minuten an.", "example_korean": "영화가 10분 뒤에 시작합니다."},
+          {"german": "aufhören", "korean": "그치다/멈추다", "example_german": "Es hört endlich auf zu regnen.", "example_korean": "드디어 비가 그쳤습니다."},
+          {"german": "kommen", "korean": "오다", "example_german": "Kommst du heute Abend zur Party?", "example_korean": "오늘 저녁 파티에 오나요?"},
+          {"german": "gehen", "korean": "가다", "example_german": "Ich gehe jetzt in den Supermarkt.", "example_korean": "나는 지금 슈퍼마켓에 갑니다."},
+          {"german": "zurückkommen", "korean": "돌아오다", "example_german": "Er kommt erst spät nach Hause zurück.", "example_korean": "그는 늦게서야 집에 돌아옵니다."},
+          {"german": "bleiben", "korean": "머무르다", "example_german": "Wir bleiben wegen des Wetters drinnen.", "example_korean": "날씨 때문에 우리는 실내에 머뭅니다."},
+          {"german": "warten", "korean": "기다리다", "example_german": "Ich warte schon seit einer Stunde auf dich.", "example_korean": "한 시간 전부터 당신을 기다리고 있어요."},
+          {"german": "eilen", "korean": "서두르다", "example_german": "Wir müssen uns beeilen, sonst verpassen wir den Bus.", "example_korean": "서둘러야 해요, 안 그러면 버스를 놓칠 거예요."},
+          {"german": "planen", "korean": "계획하다", "example_german": "Wir planen unsere nächste Reise nach Berlin.", "example_korean": "우리는 다음 베를린 여행을 계획 중입니다."},
+          {"german": "vorbereiten", "korean": "준비하다", "example_german": "Sie bereitet die Präsentation für morgen vor.", "example_korean": "그녀는 내일 발표를 준비하고 있습니다."},
+          {"german": "vergessen", "korean": "잊어버리다", "example_german": "Ich habe meinen Schlüssel zu Hause vergessen.", "example_korean": "집에 열쇠를 두고 왔어요."},
+          {"german": "erinnern", "korean": "기억하다", "example_german": "Ich erinnere mich gern an meinen Urlaub.", "example_korean": "나는 내 휴가를 즐겁게 기억합니다."},
+          {"german": "wiederholen", "korean": "반복하다", "example_german": "Können Sie das bitte noch einmal wiederholen?", "example_korean": "다시 한번 말씀해 주시겠어요?"},
+          {"german": "prüfen", "korean": "확인하다/검사하다", "example_german": "Der Mechaniker prüft den Motor.", "example_korean": "정비사가 엔진을 점검합니다."},
+          {"german": "notieren", "korean": "메모하다", "example_german": "Bitte notieren Sie sich meine Telefonnummer.", "example_korean": "제 전화번호를 메모해 두세요."},
+          {"german": "organisieren", "korean": "조직하다/준비하다", "example_german": "Wer organisiert dieses Jahr das Weihnachtsfest?", "example_korean": "올해 크리스마스 파티는 누가 준비하나요?"},
+          {"german": "ausruhen", "korean": "쉬다", "example_german": "Nach dem Sport muss ich mich kurz ausruhen.", "example_korean": "운동 후에 잠시 쉬어야 합니다."},
+          {"german": "entspannen", "korean": "휴식을 취하다", "example_german": "Ein heißes Bad hilft mir zu entspannen.", "example_korean": "뜨거운 목욕은 긴장을 푸는 데 도움이 됩니다."},
+          {"german": "duschen", "korean": "샤워하다", "example_german": "Ich dusche lieber morgens als abends.", "example_korean": "나는 저녁보다 아침에 샤워하는 것을 선호합니다."},
+          {"german": "waschen", "korean": "씻다/빨래하다", "example_german": "Vergiss nicht, dir die Hände zu waschen.", "example_korean": "손 씻는 것을 잊지 마세요."},
+          {"german": "anziehen", "korean": "입다", "example_german": "Ich ziehe mir schnell einen Pullover an.", "example_korean": "빨리 스웨터를 입을게요."},
+          {"german": "ausziehen", "korean": "벗다", "example_german": "Hier muss man die Schuhe ausziehen.", "example_korean": "여기서는 신발을 벗어야 합니다."},
+          {"german": "putzen", "korean": "닦다/청소하다", "example_german": "Ich muss heute noch die Wohnung putzen.", "example_korean": "오늘 집 청소를 해야 합니다."},
+          {"german": "kämmen", "korean": "빗질하다", "example_german": "Er kämmt sich die Haare vor dem Spiegel.", "example_korean": "그는 거울 앞에서 머리를 빗습니다."},
+          {"german": "rasieren", "korean": "면도하다", "example_german": "Mein Vater rasiert sich jeden Morgen.", "example_korean": "아버지는 매일 아침 면도를 하십니다."},
+          {"german": "aufräumen", "korean": "정리하다", "example_german": "Du musst dein Zimmer endlich aufräumen!", "example_korean": "이제 방 좀 정리해!"},
+          {"german": "kochen", "korean": "요리하다", "example_german": "Was kochst du heute Schönes?", "example_korean": "오늘 어떤 맛있는 요리를 하나요?"},
+          {"german": "schließen", "korean": "닫다", "example_german": "Bitte schließen Sie das Fenster.", "example_korean": "창문을 닫아 주세요."}
+        ]
+      }
+    }
+  ]
+}

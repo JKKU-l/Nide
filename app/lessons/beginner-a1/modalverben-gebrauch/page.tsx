@@ -1,0 +1,272 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
+import Navbar from '@/components/navbar';
+import { playGermanText } from '@/lib/tts';
+
+interface UsageTable {
+  headers: string[];
+  rows: string[][];
+}
+
+interface SectionContent {
+  description?: string;
+  grammar_note?: string;
+  uses?: string[];
+  exception_note?: string;
+  usage_note?: string;
+  examples?: string[];
+  usage_table?: UsageTable;
+  tips?: string[];
+}
+
+interface Section {
+  id: string;
+  title: string;
+  description: string;
+  content: SectionContent;
+}
+
+interface LessonData {
+  title: string;
+  sections: Section[];
+}
+
+const languages = [
+  { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'jp', name: '日本語', flag: '🇯🇵' },
+  { code: 'kr', name: '한국어', flag: '🇰🇷' },
+  { code: 'my', name: 'မြန်မာ', flag: '🇲🇲' },
+  { code: 'th', name: 'ไทย', flag: '🇹🇭' },
+  { code: 'vi', name: 'Tiếng Việt', flag: '🇻🇳' },
+];
+
+export default function ModalverbenGebrauchLesson() {
+  const router = useRouter();
+  const [selectedLang, setSelectedLang] = useState('en');
+  const [lessonData, setLessonData] = useState<LessonData | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [showLangDropdown, setShowLangDropdown] = useState(false);
+
+  useEffect(() => {
+    fetchLessonData(selectedLang);
+  }, [selectedLang]);
+
+  const fetchLessonData = async (lang: string) => {
+    setLoading(true);
+    try {
+      const response = await fetch(`/json_files/a1_modalverben_gebrauch_${lang}.json`);
+      const data = await response.json();
+      setLessonData(data);
+    } catch (error) {
+      console.error('Error loading lesson data:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const selectedLanguage = languages.find(l => l.code === selectedLang);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-orange-300/40">
+        <Navbar />
+        <div className="flex items-center justify-center h-[calc(100vh-80px)]">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-orange-300/40">
+      <Navbar />
+      
+      <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
+        {/* Header */}
+        <div className="flex items-center justify-between mb-8">
+          <button
+            onClick={() => router.push('/lessons/beginner-a1')}
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+          >
+            <ArrowLeft size={20} />
+            <span>Back to Beginner A1</span>
+          </button>
+
+          {/* Language Selector */}
+          <div className="relative">
+            <button
+              onClick={() => setShowLangDropdown(!showLangDropdown)}
+              className="flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
+            >
+              <Globe size={18} />
+              <span className="mr-1">{selectedLanguage?.flag}</span>
+              <span>{selectedLanguage?.name}</span>
+            </button>
+
+            {showLangDropdown && (
+              <div className="absolute right-0 mt-2 w-48 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl border border-white/30 z-50">
+                {languages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => {
+                      setSelectedLang(lang.code);
+                      setShowLangDropdown(false);
+                    }}
+                    className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-blue-50/80 transition first:rounded-t-xl last:rounded-b-xl ${
+                      selectedLang === lang.code ? 'bg-blue-50/80' : ''
+                    }`}
+                  >
+                    <span>{lang.flag}</span>
+                    <span className="text-sm font-medium">{lang.name}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Title */}
+        <div className="text-center mb-10">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-100 rounded-full mb-4">
+            <span className="text-2xl">💡</span>
+            <span className="text-sm font-medium text-green-700">Topic 6 of 20</span>
+          </div>
+          <h1 className="text-4xl font-black text-slate-900 mb-3">
+            Modal Verbs: Usage
+          </h1>
+        </div>
+
+        {/* Sections */}
+        <div className="space-y-8">
+          {lessonData?.sections?.map((section) => (
+            <div
+              key={section.id}
+              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl"
+            >
+              <h2 className="text-2xl font-bold text-slate-900 mb-2">
+                {section.title}
+              </h2>
+              <p className="text-slate-600 mb-6">{section.description}</p>
+
+              {/* Description */}
+              {section.content.description && (
+                <div className="bg-green-50 rounded-xl p-6 mb-6">
+                  <p className="text-slate-700">{section.content.description}</p>
+                </div>
+              )}
+
+              {/* Grammar Note */}
+              {section.content.grammar_note && (
+                <div className="bg-amber-50 rounded-xl p-6 mb-6">
+                  <p className="text-sm font-medium text-amber-800">📝 {section.content.grammar_note}</p>
+                </div>
+              )}
+
+              {/* Uses */}
+              {section.content.uses && (
+                <div className="bg-green-50 rounded-xl p-6 mb-6">
+                  <h3 className="text-lg font-bold text-green-800 mb-4">🎯 Primary Uses</h3>
+                  <ul className="space-y-3">
+                    {section.content.uses.map((use, i) => (
+                      <li key={i} className="flex items-start gap-3">
+                        <span className="text-green-600 mt-1">•</span>
+                        <span className="text-slate-700">{use}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Exception Note */}
+              {section.content.exception_note && (
+                <div className="bg-red-50 rounded-xl p-6 mb-6">
+                  <p className="text-sm font-medium text-red-800">⚠️ {section.content.exception_note}</p>
+                </div>
+              )}
+
+              {/* Usage Note */}
+              {section.content.usage_note && (
+                <div className="bg-orange-50 rounded-xl p-6 mb-6">
+                  <p className="text-sm font-medium text-orange-800">💡 {section.content.usage_note}</p>
+                </div>
+              )}
+
+              {/* Examples */}
+              {section.content.examples && (
+                <div className="bg-white/50 rounded-xl p-6">
+                  <h3 className="text-lg font-bold text-green-700 mb-4">💬 Examples</h3>
+                  <div className="space-y-3">
+                    {section.content.examples.map((example, i) => (
+                      <div key={i} className="bg-white rounded-lg p-4 border-l-4 border-green-400">
+                        <div className="flex items-center gap-2 mb-1">
+                          <p className="font-medium text-slate-900">{example}</p>
+                          <button
+                            onMouseEnter={() => playGermanText(example)}
+                            onClick={(e: React.MouseEvent) => {
+                              e.stopPropagation();
+                              playGermanText(example);
+                            }}
+                            className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition"
+                          >
+                            <Volume2 size={16} className="text-green-600" />
+                          </button>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Usage Table */}
+              {section.content.usage_table && (
+                <div className="overflow-x-auto mb-6">
+                  <table className="w-full bg-white/50 rounded-xl overflow-hidden">
+                    <thead className="bg-green-100">
+                      <tr>
+                        {section.content.usage_table.headers.map((header, i) => (
+                          <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                            {header}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {section.content.usage_table.rows.map((row, i) => (
+                        <tr key={i} className="border-t border-white/30">
+                          {row.map((cell, j) => (
+                            <td key={j} className="px-4 py-3 text-slate-700">
+                              {cell}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+
+              {/* Tips */}
+              {section.content.tips && (
+                <div className="bg-blue-50 rounded-xl p-6">
+                  <h3 className="text-lg font-bold text-blue-800 mb-4">🧠 Grammar & Sentence Structure Tips</h3>
+                  <ul className="space-y-3">
+                    {section.content.tips.map((tip, i) => (
+                      <li key={i} className="flex items-start gap-3">
+                        <span className="text-blue-600 mt-1">{i + 1}.</span>
+                        <span className="text-slate-700">{tip}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </main>
+    </div>
+  );
+}
+

@@ -1,0 +1,125 @@
+{
+  "title": "Kann ich oder muss ich? (～できる？ それとも ～しなければならない？)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "ドイツ語の助動詞",
+      "description": "ドイツ語の助動詞は、文の2番目に置かれます。その際、本来の動作を表す動詞（動詞の原形：不定詞）は文の一番最後に送られるのがルールです。",
+      "content": {
+        "description": "助動詞は文の意味を修飾し、義務、能力、許可、願望などの態度を表します。"
+      }
+    },
+    {
+      "id": "müssen_usage",
+      "title": "müssen（～しなければならない）",
+      "description": "他に選択肢がない「義務」や「必要性」を表します。",
+      "content": {
+        "grammar_note": "非常に強い義務です。もし行わなかった場合、何らかの報い（ペナルティ）があるようなニュアンスです。",
+        "examples": [
+          "Ich muss arbeiten.（働かなければなりません。）",
+          "Ich muss auf die Toilette (gehen).（トイレに行かなければなりません。）"
+        ]
+      }
+    },
+    {
+      "id": "können_usage",
+      "title": "können（～できる）",
+      "description": "この動詞は多機能で、主に3つの使い方があります。",
+      "content": {
+        "uses": [
+          "能力・スキル： 学習して身につけた能力。",
+          "可能性： チャンスや可能性がある。",
+          "許可（カジュアル）： 禁止されていない（dürfenに近い）。"
+        ],
+        "examples": [
+          "Ich kann Englisch (sprechen).（英語が話せます。）",
+          "Hier kann man essen und trinken.（ここでは飲食が可能です。）",
+          "Hier kann man parken.（ここに駐車できます。）"
+        ]
+      }
+    },
+    {
+      "id": "dürfen_usage",
+      "title": "dürfen / nicht dürfen（～してもよい / ～してはいけない）",
+      "description": "dürfen： 「許可」を表します。 nicht dürfen： 「禁止」を表します。",
+      "content": {
+        "exception_note": "英語の \"must not\"（禁止）は、ドイツ語では \"darf nicht\" と言います。ドイツ語の \"muss nicht\" は「～する必要はない（しなくてもよい）」という意味になるので注意しましょう。",
+        "examples": [
+          "Heute dürfen meine Kinder fernsehen.（今日、子供たちはテレビを見てもいいことになっています。）",
+          "Hier dürfen Sie nicht rauchen.（ここではタバコを吸ってはいけません。）"
+        ]
+      }
+    },
+    {
+      "id": "möchten_usage",
+      "title": "möchten（～したい、～が欲しい）",
+      "description": "丁寧な願望や依頼。",
+      "content": {
+        "grammar_note": "本来は mögen という動詞の接続法II式という形ですが、日常会話では独立した助動詞のように扱われます。",
+        "examples": [
+          "Ich möchte einen Kaffee (trinken), bitte.（コーヒーをいただきたいのですが。）"
+        ]
+      }
+    },
+    {
+      "id": "wollen_usage",
+      "title": "wollen（～したい、～するつもりだ）",
+      "description": "直接的で強い意志。",
+      "content": {
+        "usage_note": "人に対して使うと、ぶっきらぼうで失礼に聞こえることがあります。人にお願いする時は、より丁寧な möchten を使いましょう。",
+        "examples": [
+          "Ich will gerne Ski-Urlaub machen.（スキー休暇に行きたいんだ（行くつもりだ）。）"
+        ]
+      }
+    },
+    {
+      "id": "sollen_usage",
+      "title": "sollen（～すべきだ、～するように言われている）",
+      "description": "「第三者からの指示や期待」がある場合によく使われます。",
+      "content": {
+        "uses": [
+          "提案・質問： 相手の意向を尋ねる。",
+          "伝聞・指示の伝達： 医者や上司などから言われたことを伝える。"
+        ],
+        "examples": [
+          "Soll ich dir einen Kaffee machen?（コーヒーを淹れましょうか？）",
+          "Der Arzt sagt, ich soll die Tabletten nehmen.（医者が、私は薬を飲むべきだと言っています。）"
+        ]
+      }
+    },
+    {
+      "id": "summary_table",
+      "title": "助動詞のまとめ一覧表",
+      "description": "助動詞のニュアンスと日本語訳の目安。",
+      "content": {
+        "usage_table": {
+          "headers": ["助動詞", "ニュアンス", "日本語訳の目安"],
+          "rows": [
+            ["müssen", "必要・強い義務", "～しなければならない"],
+            ["können", "能力・可能性", "～できる"],
+            ["dürfen", "許可", "～してもよい"],
+            ["nicht dürfen", "禁止", "～してはいけない"],
+            ["möchten", "丁寧な願望", "～したいのですが"],
+            ["wollen", "強い意志", "～したい、～するつもりだ"],
+            ["sollen", "義務・アドバイス", "～すべきだ、～するように言われている"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "grammar_tips",
+      "title": "文法と語順のコツ",
+      "description": "助動詞の文法と語順に関する重要なルール。",
+      "content": {
+        "tips": [
+          "「動詞のサンドイッチ」： 助動詞は主語に合わせて形を変え（活用し）、2番目に置きます。メインの動詞は「原形（辞書に載っている形）」のまま文の最後に置きます。",
+          "例：Ich kann heute nicht kommen.（私は今日、来ることができません。）",
+          "メインの動詞の省略： 行き先が明らかな場合（行く、来る、する等）、文末の動詞を省略することがよくあります。",
+          "例：Ich muss nach Hause (gehen). → Ich muss nach Hause.（家に帰らなきゃ。）",
+          "母音の変化： ほとんどの助動詞は、単数形（ich, du, er/sie/es）の時に母音が変化します。",
+          "例：können → ich kann / müssen → ich muss"
+        ]
+      }
+    }
+  ]
+}

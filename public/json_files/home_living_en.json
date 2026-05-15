@@ -1,0 +1,55 @@
+{
+  "title": "Home & Living",
+  "emoji": "🏠",
+  "theme_color": "#2196F3",
+  "description": "House, furniture, and daily life at home",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "wohnen", "english": "to live", "example_german": "Ich wohne seit zwei Jahren in Berlin.", "example_english": "I have been living in Berlin for two years."},
+          {"german": "schlafen", "english": "to sleep", "example_german": "Wie lange schläfst du normalerweise?", "example_english": "How long do you normally sleep?"},
+          {"german": "aufwachen", "english": "to wake up", "example_german": "Ich wache jeden Tag ohne Wecker auf.", "example_english": "I wake up every day without an alarm clock."},
+          {"german": "aufstehen", "english": "to get up", "example_german": "Um wie viel Uhr stehst du auf?", "example_english": "At what time do you get up?"},
+          {"german": "waschen", "english": "to wash", "example_german": "Ich muss heute meine Kleidung waschen.", "example_english": "I have to wash my clothes today."},
+          {"german": "duschen", "english": "to shower", "example_german": "Er duscht sich nach dem Sport.", "example_english": "He takes a shower after sports."},
+          {"german": "baden", "english": "to bathe", "example_german": "Am Sonntag bade ich gerne lange.", "example_english": "On Sunday, I like to take a long bath."},
+          {"german": "putzen", "english": "to clean", "example_german": "Wir putzen am Samstag die ganze Wohnung.", "example_english": "We clean the whole apartment on Saturday."},
+          {"german": "kochen", "english": "to cook", "example_german": "Was kochst du heute zum Abendessen?", "example_english": "What are you cooking for dinner today?"},
+          {"german": "backen", "english": "to bake", "example_german": "Meine Mutter backt einen Apfelkuchen.", "example_english": "My mother is baking an apple pie."},
+          {"german": "braten", "english": "to fry / roast", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_english": "I am frying the meat in the pan."},
+          {"german": "essen", "english": "to eat", "example_german": "Wann essen wir heute?", "example_english": "When are we eating today?"},
+          {"german": "trinken", "english": "to drink", "example_german": "Ich trinke morgens immer einen Kaffee.", "example_english": "I always drink a coffee in the morning."},
+          {"german": "frühstücken", "english": "to have breakfast", "example_german": "Wir frühstücken meistens um acht Uhr.", "example_english": "We usually have breakfast at eight o'clock."},
+          {"german": "mittagessen", "english": "to have lunch", "example_german": "Ich esse im Büro zu Mittag.", "example_english": "I have lunch at the office."},
+          {"german": "abendessen", "english": "to have dinner", "example_german": "Wir essen heute spät zu Abend.", "example_english": "We are having dinner late today."},
+          {"german": "abwaschen", "english": "to do the dishes", "example_german": "Wer wäscht heute das Geschirr ab?", "example_english": "Who is washing the dishes today?"},
+          {"german": "abtrocknen", "english": "to dry the dishes", "example_german": "Ich trockne die Teller ab.", "example_english": "I am drying the plates."},
+          {"german": "aufräumen", "english": "to tidy up", "example_german": "Du musst dein Zimmer aufräumen.", "example_english": "You have to tidy up your room."},
+          {"german": "aufmachen", "english": "to open", "example_german": "Kannst du bitte das Fenster aufmachen?", "example_english": "Can you please open the window?"},
+          {"german": "zumachen", "english": "to close", "example_german": "Es ist kalt, bitte mach die Tür zu.", "example_english": "It is cold, please close the door."},
+          {"german": "einschalten", "english": "to turn on", "example_german": "Ich schalte den Fernseher ein.", "example_english": "I am turning on the TV."},
+          {"german": "ausschalten", "english": "to turn off", "example_german": "Bitte schalte das Licht aus.", "example_english": "Please turn off the light."},
+          {"german": "heizen", "english": "to heat", "example_german": "Im Winter müssen wir viel heizen.", "example_english": "In winter, we have to heat a lot."},
+          {"german": "lüften", "english": "to air out", "example_german": "Wir lüften das Zimmer zweimal am Tag.", "example_english": "We air out the room twice a day."},
+          {"german": "staubsaugen", "english": "to vacuum", "example_german": "Ich muss im Wohnzimmer staubsaugen.", "example_english": "I need to vacuum the living room."},
+          {"german": "wischen", "english": "to mop / wipe", "example_german": "Sie wischt den Küchenboden.", "example_english": "She is mopping the kitchen floor."},
+          {"german": "bügeln", "english": "to iron", "example_german": "Er bügelt seine Hemden selbst.", "example_english": "He irons his shirts himself."},
+          {"german": "nähen", "english": "to sew", "example_german": "Meine Oma näht mir ein Kleid.", "example_english": "My grandma is sewing a dress for me."},
+          {"german": "reparieren", "english": "to repair", "example_german": "Mein Vater repariert das kaputte Fahrrad.", "example_english": "My father is repairing the broken bicycle."},
+          {"german": "streichen", "english": "to paint (walls)", "example_german": "Wir streichen die Wände weiß.", "example_english": "We are painting the walls white."},
+          {"german": "hangen", "english": "to hang", "example_german": "Ich hänge das Bild an die Wand.", "example_english": "I am hanging the picture on the wall."},
+          {"german": "stellen", "english": "to place (upright)", "example_german": "Stell die Vase bitte auf den Tisch.", "example_english": "Please place the vase on the table."},
+          {"german": "legen", "english": "to lay (flat)", "example_german": "Er legt das Buch in das Regal.", "example_english": "He lays the book on the shelf."},
+          {"german": "nehmen", "english": "to take", "example_german": "Ich nehme mir ein Glas Wasser.", "example_english": "I am taking a glass of water for myself."},
+          {"german": "bringen", "english": "to bring", "example_german": "Bringst du mir bitte die Zeitung?", "example_english": "Will you please bring me the newspaper?"},
+          {"german": "tragen", "english": "to carry / wear", "example_german": "Er trägt die schweren Taschen nach oben.", "example_english": "He carries the heavy bags upstairs."},
+          {"german": "kaufen", "english": "to buy", "example_german": "Wir kaufen heute frisches Gemüse.", "example_english": "We are buying fresh vegetables today."},
+          {"german": "schließen", "english": "to close", "example_german": "Bitte schließen Sie die Haustür.", "example_english": "Please close the front door."},
+          {"german": "öffnen", "english": "to open", "example_german": "Ich öffne die Post.", "example_english": "I am opening the mail."}
+        ]
+      }
+    }
+  ]
+}

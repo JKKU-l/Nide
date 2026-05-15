@@ -1,0 +1,245 @@
+{
+  "title": "Nomen: Plural (คำนาม: พหูพจน์)",
+  "sections": [
+    {
+      "id": "golden_rule",
+      "title": "กฎเหล็ก: ใช้ \"die\" เสมอ",
+      "description": "ไม่ว่าในรูปเอกพจน์คำนามจะเป็นเพศชาย (der), เพศหญิง (die), หรือเพศกลาง (das) เมื่อเป็น พหูพจน์ คำนามทุกตัวจะใช้คำนำหน้าเหมือนกันหมดคือ \"die\"",
+      "content": {}
+    },
+    {
+      "id": "the_n_ending",
+      "title": "1. การเติมท้ายด้วย -(e)n",
+      "description": "เป็นรูปแบบพหูพจน์ที่พบบ่อยที่สุดในภาษาเยอรมัน",
+      "content": {
+        "when_to_use": [
+          "คำนามที่ลงท้ายด้วย -ung, -heit, -keit, -ie, -or, -ion",
+          "คำนามเพศหญิงส่วนใหญ่",
+          "อาชีพเพศหญิงที่ลงท้ายด้วย -in (จะเปลี่ยนเป็น -innen)"
+        ],
+        "examples": [
+          {
+            "singular": "die Übung",
+            "translation": "แบบฝึกหัด",
+            "plural": "die Übungen",
+            "note": "กฎของ -ung"
+          },
+          {
+            "singular": "die Tasche",
+            "translation": "กระเป๋า",
+            "plural": "die Taschen",
+            "note": "เพศหญิงลงท้ายด้วย -e"
+          },
+          {
+            "singular": "die Kundin",
+            "translation": "ลูกค้าผู้หญิง",
+            "plural": "die Kundinnen",
+            "note": "คำลงท้ายเพศหญิง -in"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_er_ending",
+      "title": "2. การเติมท้ายด้วย -er",
+      "description": "ส่วนใหญ่พบในคำนามเพศกลางที่มีพยางค์เดียว",
+      "content": {
+        "when_to_use": [
+          "คำนามเพศกลาง (das) สั้นๆ หลายคำ",
+          "คำนามเพศชาย (der) บางคำ"
+        ],
+        "note": "หากคำนั้นมีสระ a, o, u หรือ au มักจะต้องเปลี่ยนเป็นสระเปลี่ยนเสียง (Umlaut) คือ ä, ö, ü",
+        "examples": [
+          {
+            "singular": "das Kind",
+            "translation": "เด็ก",
+            "plural": "die Kinder"
+          },
+          {
+            "singular": "das Buch",
+            "translation": "หนังสือ",
+            "plural": "die Bücher",
+            "note": "เติม Umlaut"
+          },
+          {
+            "singular": "der Mann",
+            "translation": "ผู้ชาย",
+            "plural": "die Männer",
+            "note": "เติม Umlaut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_e_ending",
+      "title": "3. การเติมท้ายด้วย -e",
+      "description": "พบได้บ่อยมากในคำนามสั้นๆ ของทุกเพศ",
+      "content": {
+        "when_to_use": [
+          "คำนามเพศชายและเพศกลางจำนวนมาก",
+          "คำนามเพศหญิงมักจะเติม Umlaut ร่วมกับการเติมท้ายนี้"
+        ],
+        "examples": [
+          {
+            "singular": "der Tisch",
+            "translation": "โต๊ะ",
+            "plural": "die Tische"
+          },
+          {
+            "singular": "der Stuhl",
+            "translation": "เก้าอี้",
+            "plural": "die Stühle",
+            "note": "เพศชาย + Umlaut"
+          },
+          {
+            "singular": "die Hand",
+            "translation": "มือ",
+            "plural": "die Hände",
+            "note": "เพศหญิง + Umlaut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "no_ending",
+      "title": "4. กลุ่มที่ไม่เติมท้ายอะไรเลย (—)",
+      "description": "บางคำไม่มีการเติมตัวอักษรท้ายคำเลย โดยจะคงรูปเดิม หรือเปลี่ยนแค่สระเป็น Umlaut เท่านั้น",
+      "content": {
+        "when_to_use": [
+          "คำนามที่ลงท้ายด้วย -er, -en, -el",
+          "คำนามตัวเล็ก (Diminutives) ที่ลงท้ายด้วย -chen หรือ -lein (กลุ่มนี้เป็นเพศกลางเสมอ)"
+        ],
+        "examples": [
+          {
+            "singular": "der Sessel",
+            "translation": "เก้าอี้นวม",
+            "plural": "die Sessel",
+            "note": "รูปเดิม"
+          },
+          {
+            "singular": "das Mädchen",
+            "translation": "เด็กผู้หญิง",
+            "plural": "die Mädchen",
+            "note": "รูปเดิม"
+          },
+          {
+            "singular": "der Vater",
+            "translation": "พ่อ",
+            "plural": "die Väter",
+            "note": "เปลี่ยนแค่สระ Umlaut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_s_ending",
+      "title": "5. การเติมท้ายด้วย -s",
+      "description": "มักใช้กับคำยืมสมัยใหม่ หรือคำที่ลงท้ายด้วยสระบางตัว",
+      "content": {
+        "when_to_use": [
+          "คำที่ลงท้ายด้วยสระ -a, -i, -o, -u, -y",
+          "คำย่อ (เช่น PKW - รถยนต์ส่วนบุคคล)",
+          "คำจากภาษาต่างประเทศ (เช่น ภาษาอังกฤษ หรือ ฝรั่งเศส)"
+        ],
+        "examples": [
+          {
+            "singular": "das Auto",
+            "translation": "รถยนต์",
+            "plural": "die Autos"
+          },
+          {
+            "singular": "das Hobby",
+            "translation": "งานอดิเรก",
+            "plural": "die Hobbies"
+          },
+          {
+            "singular": "der Job",
+            "translation": "งาน",
+            "plural": "die Jobs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "special_cases",
+      "title": "กรณีพิเศษ: คำไม่ปกติ และปริมาณ",
+      "description": "คำนามบางคำมีรูปพหูพจน์ที่ไม่ปกติ หรือมีรูปเอกพจน์หรือพหูพจน์เพียงอย่างใดอย่างหนึ่ง",
+      "content": {
+        "categories": [
+          {
+            "category": "พหูพจน์แบบไม่ปกติ (Irregular)",
+            "description": "คำจากภาษาต่างประเทศ (ส่วนใหญ่มาจากละตินหรือกรีก) จะมีการเปลี่ยนรูปเฉพาะตัว:",
+            "examples": [
+              {
+                "singular": "das Museum",
+                "plural": "die Museen"
+              },
+              {
+                "singular": "das Praktikum",
+                "plural": "die Praktika"
+              },
+              {
+                "singular": "die Firma",
+                "plural": "die Firmen"
+              }
+            ]
+          },
+          {
+            "category": "คำนามที่ไม่มีรูปพหูพจน์ (มีแต่เอกพจน์)",
+            "description": "ใช้กับนามธรรมหรือสสารที่ไม่นับเป็นชิ้น:",
+            "examples": [
+              {
+                "type": "นามธรรม",
+                "examples": "das Glück (ความโชคดี), die Liebe (ความรัก)"
+              },
+              {
+                "type": "วัสดุ/สสาร",
+                "examples": "das Gold (ทอง), die Milch (นม)"
+              },
+              {
+                "type": "นามรวมกลุ่ม",
+                "examples": "das Obst (ผลไม้รวม), die Kleidung (เสื้อผ้า)"
+              }
+            ]
+          },
+          {
+            "category": "คำนามที่ไม่มีรูปเอกพจน์ (มีแต่พหูพจน์)",
+            "description": "คำเหล่านี้ต้องอยู่รวมกันเป็นกลุ่มเสมอ:",
+            "examples": [
+              {
+                "type": "ภูมิศาสตร์",
+                "examples": "die USA, die Alpen (เทือกเขาแอลป์)"
+              },
+              {
+                "type": "บุคคล/กลุ่ม",
+                "examples": "die Eltern (พ่อแม่), die Leute (ผู้คน)"
+              },
+              {
+                "type": "กิจกรรม",
+                "examples": "die Ferien (วันหยุดยาว)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "ตารางสรุปสำหรับอ้างอิงแบบรวดเร็ว",
+      "description": "เอกสารอ้างอิงด่วนสำหรับทุกรูปแบบ:",
+      "content": {
+        "summary_table": {
+          "headers": ["คำลงท้ายเอกพจน์", "การเติมท้ายพหูพจน์", "ตัวอย่าง"],
+          "rows": [
+            ["-e (เพศหญิง)", "-n", "die Lampe → die Lampen"],
+            ["-in (อาชีพหญิง)", "-innen", "die Lehrerin → die Lehrerinnen"],
+            ["-er / -el / -en", "- (ไม่เติม)", "der Teller → die Teller"],
+            ["-ung / -heit", "-en", "die Zeitung → die Zeitungen"],
+            ["-a / -o / -i", "-s", "das Sofa → die Sofas"]
+          ]
+        },
+        "pro_tip": "คำแนะนำระดับโปร: เมื่อคุณเรียนคำนามภาษาเยอรมันใหม่ๆ ให้ท่องจำ \"คำนำหน้าเพศ (Article)\" และ \"รูปพหูพจน์\" ไปพร้อมกันเสมอ เพราะมันไม่มีกฎที่ตายตัว 100% ให้จำว่าเป็นแพ็คเกจเดียวกันครับ!"
+      }
+    }
+  ]
+}

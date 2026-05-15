@@ -1,0 +1,27 @@
+{
+  "category": "Common Verbs",
+  "category_de": "Wichtige Verben",
+  "icon": "🏃",
+  "words": [
+    {"de":"gehen","word":"gehen","article":"","en":"to go","jp":"行く","kr":"가다","my":"သွား","th":"ไป","vi":"đi","pronunciation":"/ˈɡeːən/","example_de":"Ich gehe jeden Tag zur Arbeit.","example_en":"I go to work every day."},
+    {"de":"kommen","word":"kommen","article":"","en":"to come","jp":"来る","kr":"오다","my":"လာ","th":"มา","vi":"đến","pronunciation":"/ˈkɔmən/","example_de":"Wann kommst du nach Hause?","example_en":"When are you coming home?"},
+    {"de":"essen","word":"essen","article":"","en":"to eat","jp":"食べる","kr":"먹다","my":"စား","th":"กิน","vi":"ăn","pronunciation":"/ˈɛsn̩/","example_de":"Wir essen um 12 Uhr Mittag.","example_en":"We eat lunch at 12 o'clock."},
+    {"de":"trinken","word":"trinken","article":"","en":"to drink","jp":"飲む","kr":"마시다","my":"သောက်","th":"ดื่ม","vi":"uống","pronunciation":"/ˈtʁɪŋkn̩/","example_de":"Ich trinke gern Kaffee.","example_en":"I like to drink coffee."},
+    {"de":"schlafen","word":"schlafen","article":"","en":"to sleep","jp":"寝る","kr":"자다","my":"အိပ်","th":"นอน","vi":"ngủ","pronunciation":"/ˈʃlaːfn̩/","example_de":"Ich schlafe acht Stunden pro Nacht.","example_en":"I sleep eight hours per night."},
+    {"de":"arbeiten","word":"arbeiten","article":"","en":"to work","jp":"働く","kr":"일하다","my":"အလုပ်လုပ်","th":"ทำงาน","vi":"làm việc","pronunciation":"/ˈaʁbaɪ̯tn̩/","example_de":"Ich arbeite von Montag bis Freitag.","example_en":"I work from Monday to Friday."},
+    {"de":"lernen","word":"lernen","article":"","en":"to learn","jp":"学ぶ","kr":"배우다","my":"သင်ယူ","th":"เรียน","vi":"học","pronunciation":"/ˈlɛʁnən/","example_de":"Ich lerne Deutsch seit einem Jahr.","example_en":"I have been learning German for a year."},
+    {"de":"machen","word":"machen","article":"","en":"to do/make","jp":"する/作る","kr":"하다/만들다","my":"လုပ်","th":"ทำ","vi":"làm","pronunciation":"/ˈmaxn̩/","example_de":"Was machst du heute Abend?","example_en":"What are you doing tonight?"},
+    {"de":"haben","word":"haben","article":"","en":"to have","jp":"持つ","kr":"가지다","my":"ရှိ","th":"มี","vi":"có","pronunciation":"/ˈhaːbn̩/","example_de":"Ich habe zwei Geschwister.","example_en":"I have two siblings."},
+    {"de":"sein","word":"sein","article":"","en":"to be","jp":"〜である","kr":"〜이다","my":"ဖြစ်","th":"เป็น","vi":"là","pronunciation":"/zaɪ̯n/","example_de":"Ich bin Student.","example_en":"I am a student."},
+    {"de":"sprechen","word":"sprechen","article":"","en":"to speak","jp":"話す","kr":"말하다","my":"ပြော","th":"พูด","vi":"nói","pronunciation":"/ˈʃpʁɛçn̩/","example_de":"Sprechen Sie Deutsch?","example_en":"Do you speak German?"},
+    {"de":"hören","word":"hören","article":"","en":"to hear","jp":"聞く","kr":"듣다","my":"ကြား","th":"ฟัง","vi":"nghe","pronunciation":"/ˈhøːʁən/","example_de":"Ich höre gern Musik.","example_en":"I like to listen to music."},
+    {"de":"sehen","word":"sehen","article":"","en":"to see","jp":"見る","kr":"보다","my":"မြင်","th":"เห็น","vi":"nhìn","pronunciation":"/ˈzeːən/","example_de":"Ich sehe einen schönen Film.","example_en":"I am watching a beautiful movie."},
+    {"de":"schreiben","word":"schreiben","article":"","en":"to write","jp":"書く","kr":"쓰다","my":"ရေး","th":"เขียน","vi":"viết","pronunciation":"/ˈʃʁaɪ̯bn̩/","example_de":"Ich schreibe eine E-Mail.","example_en":"I am writing an email."},
+    {"de":"kaufen","word":"kaufen","article":"","en":"to buy","jp":"買う","kr":"사다","my":"ဝယ်","th":"ซื้อ","vi":"mua","pronunciation":"/ˈkaʊ̯fn̩/","example_de":"Ich kaufe Brot im Supermarkt.","example_en":"I buy bread at the supermarket."},
+    {"de":"verstehen","word":"verstehen","article":"","en":"to understand","jp":"理解する","kr":"이해하다","my":"နားလည်","th":"เข้าใจ","vi":"hiểu","pronunciation":"/fɛɐ̯ˈʃteːən/","example_de":"Ich verstehe das nicht.","example_en":"I don't understand that."},
+    {"de":"helfen","word":"helfen","article":"","en":"to help","jp":"助ける","kr":"돕다","my":"ကူညီ","th":"ช่วย","vi":"giúp","pronunciation":"/ˈhɛlfn̩/","example_de":"Können Sie mir helfen?","example_en":"Can you help me?"},
+    {"de":"warten","word":"warten","article":"","en":"to wait","jp":"待つ","kr":"기다리다","my":"စောင့်","th":"รอ","vi":"đợi","pronunciation":"/ˈvaʁtn̩/","example_de":"Ich warte auf den Bus.","example_en":"I am waiting for the bus."},
+    {"de":"fahren","word":"fahren","article":"","en":"to drive/travel","jp":"運転する/行く","kr":"운전하다/타다","my":"မောင်း/စီး","th":"ขับรถ/เดินทาง","vi":"lái xe/đi","pronunciation":"/ˈfaːʁən/","example_de":"Ich fahre mit dem Zug nach Berlin.","example_en":"I travel to Berlin by train."},
+    {"de":"lesen","word":"lesen","article":"","en":"to read","jp":"読む","kr":"읽다","my":"ဖတ်","th":"อ่าน","vi":"đọc","pronunciation":"/ˈleːzn̩/","example_de":"Ich lese gern Bücher.","example_en":"I like to read books."}
+  ]
+}

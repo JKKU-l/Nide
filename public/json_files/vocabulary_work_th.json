@@ -1,0 +1,20 @@
+{
+  "theme_color": "#607D8B",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Firma", "thai": "บริษัท", "article": "die", "word": "Firma", "emoji": "🏢"},
+        {"german": "der Empfang", "thai": "แผนกต้อนรับ", "article": "der", "word": "Empfang", "emoji": "🛎️"},
+        {"german": "das Büro", "thai": "สำนักงาน", "article": "das", "word": "Büro", "emoji": "💼"},
+        {"german": "der Schreibtisch", "thai": "โต๊ะทำงาน", "article": "der", "word": "Schreibtisch", "emoji": "🖥️"},
+        {"german": "arbeiten", "thai": "ทำงาน", "article": "", "word": "arbeiten", "emoji": "🛠️"},
+        {"german": "die Arbeit", "thai": "งาน", "article": "die", "word": "Arbeit", "emoji": "👷"},
+        {"german": "telefonieren", "thai": "คุยโทรศัพท์", "article": "", "word": "telefonieren", "emoji": "📞"},
+        {"german": "die Pause", "thai": "พักเบรก", "article": "die", "word": "Pause", "emoji": "☕"},
+        {"german": "der Chef / die Chefin", "thai": "เจ้านาย", "article": "der / die", "word": "Chef / Chefin", "emoji": "🧑‍💼👩‍💼"},
+        {"german": "der Kollege / die Kollegin", "thai": "เพื่อนร่วมงาน", "article": "der / die", "word": "Kollege / Kollegin", "emoji": "👥"},
+        {"german": "der Feierabend", "thai": "เวลาเลิกงาน", "article": "der", "word": "Feierabend", "emoji": "🌅"}
+      ]
+    }
+  ]
+}

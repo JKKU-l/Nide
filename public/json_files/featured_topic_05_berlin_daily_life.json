@@ -1,0 +1,707 @@
+{
+  "month": 5,
+  "title_en": "Berlin Daily Life",
+  "title_de": "Berliner Alltag",
+  "icon": "🐱",
+  "theme_color": "#3B82F6",
+  "image": "/cartoons/cat_on_the_mat.svg",
+  "description": "Explore everyday life in Germany's capital city, from morning routines to evening traditions.",
+  "story": {
+    "title_de": "Ein Tag in Berlin",
+    "title_en": "A Day in Berlin",
+    "paragraphs": [
+      {
+        "de": "Der Wecker klingelt um halb sieben. Ich wache langsam auf und gähne. Draußen scheint die Sonne über meinen Kiez in Kreuzberg. Ich stehe auf, nehme eine Dusche und putze mir die Zähne mit meiner neuen Zahnbürste. Dann ziehe ich mich schnell an.",
+        "en": "The alarm clock rings at half past six. I slowly wake up and yawn. Outside, the sun shines over my neighborhood in Kreuzberg. I get up, take a shower, and brush my teeth with my new toothbrush. Then I quickly get dressed.",
+        "jp": "目覚まし時計が6時半に鳴ります。私はゆっくり目を覚まし、あくびをします。外では、クロイツベルクの近所に太陽が輝いています。起き上がり、シャワーを浴び、新しい歯ブラシで歯を磨きます。それから素早く服を着ます。",
+        "kr": "알람 시계가 6시 반에 울립니다. 저는 천천히 일어나 하품을 합니다. 밖에서는 크로이츠베르크 동네 위로 햇빛이 비칩니다. 일어나서 샤워를 하고 새 칫솔로 이를 닦습니다. 그런 다음 빠르게 옷을 입습니다.",
+        "my": "နှိုးစက်က ခြောက်နာရီခွဲမှာ မြည်ပါတယ်။ ကျွန်တော် ဖြည်းဖြည်းချင်း နိုးလာပါတယ်။ အပြင်မှာ ခရွိ့ဇ်ဘာ့ဂ် ရပ်ကွက်ပေါ်မှာ နေရောင်ခြည် ထွန်းလင်းနေပါတယ်။ ထပြီး ရေချိုးပြီး သွားတိုက်တံ အသစ်နဲ့ သွားတိုက်ပါတယ်။ ပြီးရင် အဝတ်အစား အမြန်ဝတ်ပါတယ်။",
+        "th": "นาฬิกาปลุกดังตอนหกโมงครึ่ง ผมค่อยๆ ตื่นขึ้นมาและหาว ข้างนอก แดดส่องเหนือย่านครอยซ์แบร์กของผม ผมลุกขึ้น อาบน้ำ และแปรงฟันด้วยแปรงสีฟันอันใหม่ จากนั้นก็แต่งตัวอย่างรวดเร็ว",
+        "vi": "Đồng hồ báo thức reo lúc sáu rưỡi. Tôi từ từ thức dậy và ngáp. Bên ngoài, mặt trời chiếu sáng trên khu phố Kreuzberg của tôi. Tôi dậy, tắm vòi sen và đánh răng bằng bàn chải đánh răng mới. Sau đó tôi nhanh chóng mặc quần áo.",
+        "vocab_highlights": ["der Wecker", "aufwachen", "der Kiez", "die Dusche", "die Zahnbürste", "sich anziehen"]
+      },
+      {
+        "de": "In der Küche mache ich mir ein leckeres Frühstück: ein Brötchen mit Butter und Marmelade und natürlich einen starken Kaffee. Die Bäckerei an der Straße hat die besten Brötchen, aber heute habe ich keine Zeit. Mein Nachbar grüßt mich im Treppenhaus. Er ist sehr freundlich.",
+        "en": "In the kitchen I make myself a delicious breakfast: a bread roll with butter and jam, and of course a strong coffee. The bakery on the street has the best bread rolls, but today I don't have time. My neighbor greets me in the stairway. He is very friendly.",
+        "jp": "キッチンでおいしい朝食を作ります：バターとジャムを塗った小さなパンと、もちろん濃いコーヒー。通りのパン屋には一番おいしいパンがありますが、今日は時間がありません。隣人が階段で挨拶してくれます。彼はとてもフレンドリーです。",
+        "kr": "부엌에서 맛있는 아침 식사를 만듭니다: 버터와 잼을 곁들인 빵과 물론 진한 커피. 거리에 있는 빵집이 가장 맛있는 빵을 파는데, 오늘은 시간이 없습니다. 이웃이 계단에서 저에게 인사합니다. 그는 매우 친절합니다.",
+        "my": "မီးဖိုချောင်မှာ အရသာရှိတဲ့ မနက်စာ ပြင်ပါတယ်: ပေါင်မုန့်ကို ထောပတ်နဲ့ ယောနဲ့ စားပြီး ကော်ဖီ တစ်ခွက် သောက်ပါတယ်။ လမ်းပေါ်က မုန့်ဆိုင်မှာ ပေါင်မုန့် အကောင်းဆုံးရှိပေမယ့် ဒီနေ့ အချိန်မရှိပါ။ အိမ်နီးချင်းက လှေကားထစ်မှာ နှုတ်ဆက်ပါတယ်။ သူက အရမ်းဖော်ရွေပါတယ်။",
+        "th": "ในครัว ผมทำอาหารเช้าอร่อยๆ: ขนมปังก้อนกับเนยและแยม และแน่นอน กาแฟเข้ม ร้านเบเกอรี่บนถนนมีขนมปังอร่อยที่สุด แต่วันนี้ผมไม่มีเวลา เพื่อนบ้านทักทายผมที่บันได เขาเป็นมิตรมาก",
+        "vi": "Trong bếp, tôi tự làm bữa sáng ngon: một bánh mì nhỏ với bơ và mứt, và tất nhiên một ly cà phê đậm. Tiệm bánh trên đường phố có bánh mì ngon nhất, nhưng hôm nay tôi không có thời gian. Hàng xóm chào tôi ở cầu thang. Anh ấy rất thân thiện.",
+        "vocab_highlights": ["das Frühstück", "das Brötchen", "der Kaffee", "die Bäckerei", "die Straße", "der Nachbar"]
+      },
+      {
+        "de": "Ich gehe zur Haltestelle und schaue auf den Fahrplan. Die U-Bahn hat leider 10 Minuten Verspätung — das ist in Berlin ganz normal! Ich kaufe eine Fahrkarte und warte auf dem Bahnsteig. Endlich kommt die U-Bahn. Am Alexanderplatz muss ich umsteigen. Nach drei Stationen steige ich aus.",
+        "en": "I go to the stop and look at the timetable. The subway is unfortunately 10 minutes delayed — that's completely normal in Berlin! I buy a ticket and wait on the platform. Finally the subway arrives. At Alexanderplatz I have to transfer. After three stations I get off.",
+        "jp": "停留所に行き、時刻表を見ます。地下鉄は残念ながら10分遅延しています — ベルリンではまったく普通です！切符を買い、ホームで待ちます。やっと地下鉄が来ます。アレクサンダー広場で乗り換えなければなりません。3駅後に降ります。",
+        "kr": "정류장으로 가서 시간표를 봅니다. 지하철이 안타깝게도 10분 지연되었습니다 — 베를린에서는 완전 정상입니다! 표를 사고 플랫폼에서 기다립니다. 드디어 지하철이 옵니다. 알렉산더 광장에서 갈아타야 합니다. 세 정거장 후에 내립니다.",
+        "my": "မှတ်တိုင်ကို သွားပြီး အချိန်ဇယား ကြည့်ပါတယ်။ မြေအောက်ရထား ကံမကောင်းစွာ ၁၀ မိနစ် နှောင့်နှေးပါတယ် — ဘာလင်မှာ ဒါ ပုံမှန်ပါ။ လက်မှတ် ဝယ်ပြီး ဘူတာရပ်ကွက်မှာ စောင့်ပါတယ်။ နောက်ဆုံး မြေအောက်ရထား ရောက်လာပါတယ်။ အလက်ဇန္ဒာ ပလာ့ဇ်မှာ ပြောင်းစီးရပါတယ်။ ဘူတာ သုံးခု ပြီးတဲ့နောက် ဆင်းပါတယ်။",
+        "th": "ผมไปที่ป้ายรถและดูตารางเวลา รถไฟใต้ดินล่าช้า 10 นาที — ซึ่งเป็นเรื่องปกติในเบอร์ลิน! ผมซื้อตั๋วและรอบนชานชาลา ในที่สุดรถไฟใต้ดินก็มา ที่อเล็กซานเดอร์พลัทซ์ผมต้องเปลี่ยนรถ หลังจากสามสถานีผมก็ลงรถ",
+        "vi": "Tôi đi đến trạm dừng và xem lịch trình. Tàu điện ngầm trễ 10 phút — điều đó hoàn toàn bình thường ở Berlin! Tôi mua vé và đợi ở sân ga. Cuối cùng tàu điện ngầm cũng đến. Ở Alexanderplatz tôi phải đổi tàu. Sau ba trạm tôi xuống xe.",
+        "vocab_highlights": ["die Haltestelle", "der Fahrplan", "die U-Bahn", "die Verspätung", "die Fahrkarte", "der Bahnsteig", "umsteigen", "aussteigen"]
+      },
+      {
+        "de": "Nach der Arbeit gehe ich zum Supermarkt. Ich nehme einen Einkaufswagen und kaufe frisches Gemüse auf dem Markt. Die Äpfel sind heute im Angebot! An der Kasse frage ich: 'Kann ich bar bezahlen?' Die Verkäuferin sagt ja und gibt mir eine Tüte.",
+        "en": "After work I go to the supermarket. I take a shopping cart and buy fresh vegetables at the market. The apples are on sale today! At the checkout I ask: 'Can I pay cash?' The saleswoman says yes and gives me a bag.",
+        "jp": "仕事の後、スーパーマーケットに行きます。ショッピングカートを取り、市場で新鮮な野菜を買います。今日はリンゴが特売です！レジで「現金で払えますか？」と聞きます。店員さんは「はい」と言い、袋をくれます。",
+        "kr": "퇴근 후 슈퍼마켓에 갑니다. 쇼핑 카트를 가져가고 시장에서 신선한 채소를 삽니다. 오늘 사과가 특가입니다! 계산대에서 '현금으로 낼 수 있나요?'라고 묻습니다. 판매원이 네라고 하며 봉지를 줍니다.",
+        "my": "အလုပ်ပြီးတဲ့နောက် စူပါမားကက်ကို သွားပါတယ်။ စျေးဝယ်လှည်း ယူပြီး ဈေးမှာ ဟင်းသီးဟင်းရွက် လတ်ဆတ်တွေ ဝယ်ပါတယ်။ ဒီနေ့ ပန်းသီးတွေ လျှော့ဈေးရောင်းနေပါတယ်။ ငွေရှင်းကောင်တာမှာ 'ငွေသားနဲ့ ပေးချေလို့ရမလား?' လို့ မေးပါတယ်။ အရောင်းမယ်က ဟုတ်ကဲ့ လို့ပြောပြီး အိတ်တစ်ခု ပေးပါတယ်။",
+        "th": "หลังเลิกงาน ผมไปซูเปอร์มาร์เก็ต ผมเอารถเข็นซื้อของและซื้อผักสดที่ตลาด วันนี้แอปเปิ้ลลดราคา! ที่แคชเชียร์ผมถาม 'จ่ายเงินสดได้ไหม?' พนักงานขายบอกว่าได้และให้ถุงมา",
+        "vi": "Sau giờ làm, tôi đi siêu thị. Tôi lấy xe đẩy hàng và mua rau tươi ở chợ. Hôm nay táo đang khuyến mãi! Ở quầy tính tiền tôi hỏi: 'Tôi có thể trả tiền mặt không?' Người bán hàng nói được và đưa cho tôi một túi.",
+        "vocab_highlights": ["der Supermarkt", "der Einkaufswagen", "das Gemüse", "der Markt", "das Angebot", "die Kasse", "bar bezahlen", "die Tüte"]
+      },
+      {
+        "de": "Zurück in meinem Kiez gehe ich spazieren. Ich gehe an der Apotheke und dem Spielplatz vorbei und schaue in den Briefkasten. Dann gehe ich in ein gemütliches Café in meiner Straße. Ich bestelle einen Milchkaffee und ein Stück Kuchen. 'Können wir draußen sitzen?' frage ich. Die Kellnerin bringt mir die Speisekarte und lächelt.",
+        "en": "Back in my neighborhood, I go for a walk. I pass the pharmacy and the playground and check the mailbox. Then I go to a cozy café on my street. I order a latte and a piece of cake. 'Can we sit outside?' I ask. The waitress brings me the menu and smiles.",
+        "jp": "近所に戻って散歩します。薬局と遊び場を通り過ぎ、郵便受けを確認します。それから通りにある居心地のいいカフェに行きます。カフェラテとケーキを一切れ注文します。「外に座れますか？」と聞きます。ウェイトレスがメニューを持ってきて微笑みます。",
+        "kr": "동네에 돌아와서 산책합니다. 약국과 놀이터를 지나고 우편함을 확인합니다. 그런 다음 거리에 있는 아늑한 카페에 갑니다. 카페라떼와 케이크 한 조각을 주문합니다. '밖에 앉을 수 있나요?'라고 묻습니다. 웨이트리스가 메뉴를 가져오며 미소 짓습니다.",
+        "my": "ရပ်ကွက်ကို ပြန်ရောက်တော့ လမ်းလျှောက်ထွက်ပါတယ်။ ဆေးဆိုင်နဲ့ ကစားကွင်းကို ဖြတ်သွားပြီး စာတိုက်ပုံး ကြည့်ပါတယ်။ ပြီးတော့ လမ်းပေါ်မှာရှိတဲ့ သက်တောင့်သက်သာ ကော်ဖီဆိုင်ကို သွားပါတယ်။ နို့ကော်ဖီ တစ်ခွက်နဲ့ ကိတ်မုန့် တစ်ခု မှာပါတယ်။ 'အပြင်မှာ ထိုင်လို့ရမလား?' လို့ မေးပါတယ်။ စားပွဲထိုးမက မီနူး ယူလာပြီး ပြုံးပါတယ်။",
+        "th": "กลับมาที่ย่านของผม ผมไปเดินเล่น ผ่านร้านขายยาและสนามเด็กเล่น แล้วเช็คตู้ไปรษณีย์ จากนั้นผมไปคาเฟ่อบอุ่นน่าสบายบนถนนของผม ผมสั่งกาแฟนมและเค้กชิ้นหนึ่ง 'นั่งข้างนอกได้ไหม?' ผมถาม พนักงานเสิร์ฟเอาเมนูมาและยิ้ม",
+        "vi": "Trở về khu phố, tôi đi dạo. Tôi đi ngang qua nhà thuốc và sân chơi rồi kiểm tra hộp thư. Sau đó tôi vào một quán cà phê ấm cúng trên đường phố. Tôi gọi một ly cà phê sữa và một miếng bánh ngọt. 'Chúng tôi có thể ngồi ngoài trời không?' tôi hỏi. Cô phục vụ mang thực đơn đến và mỉm cười.",
+        "vocab_highlights": ["der Kiez", "spazieren gehen", "die Apotheke", "der Spielplatz", "der Briefkasten", "gemütlich", "bestellen", "der Milchkaffee", "der Kuchen", "draußen sitzen", "die Speisekarte"]
+      },
+      {
+        "de": "Am Abend treffe ich mich mit Freunden. Wir essen zusammen Abendessen in einer kleinen Kneipe. Danach gehen wir im Park spazieren und genießen den wunderschönen Sonnenuntergang. 'Wollen wir ins Kino gehen?' fragt mein Freund. Aber ich bin müde und möchte mich zu Hause entspannen. Ich bezahle die Rechnung, gebe ein kleines Trinkgeld und gehe nach Hause. Dort sehe ich noch ein bisschen fern und schlafe ein. Was für ein schöner Tag in Berlin!",
+        "en": "In the evening I meet up with friends. We eat dinner together in a small pub. Afterwards we go for a walk in the park and enjoy the beautiful sunset. 'Shall we go to the cinema?' my friend asks. But I'm tired and want to relax at home. I pay the bill, leave a small tip, and go home. There I watch a bit of TV and fall asleep. What a wonderful day in Berlin!",
+        "jp": "夕方、友達と会います。小さな居酒屋で一緒に夕食を食べます。その後、公園を散歩して美しい夕焼けを楽しみます。「映画館に行こうか？」と友達が聞きます。でも疲れていて、家でリラックスしたいです。お会計を払い、少しチップを置いて帰ります。家でテレビを少し見て眠りにつきます。ベルリンでの素敵な一日でした！",
+        "kr": "저녁에 친구들과 만납니다. 작은 술집에서 함께 저녁 식사를 합니다. 그 후에 공원에서 산책하며 아름다운 일몰을 즐깁니다. '영화관에 갈까?'라고 친구가 묻습니다. 하지만 저는 피곤하고 집에서 긴장을 풀고 싶습니다. 계산서를 내고 작은 팁을 남기고 집으로 갑니다. 거기서 텔레비전을 좀 보다 잠이 듭니다. 베를린에서의 멋진 하루였습니다!",
+        "my": "ညနေမှာ သူငယ်ချင်းတွေနဲ့ တွေ့ဆုံပါတယ်။ ဘီယာဆိုင်ငယ်လေးမှာ အတူတူ ညစာ စားပါတယ်။ ပြီးရင် ပန်းခြံမှာ လမ်းလျှောက်ပြီး နေဝင်ချိန် လှလှကြီးကို ခံစားပါတယ်။ 'ရုပ်ရှင်ရုံ သွားမလား?' လို့ သူငယ်ချင်းက မေးပါတယ်။ ဒါပေမယ့် ပင်ပန်းပြီး အိမ်မှာ အနားယူချင်ပါတယ်။ ဘေလ် ရှင်းပြီး အပိုငွေ နည်းနည်းထားပြီး အိမ်ပြန်ပါတယ်။ အိမ်မှာ ရုပ်မြင်သံကြားကြည့်ပြီး အိပ်ပေါ်သွားပါတယ်။ ဘာလင်မှာ သာယာလှတဲ့ တစ်နေ့ပါပဲ။",
+        "th": "ตอนเย็นผมพบกันกับเพื่อนๆ เรากินอาหารเย็นด้วยกันในผับเล็กๆ หลังจากนั้นเราไปเดินเล่นในสวนสาธารณะและชมพระอาทิตย์ตกที่สวยงาม 'ไปดูหนังกันไหม?' เพื่อนถาม แต่ผมเหนื่อยและอยากผ่อนคลายที่บ้าน ผมจ่ายบิล ให้ทิปเล็กน้อย แล้วกลับบ้าน ที่นั่นผมดูโทรทัศน์สักพักแล้วก็หลับไป ช่างเป็นวันที่ดีในเบอร์ลิน!",
+        "vi": "Buổi tối tôi gặp nhau với bạn bè. Chúng tôi ăn bữa tối cùng nhau trong một quán bia nhỏ. Sau đó chúng tôi đi dạo trong công viên và ngắm hoàng hôn tuyệt đẹp. 'Mình đi rạp chiếu phim không?' bạn tôi hỏi. Nhưng tôi mệt và muốn thư giãn ở nhà. Tôi trả hóa đơn, để lại một ít tiền boa và đi về nhà. Ở nhà tôi xem tivi một chút rồi ngủ thiếp đi. Thật là một ngày tuyệt vời ở Berlin!",
+        "vocab_highlights": ["sich treffen", "das Abendessen", "die Kneipe", "der Park", "der Sonnenuntergang", "das Kino", "sich entspannen", "die Rechnung", "das Trinkgeld", "fernsehen"]
+      }
+    ]
+  },
+  "subtopics": [
+    {
+      "id": "morning_routine",
+      "title": "Morning Routine",
+      "title_de": "Die Morgenroutine",
+      "image": "/cartoons/boy_bathing.svg",
+      "content": "Start your day like a true Berliner! Learn the essential vocabulary for waking up, getting ready, and heading out the door.",
+      "vocabulary": [
+        {
+          "de": "aufwachen",
+          "article": "",
+          "en": "to wake up",
+          "jp": "目を覚ます",
+          "kr": "일어나다",
+          "my": "နိုးထ",
+          "th": "ตื่นนอน",
+          "vi": "thức dậy",
+          "example_de": "Ich wache jeden Morgen um 6 Uhr auf.",
+          "example_en": "I wake up every morning at 6 o'clock."
+        },
+        {
+          "de": "die Dusche",
+          "article": "die",
+          "en": "the shower",
+          "jp": "シャワー",
+          "kr": "샤워",
+          "my": "ရေချိုးခန်း",
+          "th": "ฝักบัว",
+          "vi": "vòi sen",
+          "example_de": "Ich nehme jeden Morgen eine Dusche.",
+          "example_en": "I take a shower every morning."
+        },
+        {
+          "de": "das Frühstück",
+          "article": "das",
+          "en": "the breakfast",
+          "jp": "朝食",
+          "kr": "아침 식사",
+          "my": "မနက်စာ",
+          "th": "อาหารเช้า",
+          "vi": "bữa sáng",
+          "example_de": "Das Frühstück ist die wichtigste Mahlzeit.",
+          "example_en": "Breakfast is the most important meal."
+        },
+        {
+          "de": "der Kaffee",
+          "article": "der",
+          "en": "the coffee",
+          "jp": "コーヒー",
+          "kr": "커피",
+          "my": "ကော်ဖီ",
+          "th": "กาแฟ",
+          "vi": "cà phê",
+          "example_de": "Ich trinke morgens immer Kaffee.",
+          "example_en": "I always drink coffee in the morning."
+        },
+        {
+          "de": "sich anziehen",
+          "article": "",
+          "en": "to get dressed",
+          "jp": "服を着る",
+          "kr": "옷을 입다",
+          "my": "အဝတ်အစားဝတ်",
+          "th": "แต่งตัว",
+          "vi": "mặc quần áo",
+          "example_de": "Ich ziehe mich schnell an.",
+          "example_en": "I get dressed quickly."
+        },
+        {
+          "de": "die Zahnbürste",
+          "article": "die",
+          "en": "the toothbrush",
+          "jp": "歯ブラシ",
+          "kr": "칫솔",
+          "my": "သွားတိုက်တံ",
+          "th": "แปรงสีฟัน",
+          "vi": "bàn chải đánh răng",
+          "example_de": "Wo ist meine Zahnbürste?",
+          "example_en": "Where is my toothbrush?"
+        },
+        {
+          "de": "der Wecker",
+          "article": "der",
+          "en": "the alarm clock",
+          "jp": "目覚まし時計",
+          "kr": "알람 시계",
+          "my": "နှိုးစက်",
+          "th": "นาฬิกาปลุก",
+          "vi": "đồng hồ báo thức",
+          "example_de": "Der Wecker klingelt um 6 Uhr.",
+          "example_en": "The alarm clock rings at 6 o'clock."
+        },
+        {
+          "de": "das Brötchen",
+          "article": "das",
+          "en": "the bread roll",
+          "jp": "小さなパン",
+          "kr": "빵",
+          "my": "ပေါင်မုန့်",
+          "th": "ขนมปังก้อน",
+          "vi": "bánh mì nhỏ",
+          "example_de": "Zum Frühstück esse ich ein Brötchen mit Butter.",
+          "example_en": "For breakfast I eat a bread roll with butter."
+        }
+      ]
+    },
+    {
+      "id": "public_transport",
+      "title": "Public Transport",
+      "title_de": "Öffentliche Verkehrsmittel",
+      "image": "/cartoons/bus.svg",
+      "content": "Berlin's BVG system is world-famous. Learn how to navigate the U-Bahn, S-Bahn, trams, and buses like a local.",
+      "vocabulary": [
+        {
+          "de": "die U-Bahn",
+          "article": "die",
+          "en": "the subway",
+          "jp": "地下鉄",
+          "kr": "지하철",
+          "my": "မြေအောက်ရထား",
+          "th": "รถไฟใต้ดิน",
+          "vi": "tàu điện ngầm",
+          "example_de": "Ich fahre mit der U-Bahn zur Arbeit.",
+          "example_en": "I take the subway to work."
+        },
+        {
+          "de": "die Fahrkarte",
+          "article": "die",
+          "en": "the ticket",
+          "jp": "切符",
+          "kr": "표",
+          "my": "လက်မှတ်",
+          "th": "ตั๋ว",
+          "vi": "vé",
+          "example_de": "Ich muss eine Fahrkarte kaufen.",
+          "example_en": "I need to buy a ticket."
+        },
+        {
+          "de": "die Haltestelle",
+          "article": "die",
+          "en": "the stop (bus/tram)",
+          "jp": "停留所",
+          "kr": "정류장",
+          "my": "မှတ်တိုင်",
+          "th": "ป้ายรถ",
+          "vi": "trạm dừng",
+          "example_de": "Die Haltestelle ist gleich um die Ecke.",
+          "example_en": "The stop is right around the corner."
+        },
+        {
+          "de": "umsteigen",
+          "article": "",
+          "en": "to transfer / change",
+          "jp": "乗り換える",
+          "kr": "갈아타다",
+          "my": "ပြောင်းစီး",
+          "th": "เปลี่ยนรถ",
+          "vi": "đổi tàu",
+          "example_de": "Sie müssen am Alexanderplatz umsteigen.",
+          "example_en": "You have to transfer at Alexanderplatz."
+        },
+        {
+          "de": "der Fahrplan",
+          "article": "der",
+          "en": "the timetable",
+          "jp": "時刻表",
+          "kr": "시간표",
+          "my": "အချိန်ဇယား",
+          "th": "ตารางเวลา",
+          "vi": "lịch trình",
+          "example_de": "Der Fahrplan hängt an der Haltestelle.",
+          "example_en": "The timetable is posted at the stop."
+        },
+        {
+          "de": "der Bahnsteig",
+          "article": "der",
+          "en": "the platform",
+          "jp": "ホーム",
+          "kr": "플랫폼",
+          "my": "ဘူတာရပ်ကွက်",
+          "th": "ชานชาลา",
+          "vi": "sân ga",
+          "example_de": "Der Zug fährt von Bahnsteig 3 ab.",
+          "example_en": "The train departs from platform 3."
+        },
+        {
+          "de": "die Verspätung",
+          "article": "die",
+          "en": "the delay",
+          "jp": "遅延",
+          "kr": "지연",
+          "my": "နှောင့်နှေးခြင်း",
+          "th": "ความล่าช้า",
+          "vi": "sự chậm trễ",
+          "example_de": "Der Zug hat 10 Minuten Verspätung.",
+          "example_en": "The train is 10 minutes delayed."
+        },
+        {
+          "de": "aussteigen",
+          "article": "",
+          "en": "to get off",
+          "jp": "降りる",
+          "kr": "내리다",
+          "my": "ဆင်း",
+          "th": "ลงรถ",
+          "vi": "xuống xe",
+          "example_de": "Wir müssen an der nächsten Station aussteigen.",
+          "example_en": "We have to get off at the next station."
+        }
+      ]
+    },
+    {
+      "id": "at_the_cafe",
+      "title": "At the Café",
+      "title_de": "Im Café",
+      "image": "/cartoons/cup.svg",
+      "content": "Berlin's café culture is legendary. From cozy Kreuzberg spots to elegant Charlottenburg cafés, learn to order and chat like a regular.",
+      "vocabulary": [
+        {
+          "de": "bestellen",
+          "article": "",
+          "en": "to order",
+          "jp": "注文する",
+          "kr": "주문하다",
+          "my": "မှာယူ",
+          "th": "สั่ง",
+          "vi": "gọi món",
+          "example_de": "Ich möchte einen Cappuccino bestellen.",
+          "example_en": "I would like to order a cappuccino."
+        },
+        {
+          "de": "die Speisekarte",
+          "article": "die",
+          "en": "the menu",
+          "jp": "メニュー",
+          "kr": "메뉴",
+          "my": "မီနူး",
+          "th": "เมนู",
+          "vi": "thực đơn",
+          "example_de": "Kann ich bitte die Speisekarte haben?",
+          "example_en": "Can I have the menu, please?"
+        },
+        {
+          "de": "der Kuchen",
+          "article": "der",
+          "en": "the cake",
+          "jp": "ケーキ",
+          "kr": "케이크",
+          "my": "ကိတ်မုန့်",
+          "th": "เค้ก",
+          "vi": "bánh ngọt",
+          "example_de": "Der Kuchen hier ist sehr lecker.",
+          "example_en": "The cake here is very delicious."
+        },
+        {
+          "de": "die Rechnung",
+          "article": "die",
+          "en": "the bill",
+          "jp": "お会計",
+          "kr": "계산서",
+          "my": "ဘေလ်",
+          "th": "บิล",
+          "vi": "hóa đơn",
+          "example_de": "Die Rechnung, bitte!",
+          "example_en": "The bill, please!"
+        },
+        {
+          "de": "das Trinkgeld",
+          "article": "das",
+          "en": "the tip",
+          "jp": "チップ",
+          "kr": "팁",
+          "my": "အပို‌ငွေ",
+          "th": "ทิป",
+          "vi": "tiền boa",
+          "example_de": "In Deutschland gibt man 5-10% Trinkgeld.",
+          "example_en": "In Germany, you tip 5-10%."
+        },
+        {
+          "de": "gemütlich",
+          "article": "",
+          "en": "cozy / comfortable",
+          "jp": "居心地がいい",
+          "kr": "아늑한",
+          "my": "သက်တောင့်သက်သာ",
+          "th": "อบอุ่นน่าสบาย",
+          "vi": "ấm cúng",
+          "example_de": "Das Café ist sehr gemütlich.",
+          "example_en": "The café is very cozy."
+        },
+        {
+          "de": "der Milchkaffee",
+          "article": "der",
+          "en": "the latte",
+          "jp": "カフェラテ",
+          "kr": "카페라떼",
+          "my": "နို့ကော်ဖီ",
+          "th": "กาแฟนม",
+          "vi": "cà phê sữa",
+          "example_de": "Einen Milchkaffee, bitte.",
+          "example_en": "A latte, please."
+        },
+        {
+          "de": "draußen sitzen",
+          "article": "",
+          "en": "to sit outside",
+          "jp": "外に座る",
+          "kr": "밖에 앉다",
+          "my": "အပြင်ထိုင်",
+          "th": "นั่งข้างนอก",
+          "vi": "ngồi ngoài trời",
+          "example_de": "Können wir draußen sitzen?",
+          "example_en": "Can we sit outside?"
+        }
+      ]
+    },
+    {
+      "id": "shopping_groceries",
+      "title": "Shopping & Groceries",
+      "title_de": "Einkaufen & Lebensmittel",
+      "image": "/cartoons/shopping.svg",
+      "content": "From bustling supermarkets to charming weekly markets, learn the vocabulary you need for everyday shopping in Berlin.",
+      "vocabulary": [
+        {
+          "de": "der Supermarkt",
+          "article": "der",
+          "en": "the supermarket",
+          "jp": "スーパーマーケット",
+          "kr": "슈퍼마켓",
+          "my": "စူပါမားကက်",
+          "th": "ซูเปอร์มาร์เก็ต",
+          "vi": "siêu thị",
+          "example_de": "Ich gehe zum Supermarkt.",
+          "example_en": "I'm going to the supermarket."
+        },
+        {
+          "de": "die Tüte",
+          "article": "die",
+          "en": "the bag",
+          "jp": "袋",
+          "kr": "봉지",
+          "my": "အိတ်",
+          "th": "ถุง",
+          "vi": "túi",
+          "example_de": "Brauchen Sie eine Tüte?",
+          "example_en": "Do you need a bag?"
+        },
+        {
+          "de": "das Angebot",
+          "article": "das",
+          "en": "the offer / deal",
+          "jp": "特売",
+          "kr": "특가",
+          "my": "လျှော့ဈေး",
+          "th": "ข้อเสนอ",
+          "vi": "khuyến mãi",
+          "example_de": "Die Äpfel sind heute im Angebot.",
+          "example_en": "The apples are on sale today."
+        },
+        {
+          "de": "die Kasse",
+          "article": "die",
+          "en": "the checkout / register",
+          "jp": "レジ",
+          "kr": "계산대",
+          "my": "ငွေရှင်းကောင်တာ",
+          "th": "แคชเชียร์",
+          "vi": "quầy tính tiền",
+          "example_de": "Bitte gehen Sie zur Kasse 3.",
+          "example_en": "Please go to checkout 3."
+        },
+        {
+          "de": "das Gemüse",
+          "article": "das",
+          "en": "the vegetables",
+          "jp": "野菜",
+          "kr": "채소",
+          "my": "ဟင်းသီးဟင်းရွက်",
+          "th": "ผัก",
+          "vi": "rau",
+          "example_de": "Das Gemüse ist frisch und günstig.",
+          "example_en": "The vegetables are fresh and affordable."
+        },
+        {
+          "de": "der Markt",
+          "article": "der",
+          "en": "the market",
+          "jp": "市場",
+          "kr": "시장",
+          "my": "ဈေး",
+          "th": "ตลาด",
+          "vi": "chợ",
+          "example_de": "Am Samstag gehe ich auf den Markt.",
+          "example_en": "On Saturday I go to the market."
+        },
+        {
+          "de": "bar bezahlen",
+          "article": "",
+          "en": "to pay cash",
+          "jp": "現金で払う",
+          "kr": "현금으로 내다",
+          "my": "ငွေသားနဲ့ပေးချေ",
+          "th": "จ่ายเงินสด",
+          "vi": "trả tiền mặt",
+          "example_de": "Kann ich bar bezahlen?",
+          "example_en": "Can I pay cash?"
+        },
+        {
+          "de": "der Einkaufswagen",
+          "article": "der",
+          "en": "the shopping cart",
+          "jp": "ショッピングカート",
+          "kr": "쇼핑 카트",
+          "my": "စျေးဝယ်လှည်း",
+          "th": "รถเข็นซื้อของ",
+          "vi": "xe đẩy hàng",
+          "example_de": "Ich brauche einen Einkaufswagen.",
+          "example_en": "I need a shopping cart."
+        }
+      ]
+    },
+    {
+      "id": "neighborhood_life",
+      "title": "Neighborhood Life",
+      "title_de": "Das Kiezleben",
+      "image": "/cartoons/kattekrab_house.svg",
+      "content": "Berliners love their 'Kiez' — their neighborhood. Learn vocabulary about the places, people, and activities in a typical Berlin neighborhood.",
+      "vocabulary": [
+        {
+          "de": "der Nachbar",
+          "article": "der",
+          "en": "the neighbor",
+          "jp": "隣人",
+          "kr": "이웃",
+          "my": "အိမ်နီးချင်း",
+          "th": "เพื่อนบ้าน",
+          "vi": "hàng xóm",
+          "example_de": "Mein Nachbar ist sehr freundlich.",
+          "example_en": "My neighbor is very friendly."
+        },
+        {
+          "de": "die Bäckerei",
+          "article": "die",
+          "en": "the bakery",
+          "jp": "パン屋",
+          "kr": "빵집",
+          "my": "မုန့်ဆိုင်",
+          "th": "ร้านเบเกอรี่",
+          "vi": "tiệm bánh",
+          "example_de": "Die Bäckerei öffnet um 6 Uhr morgens.",
+          "example_en": "The bakery opens at 6 in the morning."
+        },
+        {
+          "de": "der Spielplatz",
+          "article": "der",
+          "en": "the playground",
+          "jp": "遊び場",
+          "kr": "놀이터",
+          "my": "ကစားကွင်း",
+          "th": "สนามเด็กเล่น",
+          "vi": "sân chơi",
+          "example_de": "Die Kinder spielen auf dem Spielplatz.",
+          "example_en": "The children play at the playground."
+        },
+        {
+          "de": "spazieren gehen",
+          "article": "",
+          "en": "to go for a walk",
+          "jp": "散歩する",
+          "kr": "산책하다",
+          "my": "လမ်းလျှောက်",
+          "th": "เดินเล่น",
+          "vi": "đi dạo",
+          "example_de": "Ich gehe gern im Park spazieren.",
+          "example_en": "I like to go for a walk in the park."
+        },
+        {
+          "de": "der Briefkasten",
+          "article": "der",
+          "en": "the mailbox",
+          "jp": "郵便受け",
+          "kr": "우편함",
+          "my": "စာတိုက်ပုံး",
+          "th": "ตู้ไปรษณีย์",
+          "vi": "hộp thư",
+          "example_de": "Bitte werfen Sie den Brief in den Briefkasten.",
+          "example_en": "Please drop the letter in the mailbox."
+        },
+        {
+          "de": "die Apotheke",
+          "article": "die",
+          "en": "the pharmacy",
+          "jp": "薬局",
+          "kr": "약국",
+          "my": "ဆေးဆိုင်",
+          "th": "ร้านขายยา",
+          "vi": "nhà thuốc",
+          "example_de": "Die Apotheke ist neben dem Supermarkt.",
+          "example_en": "The pharmacy is next to the supermarket."
+        },
+        {
+          "de": "der Kiez",
+          "article": "der",
+          "en": "the neighborhood (Berlin slang)",
+          "jp": "近所（ベルリン方言）",
+          "kr": "동네 (베를린 사투리)",
+          "my": "ရပ်ကွက် (ဘာလင်စကား)",
+          "th": "ย่าน (สแลงเบอร์ลิน)",
+          "vi": "khu phố (tiếng lóng Berlin)",
+          "example_de": "Ich liebe meinen Kiez in Kreuzberg.",
+          "example_en": "I love my neighborhood in Kreuzberg."
+        },
+        {
+          "de": "die Straße",
+          "article": "die",
+          "en": "the street",
+          "jp": "通り",
+          "kr": "거리",
+          "my": "လမ်း",
+          "th": "ถนน",
+          "vi": "đường phố",
+          "example_de": "Die Straße ist heute sehr ruhig.",
+          "example_en": "The street is very quiet today."
+        }
+      ]
+    },
+    {
+      "id": "evening_leisure",
+      "title": "Evening & Leisure",
+      "title_de": "Abend & Freizeit",
+      "image": "/cartoons/bench.svg",
+      "content": "Berlin comes alive in the evening! Discover vocabulary for dining out, visiting parks, meeting friends, and enjoying the city's vibrant nightlife.",
+      "vocabulary": [
+        {
+          "de": "das Abendessen",
+          "article": "das",
+          "en": "the dinner",
+          "jp": "夕食",
+          "kr": "저녁 식사",
+          "my": "ညစာ",
+          "th": "อาหารเย็น",
+          "vi": "bữa tối",
+          "example_de": "Was gibt es heute zum Abendessen?",
+          "example_en": "What is for dinner today?"
+        },
+        {
+          "de": "sich treffen",
+          "article": "",
+          "en": "to meet up",
+          "jp": "会う",
+          "kr": "만나다",
+          "my": "တွေ့ဆုံ",
+          "th": "พบกัน",
+          "vi": "gặp nhau",
+          "example_de": "Wir treffen uns um 19 Uhr.",
+          "example_en": "We are meeting at 7 PM."
+        },
+        {
+          "de": "der Park",
+          "article": "der",
+          "en": "the park",
+          "jp": "公園",
+          "kr": "공원",
+          "my": "ပန်းခြံ",
+          "th": "สวนสาธารณะ",
+          "vi": "công viên",
+          "example_de": "Im Sommer grillen wir im Park.",
+          "example_en": "In summer we barbecue in the park."
+        },
+        {
+          "de": "das Kino",
+          "article": "das",
+          "en": "the cinema",
+          "jp": "映画館",
+          "kr": "영화관",
+          "my": "ရုပ်ရှင်ရုံ",
+          "th": "โรงภาพยนตร์",
+          "vi": "rạp chiếu phim",
+          "example_de": "Wollen wir heute Abend ins Kino gehen?",
+          "example_en": "Shall we go to the cinema tonight?"
+        },
+        {
+          "de": "sich entspannen",
+          "article": "",
+          "en": "to relax",
+          "jp": "リラックスする",
+          "kr": "긴장을 풀다",
+          "my": "အနားယူ",
+          "th": "ผ่อนคลาย",
+          "vi": "thư giãn",
+          "example_de": "Am Abend entspanne ich mich gern.",
+          "example_en": "In the evening I like to relax."
+        },
+        {
+          "de": "die Kneipe",
+          "article": "die",
+          "en": "the pub / bar",
+          "jp": "居酒屋",
+          "kr": "술집",
+          "my": "ဘီယာဆိုင်",
+          "th": "ผับ",
+          "vi": "quán bia",
+          "example_de": "Wir gehen in eine Kneipe um die Ecke.",
+          "example_en": "We are going to a pub around the corner."
+        },
+        {
+          "de": "der Sonnenuntergang",
+          "article": "der",
+          "en": "the sunset",
+          "jp": "夕焼け",
+          "kr": "일몰",
+          "my": "နေဝင်ချိန်",
+          "th": "พระอาทิตย์ตก",
+          "vi": "hoàng hôn",
+          "example_de": "Der Sonnenuntergang am Tempelhofer Feld ist wunderschön.",
+          "example_en": "The sunset at Tempelhofer Feld is beautiful."
+        },
+        {
+          "de": "fernsehen",
+          "article": "",
+          "en": "to watch TV",
+          "jp": "テレビを見る",
+          "kr": "텔레비전을 보다",
+          "my": "ရုပ်မြင်သံကြားကြည့်",
+          "th": "ดูโทรทัศน์",
+          "vi": "xem tivi",
+          "example_de": "Abends sehe ich gern fern.",
+          "example_en": "In the evening I like to watch TV."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "title": "Fragen mit Fragewort (W-疑問文)",
+  "sections": [
+    {
+      "id": "sentence_structure",
+      "title": "パート 1: 文の構造（W-疑問文のルール）",
+      "description": "ドイツ語で疑問詞（Who, What, Where など）を使って質問する場合、語順は非常に厳格です。これは V2 ルール と呼ばれ、動詞が常に 2 番目 に来ることを意味します。",
+      "content": {
+        "wh_position_table": {
+          "title": "W-疑問文の語順チャート",
+          "headers": ["第 1 位置：疑問詞", "第 2 位置：動詞", "第 3 位置：主語", "文の残り"],
+          "rows": [
+            ["Wie (どのように)", "heißen", "Sie", "?"],
+            ["Wo (どこに)", "ist", "er", "?"],
+            ["Woher (どこから)", "kommt", "er", "?"],
+            ["Was (何を)", "hat", "er", "gemacht?"]
+          ]
+        },
+        "key_rule": "重要なルール: 疑問詞は常にアルファベットの \"w\" で始まり、第 1 位置に置かれます。その直後の第 2 位置に、人称変化した動詞が続きます。"
+      }
+    },
+    {
+      "id": "common_w_words",
+      "title": "パート 2: 一般的な疑問詞（W-Words）とその使い方",
+      "description": "ここでは、最もよく使われる疑問詞と、その使い分けの理由を解説します。",
+      "content": {
+        "categories": [
+          {
+            "category": "1. Wer vs. Wen vs. Wem（「誰」の格変化）",
+            "description": "ドイツ語では、文法上の役割（主語、直接目的語、間接目的語）によって「誰」という単語が変化します。",
+            "table": {
+              "headers": ["形", "格", "使い方", "例（質問）", "例（答え）"],
+              "rows": [
+                ["Wer?", "主格 - 主語", "人を特定するときに使います。", "Wer ist das? (それは誰ですか？)", "Das ist mein Mann. (私の夫です)"],
+                ["Wen?", "対格 - 直接目的語", "その人が動作の対象（〜を）である場合に使います。", "Wen suchst du? (誰を探しているの？)", "Den Lehrer. (先生を)"],
+                ["Mit wem?", "与格 - 間接目的語", "前置詞 \"mit\"（〜と一緒に）などの後に使います。", "Mit wem gehst du? (誰と一緒に行くの？)", "Mit einem Freund. (友達と)"]
+              ]
+            }
+          },
+          {
+            "category": "2. Wo vs. Woher vs. Wohin（場所と方向）",
+            "description": "ドイツ語では、「静止している場所」「どこから来たか」「どこへ向かうか」を明確に区別します。",
+            "table": {
+              "headers": ["形", "意味", "使い方", "例（質問）", "例（答え）"],
+              "rows": [
+                ["Wo?", "場所", "動きのない特定の場所について尋ねます。", "Wo wohnen Sie? (どこに住んでいますか？)", "In Berlin. (ベルリンです)"],
+                ["Woher?", "起点", "出身地や、どこから来たのかを尋ねます。", "Woher kommen Sie? (どちらのご出身ですか？)", "Aus China. (中国からです)"],
+                ["Wohin?", "方向", "目的地や、どこへ向かっているのかを尋ねます。", "Wohin gehen Sie? (どこへ行くのですか？)", "Ins Kino. (映画館へ)"]
+              ]
+            }
+          },
+          {
+            "category": "3. Was (何)",
+            "description": "物、事柄、活動について尋ねるときに使います。",
+            "examples": [
+              {
+                "question": "Was ist das? (それは何ですか？)",
+                "answer": "Das ist mein Handy. (私のスマホです)"
+              },
+              {
+                "question": "Was sind Sie von Beruf? (お仕事は何ですか？)",
+                "answer": "Friseur. (美容師です)"
+              }
+            ]
+          },
+          {
+            "category": "4. Wie (どのように)",
+            "description": "名前、様子、特徴などを尋ねるときに使います。",
+            "examples": [
+              {
+                "question": "Wie heißen Sie? (お名前は何とおっしゃいますか？)",
+                "answer": "Edith Müller."
+              },
+              {
+                "question": "Wie alt ist er? (彼は何歳ですか？)",
+                "answer": "5 Jahre. (5歳です)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "advanced_w_words",
+      "title": "パート 3: その他の重要な疑問詞",
+      "description": "より具体的な文脈で使われる複雑な疑問詞：",
+      "content": {
+        "categories": [
+          {
+            "category": "理由と時間",
+            "table": {
+              "headers": ["疑問詞", "意味", "使い方", "例（質問）", "例（答え）"],
+              "rows": [
+                ["Warum?", "なぜ", "理由を尋ねます。答えは通常 Weil (なぜなら〜だから) で始まります。", "Warum kommst du spät? (なぜ遅れたの？)", "Weil der Zug Verspätung hat. (電車が遅れたからです)"],
+                ["Wann?", "いつ", "時間全般について尋ねます。", "Wann beginnt der Film? (映画は何時に始まりますか？)", "Um acht. (8時です)"]
+              ]
+            }
+          },
+          {
+            "category": "数量",
+            "table": {
+              "headers": ["疑問詞", "意味", "使い方", "例（質問）", "例（答え）"],
+              "rows": [
+                ["Wie viel?", "いくら/どれくらい", "数えられないものや、値段について使います。", "Wie viel kostet das? (これはいくらですか？)", "3,50 Euro."],
+                ["Wie viele?", "いくつかの", "数えられる複数のものについて使います。", "Wie viele Kinder haben Sie? (お子さんは何人いらっしゃいますか？)", "Fünf. (5人です)"]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "学習者用まとめテーブル",
+      "description": "すべてのW-疑問詞のクイックリファレンスガイド：",
+      "content": {
+        "summary_table": {
+          "headers": ["ドイツ語", "日本語の意味", "使い方のアドバイス"],
+          "rows": [
+            ["Wer", "誰が", "主語（動作を行う人）として使う"],
+            ["Was", "何を/が", "物や行動に対して使う"],
+            ["Wo", "どこで", "動きのない固定された場所に対して使う"],
+            ["Woher", "どこから", "動詞 \"kommen\" と一緒に使うことが多い"],
+            ["Wohin", "どこへ", "\"gehen\" や \"fahren\" など、移動の動詞と一緒に使う"],
+            ["Wie", "どのように", "名前、年齢、状態を尋ねる時に使う"],
+            ["Wann", "いつ", "時間や日付を尋ねる時に使う"],
+            ["Warum", "なぜ", "理由や原因を尋ねる時に使う"]
+          ]
+        }
+      }
+    }
+  ]
+}

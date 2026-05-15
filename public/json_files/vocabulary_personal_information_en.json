@@ -1,0 +1,37 @@
+{
+  "theme_color": "#2196F3",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Adresse", "english": "the address", "article": "die", "word": "Adresse", "emoji": "📍"},
+        {"german": "der Name", "english": "the name", "article": "der", "word": "Name", "emoji": "👤"},
+        {"german": "der Vorname", "english": "the first name", "article": "der", "word": "Vorname", "emoji": "📛"},
+        {"german": "der Familienname", "english": "the last name / surname", "article": "der", "word": "Familienname", "emoji": "👪"},
+        {"german": "die Straße", "english": "the street", "article": "die", "word": "Straße", "emoji": "🛣️"},
+        {"german": "die Nummer", "english": "the number", "article": "die", "word": "Nummer", "emoji": "🔢"},
+        {"german": "der Ort", "english": "the location / place", "article": "der", "word": "Ort", "emoji": "📍"},
+        {"german": "die Postleitzahl", "english": "the postal code / ZIP code", "article": "die", "word": "Postleitzahl", "emoji": "📮"},
+        {"german": "der Geburtsort", "english": "the place of birth", "article": "der", "word": "Geburtsort", "emoji": "🐣"},
+        {"german": "das Geburtsjahr", "english": "the year of birth", "article": "das", "word": "Geburtsjahr", "emoji": "📅"},
+        {"german": "das Geburtsdatum", "english": "the date of birth", "article": "das", "word": "Geburtsdatum", "emoji": "🎂"},
+        {"german": "männlich", "english": "male", "article": "", "word": "männlich", "emoji": "♂️"},
+        {"german": "weiblich", "english": "female", "article": "", "word": "weiblich", "emoji": "♀️"},
+        {"german": "das Formular", "english": "the form", "article": "das", "word": "Formular", "emoji": "📝"},
+        {"german": "das Alter", "english": "the age", "article": "das", "word": "Alter", "emoji": "⏳"},
+        {"german": "unterschreiben", "english": "to sign", "article": "", "word": "unterschreiben", "emoji": "✍️"},
+        {"german": "ausfüllen", "english": "to fill out", "article": "", "word": "ausfüllen", "emoji": "🖋️"},
+        {"german": "heißen", "english": "to be called / named", "article": "", "word": "heißen", "emoji": "🗣️"},
+        {"german": "die Unterschrift", "english": "the signature", "article": "die", "word": "Unterschrift", "emoji": "🖊️"},
+        {"german": "der Familienstand", "english": "the marital status", "article": "der", "word": "Familienstand", "emoji": "💍"},
+        {"german": "geschieden", "english": "divorced", "article": "", "word": "geschieden", "emoji": "💔"},
+        {"german": "die Papiere", "english": "the papers / documents", "article": "die", "word": "Papiere", "emoji": "📄"},
+        {"german": "ledig", "english": "single", "article": "", "word": "ledig", "emoji": "🙋‍♂️"},
+        {"german": "verwitwet", "english": "widowed", "article": "", "word": "verwitwet", "emoji": "🖤"},
+        {"german": "der Ausweis", "english": "the ID card", "article": "der", "word": "Ausweis", "emoji": "🆔"},
+        {"german": "verheiratet", "english": "married", "article": "", "word": "verheiratet", "emoji": "👰‍♀️🤵‍♂️"},
+        {"german": "heiraten", "english": "to marry", "article": "", "word": "heiraten", "emoji": "⛪"},
+        {"german": "der Pass", "english": "the passport", "article": "der", "word": "Pass", "emoji": "🛂"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Akkusativ (Accusative Case)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Understanding the German Akkusativ",
+      "description": "In German, the Accusative case is primarily used for the Direct Object of a sentence. This is the person or thing that is directly affected by the action of the verb. If the Nominative case is the \"doer\" (subject), the Accusative is the \"receiver.\""
+    },
+    {
+      "id": "identifying_accusative",
+      "title": "1. Identifying the Accusative: The \"Who\" or \"What\"",
+      "description": "To find the accusative object, ask yourself: \"Who or what is being [verbed]?\"",
+      "content": {
+        "example": {
+          "german": "Ich kaufe den Apfel.",
+          "translation": "I buy the apple.",
+          "note": "What am I buying? → Den Apfel (The apple). Therefore, \"apple\" is in the accusative case."
+        }
+      }
+    },
+    {
+      "id": "articles_adjective_endings",
+      "title": "2. Articles and Adjective Endings",
+      "description": "The most important thing to remember about the Accusative is that only the masculine gender changes. Feminine, Neuter, and Plural articles remain the same as they are in the Nominative case.",
+      "content": {
+        "declension_table": {
+          "title": "Accusative Declension Table",
+          "headers": ["Gender", "Definite (The)", "Indefinite (A/None)", "Adjective Ending (with \"the\")"],
+          "rows": [
+            {
+              "category": "Masculine",
+              "definite": "den",
+              "indefinite": "einen / keinen",
+              "adjective": "-en (den netten Vater)"
+            },
+            {
+              "category": "Feminine",
+              "definite": "die",
+              "indefinite": "eine / keine",
+              "adjective": "-e (die nette Mutter)"
+            },
+            {
+              "category": "Neuter",
+              "definite": "das",
+              "indefinite": "ein / kein",
+              "adjective": "-e (das nette Kind)"
+            },
+            {
+              "category": "Plural",
+              "definite": "die",
+              "indefinite": "- / keine",
+              "adjective": "-en (die netten Eltern)"
+            }
+          ]
+        },
+        "adjective_note": "If you use words like dieser (this), jener (that), or welcher (which), the adjective following them follows the same pattern as the definite article (-en for masculine/plural, -e for feminine/neuter)."
+      }
+    },
+    {
+      "id": "personal_pronouns",
+      "title": "3. Personal Pronouns",
+      "description": "When a person is the direct object (e.g., \"He sees me\"), we must use the Accusative form of the pronoun.",
+      "content": {
+        "pronoun_table": {
+          "title": "Pronoun Changes in Accusative",
+          "rows": [
+            { "nominative": "ich", "accusative": "mich", "meaning": "me" },
+            { "nominative": "du", "accusative": "dich", "meaning": "you" },
+            { "nominative": "er", "accusative": "ihn", "meaning": "him" },
+            { "nominative": "sie", "accusative": "sie", "meaning": "her" },
+            { "nominative": "es", "accusative": "es", "meaning": "it" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "us" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "you all" },
+            { "nominative": "sie/Sie", "accusative": "sie/Sie", "meaning": "them / You formal" }
+          ]
+        },
+        "example": {
+          "german": "Ich liebe dich.",
+          "translation": "I love you.",
+          "note": "Here, \"you\" is the person being loved, so du becomes dich."
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. When to Use the Accusative",
+      "description": "There are three main triggers for the Accusative case:",
+      "content": {
+        "triggers": [
+          {
+            "id": "accusative_verbs",
+            "title": "A. Accusative Verbs",
+            "description": "Most German verbs require the accusative because they involve doing something to something else.",
+            "subcategories": [
+              {
+                "label": "Physical Actions",
+                "verbs": "essen (to eat), trinken (to drink), kaufen (to buy)",
+                "german": "Er isst einen Kuchen.",
+                "translation": "He eats a cake — Masculine change."
+              },
+              {
+                "label": "Possession",
+                "verbs": "haben (to have), besitzen (to possess)",
+                "german": "Ich habe einen Bruder.",
+                "translation": "I have a brother."
+              },
+              {
+                "label": "Mental/Sensory",
+                "verbs": "hören (to hear), verstehen (to understand), suchen (to look for)",
+                "german": "Wir suchen den Hund.",
+                "translation": "We are looking for the dog."
+              }
+            ]
+          },
+          {
+            "id": "accusative_prepositions",
+            "title": "B. Accusative Prepositions",
+            "description": "Certain prepositions are always followed by the accusative, regardless of the verb:",
+            "prepositions": ["durch (through)", "für (for)", "gegen (against)", "ohne (without)", "um (around)", "bis (until)"],
+            "examples": [
+              { "german": "Das Geschenk ist für dich.", "translation": "The gift is for you." },
+              { "german": "Er geht ohne den Schirm.", "translation": "He goes without the umbrella." }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. Two-Way Prepositions (Movement vs. Location)",
+            "description": "Some prepositions (an, auf, hinter, in, neben, über, unter, vor, zwischen) can be either Dative or Accusative.",
+            "rule": "Use Accusative for Movement/Direction: If you are moving from point A to point B (Question: Wohin? / Where to?).",
+            "examples": [
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "I am laying the book onto the table — Action/Movement." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. Detailed Examples for Clarity",
+      "description": "Let's see the Accusative in action with different scenarios:",
+      "content": {
+        "examples": [
+          {
+            "label": "Masculine Change",
+            "nominative": { "german": "Der Tisch ist alt.", "translation": "The table is old." },
+            "accusative": { "german": "Ich verkaufe den Tisch.", "translation": "I am selling the table." },
+            "explanation": "Because the table is now the object being sold."
+          },
+          {
+            "label": "No Change for Neuter/Feminine",
+            "nominative": { "german": "Das Auto ist schnell.", "translation": "The car is fast." },
+            "accusative": { "german": "Ich kaufe das Auto.", "translation": "I buy the car." },
+            "explanation": "\"Auto\" is neuter; the article \"das\" does not change in the accusative."
+          },
+          {
+            "label": "Using \"Haben\"",
+            "nominative": null,
+            "accusative": { "german": "Sie hat einen neuen Job.", "translation": "She has a new job." },
+            "explanation": "\"Job\" is masculine (der Job). Since it follows haben, it must be einen."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "title": "Dativ (กรรมทางอ้อม)",
+  "description": "การใช้ Dative Case มักใช้กับกรรมรอง (ผู้รับผลของการกระทำ) หรือใช้ตามหลังคำบุพบทเฉพาะ เช่น mit (กับ/โดย), bei (ที่/กับ) และ zu (ไปที่)",
+  "sections": [
+    {
+      "id": "article_transformation",
+      "title": "1. การเปลี่ยนแปลงหลัก: คำนำหน้าคำนามเปลี่ยนไปอย่างไร",
+      "description": "ในรูป Dative คำนำหน้าคำนาม (the/a) จะเปลี่ยนรูปไปตามเพศของคำนามนั้นๆ",
+      "content": {
+        "masculine_neutral": {
+          "title": "เพศชาย (Masculine) และเพศกลาง (Neutral)",
+          "description": "สำหรับคำนามเพศชาย (der) และเพศกลาง (das) คำนำหน้าแบบชี้เฉพาะ \"the\" จะเปลี่ยนเป็น dem ส่วนคำนำหน้าแบบไม่ชี้เฉพาะ \"a\" จะเปลี่ยนเป็น einem และคำว่า \"ไม่มี\" จะเปลี่ยนเป็น keinem",
+          "examples": [
+            {
+              "english": "ฉันไปกับผู้ชายคนนั้น",
+              "german": "Ich gehe mit dem Mann.",
+              "note": "เพศชาย"
+            },
+            {
+              "english": "ฉันเล่นกับเด็กคนหนึ่ง",
+              "german": "Ich spiele mit einem Kind.",
+              "note": "เพศกลาง"
+            }
+          ]
+        },
+        "feminine": {
+          "title": "เพศหญิง (Feminine)",
+          "description": "สำหรับคำนามเพศหญิง (die) คำว่า \"the\" จะเปลี่ยนเป็น der ส่วนคำว่า \"a\" จะเปลี่ยนเป็น einer และ \"ไม่มี\" จะเป็น keiner จุดนี้มักทำให้ผู้เรียนสับสนเพราะ der ดูเหมือนเพศชาย แต่ในกรณี Dative มันคือเพศหญิงอย่างชัดเจน",
+          "examples": [
+            {
+              "english": "ฉันคุยกับผู้หญิงคนนั้น",
+              "german": "Ich spreche mit der Frau."
+            },
+            {
+              "english": "ฉันเดินทางกับเพื่อนสาวคนหนึ่ง",
+              "german": "Ich reise mit einer Freundin."
+            }
+          ]
+        },
+        "plural": {
+          "title": "พหูพจน์ (Plural)",
+          "description": "สำหรับคำนามพหูพจน์ (die) คำว่า \"the\" จะเปลี่ยนเป็น den ในรูปพหูพจน์จะไม่มีคำนำหน้าแบบไม่ชี้เฉพาะ แต่คำว่า \"ไม่มี\" จะใช้ keinen",
+          "crucial_rule": "กฎสำคัญ: ในรูป Dative พหูพจน์ คุณต้องเติม -n ที่ท้ายคำนามด้วยเสมอ (ยกเว้นคำนามนั้นลงท้ายด้วย -n หรือ -s อยู่แล้ว)",
+          "examples": [
+            {
+              "english": "ฉันคุยกับแขกหลายคน",
+              "german": "Ich spreche mit den Gästen.",
+              "note": "สังเกตตัว 'n' ที่เพิ่มมาท้ายคำว่า Gästen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "using_mit",
+      "title": "2. การใช้ \"Mit\" (การเดินทางและบุคคล)",
+      "description": "คำบุพบท mit จะบังคับให้คำนามที่ตามหลังเป็น Dative เสมอ นี่คือเหตุผลว่าทำไมเวลาคุณพูดถึงวิธีการเดินทางหรือการอยู่กับใคร คำนำหน้าจึงต้องเปลี่ยนรูป",
+      "content": {
+        "logic": "ตรรกะการใช้: เมื่อคุณเห็นคำว่า mit ให้ดูเพศของยานพาหนะหรือบุคคลที่ตามมา",
+        "examples": [
+          {
+            "noun": "Der Zug (เพศชาย)",
+            "sentence": "Ich fahre mit dem Zug.",
+            "translation": "ฉันเดินทางโดยรถไฟ"
+          },
+          {
+            "noun": "Die U-Bahn (เพศหญิง)",
+            "sentence": "Ich fahre mit der U-Bahn.",
+            "translation": "ฉันเดินทางโดยรถไฟใต้ดิน"
+          },
+          {
+            "noun": "Das Auto (เพศกลาง)",
+            "sentence": "Ich fahre mit dem Auto.",
+            "translation": "ฉันเดินทางโดยรถยนต์"
+          },
+          {
+            "noun": "Die Rollschuhe (พหูพจน์)",
+            "sentence": "Ich fahre mit den Rollschuhen.",
+            "translation": "ฉันไปด้วยรองเท้าสเก็ต"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dative_verbs",
+      "title": "3. คำกริยาที่ใช้กับ Dative: การให้และการช่วยเหลือ",
+      "description": "คำกริยาบางคำจะบังคับใช้ Dative กับบุคคลที่เกี่ยวข้องโดยอัตโนมัติ เพราะบุคคลนั้นคือ \"ผู้รับ\" การกระทำ คำกริยาที่พบบ่อยได้แก่ helfen (ช่วย), gratulieren (ยินดี) และ schenken (ให้ของขวัญ)",
+      "content": {
+        "helfern": {
+          "verb": "Helfen (ช่วยเหลือ)",
+          "examples": [
+            {
+              "english": "เธอช่วยเพื่อนร่วมงาน (หญิง) คนหนึ่ง",
+              "german": "Sie hilft einer Kollegin."
+            },
+            {
+              "english": "เธอช่วยพ่อแม่",
+              "german": "Sie hilft den Eltern."
+            }
+          ]
+        },
+        "gratulieren": {
+          "verb": "Gratulieren (แสดงความยินดี)",
+          "examples": [
+            {
+              "english": "ฉันยินดีกับคุณพ่อ",
+              "german": "Ich gratuliere dem Vater."
+            },
+            {
+              "english": "ฉันยินดีกับเพื่อนสาวคนหนึ่ง",
+              "german": "Ich gratuliere einer Freundin."
+            }
+          ]
+        },
+        "schenken_geben": {
+          "verb": "Schenken / Geben (ให้)",
+          "description": "เมื่อคุณให้อะไรบางอย่างแก่ใครบางคน คน จะเป็น Dative และ สิ่งของ จะเป็น Accusative",
+          "examples": [
+            {
+              "english": "เธอให้ปลากับแมว (die Katze) ตัวนั้น",
+              "german": "Sie gibt der Katze einen Fisch."
+            },
+            {
+              "english": "เธอให้นมกับเด็กทารก (das Baby) คนหนึ่ง",
+              "german": "Sie gibt einem Baby Milch."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "possessive_articles",
+      "title": "4. คำแสดงความเป็นเจ้าของในรูป Dative",
+      "description": "คำแสดงความเป็นเจ้าของ (ของฉัน, ของคุณ, ของเธอ ฯลฯ) จะมีการเปลี่ยนท้ายคำเหมือนกับคำว่า kein หรือ ein",
+      "content": {
+        "endings": [
+          {
+            "gender": "ลงท้ายเพศชาย/เพศกลาง",
+            "ending": "-em",
+            "examples": "meinem, seinem, ihrem"
+          },
+          {
+            "gender": "ลงท้ายเพศหญิง",
+            "ending": "-er",
+            "examples": "meiner, seiner, ihrer"
+          },
+          {
+            "gender": "ลงท้ายพหูพจน์",
+            "ending": "-en",
+            "examples": "meinen, seinen, ihren"
+          }
+        ],
+        "example_context": "ถ้าคุณอยู่ที่งานปาร์ตี้และใครบางคนมากับแฟนหนุ่มของเธอ คุณจะพูดว่า: Sie kommt mit ihrem Freund. (ihr + em เพราะ Freund เป็นเพศชายในรูป Dative) ถ้าเธอมากับลูกๆ ของเธอ: Sie kommt mit ihren Kindern. (ihr + en + เติม n ที่คำนามพหูพจน์)"
+      }
+    },
+    {
+      "id": "location_prepositions",
+      "title": "5. คำบุพบทบอกสถานที่ (Bei, Zu, Von)",
+      "description": "เช่นเดียวกับ mit คำบุพบทเหล่านี้คือ bei (ที่/อยู่กับ), zu (ไปที่) และ von (จาก/ของ) จะต้องตามด้วย Dative เสมอ",
+      "content": {
+        "examples": [
+          {
+            "preposition": "Bei (พักอยู่กับใครบางคน)",
+            "sentence": "Ich bleibe bei den Freunden.",
+            "translation": "ฉันพักอยู่กับเพื่อนๆ"
+          },
+          {
+            "preposition": "Zu (ไปหาสถานที่หรือบุคคล)",
+            "sentence": "Ich gehe zu einem See.",
+            "translation": "ฉันไปที่ทะเลสาบแห่งหนึ่ง - เพศชาย"
+          },
+          {
+            "preposition": "Von (จาก หรือ ของ)",
+            "sentence": "Das Auto von dem Freund.",
+            "translation": "รถของเพื่อนคนนั้น"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "6. สรุปการลงท้ายคำนำหน้า (Article Endings)",
+      "description": "เพื่อให้จำง่ายขึ้นโดยไม่ต้องดูตาราง ให้โฟกัสที่ \"ตัวอักษรสัญญาณ\" ท้ายคำนำหน้า Dative ดังนี้:",
+      "content": {
+        "signal_letters": [
+          {
+            "letter": "M",
+            "meaning": "สำหรับเพศชายและเพศกลาง",
+            "examples": "deM / eineM"
+          },
+          {
+            "letter": "R",
+            "meaning": "สำหรับเพศหญิง",
+            "examples": "deR / eineR"
+          },
+          {
+            "letter": "N",
+            "meaning": "สำหรับพหูพจน์ + เติม N ท้ายคำนาม",
+            "examples": "deN / keineN + เติม N ท้ายคำนาม"
+          }
+        ]
+      }
+    }
+  ]
+}

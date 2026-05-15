@@ -1,0 +1,123 @@
+{
+  "title": "Dativ (Cách tặng cách / Tân ngữ gián tiếp)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Hiểu về Dativ trong tiếng Đức",
+      "description": "Dativ thường được gọi là cách \"người nhận\". Trong khi Akkusativ đánh dấu tân ngữ trực tiếp (vật bị tác động), Dativ đánh dấu tân ngữ gián tiếp — người hoặc vật nhận kết quả của hành động đó."
+    },
+    {
+      "id": "identifying_dative",
+      "title": "1. Nhận biết Dativ: \"Ai\" và \"Ở đâu\"",
+      "description": "Để tìm Dativ trong câu, bạn có thể đặt hai câu hỏi:",
+      "content": {
+        "questions": [
+          { "question": "Wem? (Cho ai / Vì ai?)", "explanation": "Xác định người nhận được thứ gì đó.", "german": "Ich gebe dem Lehrer das Buch.", "translation": "Tôi đưa sách cho giáo viên. (Giáo viên là người nhận)" },
+          { "question": "Wo? (Ở đâu?)", "explanation": "Khi nói về vị trí, Dativ mô tả vị trí tĩnh chứ không phải di chuyển đến đích.", "german": "Das Buch liegt auf dem Tisch.", "translation": "Quyển sách nằm trên bàn. (Vị trí tĩnh)" }
+        ]
+      }
+    },
+    {
+      "id": "articles_nouns",
+      "title": "2. Thay đổi mạo từ và danh từ",
+      "description": "Dativ gây ra thay đổi cụ thể cho các từ đứng trước danh từ. Quy tắc riêng của Dativ là \"n-số nhiều\": hầu hết danh từ số nhiều trong Dativ phải thêm -n ở cuối (ví dụ: die Kinder → den Kindern).",
+      "content": {
+        "declension_table": {
+          "title": "Bảng biến cách Dativ",
+          "headers": ["Giống", "Mạo từ xác định (The)", "Mạo từ không xác định/Sở hữu (A/My)", "Đuôi tính từ (Sau \"The\")"],
+          "rows": [
+            { "category": "Giống đực", "definite": "dem Vater", "indefinite": "einem Vater", "adjective": "dem netten Vater" },
+            { "category": "Giống cái", "definite": "der Mutter", "indefinite": "einer Mutter", "adjective": "der netten Mutter" },
+            { "category": "Giống trung", "definite": "dem Kind", "indefinite": "einem Kind", "adjective": "dem netten Kind" },
+            { "category": "Số nhiều", "definite": "den Eltern", "indefinite": "(meinen) Eltern", "adjective": "den netten Eltern" }
+          ]
+        },
+        "adjective_note": "Nếu bạn dùng từ như dieser (này), jener (kia), hoặc alle (tất cả), tính từ trong Dativ luôn kết thúc bằng -en. Điều này tạo ra biến cách \"yếu\" nhất quán và dễ nhớ hơn."
+      }
+    },
+    {
+      "id": "dative_pronouns",
+      "title": "3. Đại từ Dativ",
+      "description": "Khi thay thế tên hoặc danh từ bằng \"tôi\", \"bạn\" hoặc \"anh ấy\", bạn phải dùng dạng Dativ của đại từ.",
+      "content": {
+        "pronoun_table": {
+          "title": "Thay đổi đại từ trong Dativ",
+          "rows": [
+            { "nominative": "ich", "accusative": "mir", "meaning": "tôi (tân ngữ gián tiếp)" },
+            { "nominative": "du", "accusative": "dir", "meaning": "bạn (tân ngữ gián tiếp)" },
+            { "nominative": "er", "accusative": "ihm", "meaning": "anh ấy (tân ngữ gián tiếp)" },
+            { "nominative": "sie", "accusative": "ihr", "meaning": "cô ấy (tân ngữ gián tiếp)" },
+            { "nominative": "es", "accusative": "ihm", "meaning": "nó (tân ngữ gián tiếp)" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "chúng tôi (tân ngữ gián tiếp)" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "các bạn (tân ngữ gián tiếp)" },
+            { "nominative": "sie/Sie", "accusative": "ihnen/Ihnen", "meaning": "họ / Quý vị (tân ngữ gián tiếp)" }
+          ]
+        },
+        "example": {
+          "german": "Er hilft mir.",
+          "translation": "Anh ấy giúp tôi.",
+          "note": "Bạn không thể nói \"Er hilft mich\" (Akkusativ). Phải nói \"Er hilft mir\" vì động từ helfen là \"động từ Dativ\"."
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. Khi nào dùng Dativ",
+      "description": "Có ba nguyên nhân chính kích hoạt Dativ:",
+      "content": {
+        "triggers": [
+          {
+            "id": "dative_verbs",
+            "title": "A. Động từ đi với Dativ",
+            "description": "Trong tiếng Đức, một số động từ là \"chỉ dùng Dativ\". Dù bản dịch tiếng Anh không có \"to\" hay \"for\", các động từ này ngụ ý sự tương tác với người.",
+            "subcategories": [
+              { "label": "Giao tiếp", "verbs": "danken (cảm ơn), helfen (giúp đỡ), gratulieren (chúc mừng)", "german": "Ich danke dir.", "translation": "Tôi cảm ơn bạn." },
+              { "label": "Ý kiến/Cảm xúc", "verbs": "gefallen (thích), gehören (thuộc về), passen (vừa vặn)", "german": "Das Auto gehört dem Mann.", "translation": "Chiếc xe thuộc về người đàn ông." }
+            ]
+          },
+          {
+            "id": "dative_prepositions",
+            "title": "B. Giới từ đi với Dativ",
+            "description": "Có nhóm giới từ luôn đòi hỏi Dativ, bất kể hành động là gì.",
+            "prepositions": ["aus (từ/ra khỏi)", "bei (ở/gần)", "mit (với)", "nach (sau/đến)", "seit (từ khi)", "von (từ/của)", "zu (đến)"],
+            "examples": [
+              { "german": "Ich gehe mit dem Hund spazieren.", "translation": "Tôi đi dạo với con chó." },
+              { "german": "Er wohnt bei seiner Tante.", "translation": "Anh ấy sống ở nhà dì." }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. Giới từ hai chiều (Wechselpräpositionen)",
+            "description": "Các giới từ này (in, an, auf, unter, über, vor, hinter, neben, zwischen) có thể là Dativ hoặc Akkusativ.",
+            "rule": "Dùng Dativ cho Vị trí (Wo?): Nếu vật ở yên một chỗ. Dùng Akkusativ cho Hướng (Wohin?): Nếu có sự di chuyển đến mục tiêu.",
+            "examples": [
+              { "german": "Das Buch liegt auf dem Tisch.", "translation": "Quyển sách nằm trên bàn — Tĩnh/Dativ." },
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "Tôi đặt sách lên bàn — Di chuyển/Akkusativ." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_example",
+      "title": "Ví dụ tổng kết",
+      "description": "Xem Akkusativ và Dativ hoạt động cùng nhau trong một câu:",
+      "content": {
+        "examples": [
+          {
+            "label": "Akkusativ (Tân ngữ trực tiếp)",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe einen Brief.", "translation": "Tôi viết gì? Một lá thư." },
+            "explanation": "\"Lá thư\" là vật bị tác động (Akkusativ)."
+          },
+          {
+            "label": "Dativ (Tân ngữ gián tiếp)",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe meinem Bruder einen Brief.", "translation": "Tôi viết cho ai? Anh trai." },
+            "explanation": "\"Anh trai\" là người nhận lợi ích (Dativ), trong khi \"lá thư\" vẫn là Akkusativ."
+          }
+        ]
+      }
+    }
+  ]
+}

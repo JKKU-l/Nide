@@ -1,0 +1,107 @@
+{
+  "title": "ĐỘNG TỪ TÌNH THÁI TRONG TIẾNG ĐỨC (MODALVERBEN)",
+  "subtitle": "Động từ tình thái (Modalverben) được sử dụng để thể hiện thái độ hoặc khả năng đối với hành động chính trong câu, chẳng hạn như khả năng, sự bắt buộc, sự cho phép hoặc mong muốn.",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Động từ tình thái là gì?",
+      "description": "Động từ tình thái (Modalverben) được sử dụng để thể hiện thái độ hoặc khả năng đối với hành động chính trong câu, chẳng hạn như khả năng, sự bắt buộc, sự cho phép hoặc mong muốn.",
+      "content": {
+        "modal_verbs_table": {
+          "headers": ["Động từ", "Ý nghĩa", "Cách sử dụng"],
+          "rows": [
+            ["können", "có thể", "Chỉ khả năng hoặc năng lực"],
+            ["müssen", "phải", "Chỉ sự bắt buộc hoặc cần thiết"],
+            ["wollen", "muốn (quyết tâm)", "Chỉ ý định hoặc mong muốn mạnh mẽ"],
+            ["möchten", "muốn (lịch sự)", "Chỉ mong muốn hoặc yêu cầu lịch sự"],
+            ["dürfen", "được phép", "Chỉ sự cho phép hoặc cấm đoán (khi dùng phủ định)"],
+            ["sollen", "nên", "Chỉ lời khuyên, nhiệm vụ hoặc yêu cầu từ người khác"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "conjugation_rules",
+      "title": "Quy tắc chia động từ (Conjugation)",
+      "description": "Có hai đặc điểm quan trọng cần ghi nhớ khi chia động từ tình thái:",
+      "content": {
+        "rules": [
+          "Biến đổi nguyên âm: Ở các ngôi số ít (ich, du, er/sie/es), nguyên âm chính thường thay đổi.",
+          "Ngôi thứ 1 và thứ 3 số ít: Cách chia của ich và er/sie/es luôn giống hệt nhau và không có đuôi động từ."
+        ],
+        "conjugation_table": {
+          "headers": ["Ngôi", "können", "müssen", "wollen", "dürfen"],
+          "rows": [
+            ["ich", "kann", "muss", "will", "darf"],
+            ["du", "kannst", "musst", "willst", "darfst"],
+            ["er/sie/es", "kann", "muss", "will", "darf"],
+            ["wir", "können", "müssen", "wollen", "dürfen"],
+            ["ihr", "könnt", "müsst", "wollt", "dürft"],
+            ["sie/Sie", "können", "müssen", "wollen", "dürfen"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "sentence_architecture",
+      "title": "Cấu trúc câu (Sentence Structure)",
+      "description": "Trong một câu tiếng Đức có động từ tình thái, quy tắc về vị trí rất nghiêm ngặt:",
+      "content": {
+        "structure": [
+          "Vị trí thứ 2: Động từ tình thái được chia theo chủ ngữ và đặt ở vị trí thứ 2.",
+          "Cuối câu: Động từ chính (hành động chính) giữ nguyên dạng nguyên thể (Infinitive) và đặt ở cuối câu.",
+          "Chủ ngữ + Động từ tình thái (chia) + ... + Động từ chính (nguyên thể ở cuối câu)"
+        ],
+        "formula": "Chủ ngữ + Động từ tình thái (chia) + ... + Động từ chính (nguyên thể ở cuối câu)"
+      }
+    },
+    {
+      "id": "usage_examples",
+      "title": "Ví dụ minh họa",
+      "description": "Các ví dụ sử dụng động từ tình thái trong câu:",
+      "content": {
+        "examples": [
+          {
+            "category": "Khả năng (können)",
+            "german": "Ich kann sehr gut Fußball spielen.",
+            "english": "Tôi có thể chơi bóng đá rất giỏi."
+          },
+          {
+            "category": "Sự bắt buộc (müssen)",
+            "german": "Du musst Hausaufgaben machen.",
+            "english": "Bạn phải làm bài tập về nhà."
+          },
+          {
+            "category": "Sự cho phép (dürfen)",
+            "german": "Hier darf man nicht rauchen.",
+            "english": "Không được phép hút thuốc ở đây."
+          },
+          {
+            "category": "Lời khuyên (sollen)",
+            "german": "Der Arzt sagt, ich soll im Bett bleiben.",
+            "english": "Bác sĩ nói tôi nên nằm nghỉ trên giường."
+          }
+        ]
+      }
+    },
+    {
+      "id": "advanced_note",
+      "title": "Lưu ý bổ sung: Lược bỏ động từ chính",
+      "description": "Trong văn nói, nếu ngữ cảnh đã rõ ràng (thường là các động từ chuyển động như đi, đến), động từ chính ở cuối câu có thể được lược bỏ.",
+      "content": {
+        "examples": [
+          {
+            "full": "Ich muss nach Hause gehen.",
+            "shortened": "Ich muss nach Hause.",
+            "english": "Lược bỏ \"gehen\""
+          },
+          {
+            "full": "Ich will ein Eis essen.",
+            "shortened": "Ich will ein Eis.",
+            "english": "Lược bỏ \"essen\""
+          }
+        ]
+      }
+    }
+  ]
+}

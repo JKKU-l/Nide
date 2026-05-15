@@ -1,0 +1,55 @@
+{
+  "title": "Food & Cooking",
+  "emoji": "🍳",
+  "theme_color": "#9C27B0",
+  "description": "Food, cooking, and kitchen vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "schneiden", "english": "to cut", "example_german": "Ich schneide das Brot in Scheiben.", "example_english": "I am cutting the bread into slices."},
+          {"german": "hacken", "english": "to chop", "example_german": "Kannst du bitte die Zwiebeln fein hacken?", "example_english": "Can you please chop the onions finely?"},
+          {"german": "schälen", "english": "to peel", "example_german": "Er schält die Kartoffeln für das Abendessen.", "example_english": "He is peeling the potatoes for dinner."},
+          {"german": "reiben", "english": "to grate", "example_german": "Wir reiben frischen Käse über die Pasta.", "example_english": "We are grating fresh cheese over the pasta."},
+          {"german": "mischen", "english": "to mix", "example_german": "Mischen Sie alle Zutaten in einer großen Schüssel.", "example_english": "Mix all ingredients in a large bowl."},
+          {"german": "rühren", "english": "to stir", "example_german": "Du musst die Suppe regelmäßig umrühren.", "example_english": "You have to stir the soup regularly."},
+          {"german": "kochen", "english": "to boil / to cook", "example_german": "Das Wasser kocht bereits.", "example_english": "The water is already boiling."},
+          {"german": "braten", "english": "to fry", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_english": "I am frying the meat in the pan."},
+          {"german": "backen", "english": "to bake", "example_german": "Am Wochenende backe ich einen Kuchen.", "example_english": "On the weekend, I am baking a cake."},
+          {"german": "grillen", "english": "to grill", "example_german": "Im Sommer grillen wir oft im Garten.", "example_english": "In summer, we often grill in the garden."},
+          {"german": "dämpfen", "english": "to steam", "example_german": "Gemüse ist gesünder, wenn man es dämpft.", "example_english": "Vegetables are healthier when you steam them."},
+          {"german": "frittieren", "english": "to deep fry", "example_german": "Die Pommes werden in heißem Öl frittiert.", "example_english": "The fries are deep fried in hot oil."},
+          {"german": "anbraten", "english": "to sear / brown", "example_german": "Zuerst muss man das Fleisch scharf anbraten.", "example_english": "First, you have to sear the meat quickly at high heat."},
+          {"german": "schmecken", "english": "to taste", "example_german": "Das Essen schmeckt wirklich hervorragend.", "example_english": "The food tastes really excellent."},
+          {"german": "probieren", "english": "to try / to taste", "example_german": "Möchtest du die Sauce mal probieren?", "example_english": "Would you like to taste the sauce?"},
+          {"german": "würzen", "english": "to season", "example_german": "Du solltest den Salat noch etwas würzen.", "example_english": "You should season the salad a bit more."},
+          {"german": "salzen", "english": "to salt", "example_german": "Ich habe vergessen, die Nudeln zu salzen.", "example_english": "I forgot to salt the pasta."},
+          {"german": "pfeffern", "english": "to pepper", "example_german": "Er pfeffert sein Steak sehr stark.", "example_english": "He peppers his steak very heavily."},
+          {"german": "marinieren", "english": "to marinate", "example_german": "Das Fleisch muss zwei Stunden marinieren.", "example_english": "The meat has to marinate for two hours."},
+          {"german": "einfrieren", "english": "to freeze", "example_german": "Wir frieren die Reste der Suppe ein.", "example_english": "We are freezing the leftovers of the soup."},
+          {"german": "auftauen", "english": "to defrost", "example_german": "Ich muss das Hähnchen vor dem Kochen auftauen.", "example_english": "I need to defrost the chicken before cooking."},
+          {"german": "servieren", "english": "to serve", "example_german": "Das Dessert wird mit Sahne serviert.", "example_english": "The dessert is served with whipped cream."},
+          {"german": "füllen", "english": "to fill", "example_german": "Sie füllt die Paprika mit Reis und Hackfleisch.", "example_english": "She fills the peppers with rice and minced meat."},
+          {"german": "gießen", "english": "to pour", "example_german": "Bitte gieß mir etwas Wasser ins Glas.", "example_english": "Please pour some water into my glass."},
+          {"german": "bestellen", "english": "to order", "example_german": "Wir bestellen uns heute eine Pizza.", "example_english": "We are ordering a pizza today."},
+          {"german": "bezahlen", "english": "to pay", "example_german": "Wir möchten bitte getrennt bezahlen.", "example_english": "We would like to pay separately, please."},
+          {"german": "reservieren", "english": "to reserve", "example_german": "Hast du einen Tisch im Restaurant reserviert?", "example_english": "Did you reserve a table at the restaurant?"},
+          {"german": "empfehlen", "english": "to recommend", "example_german": "Was können Sie uns heute empfehlen?", "example_english": "What can you recommend to us today?"},
+          {"german": "bringen", "english": "to bring", "example_german": "Der Kellner bringt uns die Speisekarte.", "example_english": "The waiter brings us the menu."},
+          {"german": "holen", "english": "to fetch / get", "example_german": "Ich hole nur kurz eine Flasche Wein aus dem Keller.", "example_english": "I'm just quickly getting a bottle of wine from the cellar."},
+          {"german": "kaufen", "english": "to buy", "example_german": "Wir müssen noch Brot für morgen kaufen.", "example_english": "We still have to buy bread for tomorrow."},
+          {"german": "finden", "english": "to find", "example_german": "Wo finde ich hier das Salz?", "example_english": "Where do I find the salt here?"},
+          {"german": "einpacken", "english": "to pack / wrap", "example_german": "Kann ich den Rest bitte einpacken lassen?", "example_english": "Can I have the rest wrapped up, please?"},
+          {"german": "auspacken", "english": "to unpack", "example_german": "Er packt die Einkäufe in der Küche aus.", "example_english": "He is unpacking the groceries in the kitchen."},
+          {"german": "spülen", "english": "to rinse / wash dishes", "example_german": "Ich muss noch das Geschirr spülen.", "example_english": "I still have to wash the dishes."},
+          {"german": "anrichten", "english": "to arrange / plate", "example_german": "Sie richtet den Salat hübsch auf dem Teller an.", "example_english": "She is arranging the salad nicely on the plate."},
+          {"german": "öffnen", "english": "to open", "example_german": "Kannst du bitte die Dose öffnen?", "example_english": "Can you please open the tin/can?"},
+          {"german": "schließen", "english": "to close", "example_german": "Bitte schließen Sie die Kühlschranktür.", "example_english": "Please close the refrigerator door."},
+          {"german": "wählen", "english": "to choose", "example_german": "Sie können zwischen Fisch und Fleisch wählen.", "example_english": "You can choose between fish and meat."},
+          {"german": "genießen", "english": "to enjoy", "example_german": "Wir genießen das gute Essen und den Wein.", "example_english": "We are enjoying the good food and the wine."}
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "category": "Adjectives",
+  "category_de": "Adjektive",
+  "icon": "🎨",
+  "words": [
+    {"de":"schön","word":"schön","article":"","en":"beautiful/nice","jp":"美しい","kr":"아름다운","my":"လှပသော","th":"สวย","vi":"đẹp","pronunciation":"/ʃøːn/","example_de":"Das Wetter ist heute schön.","example_en":"The weather is beautiful today."},
+    {"de":"schnell","word":"schnell","article":"","en":"fast","jp":"速い","kr":"빠른","my":"မြန်သော","th":"เร็ว","vi":"nhanh","pronunciation":"/ʃnɛl/","example_de":"Der Zug ist sehr schnell.","example_en":"The train is very fast."},
+    {"de":"langsam","word":"langsam","article":"","en":"slow","jp":"遅い","kr":"느린","my":"နှေးသော","th":"ช้า","vi":"chậm","pronunciation":"/ˈlaŋzaːm/","example_de":"Bitte sprechen Sie langsam.","example_en":"Please speak slowly."},
+    {"de":"glücklich","word":"glücklich","article":"","en":"happy","jp":"幸せな","kr":"행복한","my":"ပျော်ရွှင်သော","th":"มีความสุข","vi":"hạnh phúc","pronunciation":"/ˈɡlʏklɪç/","example_de":"Ich bin heute sehr glücklich.","example_en":"I am very happy today."},
+    {"de":"traurig","word":"traurig","article":"","en":"sad","jp":"悲しい","kr":"슬픈","my":"ဝမ်းနည်းသော","th":"เศร้า","vi":"buồn","pronunciation":"/ˈtʁaʊ̯ʁɪç/","example_de":"Warum bist du traurig?","example_en":"Why are you sad?"},
+    {"de":"groß","word":"groß","article":"","en":"big/tall","jp":"大きい/背が高い","kr":"큰/키가 큰","my":"ကြီးသော/ရှည်သော","th":"ใหญ่/สูง","vi":"lớn/cao","pronunciation":"/ɡʁoːs/","example_de":"Berlin ist eine große Stadt.","example_en":"Berlin is a big city."},
+    {"de":"klein","word":"klein","article":"","en":"small","jp":"小さい","kr":"작은","my":"သေးသော","th":"เล็ก","vi":"nhỏ","pronunciation":"/klaɪ̯n/","example_de":"Das Kind ist noch klein.","example_en":"The child is still small."},
+    {"de":"gut","word":"gut","article":"","en":"good","jp":"良い","kr":"좋은","my":"ကောင်းသော","th":"ดี","vi":"tốt","pronunciation":"/ɡuːt/","example_de":"Das Essen ist sehr gut.","example_en":"The food is very good."},
+    {"de":"schlecht","word":"schlecht","article":"","en":"bad","jp":"悪い","kr":"나쁜","my":"မကောင်းသော","th":"แย่","vi":"xấu","pronunciation":"/ʃlɛçt/","example_de":"Das Wetter ist schlecht.","example_en":"The weather is bad."},
+    {"de":"neu","word":"neu","article":"","en":"new","jp":"新しい","kr":"새로운","my":"အသစ်","th":"ใหม่","vi":"mới","pronunciation":"/nɔʏ̯/","example_de":"Ich habe ein neues Handy.","example_en":"I have a new phone."},
+    {"de":"alt","word":"alt","article":"","en":"old","jp":"古い/年をとった","kr":"오래된/늙은","my":"ဟောင်းသော/အသက်ကြီးသော","th":"เก่า/แก่","vi":"cũ/già","pronunciation":"/alt/","example_de":"Das Haus ist sehr alt.","example_en":"The house is very old."},
+    {"de":"freundlich","word":"freundlich","article":"","en":"friendly","jp":"親切な","kr":"친절한","my":"ဖော်ရွေသော","th":"เป็นมิตร","vi":"thân thiện","pronunciation":"/ˈfʁɔʏ̯ntlɪç/","example_de":"Die Leute hier sind sehr freundlich.","example_en":"The people here are very friendly."},
+    {"de":"interessant","word":"interessant","article":"","en":"interesting","jp":"面白い","kr":"흥미로운","my":"စိတ်ဝင်စားစရာ","th":"น่าสนใจ","vi":"thú vị","pronunciation":"/ɪntɛʁɛˈsant/","example_de":"Das Buch ist sehr interessant.","example_en":"The book is very interesting."},
+    {"de":"langweilig","word":"langweilig","article":"","en":"boring","jp":"退屈な","kr":"지루한","my":"ငြီးငွေ့စရာ","th":"น่าเบื่อ","vi":"nhàm chán","pronunciation":"/ˈlaŋvaɪ̯lɪç/","example_de":"Der Film war langweilig.","example_en":"The movie was boring."},
+    {"de":"gesund","word":"gesund","article":"","en":"healthy","jp":"健康な","kr":"건강한","my":"ကျန်းမာသော","th":"สุขภาพดี","vi":"khỏe mạnh","pronunciation":"/ɡəˈzʊnt/","example_de":"Obst essen ist gesund.","example_en":"Eating fruit is healthy."},
+    {"de":"krank","word":"krank","article":"","en":"sick","jp":"病気の","kr":"아픈","my":"ဖျားနာသော","th":"ป่วย","vi":"ốm","pronunciation":"/kʁaŋk/","example_de":"Ich bin krank und bleibe zu Hause.","example_en":"I am sick and stay at home."},
+    {"de":"fleißig","word":"fleißig","article":"","en":"hardworking","jp":"勤勉な","kr":"부지런한","my":"ကြိုးစားသော","th":"ขยัน","vi":"chăm chỉ","pronunciation":"/ˈflaɪ̯sɪç/","example_de":"Sie ist eine fleißige Studentin.","example_en":"She is a hardworking student."},
+    {"de":"müde","word":"müde","article":"","en":"tired","jp":"疲れた","kr":"피곤한","my":"ပင်ပန်းသော","th":"เหนื่อย","vi":"mệt","pronunciation":"/ˈmyːdə/","example_de":"Ich bin müde und gehe ins Bett.","example_en":"I am tired and go to bed."},
+    {"de":"hungrig","word":"hungrig","article":"","en":"hungry","jp":"お腹が空いた","kr":"배고픈","my":"ဆာလောင်သော","th":"หิว","vi":"đói","pronunciation":"/ˈhʊŋʁɪç/","example_de":"Ich bin hungrig. Lass uns essen!","example_en":"I am hungry. Let's eat!"},
+    {"de":"lecker","word":"lecker","article":"","en":"delicious","jp":"おいしい","kr":"맛있는","my":"အရသာရှိသော","th":"อร่อย","vi":"ngon","pronunciation":"/ˈlɛkɐ/","example_de":"Der Kuchen ist sehr lecker.","example_en":"The cake is very delicious."}
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "title": "Genitiv (소유격 / 2격)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "독일어 소유격(Genitiv)",
+      "description": "소유격은 주로 소유, 소유권, 또는 두 명사 간의 특정 관계를 나타내는 데 사용됩니다. 일상 대화에서는 여격(von 사용)으로 대체되는 경우가 많지만, 소유격은 공식 문서, 문학, 정확한 학술 언어에서 여전히 표준입니다."
+    },
+    {
+      "id": "core_function",
+      "title": "1. 핵심 기능: 소유 표현",
+      "description": "소유격은 \"Wessen?\" (누구의?)라는 질문에 답합니다. 두 번째 명사가 첫 번째 명사를 \"소유\"하는 방식으로 두 명사를 연결합니다.",
+      "content": {
+        "declension_table": {
+          "title": "소유격 격변화표",
+          "headers": ["성", "정관사", "부정/소유 관사", "명사 변화"],
+          "rows": [
+            { "category": "남성 명사", "definite": "des (des Vaters)", "indefinite": "eines / meines", "adjective": "-s 또는 -es 추가" },
+            { "category": "중성 명사", "definite": "des (des Kindes)", "indefinite": "eines / meines", "adjective": "-s 또는 -es 추가" },
+            { "category": "여성 명사", "definite": "der (der Mutter)", "indefinite": "einer / meiner", "adjective": "변화 없음" },
+            { "category": "복수", "definite": "der (der Eltern)", "indefinite": "meiner", "adjective": "변화 없음" }
+          ]
+        },
+        "key_rule": "남성 및 중성 명사는 1음절인 경우 보통 -es를 추가하고 (예: des Mannes), 다음절인 경우 -s만 추가합니다 (예: des Computers).",
+        "translations": [
+          { "label": "남성 명사", "german": "Das Auto des Vaters.", "translation": "아버지의 차." },
+          { "label": "여성 명사", "german": "Die Farbe einer Blume.", "translation": "꽃의 색." }
+        ]
+      }
+    },
+    {
+      "id": "prepositions",
+      "title": "2. 전치사와의 사용",
+      "description": "특정 전치사가 소유격을 \"유발\"합니다. 이 단어들을 사용할 때 뒤따르는 명사는 소유격 형태여야 합니다.",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_prepositions",
+            "title": "일반적인 소유격 전치사",
+            "description": "이 전치사들은 항상 소유격을 필요로 합니다:",
+            "prepositions": ["trotz (~에도 불구하고)", "während (~동안)", "wegen (~때문에)", "außerhalb (~의 바깥)", "innerhalb (~의 안쪽)"],
+            "examples": [
+              { "german": "Trotz des Regens gehen wir spazieren.", "translation": "비에도 불구하고 우리는 산책합니다." },
+              { "german": "Während der Fahrt schläft er.", "translation": "여행 중에 그는 잡니다." },
+              { "german": "Wegen des Wetters bleiben wir zu Hause.", "translation": "날씨 때문에 우리는 집에 있습니다." },
+              { "german": "Außerhalb der Stadt.", "translation": "도시 밖." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "verbs_adjectives",
+      "title": "3. 동사와 형용사와의 사용",
+      "description": "현대 일상어에서는 덜 흔하지만, 몇몇 고급 동사와 형용사가 소유격을 필요로 합니다.",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_verbs",
+            "title": "동사",
+            "description": "이 동사들은 법적 행위나 내면의 성찰을 설명합니다.",
+            "subcategories": [
+              { "label": "Anklagen (~로 고발하다)", "verbs": "", "german": "Man klagte ihn des Mordes an.", "translation": "그들은 그를 살인으로 고발했습니다." },
+              { "label": "Gedenken (추모하다)", "verbs": "", "german": "Wir gedenken der Toten.", "translation": "우리는 죽은 이들을 추모합니다." },
+              { "label": "Sich schämen (~을 부끄러워하다)", "verbs": "", "german": "Er schämt sich seines Fehlers.", "translation": "그는 자신의 실수를 부끄러워합니다." }
+            ]
+          },
+          {
+            "id": "genitive_adjectives",
+            "title": "형용사",
+            "description": "이 형용사들은 소유격을 필요로 합니다:",
+            "subcategories": [
+              { "label": "Würdig (~에 합당한)", "verbs": "", "german": "Das ist eines Königs würdig.", "translation": "그것은 왕에게 합당합니다." },
+              { "label": "Sicher (~을 확신하는)", "verbs": "", "german": "Ich bin mir meiner Sache sicher.", "translation": "나는 내 주장을 확신합니다." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "possessive_pronouns",
+      "title": "4. 소유격의 소유 대명사",
+      "description": "소유 대명사(나의, 너의, 그의)를 소유격에서 독립적 수식어로 사용할 때, 부정관사와 같은 어미를 따릅니다.",
+      "content": {
+        "determiners": ["남성/중성 어미: -es (meines, deines, seines)", "여성/복수 어미: -er (meiner, deiner, ihrer)"],
+        "example": {
+          "german": "Wegen meines Bruders.",
+          "translation": "형제 때문에.",
+          "note": "또 다른 예: Inmitten unserer Freunde. (친구들 한가운데에서.)"
+        }
+      }
+    },
+    {
+      "id": "adjective_declension",
+      "title": "5. 소유격의 형용사 격변화",
+      "description": "소유격에서 관사와 명사 사이에 형용사가 있으면, 거의 항상 -en으로 끝납니다.",
+      "content": {
+        "translations": [
+          { "label": "관사 있음", "german": "Das Haus des alten Mannes.", "translation": "늙은 남자의 집." },
+          { "label": "관사 없음 (신선한 커피)", "german": "Der Duft frischen Kaffees.", "translation": "신선한 커피의 향. (형용사가 관사가 가졌을 어미를 취합니다.)" },
+          { "label": "관사 없음 (친절한 부모)", "german": "Die Hilfe netter Eltern.", "translation": "친절한 부모의 도움." }
+        ],
+        "key_rule": "관사가 있으면 형용사는 항상 -en으로 끝납니다. 관사가 없으면 (복수 명사나 추상 개념 등) 형용사가 관사가 가졌을 어미를 취합니다."
+      }
+    }
+  ]
+}

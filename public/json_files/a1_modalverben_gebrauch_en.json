@@ -1,0 +1,125 @@
+{
+  "title": "Kann ich oder muss ich? (Can I or must I? - Modal Verbs: Usage)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Introduction to Modal Verbs Usage",
+      "description": "In German, modal verbs usually appear in the second position of a sentence, while the main action (the infinitive) is pushed to the very end.",
+      "content": {
+        "description": "Modal verbs modify the meaning of the main verb in a sentence, expressing attitudes like necessity, ability, permission, or desire."
+      }
+    },
+    {
+      "id": "müssen_usage",
+      "title": "müssen (Must / To have to)",
+      "description": "Expresses a necessity or an obligation where there is no alternative.",
+      "content": {
+        "grammar_note": "It is a \"strong\" obligation. If you don't do it, there are consequences.",
+        "examples": [
+          "Ich muss arbeiten. (I must work.)",
+          "Ich muss auf die Toilette (gehen). (I must go to the toilet.)"
+        ]
+      }
+    },
+    {
+      "id": "können_usage",
+      "title": "können (Can / To be able to)",
+      "description": "This verb is versatile and has three primary uses:",
+      "content": {
+        "uses": [
+          "Ability/Skill: Something you have learned.",
+          "Possibility: A chance or opportunity exists.",
+          "Permission (Informal): It isn't forbidden (similar to dürfen)."
+        ],
+        "examples": [
+          "Ich kann Englisch (sprechen). (I can speak English.)",
+          "Hier kann man essen und trinken. (One can eat and drink here.)",
+          "Hier kann man parken. (One can park here.)"
+        ]
+      }
+    },
+    {
+      "id": "dürfen_usage",
+      "title": "dürfen / nicht dürfen (May / Must not)",
+      "description": "dürfen: Expresses permission (It is allowed). nicht dürfen: Expresses a prohibition (It is forbidden).",
+      "content": {
+        "exception_note": "In English, \"must not\" means prohibition. In German, \"muss nicht\" means \"don't have to\" (optional), while \"darf nicht\" is the strict prohibition.",
+        "examples": [
+          "Heute dürfen meine Kinder fernsehen. (Today my children are allowed to watch TV.)",
+          "Hier dürfen Sie nicht rauchen. (You are not allowed to smoke here.)"
+        ]
+      }
+    },
+    {
+      "id": "möchten_usage",
+      "title": "möchten (Would like)",
+      "description": "A polite wish or request.",
+      "content": {
+        "grammar_note": "Technically, this is the subjunctive (Konjunktiv II) form of mögen, but it is used as its own modal verb in daily life.",
+        "examples": [
+          "Ich möchte einen Kaffee (trinken), bitte. (I would like to drink a coffee, please.)"
+        ]
+      }
+    },
+    {
+      "id": "wollen_usage",
+      "title": "wollen (Want)",
+      "description": "A direct, strong wish or intention.",
+      "content": {
+        "usage_note": "Using wollen with people can sound rude or demanding. Use möchten for politeness.",
+        "examples": [
+          "Ich will gerne Ski-Urlaub machen. (I want to go on a skiing holiday.)"
+        ]
+      }
+    },
+    {
+      "id": "sollen_usage",
+      "title": "sollen (Should / Ought to)",
+      "description": "This verb is often used when a requirement comes from an external source.",
+      "content": {
+        "uses": [
+          "Suggestions/Questions: Asking for someone's preference.",
+          "Reporting an order: Repeating what someone else (like a doctor or boss) told you to do."
+        ],
+        "examples": [
+          "Soll ich dir einen Kaffee machen? (Should I make you a coffee?)",
+          "Der Arzt sagt, ich soll die Tabletten nehmen. (The doctor says I should/am supposed to take the pills.)"
+        ]
+      }
+    },
+    {
+      "id": "summary_table",
+      "title": "Summary Table of Usage",
+      "description": "Quick reference for modal verb usage contexts and English equivalents.",
+      "content": {
+        "usage_table": {
+          "headers": ["Modal Verb", "Context", "English Equivalent"],
+          "rows": [
+            ["müssen", "Necessity / Obligation", "Must / Have to"],
+            ["können", "Ability / Possibility", "Can / To be able to"],
+            ["dürfen", "Permission", "May / To be allowed to"],
+            ["nicht dürfen", "Prohibition", "Must not / Not allowed"],
+            ["möchten", "Polite desire", "Would like"],
+            ["wollen", "Strong intention", "Want"],
+            ["sollen", "Duty / Recommendation", "Should / Supposed to"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "grammar_tips",
+      "title": "Grammar & Sentence Structure Tips",
+      "description": "Important grammar rules and sentence structure patterns for modal verbs.",
+      "content": {
+        "tips": [
+          "The \"Verb Sandwich\": The modal verb is conjugated and sits in the second position. The second verb stays in its basic (infinitive) form and sits at the very end.",
+          "Example: Ich kann heute nicht kommen. (I cannot come today.)",
+          "Dropping the Main Verb: In German, if the meaning is clear (usually with verbs of motion like \"to go\" or \"to do\"), you can drop the main verb at the end.",
+          "Example: Ich muss nach Hause (gehen). -> Ich muss nach Hause.",
+          "Vowel Shifts: Most modal verbs change their stem vowel in the singular forms (ich, du, er/sie/es).",
+          "Example: können becomes ich kann; müssen becomes ich muss."
+        ]
+      }
+    }
+  ]
+}

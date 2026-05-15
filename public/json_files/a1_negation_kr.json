@@ -1,0 +1,158 @@
+{
+  "title": "Negation (부정 표현)",
+  "sections": [
+    {
+      "id": "using_kein",
+      "title": "1. \"kein\" 사용하기 (명사 부정어)",
+      "description": "kein은 부정관사(ein/eine)의 부정형이라고 생각하면 쉽습니다. 주로 부정관사가 붙는 명사나, 관사가 아예 없는 명사를 부정할 때 사용합니다.",
+      "content": {
+        "how_to_use": {
+          "title": "사용법:",
+          "rules": [
+            {
+              "rule": "부정관사가 있는 명사와 함께: \"나는 책이 한 권 있다\"(Ich habe ein Buch)라고 한다면, 부정형은 \"나는 책이 (한 권도) 없다\"(Ich habe kein Buch)가 됩니다."
+            },
+            {
+              "rule": "셀 수 없는 명사와 함께: 시간이나 허기처럼 셀 수 없는 개념에 사용합니다. \"나는 시간이 없다\"는 Ich habe keine Zeit가 됩니다."
+            },
+            {
+              "rule": "복수 명사: \"ein\"은 복수형이 없지만, 복수형 명사를 부정할 때는 keine를 사용합니다. \"나는 아이들이 없다\"는 Ich habe keine Kinder입니다."
+            }
+          ]
+        },
+        "examples": [
+          {
+            "context": "상황: 누군가 사과를 건넸지만, 사실 그것은 배일 때:",
+            "example": "Das ist kein Apfel.",
+            "translation": "이것은 사과가 아닙니다."
+          },
+          {
+            "context": "상황: 가족 관계에 대해 말할 때:",
+            "example": "Ich habe keine Geschwister.",
+            "translation": "저는 형제자매가 없습니다."
+          },
+          {
+            "context": "상황: 장을 볼 때:",
+            "example": "Ich kaufe kein Brot.",
+            "translation": "저는 빵을 사지 않습니다."
+          }
+        ]
+      }
+    },
+    {
+      "id": "using_nicht",
+      "title": "2. \"nicht\" 사용하기 (일반 부정어)",
+      "description": "nicht는 훨씬 더 다재다능합니다. 동사, 형용사, 부사, 대명사, 그리고 정관사(der/die/das)나 소유 대명사(mein/dein)가 붙은 명사를 부정할 때 사용합니다.",
+      "content": {
+        "how_to_use": {
+          "title": "사용법:",
+          "rules": [
+            {
+              "rule": "동사 부정: 보통 평서문의 끝에 위치합니다. \"나는 가지 않는다\"는 Ich komme nicht입니다."
+            },
+            {
+              "rule": "형용사 부정: \"나는 행복하지 않다\"는 Ich bin nicht glücklich입니다."
+            },
+            {
+              "rule": "특정 명사 부정: 명사에 '그'(der/die/das)나 '나의'(mein) 같은 수식어가 붙어 있다면 nicht를 사용합니다. \"그 애는 내 아이가 아니다\"는 Das ist nicht mein Kind입니다."
+            },
+            {
+              "rule": "장소/전치사구 부정: \"나는 베를린에 살지 않는다\"는 Ich wohne nicht in Berlin입니다."
+            }
+          ]
+        },
+        "examples": [
+          {
+            "context": "상황: 나이에 대해 말할 때:",
+            "example": "Ich bin nicht 23 Jahre alt.",
+            "translation": "저는 23살이 아닙니다."
+          },
+          {
+            "context": "상황: 출신이나 거주지를 말할 때:",
+            "example": "Ich komme nicht aus Sri Lanka.",
+            "translation": "저는 스리랑카 출신이 아닙니다."
+          },
+          {
+            "context": "상황: 능력에 대해 말할 때:",
+            "example": "Ich kann nicht kochen.",
+            "translation": "저는 요리를 못 합니다."
+          }
+        ]
+      }
+    },
+    {
+      "id": "other_negation_words",
+      "title": "3. 기타 부정어 (반대말)",
+      "description": "독일어에는 긍정과 부정 상태를 나타내는 특정한 단어 쌍이 있습니다.",
+      "content": {
+        "opposites": [
+          {
+            "category": "항상 vs 결코 ~않다 (Always vs. Never)",
+            "positive": "immer (항상) -> Ich esse immer Brot.",
+            "negative": "nie (결코 ~않다) -> Ich esse nie Brot."
+          },
+          {
+            "category": "모두 vs 아무도 ~않다 (Everyone vs. No one)",
+            "positive": "alle (모두) -> Ich kenne alle.",
+            "negative": "niemand (아무도 ~않다) -> Ich kenne niemand."
+          },
+          {
+            "category": "무언가 vs 아무것도 ~않다 (Something vs. Nothing)",
+            "positive": "etwas/alles (무언가/모든 것) -> Isst du etwas?",
+            "negative": "nichts (아무것도 ~않다) -> Ich esse nichts."
+          },
+          {
+            "category": "아직 vs 더 이상 ~않다 (Still vs. No longer)",
+            "positive": "noch (아직) -> Ich bin noch jung. (나는 아직 젊다.)",
+            "negative": "nicht mehr (더 이상 ~않다) -> Ich bin nicht mehr jung. (나는 더 이상 젊지 않다.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_use_one_over_other",
+      "title": "4. 왜 하나를 선택해서 사용하나요?",
+      "description": "\"왜\"에 대한 답은 당신이 무엇을 \"취소(부정)\"하려고 하는지에 달려 있습니다.",
+      "content": {
+        "explanation": [
+          {
+            "type": "존재 취소 (kein)",
+            "description": "어떤 대상(명사)의 존재 자체를 부정한다면 kein을 사용합니다. 이는 \"수량이 0개임\"을 나타냅니다.",
+            "example": "Ich habe kein Geld. (나는 돈이 [한 푼도] 없다.)"
+          },
+          {
+            "type": "사실 취소 (nicht)",
+            "description": "사실, 동작, 또는 묘사를 부정한다면 nicht를 사용합니다.",
+            "example": "Das Geld ist nicht hier. (그 돈은 여기 없다 — 돈이라는 존재가 없다는 말이 아니라, 그것이 '여기에 있다'는 사실이 틀렸다는 뜻입니다.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_usage_logic",
+      "title": "5. 사용 논리 요약",
+      "description": "어떤 부정어를 사용할지 빠르게 결정하는 가이드:",
+      "content": {
+        "rules": [
+          {
+            "question": "명사가 있나요?",
+            "yes_indefinite": "예, 그리고 '하나의(a/an)'가 붙거나 관사가 없다면: kein을 사용하세요.",
+            "yes_definite": "예, 하지만 '그(the)'나 '나의/너의'가 붙어 있다면: nicht를 사용하세요."
+          },
+          {
+            "question": "동사, 형용사, 혹은 이름인가요?",
+            "answer": "nicht를 사용하세요."
+          },
+          {
+            "question": "\"더 이상 ~가 아니다\"라고 말하고 싶나요?",
+            "answer": "nicht mehr를 사용하세요."
+          },
+          {
+            "question": "\"결코 ~않다\"라고 말하고 싶나요?",
+            "answer": "nie를 사용하세요."
+          }
+        ]
+      }
+    }
+  ]
+}

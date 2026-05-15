@@ -1,0 +1,133 @@
+{
+  "title": "Fragen mit Fragewort (W-Questions)",
+  "sections": [
+    {
+      "id": "sentence_structure",
+      "title": "Part 1: Sentence Structure (The W-Question Rule)",
+      "description": "In German, when you ask a question using a question word (like Who, What, Where), the structure is very strict. This is often called the V2 Rule because the verb must always be in the second position.",
+      "content": {
+        "wh_position_table": {
+          "title": "W-Question Position Chart",
+          "headers": ["Position 1: Question Word", "Position 2: Verb", "Position 3: Subject", "Rest of Sentence"],
+          "rows": [
+            ["Wie (How)", "heißen", "Sie", "?"],
+            ["Wo (Where)", "ist", "er", "?"],
+            ["Woher (From where)", "kommt", "er", "?"],
+            ["Was (What)", "hat", "er", "gemacht?"]
+          ]
+        },
+        "key_rule": "Key Rule: The question word always starts with the letter \"w\" and sits at Position 1. The conjugated verb follows immediately at Position 2."
+      }
+    },
+    {
+      "id": "common_w_words",
+      "title": "Part 2: Common W-Words and Their Usage",
+      "description": "Here is a breakdown of the most common question words, how to use them, and why they are chosen.",
+      "content": {
+        "categories": [
+          {
+            "category": "1. Wer vs. Wen vs. Wem (Who)",
+            "description": "German changes the word for \"who\" depending on the grammatical case (Subject, Direct Object, or Indirect Object).",
+            "table": {
+              "headers": ["Form", "Case", "Usage", "Example Question", "Example Answer"],
+              "rows": [
+                ["Wer?", "Nominative - Subject", "Used to identify a person", "Wer ist das? (Who is that?)", "Das ist mein Mann."],
+                ["Wen?", "Accusative - Direct Object", "Used when the person is the receiver of an action", "Wen suchst du? (Whom are you looking for?)", "Den Lehrer."],
+                ["Mit wem?", "Dative - With whom", "Used after prepositions like \"mit\"", "Mit wem gehst du? (With whom are you going?)", "Mit einem Freund."]
+              ]
+            }
+          },
+          {
+            "category": "2. Wo vs. Woher vs. Wohin (Location)",
+            "description": "German distinguishes between being stationary, coming from somewhere, or moving toward a destination.",
+            "table": {
+              "headers": ["Form", "Meaning", "Usage", "Example Question", "Example Answer"],
+              "rows": [
+                ["Wo?", "Location", "Asks about a static place", "Wo wohnen Sie? (Where do you live?)", "In Berlin."],
+                ["Woher?", "Origin", "Asks about where someone/something comes from", "Woher kommen Sie? (Where are you from?)", "Aus China."],
+                ["Wohin?", "Direction", "Asks about the destination or where someone is going", "Wohin gehen Sie? (Where are you going to?)", "Ins Kino."]
+              ]
+            }
+          },
+          {
+            "category": "3. Was (What)",
+            "description": "Used for objects, things, or activities.",
+            "examples": [
+              {
+                "question": "Was ist das? (What is that?)",
+                "answer": "Das ist mein Handy."
+              },
+              {
+                "question": "Was sind Sie von Beruf? (What is your profession?)",
+                "answer": "Friseur."
+              }
+            ]
+          },
+          {
+            "category": "4. Wie (How)",
+            "description": "Used for names, descriptions, or characteristics.",
+            "examples": [
+              {
+                "question": "Wie heißen Sie? (What/How are you named?)",
+                "answer": "Edith Müller."
+              },
+              {
+                "question": "Wie alt ist er? (How old is he?)",
+                "answer": "5 Jahre."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "advanced_w_words",
+      "title": "Part 3: Advanced W-Words",
+      "description": "More complex question words for specific contexts.",
+      "content": {
+        "categories": [
+          {
+            "category": "Why and When",
+            "table": {
+              "headers": ["Question Word", "Meaning", "Usage", "Example Question", "Example Answer"],
+              "rows": [
+                ["Warum?", "Why", "Asks for a reason. The answer usually starts with Weil (because).", "Warum kommst du spät? (Why are you coming late?)", "Weil der Zug Verspätung hat."],
+                ["Wann?", "When", "Asks about time in general.", "Wann beginnt der Film? (When does the film start?)", "Um acht."]
+              ]
+            }
+          },
+          {
+            "category": "Quantity",
+            "table": {
+              "headers": ["Question Word", "Meaning", "Usage", "Example Question", "Example Answer"],
+              "rows": [
+                ["Wie viel?", "How much", "Used for uncountable things or prices.", "Wie viel kostet das? (How much does that cost?)", "3,50 Euro."],
+                ["Wie viele?", "How many", "Used for countable plural items.", "Wie viele Kinder haben Sie? (How many children do you have?)", "Fünf."]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Summary Table for Students",
+      "description": "Quick reference guide for all W-question words:",
+      "content": {
+        "summary_table": {
+          "headers": ["German Word", "English Meaning", "Usage Tip"],
+          "rows": [
+            ["Wer", "Who", "Use for the subject (the person doing the action)."],
+            ["Was", "What", "Use for things or actions."],
+            ["Wo", "Where", "Use for a fixed location (no movement)."],
+            ["Woher", "From where", "Use with the verb \"kommen\"."],
+            ["Wohin", "Where to", "Use with verbs of movement like \"gehen\" or \"fahren\"."],
+            ["Wie", "How", "Use for names, age, or \"How is...\"."],
+            ["Wann", "When", "Use for time or dates."],
+            ["Warum", "Why", "Use to ask for a reason or cause."]
+          ]
+        }
+      }
+    }
+  ]
+}

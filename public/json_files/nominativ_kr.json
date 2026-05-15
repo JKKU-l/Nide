@@ -1,0 +1,83 @@
+{
+  "title": "Nominativ (주격 / 1격)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "주격(Nominativ)이란?",
+      "description": "독일어에서 주격(Nominativ)은 \"이름을 붙이는\" 격입니다. 동사의 작용에 의해 역할이 바뀌기 전, 단어의 기본 설정이라고 생각하세요. 주로 문장의 주어에 사용됩니다."
+    },
+    {
+      "id": "articles_adjectives_nouns",
+      "title": "1. 관사, 형용사, 명사",
+      "description": "형용사의 어미는 정관사(the), 부정관사(a), 또는 관사가 없는 경우에 따라 달라집니다. 이것을 형용사 격변화라고 합니다.",
+      "content": {
+        "declension_table": {
+          "title": "격변화표",
+          "headers": ["분류", "정관사 (the)", "부정관사 (a/my/no)", "관사 없음"],
+          "rows": [
+            { "category": "남성 명사", "definite": "der nette Vater", "indefinite": "ein netter Vater", "no_article": "netter Vater" },
+            { "category": "여성 명사", "definite": "die nette Mutter", "indefinite": "eine nette Mutter", "no_article": "nette Mutter" },
+            { "category": "중성 명사", "definite": "das nette Kind", "indefinite": "ein nettes Kind", "no_article": "nettes Kind" },
+            { "category": "복수", "definite": "die netten Eltern", "indefinite": "meine netten Eltern", "no_article": "nette Eltern" }
+          ]
+        },
+        "translations": [
+          { "label": "남성 명사", "german": "Der nette Vater ist hier.", "translation": "착한 아버지가 여기에 있습니다." },
+          { "label": "여성 명사", "german": "Eine nette Mutter hilft.", "translation": "착한 어머니가 도와줍니다." },
+          { "label": "중성 명사", "german": "Nettes Kind, komm her!", "translation": "착한 아이야, 이리 와! (관사 없이 직접 부를 때 사용)" }
+        ],
+        "key_rule": "정관사(der/die/das)가 이미 성을 나타내면 형용사는 -e로 끝납니다(복수 제외). ein처럼 성을 나타내는 관사가 없으면 형용사가 성 표지를 담당합니다(예: ein netter Vater)."
+      }
+    },
+    {
+      "id": "special_determiners",
+      "title": "2. 특수 한정사",
+      "description": "특정 단어들은 정관사(der/die/das)와 같은 역할을 합니다. 이 단어들을 사용하면 형용사는 -e(단수) 또는 -en(복수)으로 끝납니다.",
+      "content": {
+        "determiners": ["dieser (이것)", "jener (저것)", "jeder (모든)", "alle (전부)"],
+        "example": { "german": "Jeder gute Schüler lernt.", "translation": "모든 착한 학생은 배웁니다.", "note": "Jeder는 der처럼 작용하므로 gut에는 -e만 붙습니다." }
+      }
+    },
+    {
+      "id": "pronouns",
+      "title": "3. 대명사",
+      "description": "대명사는 명사를 대신합니다. 주격에서는 주어를 나타냅니다.",
+      "content": {
+        "personal_pronouns": {
+          "title": "인칭 대명사 (\"누가\")",
+          "description": "문장의 기본 주어입니다:",
+          "singular": ["ich (나)", "du (너)", "er/sie/es (그/그녀/그것)"],
+          "plural": ["wir (우리)", "ihr (너희)", "sie/Sie (그들/당신)"]
+        },
+        "possessive_pronouns": {
+          "title": "소유 대명사 (\"누구의\")",
+          "description": "두 가지 유형이 있습니다:",
+          "dependent": { "label": "의존적 용법", "explanation": "명사 앞에 사용합니다.", "german": "Mein Hund ist groß.", "translation": "나의 개는 큽니다." },
+          "independent": { "label": "독립적 용법", "explanation": "단독으로 사용합니다.", "german": "Der Hund ist meiner.", "translation": "그 개는 내 것입니다." },
+          "comparison_table": {
+            "title": "독립 소유 대명사 비교",
+            "headers": ["인칭", "남성 (내 것)", "중성 (내 것)", "여성/복수 (내 것)"],
+            "rows": [
+              { "person": "1인칭 (나)", "masculine": "meiner", "neuter": "meins", "fem_plural": "meine" },
+              { "person": "2인칭 (너)", "masculine": "deiner", "neuter": "deins", "fem_plural": "deine" },
+              { "person": "3인칭 (그)", "masculine": "seiner", "neuter": "seins", "fem_plural": "seine" }
+            ]
+          },
+          "example_dialogue": { "question": "\"그 공은 누구 것이야?\" → \"내 것이야.\"", "german": "\"Wessen Ball ist das?\" → \"Es ist meiner.\"", "note": "Ball은 남성 명사이기 때문입니다." }
+        }
+      }
+    },
+    {
+      "id": "summary",
+      "title": "사용법 요약",
+      "description": "주격을 사용하는 경우:",
+      "content": {
+        "rules": [
+          { "rule": "명사가 주어일 때", "german": "Der Hund bellt.", "translation": "개가 짖습니다." },
+          { "rule": "동사 \"sein\" 뒤에", "german": "Er ist ein guter Mann.", "translation": "그는 좋은 사람입니다." }
+        ],
+        "note": "독일어에서 \"sein\"은 등호(A = B)처럼 작용하므로 양쪽 모두 주격이 됩니다."
+      }
+    }
+  ]
+}

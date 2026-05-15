@@ -1,0 +1,159 @@
+{
+  "title": "관사 (정관사·부정관사·무관사)",
+  "sections": [
+    {
+      "id": "indefinite_articles",
+      "title": "1. 부정관사 (Indefinitar Artikel)",
+      "description": "대상을 처음으로 소개하거나, 정해지지 않은 \"하나\"를 가리킬 때 사용합니다. 영어의 \"a/an\"과 같습니다.",
+      "content": {
+        "examples_table": {
+          "headers": ["성 (Gender)", "주격 (Nominative - 은/는/이/가)", "목적격 (Accusative - 을/를)"],
+          "rows": [
+            ["남성 (Masculine)", "ein Mann (한 남자)", "einen Kaffee (커피 한 잔을)"],
+            ["중성 (Neutral)", "ein Haus (한 집)", "ein Brötchen (빵 하나를)"],
+            ["여성 (Feminine)", "eine Frau (한 여자)", "eine Banane (바나나 하나를)"],
+            ["복수 (Plural)", "(관사 없음) Autos (자동차들)", "(관사 없음) Kartoffeln (감자들을)"]
+          ]
+        },
+        "why_use_them": {
+          "title": "왜 사용하나요?",
+          "rules": [
+            {
+              "rule": "주격: 문장의 주어이거나 sein (~이다) 동사 뒤에 올 때 사용합니다.",
+              "example": "Das ist ein Stuhl. (이것은 의자이다.)"
+            },
+            {
+              "rule": "목적격: 동작의 직접적인 대상(~을/를)일 때 사용합니다. 주의: 남성 명사의 관사만 ein에서 einen으로 바뀝니다.",
+              "example": "Ich möchte einen Kaffee. (나는 커피 한 잔을 원해요.)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "definite_articles",
+      "title": "2. 정관사 (Definiter Artikel)",
+      "description": "이미 언급된 특정 대상을 다시 가리키거나, 대화 상대가 이미 알고 있는 대상을 말할 때 사용합니다. 영어의 \"the\"와 같습니다.",
+      "content": {
+        "examples_table": {
+          "headers": ["성 (Gender)", "주격 (Nominative)", "목적격 (Accusative)"],
+          "rows": [
+            ["남성 (Masculine)", "der Mann (그 남자)", "den Kaffee (그 커피를)"],
+            ["중성 (Neutral)", "das Haus (그 집)", "das Brötchen (그 빵을)"],
+            ["여성 (Feminine)", "die Frau (그 여자)", "die Banane (그 바나나를)"],
+            ["복수 (Plural)", "die Autos (그 자동차들)", "die Kartoffeln (그 감자들을)"]
+          ]
+        },
+        "why_use_them": {
+          "title": "왜 사용하나요?",
+          "rules": [
+            {
+              "rule": "특정 대상 식별: 일단 \"어떤 의자(ein Stuhl)\"라고 소개한 뒤에는 \"그 의자(der Stuhl)\"가 됩니다.",
+              "example": "Das ist ein Laptop. Der Laptop ist gut. (이것은 노트북입니다. 그 노트북은 성능이 좋아요.)"
+            },
+            {
+              "rule": "목적격 변화: 부정관사와 마찬가지로 남성형만 der에서 den으로 바뀝니다.",
+              "example": "Ich finde den Rock schön. (나는 그 치마가 예쁘다고 생각해요.)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zero_article",
+      "title": "3. 무관사 (Kein Artikel)",
+      "description": "독일어 문장에서 관사를 아예 쓰지 않는 경우입니다.",
+      "content": {
+        "key_rules": [
+          {
+            "category": "셀 수 없는 것",
+            "description": "시간, 운, 돈, 배고픔 등 수량화할 수 없는 추상적 개념.",
+            "examples": [
+              "Ich habe Zeit. (나는 시간이 있어요.) — \"a time\"이라고 하지 않습니다",
+              "Er hat Glück. (그는 운이 좋아요.)"
+            ]
+          },
+          {
+            "category": "직업",
+            "description": "자신의 직업을 말할 때.",
+            "examples": [
+              "Ich bin Pilotin. (나는 조종사입니다.) — 영어로는 \"a pilot\"이라고 하지만, 독일어에서는 관사를 생략합니다."
+            ]
+          },
+          {
+            "category": "일반적인 복수형",
+            "description": "일반적인 의미의 여러 대상을 말할 때.",
+            "examples": [
+              "Das sind Blumen. (이것들은 꽃입니다.)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_application",
+      "title": "4. 실전 활용 (연습문제 응용)",
+      "description": "실제 사용에서 관사는 어떻게 변할까",
+      "content": {
+        "transitioning": {
+          "title": "부정관사에서 정관사로의 전환",
+          "description": "사물을 묘사할 때 보통 다음 패턴을 따릅니다:",
+          "steps": [
+            "소개: Das ist + 부정관사 (ein/eine).",
+            "묘사: 정관사 (der/die/das) + 형용사."
+          ],
+          "examples": [
+            {
+              "gender": "남성",
+              "introduce": "Das ist ein Laptop.",
+              "describe": "Der Laptop ist gut."
+            },
+            {
+              "gender": "여성",
+              "introduce": "Das ist eine Vase.",
+              "describe": "Die Vase ist schön."
+            },
+            {
+              "gender": "중성",
+              "introduce": "Das ist ein Bild.",
+              "describe": "Das Bild ist teuer."
+            }
+          ]
+        },
+        "accusative_questions": {
+          "title": "질문에서의 목적격 (Accusative)",
+          "description": "~을 가지고 있니? (Hast du...?)라고 물을 때, 묻고자 하는 대상은 목적격이 됩니다.",
+          "examples": [
+            {
+              "gender": "남성",
+              "example": "Hast du einen Kuli?",
+              "note": "볼펜 있어? — Kuli가 남성형이고 목적어이기 때문에 -en이 붙습니다."
+            },
+            {
+              "gender": "여성",
+              "example": "Hast du eine Uhr?",
+              "note": "시계 있어? — 변화 없음"
+            },
+            {
+              "gender": "중성",
+              "example": "Hast du ein Handy?",
+              "note": "휴대폰 있어? — 변화 없음"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "narrative_usage",
+      "title": "5. 이야기 속의 활용 (동화 예시)",
+      "description": "이야기가 진행됨에 따라 관사가 어떻게 변하는지 보세요:",
+      "content": {
+        "example": {
+          "introduction": "Es war einmal ein König. (옛날 옛적에 한 왕이 살았습니다 - 처음 등장)",
+          "continuation": "Der König war sehr reich. (그 왕은 아주 부자였습니다 - 이제 우리가 아는 그 왕을 지칭)"
+        },
+        "grammar_tip": "문법 팁: 새로운 명사를 외울 때는 항상 성(der/die/das)을 함께 외우세요! 성별을 모르면 주격이나 목적격에서 올바른 관사를 선택할 수 없습니다."
+      }
+    }
+  ]
+}

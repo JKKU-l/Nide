@@ -1,0 +1,46 @@
+{
+  "title": "衛生と医療",
+  "description": "ドイツ語で衛生、医療、患者ケア、病院・診療所に関する語彙を学びましょう。",
+  "images": [
+    "assets/images/hygiene_and_medicine_1.png",
+    "assets/images/hygiene_and_medicine_2.png"
+  ],
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "id": "hygiene_medicine",
+      "title": "衛生と医療",
+      "emoji": "🧼",
+      "vocabulary": [
+        {"german": "duschen", "japanese": "シャワーを浴びる (Shawā o abiru)", "article": "", "word": "duschen"},
+        {"german": "baden", "japanese": "入浴する (Nyūyoku suru)", "article": "", "word": "baden"},
+        {"german": "das Shampoo", "japanese": "シャンプー (Shanpū)", "article": "das", "word": "Shampoo"},
+        {"german": "die Zahnpasta", "japanese": "歯磨き粉 (Hamigakiko)", "article": "die", "word": "Zahnpasta"},
+        {"german": "das Handtuch", "japanese": "タオル (Taoru)", "article": "das", "word": "Handtuch"},
+        {"german": "die Creme", "japanese": "クリーム (Kurīmu)", "article": "die", "word": "Creme"},
+        {"german": "die Seife", "japanese": "石鹸 (Sekken)", "article": "die", "word": "Seife"},
+        {"german": "die Zahnbürste", "japanese": "歯ブラシ (Haburashi)", "article": "die", "word": "Zahnbürste"},
+        {"german": "sich kämmen", "japanese": "髪をかす (Kami o toku)", "article": "", "word": "sich kämmen"},
+        {"german": "sich rasieren", "japanese": "髭を剃る (Hige o soru)", "article": "", "word": "sich rasieren"},
+        {"german": "tot", "japanese": "死んでいる (Shinde iru)", "article": "", "word": "tot"},
+        {"german": "das Blut", "japanese": "血 (Chi)", "article": "das", "word": "Blut"},
+        {"german": "gesund", "japanese": "健康な (Kenkōna)", "article": "", "word": "gesund"},
+        {"german": "der Schmerz", "japanese": "痛み (Itami)", "article": "der", "word": "Schmerz"},
+        {"german": "das Pflaster", "japanese": "絆創膏 (Bansōkō)", "article": "das", "word": "Pflaster"},
+        {"german": "krank", "japanese": "病気の (Byōki no)", "article": "", "word": "krank"},
+        {"german": "das Fieber", "japanese": "熱 (Netsu)", "article": "das", "word": "Fieber"},
+        {"german": "das Medikament", "japanese": "薬 (Kusuri)", "article": "das", "word": "Medikament"},
+        {"german": "die Tablette", "japanese": "錠剤 (Jōzai)", "article": "die", "word": "Tablette"},
+        {"german": "der Arzt", "japanese": "医者 (Isha)", "article": "der", "word": "Arzt"},
+        {"german": "die Ärztin", "japanese": "医者 (Isha)", "article": "die", "word": "Ärztin"},
+        {"german": "der Patient", "japanese": "患者 (Kanja)", "article": "der", "word": "Patient"},
+        {"german": "die Patientin", "japanese": "患者 (Kanja)", "article": "die", "word": "Patientin"},
+        {"german": "die Versichertenkarte", "japanese": "健康保険証 (Kenkō hokenshō)", "article": "die", "word": "Versichertenkarte"},
+        {"german": "die Krankenschwester", "japanese": "看護師 (Kangoshi)", "article": "die", "word": "Krankenschwester"},
+        {"german": "die Praxis", "japanese": "診療所 (Shinryōjo)", "article": "die", "word": "Praxis"},
+        {"german": "das Krankenhaus", "japanese": "病院 (Byōin)", "article": "das", "word": "Krankenhaus"},
+        {"german": "der Krankenwagen", "japanese": "救急車 (Kyūkyūsha)", "article": "der", "word": "Krankenwagen"}
+      ]
+    }
+  ]
+}

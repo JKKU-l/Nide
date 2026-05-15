@@ -1,0 +1,53 @@
+{
+  "title": "Social Life & Community",
+  "emoji": "👥",
+  "theme_color": "#E91E63",
+  "description": "Social interactions and community",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "treffen", "japanese": "会う", "example_german": "Wir treffen uns morgen im Park.", "example_japanese": "私たちは明日、公園で会います。"},
+          {"german": "winken", "japanese": "手を振る", "example_german": "Sie winkt ihrem Freund zum Abschied.", "example_japanese": "彼女は別れ際に友人に手を振ります。"},
+          {"german": "vorstellen", "japanese": "紹介する", "example_german": "Darf ich dir meinen Bruder vorstellen?", "example_japanese": "兄を紹介してもいいですか？"},
+          {"german": "begrüßen", "japanese": "挨拶する / 出迎える", "example_german": "Der Gastgeber begrüßt die Gäste an der Tür.", "example_japanese": "ホストがドアのところでゲストを出迎えます。"},
+          {"german": "einladen", "japanese": "招待する", "example_german": "Ich lade dich zu meiner Party ein.", "example_japanese": "あなたを私のパーティーに招待します。"},
+          {"german": "besuchen", "japanese": "訪問する", "example_german": "Wir besuchen am Wochenende unsere Verwandten.", "example_japanese": "私たちは週末に親戚を訪ねます。"},
+          {"german": "kommen", "japanese": "来る", "example_german": "Wann kommst du heute nach Hause?", "example_japanese": "今日はいつ家に帰ってきますか？"},
+          {"german": "gehen", "japanese": "行く", "example_german": "Wir gehen heute Abend ins Kino.", "example_japanese": "私たちは今夜、映画館に行きます。"},
+          {"german": "mitbringen", "japanese": "持参する / 連れてくる", "example_german": "Soll ich etwas zum Essen mitbringen?", "example_japanese": "何か食べ物を持っていきましょうか？"},
+          {"german": "feiern", "japanese": "祝う / パーティーをする", "example_german": "Wir feiern heute seinen Erfolg.", "example_japanese": "私たちは今日、彼の成功を祝います。"},
+          {"german": "tanzen", "japanese": "踊る", "example_german": "Möchtest du mit mir tanzen?", "example_japanese": "私と踊りませんか？"},
+          {"german": "singen", "japanese": "歌う", "example_german": "Wir singen gemeinsam ein Lied.", "example_japanese": "私たちは一緒に歌を歌います。"},
+          {"german": "spielen", "japanese": "遊ぶ / 演奏する", "example_german": "Die Kinder spielen draußen Fußball.", "example_japanese": "子供たちが外でサッカーをしています。"},
+          {"german": "reden", "japanese": "話す", "example_german": "Wir müssen unbedingt miteinander reden.", "example_japanese": "私たちはどうしてもお互いに話し合う必要があります。"},
+          {"german": "plaudern", "japanese": "おしゃべりする", "example_german": "Wir plaudern gerne bei einer Tasse Kaffee.", "example_japanese": "私たちはコーヒーを飲みながらおしゃべりするのが好きです。"},
+          {"german": "zuhören", "japanese": "耳を傾ける / 聴く", "example_german": "Du musst mir besser zuhören.", "example_japanese": "あなたはもっと私の話をよく聴かなければなりません。"},
+          {"german": "lachen", "japanese": "笑う", "example_german": "Er lacht über einen lustigen Witz.", "example_japanese": "彼は面白いジョークに笑っています。"},
+          {"german": "helfen", "japanese": "助ける / 手伝う", "example_german": "Kannst du mir beim Tragen helfen?", "example_japanese": "運ぶのを手伝ってくれますか？"},
+          {"german": "teilnehmen", "japanese": "参加する", "example_german": "Ich nehme an dem Deutschkurs teil.", "example_japanese": "私はドイツ語コースに参加しています。"},
+          {"german": "mitmachen", "japanese": "一緒にやる / 参加する", "example_german": "Jeder darf bei diesem Spiel mitmachen.", "example_japanese": "誰でもこのゲームに参加できます。"},
+          {"german": "organisieren", "japanese": "計画する / 準備する", "example_german": "Sie organisiert ein großes Nachbarschaftsfest.", "example_japanese": "彼女は大きな近隣祭を準備しています。"},
+          {"german": "planen", "japanese": "計画する", "example_german": "Wir planen ein Treffen für nächste Woche.", "example_japanese": "私たちは来週の集まりを計画しています。"},
+          {"german": "unterstützen", "japanese": "支援する / サポートする", "example_german": "Meine Familie unterstützt mich immer.", "example_japanese": "家族はいつも私を支えてくれます。"},
+          {"german": "teilen", "japanese": "共有する / 分ける", "example_german": "Wir teilen uns die Kosten für das Taxi.", "example_japanese": "私たちはタクシー代を割り勘にします。"},
+          {"german": "geben", "japanese": "与える / 渡す", "example_german": "Kannst du mir bitte das Salz geben?", "example_japanese": "塩を取ってもらえますか？"},
+          {"german": "nehmen", "japanese": "取る / いただく", "example_german": "Ich nehme mir ein Stück Kuchen.", "example_japanese": "ケーキを一切れいただきます。"},
+          {"german": "danken", "japanese": "感謝する", "example_german": "Ich danke dir für deine Einladung.", "example_japanese": "招待してくれてありがとう。"},
+          {"german": "entschuldigen", "japanese": "謝る / 許す", "example_german": "Ich möchte mich für die Verspätung entschuldigen.", "example_japanese": "遅刻したことをお詫びしたいです。"},
+          {"german": "vergeben", "japanese": "許す", "example_german": "Es ist wichtig, anderen zu vergeben.", "example_japanese": "他を許すことは重要です。"},
+          {"german": "streiten", "japanese": "喧嘩する / 議論する", "example_german": "Wir streiten uns selten über Kleinigkeiten.", "example_japanese": "私たちは些細なことで喧嘩することはめったにありません。"},
+          {"german": "versöhnen", "japanese": "仲直りする", "example_german": "Nach dem Streit versöhnen sie sich wieder.", "example_japanese": "喧嘩の後、彼らはまた仲直りします。"},
+          {"german": "respektieren", "japanese": "尊敬する / 尊重する", "example_german": "Wir respektieren die Meinung der anderen.", "example_japanese": "私たちは他人の意見を尊重します。"},
+          {"german": "akzeptieren", "japanese": "受け入れる / 承認する", "example_german": "Er kann die Entscheidung nicht akzeptieren.", "example_japanese": "彼はその決定を受け入れることができません。"},
+          {"german": "ablehnen", "japanese": "断る / 拒否する", "example_german": "Leider muss ich das Angebot ablehnen.", "example_japanese": "残念ながら、その申し出はお断りしなければなりません。"},
+          {"german": "tolerieren", "japanese": "許容する / 我慢する", "example_german": "Wir tolerieren kein respektloses Verhalten.", "example_japanese": "私たちは失礼な振る舞いを容認しません。"},
+          {"german": "kritisieren", "japanese": "批判する", "example_german": "Man sollte andere nicht ständig kritisieren.", "example_japanese": "他人を絶えず批判すべきではありません。"},
+          {"german": "loben", "japanese": "褒める", "example_german": "Der Lehrer lobt die fleißige Schülerin.", "example_japanese": "先生は勤勉な生徒を褒めます。"},
+          {"german": "einigen", "japanese": "意見が一致する / 合意する", "example_german": "Wir konnten uns auf einen Termin einigen.", "example_japanese": "私たちは日程について合意することができました。"}
+        ]
+      }
+    }
+  ]
+}

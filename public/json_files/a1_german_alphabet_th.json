@@ -1,0 +1,263 @@
+{
+  "title": "ตัวอักษรและการออกเสียงภาษาเยอรมัน",
+  "subtitle": "German Alphabet & Pronunciation Guide (Thai Edition)",
+  "sections": [
+    {
+      "id": "basic_alphabet",
+      "title": "ตัวอักษรพื้นฐาน (Das Alphabet)",
+      "description": "ตัวอักษรภาษาเยอรมัน 26 ตัว พร้อมคำอ่านภาษาไทยโดยประมาณ:",
+      "content": [
+        {
+          "letter": "A a",
+          "name": "Ah",
+          "sounds_like": "อา",
+          "tts_text": "A"
+        },
+        {
+          "letter": "B b",
+          "name": "Beh",
+          "sounds_like": "เบ",
+          "tts_text": "B"
+        },
+        {
+          "letter": "C c",
+          "name": "Tseh",
+          "sounds_like": "เซ่ / เซ",
+          "tts_text": "C"
+        },
+        {
+          "letter": "D d",
+          "name": "Deh",
+          "sounds_like": "เด",
+          "tts_text": "D"
+        },
+        {
+          "letter": "E e",
+          "name": "Eh",
+          "sounds_like": "เอ",
+          "tts_text": "E"
+        },
+        {
+          "letter": "F f",
+          "name": "Eff",
+          "sounds_like": "เอ็ฟ",
+          "tts_text": "F"
+        },
+        {
+          "letter": "G g",
+          "name": "Geh",
+          "sounds_like": "เก",
+          "tts_text": "G"
+        },
+        {
+          "letter": "H h",
+          "name": "Hah",
+          "sounds_like": "ฮา",
+          "tts_text": "H"
+        },
+        {
+          "letter": "I i",
+          "name": "Ee",
+          "sounds_like": "อี",
+          "tts_text": "I"
+        },
+        {
+          "letter": "J j",
+          "name": "Yot",
+          "sounds_like": "ย็อท (ออกเสียง ย)",
+          "tts_text": "J"
+        },
+        {
+          "letter": "K k",
+          "name": "Kah",
+          "sounds_like": "คา",
+          "tts_text": "K"
+        },
+        {
+          "letter": "L l",
+          "name": "Ell",
+          "sounds_like": "เอ็ล",
+          "tts_text": "L"
+        },
+        {
+          "letter": "M m",
+          "name": "Emm",
+          "sounds_like": "เอ็ม",
+          "tts_text": "M"
+        },
+        {
+          "letter": "N n",
+          "name": "Enn",
+          "sounds_like": "เอ็น",
+          "tts_text": "N"
+        },
+        {
+          "letter": "O o",
+          "name": "Oh",
+          "sounds_like": "โอ",
+          "tts_text": "O"
+        },
+        {
+          "letter": "P p",
+          "name": "Peh",
+          "sounds_like": "เพ",
+          "tts_text": "P"
+        },
+        {
+          "letter": "Q q",
+          "name": "Koo",
+          "sounds_like": "คู",
+          "tts_text": "Q"
+        },
+        {
+          "letter": "R r",
+          "name": "Err",
+          "sounds_like": "แอร์ (เสียงขากในลาคอ)",
+          "tts_text": "R"
+        },
+        {
+          "letter": "S s",
+          "name": "Ess",
+          "sounds_like": "เอ็ส (มักออกเสียง ซ/ส)",
+          "tts_text": "S"
+        },
+        {
+          "letter": "T t",
+          "name": "Teh",
+          "sounds_like": "เท",
+          "tts_text": "T"
+        },
+        {
+          "letter": "U u",
+          "name": "Oo",
+          "sounds_like": "อู",
+          "tts_text": "U"
+        },
+        {
+          "letter": "V v",
+          "name": "Fow",
+          "sounds_like": "เฟา (ออกเสียง ฟ)",
+          "tts_text": "V"
+        },
+        {
+          "letter": "W w",
+          "name": "Veh",
+          "sounds_like": "เว (ออกเสียง ว)",
+          "tts_text": "W"
+        },
+        {
+          "letter": "X x",
+          "name": "Iks",
+          "sounds_like": "อิกซ์",
+          "tts_text": "X"
+        },
+        {
+          "letter": "Y y",
+          "name": "Ypsilon",
+          "sounds_like": "อิปซีลอน",
+          "tts_text": "Y"
+        },
+        {
+          "letter": "Z z",
+          "name": "Tsett",
+          "sounds_like": "เซ็ท (เสียง ทส)",
+          "tts_text": "Z"
+        }
+      ]
+    },
+    {
+      "id": "special_characters",
+      "title": "ตัวอักษรพิเศษ (Umlauts & Eszett)",
+      "description": "ภาษาเยอรมันมีตัวอักษรพิเศษ 4 ตัวที่สำคัญสำหรับการสะกดคำและความหมาย",
+      "content": [
+        {
+          "letter": "Ä ä",
+          "name": "A-Umlaut",
+          "how_to_produce": "ออกเสียงคล้ายสระ \"แอ\"",
+          "tts_text": "Ä"
+        },
+        {
+          "letter": "Ö ö",
+          "name": "O-Umlaut",
+          "how_to_produce": "ทำปากรูปสระ \"โอ\" แต่พยายามออกเสียง \"เอ\"",
+          "tts_text": "Ö"
+        },
+        {
+          "letter": "Ü ü",
+          "name": "U-Umlaut",
+          "how_to_produce": "ทำปากรูปสระ \"อู\" แต่พยายามออกเสียง \"อี\"",
+          "tts_text": "Ü"
+        },
+        {
+          "letter": "ß",
+          "name": "Eszett (Sharp S)",
+          "how_to_produce": "ออกเสียง \"ส\" หนักๆ (เหมือน ss)",
+          "tts_text": "ß"
+        }
+      ]
+    },
+    {
+      "id": "diphthongs",
+      "title": "สระประสม (Diphthongs)",
+      "description": "สระประสมคือการรวมสระสองตัวที่สร้างเสียงใหม่เป็นเสียงเดียว",
+      "content": [
+        {
+          "combination": "ei / ai",
+          "sounds_like": "ออกเสียงเหมือนสระ \"ไอ\"",
+          "examples": "Nein - นายน์",
+          "tts_text": "EI"
+        },
+        {
+          "combination": "ie",
+          "sounds_like": "ออกเสียงเหมือนสระ \"อี\" ยาวๆ",
+          "examples": "Sie - ซี",
+          "tts_text": "IE"
+        },
+        {
+          "combination": "eu / äu",
+          "sounds_like": "ออกเสียงเหมือนสระ \"ออย\"",
+          "examples": "Neu - นอย",
+          "tts_text": "EU"
+        },
+        {
+          "combination": "au",
+          "sounds_like": "ออกเสียงเหมือนสระ \"เอา\"",
+          "examples": "Haus - เฮาส์",
+          "tts_text": "AU"
+        }
+      ]
+    },
+    {
+      "id": "consonant_combinations",
+      "title": "ข้อควรระวังในการออกเสียงพยัญชนะ",
+      "description": "ภาษาเยอรมันมีการผสมพยัญชนะหลายอย่างที่ต้องให้ความสำคัญพิเศษ",
+      "content": [
+        {
+          "combination": "W",
+          "description": "ออกเสียงเป็น \"ว\" (เหมือน V ในภาษาอังกฤษ)",
+          "tts_text": "W"
+        },
+        {
+          "combination": "V",
+          "description": "ส่วนใหญ่ถูกออกเสียงเป็น \"ฟ\" (เหมือน F ในภาษาอังกฤษ)",
+          "tts_text": "V"
+        },
+        {
+          "combination": "J",
+          "description": "ออกเสียงเป็น \"ย\" (เหมือน Y ในภาษาอังกฤษ)",
+          "tts_text": "J"
+        },
+        {
+          "combination": "sch",
+          "description": "ออกเสียงเหมือน \"ช\" ในภาษาไทย (ตัวอย่าง: Schule)",
+          "tts_text": "Schule"
+        },
+        {
+          "combination": "ch",
+          "description": "ขึ้นอยู่กับคำว่า บางครั้งเสียง \"ช\" บางครั้งเสียง \"ค\"",
+          "tts_text": "Bach"
+        }
+      ]
+    }
+  ]
+}

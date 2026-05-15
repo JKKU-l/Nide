@@ -1,0 +1,53 @@
+{
+  "theme_color": "#795548",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Stadt", "myanmar": "မြို့", "article": "die", "word": "Stadt", "emoji": "🏙️"},
+        {"german": "das Dorf", "myanmar": "ကျေးရွာ", "article": "das", "word": "Dorf", "emoji": "🏡"},
+        {"german": "die Kirche", "myanmar": "ဘုရားကျောင်း", "article": "die", "word": "Kirche", "emoji": "⛪"},
+        {"german": "das Hotel", "myanmar": "ဟိုတယ်", "article": "das", "word": "Hotel", "emoji": "🏨"},
+        {"german": "das Einzelzimmer", "myanmar": "တစ်ယောက်ခန်း", "article": "das", "word": "Einzelzimmer", "emoji": "🛌"},
+        {"german": "das Doppelzimmer", "myanmar": "နှစ်ယောက်ခန်း", "article": "das", "word": "Doppelzimmer", "emoji": "🛌"},
+        {"german": "die Jugendherberge", "myanmar": "လူငယ်ရိပ်သာ", "article": "die", "word": "Jugendherberge", "emoji": "🎒"},
+        {"german": "der Platz", "myanmar": "ရင်ပြင် / နေရာ", "article": "der", "word": "Platz", "emoji": "📍"},
+        {"german": "die Garage", "myanmar": "ကားဂိုဒေါင်", "article": "die", "word": "Garage", "emoji": "🚗"},
+        {"german": "das Haus", "myanmar": "အိမ်", "article": "das", "word": "Haus", "emoji": "🏠"},
+        {"german": "die Tür", "myanmar": "တံခါး", "article": "die", "word": "Tür", "emoji": "🚪"},
+        {"german": "das Dach", "myanmar": "အမိုး", "article": "das", "word": "Dach", "emoji": "🏠"},
+        {"german": "das Fenster", "myanmar": "ပြတင်းပေါက်", "article": "das", "word": "Fenster", "emoji": "🪟"},
+        {"german": "der Garten", "myanmar": "ဥယျာဉ် / ခြံ", "article": "der", "word": "Garten", "emoji": "🌳"},
+        {"german": "der Dachboden", "myanmar": "အထပ်ခိုး", "article": "der", "word": "Dachboden", "emoji": "🏚️"},
+        {"german": "der Balkon", "myanmar": "ဝရန်တာ", "article": "der", "word": "Balkon", "emoji": "✨"},
+        {"german": "das Erdgeschoss", "myanmar": "မြေညီထပ်", "article": "das", "word": "Erdgeschoss", "emoji": "🏢"},
+        {"german": "der Keller", "myanmar": "မြေအောက်ခန်း", "article": "der", "word": "Keller", "emoji": "🕸️"},
+        {"german": "die Wohnung", "myanmar": "တိုက်ခန်း", "article": "die", "word": "Wohnung", "emoji": "🏢"},
+        {"german": "der Umzug", "myanmar": "အိမ်ပြောင်းခြင်း", "article": "der", "word": "Umzug", "emoji": "🚚"},
+        {"german": "ausziehen", "myanmar": "အိမ်မှပြောင်းထွက်ခြင်း", "article": "", "word": "ausziehen", "emoji": "📦"},
+        {"german": "einziehen", "myanmar": "အိမ်သို့ပြောင်းဝင်ခြင်း", "article": "", "word": "einziehen", "emoji": "🚚"},
+        {"german": "der Eingang", "myanmar": "အဝင်ဝ", "article": "der", "word": "Eingang", "emoji": "🚪"},
+        {"german": "der Ausgang", "myanmar": "အထွက်ဝ", "article": "der", "word": "Ausgang", "emoji": "🚪"},
+        {"german": "das Zimmer", "myanmar": "အခန်း", "article": "das", "word": "Zimmer", "emoji": "🛋️"},
+        {"german": "das Schlafzimmer", "myanmar": "အိပ်ခန်း", "article": "das", "word": "Schlafzimmer", "emoji": "🛏️"},
+        {"german": "das Wohnzimmer", "myanmar": "ဧည့်ခန်း", "article": "das", "word": "Wohnzimmer", "emoji": "📺"},
+        {"german": "das Bad", "myanmar": "ရေချိုးခန်း", "article": "das", "word": "Bad", "emoji": "🛀"},
+        {"german": "die Dusche", "myanmar": "ရေပန်း", "article": "die", "word": "Dusche", "emoji": "🚿"},
+        {"german": "die Toilette", "myanmar": "အိမ်သာ", "article": "die", "word": "Toilette", "emoji": "🚽"},
+        {"german": "das Toilettenpapier", "myanmar": "အိမ်သာသုံးစက္ကူ", "article": "das", "word": "Toilettenpapier", "emoji": "🧻"},
+        {"german": "die Möbel", "myanmar": "ပရိဘောဂ", "article": "die", "word": "Möbel", "emoji": "🛋️"},
+        {"german": "das Bett", "myanmar": "ခုတင်", "article": "das", "word": "Bett", "emoji": "🛏️"},
+        {"german": "der Schrank", "myanmar": "ဗီရို", "article": "der", "word": "Schrank", "emoji": "👗"},
+        {"german": "das Regal", "myanmar": "စင်", "article": "das", "word": "Regal", "emoji": "📚"},
+        {"german": "der Tisch", "myanmar": "စားပွဲ", "article": "der", "word": "Tisch", "emoji": "🍽️"},
+        {"german": "der Stuhl", "myanmar": "ကုလားထိုင်", "article": "der", "word": "Stuhl", "emoji": "🪑"},
+        {"german": "die Bank", "myanmar": "တန်းလျားကုလားထိုင်", "article": "die", "word": "Bank", "emoji": "🛋️"},
+        {"german": "das Sofa", "myanmar": "ဆိုဖာ", "article": "das", "word": "Sofa", "emoji": "🛋️"},
+        {"german": "die Lampe", "myanmar": "မီးအိမ်", "article": "die", "word": "Lampe", "emoji": "💡"},
+        {"german": "der Sessel", "myanmar": "လက်ရန်းပါသော ကုလားထိုင်", "article": "der", "word": "Sessel", "emoji": "✨"},
+        {"german": "der Teppich", "myanmar": "ကော်ဇော", "article": "der", "word": "Teppich", "emoji": "🧶"},
+        {"german": "das Bild", "myanmar": "ဓာတ်ပုံ / ပန်းချီကား", "article": "das", "word": "Bild", "emoji": "🖼️"},
+        {"german": "der Schlüssel", "myanmar": "သော့", "article": "der", "word": "Schlüssel", "emoji": "🔑"}
+      ]
+    }
+  ]
+}

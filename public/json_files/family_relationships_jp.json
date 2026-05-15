@@ -1,0 +1,55 @@
+{
+  "title": "Family & Relationships",
+  "emoji": "👨‍👩‍👧‍👦",
+  "theme_color": "#4CAF50",
+  "description": "Family members and relationships",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "lieben", "japanese": "愛する", "example_german": "Ich liebe meine Familie über alles.", "example_japanese": "私は家族を何よりも愛しています。"},
+          {"german": "heiraten", "japanese": "結婚する", "example_german": "Sie heiraten nächsten Monat in Italien.", "example_japanese": "彼らは来月イタリアで結婚します。"},
+          {"german": "treffen", "japanese": "会う", "example_german": "Ich treffe mich heute Abend mit Freunden.", "example_japanese": "私は今夜、友達と会います。"},
+          {"german": "besuchen", "japanese": "訪問する / お見舞いに行く", "example_german": "Wir besuchen am Wochenende unsere Großeltern.", "example_japanese": "私たちは週末、祖父母を訪ねます。"},
+          {"german": "einladen", "japanese": "招待する", "example_german": "Ich lade dich zu meinem Geburtstag ein.", "example_japanese": "あなたを私の誕生日に招待します。"},
+          {"german": "feiern", "japanese": "祝う / パーティーをする", "example_german": "Wir feiern heute den Hochzeitstag meiner Eltern.", "example_japanese": "今日は両親の結婚記念日を祝います。"},
+          {"german": "schenken", "japanese": "贈る / プレゼントする", "example_german": "Was schenkst du deinem Bruder zu Weihnachten?", "example_japanese": "クリスマスに兄弟に何をプレゼントしますか？"},
+          {"german": "spielen", "japanese": "遊ぶ", "example_german": "Der Vater spielt mit seinen Kindern im Garten.", "example_japanese": "父親が庭で子供たちと遊んでいます。"},
+          {"german": "helfen", "japanese": "手伝う / 助ける", "example_german": "Kannst du mir bitte beim Kochen helfen?", "example_japanese": "料理を手伝ってくれませんか？"},
+          {"german": "pflegen", "japanese": "世話をする / 介護する", "example_german": "Sie pflegt ihren kranken Vater zu Hause.", "example_japanese": "彼女は家で病気の父親を介護しています。"},
+          {"german": "erziehen", "japanese": "教育する / 育てる", "example_german": "Es ist nicht immer leicht, Kinder zu erziehen.", "example_japanese": "子供を育てるのはいつも簡単ではありません。"},
+          {"german": "wachsen", "japanese": "成長する", "example_german": "Die Kinder wachsen so schnell!", "example_japanese": "子供たちの成長はとても早いです！"},
+          {"german": "leben", "japanese": "生きる / 暮らす", "example_german": "Wir leben glücklich zusammen.", "example_japanese": "私たちは一緒に幸せに暮らしています。"},
+          {"german": "sterben", "japanese": "死ぬ / 亡くなる", "example_german": "Sein Großvater starb vor vielen Jahren.", "example_japanese": "彼の祖父は何年も前に亡くなりました。"},
+          {"german": "weinen", "japanese": "泣く", "example_german": "Das Baby weint, weil es Hunger hat.", "example_japanese": "赤ちゃんはお腹が空いているので泣いています。"},
+          {"german": "lachen", "japanese": "笑う", "example_german": "Wir lachen viel, wenn wir zusammen sind.", "example_japanese": "私たちは一緒にいるとき、よく笑います。"},
+          {"german": "streiten", "japanese": "喧嘩する / 言い争う", "example_german": "Geschwister streiten sich manchmal.", "example_japanese": "兄弟は時々喧嘩をします。"},
+          {"german": "umarmen", "japanese": "抱きしめる / ハグする", "example_german": "Sie umarmt ihre Mutter zur Begrüßung.", "example_japanese": "彼女は挨拶として母親を抱きしめます。"},
+          {"german": "küssen", "japanese": "キスする", "example_german": "Sie küssen sich zum Abschied.", "example_japanese": "彼らは別れ際にキスをします。"},
+          {"german": "anrufen", "japanese": "電話をかける", "example_german": "Ich rufe meine Mutter jeden Sonntag an.", "example_japanese": "私は毎週日曜日に母に電話をかけます。"},
+          {"german": "schreiben", "japanese": "書く", "example_german": "Ich schreibe meiner Tante eine Postkarte.", "example_japanese": "私は叔母にハガキを書いています。"},
+          {"german": "lesen", "japanese": "読む", "example_german": "Der Vater liest den Kindern eine Geschichte vor.", "example_japanese": "父親が子供たちに物語を読み聞かせています。"},
+          {"german": "erzählen", "japanese": "話す / 語る", "example_german": "Er erzählt uns von seiner Reise.", "example_japanese": "彼は私たちに旅の話をしてくれます。"},
+          {"german": "zuhören", "japanese": "聴く / 耳を傾ける", "example_german": "Bitte hör mir gut zu.", "example_japanese": "私の話をよく聴いてください。"},
+          {"german": "verstehen", "japanese": "理解する / 気が合う", "example_german": "Wir verstehen uns sehr gut.", "example_japanese": "私たちはとても気が合います。"},
+          {"german": "vergeben", "japanese": "許す", "example_german": "Ich kann ihm diesen Fehler nicht vergeben.", "example_japanese": "私は彼のこの過ちを許すことができません。"},
+          {"german": "danken", "japanese": "感謝する", "example_german": "Ich danke dir für deine Hilfe.", "example_japanese": "助けてくれてありがとう。"},
+          {"german": "gratulieren", "japanese": "祝う / おめでとうと言う", "example_german": "Ich gratuliere dir herzlich zum Geburtstag!", "example_japanese": "誕生日おめでとう！"},
+          {"german": "wünschen", "japanese": "願う / 祈る", "example_german": "Ich wünsche dir alles Gute.", "example_japanese": "あなたの幸運を祈っています。"},
+          {"german": "kennen", "japanese": "知っている (面識がある)", "example_german": "Ich kenne deine Schwester schon lange.", "example_japanese": "私はあなたの妹さんをずっと前から知っています。"},
+          {"german": "vorstellen", "japanese": "紹介する", "example_german": "Darf ich dir meine Freundin vorstellen?", "example_japanese": "私の彼女を紹介してもいいですか？"},
+          {"german": "erinnern", "japanese": "思い出す / 覚えている", "example_german": "Erinnerst du dich an unseren ersten Urlaub?", "example_japanese": "私たちの最初の休暇を覚えていますか？"},
+          {"german": "vergessen", "japanese": "忘れる", "example_german": "Ich habe deinen Geburtstag nicht vergessen.", "example_japanese": "あなたの誕生日を忘れていませんでした。"},
+          {"german": "sprechen", "japanese": "話す / 言葉を交わす", "example_german": "Wir müssen über das Problem sprechen.", "example_japanese": "私たちはその問題について話し合う必要があります。"},
+          {"german": "reden", "japanese": "喋る / 語り合う", "example_german": "Sie reden stundenlang über Gott und die Welt.", "example_japanese": "彼らは何時間も世間話に花を咲かせます。"},
+          {"german": "diskutieren", "japanese": "議論する", "example_german": "Wir diskutieren oft über Politik.", "example_japanese": "私たちはよく政治について議論します。"},
+          {"german": "sorgen", "japanese": "心配する / 世話を焼く", "example_german": "Eltern sorgen sich immer um ihre Kinder.", "example_japanese": "親はいつも子供のことを心配しています。"},
+          {"german": "schützen", "japanese": "守る / 保護する", "example_german": "Er will seine Familie vor Gefahren schützen.", "example_japanese": "彼は家族を危険から守りたいと思っています。"},
+          {"german": "unterstützen", "japanese": "支える / 応援する", "example_german": "Meine Freunde unterstützen mich immer.", "example_japanese": "友達はいつも私を支えてくれます。"},
+          {"german": "zusammen sein", "japanese": "一緒にいる / 付き合っている", "example_german": "Wir sind seit fünf Jahren zusammen.", "example_japanese": "私たちは付き合って5年になります。"}
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "category": "Home & Living",
+  "category_de": "Haus & Wohnen",
+  "icon": "🏠",
+  "words": [
+    {"de":"das Haus","word":"Haus","article":"das","en":"house","jp":"家","kr":"집","my":"အိမ်","th":"บ้าน","vi":"nhà","pronunciation":"/haʊs/","example_de":"Das Haus ist groß und schön.","example_en":"The house is big and beautiful."},
+    {"de":"die Wohnung","word":"Wohnung","article":"die","en":"apartment","jp":"アパート","kr":"아파트","my":"တိုက်ခန်း","th":"อพาร์ตเมนต์","vi":"căn hộ","pronunciation":"/ˈvoːnʊŋ/","example_de":"Meine Wohnung hat drei Zimmer.","example_en":"My apartment has three rooms."},
+    {"de":"das Zimmer","word":"Zimmer","article":"das","en":"room","jp":"部屋","kr":"방","my":"အခန်း","th":"ห้อง","vi":"phòng","pronunciation":"/ˈtsɪmɐ/","example_de":"Das Zimmer ist hell und gemütlich.","example_en":"The room is bright and cozy."},
+    {"de":"die Küche","word":"Küche","article":"die","en":"kitchen","jp":"キッチン","kr":"부엌","my":"မီးဖိုချောင်","th":"ครัว","vi":"nhà bếp","pronunciation":"/ˈkʏçə/","example_de":"Ich koche gern in der Küche.","example_en":"I like to cook in the kitchen."},
+    {"de":"das Bad","word":"Bad","article":"das","en":"bathroom","jp":"浴室","kr":"욕실","my":"ရေချိုးခန်း","th":"ห้องน้ำ","vi":"phòng tắm","pronunciation":"/baːt/","example_de":"Das Bad ist frisch renoviert.","example_en":"The bathroom is freshly renovated."},
+    {"de":"das Bett","word":"Bett","article":"das","en":"bed","jp":"ベッド","kr":"침대","my":"ကုတင်","th":"เตียง","vi":"giường","pronunciation":"/bɛt/","example_de":"Ich gehe um 22 Uhr ins Bett.","example_en":"I go to bed at 10 PM."},
+    {"de":"der Tisch","word":"Tisch","article":"der","en":"table","jp":"テーブル","kr":"탁자","my":"စားပွဲ","th":"โต๊ะ","vi":"bàn","pronunciation":"/tɪʃ/","example_de":"Das Essen steht auf dem Tisch.","example_en":"The food is on the table."},
+    {"de":"der Stuhl","word":"Stuhl","article":"der","en":"chair","jp":"椅子","kr":"의자","my":"ကုလားထိုင်","th":"เก้าอี้","vi":"ghế","pronunciation":"/ʃtuːl/","example_de":"Bitte setzen Sie sich auf den Stuhl.","example_en":"Please sit on the chair."},
+    {"de":"das Fenster","word":"Fenster","article":"das","en":"window","jp":"窓","kr":"창문","my":"ပြတင်းပေါက်","th":"หน้าต่าง","vi":"cửa sổ","pronunciation":"/ˈfɛnstɐ/","example_de":"Kannst du das Fenster öffnen?","example_en":"Can you open the window?"},
+    {"de":"die Tür","word":"Tür","article":"die","en":"door","jp":"ドア","kr":"문","my":"တံခါး","th":"ประตู","vi":"cửa","pronunciation":"/tyːɐ̯/","example_de":"Bitte mach die Tür zu.","example_en":"Please close the door."},
+    {"de":"das Schlafzimmer","word":"Schlafzimmer","article":"das","en":"bedroom","jp":"寝室","kr":"침실","my":"အိပ်ခန်း","th":"ห้องนอน","vi":"phòng ngủ","pronunciation":"/ˈʃlaːfˌtsɪmɐ/","example_de":"Das Schlafzimmer ist ruhig.","example_en":"The bedroom is quiet."},
+    {"de":"das Wohnzimmer","word":"Wohnzimmer","article":"das","en":"living room","jp":"リビング","kr":"거실","my":"ဧည့်ခန်း","th":"ห้องนั่งเล่น","vi":"phòng khách","pronunciation":"/ˈvoːnˌtsɪmɐ/","example_de":"Wir sitzen im Wohnzimmer.","example_en":"We sit in the living room."},
+    {"de":"der Schrank","word":"Schrank","article":"der","en":"closet/wardrobe","jp":"タンス","kr":"옷장","my":"ဗီရို","th":"ตู้เสื้อผ้า","vi":"tủ quần áo","pronunciation":"/ʃʁaŋk/","example_de":"Die Kleidung ist im Schrank.","example_en":"The clothes are in the wardrobe."},
+    {"de":"der Kühlschrank","word":"Kühlschrank","article":"der","en":"refrigerator","jp":"冷蔵庫","kr":"냉장고","my":"ရေခဲသေတ္တာ","th":"ตู้เย็น","vi":"tủ lạnh","pronunciation":"/ˈkyːlˌʃʁaŋk/","example_de":"Die Milch ist im Kühlschrank.","example_en":"The milk is in the refrigerator."},
+    {"de":"der Herd","word":"Herd","article":"der","en":"stove","jp":"コンロ","kr":"가스레인지","my":"မီးဖို","th":"เตา","vi":"bếp","pronunciation":"/heːɐ̯t/","example_de":"Das Wasser kocht auf dem Herd.","example_en":"The water is boiling on the stove."},
+    {"de":"die Lampe","word":"Lampe","article":"die","en":"lamp","jp":"ランプ","kr":"램프","my":"မီးခွက်","th":"โคมไฟ","vi":"đèn","pronunciation":"/ˈlampə/","example_de":"Die Lampe gibt warmes Licht.","example_en":"The lamp gives warm light."},
+    {"de":"der Spiegel","word":"Spiegel","article":"der","en":"mirror","jp":"鏡","kr":"거울","my":"မှန်","th":"กระจก","vi":"gương","pronunciation":"/ˈʃpiːɡl̩/","example_de":"Ich schaue in den Spiegel.","example_en":"I look in the mirror."},
+    {"de":"die Uhr","word":"Uhr","article":"die","en":"clock/watch","jp":"時計","kr":"시계","my":"နာရီ","th":"นาฬิกา","vi":"đồng hồ","pronunciation":"/uːɐ̯/","example_de":"Die Uhr zeigt 8 Uhr.","example_en":"The clock shows 8 o'clock."}
+  ]
+}

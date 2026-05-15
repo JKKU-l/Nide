@@ -1,0 +1,33 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Familie", "korean": "가족", "article": "die", "word": "Familie", "emoji": "👨‍👩‍👧‍👦"},
+        {"german": "die Großeltern", "korean": "조부모님", "article": "die", "word": "Großeltern", "emoji": "👴👵"},
+        {"german": "der Großvater", "korean": "할아버지", "article": "der", "word": "Großvater", "emoji": "👴"},
+        {"german": "die Großmutter", "korean": "할머니", "article": "die", "word": "Großmutter", "emoji": "👵"},
+        {"german": "die Eltern", "korean": "부모님", "article": "die", "word": "Eltern", "emoji": "👨‍👩‍👦"},
+        {"german": "der Vater", "korean": "아버지", "article": "der", "word": "Vater", "emoji": "👨"},
+        {"german": "die Mutter", "korean": "어머니", "article": "die", "word": "Mutter", "emoji": "👩"},
+        {"german": "der Sohn", "korean": "아들", "article": "der", "word": "Sohn", "emoji": "👦"},
+        {"german": "die Tochter", "korean": "딸", "article": "die", "word": "Tochter", "emoji": "👧"},
+        {"german": "der Papa", "korean": "아빠", "article": "der", "word": "Papa", "emoji": "🧔"},
+        {"german": "die Mama", "korean": "엄마", "article": "die", "word": "Mama", "emoji": "👩‍🍳"},
+        {"german": "der Bruder", "korean": "남동생 / 형 / 오빠", "article": "der", "word": "Bruder", "emoji": "👦"},
+        {"german": "die Schwester", "korean": "여동생 / 누나 / 언니", "article": "die", "word": "Schwester", "emoji": "👧"},
+        {"german": "die Geschwister", "korean": "형제자매", "article": "die", "word": "Geschwister", "emoji": "👫"},
+        {"german": "der Onkel", "korean": "삼촌", "article": "der", "word": "Onkel", "emoji": "👨‍💼"},
+        {"german": "die Tante", "korean": "이모 / 고모", "article": "die", "word": "Tante", "emoji": "👩‍💼"},
+        {"german": "der Cousin", "korean": "사촌 형제", "article": "der", "word": "Cousin", "emoji": "👦"},
+        {"german": "die Cousine", "korean": "사촌 자매", "article": "die", "word": "Cousine", "emoji": "👧"},
+        {"german": "das Ehepaar", "korean": "부부", "article": "das", "word": "Ehepaar", "emoji": "👩‍❤️‍👨"},
+        {"german": "der Mann", "korean": "남자 / 남편", "article": "der", "word": "Mann", "emoji": "🧔"},
+        {"german": "die Frau", "korean": "여자 / 아내", "article": "die", "word": "Frau", "emoji": "👩"},
+        {"german": "der Freund", "korean": "친구 / 남자친구", "article": "der", "word": "Freund", "emoji": "👦💕"},
+        {"german": "die Freundin", "korean": "친구 / 여자친구", "article": "die", "word": "Freundin", "emoji": "👧💕"},
+        {"german": "der Partner / die Partnerin", "korean": "파트너", "article": "der / die", "word": "Partner / Partnerin", "emoji": "🤝"}
+      ]
+    }
+  ]
+}

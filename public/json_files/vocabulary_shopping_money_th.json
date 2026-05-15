@@ -1,0 +1,38 @@
+{
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Geschäft", "thai": "ร้านค้า / ธุรกิจ", "article": "das", "word": "Geschäft", "emoji": "🏬"},
+        {"german": "die Kasse", "thai": "เครื่องคิดเงิน", "article": "die", "word": "Kasse", "emoji": "💰"},
+        {"german": "einkaufen", "thai": "ไปช้อปปิ้ง", "article": "", "word": "einkaufen", "emoji": "🛒"},
+        {"german": "der Verkäufer / die Verkäuferin", "thai": "พนักงานขาย 🧑‍💼👩‍💼", "article": "der / die", "word": "Verkäufer / Verkäuferin", "emoji": "🧑‍💼"},
+        {"german": "der Kunde / die Kundin", "thai": "ลูกค้า", "article": "der / die", "word": "Kunde / Kundin", "emoji": "👤"},
+        {"german": "der Preis", "thai": "ราคา", "article": "der", "word": "Preis", "emoji": "🏷️"},
+        {"german": "kosten", "thai": "ราคาเท่ากับ...", "article": "", "word": "kosten", "emoji": "💸"},
+        {"german": "verkaufen", "thai": "ขาย", "article": "", "word": "verkaufen", "emoji": "🤝"},
+        {"german": "billig", "thai": "ราคาถูก", "article": "", "word": "billig", "emoji": "👍"},
+        {"german": "teuer", "thai": "แพง", "article": "", "word": "teuer", "emoji": "💎"},
+        {"german": "kaufen", "thai": "ซื้อ", "article": "", "word": "kaufen", "emoji": "🛍️"},
+        {"german": "die Tüte", "thai": "ถุง", "article": "die", "word": "Tüte", "emoji": "🛍️"},
+        {"german": "der Markt", "thai": "ตลาด", "article": "der", "word": "Markt", "emoji": "🍎"},
+        {"german": "die Bäckerei", "thai": "ร้านขายขนมปัง", "article": "die", "word": "Bäckerei", "emoji": "🥐"},
+        {"german": "die Geldbörse", "thai": "กระเป๋าสตางค์", "article": "die", "word": "Geldbörse", "emoji": "👛"},
+        {"german": "der Supermarkt", "thai": "ซูเปอร์มาร์เก็ต", "article": "der", "word": "Supermarkt", "emoji": "🛒"},
+        {"german": "die Fleischerei", "thai": "ร้านขายเนื้อ", "article": "die", "word": "Fleischerei", "emoji": "🥩"},
+        {"german": "die Brieftasche", "thai": "กระเป๋าสตางค์", "article": "die", "word": "Brieftasche", "emoji": "💼"},
+        {"german": "der Kiosk", "thai": "แผงลอย / ร้านขายหนังสือพิมพ์", "article": "der", "word": "Kiosk", "emoji": "📰"},
+        {"german": "der Frisör / Friseur", "thai": "ช่างตัดผม", "article": "der", "word": "Frisör / Friseur", "emoji": "💇‍♂️"},
+        {"german": "die Rechnung", "thai": "ใบเสร็จ / ใบแจ้งหนี้", "article": "die", "word": "Rechnung", "emoji": "🧾"},
+        {"german": "zahlen", "thai": "จ่ายเงิน", "article": "", "word": "zahlen", "emoji": "💳"},
+        {"german": "der Euro", "thai": "ยูโร", "article": "der", "word": "Euro", "emoji": "💶"},
+        {"german": "die Kontonummer", "thai": "เลขที่บัญชี", "article": "die", "word": "Kontonummer", "emoji": "🔢"},
+        {"german": "die Kreditkarte", "thai": "บัตรเครดิต", "article": "die", "word": "Kreditkarte", "emoji": "💳"},
+        {"german": "der Cent", "thai": "เซนต์", "article": "der", "word": "Cent", "emoji": "🪙"},
+        {"german": "die Bankleitzahl", "thai": "รหัสธนาคาร", "article": "die", "word": "Bankleitzahl", "emoji": "🏦"},
+        {"german": "das Geld", "thai": "เงิน", "article": "das", "word": "Geld", "emoji": "💵"},
+        {"german": "die Bank", "thai": "ธนาคาร", "article": "die", "word": "Bank", "emoji": "🏦"}
+      ]
+    }
+  ]
+}

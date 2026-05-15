@@ -1,0 +1,19 @@
+{
+  "theme_color": "#FF9800",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "erste", "english": "first", "article": "die", "word": "erste", "emoji": "🥇"},
+        {"german": "zweite", "english": "second", "article": "die", "word": "zweite", "emoji": "🥈"},
+        {"german": "dritte", "english": "third", "article": "die", "word": "dritte", "emoji": "🥉"},
+        {"german": "vierte", "english": "fourth", "article": "die", "word": "vierte", "emoji": "4️⃣"},
+        {"german": "fünfte", "english": "fifth", "article": "die", "word": "fünfte", "emoji": "🖐️"},
+        {"german": "sechste", "english": "sixth", "article": "die", "word": "sechste", "emoji": "6️⃣"},
+        {"german": "siebte", "english": "seventh", "article": "die", "word": "siebte", "emoji": "7️⃣"},
+        {"german": "achte", "english": "eighth", "article": "die", "word": "achte", "emoji": "8️⃣"},
+        {"german": "neunte", "english": "ninth", "article": "die", "word": "neunte", "emoji": "9️⃣"},
+        {"german": "zehnte", "english": "tenth", "article": "die", "word": "zehnte", "emoji": "🔟"}
+      ]
+    }
+  ]
+}

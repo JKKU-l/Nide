@@ -1,0 +1,125 @@
+{
+  "title": "Kann ich oder muss ich? (Tôi có thể hay tôi phải? - Cách dùng Động từ khuyết thiếu)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Động từ khuyết thiếu trong tiếng Đức",
+      "description": "Trong tiếng Đức, động từ khuyết thiếu thường đứng ở vị trí thứ 2 trong câu (được chia theo chủ ngữ), còn hành động chính (động từ nguyên thể) sẽ bị đẩy xuống cuối câu.",
+      "content": {
+        "description": "Động từ khuyết thiếu thay đổi ý nghĩa của động từ chính trong câu, diễn tả thái độ như sự cần thiết, khả năng, cho phép hoặc mong muốn."
+      }
+    },
+    {
+      "id": "müssen_usage",
+      "title": "müssen (Phải)",
+      "description": "Diễn tả một sự cần thiết hoặc nghĩa vụ bắt buộc mà không có sự lựa chọn nào khác.",
+      "content": {
+        "grammar_note": "Đây là một nghĩa vụ \"mạnh\". Nếu bạn không thực hiện, sẽ có hậu quả.",
+        "examples": [
+          "Ich muss arbeiten. (Tôi phải làm việc.)",
+          "Ich muss auf die Toilette (gehen). (Tôi phải đi vệ sinh.)"
+        ]
+      }
+    },
+    {
+      "id": "können_usage",
+      "title": "können (Có thể)",
+      "description": "Động từ này rất đa năng và có 3 cách dùng chính:",
+      "content": {
+        "uses": [
+          "Khả năng/Kỹ năng: Thứ gì đó bạn đã học được.",
+          "Cơ hội/Khả năng xảy ra: Có một cơ hội hoặc khả năng nào đó hiện hữu.",
+          "Cho phép (Không trang trọng): Việc gì đó không bị cấm (tương tự dürfen)."
+        ],
+        "examples": [
+          "Ich kann Englisch (sprechen). (Tôi có thể nói tiếng Anh.)",
+          "Hier kann man essen und trinken. (Ở đây người ta có thể ăn và uống.)",
+          "Hier kann man parken. (Ở đây có thể đỗ xe.)"
+        ]
+      }
+    },
+    {
+      "id": "dürfen_usage",
+      "title": "dürfen / nicht dürfen (Được phép / Không được phép)",
+      "description": "dürfen: Diễn tả sự cho phép (Được làm gì). nicht dürfen: Diễn tả sự cấm đoán (Bị cấm làm gì).",
+      "content": {
+        "exception_note": "Trong tiếng Anh \"must not\" là cấm đoán, nhưng trong tiếng Đức \"muss nicht\" chỉ có nghĩa là \"không cần thiết\" (tùy chọn), còn \"darf nicht\" mới là sự cấm đoán tuyệt đối.",
+        "examples": [
+          "Heute dürfen meine Kinder fernsehen. (Hôm nay các con tôi được phép xem TV.)",
+          "Hier dürfen Sie nicht rauchen. (Ở đây ngài không được phép hút thuốc.)"
+        ]
+      }
+    },
+    {
+      "id": "möchten_usage",
+      "title": "möchten (Muốn/Thích - Lịch sự)",
+      "description": "Một mong muốn hoặc yêu cầu một cách lịch sự.",
+      "content": {
+        "grammar_note": "Thực chất đây là dạng giả định cách (Konjunktiv II) của từ mögen, nhưng nó được dùng như một động từ khuyết thiếu riêng biệt trong đời sống hàng ngày.",
+        "examples": [
+          "Ich möchte einen Kaffee (trinken), bitte. (Tôi muốn uống một ly cà phê, làm ơn.)"
+        ]
+      }
+    },
+    {
+      "id": "wollen_usage",
+      "title": "wollen (Muốn - Trực tiếp)",
+      "description": "Một mong muốn hoặc ý định mạnh mẽ, trực tiếp.",
+      "content": {
+        "usage_note": "Dùng wollen khi yêu cầu người khác có thể bị coi là thô lỗ hoặc quá áp đặt. Hãy dùng möchten để lịch sự hơn.",
+        "examples": [
+          "Ich will gerne Ski-Urlaub machen. (Tôi muốn đi nghỉ mát để trượt tuyết.)"
+        ]
+      }
+    },
+    {
+      "id": "sollen_usage",
+      "title": "sollen (Nên / Phải - Theo lời người khác)",
+      "description": "Động từ này thường dùng khi yêu cầu đến từ một nguồn bên ngoài.",
+      "content": {
+        "uses": [
+          "Đề nghị/Câu hỏi: Hỏi ý kiến hoặc sở thích của người khác.",
+          "Thuật lại một mệnh lệnh: Nhắc lại lời một người khác (như bác sĩ hoặc sếp) bảo bạn phải làm gì."
+        ],
+        "examples": [
+          "Soll ich dir einen Kaffee machen? (Tôi có nên pha cho bạn một ly cà phê không?)",
+          "Der Arzt sagt, ich soll die Tabletten nehmen. (Bác sĩ nói tôi nên/phải uống thuốc.)"
+        ]
+      }
+    },
+    {
+      "id": "summary_table",
+      "title": "Bảng tổng kết cách dùng",
+      "description": "Tổng kết cách dùng Động từ khuyết thiếu trong các ngữ cảnh khác nhau.",
+      "content": {
+        "usage_table": {
+          "headers": ["Động từ khuyết thiếu", "Ngữ cảnh", "Nghĩa tiếng Việt"],
+          "rows": [
+            ["müssen", "Bắt buộc / Nghĩa vụ", "Phải"],
+            ["können", "Khả năng / Cơ hội", "Có thể"],
+            ["dürfen", "Được cho phép", "Được phép"],
+            ["nicht dürfen", "Cấm đoán", "Không được phép (Cấm)"],
+            ["möchten", "Mong muốn lịch sự", "Muốn / Xin mời"],
+            ["wollen", "Ý định mạnh mẽ", "Muốn (quyết tâm)"],
+            ["sollen", "Lời khuyên / Nhiệm vụ", "Nên / Phải (theo lời ai đó)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "grammar_tips",
+      "title": "Mẹo Ngữ pháp & Cấu trúc câu",
+      "description": "Các quy tắc ngữ pháp và cấu trúc câu quan trọng cho động từ khuyết thiếu.",
+      "content": {
+        "tips": [
+          "\"Bánh mì kẹp động từ\": Động từ khuyết thiếu được chia theo chủ ngữ và đứng ở vị trí thứ 2. Động từ chính giữ nguyên thể (Infinitive) và đứng ở cuối câu.",
+          "Ví dụ: Ich kann heute nicht kommen. (Tôi không thể đến vào hôm nay.)",
+          "Lược bỏ động từ chính: Trong tiếng Đức, nếu ý nghĩa đã rõ ràng (thường đi với các động từ chuyển động như \"đi\" hoặc \"làm\"), bạn có thể bỏ động từ ở cuối.",
+          "Ví dụ: Ich muss nach Hause (gehen). → Ich muss nach Hause. (Tôi phải về nhà.)",
+          "Biến đổi nguyên âm: Hầu hết các động từ khuyết thiếu đều thay đổi nguyên âm ở các ngôi số ít (ich, du, er/sie/es).",
+          "Ví dụ: können thành ich kann; müssen thành ich muss."
+        ]
+      }
+    }
+  ]
+}

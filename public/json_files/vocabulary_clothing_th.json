@@ -1,0 +1,36 @@
+{
+  "theme_color": "#9C27B0",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Kleidung", "thai": "เสื้อผ้า", "article": "die", "word": "Kleidung", "emoji": "👚"},
+        {"german": "das Kleid", "thai": "ชุดเดรส", "article": "das", "word": "Kleid", "emoji": "👗"},
+        {"german": "der Anzug", "thai": "ชุดสูท", "article": "der", "word": "Anzug", "emoji": "🤵"},
+        {"german": "die Hose", "thai": "กางเกง", "article": "die", "word": "Hose", "emoji": "👖"},
+        {"german": "die Bluse", "thai": "เสื้อสตรี", "article": "die", "word": "Bluse", "emoji": "👚"},
+        {"german": "die Krawatte", "thai": "เนคไท", "article": "die", "word": "Krawatte", "emoji": "👔"},
+        {"german": "der Rock", "thai": "กระโปรง", "article": "der", "word": "Rock", "emoji": "👗"},
+        {"german": "das Hemd", "thai": "เสื้อเชิ้ต", "article": "das", "word": "Hemd", "emoji": "👕"},
+        {"german": "das Kostüm", "thai": "ชุดสูทสตรี", "article": "das", "word": "Kostüm", "emoji": "👩‍💼"},
+        {"german": "der Pullover", "thai": "เสื้อกันหนาว / เสื้อสเวตเตอร์", "article": "der", "word": "Pullover", "emoji": "🧶"},
+        {"german": "die Jeans", "thai": "กางเกงยีนส์", "article": "die", "word": "Jeans", "emoji": "👖"},
+        {"german": "die Mütze", "thai": "หมวกไหมพรม / หมวกแก๊ป", "article": "die", "word": "Mütze", "emoji": "🧢"},
+        {"german": "die Weste", "thai": "เสื้อกั๊ก", "article": "die", "word": "Weste", "emoji": "🦺"},
+        {"german": "die Jacke", "thai": "เสื้อแจ็คเก็ต", "article": "die", "word": "Jacke", "emoji": "🧥"},
+        {"german": "der Handschuh", "thai": "ถุงมือ", "article": "der", "word": "Handschuh", "emoji": "🧤"},
+        {"german": "das T-Shirt", "thai": "เสื้อยืด", "article": "das", "word": "T-Shirt", "emoji": "👕"},
+        {"german": "der Mantel", "thai": "เสื้อโค้ท", "article": "der", "word": "Mantel", "emoji": "🧥"},
+        {"german": "der Schal", "thai": "ผ้าพันคอ", "article": "der", "word": "Schal", "emoji": "🧣"},
+        {"german": "der Gürtel", "thai": "เข็มขัด", "article": "der", "word": "Gürtel", "emoji": "🥋"},
+        {"german": "der Strumpf", "thai": "ถุงเท้ายาว", "article": "der", "word": "Strumpf", "emoji": "🧦"},
+        {"german": "der Unterrock", "thai": "กระโปรงซับใน", "article": "der", "word": "Unterrock", "emoji": "👙"},
+        {"german": "der Schuh", "thai": "รองเท้า", "article": "der", "word": "Schuh", "emoji": "👟"},
+        {"german": "das Unterhemd", "thai": "เสื้อกล้าม / เสื้อซับใน", "article": "das", "word": "Unterhemd", "emoji": "👕"},
+        {"german": "sich ausziehen", "thai": "ถอดเสื้อผ้า", "article": "", "word": "sich ausziehen", "emoji": "🚿"},
+        {"german": "der Stiefel", "thai": "รองเท้าบูท", "article": "der", "word": "Stiefel", "emoji": "👢"},
+        {"german": "die Unterhose", "thai": "กางเกงใน", "article": "die", "word": "Unterhose", "emoji": "🩲"},
+        {"german": "sich anziehen", "thai": "สวมเสื้อผ้า", "article": "", "word": "sich anziehen", "emoji": "👔"}
+      ]
+    }
+  ]
+}

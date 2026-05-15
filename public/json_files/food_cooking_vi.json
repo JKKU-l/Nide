@@ -1,0 +1,55 @@
+{
+  "title": "Food & Cooking",
+  "emoji": "🍳",
+  "theme_color": "#9C27B0",
+  "description": "Food, cooking, and kitchen vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "schneiden", "vietnamese": "cắt / thái", "example_german": "Ich schneide das Brot in Scheiben.", "example_vietnamese": "Tôi đang thái bánh mì thành từng lát."},
+          {"german": "hacken", "vietnamese": "băm / chặt", "example_german": "Kannst du bitte die Zwiebeln fein hacken?", "example_vietnamese": "Bạn có thể vui lòng băm nhỏ hành tây được không?"},
+          {"german": "schälen", "vietnamese": "gọt vỏ", "example_german": "Er schält die Kartoffeln für das Abendessen.", "example_vietnamese": "Anh ấy đang gọt vỏ khoai tây cho bữa tối."},
+          {"german": "reiben", "vietnamese": "nạo / bào", "example_german": "Wir reiben frischen Käse über die Pasta.", "example_vietnamese": "Chúng tôi đang bào phô mai tươi lên món mì Ý."},
+          {"german": "mischen", "vietnamese": "trộn", "example_german": "Mischen Sie alle Zutaten in einer großen Schüssel.", "example_vietnamese": "Hãy trộn tất cả các nguyên liệu trong một cái bát lớn."},
+          {"german": "rühren", "vietnamese": "khuấy", "example_german": "Du musst die Suppe regelmäßig umrühren.", "example_vietnamese": "Bạn phải khuấy canh thường xuyên."},
+          {"german": "kochen", "vietnamese": "nấu / đun sôi", "example_german": "Das Wasser kocht bereits.", "example_vietnamese": "Nước đã sôi rồi."},
+          {"german": "braten", "vietnamese": "chiên / rán", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_vietnamese": "Tôi đang rán thịt trong chảo."},
+          {"german": "backen", "vietnamese": "nướng (bằng lò)", "example_german": "Am Wochenende backe ich einen Kuchen.", "example_vietnamese": "Vào cuối tuần, tôi sẽ nướng một chiếc bánh ngọt."},
+          {"german": "grillen", "vietnamese": "nướng (bằng vỉ/than)", "example_german": "Im Sommer grillen wir oft im Garten.", "example_vietnamese": "Vào mùa hè, chúng tôi thường nướng thịt ở trong vườn."},
+          {"german": "dämpfen", "vietnamese": "hấp", "example_german": "Gemüse ist gesünder, wenn man es dämpft.", "example_vietnamese": "Rau củ sẽ tốt cho sức khỏe hơn khi bạn hấp chúng."},
+          {"german": "frittieren", "vietnamese": "chiên ngập dầu", "example_german": "Die Pommes werden in heißem Öl frittiert.", "example_vietnamese": "Khoai tây chiên được chiên ngập trong dầu nóng."},
+          {"german": "anbraten", "vietnamese": "áp chảo", "example_german": "Zuerst muss man das Fleisch scharf anbraten.", "example_vietnamese": "Trước tiên, bạn phải áp chảo thịt thật nhanh ở nhiệt độ cao."},
+          {"german": "schmecken", "vietnamese": "có vị / nếm thấy", "example_german": "Das Essen schmeckt wirklich hervorragend.", "example_vietnamese": "Thức ăn có vị thực sự tuyệt vời."},
+          {"german": "probieren", "vietnamese": "nếm thử / ăn thử", "example_german": "Möchtest du die Sauce mal probieren?", "example_vietnamese": "Bạn có muốn nếm thử nước xốt không?"},
+          {"german": "würzen", "vietnamese": "nêm gia vị", "example_german": "Du solltest den Salat noch etwas würzen.", "example_vietnamese": "Bạn nên nêm thêm một chút gia vị cho món salad."},
+          {"german": "salzen", "vietnamese": "rắc muối / nêm muối", "example_german": "Ich habe vergessen, die Nudeln zu salzen.", "example_vietnamese": "Tôi đã quên nêm muối vào mì."},
+          {"german": "pfeffern", "vietnamese": "rắc tiêu", "example_german": "Er pfeffert sein Steak sehr stark.", "example_vietnamese": "Anh ấy rắc rất nhiều tiêu lên miếng bít tết của mình."},
+          {"german": "marinieren", "vietnamese": "tẩm ướp", "example_german": "Das Fleisch muss zwei Stunden marinieren.", "example_vietnamese": "Thịt cần phải được tẩm ướp trong hai tiếng."},
+          {"german": "einfrieren", "vietnamese": "đông lạnh", "example_german": "Wir frieren die Reste der Suppe ein.", "example_vietnamese": "Chúng tôi đông lạnh phần canh còn thừa."},
+          {"german": "auftauen", "vietnamese": "rã đông", "example_german": "Ich muss das Hähnchen vor dem Kochen auftauen.", "example_vietnamese": "Tôi cần rã đông thịt gà trước khi nấu."},
+          {"german": "servieren", "vietnamese": "phục vụ / dọn món", "example_german": "Das Dessert wird mit Sahne serviert.", "example_vietnamese": "Món tráng miệng được phục vụ kèm với kem tươi."},
+          {"german": "füllen", "vietnamese": "nhồi / làm đầy", "example_german": "Sie füllt die Paprika mit Reis und Hackfleisch.", "example_vietnamese": "Cô ấy nhồi ớt chuông với cơm và thịt băm."},
+          {"german": "gießen", "vietnamese": "rót / đổ", "example_german": "Bitte gieß mir etwas Wasser ins Glas.", "example_vietnamese": "Vui lòng rót cho tôi một chút nước vào cốc."},
+          {"german": "bestellen", "vietnamese": "gọi món / đặt hàng", "example_german": "Wir bestellen uns heute eine Pizza.", "example_vietnamese": "Hôm nay chúng tôi đặt một chiếc bánh pizza."},
+          {"german": "bezahlen", "vietnamese": "thanh toán / trả tiền", "example_german": "Wir möchten bitte getrennt bezahlen.", "example_vietnamese": "Chúng tôi muốn thanh toán riêng, làm ơn."},
+          {"german": "reservieren", "vietnamese": "đặt chỗ trước", "example_german": "Hast du einen Tisch im Restaurant reserviert?", "example_vietnamese": "Bạn đã đặt bàn ở nhà hàng chưa?"},
+          {"german": "empfehlen", "vietnamese": "gợi ý / giới thiệu", "example_german": "Was können Sie uns heute empfehlen?", "example_vietnamese": "Hôm nay bạn có thể gợi ý cho chúng tôi món gì?"},
+          {"german": "bringen", "vietnamese": "mang đến", "example_german": "Der Kellner bringt uns die Speisekarte.", "example_vietnamese": "Người bồi bàn mang thực đơn đến cho chúng tôi."},
+          {"german": "holen", "vietnamese": "lấy / đi lấy", "example_german": "Ich hole nur kurz eine Flasche Wein aus dem Keller.", "example_vietnamese": "Tôi chỉ đi lấy nhanh một chai rượu vang từ dưới hầm."},
+          {"german": "kaufen", "vietnamese": "mua", "example_german": "Wir müssen noch Brot für morgen kaufen.", "example_vietnamese": "Chúng tôi vẫn phải mua bánh mì cho ngày mai."},
+          {"german": "finden", "vietnamese": "tìm thấy", "example_german": "Wo finde ich hier das Salz?", "example_vietnamese": "Tôi có thể tìm thấy muối ở đâu ở đây?"},
+          {"german": "einpacken", "vietnamese": "đóng gói / gói lại", "example_german": "Kann ich den Rest bitte einpacken lassen?", "example_vietnamese": "Bạn có thể vui lòng để họ gói phần còn lại mang về không?"},
+          {"german": "auspacken", "vietnamese": "mở gói / lấy đồ ra", "example_german": "Er packt die Einkäufe in der Küche aus.", "example_vietnamese": "Anh ấy đang lấy đồ mua sắm ra trong nhà bếp."},
+          {"german": "spülen", "vietnamese": "rửa (bát đĩa)", "example_german": "Ich muss noch das Geschirr spülen.", "example_vietnamese": "Tôi còn phải rửa bát đĩa."},
+          {"german": "anrichten", "vietnamese": "bày biện / trang trí món ăn", "example_german": "Sie richtet den Salat hübsch auf dem Teller an.", "example_vietnamese": "Cô ấy bày biện món salad thật đẹp mắt trên đĩa."},
+          {"german": "öffnen", "vietnamese": "mở", "example_german": "Kannst du bitte die Dose öffnen?", "example_vietnamese": "Bạn có thể vui lòng mở hộp này ra không?"},
+          {"german": "schließen", "vietnamese": "đóng", "example_german": "Bitte schließen Sie die Kühlschranktür.", "example_vietnamese": "Vui lòng đóng cửa tủ lạnh lại."},
+          {"german": "wählen", "vietnamese": "chọn / lựa chọn", "example_german": "Sie können zwischen Fisch und Fleisch wählen.", "example_vietnamese": "Bạn có thể lựa chọn giữa cá và thịt."},
+          {"german": "genießen", "vietnamese": "thưởng thức", "example_german": "Wir genießen das gute Essen und den Wein.", "example_vietnamese": "Chúng tôi thưởng thức món ăn ngon và rượu vang."}
+        ]
+      }
+    }
+  ]
+}

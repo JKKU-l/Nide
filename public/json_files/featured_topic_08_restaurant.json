@@ -1,0 +1,39 @@
+{
+  "month": 8,
+  "title_en": "At the Restaurant",
+  "title_de": "Im Restaurant",
+  "icon": "🍽️",
+  "theme_color": "#F97316",
+  "subtopics": [
+    {
+      "id": "getting_settled",
+      "title": "Getting Settled",
+      "content": ""
+    },
+    {
+      "id": "looking_at_menu",
+      "title": "Looking at the Menu",
+      "content": ""
+    },
+    {
+      "id": "ordering_meat_fowl",
+      "title": "Ordering Meat or Fowl",
+      "content": ""
+    },
+    {
+      "id": "ordering_fish_seafood",
+      "title": "Ordering Fish or Seafood",
+      "content": ""
+    },
+    {
+      "id": "some_problems",
+      "title": "Some Problems You May Have",
+      "content": ""
+    },
+    {
+      "id": "getting_the_check",
+      "title": "Getting the Check",
+      "content": ""
+    }
+  ]
+}

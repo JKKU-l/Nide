@@ -1,0 +1,107 @@
+{
+  "title": "Genitiv (Cách sở hữu)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Cách sở hữu (Genitiv) trong tiếng Đức",
+      "description": "Genitiv chủ yếu dùng để chỉ sự sở hữu, quyền sở hữu, hoặc mối quan hệ cụ thể giữa hai danh từ. Mặc dù thường được thay thế bằng Dativ (dùng von) trong giao tiếp hàng ngày, Genitiv vẫn là chuẩn mực trong văn viết trang trọng, văn học và ngôn ngữ học thuật."
+    },
+    {
+      "id": "core_function",
+      "title": "1. Chức năng chính: Thể hiện sở hữu",
+      "description": "Genitiv trả lời câu hỏi \"Wessen?\" (Của ai?). Nó liên kết hai danh từ, trong đó danh từ thứ hai \"sở hữu\" danh từ thứ nhất.",
+      "content": {
+        "declension_table": {
+          "title": "Bảng biến cách Genitiv",
+          "headers": ["Giống", "Mạo từ xác định", "Mạo từ không xác định/Sở hữu", "Thay đổi danh từ"],
+          "rows": [
+            { "category": "Giống đực", "definite": "des (des Vaters)", "indefinite": "eines / meines", "adjective": "Thêm -s hoặc -es" },
+            { "category": "Giống trung", "definite": "des (des Kindes)", "indefinite": "eines / meines", "adjective": "Thêm -s hoặc -es" },
+            { "category": "Giống cái", "definite": "der (der Mutter)", "indefinite": "einer / meiner", "adjective": "Không đổi" },
+            { "category": "Số nhiều", "definite": "der (der Eltern)", "indefinite": "meiner", "adjective": "Không đổi" }
+          ]
+        },
+        "key_rule": "Danh từ giống đực và giống trung thường thêm -es nếu từ có 1 âm tiết (ví dụ: des Mannes) và chỉ -s nếu có nhiều âm tiết (ví dụ: des Computers).",
+        "translations": [
+          { "label": "Giống đực", "german": "Das Auto des Vaters.", "translation": "Xe của bố." },
+          { "label": "Giống cái", "german": "Die Farbe einer Blume.", "translation": "Màu của một bông hoa." }
+        ]
+      }
+    },
+    {
+      "id": "prepositions",
+      "title": "2. Sử dụng với giới từ",
+      "description": "Một số giới từ \"kích hoạt\" Genitiv. Khi dùng những từ này, danh từ theo sau phải ở dạng Genitiv.",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_prepositions",
+            "title": "Giới từ Genitiv phổ biến",
+            "description": "Các giới từ này luôn đòi hỏi Genitiv:",
+            "prepositions": ["trotz (mặc dù)", "während (trong khi)", "wegen (vì)", "außerhalb (bên ngoài)", "innerhalb (bên trong)"],
+            "examples": [
+              { "german": "Trotz des Regens gehen wir spazieren.", "translation": "Mặc dù trời mưa, chúng tôi đi dạo." },
+              { "german": "Während der Fahrt schläft er.", "translation": "Trong chuyến đi, anh ấy ngủ." },
+              { "german": "Wegen des Wetters bleiben wir zu Hause.", "translation": "Vì thời tiết, chúng tôi ở nhà." },
+              { "german": "Außerhalb der Stadt.", "translation": "Bên ngoài thành phố." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "verbs_adjectives",
+      "title": "3. Sử dụng với động từ và tính từ",
+      "description": "Mặc dù ít phổ biến trong lời nói hàng ngày hiện đại, một số động từ và tính từ cấp cao đòi hỏi Genitiv.",
+      "content": {
+        "triggers": [
+          {
+            "id": "genitive_verbs",
+            "title": "Động từ",
+            "description": "Các động từ này mô tả hành động pháp lý hoặc suy ngẫm nội tâm.",
+            "subcategories": [
+              { "label": "Anklagen (Buộc tội)", "verbs": "", "german": "Man klagte ihn des Mordes an.", "translation": "Họ buộc tội anh ta giết người." },
+              { "label": "Gedenken (Tưởng niệm)", "verbs": "", "german": "Wir gedenken der Toten.", "translation": "Chúng tôi tưởng niệm người đã khuất." },
+              { "label": "Sich schämen (Xấu hổ về)", "verbs": "", "german": "Er schämt sich seines Fehlers.", "translation": "Anh ấy xấu hổ về lỗi lầm của mình." }
+            ]
+          },
+          {
+            "id": "genitive_adjectives",
+            "title": "Tính từ",
+            "description": "Các tính từ này đòi hỏi Genitiv:",
+            "subcategories": [
+              { "label": "Würdig (Xứng đáng)", "verbs": "", "german": "Das ist eines Königs würdig.", "translation": "Điều đó xứng đáng với một vị vua." },
+              { "label": "Sicher (Chắc chắn về)", "verbs": "", "german": "Ich bin mir meiner Sache sicher.", "translation": "Tôi chắc chắn về quan điểm của mình." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "possessive_pronouns",
+      "title": "4. Đại từ sở hữu trong Genitiv",
+      "description": "Khi dùng đại từ sở hữu (của tôi, của bạn, của anh ấy) làm từ bổ nghĩa độc lập trong Genitiv, chúng theo cùng đuôi như mạo từ không xác định.",
+      "content": {
+        "determiners": ["Đuôi giống đực/giống trung: -es (meines, deines, seines)", "Đuôi giống cái/số nhiều: -er (meiner, deiner, ihrer)"],
+        "example": {
+          "german": "Wegen meines Bruders.",
+          "translation": "Vì anh trai của tôi.",
+          "note": "Ví dụ khác: Inmitten unserer Freunde. (Giữa bạn bè của chúng tôi.)"
+        }
+      }
+    },
+    {
+      "id": "adjective_declension",
+      "title": "5. Biến cách tính từ trong Genitiv",
+      "description": "Nếu tính từ nằm giữa mạo từ và danh từ trong Genitiv, nó hầu như luôn kết thúc bằng -en.",
+      "content": {
+        "translations": [
+          { "label": "Có mạo từ", "german": "Das Haus des alten Mannes.", "translation": "Ngôi nhà của ông già." },
+          { "label": "Không có mạo từ (cà phê tươi)", "german": "Der Duft frischen Kaffees.", "translation": "Hương thơm của cà phê tươi. (Tính từ lấy đuôi mà mạo từ lẽ ra sẽ có.)" },
+          { "label": "Không có mạo từ (bố mẹ tốt bụng)", "german": "Die Hilfe netter Eltern.", "translation": "Sự giúp đỡ của bố mẹ tốt bụng." }
+        ],
+        "key_rule": "Có mạo từ, tính từ luôn kết thúc bằng -en. Không có mạo từ (ví dụ danh từ số nhiều hoặc khái niệm trừu tượng), tính từ lấy đuôi mà mạo từ lẽ ra sẽ có."
+      }
+    }
+  ]
+}

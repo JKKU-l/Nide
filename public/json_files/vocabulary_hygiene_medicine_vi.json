@@ -1,0 +1,46 @@
+{
+  "title": "Vệ sinh và Y tế",
+  "description": "Học từ vựng tiếng Đức về vệ sinh, y tế, chăm sóc bệnh nhân và bệnh viện.",
+  "images": [
+    "assets/images/hygiene_and_medicine_1.png",
+    "assets/images/hygiene_and_medicine_2.png"
+  ],
+  "theme_color": "#4CAF50",
+  "sections": [
+    {
+      "id": "hygiene_medicine",
+      "title": "Vệ sinh và Y tế",
+      "emoji": "🧼",
+      "vocabulary": [
+        {"german": "duschen", "vietnamese": "tắm vòi sen", "article": "", "word": "duschen"},
+        {"german": "baden", "vietnamese": "tắm bồn", "article": "", "word": "baden"},
+        {"german": "das Shampoo", "vietnamese": "dầu gội đầu", "article": "das", "word": "Shampoo"},
+        {"german": "die Zahnpasta", "vietnamese": "kem đánh răng", "article": "die", "word": "Zahnpasta"},
+        {"german": "das Handtuch", "vietnamese": "khăn tắm", "article": "das", "word": "Handtuch"},
+        {"german": "die Creme", "vietnamese": "kem dưỡng da / lô-shon", "article": "die", "word": "Creme"},
+        {"german": "die Seife", "vietnamese": "xà phòng", "article": "die", "word": "Seife"},
+        {"german": "die Zahnbürste", "vietnamese": "bàn chải đánh răng", "article": "die", "word": "Zahnbürste"},
+        {"german": "sich kämmen", "vietnamese": "chải đầu", "article": "", "word": "sich kämmen"},
+        {"german": "sich rasieren", "vietnamese": "cạo râu", "article": "", "word": "sich rasieren"},
+        {"german": "tot", "vietnamese": "chết / tử vong", "article": "", "word": "tot"},
+        {"german": "das Blut", "vietnamese": "máu", "article": "das", "word": "Blut"},
+        {"german": "gesund", "vietnamese": "khỏe mạnh", "article": "", "word": "gesund"},
+        {"german": "der Schmerz", "vietnamese": "cơn đau / sự đau đớn", "article": "der", "word": "Schmerz"},
+        {"german": "das Pflaster", "vietnamese": "băng cá nhân", "article": "das", "word": "Pflaster"},
+        {"german": "krank", "vietnamese": "bị ốm / bị bệnh", "article": "", "word": "krank"},
+        {"german": "das Fieber", "vietnamese": "sốt", "article": "das", "word": "Fieber"},
+        {"german": "das Medikament", "vietnamese": "thuốc", "article": "das", "word": "Medikament"},
+        {"german": "die Tablette", "vietnamese": "thuốc viên", "article": "die", "word": "Tablette"},
+        {"german": "der Arzt", "vietnamese": "bác sĩ (nam)", "article": "der", "word": "Arzt"},
+        {"german": "die Ärztin", "vietnamese": "bác sĩ (nữ)", "article": "die", "word": "Ärztin"},
+        {"german": "der Patient", "vietnamese": "bệnh nhân (nam)", "article": "der", "word": "Patient"},
+        {"german": "die Patientin", "vietnamese": "bệnh nhân (nữ)", "article": "die", "word": "Patientin"},
+        {"german": "die Versichertenkarte", "vietnamese": "thẻ bảo hiểm y tế", "article": "die", "word": "Versichertenkarte"},
+        {"german": "die Krankenschwester", "vietnamese": "y tá", "article": "die", "word": "Krankenschwester"},
+        {"german": "die Praxis", "vietnamese": "phòng khám", "article": "die", "word": "Praxis"},
+        {"german": "das Krankenhaus", "vietnamese": "bệnh viện", "article": "das", "word": "Krankenhaus"},
+        {"german": "der Krankenwagen", "vietnamese": "xe cứu thương", "article": "der", "word": "Krankenwagen"}
+      ]
+    }
+  ]
+}

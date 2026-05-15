@@ -1,0 +1,23 @@
+{
+  "category": "Weather & Clothing",
+  "category_de": "Wetter & Kleidung",
+  "icon": "🌤️",
+  "words": [
+    {"de":"das Wetter","word":"Wetter","article":"das","en":"weather","jp":"天気","kr":"날씨","my":"ရာသီဥတု","th":"อากาศ","vi":"thời tiết","pronunciation":"/ˈvɛtɐ/","example_de":"Wie ist das Wetter heute?","example_en":"How is the weather today?"},
+    {"de":"die Sonne","word":"Sonne","article":"die","en":"sun","jp":"太陽","kr":"태양","my":"နေ","th":"ดวงอาทิตย์","vi":"mặt trời","pronunciation":"/ˈzɔnə/","example_de":"Die Sonne scheint hell.","example_en":"The sun shines brightly."},
+    {"de":"der Regen","word":"Regen","article":"der","en":"rain","jp":"雨","kr":"비","my":"မိုး","th":"ฝน","vi":"mưa","pronunciation":"/ˈʁeːɡn̩/","example_de":"Nimm einen Schirm, es gibt Regen.","example_en":"Take an umbrella, there will be rain."},
+    {"de":"der Schnee","word":"Schnee","article":"der","en":"snow","jp":"雪","kr":"눈","my":"နှင်း","th":"หิมะ","vi":"tuyết","pronunciation":"/ʃneː/","example_de":"Im Winter fällt viel Schnee.","example_en":"In winter a lot of snow falls."},
+    {"de":"der Wind","word":"Wind","article":"der","en":"wind","jp":"風","kr":"바람","my":"လေ","th":"ลม","vi":"gió","pronunciation":"/vɪnt/","example_de":"Der Wind weht stark heute.","example_en":"The wind blows strongly today."},
+    {"de":"der Sommer","word":"Sommer","article":"der","en":"summer","jp":"夏","kr":"여름","my":"နွေ","th":"ฤดูร้อน","vi":"mùa hè","pronunciation":"/ˈzɔmɐ/","example_de":"Im Sommer fahren wir ans Meer.","example_en":"In summer we go to the sea."},
+    {"de":"der Winter","word":"Winter","article":"der","en":"winter","jp":"冬","kr":"겨울","my":"ဆောင်း","th":"ฤดูหนาว","vi":"mùa đông","pronunciation":"/ˈvɪntɐ/","example_de":"Der Winter in Berlin ist kalt.","example_en":"Winter in Berlin is cold."},
+    {"de":"der Frühling","word":"Frühling","article":"der","en":"spring","jp":"春","kr":"봄","my":"နွေဦး","th":"ฤดูใบไม้ผลิ","vi":"mùa xuân","pronunciation":"/ˈfʁyːlɪŋ/","example_de":"Im Frühling blühen die Blumen.","example_en":"In spring the flowers bloom."},
+    {"de":"der Herbst","word":"Herbst","article":"der","en":"autumn","jp":"秋","kr":"가을","my":"ဆောင်းဦး","th":"ฤดูใบไม้ร่วง","vi":"mùa thu","pronunciation":"/hɛʁpst/","example_de":"Im Herbst fallen die Blätter.","example_en":"In autumn the leaves fall."},
+    {"de":"die Kleidung","word":"Kleidung","article":"die","en":"clothing","jp":"服","kr":"옷","my":"အဝတ်အထည်","th":"เสื้อผ้า","vi":"quần áo","pronunciation":"/ˈklaɪ̯dʊŋ/","example_de":"Die Kleidung ist im Schrank.","example_en":"The clothes are in the wardrobe."},
+    {"de":"das Hemd","word":"Hemd","article":"das","en":"shirt","jp":"シャツ","kr":"셔츠","my":"ရှပ်အင်္ကျီ","th":"เสื้อเชิ้ต","vi":"áo sơ mi","pronunciation":"/hɛmt/","example_de":"Ich trage ein weißes Hemd.","example_en":"I wear a white shirt."},
+    {"de":"die Hose","word":"Hose","article":"die","en":"pants","jp":"ズボン","kr":"바지","my":"ဘောင်းဘီ","th":"กางเกง","vi":"quần","pronunciation":"/ˈhoːzə/","example_de":"Die Hose ist zu lang.","example_en":"The pants are too long."},
+    {"de":"die Jacke","word":"Jacke","article":"die","en":"jacket","jp":"ジャケット","kr":"재킷","my":"ဂျက်ကက်","th":"เสื้อแจ็คเก็ต","vi":"áo khoác","pronunciation":"/ˈjakə/","example_de":"Zieh eine Jacke an, es ist kalt.","example_en":"Put on a jacket, it's cold."},
+    {"de":"die Schuhe","word":"Schuhe","article":"die","en":"shoes","jp":"靴","kr":"신발","my":"ဖိနပ်","th":"รองเท้า","vi":"giày","pronunciation":"/ˈʃuːə/","example_de":"Ich brauche neue Schuhe.","example_en":"I need new shoes."},
+    {"de":"der Hut","word":"Hut","article":"der","en":"hat","jp":"帽子","kr":"모자","my":"ဦးထုပ်","th":"หมวก","vi":"mũ","pronunciation":"/huːt/","example_de":"Im Sommer trage ich einen Hut.","example_en":"In summer I wear a hat."},
+    {"de":"die Brille","word":"Brille","article":"die","en":"glasses","jp":"眼鏡","kr":"안경","my":"မျက်မှန်","th":"แว่นตา","vi":"kính","pronunciation":"/ˈbʁɪlə/","example_de":"Ohne Brille kann ich nichts sehen.","example_en":"Without glasses I can't see anything."}
+  ]
+}

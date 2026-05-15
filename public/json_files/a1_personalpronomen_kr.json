@@ -1,0 +1,137 @@
+{
+  "title": "🇩🇪 Personalpronomen 👥",
+  "subtitle": "German Personal Pronouns Guide (Korean Edition)",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "1. 주격 인칭대명사 (Nominative Case)",
+      "description": "독일어 인칭대명사는 화자, 청자, 그리고 제3자(인칭)와 단수·복수(수)에 따라 다음과 같이 분류됩니다.",
+      "content": {
+        "table": {
+          "headers": ["인칭", "단수 (Singular)", "복수 (Plural)"],
+          "rows": [
+            ["1인칭 (나/우리)", "ich (나)", "wir (우리)"],
+            ["2인칭 (친근한 사이)", "du (너)", "ihr (너희들)"],
+            ["2인칭 (존칭/격식)", "Sie (당신)", "Sie (당신들)"],
+            ["3인칭 (남성)", "er (그)", ""],
+            ["3인칭 (여성)", "sie (그녀)", "sie (그들/그것들)"],
+            ["3인칭 (중성)", "es (그것)", ""]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pronouns_for_nouns",
+      "title": "2. 명사(사물)에 대한 대명사 사용법",
+      "description": "독일어에서는 명사의 문법적 성별(Gender)에 따라 er, sie, es를 구분해서 사용합니다.",
+      "content": {
+        "examples": [
+          {
+            "gender": "남성 명사 (der)",
+            "example": "der Löffel (숟가락) → er",
+            "explanation": "예: der Löffel (숟가락) → er"
+          },
+          {
+            "gender": "여성 명사 (die)",
+            "example": "die Gabel (포크) → sie",
+            "explanation": "예: die Gabel (포크) → sie"
+          },
+          {
+            "gender": "중성 명사 (das)",
+            "example": "das Messer (칼) → es",
+            "explanation": "예: das Messer (칼) → es"
+          },
+          {
+            "gender": "복수형 (die)",
+            "example": "die Tassen (컵들) → sie",
+            "explanation": "예: die Tassen (컵들) → sie"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pronoun_combination_rules",
+      "title": "3. 대명사 결합 규칙",
+      "description": "대명사 결합 규칙",
+      "content": {
+        "rules": [
+          {
+            "rule": "ich + 다른 사람 = wir (우리)",
+            "example": "ich + 다른 사람 = wir (우리)"
+          },
+          {
+            "rule": "du + 다른 사람 (ich 제외) = ihr (너희들)",
+            "example": "du + 다른 사람 (ich 제외) = ihr (너희들)"
+          },
+          {
+            "rule": "er + sie + es = sie (그들)",
+            "example": "er + sie + es = sie (그들)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice_examples",
+      "title": "4. 실전 예문 및 활용",
+      "description": "실전 예문 및 활용",
+      "content": {
+        "conversational_context": {
+          "title": "A. 대화 상황",
+          "examples": [
+            {
+              "german": "Wir sprechen Deutsch.",
+              "english": "우리는 독일어를 합니다."
+            },
+            {
+              "german": "Haben Sie Zeit?",
+              "english": "시간 있으신가요? - 격식체"
+            },
+            {
+              "german": "Hilfst du mir?",
+              "english": "나 좀 도와줄래? - 비격식체"
+            }
+          ]
+        },
+        "replacing_names_objects": {
+          "title": "B. 이름 및 사물 대체하기",
+          "examples": [
+            {
+              "original": "Frau Kioka",
+              "replacement": "Sie kommt aus Japan.",
+              "english": "그녀는 일본에서 왔습니다."
+            },
+            {
+              "original": "Der Schrank ist teuer.",
+              "replacement": "Er kommt aus Italien.",
+              "english": "그것은 이탈리아산입니다. - 남성 명사"
+            },
+            {
+              "original": "Das Regal ist praktisch.",
+              "replacement": "Es kostet 49 Euro.",
+              "english": "그것은 49유로입니다."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "💡 주요 팁 (Formal vs. Informal)",
+      "description": "주요 팁 (Formal vs. Informal)",
+      "content": {
+        "guidelines": [
+          {
+            "type": "Formal",
+            "pronoun": "Sie (항상 S를 대문자)",
+            "usage": "잘 모르는 성인, 선생님, 비즈니스 상황"
+          },
+          {
+            "type": "Informal",
+            "pronoun": "du",
+            "usage": "친구, 가족, 아이들"
+          }
+        ]
+      }
+    }
+  ]
+}

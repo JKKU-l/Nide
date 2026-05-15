@@ -1,0 +1,93 @@
+{
+  "title": "My Friend",
+  "theme_color": "#FF6B6B",
+  "difficulty": "A1",
+  "duration_minutes": 5,
+  "audio_file": "my_friend.mp3",
+  "sections": [
+    {
+      "id": "story",
+      "title": "Story",
+      "content": {
+        "german_text": "Ich habe einen Freund. Er heißt Leo. Leo ist sehr nett. Wir trinken oft Kaffee zusammen. Wir sprechen ein bisschen Deutsch. Manchmal gehen wir in den Park. Leo hilft mir mit neuen Wörtern. Wir lachen viel. Ich bin sehr froh.",
+        "english_translation": "I have a friend. His name is Leo. Leo is very nice. We often drink coffee together. We speak a little German. Sometimes we go to the park. Leo helps me with new words. We laugh a lot. I am very happy.",
+        "myanmar_translation": "ကျွန်တော့်မှာ သူငယ်ချင်းတစ်ယောက်ရှိပါတယ်။ သူ့နာမည်က လီယိုပါ။ လီယိုက အရမ်းသဘောကောင်းပါတယ်။ ကျွန်တော်တို့ မကြာခဏ ကော်ဖီအတူတူသောက်လေ့ရှိပါတယ်။ ကျွန်တော်တို့ ဂျာမန်ဘာသာစကားကို အနည်းငယ်ပြောကြပါတယ်။ တစ်ခါတလေမှာ ကျွန်တော်တို့ ပန်းခြံထဲကို သွားကြပါတယ်။ လီယိုက စကားလုံးအသစ်တွေနဲ့ပတ်သက်ပြီး ကျွန်တော့်ကို ကူညီပေးပါတယ်။ ကျွန်တော်တို့ အများကြီးရယ်မောကြပါတယ်။ ကျွန်တော် အရမ်းဝမ်းသာပါတယ်။",
+        "japanese_translation": "私には友達がいます。彼の名前はレオです。レオはとても親切です。私たちはよく一緒にコーヒーを飲みます。私たちはドイツ語を少し話します。時々、公園に行きます。レオは新しい単語を教えてくれます。私たちはたくさん笑います。私はとても嬉しいです。",
+        "thai_translation": "ฉันมีเพื่อนคนหนึ่ง เขาชื่อเลโอ เลโอเป็นคนนิสัยดีมาก พวกเรามักจะดื่มกาแฟด้วยกันบ่อยๆ พวกเราพูดภาษาเยอรมันกันนิดหน่อย บางครั้งพวกเราก็ไปที่สวนสาธารณะ เลโอช่วยฉันเรื่องคำศัพท์ใหม่ๆ พวกเราหัวเราะกันเยอะมาก ฉันมีความสุขมากครับ"
+      }
+    },
+    {
+      "id": "exercises",
+      "title": "Practice Exercises",
+      "content": {
+        "exercises": [
+          {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Wie heißt der Freund?",
+            "options": ["Anna", "Leo", "Lukas", "Julia"],
+            "correct_answer": "Leo"
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "question": "Er heißt _______.",
+            "answer": "Leo"
+          },
+          {
+            "id": 3,
+            "type": "multiple_choice",
+            "question": "Was trinken sie oft zusammen?",
+            "options": ["Tee", "Wasser", "Kaffee", "Saft"],
+            "correct_answer": "Kaffee"
+          },
+          {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "Wir trinken oft _______ zusammen.",
+            "answer": "Kaffee"
+          },
+          {
+            "id": 5,
+            "type": "multiple_choice",
+            "question": "Was sprechen sie?",
+            "options": ["Englisch", "Französisch", "Deutsch", "Spanisch"],
+            "correct_answer": "Deutsch"
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "question": "Wir sprechen ein bisschen _______.",
+            "answer": "Deutsch"
+          },
+          {
+            "id": 7,
+            "type": "multiple_choice",
+            "question": "Wohin gehen sie manchmal?",
+            "options": ["Ins Kino", "In den Park", "Zur Bibliothek", "Ins Restaurant"],
+            "correct_answer": "In den Park"
+          },
+          {
+            "id": 8,
+            "type": "fill_blank",
+            "question": "Manchmal gehen wir in den _______.",
+            "answer": "Park"
+          },
+          {
+            "id": 9,
+            "type": "multiple_choice",
+            "question": "Was hilft Leo?",
+            "options": ["Mit alten Wörtern", "Mit neuen Wörtern", "Mit der Hausaufgabe", "Mit dem Essen"],
+            "correct_answer": "Mit neuen Wörtern"
+          },
+          {
+            "id": 10,
+            "type": "fill_blank",
+            "question": "Leo hilft mir mit neuen _______.",
+            "answer": "Wörtern"
+          }
+        ]
+      }
+    }
+  ]
+}

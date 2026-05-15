@@ -1,0 +1,225 @@
+{
+  "title": "Possessivartikel (Possessive articles)",
+  "description": "To understand German Possessivartikel, you first need to identify the \"owner\" (the person who possesses something) and the \"object\" (what is being owned). The owner determines the root word, while the object's gender and grammatical case determine the ending.",
+  "sections": [
+    {
+      "id": "root_words",
+      "title": "1. Choosing the Root Word (The Owner)",
+      "description": "Think of these as the English equivalents of \"my, your, his, her,\" etc. The root word depends entirely on who the person is:",
+      "content": {
+        "owners": [
+          {
+            "pronoun": "ich (I)",
+            "root": "mein",
+            "english": "my"
+          },
+          {
+            "pronoun": "du (you, informal)",
+            "root": "dein",
+            "english": "your"
+          },
+          {
+            "pronoun": "er (he) / es (it)",
+            "root": "sein",
+            "english": "his/its"
+          },
+          {
+            "pronoun": "sie (she)",
+            "root": "ihr",
+            "english": "her"
+          },
+          {
+            "pronoun": "wir (we)",
+            "root": "unser",
+            "english": "our"
+          },
+          {
+            "pronoun": "ihr (you all)",
+            "root": "euer",
+            "english": "your plural"
+          },
+          {
+            "pronoun": "sie (they)",
+            "root": "ihr",
+            "english": "their"
+          },
+          {
+            "pronoun": "Sie (you, formal)",
+            "root": "Ihr",
+            "english": "your formal - always capitalized"
+          }
+        ]
+      }
+    },
+    {
+      "id": "choosing_endings",
+      "title": "2. Choosing the Ending (The Object)",
+      "description": "Once you have the root, you must look at the noun following it. In German, nouns have gender (Masculine, Neutral, Feminine) and Number (Plural).",
+      "content": {
+        "nominative": {
+          "title": "The Nominative Case (Subject)",
+          "description": "In basic sentences like \"This is my...\", we use the Nominative case.",
+          "rules": [
+            {
+              "gender": "Masculine/Neutral",
+              "ending": "No ending",
+              "examples": [
+                {
+                  "german": "Das ist mein Vater.",
+                  "english": "That is my father."
+                },
+                {
+                  "german": "Das ist sein Auto.",
+                  "english": "That is his car."
+                }
+              ]
+            },
+            {
+              "gender": "Feminine/Plural",
+              "ending": "Add an -e",
+              "examples": [
+                {
+                  "german": "Das ist meine Mutter.",
+                  "english": "That is my mother."
+                },
+                {
+                  "german": "Das sind unsere Kinder.",
+                  "english": "Those are our children."
+                }
+              ]
+            }
+          ]
+        },
+        "accusative": {
+          "title": "The Accusative Case (Direct Object)",
+          "description": "If the possessed object is the \"receiver\" of an action (like \"I see my...\"), the masculine ending changes.",
+          "rules": [
+            {
+              "gender": "Masculine",
+              "ending": "Add -en",
+              "examples": [
+                {
+                  "german": "Ich besuche meinen Bruder.",
+                  "english": "I visit my brother."
+                }
+              ]
+            },
+            {
+              "gender": "Neutral/Feminine/Plural",
+              "ending": "Remains the same as Nominative",
+              "note": "No change needed"
+            }
+          ]
+        },
+        "dative": {
+          "title": "The Dative Case (Indirect Object/After specific prepositions)",
+          "description": "If you are giving something to someone or using specific prepositions, the endings change more significantly.",
+          "rules": [
+            {
+              "gender": "Masculine/Neutral",
+              "ending": "Add -em",
+              "example": "Ich gebe meinem Vater ein Buch."
+            },
+            {
+              "gender": "Feminine",
+              "ending": "Add -er",
+              "example": "Ich gebe meiner Mutter Blumen."
+            },
+            {
+              "gender": "Plural",
+              "ending": "Add -en (and usually an -n to the noun itself)",
+              "example": "Ich spiele mit meinen Kindern."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "practical_examples",
+      "title": "3. Practical Usage Examples",
+      "description": "Instead of the exercises in your image, let's look at how these work in real-world logic:",
+      "content": {
+        "scenario_a": {
+          "title": "Scenario A: Talking about a man (Thomas)",
+          "description": "If Thomas owns a dog (masculine), a book (neutral), and a bag (feminine), we use the root sein:",
+          "examples": [
+            {
+              "german": "Sein Hund ist groß.",
+              "english": "His dog is big."
+            },
+            {
+              "german": "Sein Buch ist neu.",
+              "english": "His book is new."
+            },
+            {
+              "german": "Seine Tasche ist braun.",
+              "english": "His bag is brown."
+            }
+          ]
+        },
+        "scenario_b": {
+          "title": "Scenario B: Talking about a woman (Julia)",
+          "description": "If Julia owns the same items, we switch to the root ihr:",
+          "examples": [
+            {
+              "german": "Ihr Hund ist groß.",
+              "english": "Her dog is big."
+            },
+            {
+              "german": "Ihr Buch ist neu.",
+              "english": "Her book is new."
+            },
+            {
+              "german": "Ihre Tasche ist braun.",
+              "english": "Her bag is brown."
+            }
+          ]
+        },
+        "scenario_c": {
+          "title": "Scenario C: Addressing someone formally (Herr Schmidt)",
+          "description": "When talking to a boss or a stranger, we use Ihr:",
+          "examples": [
+            {
+              "german": "Herr Schmidt, ist das Ihr Koffer?",
+              "english": "Mr. Schmidt, is that your suitcase?"
+            },
+            {
+              "german": "Wo ist Ihre Frau?",
+              "english": "Where is your wife?"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "key_logic",
+      "title": "4. Key Logic to Remember",
+      "description": "Important rules to keep in mind when using possessive articles:",
+      "content": {
+        "gender_trap": {
+          "title": "The Gender Trap",
+          "explanation": "Beginners often think the ending matches the owner. It doesn't. The ending always matches the thing being owned.",
+          "examples": [
+            "If a man has a mother, it is seine Mutter (because \"mother\" is feminine).",
+            "If a woman has a father, it is ihr Vater (because \"father\" is masculine)."
+          ]
+        },
+        "euer_spelling": {
+          "title": "The \"Euer\" Spelling Change",
+          "explanation": "The word euer (your plural) is special. When you add an ending like -e or -en, the middle \"e\" often drops out to make it easier to pronounce.",
+          "examples": [
+            "euer Vater (correct)",
+            "eure Mutter (not euere)"
+          ]
+        },
+        "kein_rule": {
+          "title": "The \"Kein\" Rule",
+          "explanation": "If you ever forget which ending to use, remember that possessive articles behave exactly like the word kein (no/none) or the indefinite article ein (a/an).",
+          "examples": [
+            "Ich habe kein Buch. → Ich habe mein Buch."
+          ]
+        }
+      }
+    }
+  ]
+}

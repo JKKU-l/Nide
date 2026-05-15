@@ -1,0 +1,263 @@
+{
+  "title": "ドイツ語のアルファベットと発音",
+  "subtitle": "German Alphabet & Pronunciation Guide (Japanese Edition)",
+  "sections": [
+    {
+      "id": "basic_alphabet",
+      "title": "基本のアルファベット (Das Alphabet)",
+      "description": "ドイツ語のアルファベット26文字の名前と、日本語での発音の目安です。",
+      "content": [
+        {
+          "letter": "A a",
+          "name": "Ah",
+          "sounds_like": "アー",
+          "tts_text": "A"
+        },
+        {
+          "letter": "B b",
+          "name": "Beh",
+          "sounds_like": "ベー",
+          "tts_text": "B"
+        },
+        {
+          "letter": "C c",
+          "name": "Tseh",
+          "sounds_like": "ツェー",
+          "tts_text": "C"
+        },
+        {
+          "letter": "D d",
+          "name": "Deh",
+          "sounds_like": "デー",
+          "tts_text": "D"
+        },
+        {
+          "letter": "E e",
+          "name": "Eh",
+          "sounds_like": "エー",
+          "tts_text": "E"
+        },
+        {
+          "letter": "F f",
+          "name": "Eff",
+          "sounds_like": "エフ",
+          "tts_text": "F"
+        },
+        {
+          "letter": "G g",
+          "name": "Geh",
+          "sounds_like": "ゲー",
+          "tts_text": "G"
+        },
+        {
+          "letter": "H h",
+          "name": "Hah",
+          "sounds_like": "ハー",
+          "tts_text": "H"
+        },
+        {
+          "letter": "I i",
+          "name": "Ee",
+          "sounds_like": "イー",
+          "tts_text": "I"
+        },
+        {
+          "letter": "J j",
+          "name": "Yot",
+          "sounds_like": "ヨット",
+          "tts_text": "J"
+        },
+        {
+          "letter": "K k",
+          "name": "Kah",
+          "sounds_like": "カー",
+          "tts_text": "K"
+        },
+        {
+          "letter": "L l",
+          "name": "Ell",
+          "sounds_like": "エル",
+          "tts_text": "L"
+        },
+        {
+          "letter": "M m",
+          "name": "Emm",
+          "sounds_like": "エム",
+          "tts_text": "M"
+        },
+        {
+          "letter": "N n",
+          "name": "Enn",
+          "sounds_like": "エン",
+          "tts_text": "N"
+        },
+        {
+          "letter": "O o",
+          "name": "Oh",
+          "sounds_like": "オー",
+          "tts_text": "O"
+        },
+        {
+          "letter": "P p",
+          "name": "Peh",
+          "sounds_like": "ペー",
+          "tts_text": "P"
+        },
+        {
+          "letter": "Q q",
+          "name": "Koo",
+          "sounds_like": "クー",
+          "tts_text": "Q"
+        },
+        {
+          "letter": "R r",
+          "name": "Err",
+          "sounds_like": "エル",
+          "tts_text": "R"
+        },
+        {
+          "letter": "S s",
+          "name": "Ess",
+          "sounds_like": "エス",
+          "tts_text": "S"
+        },
+        {
+          "letter": "T t",
+          "name": "Teh",
+          "sounds_like": "テー",
+          "tts_text": "T"
+        },
+        {
+          "letter": "U u",
+          "name": "Oo",
+          "sounds_like": "ウー",
+          "tts_text": "U"
+        },
+        {
+          "letter": "V v",
+          "name": "Fow",
+          "sounds_like": "ファウ",
+          "tts_text": "V"
+        },
+        {
+          "letter": "W w",
+          "name": "Veh",
+          "sounds_like": "ヴェー",
+          "tts_text": "W"
+        },
+        {
+          "letter": "X x",
+          "name": "Iks",
+          "sounds_like": "イクス",
+          "tts_text": "X"
+        },
+        {
+          "letter": "Y y",
+          "name": "Ypsilon",
+          "sounds_like": "ユプシロン",
+          "tts_text": "Y"
+        },
+        {
+          "letter": "Z z",
+          "name": "Tsett",
+          "sounds_like": "ツェット",
+          "tts_text": "Z"
+        }
+      ]
+    },
+    {
+      "id": "special_characters",
+      "title": "特殊文字 (ウムラウトとエスツェット)",
+      "description": "ドイツ語には発音と意味で重要な特殊文字が4つあります。",
+      "content": [
+        {
+          "letter": "Ä ä",
+          "name": "Aウムラウト",
+          "how_to_produce": "\"エ\" に近い音です。（例：Apfel → Äpfel）",
+          "tts_text": "Ä"
+        },
+        {
+          "letter": "Ö ö",
+          "name": "Oウムラウト",
+          "how_to_produce": "\"オ\" の口の形で \"エ\" を発音します。",
+          "tts_text": "Ö"
+        },
+        {
+          "letter": "Ü ü",
+          "name": "Uウムラウト",
+          "how_to_produce": "\"ウ\" の口の形で \"イ\" を発音します。",
+          "tts_text": "Ü"
+        },
+        {
+          "letter": "ß",
+          "name": "Eszett (Sharp S)",
+          "how_to_produce": "強い「エス」の音です（ssと同じ）。",
+          "tts_text": "ß"
+        }
+      ]
+    },
+    {
+      "id": "diphthongs",
+      "title": "二重母音 (Diphthongs)",
+      "description": "二重母音は2つの母音が組み合わさって新しい音を作ります。",
+      "content": [
+        {
+          "combination": "ei / ai",
+          "sounds_like": "\"アイ\" のような音",
+          "examples": "Nein, Mai",
+          "tts_text": "EI"
+        },
+        {
+          "combination": "ie",
+          "sounds_like": "\"イー\" のような長い音",
+          "examples": "Sie, Wien",
+          "tts_text": "IE"
+        },
+        {
+          "combination": "eu / äu",
+          "sounds_like": "\"オイ\" のような音",
+          "examples": "Neu, Häuser",
+          "tts_text": "EU"
+        },
+        {
+          "combination": "au",
+          "sounds_like": "\"アウ\" のような音",
+          "examples": "Haus, Blau",
+          "tts_text": "AU"
+        }
+      ]
+    },
+    {
+      "id": "consonant_combinations",
+      "title": "注意が必要な子音の発音",
+      "description": "ドイツ語には特別な注意が必要な子音の組み合わせがあります。",
+      "content": [
+        {
+          "combination": "W",
+          "description": "英語の \"V\" のように発音します。",
+          "tts_text": "W"
+        },
+        {
+          "combination": "V",
+          "description": "通常は英語の \"F\" のように発音します。",
+          "tts_text": "V"
+        },
+        {
+          "combination": "J",
+          "description": "英語の \"Y\" のように発音します。",
+          "tts_text": "J"
+        },
+        {
+          "combination": "sch",
+          "description": "\"シュ\" のように発音します。（例：Schule）",
+          "tts_text": "Schule"
+        },
+        {
+          "combination": "ch",
+          "description": "単語によって \"フ\" または \"フ\" のような音になります。",
+          "tts_text": "Bach"
+        }
+      ]
+    }
+  ]
+}

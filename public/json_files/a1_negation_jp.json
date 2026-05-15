@@ -1,0 +1,158 @@
+{
+  "title": "Negation (否定表現)",
+  "sections": [
+    {
+      "id": "using_kein",
+      "title": "1. \"kein\" の使い方（名詞の否定）",
+      "description": "kein は、不定冠詞（ein/eine）の否定形だと考えると分かりやすいです。具体的には、不定冠詞（英語の a/an）がつく名詞や、冠詞がつかない名詞を否定する場合に使われます。",
+      "content": {
+        "how_to_use": {
+          "title": "使い方のポイント：",
+          "rules": [
+            {
+              "rule": "不定冠詞を伴う名詞： 「本を持っている（Ich habe ein Buch）」の否定は、「本を持っていない（Ich habe kein Buch）」となります。"
+            },
+            {
+              "rule": "数えられない名詞： 時間や空腹など、数えられない概念にも使われます。「時間がない」は Ich habe keine Zeit となります。"
+            },
+            {
+              "rule": "複数形の名詞： 不定冠詞 \"ein\" には複数形がありませんが、否定の keine は複数形でも使われます。「子供がいない」は Ich habe keine Kinder です。"
+            }
+          ]
+        },
+        "examples": [
+          {
+            "context": "場面: リンゴを差し出されたが、実際には梨だったとき",
+            "example": "Das ist kein Apfel.",
+            "translation": "これはリンゴではありません。"
+          },
+          {
+            "context": "場面: 家族について話すとき",
+            "example": "Ich habe keine Geschwister.",
+            "translation": "私には兄弟姉妹がいません。"
+          },
+          {
+            "context": "場面: 買い物にて",
+            "example": "Ich kaufe kein Brot.",
+            "translation": "パンは買いません。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "using_nicht",
+      "title": "2. \"nicht\" の使い方（一般的な否定）",
+      "description": "nicht はより汎用性が高く、動詞、形容詞、副詞、代名詞、そして定冠詞（der/die/das）や所有代名詞（mein/dein）がついた特定の正体を持つ名詞を否定する際に使われます。",
+      "content": {
+        "how_to_use": {
+          "title": "使い方のポイント：",
+          "rules": [
+            {
+              "rule": "動詞の否定： 通常、単純な文章の最後に置かれます。「私は行かない」は Ich komme nicht です。"
+            },
+            {
+              "rule": "形容詞の否定： 「幸せではない」は Ich bin nicht glücklich となります。"
+            },
+            {
+              "rule": "特定の（特定の冠詞がついた）名詞の否定： 名詞に \"the\"（定冠詞）や \"my\"（私の）がついている場合は nicht を使います。「それは私の子供ではない」は Das ist nicht mein Kind です。"
+            },
+            {
+              "rule": "場所や前置詞の否定： 「ベルリンには住んでいない」は Ich wohne nicht in Berlin となります。"
+            }
+          ]
+        },
+        "examples": [
+          {
+            "context": "場面: 年齢について話すとき",
+            "example": "Ich bin nicht 23 Jahre alt.",
+            "translation": "私は23歳ではありません。"
+          },
+          {
+            "context": "場面: 出身地や居住地について",
+            "example": "Ich komme nicht aus Sri Lanka.",
+            "translation": "私はスリランカ出身ではありません。"
+          },
+          {
+            "context": "場面: 能力について",
+            "example": "Ich kann nicht kochen.",
+            "translation": "私は料理ができません。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "other_negation_words",
+      "title": "3. その他の否定語（反対語）",
+      "description": "ドイツ語には、肯定的な状態と否定的な状態を示す特定のペアがあります。",
+      "content": {
+        "opposites": [
+          {
+            "category": "「いつも」 vs 「決して〜ない」",
+            "positive": "immer (いつも) -> Ich esse immer Brot. (私はいつもパンを食べます。)",
+            "negative": "nie (決して〜ない) -> Ich esse nie Brot. (私は決してパンを食べません。)"
+          },
+          {
+            "category": "「みんな」 vs 「誰も〜ない」",
+            "positive": "alle (みんな) -> Ich kenne alle. (私はみんなを知っています。)",
+            "negative": "niemand (誰も〜ない) -> Ich kenne niemand. (私は誰も知りません。)"
+          },
+          {
+            "category": "「何か/すべて」 vs 「何も〜ない」",
+            "positive": "etwas/alles (何か/すべて) -> Isst du etwas? (何か食べますか？)",
+            "negative": "nichts (何も〜ない) -> Ich esse nichts. (私は何も食べません。)"
+          },
+          {
+            "category": "「まだ」 vs 「もう〜ない」",
+            "positive": "noch (まだ) -> Ich bin noch jung. (私はまだ若いです。)",
+            "negative": "nicht mehr (もう〜ない) -> Ich bin nicht mehr jung. (私はもう若くありません。)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_use_one_over_other",
+      "title": "4. なぜ使い分けるのか？",
+      "description": "使い分けの理由は、何を「打ち消そう」としているかに基づいています。",
+      "content": {
+        "explanation": [
+          {
+            "type": "存在の打ち消し (kein)",
+            "description": "物（名詞）の存在自体を打ち消す場合は、kein を使います。これは「数量がゼロである」ことを示します。",
+            "example": "Ich habe kein Geld. （私はお金を持っていません。＝所持金がゼロ）"
+          },
+          {
+            "type": "事実の打ち消し (nicht)",
+            "description": "事実、動作、または性質（形容詞など）の状態を打ち消す場合は、nicht を使います。",
+            "example": "Das Geld ist nicht hier. （お金はここにありません。＝お金という存在を否定しているのではなく、「ここにある」という事実を否定している）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_usage_logic",
+      "title": "5. 使い分けのまとめロジック",
+      "description": "どの否定語を使うべきかを素早く判断するためのガイド：",
+      "content": {
+        "rules": [
+          {
+            "question": "名詞がありますか？",
+            "yes_indefinite": "はい。かつ「1つの（不定冠詞）」または「無冠詞」の場合： kein を使う。",
+            "yes_definite": "はい。しかし「その（定冠詞）」や「私の/あなたの」がついている場合： nicht を使う。"
+          },
+          {
+            "question": "動詞、形容詞、または名前ですか？",
+            "answer": "nicht を使う。"
+          },
+          {
+            "question": "「もう〜ない」と言いたいですか？",
+            "answer": "nicht mehr を使う。"
+          },
+          {
+            "question": "「一度も/決して〜ない」と言いたいですか？",
+            "answer": "nie を使う。"
+          }
+        ]
+      }
+    }
+  ]
+}

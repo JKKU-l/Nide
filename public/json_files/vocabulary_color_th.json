@@ -1,0 +1,21 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Farbe", "thai": "สี", "article": "die", "word": "Farbe", "emoji": "🎨"},
+        {"german": "blau", "thai": "สีฟ้า / สีน้ำเงิน", "article": "", "word": "blau", "emoji": "🔵"},
+        {"german": "rot", "thai": "สีแดง", "article": "", "word": "rot", "emoji": "🔴"},
+        {"german": "gelb", "thai": "สีเหลือง", "article": "", "word": "gelb", "emoji": "🟡"},
+        {"german": "grün", "thai": "สีเขียว", "article": "", "word": "grün", "emoji": "🟢"},
+        {"german": "braun", "thai": "สีน้ำตาล", "article": "", "word": "braun", "emoji": "🟤"},
+        {"german": "grau", "thai": "สีเทา", "article": "", "word": "grau", "emoji": "⚫"},
+        {"german": "schwarz", "thai": "สีดำ", "article": "", "word": "schwarz", "emoji": "⚫"},
+        {"german": "rosa", "thai": "สีชมพู", "article": "", "word": "rosa", "emoji": "🌸"},
+        {"german": "weiß", "thai": "สีขาว", "article": "", "word": "weiß", "emoji": "⚪"},
+        {"german": "orange", "thai": "สีส้ม", "article": "", "word": "orange", "emoji": "🟠"},
+        {"german": "lila", "thai": "สีม่วง", "article": "", "word": "lila", "emoji": "🟣"}
+      ]
+    }
+  ]
+}

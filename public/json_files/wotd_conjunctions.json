@@ -1,0 +1,22 @@
+{
+  "category": "Conjunctions & Connectors",
+  "category_de": "Konjunktionen & Verbindungswörter",
+  "icon": "🔗",
+  "words": [
+    {"de":"und","word":"und","article":"","en":"and","jp":"そして","kr":"그리고","my":"နှင့်","th":"และ","vi":"và","pronunciation":"/ʊnt/","example_de":"Ich trinke Kaffee und esse Brot.","example_en":"I drink coffee and eat bread."},
+    {"de":"aber","word":"aber","article":"","en":"but","jp":"しかし","kr":"하지만","my":"ဒါပေမယ့်","th":"แต่","vi":"nhưng","pronunciation":"/ˈaːbɐ/","example_de":"Ich bin müde, aber ich arbeite weiter.","example_en":"I am tired, but I keep working."},
+    {"de":"oder","word":"oder","article":"","en":"or","jp":"または","kr":"또는","my":"သို့မဟုတ်","th":"หรือ","vi":"hoặc","pronunciation":"/ˈoːdɐ/","example_de":"Möchtest du Tee oder Kaffee?","example_en":"Would you like tea or coffee?"},
+    {"de":"weil","word":"weil","article":"","en":"because","jp":"なぜなら","kr":"왜냐하면","my":"ဘာကြောင့်ဆိုတော့","th":"เพราะ","vi":"vì","pronunciation":"/vaɪ̯l/","example_de":"Ich bleibe zu Hause, weil ich krank bin.","example_en":"I stay at home because I am sick."},
+    {"de":"dass","word":"dass","article":"","en":"that","jp":"〜ということ","kr":"〜라는 것","my":"〜ဆိုတာ","th":"ว่า","vi":"rằng","pronunciation":"/das/","example_de":"Ich weiß, dass er kommt.","example_en":"I know that he is coming."},
+    {"de":"wenn","word":"wenn","article":"","en":"when/if","jp":"〜の時/もし","kr":"〜할 때/만약","my":"〜တဲ့အခါ/အကယ်၍","th":"เมื่อ/ถ้า","vi":"khi/nếu","pronunciation":"/vɛn/","example_de":"Wenn es regnet, bleibe ich zu Hause.","example_en":"If it rains, I stay at home."},
+    {"de":"obwohl","word":"obwohl","article":"","en":"although","jp":"〜にもかかわらず","kr":"〜에도 불구하고","my":"〜သော်လည်း","th":"แม้ว่า","vi":"mặc dù","pronunciation":"/ɔpˈvoːl/","example_de":"Obwohl es regnet, gehe ich spazieren.","example_en":"Although it rains, I go for a walk."},
+    {"de":"deshalb","word":"deshalb","article":"","en":"therefore","jp":"だから","kr":"그래서","my":"ထို့ကြောင့်","th":"ดังนั้น","vi":"vì vậy","pronunciation":"/ˈdɛshalp/","example_de":"Es regnet, deshalb nehme ich einen Schirm.","example_en":"It rains, therefore I take an umbrella."},
+    {"de":"trotzdem","word":"trotzdem","article":"","en":"nevertheless","jp":"それにもかかわらず","kr":"그럼에도 불구하고","my":"သို့သော်","th":"ถึงกระนั้น","vi":"tuy nhiên","pronunciation":"/ˈtʁɔtsdˌeːm/","example_de":"Es ist kalt, trotzdem gehe ich raus.","example_en":"It is cold, nevertheless I go out."},
+    {"de":"während","word":"während","article":"","en":"while/during","jp":"〜している間","kr":"〜하는 동안","my":"〜နေစဉ်","th":"ขณะที่","vi":"trong khi","pronunciation":"/ˈvɛːʁənt/","example_de":"Während ich koche, liest er die Zeitung.","example_en":"While I cook, he reads the newspaper."},
+    {"de":"bevor","word":"bevor","article":"","en":"before","jp":"〜する前に","kr":"〜하기 전에","my":"〜မတိုင်ခင်","th":"ก่อนที่","vi":"trước khi","pronunciation":"/bəˈfoːɐ̯/","example_de":"Bevor ich gehe, trinke ich Kaffee.","example_en":"Before I go, I drink coffee."},
+    {"de":"nachdem","word":"nachdem","article":"","en":"after","jp":"〜した後で","kr":"〜한 후에","my":"〜ပြီးနောက်","th":"หลังจาก","vi":"sau khi","pronunciation":"/naːxˈdeːm/","example_de":"Nachdem ich gegessen habe, gehe ich spazieren.","example_en":"After I have eaten, I go for a walk."},
+    {"de":"außerdem","word":"außerdem","article":"","en":"furthermore","jp":"さらに","kr":"게다가","my":"ထို့အပြင်","th":"นอกจากนี้","vi":"ngoài ra","pronunciation":"/ˈaʊ̯sɐdeːm/","example_de":"Er spricht Deutsch, außerdem lernt er Japanisch.","example_en":"He speaks German, furthermore he is learning Japanese."},
+    {"de":"jedoch","word":"jedoch","article":"","en":"however","jp":"しかしながら","kr":"그러나","my":"သို့သော်","th":"อย่างไรก็ตาม","vi":"tuy nhiên","pronunciation":"/jeˈdɔx/","example_de":"Das Essen war teuer, jedoch sehr lecker.","example_en":"The food was expensive, however very delicious."},
+    {"de":"zum Beispiel","word":"zum Beispiel","article":"","en":"for example","jp":"例えば","kr":"예를 들어","my":"ဥပမာ","th":"ตัวอย่างเช่น","vi":"ví dụ","pronunciation":"/tsʊm ˈbaɪ̯ʃpiːl/","example_de":"Ich mag Obst, zum Beispiel Äpfel.","example_en":"I like fruit, for example apples."}
+  ]
+}

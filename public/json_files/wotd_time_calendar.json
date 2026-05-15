@@ -1,0 +1,26 @@
+{
+  "category": "Time & Calendar",
+  "category_de": "Zeit & Kalender",
+  "icon": "📅",
+  "words": [
+    {"de":"die Zeit","word":"Zeit","article":"die","en":"time","jp":"時間","kr":"시간","my":"အချိန်","th":"เวลา","vi":"thời gian","pronunciation":"/tsaɪ̯t/","example_de":"Ich habe keine Zeit.","example_en":"I have no time."},
+    {"de":"der Tag","word":"Tag","article":"der","en":"day","jp":"日","kr":"날","my":"နေ့","th":"วัน","vi":"ngày","pronunciation":"/taːk/","example_de":"Heute ist ein schöner Tag.","example_en":"Today is a beautiful day."},
+    {"de":"die Woche","word":"Woche","article":"die","en":"week","jp":"週","kr":"주","my":"အပတ်","th":"สัปดาห์","vi":"tuần","pronunciation":"/ˈvɔxə/","example_de":"Nächste Woche habe ich Urlaub.","example_en":"Next week I have vacation."},
+    {"de":"der Monat","word":"Monat","article":"der","en":"month","jp":"月","kr":"달","my":"လ","th":"เดือน","vi":"tháng","pronunciation":"/ˈmoːnat/","example_de":"Der Kurs dauert drei Monate.","example_en":"The course lasts three months."},
+    {"de":"das Jahr","word":"Jahr","article":"das","en":"year","jp":"年","kr":"년","my":"နှစ်","th":"ปี","vi":"năm","pronunciation":"/jaːɐ̯/","example_de":"Ich lebe seit zwei Jahren in Berlin.","example_en":"I have lived in Berlin for two years."},
+    {"de":"der Montag","word":"Montag","article":"der","en":"Monday","jp":"月曜日","kr":"월요일","my":"တနင်္လာ","th":"วันจันทร์","vi":"thứ Hai","pronunciation":"/ˈmoːntaːk/","example_de":"Am Montag beginnt die Arbeit.","example_en":"Work begins on Monday."},
+    {"de":"der Dienstag","word":"Dienstag","article":"der","en":"Tuesday","jp":"火曜日","kr":"화요일","my":"အင်္ဂါ","th":"วันอังคาร","vi":"thứ Ba","pronunciation":"/ˈdiːnstaːk/","example_de":"Dienstag habe ich Deutschkurs.","example_en":"On Tuesday I have German class."},
+    {"de":"der Mittwoch","word":"Mittwoch","article":"der","en":"Wednesday","jp":"水曜日","kr":"수요일","my":"ဗုဒ္ဓဟူး","th":"วันพุธ","vi":"thứ Tư","pronunciation":"/ˈmɪtvɔx/","example_de":"Mittwoch ist die Mitte der Woche.","example_en":"Wednesday is the middle of the week."},
+    {"de":"der Freitag","word":"Freitag","article":"der","en":"Friday","jp":"金曜日","kr":"금요일","my":"သောကြာ","th":"วันศุกร์","vi":"thứ Sáu","pronunciation":"/ˈfʁaɪ̯taːk/","example_de":"Am Freitag gehen wir feiern.","example_en":"On Friday we go celebrate."},
+    {"de":"der Samstag","word":"Samstag","article":"der","en":"Saturday","jp":"土曜日","kr":"토요일","my":"စနေ","th":"วันเสาร์","vi":"thứ Bảy","pronunciation":"/ˈzamstaːk/","example_de":"Am Samstag gehe ich einkaufen.","example_en":"On Saturday I go shopping."},
+    {"de":"der Sonntag","word":"Sonntag","article":"der","en":"Sunday","jp":"日曜日","kr":"일요일","my":"တနင်္ဂနွေ","th":"วันอาทิตย์","vi":"Chủ nhật","pronunciation":"/ˈzɔntaːk/","example_de":"Sonntag ist Ruhetag.","example_en":"Sunday is a day of rest."},
+    {"de":"der Morgen","word":"Morgen","article":"der","en":"morning","jp":"朝","kr":"아침","my":"မနက်","th":"เช้า","vi":"buổi sáng","pronunciation":"/ˈmɔʁɡn̩/","example_de":"Am Morgen trinke ich Kaffee.","example_en":"In the morning I drink coffee."},
+    {"de":"der Abend","word":"Abend","article":"der","en":"evening","jp":"夕方","kr":"저녁","my":"ညနေ","th":"ตอนเย็น","vi":"buổi tối","pronunciation":"/ˈaːbn̩t/","example_de":"Am Abend sehe ich fern.","example_en":"In the evening I watch TV."},
+    {"de":"die Nacht","word":"Nacht","article":"die","en":"night","jp":"夜","kr":"밤","my":"ည","th":"กลางคืน","vi":"đêm","pronunciation":"/naxt/","example_de":"Gute Nacht und schlaf gut!","example_en":"Good night and sleep well!"},
+    {"de":"immer","word":"immer","article":"","en":"always","jp":"いつも","kr":"항상","my":"အမြဲတမ်း","th":"เสมอ","vi":"luôn luôn","pronunciation":"/ˈɪmɐ/","example_de":"Ich bin immer pünktlich.","example_en":"I am always on time."},
+    {"de":"manchmal","word":"manchmal","article":"","en":"sometimes","jp":"時々","kr":"가끔","my":"တစ်ခါတစ်ရံ","th":"บางครั้ง","vi":"đôi khi","pronunciation":"/ˈmançmaːl/","example_de":"Manchmal regnet es in Berlin.","example_en":"Sometimes it rains in Berlin."},
+    {"de":"heute","word":"heute","article":"","en":"today","jp":"今日","kr":"오늘","my":"ဒီနေ့","th":"วันนี้","vi":"hôm nay","pronunciation":"/ˈhɔʏ̯tə/","example_de":"Was machen wir heute?","example_en":"What are we doing today?"},
+    {"de":"morgen","word":"morgen","article":"","en":"tomorrow","jp":"明日","kr":"내일","my":"မနက်ဖြန်","th":"พรุ่งนี้","vi":"ngày mai","pronunciation":"/ˈmɔʁɡn̩/","example_de":"Morgen habe ich frei.","example_en":"Tomorrow I have a day off."},
+    {"de":"gestern","word":"gestern","article":"","en":"yesterday","jp":"昨日","kr":"어제","my":"မနေ့က","th":"เมื่อวาน","vi":"hôm qua","pronunciation":"/ˈɡɛstɐn/","example_de":"Gestern war ich im Kino.","example_en":"Yesterday I was at the cinema."}
+  ]
+}

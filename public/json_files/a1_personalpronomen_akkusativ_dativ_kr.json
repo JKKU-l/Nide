@@ -1,0 +1,182 @@
+{
+  "title": "인칭 대명사 (목적격·역격)",
+  "description": "독일어 인칭 대명사가 문장에서 주어, 직접 목적어 또는 간접 목적어로 어떻게 형태를 변하는지 배워보세요.",
+  "sections": [
+    {
+      "id": "understanding_cases",
+      "title": "1. 세 가지 주요 격(Cases)의 이해",
+      "description": "독일어에서 인칭 대명사는 문장 안에서 어떤 \"역할\"을 하느냐에 따라 형태가 변합니다.",
+      "content": {
+        "cases": [
+          {
+            "case": "1격 (Nominative - 주격)",
+            "description": "동작을 수행하는 사람이나 사물 (~이/가)."
+          },
+          {
+            "case": "4격 (Accusative - 목적격)",
+            "description": "동작의 직접적인 대상이 되는 사람이나 사물 (~을/를)."
+          },
+          {
+            "case": "3격 (Dative - 역격)",
+            "description": "주로 선물을 받는 사람이나 누군가를 위해 무언가 행해질 때의 대상 (~에게). 또한 'mit'(~와 함께) 또는 'zu'(~로)와 같은 특정 전치사 뒤에는 반드시 3격이 옵니다."
+          }
+        ]
+      }
+    },
+    {
+      "id": "akkusativ_pronouns",
+      "title": "2. 4격 인칭 대명사 (Accusative)",
+      "description": "동사의 직접 목적어로 사람을 지칭할 때 4격을 사용합니다. 대표적인 \"4격 지배 동사\"로는 lieben(사랑하다), mögen(좋아하다), kennen(사람을 알다), sehen(보다) 등이 있습니다.",
+      "content": {
+        "examples": [
+          {
+            "english": "나는 그를 사랑해.",
+            "german": "Ich liebe ihn.",
+            "explanation": "'Ich'는 주어(1격)입니다. '그(er)'는 사랑을 받는 대상(직접 목적어)이므로 'ihn'으로 변합니다."
+          },
+          {
+            "english": "너 나 좋아하니?",
+            "german": "Magst du mich?",
+            "explanation": "'Du'는 주어입니다. '나'는 좋아하는 대상이므로 'ich'가 'mich'로 변합니다."
+          },
+          {
+            "english": "우리는 너희를 보고 있어.",
+            "german": "Wir sehen euch.",
+            "explanation": "'Wir'가 보는 주체입니다. '너희들'은 'euch'로 변합니다."
+          }
+        ],
+        "note": "참고: sie(그녀/그들), es(그것), Sie(당신 - 존칭)는 1격과 4격의 형태가 같습니다."
+      }
+    },
+    {
+      "id": "dativ_pronouns",
+      "title": "3. 3격 인칭 대명사 (Dative)",
+      "description": "3격은 행동의 \"수혜자\"(무언가를 받는 사람)를 나타내거나, helfen(돕다), gefallen(마음에 들다), antworten(대답하다)와 같은 특정 동사 뒤에 사용됩니다.",
+      "content": {
+        "examples": [
+          {
+            "english": "나는 너에게 책을 준다.",
+            "german": "Ich gebe dir das Buch.",
+            "explanation": "책(das Buch)은 직접 목적어(4격)이지만, '너'는 받는 사람이므로 'du'가 'dir'로 변합니다."
+          },
+          {
+            "english": "그 드레스가 내 마음에 들어.",
+            "german": "Das Kleid gefällt mir.",
+            "explanation": "'gefallen' 동사는 항상 그 물건을 좋아하는 사람을 3격으로 취합니다. 그래서 'ich'가 'mir'가 됩니다."
+          },
+          {
+            "english": "나는 그녀를 돕고 있어.",
+            "german": "Ich helfe ihr.",
+            "explanation": "'helfen'은 3격 지배 동사입니다. 한국어로는 \"~를 돕다\"라고 해석되지만, 독일어에서는 그녀(sie)를 3격인 'ihr'로 써야 합니다."
+          }
+        ]
+      }
+    },
+    {
+      "id": "prepositions_role",
+      "title": "4. 전치사의 역할",
+      "description": "때로는 동사가 아니라 대명사 앞에 오는 작은 단어(전치사)에 의해 격이 결정되기도 합니다.",
+      "content": {
+        "prepositions": [
+          {
+            "preposition": "~와 함께 (Mit)",
+            "case": "Dative",
+            "example_english": "나는 그와 함께 간다.",
+            "example_german": "Ich gehe mit ihm."
+          },
+          {
+            "preposition": "~를 위해 (Für)",
+            "case": "Accusative",
+            "example_english": "이것은 너를 위한 것이다.",
+            "example_german": "Das ist für dich."
+          }
+        ]
+      }
+    },
+    {
+      "id": "key_transformations",
+      "title": "5. 주요 변화 요약",
+      "description": "표 없이도 쉽게 기억할 수 있도록 그룹별로 정리했습니다.",
+      "content": {
+        "groups": [
+          {
+            "title": "\"나\" (I)",
+            "transformations": [
+              {"form": "주격(1격)", "pronoun": "ich (나는)"},
+              {"form": "직접 목적격(4격)", "pronoun": "mich (나를)"},
+              {"form": "간접 목적격(3격)", "pronoun": "mir (나에게 / 나를 위해)"}
+            ]
+          },
+          {
+            "title": "\"너\" (You - 비격식)",
+            "transformations": [
+              {"form": "주격(1격)", "pronoun": "du (너는)"},
+              {"form": "직접 목적격(4격)", "pronoun": "dich (너를)"},
+              {"form": "간접 목적격(3격)", "pronoun": "dir (너에게 / 너를 위해)"}
+            ]
+          },
+          {
+            "title": "\"그\" (He - 가장 변화가 큼)",
+            "transformations": [
+              {"form": "주격(1격)", "pronoun": "er (그는)"},
+              {"form": "직접 목적격(4격)", "pronoun": "ihn (그를)"},
+              {"form": "간접 목적격(3격)", "pronoun": "ihm (그에게)"}
+            ]
+          },
+          {
+            "title": "\"그녀\" (She)",
+            "transformations": [
+              {"form": "주격(1격)", "pronoun": "sie (그녀는)"},
+              {"form": "직접 목적격(4격)", "pronoun": "sie (그녀를)"},
+              {"form": "간접 목적격(3격)", "pronoun": "ihr (그녀에게)"}
+            ]
+          },
+          {
+            "title": "\"우리\"와 \"너희들\"",
+            "note": "wir (우리)는 4격과 3격 모두 uns입니다. ihr (너희들)은 4격과 3격 모두 euch입니다.",
+            "transformations": [
+              {"form": "주격(1격)", "pronoun": "wir (우리) / ihr (너희들)"},
+              {"form": "4격과 3격", "pronoun": "uns / euch"}
+            ]
+          },
+          {
+            "title": "\"그들\"과 \"당신\" (존칭)",
+            "note": "sie/Sie는 4격에서 그대로 sie/Sie입니다. sie/Sie는 3격에서 ihnen/Ihnen으로 변합니다.",
+            "transformations": [
+              {"form": "주격(1격)", "pronoun": "sie (그들은) / Sie (당신은)"},
+              {"form": "4격", "pronoun": "sie / Sie"},
+              {"form": "3격", "pronoun": "ihnen / Ihnen"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_usage",
+      "title": "6. 실전 활용: \"어떻게 지내세요?\"",
+      "description": "독일어의 \"Wie geht es...?\"는 전형적인 3격 표현입니다. 독일어에서는 \"너는 어떠니?\"라고 묻지 않고, 직역하면 \"그것이 너에게 어떻게 가고 있니?\"라고 묻습니다.",
+      "content": {
+        "examples": [
+          {
+            "english": "잘 지내? (친구 사이)",
+            "german": "Wie geht es dir?"
+          },
+          {
+            "english": "어떻게 지내세요? (격식)",
+            "german": "Wie geht es Ihnen?"
+          },
+          {
+            "english": "네 아버지는 어떻게 지내셔?",
+            "german": "Wie geht es ihm?",
+            "note": "아버지는 '그'이므로"
+          },
+          {
+            "english": "잘 지내.",
+            "german": "Es geht mir gut.",
+            "note": "직역: 그것이 나에게 잘 가고 있다."
+          }
+        ]
+      }
+    }
+  ]
+}

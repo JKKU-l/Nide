@@ -1,0 +1,116 @@
+{
+  "title": "German A1 Grammar Guide",
+  "subtitle": "Present Tense Conjugation (Präsens Konjugation)",
+  "sections": [
+    {
+      "id": "regular_verb_conjugation",
+      "title": "1. 규칙 동사의 변화 (Regular Verb Conjugation)",
+      "description": "독일어에서는 주어에 따라 동사의 어미(끝부분)가 바뀝니다. 동사 원형에서 -en을 뺀 '어간'에 다음 어미들을 붙입니다.",
+      "content": {
+        "table": {
+          "headers": ["주어 (Subject)", "어미 (Ending)", "예시: kommen (오다)"],
+          "rows": [
+            ["Ich (나)", "-e", "komme"],
+            ["Du (너 - 친한 사이)", "-st", "kommst"],
+            ["Er / Sie / Es (그/그녀/그것)", "-t", "kommt"],
+            ["Wir (우리)", "-en", "kommen"],
+            ["Ihr (너희들)", "-t", "kommt"],
+            ["Sie / sie (당신 - 존칭 / 그들)", "-en", "kommen"]
+          ]
+        },
+        "dialogues": [
+          {
+            "speaker": "Marc",
+            "german": "Woher kommst du?",
+            "english": "너는 어디에서 왔니? / Where do you come from?"
+          },
+          {
+            "speaker": "Alice",
+            "german": "Ich komme aus Brasilien. Das ist mein Freund, er kommt aus Russland.",
+            "english": "나는 브라질에서 왔어. 이쪽은 내 친구야, 그는 러시아에서 왔어.",
+            "tip": "선생님의 팁: 주어가 'Ich'일 때는 어미가 -e로 끝나고, 'Er'(그)일 때는 -t로 끝나는 것을 기억하세요."
+          },
+          {
+            "speaker": "Marc",
+            "german": "Und wo wohnt ihr?",
+            "english": "그리고 너희들은 어디에 살아? / And where do you all live?"
+          },
+          {
+            "speaker": "Alice & Yuri",
+            "german": "Wir wohnen ganz in der Nähe. Wo arbeitest du?",
+            "english": "우리는 아주 가까이 살아. 너는 어디에서 일해? / We live very close by. Where do you work?",
+            "tip": "참고:arbeiten처럼 어간이 t로 끝나는 동사는 발음을 편하게 하기 위해 어미 앞에 e를 추가하여 arbeitest가 됩니다."
+          }
+        ]
+      }
+    },
+    {
+      "id": "irregular_verbs_sein_haben",
+      "title": "2. 필수 불규칙 동사: Sein & Haben",
+      "description": "이 동사들은 아주 중요하지만 형태가 불규칙하므로 반드시 외워야 합니다.",
+      "content": {
+        "examples": [
+          {
+            "german": "Das sind Angela und Pascal.",
+            "english": "이들은 안젤라와 파스칼이야."
+          },
+          {
+            "german": "Sie haben einen Hund.",
+            "english": "그들은 강아지 한 마리를 키우고 있어."
+          },
+          {
+            "german": "Er ist fünf Monate alt.",
+            "english": "그(강아지)는 태어난 지 5개월 되었어."
+          }
+        ]
+      }
+    },
+    {
+      "id": "preferences_wishes",
+      "title": "3. 희망과 선호: Möchten & Mögen",
+      "description": "Möchten (~하고 싶다 - 정중한 표현) - Mögen (~을 좋아하다)",
+      "content": {
+        "dialogues": [
+          {
+            "speaker": "Kellner",
+            "german": "Was möchten Sie?",
+            "english": "무엇을 드시겠습니까? / What would you like?"
+          },
+          {
+            "speaker": "Frau Taylor",
+            "german": "Ich möchte einen Kaffee.",
+            "english": "커피 한 잔 주세요."
+          }
+        ],
+        "examples": [
+          {
+            "german": "Ich mag Kaffee.",
+            "english": "나는 커피를 좋아해."
+          },
+          {
+            "german": "Meine Eltern mögen keinen Fisch.",
+            "english": "우리 부모님은 생선을 좋아하지 않으셔.",
+            "note": "참고: 'Mögen'은 단수형에서 모음 ö가 a로 변화합니다 (mag)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "knowing_facts",
+      "title": "4. 정보를 알다: Wissen",
+      "description": "정보를 알다: Wissen",
+      "content": {
+        "examples": [
+          {
+            "german": "Wissen Sie, wo der Bahnhof ist?",
+            "english": "기차역이 어디인지 아시나요?"
+          },
+          {
+            "german": "Ich weiß es nicht.",
+            "english": "죄송하지만, 그것은 제가 잘 모르겠습니다."
+          }
+        ]
+      }
+    }
+  ]
+}

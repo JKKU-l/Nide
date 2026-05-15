@@ -1,0 +1,55 @@
+{
+  "title": "Food & Cooking",
+  "emoji": "🍳",
+  "theme_color": "#9C27B0",
+  "description": "Food, cooking, and kitchen vocabulary",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "schneiden", "korean": "자르다", "example_german": "Ich schneide das Brot in Scheiben.", "example_korean": "나는 빵을 얇게 자릅니다."},
+          {"german": "hacken", "korean": "다지다", "example_german": "Kannst du bitte die Zwiebeln fein hacken?", "example_korean": "양파를 잘게 다져 줄 수 있나요?"},
+          {"german": "schälen", "korean": "껍질을 벗기다", "example_german": "Er schält die Kartoffeln für das Abendessen.", "example_korean": "그는 저녁 식사를 위해 감자 껍질을 벗깁니다."},
+          {"german": "reiben", "korean": "갈다/강판에 갈다", "example_german": "Wir reiben frischen Käse über die Pasta.", "example_korean": "우리는 파스타 위에 신선한 치즈를 갈아 올립니다."},
+          {"german": "mischen", "korean": "섞다/혼합하다", "example_german": "Mischen Sie alle Zutaten in einer großen Schüssel.", "example_korean": "모든 재료를 큰 그릇에 넣고 섞으세요."},
+          {"german": "rühren", "korean": "젓다", "example_german": "Du musst die Suppe regelmäßig umrühren.", "example_korean": "수프를 규칙적으로 저어주어야 합니다."},
+          {"german": "kochen", "korean": "끓이다/요리하다", "example_german": "Das Wasser kocht bereits.", "example_korean": "물이 벌써 끓고 있습니다."},
+          {"german": "braten", "korean": "굽다/볶다", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_korean": "나는 팬에 고기를 굽습니다."},
+          {"german": "backen", "korean": "(빵 등을) 굽다", "example_german": "Am Wochenende backe ich einen Kuchen.", "example_korean": "주말에 나는 케이크를 굽습니다."},
+          {"german": "grillen", "korean": "그릴에 굽다/석쇠에 굽다", "example_german": "Im Sommer grillen wir oft im Garten.", "example_korean": "여름에 우리는 정원에서 자주 바비큐를 합니다."},
+          {"german": "dämpfen", "korean": "찌다", "example_german": "Gemüse ist gesünder, wenn man es dämpft.", "example_korean": "채소는 쪄서 먹는 것이 더 건강에 좋습니다."},
+          {"german": "frittieren", "korean": "튀기다", "example_german": "Die Pommes werden in heißem Öl frittiert.", "example_korean": "감자튀김은 뜨거운 기름에 튀겨집니다."},
+          {"german": "anbraten", "korean": "(표면을) 살짝 굽다", "example_german": "Zuerst muss man das Fleisch scharf anbraten.", "example_korean": "먼저 고기 겉면을 센 불에 살짝 구워야 합니다."},
+          {"german": "schmecken", "korean": "맛이 나다/맛있다", "example_german": "Das Essen schmeckt wirklich hervorragend.", "example_korean": "음식 맛이 정말 훌륭합니다."},
+          {"german": "probieren", "korean": "맛보다/시도하다", "example_german": "Möchtest du die Sauce mal probieren?", "example_korean": "소스 맛을 한번 보겠어요?"},
+          {"german": "würzen", "korean": "양념하다/간을 하다", "example_german": "Du solltest den Salat noch etwas würzen.", "example_korean": "샐러드에 간을 조금 더 해야 합니다."},
+          {"german": "salzen", "korean": "소금을 치다", "example_german": "Ich habe vergessen, die Nudeln zu salzen.", "example_korean": "국수에 소금 치는 것을 잊었습니다."},
+          {"german": "pfeffern", "korean": "후추를 치다", "example_german": "Er pfeffert sein Steak sehr stark.", "example_korean": "그는 스테이크에 후추를 아주 많이 칩니다."},
+          {"german": "marinieren", "korean": "양념에 재우다", "example_german": "Das Fleisch muss zwei Stunden marinieren.", "example_korean": "고기를 두 시간 동안 양념에 재워야 합니다."},
+          {"german": "einfrieren", "korean": "냉동하다", "example_german": "Wir frieren die Reste der Suppe ein.", "example_korean": "우리는 남은 수프를 냉동 보관합니다."},
+          {"german": "auftauen", "korean": "해동하다", "example_german": "Ich muss das Hähnchen vor dem Kochen auftauen.", "example_korean": "요리하기 전에 닭고기를 해동해야 합니다."},
+          {"german": "servieren", "korean": "차려내다/서빙하다", "example_german": "Das Dessert wird mit Sahne serviert.", "example_korean": "디저트는 생크림과 함께 나옵니다."},
+          {"german": "füllen", "korean": "채우다", "example_german": "Sie füllt die Paprika mit Reis und Hackfleisch.", "example_korean": "그녀는 파프리카 속을 쌀과 다진 고기로 채웁니다."},
+          {"german": "gießen", "korean": "따르다/붓다", "example_german": "Bitte gieß mir etwas Wasser ins Glas.", "example_korean": "잔에 물을 좀 따라 주세요."},
+          {"german": "bestellen", "korean": "주문하다", "example_german": "Wir bestellen uns heute eine Pizza.", "example_korean": "우리는 오늘 피자를 주문합니다."},
+          {"german": "bezahlen", "korean": "계산하다", "example_german": "Wir möchten bitte getrennt bezahlen.", "example_korean": "따로 계산할게요."},
+          {"german": "reservieren", "korean": "예약하다", "example_german": "Hast du einen Tisch im Restaurant reserviert?", "example_korean": "식당에 테이블을 예약했나요?"},
+          {"german": "empfehlen", "korean": "추천하다", "example_german": "Was können Sie uns heute empfehlen?", "example_korean": "오늘 무엇을 추천해 주시겠어요?"},
+          {"german": "bringen", "korean": "가져오다", "example_german": "Der Kellner bringt uns die Speisekarte.", "example_korean": "웨이터가 메뉴판을 가져다줍니다."},
+          {"german": "holen", "korean": "가져오다/가서 가져오다", "example_german": "Ich hole nur kurz eine Flasche Wein aus dem Keller.", "example_korean": "지하실에서 와인 한 병만 금방 가져올게요."},
+          {"german": "kaufen", "korean": "사다", "example_german": "Wir müssen noch Brot für morgen kaufen.", "example_korean": "내일 먹을 빵을 더 사야 합니다."},
+          {"german": "finden", "korean": "찾다", "example_german": "Wo finde ich hier das Salz?", "example_korean": "여기서 소금을 어디서 찾을 수 있나요?"},
+          {"german": "einpacken", "korean": "싸다/포장하다", "example_german": "Kann ich den Rest bitte einpacken lassen?", "example_korean": "남은 음식을 포장해 갈 수 있을까요?"},
+          {"german": "auspacken", "korean": "꺼내다/포장을 풀다", "example_german": "Er packt die Einkäufe in der Küche aus.", "example_korean": "그는 주방에서 쇼핑한 물건들을 꺼냅니다."},
+          {"german": "spülen", "korean": "설거지하다/헹구다", "example_german": "Ich muss noch das Geschirr spülen.", "example_korean": "나는 아직 설거지를 더 해야 합니다."},
+          {"german": "anrichten", "korean": "(음식을 그릇에) 담다/준비하다", "example_german": "Sie richtet den Salat hübsch auf dem Teller an.", "example_korean": "그녀는 샐러드를 접시에 예쁘게 담습니다."},
+          {"german": "öffnen", "korean": "열다", "example_german": "Kannst du bitte die Dose öffnen?", "example_korean": "통조림 좀 열어 줄 수 있나요?"},
+          {"german": "schließen", "korean": "닫다", "example_german": "Bitte schließen Sie die Kühlschranktür.", "example_korean": "냉장고 문을 닫아 주세요."},
+          {"german": "wählen", "korean": "선택하다", "example_german": "Sie können zwischen Fisch und Fleisch wählen.", "example_korean": "생선과 고기 중에서 선택하실 수 있습니다."},
+          {"german": "genießen", "korean": "즐기다/맛보다", "example_german": "Wir genießen das gute Essen und den Wein.", "example_korean": "우리는 맛있는 음식과 와인을 즐깁니다."}
+        ]
+      }
+    }
+  ]
+}

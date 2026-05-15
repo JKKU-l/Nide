@@ -1,0 +1,21 @@
+{
+  "theme_color": "#E91E63",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Farbe", "japanese": "色", "article": "die", "word": "Farbe", "emoji": "🎨"},
+        {"german": "blau", "japanese": "青", "article": "", "word": "blau", "emoji": "🔵"},
+        {"german": "rot", "japanese": "赤", "article": "", "word": "rot", "emoji": "🔴"},
+        {"german": "gelb", "japanese": "黄色", "article": "", "word": "gelb", "emoji": "🟡"},
+        {"german": "grün", "japanese": "緑", "article": "", "word": "grün", "emoji": "🟢"},
+        {"german": "braun", "japanese": "茶色", "article": "", "word": "braun", "emoji": "🟤"},
+        {"german": "grau", "japanese": "灰色", "article": "", "word": "grau", "emoji": "⚪"},
+        {"german": "schwarz", "japanese": "黒", "article": "", "word": "schwarz", "emoji": "⚫"},
+        {"german": "rosa", "japanese": "ピンク", "article": "", "word": "rosa", "emoji": "🩷"},
+        {"german": "weiß", "japanese": "白", "article": "", "word": "weiß", "emoji": "⚪"},
+        {"german": "orange", "japanese": "オレンジ", "article": "", "word": "orange", "emoji": "🟠"},
+        {"german": "lila", "japanese": "紫", "article": "", "word": "lila", "emoji": "🟣"}
+      ]
+    }
+  ]
+}

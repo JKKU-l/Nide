@@ -1,0 +1,133 @@
+{
+  "title": "분리 동사 (Trennbare Verben) 이해하기",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "분리 동사란 무엇인가?",
+      "description": "독일어에는 기본 동사 앞에 **접두사(Prefix)**가 붙어 의미가 완전히 달라지는 동사들이 있습니다. 특정 문장 구조에서 접두사가 동사 본체와 \"분리\"되기 때문에 분리 동사라고 부릅니다.",
+      "content": {
+        "description": "접두사는 동사의 의미를 바꾸며, 일반 문장에서는 문장 끝으로 이동합니다."
+      }
+    },
+    {
+      "id": "basic_structure",
+      "title": "1. 기본 문장 구조 (평서문)",
+      "description": "일반적인 문장에서 분리 동사를 사용할 때는 동사가 두 부분으로 나뉩니다:",
+      "content": {
+        "structure": {
+          "parts": [
+            "동사 본체: **두 번째 위치(Position 2)**에 오며, 주어에 맞춰 변화(변형)합니다.",
+            "접두사: 문장의 맨 끝으로 이동합니다."
+          ]
+        },
+        "example": {
+          "verb": "einkaufen (쇼핑하다)",
+          "prefix": "ein-",
+          "main_verb": "kaufen (사다)",
+          "table": {
+            "headers": ["주어 (1)", "동사 본체 (2)", "중간 내용", "접두사 (끝)"],
+            "rows": [
+              ["Ich", "kaufe", "im Supermarkt", "ein."]
+            ],
+            "translation": "해석: 나는 슈퍼마켓에서 쇼핑을 한다."
+          }
+        }
+      }
+    },
+    {
+      "id": "common_prefixes",
+      "title": "2. 자주 쓰이는 분리 접두사",
+      "description": "접두사를 보고 분리 동사임을 알 수 있습니다. 교재에 나온 가장 흔한 접두사들은 다음과 같습니다:",
+      "content": {
+        "prefixes": [
+          {"prefix": "ab-", "example": "abfahren - 출발하다"},
+          {"prefix": "an-", "example": "ankommen - 도착하다"},
+          {"prefix": "auf-", "example": "aufstehen - 일어나다"},
+          {"prefix": "aus-", "example": "aussteigen - 내리다"},
+          {"prefix": "mit-", "example": "mitkommen - 함께 가다"},
+          {"prefix": "ein-", "example": "einsteigen - 타다/승차하다"},
+          {"prefix": "zurück-", "example": "zurückkommen - 돌아오다"}
+        ]
+      }
+    },
+    {
+      "id": "modal_verbs",
+      "title": "3. 화법 조동사(Modal Verbs)와 함께 쓸 때",
+      "description": "müssen(해야 한다), können(할 수 있다), möchten(하고 싶다) 같은 조동사와 함께 쓸 때는 동사가 분리되지 않습니다.",
+      "content": {
+        "rule": {
+          "modal": "조동사가 두 번째 위치에 옵니다.",
+          "separable": "분리 동사 전체(원형)가 문장 맨 끝에 옵니다."
+        },
+        "example": {
+          "combination": "müssen + aufstehen",
+          "sentence": "Ich muss um 6 Uhr aufstehen.",
+          "translation": "(나는 6시에 일어나야 한다.)"
+        }
+      }
+    },
+    {
+      "id": "pronunciation",
+      "title": "4. 단어의 악센트 (발음)",
+      "description": "분리 동사를 읽을 때는 항상 접두사에 강세를 둡니다.",
+      "content": {
+        "examples": [
+          "ein-kaufen",
+          "auf-stehen",
+          "an-kommen"
+        ]
+      }
+    },
+    {
+      "id": "detailed_examples",
+      "title": "5. 동사별 상세 논리 및 예시",
+      "description": "학생들을 위한 상세 논리 및 예시:",
+      "content": {
+        "examples_table": {
+          "headers": ["Verb", "German Sentence", "Korean Translation", "Logic/Explanation"],
+          "rows": [
+            ["einsteigen (타다)", "Ich steige in die U-Bahn ein.", "I get on the subway.", "자신을 탈것 \"안으로(ein)\" 넣는 개념입니다."],
+            ["umsteigen (환승하다)", "Ich steige an der Hauptwache um.", "I transfer at Hauptwache.", "이 기차에서 저 기차로 \"주변(um)\"을 바꾸는 개념입니다."],
+            ["aussteigen (내리다)", "Ich steige am Bahnhof aus.", "I get off at the station.", "탈것 \"밖으로(aus)\" 나가는 개념입니다."],
+            ["anfangen (시작하다)", "Die Arbeit fängt um 8 Uhr an.", "Work starts at 8 o'clock.", "접두사 'an'이 시작점을 나타냅니다. (주의: fangen은 fängt로 불규칙 변화함)"],
+            ["aufmachen (열다)", "Ich mache das Fenster auf.", "I open the window.", "무언가를 \"위로/열리게(auf)\" 움직이는 개념입니다."],
+            ["zumachen (닫다)", "Ich mache das Fenster zu.", "I close the window.", "무언가를 \"닫히게(zu)\" 움직이는 개념입니다."],
+            ["fernsehen (TV를 보다)", "Abends sehe ich fern.", "In the evening I watch TV.", "'Fern'은 '멀리'라는 뜻입니다. \"멀리 보다(TV 시청)\"라는 뜻이 됩니다."],
+            ["anrufen (전화하다)", "Ich rufe meine Mutter an.", "I call my mother.", "'Rufen'은 외치다/부르다입니다. 'anrufen'은 구체적으로 전화를 거는 행위입니다."],
+            ["einladen (초대하다)", "Meine Freundin lädt mich ein.", "My girlfriend invites me.", "누군가를 행사 \"안으로(ein)\" 불러들이는 개념입니다."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_table",
+      "title": "학생들을 위한 요약표",
+      "description": "다양한 상황에서 분리 동사 사용법에 대한 빠른 참조표.",
+      "content": {
+        "summary_table": {
+          "headers": ["상황", "규칙", "예시"],
+          "rows": [
+            ["일반 문장", "동사 본체는 2번 위치, 접두사는 맨 끝", "Ich stehe um 7 Uhr auf."],
+            ["조동사 사용", "조동사는 2번 위치, 동사 원형(결합상태)은 맨 끝", "Ich möchte mitkommen."],
+            ["의문문 (Yes/No)", "동사 본체가 1번 위치, 접두사는 맨 끝", "Fängst du morgen an?"],
+            ["부문장 (weil 등)", "동사와 접두사가 붙은 채로 문장 맨 끝", "... weil ich um 6 Uhr aufstehe."]
+          ]
+        }
+      }
+    },
+    {
+      "id": "why_use",
+      "title": "왜 이런 동사를 쓰나요?",
+      "description": "독일어는 접두사를 사용하여 의미를 매우 정밀하게 표현합니다. 예를 들어, 기본 동사 **\"machen\"**은 단순히 \"하다/만들다\"이지만, 접두사를 붙이면 다음과 같이 변합니다:",
+      "content": {
+        "examples": [
+          "aufmachen = 열다 (Open)",
+          "zumachen = 닫다 (Close)",
+          "anmachen = (불/전자기기를) 켜다 (Turn on)",
+          "ausmachen = (불/전자기기를) 끄다 (Turn off)"
+        ],
+        "explanation": "이처럼 하나의 기본 동사로 수많은 구체적인 상황을 표현할 수 있습니다!"
+      }
+    }
+  ]
+}

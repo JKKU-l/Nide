@@ -1,0 +1,55 @@
+{
+  "title": "Home & Living",
+  "emoji": "🏠",
+  "theme_color": "#2196F3",
+  "description": "House, furniture, and daily life at home",
+  "sections": [
+    {
+      "id": "vocabulary",
+      "content": {
+        "vocabulary": [
+          {"german": "wohnen", "thai": "อาศัยอยู่", "example_german": "Ich wohne seit zwei Jahren in Berlin.", "example_thai": "ฉันอาศัยอยู่ในเบอร์ลินมาสองปีแล้ว"},
+          {"german": "schlafen", "thai": "นอนหลับ", "example_german": "Wie lange schläfst du normalerweise?", "example_thai": "ปกติคุณนอนนานแค่ไหน?"},
+          {"german": "aufwachen", "thai": "ตื่นนอน (รู้สึกตัวตื่น)", "example_german": "Ich wache jeden Tag ohne Wecker auf.", "example_thai": "ฉันตื่นเองทุกวันโดยไม่ต้องใช้นาฬิกาปลุก"},
+          {"german": "aufstehen", "thai": "ลุกจากที่นอน", "example_german": "Um wie viel Uhr stehst du auf?", "example_thai": "คุณลุกจากที่นอนกี่โมง?"},
+          {"german": "waschen", "thai": "ซัก / ล้าง", "example_german": "Ich muss heute meine Kleidung waschen.", "example_thai": "วันนี้ฉันต้องซักเสื้อผ้า"},
+          {"german": "duschen", "thai": "อาบน้ำ (ฝักบัว)", "example_german": "Er duscht sich nach dem Sport.", "example_thai": "เขาอาบน้ำหลังจากเล่นกีฬา"},
+          {"german": "baden", "thai": "อาบน้ำ (ในอ่าง)", "example_german": "Am Sonntag bade ich gerne lange.", "example_thai": "ในวันอาทิตย์ ฉันชอบแช่น้ำนานๆ"},
+          {"german": "putzen", "thai": "ทำความสะอาด", "example_german": "Wir putzen am Samstag die ganze Wohnung.", "example_thai": "พวกเราทำความสะอาดห้องทั้งห้องในวันเสาร์"},
+          {"german": "kochen", "thai": "ทำอาหาร", "example_german": "Was kochst du heute zum Abendessen?", "example_thai": "วันนี้คุณจะทำอะไรเป็นอาหารเย็น?"},
+          {"german": "backen", "thai": "อบ (ขนม)", "example_german": "Meine Mutter backt einen Apfelkuchen.", "example_thai": "แม่ของฉันกำลังอบเค้กแอปเปิ้ล"},
+          {"german": "braten", "thai": "ทอด / ย่าง", "example_german": "Ich brate das Fleisch in der Pfanne.", "example_thai": "ฉันทอดเนื้อในกระทะ"},
+          {"german": "essen", "thai": "กิน", "example_german": "Wann essen wir heute?", "example_thai": "วันนี้พวกเราจะกินข้าวกันตอนกี่โมง?"},
+          {"german": "trinken", "thai": "ดื่ม", "example_german": "Ich trinke morgens immer einen Kaffee.", "example_thai": "ฉันดื่มกาแฟในตอนเช้าเสมอ"},
+          {"german": "frühstücken", "thai": "กินอาหารเช้า", "example_german": "Wir frühstücken meistens um acht Uhr.", "example_thai": "พวกเรามักจะกินอาหารเช้าตอนแปดโมง"},
+          {"german": "mittagessen", "thai": "กินอาหารกลางวัน", "example_german": "Ich esse im Büro zu Mittag.", "example_thai": "ฉันกินอาหารกลางวันในที่ทำงาน"},
+          {"german": "abendessen", "thai": "กินอาหารเย็น", "example_german": "Wir essen heute spät zu Abend.", "example_thai": "วันนี้พวกเรากินอาหารเย็นดึก"},
+          {"german": "abwaschen", "thai": "ล้างจาน", "example_german": "Wer wäscht heute das Geschirr ab?", "example_thai": "วันนี้ใครจะเป็นคนล้างจาน?"},
+          {"german": "abtrocknen", "thai": "เช็ดจาน (ให้แห้ง)", "example_german": "Ich trockne die Teller ab.", "example_thai": "ฉันกำลังเช็ดจานให้แห้ง"},
+          {"german": "aufräumen", "thai": "จัดของ / จัดบ้าน", "example_german": "Du musst dein Zimmer aufräumen.", "example_thai": "คุณต้องจัดห้องของคุณให้เรียบร้อย"},
+          {"german": "aufmachen", "thai": "เปิด", "example_german": "Kannst du bitte das Fenster aufmachen?", "example_thai": "คุณช่วยเปิดหน้าต่างหน่อยได้ไหม?"},
+          {"german": "zumachen", "thai": "ปิด", "example_german": "Es ist kalt, bitte mach die Tür zu.", "example_thai": "อากาศหนาว ช่วยปิดประตูหน่อยครับ"},
+          {"german": "einschalten", "thai": "เปิด (เครื่องใช้ไฟฟ้า)", "example_german": "Ich schalte den Fernseher ein.", "example_thai": "ฉันกำลังเปิดทีวี"},
+          {"german": "ausschalten", "thai": "ปิด (เครื่องใช้ไฟฟ้า)", "example_german": "Bitte schalte das Licht aus.", "example_thai": "กรุณาปิดไฟด้วยครับ"},
+          {"german": "heizen", "thai": "เปิดเครื่องทำความร้อน", "example_german": "Im Winter müssen wir viel heizen.", "example_thai": "ในฤดูหนาว พวกเราต้องเปิดเครื่องทำความร้อนบ่อย"},
+          {"german": "lüften", "thai": "ระบายอากาศ", "example_german": "Wir lüften das Zimmer zweimal am Tag.", "example_thai": "พวกเราเปิดระบายอากาศในห้องวันละสองครั้ง"},
+          {"german": "staubsaugen", "thai": "ดูดฝุ่น", "example_german": "Ich muss im Wohnzimmer staubsaugen.", "example_thai": "ฉันต้องดูดฝุ่นในห้องนั่งเล่น"},
+          {"german": "wischen", "thai": "ถู (พื้น) / เช็ด", "example_german": "Sie wischt den Küchenboden.", "example_thai": "เธอกำลังถูพื้นห้องครัว"},
+          {"german": "bügeln", "thai": "รีดผ้า", "example_german": "Er bügelt seine Hemden selbst.", "example_thai": "เขารีดเสื้อเชิ้ตของเขาเอง"},
+          {"german": "nähen", "thai": "เย็บผ้า", "example_german": "Meine Oma näht mir ein Kleid.", "example_thai": "คุณยายกำลังเย็บชุดกระโปรงให้ฉัน"},
+          {"german": "reparieren", "thai": "ซ่อมแซม", "example_german": "Mein Vater repariert das kaputte Fahrrad.", "example_thai": "พ่อของฉันกำลังซ่อมจักรยานที่พัง"},
+          {"german": "streichen", "thai": "ทาสี (ผนัง)", "example_german": "Wir streichen die Wände weiß.", "example_thai": "พวกเรากำลังทาสีผนังเป็นสีขาว"},
+          {"german": "hangen", "thai": "แขวน", "example_german": "Ich hänge das Bild an die Wand.", "example_thai": "ฉันแขวนรูปภาพไว้ที่ผนัง"},
+          {"german": "stellen", "thai": "วาง (ในแนวตั้ง)", "example_german": "Stell die Vase bitte auf den Tisch.", "example_thai": "ช่วยวางแจกันลงบนโต๊ะหน่อยครับ"},
+          {"german": "legen", "thai": "วาง (ในแนวนอน)", "example_german": "Er legt das Buch in das Regal.", "example_thai": "เขาจัดหนังสือวางไว้ในชั้น"},
+          {"german": "nehmen", "thai": "หยิบ / เอา", "example_german": "Ich nehme mir ein Glas Wasser.", "example_thai": "ฉันไปหยิบน้ามาแก้วหนึ่ง"},
+          {"german": "bringen", "thai": "นำมาให้", "example_german": "Bringst du mir bitte die Zeitung?", "example_thai": "คุณช่วยเอาหนังสือพิมพ์มาให้ฉันหน่อยได้ไหม?"},
+          {"german": "tragen", "thai": "ถือ / แบก / สวมใส่", "example_german": "Er trägt die schweren Taschen nach oben.", "example_thai": "เขาถือกระเป๋าหนักๆ ขึ้นไปข้างบน"},
+          {"german": "kaufen", "thai": "ซื้อ", "example_german": "Wir kaufen heute frisches Gemüse.", "example_thai": "วันนี้พวกเราซื้อผักสด"},
+          {"german": "schließen", "thai": "ปิด (ทางการ)", "example_german": "Bitte schließen Sie die Haustür.", "example_thai": "กรุณาปิดประตูบ้านด้วยครับ"},
+          {"german": "öffnen", "thai": "เปิด (ทางการ)", "example_german": "Ich öffne die Post.", "example_thai": "ฉันกำลังเปิดจดหมาย"}
+        ]
+      }
+    }
+  ]
+}

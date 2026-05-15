@@ -1,0 +1,120 @@
+{
+  "title": "🇩🇪 Konjugation Präsens 🔤",
+  "subtitle": "Present Tense Conjugation 📚",
+  "sections": [
+    {
+      "id": "regular_verb_conjugation",
+      "title": "1. Regular Verb Conjugation",
+      "description": "In German, verbs change their endings based on the subject. We take the verb stem (remove -en from the infinitive) and add these specific endings:",
+      "content": {
+        "table": {
+          "headers": ["Subject (Pronoun)", "Ending", "Example: kommen (to come)"],
+          "rows": [
+            ["Ich (I)", "-e", "komme"],
+            ["Du (You, informal)", "-st", "kommst"],
+            ["Er / Sie / Es (He/She/It)", "-t", "kommt"],
+            ["Wir (We)", "-en", "kommen"],
+            ["Ihr (You all)", "-t", "kommt"],
+            ["Sie / sie (You formal / They)", "-en", "kommen"]
+          ]
+        },
+        "dialogues": [
+          {
+            "speaker": "Marc",
+            "german": "Woher kommst du?",
+            "english": "Where do you come from?"
+          },
+          {
+            "speaker": "Alice",
+            "german": "Ich komme aus Brasilien. Das ist mein Freund, er kommt aus Russland.",
+            "english": "I come from Brazil. This is my friend, he comes from Russia.",
+            "tip": "Teacher's Tip: Notice how \"er\" (he) always takes the -t ending."
+          },
+          {
+            "speaker": "Marc",
+            "german": "Und wo wohnt ihr?",
+            "english": "And where do you all live?"
+          },
+          {
+            "speaker": "Alice & Yuri",
+            "german": "Wir wohnen ganz in der Nähe. Wo arbeitest du?",
+            "english": "We live very close by. Where do you work?",
+            "tip": "Grammar Alert: For verbs ending in -t or -d like arbeiten, we add an extra -e- (arbeit-e-st) to make it pronounceable."
+          }
+        ]
+      }
+    },
+    {
+      "id": "irregular_verbs_sein_haben",
+      "title": "2. Essential Irregular Verbs: \"Sein\" & \"Haben\"",
+      "description": "These verbs are the foundation of the language. They do not follow the standard rules and must be memorized.",
+      "content": {
+        "examples": [
+          {
+            "german": "Das sind Angela und Pascal.",
+            "english": "Those are Angela and Pascal."
+          },
+          {
+            "german": "Sie sind Schüler.",
+            "english": "They are students."
+          },
+          {
+            "german": "Sie haben einen Hund.",
+            "english": "They have a dog."
+          },
+          {
+            "german": "Er ist fünf Monate alt.",
+            "english": "He is five months old."
+          }
+        ]
+      }
+    },
+    {
+      "id": "preferences_wishes",
+      "title": "3. Preferences and Wishes: \"Möchten\" & \"Mögen\"",
+      "description": "Möchten (Would like) - Used for ordering or requests. Mögen (To like) - General likes/dislikes",
+      "content": {
+        "dialogues": [
+          {
+            "speaker": "Kellner",
+            "german": "Was möchten Sie?",
+            "english": "What would you like? (Formal)"
+          },
+          {
+            "speaker": "Frau Taylor",
+            "german": "Ich möchte einen Kaffee.",
+            "english": "I would like a coffee."
+          }
+        ],
+        "examples": [
+          {
+            "german": "Ich mag Kaffee.",
+            "english": "I like coffee."
+          },
+          {
+            "german": "Meine Eltern mögen keinen Fisch.",
+            "english": "My parents do not like fish.",
+            "note": "Note: \"Mögen\" changes its stem vowel from ö to a in singular forms (mag)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "knowing_facts",
+      "title": "4. Knowing Facts: \"Wissen\"",
+      "description": "This is used for factual knowledge (knowing \"that\" or knowing a location).",
+      "content": {
+        "examples": [
+          {
+            "german": "Wissen Sie, wo der Bahnhof ist?",
+            "english": "Do you know where the train station is?"
+          },
+          {
+            "german": "Ich weiß es nicht.",
+            "english": "I don't know (it)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "theme_color": "#009688",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "der Beruf", "english": "the profession / occupation", "article": "der", "word": "Beruf", "emoji": "💼"},
+        {"german": "der Bäcker", "english": "the baker", "article": "der", "word": "Bäcker", "emoji": "🥖"},
+        {"german": "der Elektriker", "english": "the electrician", "article": "der", "word": "Elektriker", "emoji": "⚡"},
+        {"german": "der Anwalt", "english": "the lawyer", "article": "der", "word": "Anwalt", "emoji": "⚖️"},
+        {"german": "der Bauer", "english": "the farmer", "article": "der", "word": "Bauer", "emoji": "👨‍🌾"},
+        {"german": "der Fleischer", "english": "the butcher", "article": "der", "word": "Fleischer", "emoji": "🥩"},
+        {"german": "der Arbeiter", "english": "the worker", "article": "der", "word": "Arbeiter", "emoji": "👷"},
+        {"german": "der Briefträger", "english": "the mail carrier", "article": "der", "word": "Briefträger", "emoji": "📬"},
+        {"german": "der Gärtner", "english": "the gardener", "article": "der", "word": "Gärtner", "emoji": "🌻"},
+        {"german": "der Hausmann / die Hausfrau", "english": "the homemaker (male/female)", "article": "der / die", "word": "Hausmann / Hausfrau", "emoji": "🏠"},
+        {"german": "der Maler", "english": "the painter", "article": "der", "word": "Maler", "emoji": "🎨"},
+        {"german": "der Polizist", "english": "the police officer", "article": "der", "word": "Polizist", "emoji": "👮"},
+        {"german": "der Hausmeister", "english": "the caretaker / janitor", "article": "der", "word": "Hausmeister", "emoji": "🔑"},
+        {"german": "der Maurer", "english": "the bricklayer", "article": "der", "word": "Maurer", "emoji": "🧱"},
+        {"german": "der Schneider", "english": "the tailor", "article": "der", "word": "Schneider", "emoji": "🪡"},
+        {"german": "der Installateur", "english": "the plumber / installer", "article": "der", "word": "Installateur", "emoji": "🔧"},
+        {"german": "der Mechaniker", "english": "the mechanic", "article": "der", "word": "Mechaniker", "emoji": "👨‍🔧"},
+        {"german": "der Sekretär / die Sekretärin", "english": "the secretary (male/female)", "article": "der / die", "word": "Sekretär / Sekretärin", "emoji": "⌨️"}
+      ]
+    }
+  ]
+}

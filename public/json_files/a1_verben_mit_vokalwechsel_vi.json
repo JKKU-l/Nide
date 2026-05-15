@@ -1,0 +1,282 @@
+{
+  "title": "Verben mit Vokalwechsel",
+  "subtitle": "Động từ thay đổi nguyên âm",
+  "sections": [
+    {
+      "id": "grammar_rule",
+      "title": "Quy tắc ngữ pháp",
+      "description": "Trong tiếng Đức, một số động từ bất quy tắc sẽ thay đổi nguyên âm ở thân từ khi chia ở ngôi thứ hai số ít (du) và ngôi thứ ba số ít (er, sie, es). Các ngôi khác vẫn chia theo quy tắc thông thường.",
+      "content": {
+        "table": {
+          "headers": ["Đại từ (Pronomen)", "e → i (Ví dụ: essen)", "a → ä (Ví dụ: schlafen)"],
+          "rows": [
+            ["ich (tôi)", "esse", "schlafe"],
+            ["du (bạn)", "isst", "schläfst"],
+            ["er, sie, es (anh ấy, cô ấy, nó)", "isst", "schläft"],
+            ["wir (chúng tôi)", "essen", "schlafen"],
+            ["ihr (các bạn)", "esst", "schlaft"],
+            ["sie, Sie (họ, Ngài)", "essen", "schlafen"]
+          ]
+        },
+        "important_verbs": {
+          "e_to_i_ie": "empfehlen (khuyên), essen (ăn), geben (cho), fernsehen (xem tivi), helfen (giúp đỡ), lesen (đọc), mitnehmen (mang theo), nehmen (lấy), sehen (nhìn), sprechen (nói), vergessen (quên), werden (trở nên).",
+          "a_to_ä": "abfahren (khởi hành), anfangen (bắt đầu), einladen (mời), einschlafen (ngủ thiếp đi), fahren (lái xe/đi), gefallen (thích), laufen (chạy), schlafen (ngủ), tragen (mang/mặc), waschen (rửa/giặt)."
+        }
+      }
+    },
+    {
+      "id": "exercise_1",
+      "title": "Bài tập 1: Tìm động từ nguyên thể (Infinitive)",
+      "description": "Wie heißt der Infinitiv? Tìm động từ nguyên thể",
+      "content": {
+        "exercises": [
+          {
+            "conjugated": "du gibst",
+            "infinitive": "geben",
+            "translation": "cho, tặng"
+          },
+          {
+            "conjugated": "er läuft",
+            "infinitive": "laufen",
+            "translation": "chạy, đi bộ"
+          },
+          {
+            "conjugated": "sie hilft",
+            "infinitive": "helfen",
+            "translation": "giúp đỡ"
+          },
+          {
+            "conjugated": "du nimmst",
+            "infinitive": "nehmen",
+            "translation": "lấy, cầm"
+          },
+          {
+            "conjugated": "er wäscht",
+            "infinitive": "waschen",
+            "translation": "giặt, rửa"
+          },
+          {
+            "conjugated": "du siehst",
+            "infinitive": "sehen",
+            "translation": "nhìn, thấy"
+          },
+          {
+            "conjugated": "er spricht",
+            "infinitive": "sprechen",
+            "translation": "nói"
+          },
+          {
+            "conjugated": "sie vergisst",
+            "infinitive": "vergessen",
+            "translation": "quên"
+          },
+          {
+            "conjugated": "er empfiehlt",
+            "infinitive": "empfehlen",
+            "translation": "khuyên, đề xuất"
+          },
+          {
+            "conjugated": "wir lesen",
+            "infinitive": "lesen",
+            "translation": "đọc"
+          },
+          {
+            "conjugated": "er isst",
+            "infinitive": "essen",
+            "translation": "ăn"
+          },
+          {
+            "conjugated": "du fährst",
+            "infinitive": "fahren",
+            "translation": "đi, lái xe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_2_3",
+      "title": "Bài tập 2 & 3: Hội thoại (Dialoge)",
+      "description": "Ergänzen Sie die Verben (Điền động từ)",
+      "content": {
+        "dialogues": [
+          {
+            "verb": "essen (ăn)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Esst ihr abends immer zusammen?",
+                "english": "Các bạn có luôn ăn tối cùng nhau không?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ja, wir essen zusammen, aber heute nicht. Dimitri isst mit Kunden und die Kinder essen bei Freunden. Und du? Isst du abends mit Roland zusammen?",
+                "english": "Có, chúng tôi ăn cùng nhau, nhưng hôm nay thì không. Dimitri đang ăn với khách hàng và trẻ em ăn tại nhà bạn bè. Còn bạn? Bạn có ăn tối với Roland không?"
+              },
+              {
+                "speaker": "Elke",
+                "german": "Ich esse abends nichts und Roland isst nur eine Kleinigkeit.",
+                "english": "Tôi không ăn gì vào buổi tối và Roland chỉ ăn một chút."
+              }
+            ]
+          },
+          {
+            "verb": "lesen (đọc)",
+            "speakers": [
+              {
+                "speaker": "Elke",
+                "german": "Was lest ihr gerne?",
+                "english": "Các bạn thích đọc gì?"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Ich lese gern Romane und Petro liest gar nicht.",
+                "english": "Tôi thích đọc tiểu thuyết và Petro không đọc gì cả."
+              },
+              {
+                "speaker": "Petro",
+                "german": "Das stimmt nicht. Ich lese auch!",
+                "english": "Điều đó không đúng. Tôi cũng đọc!"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Was liest du denn? Nur Zeitungen oder Kataloge.",
+                "english": "Vậy bạn đọc cái gì? Chỉ báo hay danh mục?"
+              }
+            ]
+          },
+          {
+            "verb": "nehmen (lấy)",
+            "speakers": [
+              {
+                "speaker": "Kellnerin",
+                "german": "Bitte, was nehmen Sie?",
+                "english": "Làm ơn, ngài muốn ăn gì?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Ich nehme Hähnchen mit Reis. Iliana und Petro, was nehmt ihr?",
+                "english": "Tôi muốn gà với cơm. Iliana và Petro, các bạn muốn gì?"
+              },
+              {
+                "speaker": "Iliana",
+                "german": "Wir nehmen auch ein Schnitzel.",
+                "english": "Chúng tôi cũng muốn Schnitzel."
+              },
+              {
+                "speaker": "Petro",
+                "german": "Nein, du nimmst ein Schnitzel, aber ich nehme Spaghetti!",
+                "english": "Không, bạn muốn Schnitzel, nhưng tôi muốn Spaghetti!"
+              }
+            ]
+          },
+          {
+            "verb": "schlafen (ngủ)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Entschuldigung, ich habe eine Frage. Wie lange schlafen Sie in der Nacht meistens?",
+                "english": "Xin lỗi, tôi có một câu hỏi. Ngài thường ngủ bao lâu vào ban đêm?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Wir schlafen meistens ungefähr acht Stunden.",
+                "english": "Chúng tôi thường ngủ khoảng tám giờ."
+              },
+              {
+                "speaker": "Dimitri",
+                "german": "Ja, du schläfst immer acht Stunden. Ich schlafe nur sechs Stunden.",
+                "english": "Có, bạn luôn ngủ tám giờ. Tôi chỉ ngủ sáu giờ."
+              }
+            ]
+          },
+          {
+            "verb": "fahren (đi/lái xe)",
+            "speakers": [
+              {
+                "speaker": "Reporter",
+                "german": "Wie kommen Sie zur Arbeit? Fahren Sie mit der U-Bahn?",
+                "english": "Ngài đi làm như thế nào? Ngài có đi tàu điện ngầm không?"
+              },
+              {
+                "speaker": "Claudia",
+                "german": "Nein, ich fahre mit dem Auto.",
+                "english": "Không, tôi đi bằng ô tô."
+              },
+              {
+                "speaker": "Reporter",
+                "german": "Und ihr, Kinder, wie fahrt ihr?",
+                "english": "Còn các bạn trẻ, các bạn đi như thế nào?"
+              },
+              {
+                "speaker": "Petro",
+                "german": "Ich fahre immer mit dem Fahrrad. Aber Iliana fährt immer mit dem Bus.",
+                "english": "Tôi luôn đi bằng xe đạp. Nhưng Iliana luôn đi bằng xe buýt."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_3_claudia",
+      "title": "Bài tập 3: Claudias Tag (Một ngày của Claudia)",
+      "description": "Đọc văn bản về một ngày của Claudia",
+      "content": {
+        "text": "Claudia steht immer um 6 Uhr auf. Um 7 Uhr isst (essen) sie mit ihrer Familie Frühstück und liest (lesen) die Zeitung. Ihr Mann Dimitri und sie fahren (fahren) mit dem Auto in die Stadt. Da kaufen sie zusammen ein und Dimitri trägt (tragen) alles ins Auto. Claudia läuft (laufen) noch ein bisschen durch die Stadt und Dimitri fährt (fahren) zur Arbeit. Um 11 Uhr nimmt (nehmen) Claudia den Bus zurück nach Hause. Zu Hause wäscht (waschen) sie Wäsche und hilft (helfen) ihrer Mutter. Am Nachmittag gibt (geben) Claudia Deutschunterricht. Sie spricht (sprechen) nur Deutsch mit den Schülern. Die Schüler lesen (lesen) Texte und sehen (sehen) manchmal einen Film. Claudia sieht (sehen) auch gerne Filme."
+      }
+    },
+    {
+      "id": "exercise_4",
+      "title": "Bài tập 4: Thay đổi nguyên âm hay không?",
+      "description": "Động từ có thay đổi nguyên âm không?",
+      "content": {
+        "exercises": [
+          {
+            "verb": "leben → er lebt",
+            "has_change": "No"
+          },
+          {
+            "verb": "kaufen → er kauft",
+            "has_change": "No"
+          },
+          {
+            "verb": "machen → er macht",
+            "has_change": "No"
+          },
+          {
+            "verb": "lesen → er liest",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "gehen → er geht",
+            "has_change": "No"
+          },
+          {
+            "verb": "waschen → er wäscht",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "laufen → er läuft",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "geben → er gibt",
+            "has_change": "Yes"
+          },
+          {
+            "verb": "verstehen → er versteht",
+            "has_change": "No"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise_5",
+      "title": "Bài tập 5: Thư mời (Einladung)",
+      "description": "Đọc thư mời từ Claudia gửi Elke",
+      "content": {
+        "letter": "Liebe Elke,\n\nich lade dich ein. Du fährst erst am Sonntag zurück und schläfst eine Nacht bei uns. Du nimmst am besten bequeme Schuhe mit, dann können wir zusammen laufen. Das gefällt dir doch, oder? Wann kommst du an? Wann bist du dann bei uns? Komm nicht so spät!\n\nViele Grüße, Claudia"
+      }
+    }
+  ]
+}

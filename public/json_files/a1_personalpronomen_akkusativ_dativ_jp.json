@@ -1,0 +1,182 @@
+{
+  "title": "人称代名詞 (対格・与格)",
+  "description": "人称代名詞が文の中で主語、直接目的語、または間接目的語としてどのように形を変化するかを学びましょう。",
+  "sections": [
+    {
+      "id": "understanding_cases",
+      "title": "1. 3つの主要な格（格変化）の理解",
+      "description": "ドイツ語では、文の中での「役割」に応じて代名詞の形が変化します。",
+      "content": {
+        "cases": [
+          {
+            "case": "1格（Nominative / 主格）",
+            "description": "「〜は/が」。動作を行う人や物（主語）。"
+          },
+          {
+            "case": "4格（Accusative / 対格）",
+            "description": "「〜を」。動作の直接的な対象（直接目的語）。"
+          },
+          {
+            "case": "3格（Dative / 与格）",
+            "description": "「〜に」。通常、何かを受け取る人や、誰かのために何かをする際の対象（間接目的語）。また、\"mit\"（〜と）や \"zu\"（〜へ）などの特定の前置詞の後でも使われます。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "akkusativ_pronouns",
+      "title": "2. 4格（対格）の人称代名詞",
+      "description": "動詞の直接目的語になる場合、4格を使います。よく使われる「4格支配の動詞」には、lieben（愛する）、mögen（好む）、kennen（（人を）知っている）、sehen（見る）などがあります。",
+      "content": {
+        "examples": [
+          {
+            "english": "私は彼を愛しています。",
+            "german": "Ich liebe ihn.",
+            "explanation": "「Ich」が主語（1格）です。「彼」は愛される対象（直接目的語）なので、「er」が ihn に変化します。"
+          },
+          {
+            "english": "私のことが好きですか？",
+            "german": "Magst du mich?",
+            "explanation": "「du」が主語です。「私」は好かれる対象なので、「ich」が mich になります。"
+          },
+          {
+            "english": "私たちは君たち（あなたたち）が見えます。",
+            "german": "Wir sehen euch.",
+            "explanation": "「Wir」が主語です。「君たち」は euch になります。"
+          }
+        ],
+        "note": "注意: sie（彼女・彼ら）、es（それ）、Sie（敬称のあなた）については、1格と4格で形が変わりません。"
+      }
+    },
+    {
+      "id": "dativ_pronouns",
+      "title": "3. 3格（与格）の人称代名詞",
+      "description": "3格は、動作の「恩恵を受ける人（受け取り手）」や、helfen（助ける）、gefallen（気に入る）、antworten（答える）などの特定の動詞の後に使われます。",
+      "content": {
+        "examples": [
+          {
+            "english": "私は君に本をあげます。",
+            "german": "Ich gebe dir das Buch.",
+            "explanation": "「本」は直接目的語（4格）ですが、「君」は受け取り手なので、「du」が dir になります。"
+          },
+          {
+            "english": "そのドレスは私の好みに合います（私はそのドレスが気に入っています）。",
+            "german": "Das Kleid gefällt mir.",
+            "explanation": "動詞「gefallen」は、気に入っている人を表す際に必ず3格をとります。"
+          },
+          {
+            "english": "私は彼女を助けています。",
+            "german": "Ich helfe ihr.",
+            "explanation": "「helfen」は3格支配の動詞です。英語や日本語の感覚では直接的な対象に見えますが、ドイツ語では3格（ihr）を使います。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prepositions_role",
+      "title": "4. 前置詞の役割",
+      "description": "動詞ではなく、代名詞の前にある小さな言葉（前置詞）によって格が決まることもあります。",
+      "content": {
+        "prepositions": [
+          {
+            "preposition": "〜と一緒に (Mit)",
+            "case": "Dative",
+            "example_english": "私は彼と一緒に行きます。",
+            "example_german": "Ich gehe mit ihm."
+          },
+          {
+            "preposition": "〜のために (Für)",
+            "case": "Accusative",
+            "example_english": "これは君のためです。",
+            "example_german": "Das ist für dich."
+          }
+        ]
+      }
+    },
+    {
+      "id": "key_transformations",
+      "title": "5. 主要な変化のまとめ",
+      "description": "表を使わずに覚えるためのグループ分けです。",
+      "content": {
+        "groups": [
+          {
+            "title": "「私」の代名詞",
+            "transformations": [
+              {"form": "主語（1格）", "pronoun": "ich（私は）"},
+              {"form": "直接目的語（4格）", "pronoun": "mich（私を）"},
+              {"form": "間接目的語（3格）", "pronoun": "mir（私に）"}
+            ]
+          },
+          {
+            "title": "「君（親しい間柄）」の代名詞",
+            "transformations": [
+              {"form": "主語（1格）", "pronoun": "du（君は）"},
+              {"form": "直接目的語（4格）", "pronoun": "dich（君を）"},
+              {"form": "間接目的語（3格）", "pronoun": "dir（君に）"}
+            ]
+          },
+          {
+            "title": "「彼」の代名詞（変化が一番大きいです）",
+            "transformations": [
+              {"form": "主語（1格）", "pronoun": "er（彼は）"},
+              {"form": "直接目的語（4格）", "pronoun": "ihn（彼を）"},
+              {"form": "間接目的語（3格）", "pronoun": "ihm（彼に）"}
+            ]
+          },
+          {
+            "title": "「彼女」の代名詞",
+            "transformations": [
+              {"form": "主語（1格）", "pronoun": "sie（彼女は）"},
+              {"form": "直接目的語（4格）", "pronoun": "sie（彼女を）"},
+              {"form": "間接目的語（3格）", "pronoun": "ihr（彼女に）"}
+            ]
+          },
+          {
+            "title": "「私たち」と「君たち」",
+            "note": "wir（私たちは）は、4格も3格も uns になります。ihr（君たちは）は、4格も3格も euch になります。",
+            "transformations": [
+              {"form": "主語（1格）", "pronoun": "wir（私たちは） / ihr（君たちは）"},
+              {"form": "4格と3格", "pronoun": "uns / euch"}
+            ]
+          },
+          {
+            "title": "「彼ら」と「あなた（敬称）」",
+            "note": "sie/Sie は4格でも sie/Sie のままです。3格になると ihnen/Ihnen に変わります。",
+            "transformations": [
+              {"form": "主語（1格）", "pronoun": "sie（彼らは） / Sie（あなたは）"},
+              {"form": "4格", "pronoun": "sie / Sie"},
+              {"form": "3格", "pronoun": "ihnen / Ihnen"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "practical_usage",
+      "title": "6. 実践的な使い方: \"お元気ですか？\"",
+      "description": "\"Wie geht es...?\" は典型的な3格の表現です。ドイツ語では「あなたはどうですか？」ではなく「（状況は）あなたにとってどのように進んでいますか？」と考えるためです。",
+      "content": {
+        "examples": [
+          {
+            "english": "元気？（親しい相手）",
+            "german": "Wie geht es dir?"
+          },
+          {
+            "english": "お元気ですか？（丁寧）",
+            "german": "Wie geht es Ihnen?"
+          },
+          {
+            "english": "お父さんは元気？",
+            "german": "Wie geht es ihm?",
+            "note": "お父さんは「彼」なので"
+          },
+          {
+            "english": "私は元気です",
+            "german": "Es geht mir gut.",
+            "note": "直訳：私にとって良く進んでいます"
+          }
+        ]
+      }
+    }
+  ]
+}

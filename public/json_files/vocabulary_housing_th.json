@@ -1,0 +1,53 @@
+{
+  "theme_color": "#795548",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Stadt", "thai": "เมือง", "article": "die", "word": "Stadt", "emoji": "🏙️"},
+        {"german": "das Dorf", "thai": "หมู่บ้าน", "article": "das", "word": "Dorf", "emoji": "🏡"},
+        {"german": "die Kirche", "thai": "โบสถ์", "article": "die", "word": "Kirche", "emoji": "⛪"},
+        {"german": "das Hotel", "thai": "โรงแรม", "article": "das", "word": "Hotel", "emoji": "🏨"},
+        {"german": "das Einzelzimmer", "thai": "ห้องเดี่ยว", "article": "das", "word": "Einzelzimmer", "emoji": "🛌"},
+        {"german": "das Doppelzimmer", "thai": "ห้องคู่", "article": "das", "word": "Doppelzimmer", "emoji": "🛌"},
+        {"german": "die Jugendherberge", "thai": "หอพักเยาวชน", "article": "die", "word": "Jugendherberge", "emoji": "🎒"},
+        {"german": "der Platz", "thai": "จัตุรัส / ที่ว่าง", "article": "der", "word": "Platz", "emoji": "⛲"},
+        {"german": "die Garage", "thai": "โรงรถ", "article": "die", "word": "Garage", "emoji": "🚗"},
+        {"german": "das Haus", "thai": "บ้าน", "article": "das", "word": "Haus", "emoji": "🏠"},
+        {"german": "die Tür", "thai": "ประตู", "article": "die", "word": "Tür", "emoji": "🚪"},
+        {"german": "das Dach", "thai": "หลังคา", "article": "das", "word": "Dach", "emoji": "🏠"},
+        {"german": "das Fenster", "thai": "หน้าต่าง", "article": "das", "word": "Fenster", "emoji": "🪟"},
+        {"german": "der Garten", "thai": "สวน", "article": "der", "word": "Garten", "emoji": "🌳"},
+        {"german": "der Dachboden", "thai": "ห้องใต้หลังคา", "article": "der", "word": "Dachboden", "emoji": "📦"},
+        {"german": "der Balkon", "thai": "ระเบียง", "article": "der", "word": "Balkon", "emoji": "🪴"},
+        {"german": "das Erdgeschoss", "thai": "ชั้นล่าง (ชั้น G)", "article": "das", "word": "Erdgeschoss", "emoji": "🏢"},
+        {"german": "der Keller", "thai": "ห้องใต้ดิน", "article": "der", "word": "Keller", "emoji": "🧱"},
+        {"german": "die Wohnung", "thai": "อพาร์ตเมนต์ / ห้องพัก", "article": "die", "word": "Wohnung", "emoji": "🏢"},
+        {"german": "der Umzug", "thai": "การย้ายบ้าน", "article": "der", "word": "Umzug", "emoji": "🚚"},
+        {"german": "ausziehen", "thai": "ย้ายออก", "article": "", "word": "ausziehen", "emoji": "📤"},
+        {"german": "einziehen", "thai": "ย้ายเข้า", "article": "", "word": "einziehen", "emoji": "📥"},
+        {"german": "der Eingang", "thai": "ทางเข้า", "article": "der", "word": "Eingang", "emoji": "🚪"},
+        {"german": "der Ausgang", "thai": "ทางออก", "article": "der", "word": "Ausgang", "emoji": "🚪"},
+        {"german": "das Zimmer", "thai": "ห้อง", "article": "das", "word": "Zimmer", "emoji": "🚪"},
+        {"german": "das Schlafzimmer", "thai": "ห้องนอน", "article": "das", "word": "Schlafzimmer", "emoji": "🛏️"},
+        {"german": "das Wohnzimmer", "thai": "ห้องนั่งเล่น", "article": "das", "word": "Wohnzimmer", "emoji": "🛋️"},
+        {"german": "das Bad", "thai": "ห้องน้ำ", "article": "das", "word": "Bad", "emoji": "🛁"},
+        {"german": "die Dusche", "thai": "ฝักบัว", "article": "die", "word": "Dusche", "emoji": "🚿"},
+        {"german": "die Toilette", "thai": "ห้องสุขา", "article": "die", "word": "Toilette", "emoji": "🚽"},
+        {"german": "das Toilettenpapier", "thai": "กระดาษชำระ", "article": "das", "word": "Toilettenpapier", "emoji": "🧻"},
+        {"german": "die Möbel", "thai": "เฟอร์นิเจอร์", "article": "die", "word": "Möbel", "emoji": "🛋️"},
+        {"german": "das Bett", "thai": "เตียง", "article": "das", "word": "Bett", "emoji": "🛏️"},
+        {"german": "der Schrank", "thai": "ตู้เสื้อผ้า / ตู้เก็บของ", "article": "der", "word": "Schrank", "emoji": "👗"},
+        {"german": "das Regal", "thai": "ชั้นวางของ", "article": "das", "word": "Regal", "emoji": "📚"},
+        {"german": "der Tisch", "thai": "โต๊ะ", "article": "der", "word": "Tisch", "emoji": "🍽️"},
+        {"german": "der Stuhl", "thai": "เก้าอี้", "article": "der", "word": "Stuhl", "emoji": "🪑"},
+        {"german": "die Bank", "thai": "ม้านั่ง", "article": "die", "word": "Bank", "emoji": "🛋️"},
+        {"german": "das Sofa", "thai": "โซฟา", "article": "das", "word": "Sofa", "emoji": "🛋️"},
+        {"german": "die Lampe", "thai": "โคมไฟ", "article": "die", "word": "Lampe", "emoji": "💡"},
+        {"german": "der Sessel", "thai": "เก้าอี้นวม", "article": "der", "word": "Sessel", "emoji": "🛋️"},
+        {"german": "der Teppich", "thai": "พรม", "article": "der", "word": "Teppich", "emoji": "🧶"},
+        {"german": "das Bild", "thai": "รูปภาพ", "article": "das", "word": "Bild", "emoji": "🖼️"},
+        {"german": "der Schlüssel", "thai": "กุญแจ", "article": "der", "word": "Schlüssel", "emoji": "🔑"}
+      ]
+    }
+  ]
+}

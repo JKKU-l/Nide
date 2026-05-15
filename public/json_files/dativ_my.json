@@ -1,0 +1,123 @@
+{
+  "title": "Dativ (အကျိုးခံကာရက / 3格)",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "ဂျာမန် Dativ (အကျိုးခံကာရက) ကို နားလည်ခြင်း",
+      "description": "Dativ ကို \"လက်ခံသူ\" ကာရက ဟု မကြာခဏ ခေါ်ပါသည်။ Akkusativ က တိုက်ရိုက်ကံ (လုပ်ဆောင်ခြင်းခံရသော အရာ) ကို ညွှန်ပြသော်လည်း Dativ က သွယ်ဝိုက်ကံ (ထိုလုပ်ဆောင်ချက်၏ ရလဒ်ကို လက်ခံသော လူ သို့မဟုတ် အရာ) ကို ညွှန်ပြပါသည်။"
+    },
+    {
+      "id": "identifying_dative",
+      "title": "1. Dativ ကို ခွဲခြားသိရှိခြင်း: \"ဘယ်သူ့ကို\" နှင့် \"ဘယ်မှာ\"",
+      "description": "ဝါကျတွင် Dativ ကို ရှာရန် မေးခွန်းနှစ်ခု မေးပါ:",
+      "content": {
+        "questions": [
+          { "question": "Wem? (ဘယ်သူ့ကို / ဘယ်သူ့အတွက်?)", "explanation": "တစ်ခုခု လက်ခံသူကို ခွဲခြားသိရှိပါသည်။", "german": "Ich gebe dem Lehrer das Buch.", "translation": "ကျွန်တော် ဆရာကို စာအုပ်ပေးပါသည်။ (ဆရာက လက်ခံသူဖြစ်သည်)" },
+          { "question": "Wo? (ဘယ်မှာ?)", "explanation": "တည်နေရာကို ကိုင်တွယ်သောအခါ Dativ သည် ဦးတည်ရာသို့ ရွေ့လျားခြင်းမဟုတ်ဘဲ ငြိမ်နေသော အနေအထားကို ဖော်ပြပါသည်။", "german": "Das Buch liegt auf dem Tisch.", "translation": "စာအုပ်သည် စားပွဲပေါ်မှာ ရှိပါသည်။ (ငြိမ်နေသော တည်နေရာ)" }
+        ]
+      }
+    },
+    {
+      "id": "articles_nouns",
+      "title": "2. နာမ်သေ နှင့် နာမ်များ၏ ပြောင်းလဲခြင်း",
+      "description": "Dativ သည် နာမ်ရှေ့တွင် လာသော စကားလုံးများကို ပြောင်းလဲစေပါသည်။ Dativ ၏ ထူးခြားသော စည်းမျဉ်းမှာ \"n-အများကိန်း\" ဖြစ်သည်: Dativ ရှိ အများကိန်းနာမ်အားလုံးနီးပါး အဆုံးတွင် -n ထည့်ရပါသည် (ဥပမာ - die Kinder → den Kindern)။",
+      "content": {
+        "declension_table": {
+          "title": "Dativ ဝိဘတ်ပြောင်းလဲခြင်း ဇယား",
+          "headers": ["လိင်", "ဝိဘတ်နာမ်သေ (The)", "အမည်မတပ်/ပိုင်ဆိုင်မှု (A/My)", "နာမဝိသေသန အဆုံးသတ် (\"The\" နောက်)"],
+          "rows": [
+            { "category": "အမျိုးသား", "definite": "dem Vater", "indefinite": "einem Vater", "adjective": "dem netten Vater" },
+            { "category": "အမျိုးသမီး", "definite": "der Mutter", "indefinite": "einer Mutter", "adjective": "der netten Mutter" },
+            { "category": "ကြားလိင်", "definite": "dem Kind", "indefinite": "einem Kind", "adjective": "dem netten Kind" },
+            { "category": "အများကိန်း", "definite": "den Eltern", "indefinite": "(meinen) Eltern", "adjective": "den netten Eltern" }
+          ]
+        },
+        "adjective_note": "dieser (ဤ)၊ jener (ထို)၊ alle (အားလုံး) ကဲ့သို့သော စကားလုံးများကို သုံးလျှင် Dativ တွင် နာမဝိသေသနသည် အမြဲတမ်း -en ဖြင့် ဆုံးပါသည်။ ၎င်းသည် မှတ်ရလွယ်သော တသမတ်တည်းသော \"အားနည်းဝိဘတ်ပြောင်းလဲခြင်း\" ကို ပေးပါသည်။"
+      }
+    },
+    {
+      "id": "dative_pronouns",
+      "title": "3. Dativ နာမ်စားများ",
+      "description": "အမည် သို့မဟုတ် နာမ်ကို \"ကျွန်တော့်ကို\"၊ \"မင်းကို\"၊ \"သူ့ကို\" ဖြင့် အစားထိုးသောအခါ နာမ်စား၏ Dativ ပုံစံကို သုံးရပါသည်။",
+      "content": {
+        "pronoun_table": {
+          "title": "Dativ တွင် နာမ်စား ပြောင်းလဲခြင်း",
+          "rows": [
+            { "nominative": "ich", "accusative": "mir", "meaning": "ကျွန်တော့်ကို" },
+            { "nominative": "du", "accusative": "dir", "meaning": "မင်းကို" },
+            { "nominative": "er", "accusative": "ihm", "meaning": "သူ့ကို" },
+            { "nominative": "sie", "accusative": "ihr", "meaning": "သူမကို" },
+            { "nominative": "es", "accusative": "ihm", "meaning": "အဲဒါကို" },
+            { "nominative": "wir", "accusative": "uns", "meaning": "ကျွန်တော်တို့ကို" },
+            { "nominative": "ihr", "accusative": "euch", "meaning": "မင်းတို့ကို" },
+            { "nominative": "sie/Sie", "accusative": "ihnen/Ihnen", "meaning": "သူတို့ကို / ခင်ဗျားကို" }
+          ]
+        },
+        "example": {
+          "german": "Er hilft mir.",
+          "translation": "သူ ကျွန်တော့်ကို ကူညီပါသည်။",
+          "note": "\"Er hilft mich\" (Akkusativ) ဟု မပြောနိုင်ပါ။ helfen သည် \"Dativ ကြိယာ\" ဖြစ်သောကြောင့် \"Er hilft mir\" ဟု ပြောရပါသည်။"
+        }
+      }
+    },
+    {
+      "id": "when_to_use",
+      "title": "4. Dativ ကို အသုံးပြုရသည့်အခါ",
+      "description": "Dativ အတွက် အဓိက အကြောင်းရင်း သုံးခု ရှိပါသည်:",
+      "content": {
+        "triggers": [
+          {
+            "id": "dative_verbs",
+            "title": "A. Dativ ကြိယာများ",
+            "description": "ဂျာမန်ဘာသာတွင် အချို့ကြိယာများသည် \"Dativ သီးသန့်\" ဖြစ်ပါသည်။ အင်္ဂလိပ်ဘာသာပြန်တွင် \"to\" သို့မဟုတ် \"for\" မပါသော်လည်း ဤကြိယာများသည် လူနှင့် ဆက်သွယ်ခြင်းကို ဆိုလိုပါသည်။",
+            "subcategories": [
+              { "label": "လူမှုဆက်ဆံရေး", "verbs": "danken (ကျေးဇူးတင်သည်)၊ helfen (ကူညီသည်)၊ gratulieren (ဂုဏ်ပြုသည်)", "german": "Ich danke dir.", "translation": "ကျွန်တော် မင်းကို ကျေးဇူးတင်ပါသည်။" },
+              { "label": "ထင်မြင်ချက်/ခံစားချက်", "verbs": "gefallen (ကြိုက်သည်)၊ gehören (~ပိုင်ဖြစ်သည်)၊ passen (တော်သည်)", "german": "Das Auto gehört dem Mann.", "translation": "ကားသည် ထိုလူ၏ ပိုင်ဆိုင်မှုဖြစ်ပါသည်။" }
+            ]
+          },
+          {
+            "id": "dative_prepositions",
+            "title": "B. Dativ ဝိဘတ်စကားလုံးများ",
+            "description": "လုပ်ဆောင်ချက်မည်သို့ပင်ဖြစ်စေ Dativ ကို အမြဲလိုအပ်သော ဝိဘတ်စကားလုံးအုပ်စု ရှိပါသည်။",
+            "prepositions": ["aus (~မှ)", "bei (~မှာ)", "mit (~နှင့်)", "nach (~ပြီးနောက်)", "seit (~ကတည်းက)", "von (~မှ)", "zu (~သို့)"],
+            "examples": [
+              { "german": "Ich gehe mit dem Hund spazieren.", "translation": "ကျွန်တော် ခွေးနှင့် လမ်းလျှောက်ထွက်ပါသည်။" },
+              { "german": "Er wohnt bei seiner Tante.", "translation": "သူ အဒေါ်အိမ်မှာ နေပါသည်။" }
+            ]
+          },
+          {
+            "id": "two_way_prepositions",
+            "title": "C. နှစ်ဖက်သုံး ဝိဘတ်စကားလုံးများ (Wechselpräpositionen)",
+            "description": "ဤဝိဘတ်စကားလုံးများ (in, an, auf, unter, über, vor, hinter, neben, zwischen) သည် Dativ သို့မဟုတ် Akkusativ ဖြစ်နိုင်ပါသည်။",
+            "rule": "တည်နေရာ (Wo?) အတွက် Dativ: အရာဝတ္ထုသည် နေရာတစ်ခုတွင် ငြိမ်နေလျှင်။ ဦးတည်ရာ (Wohin?) အတွက် Akkusativ: ပန်းတိုင်ဆီသို့ ရွေ့လျားခြင်းရှိလျှင်။",
+            "examples": [
+              { "german": "Das Buch liegt auf dem Tisch.", "translation": "စာအုပ်သည် စားပွဲပေါ်မှာ ရှိပါသည် — ငြိမ်/Dativ။" },
+              { "german": "Ich lege das Buch auf den Tisch.", "translation": "ကျွန်တော် စာအုပ်ကို စားပွဲပေါ်မှာ တင်ပါသည် — ရွေ့လျား/Akkusativ။" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary_example",
+      "title": "အကျဉ်းချုပ် ဥပမာ",
+      "description": "ဝါကျတစ်ခုတွင် Akkusativ နှင့် Dativ အတူတကွ အလုပ်လုပ်ပုံ:",
+      "content": {
+        "examples": [
+          {
+            "label": "Akkusativ (တိုက်ရိုက်ကံ)",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe einen Brief.", "translation": "ဘာကို ရေးနေပါသလဲ? စာတစ်စောင်ကို။" },
+            "explanation": "\"စာ\" သည် လုပ်ဆောင်ခြင်းခံရသော အရာ (Akkusativ) ဖြစ်ပါသည်။"
+          },
+          {
+            "label": "Dativ (သွယ်ဝိုက်ကံ)",
+            "nominative": null,
+            "accusative": { "german": "Ich schreibe meinem Bruder einen Brief.", "translation": "ဘယ်သူ့ကို ရေးနေပါသလဲ? အစ်ကိုကို။" },
+            "explanation": "\"အစ်ကို\" သည် အကျိုးခံစားရသူ (Dativ) ဖြစ်ပြီး \"စာ\" သည် Akkusativ အတိုင်းပင် ဖြစ်ပါသည်။"
+          }
+        ]
+      }
+    }
+  ]
+}

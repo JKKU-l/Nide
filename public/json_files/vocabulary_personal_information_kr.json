@@ -1,0 +1,37 @@
+{
+  "theme_color": "#2196F3",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "die Adresse", "korean": "주소", "article": "die", "word": "Adresse", "emoji": "📍"},
+        {"german": "der Name", "korean": "이름", "article": "der", "word": "Name", "emoji": "📛"},
+        {"german": "der Vorname", "korean": "이름 (세례명)", "article": "der", "word": "Vorname", "emoji": "👤"},
+        {"german": "der Familienname", "korean": "성 (family name)", "article": "der", "word": "Familienname", "emoji": "👪"},
+        {"german": "die Straße", "korean": "거리", "article": "die", "word": "Straße", "emoji": "🛣️"},
+        {"german": "die Nummer", "korean": "번호", "article": "die", "word": "Nummer", "emoji": "🔢"},
+        {"german": "der Ort", "korean": "장소 / 위치", "article": "der", "word": "Ort", "emoji": "📍"},
+        {"german": "die Postleitzahl", "korean": "우편번호", "article": "die", "word": "Postleitzahl", "emoji": "📮"},
+        {"german": "der Geburtsort", "korean": "출생지", "article": "der", "word": "Geburtsort", "emoji": "🐣"},
+        {"german": "das Geburtsjahr", "korean": "출생 연도", "article": "das", "word": "Geburtsjahr", "emoji": "📅"},
+        {"german": "das Geburtsdatum", "korean": "생년월일", "article": "das", "word": "Geburtsdatum", "emoji": "🎂"},
+        {"german": "männlich", "korean": "남성", "article": "", "word": "männlich", "emoji": "♂️"},
+        {"german": "weiblich", "korean": "여성", "article": "", "word": "weiblich", "emoji": "♀️"},
+        {"german": "das Formular", "korean": "서식 / 양식", "article": "das", "word": "Formular", "emoji": "📝"},
+        {"german": "das Alter", "korean": "나이", "article": "das", "word": "Alter", "emoji": "🎂"},
+        {"german": "unterschreiben", "korean": "서명하다", "article": "", "word": "unterschreiben", "emoji": "✍️"},
+        {"german": "ausfüllen", "korean": "기입하다", "article": "", "word": "ausfüllen", "emoji": "🖊️"},
+        {"german": "heißen", "korean": "~라고 부르다", "article": "", "word": "heißen", "emoji": "🗣️"},
+        {"german": "die Unterschrift", "korean": "서명", "article": "die", "word": "Unterschrift", "emoji": "✒️"},
+        {"german": "der Familienstand", "korean": "혼인 여부", "article": "der", "word": "Familienstand", "emoji": "💍"},
+        {"german": "geschieden", "korean": "이혼한", "article": "", "word": "geschieden", "emoji": "💔"},
+        {"german": "die Papiere", "korean": "서류", "article": "die", "word": "Papiere", "emoji": "📄"},
+        {"german": "ledig", "korean": "미혼의", "article": "", "word": "ledig", "emoji": "🙋‍♂️"},
+        {"german": "verwitwet", "korean": "사별한", "article": "", "word": "verwitwet", "emoji": "🕯️"},
+        {"german": "der Ausweis", "korean": "신분증", "article": "der", "word": "Ausweis", "emoji": "🆔"},
+        {"german": "verheiratet", "korean": "기혼의", "article": "", "word": "verheiratet", "emoji": "👫"},
+        {"german": "heiraten", "korean": "결혼하다", "article": "", "word": "heiraten", "emoji": "💒"},
+        {"german": "der Pass", "korean": "여권", "article": "der", "word": "Pass", "emoji": "🛂"}
+      ]
+    }
+  ]
+}

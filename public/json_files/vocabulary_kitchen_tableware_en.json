@@ -1,0 +1,33 @@
+{
+  "theme_color": "#00BCD4",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Glas", "english": "the glass", "article": "das", "word": "Glas", "emoji": "🥃"},
+        {"german": "die Flasche", "english": "the bottle", "article": "die", "word": "Flasche", "emoji": "🍾"},
+        {"german": "das Geschirr", "english": "the dishes / tableware", "article": "das", "word": "Geschirr", "emoji": "🍽️"},
+        {"german": "die Tasse", "english": "the cup", "article": "die", "word": "Tasse", "emoji": "☕"},
+        {"german": "die Untertasse", "english": "the saucer", "article": "die", "word": "Untertasse", "emoji": "☕︎"},
+        {"german": "der Teller", "english": "the plate", "article": "der", "word": "Teller", "emoji": "🍽️"},
+        {"german": "das Besteck", "english": "the cutlery", "article": "das", "word": "Besteck", "emoji": "🍴"},
+        {"german": "das Messer", "english": "the knife", "article": "das", "word": "Messer", "emoji": "🔪"},
+        {"german": "die Gabel", "english": "the fork", "article": "die", "word": "Gabel", "emoji": "🍴"},
+        {"german": "der Löffel", "english": "the spoon", "article": "der", "word": "Löffel", "emoji": "🥄"},
+        {"german": "der Teelöffel", "english": "the teaspoon", "article": "der", "word": "Teelöffel", "emoji": "🥄"},
+        {"german": "der Geschmack", "english": "the taste", "article": "der", "word": "Geschmack", "emoji": "👅"},
+        {"german": "sauer", "english": "sour", "article": "", "word": "sauer", "emoji": "🍋"},
+        {"german": "süß", "english": "sweet", "article": "", "word": "süß", "emoji": "🍬"},
+        {"german": "scharf", "english": "spicy / sharp", "article": "", "word": "scharf", "emoji": "🌶️"},
+        {"german": "salzig", "english": "salty", "article": "", "word": "salzig", "emoji": "🧂"},
+        {"german": "die Küche", "english": "the kitchen", "article": "die", "word": "Küche", "emoji": "👨‍🍳"},
+        {"german": "kochen", "english": "to cook", "article": "", "word": "kochen", "emoji": "🍳"},
+        {"german": "der Herd", "english": "the stove", "article": "der", "word": "Herd", "emoji": "🔥"},
+        {"german": "der Ofen", "english": "the oven", "article": "der", "word": "Ofen", "emoji": "🔥"},
+        {"german": "das Restaurant", "english": "the restaurant", "article": "das", "word": "Restaurant", "emoji": "🍴"},
+        {"german": "der Kellner / die Kellnerin", "english": "the waiter / waitress", "article": "der", "word": "Kellner", "emoji": "💁"},
+        {"german": "bestellen", "english": "to order", "article": "", "word": "bestellen", "emoji": "📝"},
+        {"german": "die Speisekarte", "english": "the menu", "article": "die", "word": "Speisekarte", "emoji": "📜"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "month": 10,
+  "title_en": "At the Doctor's Office",
+  "title_de": "Beim Arzt",
+  "icon": "🏥",
+  "theme_color": "#06B6D4",
+  "subtopics": [
+    {
+      "id": "i_have_a_cold",
+      "title": "I Have a Cold",
+      "content": ""
+    },
+    {
+      "id": "physical_examination",
+      "title": "A Physical Examination",
+      "content": ""
+    },
+    {
+      "id": "vital_organs",
+      "title": "The Vital Organs",
+      "content": ""
+    },
+    {
+      "id": "i_had_an_accident",
+      "title": "I Had an Accident",
+      "content": ""
+    },
+    {
+      "id": "at_the_dentist",
+      "title": "At the Dentist",
+      "content": ""
+    },
+    {
+      "id": "hospital_admission",
+      "title": "At the Hospital ▪ Im Krankenhaus — Admission to the Hospital",
+      "content": ""
+    },
+    {
+      "id": "emergency_room",
+      "title": "In the Emergency Room",
+      "content": ""
+    },
+    {
+      "id": "surgery",
+      "title": "Surgery",
+      "content": ""
+    },
+    {
+      "id": "recovery_room",
+      "title": "In the Recovery Room",
+      "content": ""
+    },
+    {
+      "id": "delivery_room",
+      "title": "In the Delivery Room",
+      "content": ""
+    }
+  ]
+}

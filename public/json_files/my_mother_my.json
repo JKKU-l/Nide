@@ -1,0 +1,77 @@
+{
+  "title": "My Mother",
+  "theme_color": "#FF6B6B",
+  "description": "A story about my mother and her daily life",
+  "audio_file": "my_mother.mp3",
+  "difficulty": "A1",
+  "duration_minutes": 5,
+  "sections": [
+    {
+      "id": "story",
+      "title": "Meine Mutter",
+      "content": {
+        "german_text": "Meine Mutter heißt Anna. Sie arbeitet im Krankenhaus. Jeden Morgen macht sie Kaffee und lächelt. Am Sonntag malt und singt sie zu Hause. Sie malt Blumen und Häuser und hat eine schöne Stimme. Manchmal kauft sie mir Schokolade, und wir gehen oft zusammen einkaufen. Ihre Lieblingsfarbe ist Lila. Ihr Handy, Laptop und Bett sind lila. Ich liebe meine Mutter sehr.",
+        "myanmar_translation": "ကျွန်မ၏မိခင်အမည်မှာ အန်နာ ဖြစ်ပါသည်။ သူမသည် ဆေးရုံတွင် အလုပ်လုပ်ပါသည်။ နံနက်တိုင်း သူမသည် ကော်ဖီဖျော်ပြီး ပြုံးရယ်နေတတ်ပါသည်။ တနင်္ဂနွေနေ့များတွင် သူမသည် အိမ်၌ ပန်းချီဆွဲခြင်းနှင့် သီချင်းဆိုခြင်းတို့ကို ပြုလုပ်ပါသည်။ သူမသည် ပန်းပွင့်များနှင့် အိမ်ပုံများကို ဆွဲလေ့ရှိပြီး သာယာသော အသံကို ပိုင်ဆိုင်ထားပါသည်။ တစ်ခါတစ်ရံတွင် သူမသည် ကျွန်မအတွက် ချောကလက်ဝယ်ပေးလေ့ရှိပြီး ကျွန်မတို့နှစ်ဦးသည် အတူတူ ဈေးဝယ်ထွက်လေ့ရှိကြပါသည်။ သူမ အနှစ်သက်ဆုံးအရောင်မှာ ခရမ်းရောင် ဖြစ်ပါသည်။ သူမ၏ လက်ကိုင်ဖုန်း၊ လက်တော့ပ်ကွန်ပျူတာနှင့် ခုတင်တို့မှာ ခရမ်းရောင်များ ဖြစ်ကြပါသည်။ ကျွန်မသည် ကျွန်မ၏မိခင်ကို အလွန်ချစ်ပါသည်။"
+      }
+    },
+    {
+      "id": "exercises",
+      "title": "လေ့ကျင့်ခန်းများ",
+      "content": {
+        "exercises": [
+          {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Wie heißt die Mutter?",
+            "options": ["Maria", "Anna", "Lisa", "Sophie"],
+            "correct_answer": "Anna"
+          },
+          {
+            "id": 2,
+            "type": "fill_blank",
+            "question": "Sie arbeitet _______ Krankenhaus.",
+            "answer": "im"
+          },
+          {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "Meine Mutter heißt _______.",
+            "answer": "Anna"
+          },
+          {
+            "id": 4,
+            "type": "multiple_choice",
+            "question": "Was macht sie jeden Morgen?",
+            "options": ["Tee", "Kaffee", "Saft", "Wasser"],
+            "correct_answer": "Kaffee"
+          },
+          {
+            "id": 5,
+            "type": "fill_blank",
+            "question": "Ihre Lieblingsfarbe ist _______.",
+            "answer": "Lila"
+          },
+          {
+            "id": 6,
+            "type": "fill_blank",
+            "question": "Sie _______ Kaffee.",
+            "answer": "macht"
+          },
+          {
+            "id": 7,
+            "type": "fill_blank",
+            "question": "Wir gehen _______ einkaufen.",
+            "answer": "zusammen"
+          },
+          {
+            "id": 8,
+            "type": "multiple_choice",
+            "question": "Was kauft sie ihrer Tochter manchmal?",
+            "options": ["Kekse", "Schokolade", "Bonbons", "Kuchen"],
+            "correct_answer": "Schokolade"
+          }
+        ]
+      }
+    }
+  ]
+}

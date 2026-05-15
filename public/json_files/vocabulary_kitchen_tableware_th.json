@@ -1,0 +1,33 @@
+{
+  "theme_color": "#00BCD4",
+  "sections": [
+    {
+      "vocabulary": [
+        {"german": "das Glas", "thai": "แก้วน้ำ", "article": "das", "word": "Glas", "emoji": "🍷"},
+        {"german": "die Flasche", "thai": "ขวด", "article": "die", "word": "Flasche", "emoji": "🍾"},
+        {"german": "das Geschirr", "thai": "จานชาม / เครื่องครัว", "article": "das", "word": "Geschirr", "emoji": "🍽️"},
+        {"german": "die Tasse", "thai": "ถ้วย", "article": "die", "word": "Tasse", "emoji": "☕"},
+        {"german": "die Untertasse", "thai": "จานรองแก้ว", "article": "die", "word": "Untertasse", "emoji": "☕"},
+        {"german": "der Teller", "thai": "จาน", "article": "der", "word": "Teller", "emoji": "🍽️"},
+        {"german": "das Besteck", "thai": "ชุดช้อนส้อม", "article": "das", "word": "Besteck", "emoji": "🍴"},
+        {"german": "das Messer", "thai": "มีด", "article": "das", "word": "Messer", "emoji": "🔪"},
+        {"german": "die Gabel", "thai": "ส้อม", "article": "die", "word": "Gabel", "emoji": "🍴"},
+        {"german": "der Löffel", "thai": "ช้อน", "article": "der", "word": "Löffel", "emoji": "🥄"},
+        {"german": "der Teelöffel", "thai": "ช้อนชา", "article": "der", "word": "Teelöffel", "emoji": "🥄"},
+        {"german": "der Geschmack", "thai": "รสชาติ", "article": "der", "word": "Geschmack", "emoji": "👅"},
+        {"german": "sauer", "thai": "เปรี้ยว", "article": "", "word": "sauer", "emoji": "🍋"},
+        {"german": "süß", "thai": "หวาน", "article": "", "word": "süß", "emoji": "🍬"},
+        {"german": "scharf", "thai": "เผ็ด", "article": "", "word": "scharf", "emoji": "🌶️"},
+        {"german": "salzig", "thai": "เค็ม", "article": "", "word": "salzig", "emoji": "🧂"},
+        {"german": "die Küche", "thai": "ห้องครัว", "article": "die", "word": "Küche", "emoji": "🍳"},
+        {"german": "kochen", "thai": "ทำอาหาร", "article": "", "word": "kochen", "emoji": "👨‍🍳"},
+        {"german": "der Herd", "thai": "เตาแก๊ส / เตาไฟ", "article": "der", "word": "Herd", "emoji": "♨️"},
+        {"german": "der Ofen", "thai": "เตาอบ", "article": "der", "word": "Ofen", "emoji": "🥧"},
+        {"german": "das Restaurant", "thai": "ร้านอาหาร", "article": "das", "word": "Restaurant", "emoji": "🍴"},
+        {"german": "der Kellner / die Kellnerin", "thai": "บริกร (ชาย/หญิง)", "article": "der", "word": "Kellner", "emoji": "💁"},
+        {"german": "bestellen", "thai": "สั่งอาหาร", "article": "", "word": "bestellen", "emoji": "📋"},
+        {"german": "die Speisekarte", "thai": "เมนูอาหาร", "article": "die", "word": "Speisekarte", "emoji": "📖"}
+      ]
+    }
+  ]
+}

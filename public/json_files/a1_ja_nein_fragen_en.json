@@ -1,0 +1,149 @@
+{
+  "title": "Ja/Nein-Fragen (Yes/No Questions)",
+  "sections": [
+    {
+      "id": "sentence_structure",
+      "title": "1. German Sentence Structure: Statements vs. Questions",
+      "description": "In German, the position of the verb is the most important rule.",
+      "content": {
+        "categories": [
+          {
+            "category": "The Statement (Aussagesatz)",
+            "description": "In a regular statement, the verb is always in position 2.",
+            "table": {
+              "headers": ["Rule", "Example"],
+              "rows": [
+                ["Subject + Verb + Information", "Er kommt aus Berlin. (He comes from Berlin.)"]
+              ]
+            }
+          },
+          {
+            "category": "The Yes/No Question (Ja/Nein-Frage)",
+            "description": "To turn a statement into a question that can be answered with \"Yes\" or \"No,\" you move the verb to position 1.",
+            "table": {
+              "headers": ["Rule", "Example"],
+              "rows": [
+                ["Verb + Subject + Information?", "Kommt er aus Berlin? (Does he come from Berlin?)"]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "answering_questions",
+      "title": "2. Answering Questions: Ja, Nein, and Doch",
+      "description": "German has three ways to answer a closed question, depending on how the question is phrased.",
+      "content": {
+        "categories": [
+          {
+            "category": "Positive Questions",
+            "description": "If the question is \"standard\" (no \"not\" in it):",
+            "table": {
+              "headers": ["Answer", "Usage", "Example"],
+              "rows": [
+                ["Ja (Yes)", "To agree", "Ja, ich spreche Englisch."],
+                ["Nein (No)", "To disagree", "Nein, ich spreche kein Englisch."]
+              ]
+            },
+            "examples": [
+              {
+                "question": "\"Sprechen Sie Englisch?\"",
+                "answer": "Ja, ich spreche Englisch. / Nein, ich spreche kein Englisch."
+              }
+            ]
+          },
+          {
+            "category": "Negative Questions",
+            "description": "If the question contains a negation like nicht (not) or kein (no/none), the answer \"Yes\" changes to Doch.",
+            "table": {
+              "headers": ["Answer", "Usage", "Example"],
+              "rows": [
+                ["Doch (On the contrary/Yes)", "Used to contradict a negative question", "Doch, ich spreche Englisch."],
+                ["Nein (No)", "To agree with the negative statement", "Nein, ich spreche kein Englisch."]
+              ]
+            },
+            "examples": [
+              {
+                "question": "\"Sprechen Sie nicht Englisch?\" (Do you not speak English?)",
+                "answer": "Doch, ich spreche Englisch. (Yes, I do speak it—contradicting the \"not\".) / Nein, ich spreche kein Englisch. (Correct, I don't speak it.)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "polite_requests",
+      "title": "3. Polite Requests (Höfliche Bitten)",
+      "description": "To ask for something politely, Germans use \"Konjunktiv II\" forms of verbs. This is like the difference between saying \"Give me the book\" and \"Could you please give me the book?\"",
+      "content": {
+        "categories": [
+          {
+            "category": "Using \"Könnten\" and \"Würden\"",
+            "description": "Könnten Sie... (Could you...): Used for ability or possibility. Würden Sie... (Would you...): Used for general requests and actions.",
+            "table": {
+              "headers": ["Structure", "Example", "English Translation"],
+              "rows": [
+                ["Könnten + Subject + ... + Verb?", "Könnten Sie mir bitte helfen?", "Could you please help me?"],
+                ["Würden + Subject + ... + Verb?", "Würden Sie bitte das Fenster öffnen?", "Would you please open the window?"]
+              ]
+            },
+            "note": "Note: In these sentences, the main action verb (like helfen or öffnen) always goes to the very end of the sentence in its infinitive form."
+          }
+        ]
+      }
+    },
+    {
+      "id": "question_types",
+      "title": "4. Question Words vs. Yes/No Questions",
+      "description": "There are two main types of questions in German:",
+      "content": {
+        "categories": [
+          {
+            "category": "W-Questions (Information Questions)",
+            "description": "These start with a question word (Wer, Was, Wie, Wo, Woher). The verb stays in position 2.",
+            "examples": [
+              {
+                "question": "Wie hoch ist Ihre Miete? (How high is your rent?)",
+                "answer": "Answer: A specific detail (650 Euro)."
+              }
+            ]
+          },
+          {
+            "category": "Verb-First Questions (Yes/No Questions)",
+            "description": "These start with the verb.",
+            "examples": [
+              {
+                "question": "Suchen Sie eine Wohnung? (Are you looking for an apartment?)",
+                "answer": "Answer: Starts with Ja or Nein."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Summary Table for Quick Learning",
+      "description": "Quick reference for all sentence types:",
+      "content": {
+        "summary_table": {
+          "headers": ["Sentence Type", "Verb Position", "Example"],
+          "rows": [
+            ["Statement", "2nd Position", "Ich wohne in Frankfurt."],
+            ["Yes/No Question", "1st Position", "Wohnen Sie in Frankfurt?"],
+            ["W-Question", "2nd Position", "Wo wohnen Sie?"],
+            ["Polite Request", "1st Position", "Würden Sie mir den Weg sagen?"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "Pro Tip for Learners",
+      "description": "When you see a negative word like nicht or kein in a question, your brain should immediately get ready to use Doch if you want to say \"Yes!\" It is one of the most unique and important words in the German language for daily conversation.",
+      "content": {}
+    }
+  ]
+}

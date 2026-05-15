@@ -1,0 +1,133 @@
+{
+  "title": "🇩🇪 Konjugation Präsens 🔤",
+    "sections": [
+    {
+      "id": "regular_verb_conjugation",
+      "title": "၁။ ပုံမှန်ကြိယာများ ပေါင်းစပ်ပုံ (Regular Verb Conjugation)",
+      "description": "ဂျာမန်ဘာသာစကားမှာ ပြုလုပ်သူ (Subject) အပေါ်မူတည်ပြီး ကြိယာရဲ့ အဆုံးသတ် (Ending) တွေ ပြောင်းလဲသွားပါတယ်။ အခြေခံအားဖြင့် ကြိယာရဲ့ မူရင်းအမြစ် (Stem) ကိုယူပြီး အောက်ပါအတိုင်း အဆုံးသတ်တွေ ထည့်ပေးရပါတယ် -",
+      "content": {
+        "table": {
+          "headers": ["ပြုလုပ်သူ (Subject)", "အဆုံးသတ် (Ending)", "ဥပမာ: kommen (လာသည်)"],
+          "rows": [
+            ["Ich (ကျွန်ုပ်)", "-e", "ich komme"],
+            ["Du (မင်း - ရင်းနှီးသူ)", "-st", "du kommst"],
+            ["Er/Sie/Es (သူ/သူမ/၎င်း)", "-t", "er kommt"],
+            ["Wir (ကျွန်ုပ်တို့)", "-en", "wir kommen"],
+            ["Ihr (မင်းတို့ - အများကိန်း)", "-t", "ihr kommt"],
+            ["Sie/sie (လူကြီးမင်း/သူတို့)", "-en", "Sie kommen"]
+          ]
+        },
+        "dialogues": [
+          {
+            "speaker": "Marc",
+            "german": "Woher kommst du?",
+            "english": "မင်း ဘယ်ကလာတာလဲ?"
+          },
+          {
+            "speaker": "Alice",
+            "german": "Ich komme aus Brasilien. Das ist mein Freund, er kommt aus Russland.",
+            "english": "ကျွန်မ ဘရာဇီးက လာတာပါ။ ဒါကတော့ ကျွန်မသူငယ်ချင်း၊ သူက ရုရှားက လာတာပါ။",
+            "tip": "ဆရာ့မှတ်ချက်: \"Ich\" အတွက် -e ကိုသုံးပြီး \"Er\" (သူ) အတွက် -t ကို သုံးရတာ သတိထားပါ။"
+          },
+          {
+            "speaker": "Marc",
+            "german": "Und wo wohnt ihr?",
+            "english": "ပြီးတော့ မင်းတို့ ဘယ်မှာ နေကြတာလဲ?"
+          },
+          {
+            "speaker": "Alice und Yuri",
+            "german": "Wir wohnen ganz in der Nähe. Wo arbeitest du?",
+            "english": "ကျွန်တော်တို့ ဒီနားတင် နေတာပါ။ မင်းကော ဘယ်မှာ အလုပ်လုပ်လဲ?",
+            "tip": "အထူးမှတ်ချက်: arbeiten (အလုပ်လုပ်သည်) လိုမျိုး အသံထွက်ရခက်တဲ့ ကြိယာတွေမှာ အလယ်မှာ -e- ခံပြီး arbeitest လို့ သုံးရပါတယ်။"
+          },
+          {
+            "speaker": "Marc",
+            "german": "Ich arbeite bei der Post.",
+            "english": "ကျွန်တော် စာတိုက်မှာ အလုပ်လုပ်ပါတယ်။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "irregular_verbs_sein_haben",
+      "title": "၂။ အရေးကြီးသော \"ရှိသည်/ဖြစ်သည်\" (Sein & Haben)",
+      "description": "ဒီကြိယာ နှစ်ခုကတော့ ပုံမှန်စည်းမျဉ်းအတိုင်း မသွားဘဲ အပြောင်းအလဲ ရှိတတ်လို့ အလွတ်မှတ်ထားရပါမယ်။",
+      "content": {
+        "examples": [
+          {
+            "german": "Das sind Angela und Pascal.",
+            "english": "ဒါကတော့ အန်ဂျလာနဲ့ ပါစကယ်လ် တို့ ဖြစ်ကြပါတယ်။"
+          },
+          {
+            "german": "Sie haben einen Hund.",
+            "english": "သူတို့မှာ ခွေးတစ်ကောင် ရှိပါတယ်။"
+          },
+          {
+            "german": "Er ist fünf Monate alt.",
+            "english": "သူ (ခွေးလေး) က အသက် ၅ လ ရှိပါပြီ။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "preferences_wishes",
+      "title": "၃။ အလိုရှိခြင်းနှင့် နှစ်သက်ခြင်း (Möchten & Mögen)",
+      "description": "Möchten (ယဉ်ကျေးစွာ တောင်းဆိုခြင်း) - Mögen (ဝါသနာ သို့မဟုတ် နှစ်သက်မှု)",
+      "content": {
+        "dialogues": [
+          {
+            "speaker": "Kellner",
+            "german": "Was möchten Sie?",
+            "english": "လူကြီးမင်း ဘာများ သုံးဆောင်ချင်ပါသလဲ?"
+          },
+          {
+            "speaker": "Frau Taylor",
+            "german": "Ich möchte einen Kaffee.",
+            "english": "ကျွန်မ ကော်ဖီတစ်ခွက် လိုချင်ပါတယ်။"
+          }
+        ],
+        "examples": [
+          {
+            "german": "Ich mag Kaffee.",
+            "english": "ကျွန်တော် ကော်ဖီ ကြိုက်ပါတယ်။"
+          },
+          {
+            "german": "Meine Eltern mögen keinen Fisch.",
+            "english": "ကျွန်တော့် မိဘတွေက ငါး မကြိုက်ကြပါဘူး။",
+            "note": "မှတ်ချက်: \"Mögen\" က တစ်ကိုယ်ရေမှာ ö ကို a ပြောင်းပြီး mag လို့ သုံးပါတယ်။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "knowing_facts",
+      "title": "၄။ သိရှိခြင်း (Wissen)",
+      "description": "အကြောင်းအရာတစ်ခုခုကို \"သိသည်\" လို့ ပြောချင်ရင် Wissen ကို သုံးပါတယ်။",
+      "content": {
+        "examples": [
+          {
+            "german": "Wissen Sie, wo der Bahnhof ist?",
+            "english": "ဘူတာရုံ ဘယ်မှာလဲဆိုတာ လူကြီးမင်း သိပါသလား?"
+          },
+          {
+            "german": "Tut mir leid, das weiß ich nicht.",
+            "english": "စိတ်မရှိပါနဲ့၊ ဒါကို ကျွန်တော် မသိပါဘူး။"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro_tip",
+      "title": "💡 လေ့လာသူများအတွက် အကြံပြုချက်",
+      "content": {
+        "guidelines": [
+          {
+            "type": "အကြံပြုချက်",
+            "pronoun": "Ich, Du, Sie",
+            "usage": "ဂျာမန်စကားပြောမှာ Ich (ကျွန်ုပ်)၊ Du (မင်း) နဲ့ Sie (လူကြီးမင်း) ကြိယာပုံစံတွေကို အရင်ဆုံး ကျွမ်းကျင်အောင် လေ့ကျင့်ထားရင် စတင်ပြောဆိုဖို့ အလွန်လွယ်ကူသွားမှာပါ။"
+          }
+        ]
+      }
+    }
+  ]
+}
