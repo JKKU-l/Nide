@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-sans antialiased bg-gradient-to-br from-blue-300/40 via-white to-orange-300/40 min-h-screen">
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        <Analytics />
       </body>
     </html>
   )
