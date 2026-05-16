@@ -54,21 +54,21 @@ export default function BeginnerA1Lesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+        <div className="text-center mb-10 px-2">
+          <h1 className="text-3xl sm:text-4xl font-black text-slate-900 mb-3 break-words">
             Beginner A1
           </h1>
-          <p className="text-slate-600 text-lg">
+          <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto">
             Build a strong foundation in beginner German with essential grammar and vocabulary
           </p>
-          <p className="text-slate-500 mt-2">
+          <p className="text-slate-500 mt-2 text-sm sm:text-base">
             Master the fundamentals of German grammar with 20 essential topics
           </p>
         </div>
 
         {/* Topics Grid */}
         <div>
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-6">
             {searchQuery ? `Search Results for "${searchQuery}"` : 'Grammar Topics'}
           </h2>
           {filteredTopics.length > 0 ? (

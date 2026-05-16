@@ -156,12 +156,12 @@ export default function WoerterImSatz1Lesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 px-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-100 rounded-full mb-4">
-            <span className="text-2xl">📖</span>
-            <span className="text-sm font-medium text-amber-700">Topic 11 of 20</span>
+            <span className="text-xl sm:text-2xl">📖</span>
+            <span className="text-xs sm:text-sm font-medium text-amber-700">Topic 11 of 20</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 mb-3 break-words">
             {lessonData?.title}
           </h1>
         </div>
@@ -169,7 +169,7 @@ export default function WoerterImSatz1Lesson() {
         {/* Sections */}
         <div className="space-y-8">
           {searchQuery && (
-            <h2 className="text-2xl font-bold text-slate-900 mb-6">
+            <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-6">
               Search Results for "{searchQuery}"
             </h2>
           )}
@@ -177,12 +177,12 @@ export default function WoerterImSatz1Lesson() {
             filteredSections.map((section) => (
               <div
                 key={section.id}
-                className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl"
+                className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 shadow-xl"
               >
-                <h2 className="text-2xl font-bold text-slate-900 mb-2">
+                <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
                   {section.title}
                 </h2>
-                <p className="text-slate-600 mb-6">{section.description}</p>
+                <p className="text-sm sm:text-base text-slate-600 mb-6">{section.description}</p>
 
                 {/* Rules */}
                 {section.content.rules && (
@@ -202,8 +202,8 @@ export default function WoerterImSatz1Lesson() {
 
               {/* Examples Table */}
               {section.content.examples_table && (
-                <div className="bg-amber-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-amber-800 mb-4">📝 Examples</h3>
+                <div className="bg-amber-50 rounded-xl p-4 sm:p-6 mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-amber-800 mb-4">📝 Examples</h3>
                   <ResponsiveTable
                     headers={section.content.examples_table.headers}
                     rows={section.content.examples_table.rows}
@@ -215,30 +215,30 @@ export default function WoerterImSatz1Lesson() {
 
               {/* Structure */}
               {section.content.structure && (
-                <div className="bg-amber-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-amber-800 mb-4">🏗️ Structure</h3>
-                  <p className="text-slate-700 font-medium">{section.content.structure}</p>
+                <div className="bg-amber-50 rounded-xl p-4 sm:p-6 mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-amber-800 mb-4">🏗️ Structure</h3>
+                  <p className="text-sm sm:text-base text-slate-700 font-medium">{section.content.structure}</p>
                 </div>
               )}
 
               {/* Examples */}
               {section.content.examples && (
-                <div className="bg-amber-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-amber-800 mb-4">💬 Examples</h3>
+                <div className="bg-amber-50 rounded-xl p-4 sm:p-6 mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-amber-800 mb-4">💬 Examples</h3>
                   <div className="space-y-3">
                     {section.content.examples.map((example, i) => (
-                      <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-amber-400">
+                      <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-amber-400">
                         <div className="flex items-center gap-2 mb-1">
-                          <p className="font-medium text-slate-900">{example.question}</p>
+                          <p className="text-sm sm:text-base font-medium text-slate-900">{example.question}</p>
                           <button
                             onMouseEnter={() => playGermanText(extractGermanText(example.question))}
                             onClick={(e: React.MouseEvent) => {
                               e.stopPropagation();
                               playGermanText(extractGermanText(example.question));
                             }}
-                            className="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition"
+                            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition"
                           >
-                            <Volume2 size={16} className="text-amber-600" />
+                            <Volume2 size={14} className="text-amber-600 sm:size-4" />
                           </button>
                         </div>
                       </div>
@@ -249,31 +249,31 @@ export default function WoerterImSatz1Lesson() {
 
               {/* Example Analysis */}
               {section.content.example_analysis && (
-                <div className="bg-amber-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-amber-800 mb-4">🔍 Example Analysis</h3>
+                <div className="bg-amber-50 rounded-xl p-4 sm:p-6 mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-amber-800 mb-4">🔍 Example Analysis</h3>
                   <div className="space-y-4">
-                    <div className="bg-white/70 rounded-lg p-4">
-                      <p className="font-bold text-amber-700 mb-2">Sentence:</p>
+                    <div className="bg-white/70 rounded-lg p-3 sm:p-4">
+                      <p className="text-xs sm:text-sm font-bold text-amber-700 mb-2 uppercase tracking-wider">Sentence:</p>
                       <div className="flex items-center gap-2 mb-2">
-                        <p className="text-slate-900">{section.content.example_analysis?.sentence}</p>
+                        <p className="text-sm sm:text-base text-slate-900 font-medium">{section.content.example_analysis?.sentence}</p>
                         <button
                           onMouseEnter={() => playGermanText(extractGermanText(section.content.example_analysis?.sentence || ''))}
                           onClick={(e: React.MouseEvent) => {
                             e.stopPropagation();
                             playGermanText(extractGermanText(section.content.example_analysis?.sentence || ''));
                           }}
-                          className="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition"
+                          className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition"
                         >
-                          <Volume2 size={16} className="text-amber-600" />
+                          <Volume2 size={14} className="text-amber-600 sm:size-4" />
                         </button>
                       </div>
-                      <p className="text-sm text-slate-600 mb-3">{section.content.example_analysis?.translation}</p>
-                      <div className="space-y-2">
-                        <p className="font-bold text-amber-700">Breakdown:</p>
+                      <p className="text-xs sm:text-sm text-slate-600 mb-3 italic">{section.content.example_analysis?.translation}</p>
+                      <div className="space-y-2 pt-2 border-t border-amber-100">
+                        <p className="text-xs sm:text-sm font-bold text-amber-700">Breakdown:</p>
                         {section.content.example_analysis?.breakdown?.map((item, i) => (
                           <div key={i} className="flex items-start gap-2">
-                            <span className="text-amber-600">•</span>
-                            <span className="text-slate-700">{item}</span>
+                            <span className="text-amber-600 mt-1">•</span>
+                            <span className="text-sm text-slate-700">{item}</span>
                           </div>
                         ))}
                       </div>
@@ -284,22 +284,22 @@ export default function WoerterImSatz1Lesson() {
 
               {/* More Examples */}
               {section.content.more_examples && (
-                <div className="bg-amber-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-amber-800 mb-4">📚 More Examples</h3>
+                <div className="bg-amber-50 rounded-xl p-4 sm:p-6 mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-amber-800 mb-4">📚 More Examples</h3>
                   <div className="space-y-3">
                     {section.content.more_examples.map((example, i) => (
-                      <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-amber-400">
+                      <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-amber-400">
                         <div className="flex items-center gap-2">
-                          <p className="text-slate-900">{example}</p>
+                          <p className="text-sm sm:text-base text-slate-900">{example}</p>
                           <button
                             onMouseEnter={() => playGermanText(extractGermanText(example))}
                             onClick={(e: React.MouseEvent) => {
                               e.stopPropagation();
                               playGermanText(extractGermanText(example));
                             }}
-                            className="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition"
+                            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition"
                           >
-                            <Volume2 size={16} className="text-amber-600" />
+                            <Volume2 size={14} className="text-amber-600 sm:size-4" />
                           </button>
                         </div>
                       </div>

@@ -151,12 +151,12 @@ export default function ImperativLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 px-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-100 rounded-full mb-4">
-            <span className="text-2xl">📢</span>
-            <span className="text-sm font-medium text-red-700">Topic 8 of 20</span>
+            <span className="text-xl sm:text-2xl">📢</span>
+            <span className="text-xs sm:text-sm font-medium text-red-700">Topic 8 of 20</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 mb-3 break-words">
             {lessonData?.title}
           </h1>
         </div>
@@ -166,12 +166,12 @@ export default function ImperativLesson() {
           {lessonData?.sections?.map((section) => (
             <div
               key={section.id}
-              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl"
+              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 shadow-xl"
             >
-              <h2 className="text-2xl font-bold text-slate-900 mb-2">
+              <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
                 {section.title}
               </h2>
-              <p className="text-slate-600 mb-6">{section.description}</p>
+              <p className="text-sm sm:text-base text-slate-600 mb-6">{section.description}</p>
 
               {/* Forms */}
               {section.content.forms && (
@@ -269,8 +269,8 @@ export default function ImperativLesson() {
 
               {/* Politeness Table */}
               {section.content.politeness_table && (
-                <div className="bg-red-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-red-800 mb-4">🤝 Softening Commands (Politeness)</h3>
+                <div className="bg-red-50 rounded-xl p-4 sm:p-6 mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-red-800 mb-4">🤝 Softening Commands (Politeness)</h3>
                   <ResponsiveTable
                     headers={section.content.politeness_table.headers}
                     rows={section.content.politeness_table.rows?.map((row: string[]) =>
@@ -280,7 +280,7 @@ export default function ImperativLesson() {
                         if (isGermanExample) {
                           return (
                             <div className="flex items-center gap-2">
-                              <span>{cell}</span>
+                              <span className="text-sm sm:text-base font-medium text-slate-900">{cell}</span>
                               <button
                                 onMouseEnter={() => playGermanText(audioText)}
                                 onClick={(e: React.MouseEvent) => {
@@ -294,7 +294,7 @@ export default function ImperativLesson() {
                             </div>
                           );
                         }
-                        return cell;
+                        return <span className="text-sm sm:text-base text-slate-700">{cell}</span>;
                       })
                     ) || []}
                     themeColor="red"
@@ -305,8 +305,8 @@ export default function ImperativLesson() {
 
               {/* Practical Examples Table */}
               {section.content.practical_examples_table && (
-                <div className="bg-red-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-red-800 mb-4">🌍 Practical Examples for Everyday Situations</h3>
+                <div className="bg-red-50 rounded-xl p-4 sm:p-6 mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-red-800 mb-4">🌍 Practical Examples for Everyday Situations</h3>
                   <ResponsiveTable
                     headers={section.content.practical_examples_table.headers}
                     rows={section.content.practical_examples_table.rows?.map((row: string[]) =>
@@ -316,7 +316,7 @@ export default function ImperativLesson() {
                         if (isGermanSentence) {
                           return (
                             <div className="flex items-center gap-2">
-                              <span>{cell}</span>
+                              <span className="text-sm sm:text-base font-medium text-slate-900">{cell}</span>
                               <button
                                 onMouseEnter={() => playGermanText(audioText)}
                                 onClick={(e: React.MouseEvent) => {
@@ -330,7 +330,7 @@ export default function ImperativLesson() {
                             </div>
                           );
                         }
-                        return cell;
+                        return <span className="text-sm sm:text-base text-slate-700">{cell}</span>;
                       })
                     ) || []}
                     themeColor="red"
