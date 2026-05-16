@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface FormsData {
   title: string;
@@ -16,32 +17,6 @@ interface FormsData {
 interface FormationTableData {
   headers: string[];
   rows: string[][];
-}
-
-interface SpecialVerbData {
-  category: string;
-  description: string;
-  example_verb: string;
-  formal: string;
-  informal_single: string;
-  informal_group: string;
-}
-
-interface PolitenessData {
-  headers: string[];
-  rows: string[][];
-}
-
-interface PracticalExampleData {
-  scenario: string;
-  situation: string;
-  form: string;
-  german_sentence: string;
-  english_translation: string;
-}
-
-interface ChecklistData {
-  checklist: string[];
 }
 
 interface SectionContent {
@@ -219,50 +194,35 @@ export default function ImperativLesson() {
               {section.content.formation_table && (
                 <div className="bg-red-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-red-800 mb-4">🏗️ How to Form Imperative</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-red-100">
-                        <tr>
-                          {section.content.formation_table.headers?.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.formation_table.rows?.map((row, i) => (
-                          <tr key={i} className="border-t border-red-100">
-                            {row?.map((cell, j) => {
-                              const audioText = extractGermanText(cell);
-                              const isGermanExample = j === 3 && audioText.includes('!');
-                              return (
-                                <td key={j} className="px-4 py-3 text-slate-700">
-                                  {isGermanExample ? (
-                                    <div className="flex items-center gap-2">
-                                      <span>{cell}</span>
-                                      <button
-                                        onMouseEnter={() => playGermanText(audioText)}
-                                        onClick={(e: React.MouseEvent) => {
-                                          e.stopPropagation();
-                                          playGermanText(audioText);
-                                        }}
-                                        className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
-                                      >
-                                        <Volume2 size={12} className="text-red-600" />
-                                      </button>
-                                    </div>
-                                  ) : (
-                                    cell
-                                  )}
-                                </td>
-                              );
-                            })}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.formation_table.headers}
+                    rows={section.content.formation_table.rows?.map((row) =>
+                      row?.map((cell, j) => {
+                        const audioText = extractGermanText(cell);
+                        const isGermanExample = j === 3 && audioText.includes('!');
+                        if (isGermanExample) {
+                          return (
+                            <div className="flex items-center gap-2">
+                              <span>{cell}</span>
+                              <button
+                                onMouseEnter={() => playGermanText(audioText)}
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  playGermanText(audioText);
+                                }}
+                                className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
+                              >
+                                <Volume2 size={12} className="text-red-600" />
+                              </button>
+                            </div>
+                          );
+                        }
+                        return cell;
+                      })
+                    ) || []}
+                    themeColor="red"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 
@@ -270,152 +230,107 @@ export default function ImperativLesson() {
               {section.content.special_verbs_table && (
                 <div className="bg-red-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-red-800 mb-4">🔠 Specialized Verb Categories</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-red-100">
-                        <tr>
-                          {section.content.special_verbs_table.headers?.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.special_verbs_table.rows?.map((row, i) => (
-                          <tr key={i} className="border-t border-red-100">
-                            {row?.map((cell, j) => {
-                              const audioText = extractGermanText(cell);
-                              const isGermanVerb = [3, 4, 5].includes(j) && audioText.includes('!');
-                              return (
-                                <td key={j} className="px-4 py-3 text-slate-700">
-                                  {isGermanVerb ? (
-                                    <div className="flex items-center gap-2">
-                                      <span className="font-bold text-red-700">{cell}</span>
-                                      <button
-                                        onMouseEnter={() => playGermanText(audioText)}
-                                        onClick={(e: React.MouseEvent) => {
-                                          e.stopPropagation();
-                                          playGermanText(audioText);
-                                        }}
-                                        className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
-                                      >
-                                        <Volume2 size={12} className="text-red-600" />
-                                      </button>
-                                    </div>
-                                  ) : (
-                                    cell
-                                  )}
-                                </td>
-                              );
-                            })}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.special_verbs_table.headers}
+                    rows={section.content.special_verbs_table.rows?.map((row) =>
+                      row?.map((cell, j) => {
+                        const audioText = extractGermanText(cell);
+                        const isGermanVerb = [3, 4, 5].includes(j) && audioText.includes('!');
+                        if (isGermanVerb) {
+                          return (
+                            <div className="flex items-center gap-2">
+                              <span className="font-bold text-red-700">{cell}</span>
+                              <button
+                                onMouseEnter={() => playGermanText(audioText)}
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  playGermanText(audioText);
+                                }}
+                                className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
+                              >
+                                <Volume2 size={12} className="text-red-600" />
+                              </button>
+                            </div>
+                          );
+                        }
+                        return cell;
+                      })
+                    ) || []}
+                    themeColor="red"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 
-              {/* Politeness */}
+              {/* Politeness Table */}
               {section.content.politeness_table && (
                 <div className="bg-red-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-red-800 mb-4">🤝 Softening Commands (Politeness)</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-red-100">
-                        <tr>
-                          {section.content.politeness_table.headers?.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.politeness_table.rows?.map((row, i) => (
-                          <tr key={i} className="border-t border-red-100">
-                            {row?.map((cell, j) => {
-                              const audioText = extractGermanText(cell);
-                              const isGermanExample = j === 2 && audioText.includes('!');
-                              return (
-                                <td key={j} className="px-4 py-3 text-slate-700">
-                                  {isGermanExample ? (
-                                    <div className="flex items-center gap-2">
-                                      <span>{cell}</span>
-                                      <button
-                                        onMouseEnter={() => playGermanText(audioText)}
-                                        onClick={(e: React.MouseEvent) => {
-                                          e.stopPropagation();
-                                          playGermanText(audioText);
-                                        }}
-                                        className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
-                                      >
-                                        <Volume2 size={12} className="text-red-600" />
-                                      </button>
-                                    </div>
-                                  ) : (
-                                    cell
-                                  )}
-                                </td>
-                              );
-                            })}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.politeness_table.headers}
+                    rows={section.content.politeness_table.rows?.map((row) =>
+                      row?.map((cell, j) => {
+                        const audioText = extractGermanText(cell);
+                        const isGermanExample = j === 2 && audioText.includes('!');
+                        if (isGermanExample) {
+                          return (
+                            <div className="flex items-center gap-2">
+                              <span>{cell}</span>
+                              <button
+                                onMouseEnter={() => playGermanText(audioText)}
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  playGermanText(audioText);
+                                }}
+                                className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
+                              >
+                                <Volume2 size={12} className="text-red-600" />
+                              </button>
+                            </div>
+                          );
+                        }
+                        return cell;
+                      })
+                    ) || []}
+                    themeColor="red"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 
-              {/* Practical Examples */}
+              {/* Practical Examples Table */}
               {section.content.practical_examples_table && (
                 <div className="bg-red-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-red-800 mb-4">🌍 Practical Examples for Everyday Situations</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-red-100">
-                        <tr>
-                          {section.content.practical_examples_table.headers?.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.practical_examples_table.rows?.map((row, i) => (
-                          <tr key={i} className="border-t border-red-100">
-                            {row?.map((cell, j) => {
-                              const audioText = extractGermanText(cell);
-                              const isGermanSentence = j === 3 && audioText.includes('!');
-                              return (
-                                <td key={j} className="px-4 py-3 text-slate-700">
-                                  {isGermanSentence ? (
-                                    <div className="flex items-center gap-2">
-                                      <span>{cell}</span>
-                                      <button
-                                        onMouseEnter={() => playGermanText(audioText)}
-                                        onClick={(e: React.MouseEvent) => {
-                                          e.stopPropagation();
-                                          playGermanText(audioText);
-                                        }}
-                                        className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
-                                      >
-                                        <Volume2 size={12} className="text-red-600" />
-                                      </button>
-                                    </div>
-                                  ) : (
-                                    cell
-                                  )}
-                                </td>
-                              );
-                            })}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.practical_examples_table.headers}
+                    rows={section.content.practical_examples_table.rows?.map((row) =>
+                      row?.map((cell, j) => {
+                        const audioText = extractGermanText(cell);
+                        const isGermanSentence = j === 3 && audioText.includes('!');
+                        if (isGermanSentence) {
+                          return (
+                            <div className="flex items-center gap-2">
+                              <span>{cell}</span>
+                              <button
+                                onMouseEnter={() => playGermanText(audioText)}
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  playGermanText(audioText);
+                                }}
+                                className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
+                              >
+                                <Volume2 size={12} className="text-red-600" />
+                              </button>
+                            </div>
+                          );
+                        }
+                        return cell;
+                      })
+                    ) || []}
+                    themeColor="red"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 

@@ -107,26 +107,44 @@ export default function AtSupermarket() {
     return exerciseSection?.content.exercises || [];
   };
 
-  const playAudio = () => {
-    if (isPlaying) {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        setIsPlaying(false);
-      }
-    } else {
-      if (audioRef.current) {
-        audioRef.current.play();
-        setIsPlaying(true);
-      } else {
-        const audio = new Audio(`/audio/${topicData?.audio_file}`);
-        audioRef.current = audio;
-        audio.play();
-        setIsPlaying(true);
-        audio.onended = () => {
+  const playAudio = async () => {
+    try {
+      if (isPlaying) {
+        if (audioRef.current) {
+          audioRef.current.pause();
           setIsPlaying(false);
-          audioRef.current = null;
-        };
+        }
+      } else {
+        if (audioRef.current) {
+          await audioRef.current.play();
+          setIsPlaying(true);
+        } else {
+          if (!topicData?.audio_file) {
+            console.warn("No audio file specified for this topic");
+            return;
+          }
+
+          const audio = new Audio(`/audio/${topicData.audio_file}`);
+          
+          audio.onerror = (e) => {
+            console.error("Audio failed to load:", e);
+            setIsPlaying(false);
+            audioRef.current = null;
+          };
+
+          audioRef.current = audio;
+          await audio.play();
+          setIsPlaying(true);
+          
+          audio.onended = () => {
+            setIsPlaying(false);
+            audioRef.current = null;
+          };
+        }
       }
+    } catch (error) {
+      console.error("Audio playback error:", error);
+      setIsPlaying(false);
     }
   };
 

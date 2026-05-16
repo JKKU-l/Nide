@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface WHPositionTable {
   title: string;
@@ -172,50 +173,35 @@ export default function FragenMitFragewortLesson() {
               {section.content.wh_position_table && (
                 <div className="bg-purple-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-purple-800 mb-4">📊 W-Question Position Chart</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-purple-100">
-                        <tr>
-                          {section.content.wh_position_table.headers.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.wh_position_table.rows.map((row, i) => (
-                          <tr key={i} className="border-t border-purple-100">
-                            {row.map((cell, j) => {
-                              const isGermanQuestion = j === 0 && cell.includes('?');
-                              const isGermanVerb = j === 1 && cell.length > 0;
-                              return (
-                                <td key={j} className="px-4 py-3 text-slate-700">
-                                  {isGermanQuestion || isGermanVerb ? (
-                                    <div className="flex items-center gap-2">
-                                      <span className="font-bold text-purple-700">{cell}</span>
-                                      <button
-                                        onMouseEnter={() => playGermanText(cell)}
-                                        onClick={(e: React.MouseEvent) => {
-                                          e.stopPropagation();
-                                          playGermanText(cell);
-                                        }}
-                                        className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
-                                      >
-                                        <Volume2 size={12} className="text-purple-600" />
-                                      </button>
-                                    </div>
-                                  ) : (
-                                    cell
-                                  )}
-                                </td>
-                              );
-                            })}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.wh_position_table.headers}
+                    rows={section.content.wh_position_table.rows.map((row) =>
+                      row.map((cell, j) => {
+                        const isGermanQuestion = j === 0 && cell.includes('?');
+                        const isGermanVerb = j === 1 && cell.length > 0;
+                        if (isGermanQuestion || isGermanVerb) {
+                          return (
+                            <div className="flex items-center gap-2">
+                              <span className="font-bold text-purple-700">{cell}</span>
+                              <button
+                                onMouseEnter={() => playGermanText(cell)}
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  playGermanText(cell);
+                                }}
+                                className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                              >
+                                <Volume2 size={12} className="text-purple-600" />
+                              </button>
+                            </div>
+                          );
+                        }
+                        return cell;
+                      })
+                    )}
+                    themeColor="purple"
+                    mobileCardTitleIndex={0}
+                  />
                   {section.content.key_rule && (
                     <div className="mt-4 p-3 bg-purple-100 rounded-lg border border-purple-200">
                       <p className="text-sm font-medium text-purple-800">
@@ -238,51 +224,35 @@ export default function FragenMitFragewortLesson() {
 
                       {/* Table */}
                       {category.table && (
-                        <div className="overflow-x-auto">
-                          <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                            <thead className="bg-purple-100">
-                              <tr>
-                                {category.table.headers.map((header, i) => (
-                                  <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                                    {header}
-                                  </th>
-                                ))}
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {category.table.rows.map((row, i) => (
-                                <tr key={i} className="border-t border-purple-100">
-                                  {row.map((cell, j) => {
-                                    const header = category.table?.headers[j] ?? '';
-                                    const audioText = extractGermanText(cell);
-                                    const showAudio = shouldShowAudioForTableCell(header, cell);
-                                    return (
-                                      <td key={j} className="px-4 py-3 text-slate-700">
-                                        {showAudio ? (
-                                          <div className="flex items-center gap-2">
-                                            <span>{cell}</span>
-                                            <button
-                                              onMouseEnter={() => playGermanText(audioText)}
-                                              onClick={(e: React.MouseEvent) => {
-                                                e.stopPropagation();
-                                                playGermanText(audioText);
-                                              }}
-                                              className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
-                                            >
-                                              <Volume2 size={12} className="text-purple-600" />
-                                            </button>
-                                          </div>
-                                        ) : (
-                                          cell
-                                        )}
-                                      </td>
-                                    );
-                                  })}
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
+                        <ResponsiveTable
+                          headers={category.table.headers}
+                          rows={category.table.rows.map((row) =>
+                            row.map((cell, j) => {
+                              const header = category.table?.headers[j] ?? '';
+                              const audioText = extractGermanText(cell);
+                              const showAudio = shouldShowAudioForTableCell(header, cell);
+                              return showAudio ? (
+                                <div className="flex items-center gap-2">
+                                  <span>{cell}</span>
+                                  <button
+                                    onMouseEnter={() => playGermanText(audioText)}
+                                    onClick={(e: React.MouseEvent) => {
+                                      e.stopPropagation();
+                                      playGermanText(audioText);
+                                    }}
+                                    className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                                  >
+                                    <Volume2 size={12} className="text-purple-600" />
+                                  </button>
+                                </div>
+                              ) : (
+                                cell
+                              );
+                            })
+                          )}
+                          themeColor="purple"
+                          mobileCardTitleIndex={0}
+                        />
                       )}
 
                       {/* Examples */}
@@ -319,51 +289,13 @@ export default function FragenMitFragewortLesson() {
               {/* Summary Table */}
               {section.content.summary_table && (
                 <div className="bg-purple-50 rounded-xl p-6">
-                  <h3 className="text-lg font-bold text-purple-800 mb-4">📊 Summary Table for Students</h3>
-                  <p className="text-sm text-purple-700 mb-4">{section.description}</p>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-purple-100">
-                        <tr>
-                          {section.content.summary_table.headers.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.summary_table.rows.map((row, i) => (
-                          <tr key={i} className="border-t border-purple-100">
-                            {row.map((cell, j) => {
-                              const isGermanWord = j === 0 && cell.length > 0;
-                              return (
-                                <td key={j} className="px-4 py-3 text-slate-700">
-                                  {isGermanWord ? (
-                                    <div className="flex items-center gap-2">
-                                      <span className="font-bold text-purple-700">{cell}</span>
-                                      <button
-                                        onMouseEnter={() => playGermanText(cell)}
-                                        onClick={(e: React.MouseEvent) => {
-                                          e.stopPropagation();
-                                          playGermanText(cell);
-                                        }}
-                                        className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
-                                      >
-                                        <Volume2 size={12} className="text-purple-600" />
-                                      </button>
-                                    </div>
-                                  ) : (
-                                    cell
-                                  )}
-                                </td>
-                              );
-                            })}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <h3 className="text-lg font-bold text-purple-800 mb-4">📊 Summary Table for Quick Reference</h3>
+                  <ResponsiveTable
+                    headers={section.content.summary_table.headers}
+                    rows={section.content.summary_table.rows}
+                    themeColor="purple"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
             </div>

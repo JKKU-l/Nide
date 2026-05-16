@@ -12,10 +12,10 @@ export default function HeroSection() {
       <div className="grid grid-cols-1 md:grid-cols-8 gap-6 items-center h-full">
         {/* Left Content - Takes ~62% (golden ratio portion) */}
         <div className="md:col-span-5">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 mb-4 leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 mb-4 leading-tight">
             Learn German with Nide
           </h1>
-          <p className="text-slate-700 mb-6 leading-relaxed text-base md:text-lg">
+          <p className="text-sm md:text-base lg:text-lg text-slate-700 mb-6 leading-relaxed">
             Your journey to mastering German starts here. Interactive lessons, real-world practice, and personalized learning paths to help you speak with confidence.
           </p>
           <button 

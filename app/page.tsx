@@ -96,13 +96,13 @@ export default function Dashboard() {
 
             {/* Lessons Grid */}
             <div>
-              <h2 className="text-2xl font-bold text-slate-900 mb-6">
+              <h2 className="text-xl md:text-2xl font-bold text-slate-900 mb-6">
                 {searchQuery ? `Search Results for "${searchQuery}"` : 'Your Lessons'}
               </h2>
               {filteredLessons.length > 0 ? (
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {filteredLessons.map((lesson, index) => {
-                    const { icon, title, description, color, href } = lesson;
+                    const { icon, title, description, color, href, progress } = lesson;
                     return (
                       <LessonCard 
                         key={index}
@@ -111,13 +111,14 @@ export default function Dashboard() {
                         description={description} 
                         color={color}
                         href={href}
+                        progress={progress}
                       />
                     );
                   })}
                 </div>
               ) : (
                 <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
-                  <p className="text-slate-600 text-lg">No lessons found matching your search.</p>
+                  <p className="text-slate-600 text-base md:text-lg">No lessons found matching your search.</p>
                 </div>
               )}
             </div>
@@ -143,7 +144,7 @@ export default function Dashboard() {
                   <img
                     src="/images/app_features.jpg"
                     alt="HalloDeutsch App Features"
-                    className="relative w-full max-w-[14rem] md:max-w-[16rem] rounded-3xl shadow-2xl shadow-indigo-900/30 border border-white/10"
+                    className="relative w-full max-w-[10rem] sm:max-w-[14rem] md:max-w-[16rem] rounded-2xl md:rounded-3xl shadow-2xl shadow-indigo-900/30 border border-white/10"
                     style={{
                       animation: 'floatImage 6s ease-in-out infinite',
                     }}
@@ -155,7 +156,7 @@ export default function Dashboard() {
                   <img
                     src="/images/get_app.jpg"
                     alt="HalloDeutsch Mobile App Preview"
-                    className="relative w-full max-w-[14rem] md:max-w-[16rem] rounded-3xl shadow-2xl shadow-cyan-900/30 border border-white/10"
+                    className="relative w-full max-w-[10rem] sm:max-w-[14rem] md:max-w-[16rem] rounded-2xl md:rounded-3xl shadow-2xl shadow-cyan-900/30 border border-white/10"
                     style={{
                       animation: 'floatImage 6s ease-in-out infinite',
                       animationDelay: '1s',
@@ -170,10 +171,10 @@ export default function Dashboard() {
               {/* Badge */}
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-400/20 mb-4">
                 <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-                <span className="text-xs font-semibold text-cyan-300 uppercase tracking-wider">Beta Program Open</span>
+                <span className="text-[10px] md:text-xs font-semibold text-cyan-300 uppercase tracking-wider">Beta Program Open</span>
               </div>
 
-              <h2 className="text-2xl md:text-3xl font-black text-white leading-tight mb-3">
+              <h2 className="text-xl md:text-3xl font-black text-white leading-tight mb-3">
                 Master German on the Go –{' '}
                 <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
                   Get Early Access!

@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface TableData {
   headers: string[];
@@ -180,48 +181,35 @@ export default function VerbenMitVokalwechselLesson() {
 
               {/* Table Content */}
               {section.content.table && (
-                <div className="overflow-x-auto mb-6">
-                  <table className="w-full bg-white/50 rounded-xl overflow-hidden">
-                    <thead className="bg-purple-100">
-                      <tr>
-                        {section.content.table.headers.map((header, i) => (
-                          <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                            {header}
-                          </th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {section.content.table.rows.map((row, i) => (
-                        <tr key={i} className="border-t border-white/30">
-                          {row.map((cell, j) => {
-                            const isGermanVerb = j >= 1 && cell.length > 0;
-                            return (
-                              <td key={j} className="px-4 py-3 text-slate-700">
-                                {isGermanVerb ? (
-                                  <div className="flex items-center gap-2">
-                                    <span className="font-bold text-purple-700">{cell}</span>
-                                    <button
-                                      onMouseEnter={() => playGermanText(cell)}
-                                      onClick={(e: React.MouseEvent) => {
-                                        e.stopPropagation();
-                                        playGermanText(cell);
-                                      }}
-                                      className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
-                                    >
-                                      <Volume2 size={12} className="text-purple-600" />
-                                    </button>
-                                  </div>
-                                ) : (
-                                  cell
-                                )}
-                              </td>
-                            );
-                          })}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                <div className="mb-6">
+                  <ResponsiveTable
+                    headers={section.content.table.headers}
+                    rows={section.content.table.rows.map((row) =>
+                      row.map((cell, j) => {
+                        const isGermanVerb = j >= 1 && cell.length > 0;
+                        if (isGermanVerb) {
+                          return (
+                            <div className="flex items-center gap-2">
+                              <span className="font-bold text-purple-700">{cell}</span>
+                              <button
+                                onMouseEnter={() => playGermanText(cell)}
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  playGermanText(cell);
+                                }}
+                                className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                              >
+                                <Volume2 size={12} className="text-purple-600" />
+                              </button>
+                            </div>
+                          );
+                        }
+                        return cell;
+                      })
+                    )}
+                    themeColor="purple"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 

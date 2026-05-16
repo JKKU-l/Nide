@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface RuleData {
   rule: string;
@@ -198,30 +199,12 @@ export default function ArtikelLesson() {
               {section.content.examples_table && (
                 <div className="bg-orange-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-orange-800 mb-4">📋 Examples</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-orange-100">
-                        <tr>
-                          {section.content.examples_table.headers.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.examples_table.rows.map((row, i) => (
-                          <tr key={i} className="border-t border-orange-100">
-                            {row.map((cell, j) => (
-                              <td key={j} className="px-4 py-3 text-slate-700">
-                                {cell}
-                              </td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.examples_table.headers}
+                    rows={section.content.examples_table.rows}
+                    themeColor="orange"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 

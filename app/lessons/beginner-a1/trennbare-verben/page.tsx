@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface StructureData {
   parts?: string[];
@@ -26,28 +27,23 @@ interface PrefixData {
   example: string;
 }
 
-interface DetailedExample {
-  verb: string;
-  german_sentence: string;
-  english_translation: string;
-  logic_explanation: string;
-}
-
 interface SectionContent {
   description?: string;
   structure?: StructureData;
-  example?: ExampleData;
+  example?: ExampleData & {
+    combination?: string;
+    sentence?: string;
+    translation?: string;
+  };
   prefixes?: PrefixData[];
   rule?: {
     modal: string;
     separable: string;
   };
-  example?: {
-    combination: string;
-    sentence: string;
-    translation: string;
-  };
-  examples?: string[];
+  examples?: (string | {
+    verb: string[];
+    explanation: string;
+  })[];
   examples_table?: {
     headers: string[];
     rows: string[][];
@@ -56,10 +52,7 @@ interface SectionContent {
     headers: string[];
     rows: string[][];
   };
-  examples?: {
-    verb: string[];
-    explanation: string;
-  };
+  explanation?: string;
 }
 
 interface Section {
@@ -231,30 +224,12 @@ export default function TrennbareVerbenLesson() {
                     </p>
                   )}
                   {section.content.example.table && (
-                    <div className="overflow-x-auto">
-                      <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                        <thead className="bg-indigo-100">
-                          <tr>
-                            {section.content.example.table.headers.map((header, i) => (
-                              <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                                {header}
-                              </th>
-                            ))}
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {section.content.example.table.rows.map((row, i) => (
-                            <tr key={i} className="border-t border-indigo-100">
-                              {row.map((cell, j) => (
-                                <td key={j} className="px-4 py-3 text-slate-700">
-                                  {cell}
-                                </td>
-                              ))}
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
+                    <ResponsiveTable
+                      headers={section.content.example.table.headers}
+                      rows={section.content.example.table.rows}
+                      themeColor="blue"
+                      mobileCardTitleIndex={0}
+                    />
                   )}
                   {section.content.example.translation && (
                     <p className="text-sm text-slate-600 mt-2">
@@ -293,7 +268,7 @@ export default function TrennbareVerbenLesson() {
                       <span className="text-slate-700">{section.content.rule.separable}</span>
                     </div>
                   </div>
-                  {section.content.example && (
+                  {section.content.example && section.content.example.sentence && (
                     <div className="mt-4 p-3 bg-white/70 rounded-lg border border-indigo-200">
                       <p className="text-sm text-slate-700 mb-2">
                         <strong>Example:</strong> {section.content.example.combination}
@@ -301,10 +276,10 @@ export default function TrennbareVerbenLesson() {
                       <div className="flex items-center gap-2 mb-1">
                         <p className="font-medium text-slate-900">{section.content.example.sentence}</p>
                         <button
-                          onMouseEnter={() => playGermanText(section.content.example.sentence)}
+                          onMouseEnter={() => playGermanText(section.content.example?.sentence || '')}
                           onClick={(e: React.MouseEvent) => {
                             e.stopPropagation();
-                            playGermanText(section.content.example.sentence);
+                            playGermanText(section.content.example?.sentence || '');
                           }}
                           className="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center hover:bg-indigo-200 transition"
                         >
@@ -336,46 +311,33 @@ export default function TrennbareVerbenLesson() {
               {section.content.examples_table && (
                 <div className="bg-indigo-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-indigo-800 mb-4">📋 Detailed Examples</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-indigo-100">
-                        <tr>
-                          {section.content.examples_table.headers.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.examples_table.rows.map((row, i) => (
-                          <tr key={i} className="border-t border-indigo-100">
-                            {row.map((cell, j) => (
-                              <td key={j} className="px-4 py-3 text-slate-700">
-                                {j === 1 ? (
-                                  <div className="flex items-center gap-2">
-                                    <span>{cell}</span>
-                                    <button
-                                      onMouseEnter={() => playGermanText(cell)}
-                                      onClick={(e: React.MouseEvent) => {
-                                        e.stopPropagation();
-                                        playGermanText(cell);
-                                      }}
-                                      className="w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center hover:bg-indigo-200 transition"
-                                    >
-                                      <Volume2 size={12} className="text-indigo-600" />
-                                    </button>
-                                  </div>
-                                ) : (
-                                  cell
-                                )}
-                              </td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.examples_table.headers}
+                    rows={section.content.examples_table.rows.map((row) =>
+                      row.map((cell, j) => {
+                        if (j === 1) {
+                          return (
+                            <div className="flex items-center gap-2">
+                              <span>{cell}</span>
+                              <button
+                                onMouseEnter={() => playGermanText(cell)}
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  playGermanText(cell);
+                                }}
+                                className="w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center hover:bg-indigo-200 transition"
+                              >
+                                <Volume2 size={12} className="text-indigo-600" />
+                              </button>
+                            </div>
+                          );
+                        }
+                        return cell;
+                      })
+                    )}
+                    themeColor="blue"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 
@@ -383,30 +345,12 @@ export default function TrennbareVerbenLesson() {
               {section.content.summary_table && (
                 <div className="bg-indigo-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-indigo-800 mb-4">📊 Summary Table</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-indigo-100">
-                        <tr>
-                          {section.content.summary_table.headers.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.summary_table.rows.map((row, i) => (
-                          <tr key={i} className="border-t border-indigo-100">
-                            {row.map((cell, j) => (
-                              <td key={j} className="px-4 py-3 text-slate-700">
-                                {cell}
-                              </td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.summary_table.headers}
+                    rows={section.content.summary_table.rows}
+                    themeColor="blue"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 

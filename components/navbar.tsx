@@ -55,9 +55,9 @@ export default function Navbar({ searchValue: propSearchValue, onSearchChange }:
     <nav className="sticky top-0 z-50 backdrop-blur-xl bg-white/30 border-b border-white/20 shadow-lg" onMouseLeave={() => setShowResults(false)}>
       <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2 text-3xl font-black text-slate-900 tracking-tight cursor-pointer" onClick={() => window.location.href = '/'}>
+        <div className="flex items-center gap-2 text-2xl md:text-3xl font-black text-slate-900 tracking-tight cursor-pointer" onClick={() => window.location.href = '/'}>
           Nide
-          <Image src="/cartoons/uovo_sorridente.svg" alt="Nide mascot" width={36} height={36} />
+          <Image src="/cartoons/uovo_sorridente.svg" alt="Nide mascot" width={32} height={32} className="md:w-[36px] md:h-[36px]" />
         </div>
 
         {/* Desktop Navigation Links */}

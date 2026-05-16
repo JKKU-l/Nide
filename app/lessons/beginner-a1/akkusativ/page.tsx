@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface BreakdownData {
   part: string;
@@ -231,26 +232,16 @@ export default function AkkusativLesson() {
                 <div className="bg-purple-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-purple-800 mb-4">{section.content.golden_rule.title}</h3>
                   <p className="text-slate-700 mb-4">{section.content.golden_rule.description}</p>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-purple-100">
-                        <tr>
-                          <th className="px-4 py-3 text-left font-bold text-slate-700">Gender</th>
-                          <th className="px-4 py-3 text-left font-bold text-slate-700">Nominative</th>
-                          <th className="px-4 py-3 text-left font-bold text-slate-700">Accusative</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.golden_rule.changes.map((change, i) => (
-                          <tr key={i} className="border-t border-purple-100">
-                            <td className="px-4 py-3 text-slate-700">{change.gender}</td>
-                            <td className="px-4 py-3 text-slate-700">{change.nominative}</td>
-                            <td className="px-4 py-3 text-slate-700">{change.accusative}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={['Gender', 'Nominative', 'Accusative']}
+                    rows={section.content.golden_rule.changes.map((change) => [
+                      change.gender,
+                      change.nominative,
+                      change.accusative
+                    ])}
+                    themeColor="purple"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 

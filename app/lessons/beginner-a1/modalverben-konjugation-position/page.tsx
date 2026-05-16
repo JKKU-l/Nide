@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface TableData {
   headers: string[];
@@ -163,48 +164,35 @@ export default function ModalverbenKonjugationPositionLesson() {
 
               {/* Modal Verbs Table */}
               {section.content.modal_verbs_table && (
-                <div className="overflow-x-auto mb-6">
-                  <table className="w-full bg-white/50 rounded-xl overflow-hidden">
-                    <thead className="bg-yellow-100">
-                      <tr>
-                        {section.content.modal_verbs_table.headers.map((header, i) => (
-                          <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                            {header}
-                          </th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {section.content.modal_verbs_table.rows.map((row, i) => (
-                        <tr key={i} className="border-t border-white/30">
-                          {row.map((cell, j) => {
-                            const isGermanVerb = j === 0 && cell.length > 0;
-                            return (
-                              <td key={j} className="px-4 py-3 text-slate-700">
-                                {isGermanVerb ? (
-                                  <div className="flex items-center gap-2">
-                                    <span className="font-bold text-yellow-700">{cell}</span>
-                                    <button
-                                      onMouseEnter={() => playGermanText(cell)}
-                                      onClick={(e: React.MouseEvent) => {
-                                        e.stopPropagation();
-                                        playGermanText(cell);
-                                      }}
-                                      className="w-6 h-6 rounded-full bg-yellow-100 flex items-center justify-center hover:bg-yellow-200 transition"
-                                    >
-                                      <Volume2 size={12} className="text-yellow-600" />
-                                    </button>
-                                  </div>
-                                ) : (
-                                  cell
-                                )}
-                              </td>
-                            );
-                          })}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                <div className="mb-6">
+                  <ResponsiveTable
+                    headers={section.content.modal_verbs_table.headers}
+                    rows={section.content.modal_verbs_table.rows.map((row) =>
+                      row.map((cell, j) => {
+                        const isGermanVerb = j === 0 && cell.length > 0;
+                        if (isGermanVerb) {
+                          return (
+                            <div className="flex items-center gap-2">
+                              <span className="font-bold text-yellow-700">{cell}</span>
+                              <button
+                                onMouseEnter={() => playGermanText(cell)}
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  playGermanText(cell);
+                                }}
+                                className="w-6 h-6 rounded-full bg-yellow-100 flex items-center justify-center hover:bg-yellow-200 transition"
+                              >
+                                <Volume2 size={12} className="text-yellow-600" />
+                              </button>
+                            </div>
+                          );
+                        }
+                        return cell;
+                      })
+                    )}
+                    themeColor="orange"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 
@@ -225,48 +213,35 @@ export default function ModalverbenKonjugationPositionLesson() {
 
               {/* Conjugation Table */}
               {section.content.conjugation_table && (
-                <div className="overflow-x-auto mb-6">
-                  <table className="w-full bg-white/50 rounded-xl overflow-hidden">
-                    <thead className="bg-yellow-100">
-                      <tr>
-                        {section.content.conjugation_table.headers.map((header, i) => (
-                          <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                            {header}
-                          </th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {section.content.conjugation_table.rows.map((row, i) => (
-                        <tr key={i} className="border-t border-white/30">
-                          {row.map((cell, j) => {
-                            const isGermanVerb = j >= 1 && cell.length > 0;
-                            return (
-                              <td key={j} className="px-4 py-3 text-slate-700">
-                                {isGermanVerb ? (
-                                  <div className="flex items-center gap-2">
-                                    <span className="font-bold text-yellow-700">{cell}</span>
-                                    <button
-                                      onMouseEnter={() => playGermanText(cell)}
-                                      onClick={(e: React.MouseEvent) => {
-                                        e.stopPropagation();
-                                        playGermanText(cell);
-                                      }}
-                                      className="w-6 h-6 rounded-full bg-yellow-100 flex items-center justify-center hover:bg-yellow-200 transition"
-                                    >
-                                      <Volume2 size={12} className="text-yellow-600" />
-                                    </button>
-                                  </div>
-                                ) : (
-                                  cell
-                                )}
-                              </td>
-                            );
-                          })}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                <div className="mb-6">
+                  <ResponsiveTable
+                    headers={section.content.conjugation_table.headers}
+                    rows={section.content.conjugation_table.rows.map((row) =>
+                      row.map((cell, j) => {
+                        const isGermanVerb = j >= 1 && cell.length > 0;
+                        if (isGermanVerb) {
+                          return (
+                            <div className="flex items-center gap-2">
+                              <span className="font-bold text-yellow-700">{cell}</span>
+                              <button
+                                onMouseEnter={() => playGermanText(cell)}
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  playGermanText(cell);
+                                }}
+                                className="w-6 h-6 rounded-full bg-yellow-100 flex items-center justify-center hover:bg-yellow-200 transition"
+                              >
+                                <Volume2 size={12} className="text-yellow-600" />
+                              </button>
+                            </div>
+                          );
+                        }
+                        return cell;
+                      })
+                    )}
+                    themeColor="orange"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 

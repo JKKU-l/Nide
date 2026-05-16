@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface CategoryData {
   category: string;
@@ -169,30 +170,12 @@ export default function JaNeinFragenLesson() {
 
                       {/* Table */}
                       {category.table && (
-                        <div className="overflow-x-auto">
-                          <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                            <thead className="bg-teal-100">
-                              <tr>
-                                {category.table.headers.map((header, i) => (
-                                  <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                                    {header}
-                                  </th>
-                                ))}
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {category.table.rows.map((row, i) => (
-                                <tr key={i} className="border-t border-teal-100">
-                                  {row.map((cell, j) => (
-                                    <td key={j} className="px-4 py-3 text-slate-700">
-                                      {cell}
-                                    </td>
-                                  ))}
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
+                        <ResponsiveTable
+                          headers={category.table.headers}
+                          rows={category.table.rows}
+                          themeColor="emerald"
+                          mobileCardTitleIndex={0}
+                        />
                       )}
 
                       {/* Examples */}
@@ -240,30 +223,12 @@ export default function JaNeinFragenLesson() {
               {section.content.summary_table && (
                 <div className="bg-teal-50 rounded-xl p-6">
                   <h3 className="text-lg font-bold text-teal-800 mb-4">📊 Summary Table for Quick Learning</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-teal-100">
-                        <tr>
-                          {section.content.summary_table.headers.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.summary_table.rows.map((row, i) => (
-                          <tr key={i} className="border-t border-teal-100">
-                            {row.map((cell, j) => (
-                              <td key={j} className="px-4 py-3 text-slate-700">
-                                {cell}
-                              </td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.summary_table.headers}
+                    rows={section.content.summary_table.rows}
+                    themeColor="emerald"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
             </div>

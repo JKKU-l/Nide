@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface ExampleData {
   singular: string;
@@ -315,30 +316,12 @@ export default function NomenPluralLesson() {
                 <div className="bg-indigo-50 rounded-xl p-6">
                   <h3 className="text-lg font-bold text-indigo-800 mb-4">📊 Summary Table for Quick Reference</h3>
                   <p className="text-sm text-indigo-700 mb-4">{section.description}</p>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-indigo-100">
-                        <tr>
-                          {section.content.summary_table.headers.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.summary_table.rows.map((row, i) => (
-                          <tr key={i} className="border-t border-indigo-100">
-                            {row.map((cell, j) => (
-                              <td key={j} className="px-4 py-3 text-slate-700">
-                                {cell}
-                              </td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.summary_table.headers}
+                    rows={section.content.summary_table.rows}
+                    themeColor="purple"
+                    mobileCardTitleIndex={0}
+                  />
                   {section.content.pro_tip && (
                     <div className="mt-4 p-3 bg-indigo-100 rounded-lg">
                       <p className="text-sm text-indigo-800">💡 {section.content.pro_tip}</p>

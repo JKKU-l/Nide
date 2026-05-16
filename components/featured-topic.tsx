@@ -113,22 +113,22 @@ export default function FeaturedTopic() {
 
           {/* Topic Info */}
           <div className="flex flex-col justify-center min-w-0">
-            <p className="text-xs font-semibold uppercase tracking-wider mb-1"
+            <p className="text-[10px] md:text-xs font-semibold uppercase tracking-wider mb-1"
               style={{ color: topic?.theme_color ?? '#3B82F6' }}
             >
               {topic ? MONTH_NAMES[topic.month] : ''}
             </p>
-            <h3 className="text-lg font-bold text-slate-900 mb-0.5 leading-tight">
+            <h3 className="text-base md:text-lg font-bold text-slate-900 mb-0.5 leading-tight">
               Topic of the Month:
             </h3>
-            <p className="text-base font-bold text-slate-900 mb-0.5 truncate">
+            <p className="text-sm md:text-base font-bold text-slate-900 mb-0.5 truncate">
               {topic ? topic.title_en : 'Loading...'}
             </p>
-            <p className="text-sm text-slate-500 italic mb-1 truncate">
+            <p className="text-xs md:text-sm text-slate-500 italic mb-1 truncate">
               {topic ? topic.title_de : ''}
             </p>
             {topic?.description && (
-              <p className="text-sm text-slate-600 mb-3 line-clamp-2">
+              <p className="text-xs md:text-sm text-slate-600 mb-3 line-clamp-2">
                 {topic.description}
               </p>
             )}
@@ -165,8 +165,8 @@ export default function FeaturedTopic() {
       <div className="backdrop-blur-xl bg-gradient-to-br from-orange-50/50 to-amber-50/50 border border-white/30 rounded-3xl p-5 shadow-xl">
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-xs text-slate-500 mb-1">Learning Streak</p>
-            <p className="text-2xl font-black text-orange-600">🔥 7 Days</p>
+            <p className="text-[10px] md:text-xs text-slate-500 mb-1">Learning Streak</p>
+            <p className="text-xl md:text-2xl font-black text-orange-600">🔥 7 Days</p>
           </div>
           <div className="flex gap-1">
             {['M', 'T', 'W', 'T', 'F', 'S', 'S'].map((day, i) => (

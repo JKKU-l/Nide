@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface UsageTable {
   headers: string[];
@@ -222,29 +223,13 @@ export default function ModalverbenGebrauchLesson() {
 
               {/* Usage Table */}
               {section.content.usage_table && (
-                <div className="overflow-x-auto mb-6">
-                  <table className="w-full bg-white/50 rounded-xl overflow-hidden">
-                    <thead className="bg-green-100">
-                      <tr>
-                        {section.content.usage_table.headers.map((header, i) => (
-                          <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                            {header}
-                          </th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {section.content.usage_table.rows.map((row, i) => (
-                        <tr key={i} className="border-t border-white/30">
-                          {row.map((cell, j) => (
-                            <td key={j} className="px-4 py-3 text-slate-700">
-                              {cell}
-                            </td>
-                          ))}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                <div className="mb-6">
+                  <ResponsiveTable
+                    headers={section.content.usage_table.headers}
+                    rows={section.content.usage_table.rows}
+                    themeColor="green"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 

@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface OwnerData {
   pronoun: string;
@@ -205,26 +206,16 @@ export default function PossessivartikelLesson() {
               {section.content.owners && (
                 <div className="bg-indigo-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-indigo-800 mb-4">👤 Owner Root Words</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-indigo-100">
-                        <tr>
-                          <th className="px-4 py-3 text-left font-bold text-slate-700">Person</th>
-                          <th className="px-4 py-3 text-left font-bold text-slate-700">Root</th>
-                          <th className="px-4 py-3 text-left font-bold text-slate-700">English</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.owners.map((owner, i) => (
-                          <tr key={i} className="border-t border-indigo-100">
-                            <td className="px-4 py-3 text-slate-700">{owner.pronoun}</td>
-                            <td className="px-4 py-3 font-bold text-indigo-700">{owner.root}</td>
-                            <td className="px-4 py-3 text-slate-600">{owner.english}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={['Person', 'Root', 'English']}
+                    rows={section.content.owners.map((owner) => [
+                      owner.pronoun,
+                      <span className="font-bold text-indigo-700">{owner.root}</span>,
+                      owner.english
+                    ])}
+                    themeColor="purple"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 
