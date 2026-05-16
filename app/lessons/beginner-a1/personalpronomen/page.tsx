@@ -266,10 +266,15 @@ export default function PersonalPronounsLesson() {
                   </h3>
                   <div className="space-y-3">
                     {section.content.conversational_context.examples.map((ex, i) => (
-                      <div key={i} className="flex flex-nowrap items-center justify-between bg-white rounded-lg p-3 gap-3">
-                        <div className="flex items-center gap-2 sm:gap-3 flex-1 min-w-0">
-                          <p className="font-medium text-slate-900 text-sm sm:text-base truncate sm:whitespace-normal">
+                      <div key={i} className="flex items-center justify-between bg-white rounded-lg p-3 gap-4">
+                        <div className="flex-1 min-w-0">
+                          <p className="font-medium text-slate-900 text-sm sm:text-base break-words">
                             {ex.german}
+                          </p>
+                        </div>
+                        <div className="flex-shrink-0 flex items-center gap-2">
+                          <p className="text-xs sm:text-sm text-slate-600 text-right italic">
+                            {ex.english}
                           </p>
                           <button
                             onMouseEnter={() => playGermanText(ex.german || '')}
@@ -277,14 +282,11 @@ export default function PersonalPronounsLesson() {
                               e.stopPropagation();
                               playGermanText(ex.german || '');
                             }}
-                            className="flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition"
+                            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition"
                           >
                             <Volume2 size={14} className="text-blue-600 sm:size-[16px]" />
                           </button>
                         </div>
-                        <p className="text-xs sm:text-sm text-slate-600 text-right flex-shrink-0">
-                          {ex.english}
-                        </p>
                       </div>
                     ))}
                   </div>
@@ -293,29 +295,31 @@ export default function PersonalPronounsLesson() {
 
               {/* Replacing Names */}
               {section.content.replacing_names_objects && (
-                <div className="bg-white/50 rounded-xl p-6">
+                <div className="bg-white/50 rounded-xl p-4 sm:p-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-4">
                     {section.content.replacing_names_objects.title}
                   </h3>
                   <div className="space-y-3">
                     {section.content.replacing_names_objects.examples.map((ex, i) => (
-                      <div key={i} className="bg-white rounded-lg p-4">
-                        <div className="flex items-center gap-2 mb-2">
-                          <span className="text-slate-400 line-through">{ex.original}</span>
-                          <span className="text-slate-400">→</span>
-                          <span className="font-bold text-blue-600">{ex.replacement}</span>
+                      <div key={i} className="bg-white rounded-lg p-3 sm:p-4">
+                        <div className="flex items-center justify-between gap-4 mb-2">
+                          <div className="flex-1 min-w-0 flex flex-wrap items-center gap-2">
+                            <span className="text-slate-400 line-through text-sm sm:text-base">{ex.original}</span>
+                            <span className="text-slate-400">→</span>
+                            <span className="font-bold text-blue-600 text-sm sm:text-base break-words">{ex.replacement}</span>
+                          </div>
                           <button
                             onMouseEnter={() => playGermanText(ex.replacement || '')}
                             onClick={(e: React.MouseEvent) => {
                               e.stopPropagation();
                               playGermanText(ex.replacement || '');
                             }}
-                            className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition ml-auto"
+                            className="flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition"
                           >
-                            <Volume2 size={16} className="text-blue-600" />
+                            <Volume2 size={14} className="text-blue-600 sm:size-[16px]" />
                           </button>
                         </div>
-                        <p className="text-sm text-slate-600">{ex.english}</p>
+                        <p className="text-xs sm:text-sm text-slate-600 italic border-t border-slate-50 pt-2">{ex.english}</p>
                       </div>
                     ))}
                   </div>
