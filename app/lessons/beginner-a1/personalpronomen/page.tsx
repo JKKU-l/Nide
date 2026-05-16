@@ -106,24 +106,25 @@ export default function PersonalPronounsLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-8 gap-4">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
           >
             <ArrowLeft size={20} />
-            <span>Back to Beginner A1</span>
+            <span className="hidden sm:inline">Back to Beginner A1</span>
+            <span className="sm:hidden">Back</span>
           </button>
 
           {/* Language Selector */}
           <div className="relative">
             <button
               onClick={() => setShowLangDropdown(!showLangDropdown)}
-              className="flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
+              className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
             >
-              <Globe size={18} />
-              <span className="mr-1">{selectedLanguage?.flag}</span>
-              <span>{selectedLanguage?.name}</span>
+              <Globe size={18} className="flex-shrink-0" />
+              <span className="flex-shrink-0">{selectedLanguage?.flag}</span>
+              <span className="hidden sm:inline truncate max-w-[100px]">{selectedLanguage?.name}</span>
             </button>
 
             {showLangDropdown && (
@@ -149,15 +150,15 @@ export default function PersonalPronounsLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 px-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 rounded-full mb-4">
-            <span className="text-2xl">👤</span>
-            <span className="text-sm font-medium text-blue-700">Topic 1 of 20</span>
+            <span className="text-xl sm:text-2xl">👤</span>
+            <span className="text-xs sm:text-sm font-medium text-blue-700">Topic 1 of 20</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 mb-3 break-words">
             {lessonData?.title}
           </h1>
-          <p className="text-slate-600 text-lg">
+          <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
             {lessonData?.subtitle}
           </p>
         </div>
@@ -167,12 +168,12 @@ export default function PersonalPronounsLesson() {
           {lessonData?.sections?.map((section) => (
             <div
               key={section.id}
-              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl"
+              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 shadow-xl"
             >
-              <h2 className="text-2xl font-bold text-slate-900 mb-2">
+              <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
                 {section.title}
               </h2>
-              <p className="text-slate-600 mb-6">{section.description}</p>
+              <p className="text-sm sm:text-base text-slate-600 mb-6">{section.description}</p>
 
               {/* Table Content */}
               {section.content.table && (
@@ -259,27 +260,31 @@ export default function PersonalPronounsLesson() {
 
               {/* Conversational Examples */}
               {section.content.conversational_context && (
-                <div className="bg-white/50 rounded-xl p-6">
+                <div className="bg-white/50 rounded-xl p-4 sm:p-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-4">
                     {section.content.conversational_context.title}
                   </h3>
                   <div className="space-y-3">
                     {section.content.conversational_context.examples.map((ex, i) => (
-                      <div key={i} className="flex items-center justify-between bg-white rounded-lg p-3">
-                        <div className="flex items-center gap-3">
-                          <p className="font-medium text-slate-900">{ex.german}</p>
+                      <div key={i} className="flex flex-nowrap items-center justify-between bg-white rounded-lg p-3 gap-3">
+                        <div className="flex items-center gap-2 sm:gap-3 flex-1 min-w-0">
+                          <p className="font-medium text-slate-900 text-sm sm:text-base truncate sm:whitespace-normal">
+                            {ex.german}
+                          </p>
                           <button
                             onMouseEnter={() => playGermanText(ex.german || '')}
                             onClick={(e: React.MouseEvent) => {
                               e.stopPropagation();
                               playGermanText(ex.german || '');
                             }}
-                            className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition"
+                            className="flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition"
                           >
-                            <Volume2 size={16} className="text-blue-600" />
+                            <Volume2 size={14} className="text-blue-600 sm:size-[16px]" />
                           </button>
                         </div>
-                        <p className="text-sm text-slate-600">{ex.english}</p>
+                        <p className="text-xs sm:text-sm text-slate-600 text-right flex-shrink-0">
+                          {ex.english}
+                        </p>
                       </div>
                     ))}
                   </div>
