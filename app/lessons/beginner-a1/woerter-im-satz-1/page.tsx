@@ -113,25 +113,24 @@ export default function WoerterImSatz1Lesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8 gap-4">
+        <div className="flex items-center justify-between mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
           >
             <ArrowLeft size={20} />
-            <span className="hidden sm:inline">Back to Beginner A1</span>
-            <span className="sm:hidden">Back</span>
+            <span>Back to Beginner A1</span>
           </button>
 
           {/* Language Selector */}
           <div className="relative">
             <button
               onClick={() => setShowLangDropdown(!showLangDropdown)}
-              className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
+              className="flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
             >
-              <Globe size={18} className="flex-shrink-0" />
-              <span className="flex-shrink-0">{selectedLanguage?.flag}</span>
-              <span className="hidden sm:inline truncate max-w-[100px]">{selectedLanguage?.name}</span>
+              <Globe size={18} />
+              <span className="mr-1">{selectedLanguage?.flag}</span>
+              <span>{selectedLanguage?.name}</span>
             </button>
 
             {showLangDropdown && (
