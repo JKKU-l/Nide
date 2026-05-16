@@ -349,19 +349,19 @@ export default function CultureGermanFestivalsPage() {
                       <ResponsiveTable
                         headers={['German', 'Article', selectedLangInfo.label, 'Example']}
                         rows={section.vocabulary.map((word) => [
-                          <div className="flex items-center gap-2" key="de">
-                            <span className="font-bold text-slate-900">{word.de}</span>
+                          <div className="flex items-center justify-between w-full gap-4" key="de">
+                            <span className="font-bold text-slate-900 leading-tight flex-1">{word.de}</span>
                             <button
                               onClick={() => playGermanText(word.de)}
-                              className="p-1 rounded-md hover:bg-orange-50 transition opacity-40 hover:opacity-100"
+                              className="p-1.5 rounded-lg bg-orange-50/50 hover:bg-orange-100 transition flex-shrink-0"
                               title="Listen to word"
                             >
-                              <Volume2 size={13} className="text-orange-500" />
+                              <Volume2 size={14} className="text-orange-500" />
                             </button>
                           </div>,
                           <div key="article">
                             {word.article && (
-                              <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded inline-block"
+                              <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded inline-block uppercase tracking-wider"
                                 style={{
                                   backgroundColor:
                                     word.article === 'der' ? '#3B82F620' :
@@ -380,18 +380,21 @@ export default function CultureGermanFestivalsPage() {
                           <span key="translation" className="text-slate-700 font-medium">
                             {getTranslation(word, selectedLang)}
                           </span>,
-                          <div key="example" className="flex items-start gap-2 max-w-xs">
-                            <div className="flex-1">
-                              <div className="text-slate-500 italic text-xs">"{word.example_de}"</div>
-                              <div className="text-slate-400 text-[10px] mt-0.5">{word.example_en}</div>
+                          <div key="example" className="flex flex-col sm:flex-row sm:items-center justify-between w-full gap-2 sm:gap-4">
+                            <div className="flex flex-col items-start gap-0.5 flex-1 w-full">
+                              <p className="text-slate-600 italic text-xs leading-relaxed w-full">"{word.example_de}"</p>
+                              <p className="text-slate-400 text-[10px] leading-relaxed w-full">{word.example_en}</p>
                             </div>
-                            <button
-                              onClick={() => playGermanText(word.example_de)}
-                              className="p-1.5 rounded-lg hover:bg-orange-50 transition flex-shrink-0"
-                              title="Listen to example sentence"
-                            >
-                              <Volume2 size={14} className="text-orange-400" />
-                            </button>
+                            <div className="flex items-center justify-between w-full sm:w-auto mt-1 sm:mt-0 border-t sm:border-t-0 border-orange-100/50 pt-1 sm:pt-0">
+                              <span className="sm:hidden text-[10px] font-bold text-orange-500 uppercase tracking-wider">Listen</span>
+                              <button
+                                onClick={() => playGermanText(word.example_de)}
+                                className="p-1.5 rounded-lg bg-orange-50/50 hover:bg-orange-100 transition flex-shrink-0"
+                                title="Listen to example sentence"
+                              >
+                                <Volume2 size={14} className="text-orange-400" />
+                              </button>
+                            </div>
                           </div>
                         ])}
                         themeColor={topic.theme_color}

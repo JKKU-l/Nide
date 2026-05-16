@@ -229,18 +229,31 @@ export default function WoerterImSatz1Lesson() {
                   <div className="space-y-3">
                     {section.content.examples.map((example, i) => (
                       <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-amber-400">
-                        <div className="flex items-center gap-2 mb-1">
-                          <p className="text-sm sm:text-base font-medium text-slate-900">{example.question}</p>
-                          <button
-                            onMouseEnter={() => playGermanText(extractGermanText(example.question))}
-                            onClick={(e: React.MouseEvent) => {
-                              e.stopPropagation();
-                              playGermanText(extractGermanText(example.question));
-                            }}
-                            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition"
-                          >
-                            <Volume2 size={14} className="text-amber-600 sm:size-4" />
-                          </button>
+                        <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
+                          <div className="flex flex-col items-start gap-1 flex-1 w-full">
+                            <p className="text-sm sm:text-base font-medium text-slate-900 leading-tight w-full">
+                              {example.question}
+                            </p>
+                            {/* Assuming there might be a translation field, adding it for consistency */}
+                            {example.translation && (
+                              <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">
+                                {example.translation}
+                              </p>
+                            )}
+                          </div>
+                          <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-amber-100/50 pt-2 md:pt-0">
+                            <span className="md:hidden text-[10px] font-bold text-amber-600 uppercase tracking-wider">Listen to pronunciation</span>
+                            <button
+                              onMouseEnter={() => playGermanText(extractGermanText(example.question))}
+                              onClick={(e: React.MouseEvent) => {
+                                e.stopPropagation();
+                                playGermanText(extractGermanText(example.question));
+                              }}
+                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition flex-shrink-0 shadow-sm"
+                            >
+                              <Volume2 size={16} className="text-amber-600 sm:size-5" />
+                            </button>
+                          </div>
                         </div>
                       </div>
                     ))}
@@ -254,21 +267,30 @@ export default function WoerterImSatz1Lesson() {
                   <h3 className="text-base sm:text-lg font-bold text-amber-800 mb-4">🔍 Example Analysis</h3>
                   <div className="space-y-4">
                     <div className="bg-white/70 rounded-lg p-3 sm:p-4">
-                      <p className="text-xs sm:text-sm font-bold text-amber-700 mb-2 uppercase tracking-wider">Sentence:</p>
-                      <div className="flex items-center gap-2 mb-2">
-                        <p className="text-sm sm:text-base text-slate-900 font-medium">{section.content.example_analysis?.sentence}</p>
+                    <p className="text-xs sm:text-sm font-bold text-amber-700 mb-2 uppercase tracking-wider">Sentence:</p>
+                    <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4 mb-2">
+                      <div className="flex flex-col items-start gap-1 flex-1 w-full">
+                        <p className="text-sm sm:text-base text-slate-900 font-medium leading-tight w-full">
+                          {section.content.example_analysis?.sentence}
+                        </p>
+                        <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">
+                          {section.content.example_analysis?.translation}
+                        </p>
+                      </div>
+                      <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-amber-100/50 pt-2 md:pt-0">
+                        <span className="md:hidden text-[10px] font-bold text-amber-600 uppercase tracking-wider">Listen to pronunciation</span>
                         <button
                           onMouseEnter={() => playGermanText(extractGermanText(section.content.example_analysis?.sentence || ''))}
                           onClick={(e: React.MouseEvent) => {
                             e.stopPropagation();
                             playGermanText(extractGermanText(section.content.example_analysis?.sentence || ''));
                           }}
-                          className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition"
+                          className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition flex-shrink-0 shadow-sm"
                         >
-                          <Volume2 size={14} className="text-amber-600 sm:size-4" />
+                          <Volume2 size={16} className="text-amber-600 sm:size-5" />
                         </button>
                       </div>
-                      <p className="text-xs sm:text-sm text-slate-600 mb-3 italic">{section.content.example_analysis?.translation}</p>
+                    </div>
                       <div className="space-y-2 pt-2 border-t border-amber-100">
                         <p className="text-xs sm:text-sm font-bold text-amber-700">Breakdown:</p>
                         {section.content.example_analysis?.breakdown?.map((item, i) => (
@@ -290,18 +312,23 @@ export default function WoerterImSatz1Lesson() {
                   <div className="space-y-3">
                     {section.content.more_examples.map((example, i) => (
                       <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-amber-400">
-                        <div className="flex items-center gap-2">
-                          <p className="text-sm sm:text-base text-slate-900">{example}</p>
-                          <button
-                            onMouseEnter={() => playGermanText(extractGermanText(example))}
-                            onClick={(e: React.MouseEvent) => {
-                              e.stopPropagation();
-                              playGermanText(extractGermanText(example));
-                            }}
-                            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition"
-                          >
-                            <Volume2 size={14} className="text-amber-600 sm:size-4" />
-                          </button>
+                        <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
+                          <p className="text-sm sm:text-base text-slate-900 font-medium leading-tight flex-1 w-full">
+                            {example}
+                          </p>
+                          <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-amber-100/50 pt-2 md:pt-0">
+                            <span className="md:hidden text-[10px] font-bold text-amber-600 uppercase tracking-wider">Listen to pronunciation</span>
+                            <button
+                              onMouseEnter={() => playGermanText(extractGermanText(example))}
+                              onClick={(e: React.MouseEvent) => {
+                                e.stopPropagation();
+                                playGermanText(extractGermanText(example));
+                              }}
+                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition flex-shrink-0 shadow-sm"
+                            >
+                              <Volume2 size={16} className="text-amber-600 sm:size-5" />
+                            </button>
+                          </div>
                         </div>
                       </div>
                     ))}

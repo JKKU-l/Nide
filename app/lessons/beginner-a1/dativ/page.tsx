@@ -248,20 +248,29 @@ export default function DativLesson() {
                   <p className="text-slate-700 mb-4">{section.content.feminine.description}</p>
                   <div className="space-y-3">
                     {section.content.feminine.examples.map((example, i) => (
-                      <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-green-400">
-                        <p className="text-sm text-slate-600 mb-2">{example.english}</p>
-                        <div className="flex items-center gap-2">
-                          <p className="font-bold text-slate-900">{example.german}</p>
-                          <button
-                            onMouseEnter={() => playGermanText(extractGermanText(example.german))}
-                            onClick={(e: React.MouseEvent) => {
-                              e.stopPropagation();
-                              playGermanText(extractGermanText(example.german));
-                            }}
-                            className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition"
-                          >
-                            <Volume2 size={12} className="text-green-600" />
-                          </button>
+                      <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-green-400">
+                        <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
+                          <div className="flex flex-col items-start gap-1 flex-1 w-full">
+                            <p className="text-sm sm:text-base font-bold text-slate-900 leading-tight w-full">
+                              {example.german}
+                            </p>
+                            <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">
+                              {example.english}
+                            </p>
+                          </div>
+                          <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-green-100/50 pt-2 md:pt-0">
+                            <span className="md:hidden text-[10px] font-bold text-green-600 uppercase tracking-wider">Listen to pronunciation</span>
+                            <button
+                              onMouseEnter={() => playGermanText(extractGermanText(example.german))}
+                              onClick={(e: React.MouseEvent) => {
+                                e.stopPropagation();
+                                playGermanText(extractGermanText(example.german));
+                              }}
+                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition flex-shrink-0 shadow-sm"
+                            >
+                              <Volume2 size={16} className="text-green-600 sm:size-5" />
+                            </button>
+                          </div>
                         </div>
                       </div>
                     ))}
@@ -271,32 +280,43 @@ export default function DativLesson() {
 
               {/* Plural */}
               {section.content.plural && (
-                <div className="bg-green-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-green-800 mb-4">{section.content.plural.title}</h3>
-                  <p className="text-slate-700 mb-4">{section.content.plural.description}</p>
-                  <div className="bg-green-100 rounded-lg p-4 mb-4">
+                <div className="bg-green-50 rounded-xl p-4 sm:p-6 mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-green-800 mb-4">{section.content.plural.title}</h3>
+                  <p className="text-sm sm:text-base text-slate-700 mb-4">{section.content.plural.description}</p>
+                  <div className="bg-green-100 rounded-lg p-3 sm:p-4 mb-4">
                     <p className="text-sm font-medium text-green-800">💡 {section.content.plural.crucial_rule}</p>
                   </div>
                   <div className="space-y-3">
                     {section.content.plural.examples.map((example, i) => (
-                      <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-green-400">
-                        <p className="text-sm text-slate-600 mb-2">{example.english}</p>
-                        <div className="flex items-center gap-2">
-                          <p className="font-bold text-slate-900">{example.german}</p>
-                          <button
-                            onMouseEnter={() => playGermanText(extractGermanText(example.german))}
-                            onClick={(e: React.MouseEvent) => {
-                              e.stopPropagation();
-                              playGermanText(extractGermanText(example.german));
-                            }}
-                            className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition"
-                          >
-                            <Volume2 size={12} className="text-green-600" />
-                          </button>
+                      <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-green-400">
+                        <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
+                          <div className="flex flex-col items-start gap-1 flex-1 w-full">
+                            <p className="text-sm sm:text-base font-bold text-slate-900 leading-tight w-full">
+                              {example.german}
+                            </p>
+                            <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">
+                              {example.english}
+                            </p>
+                            {example.note && (
+                              <p className="text-[10px] sm:text-xs text-slate-500 italic border-t border-green-50/50 pt-1 mt-1 w-full">
+                                {example.note}
+                              </p>
+                            )}
+                          </div>
+                          <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-green-100/50 pt-2 md:pt-0">
+                            <span className="md:hidden text-[10px] font-bold text-green-600 uppercase tracking-wider">Listen to pronunciation</span>
+                            <button
+                              onMouseEnter={() => playGermanText(extractGermanText(example.german))}
+                              onClick={(e: React.MouseEvent) => {
+                                e.stopPropagation();
+                                playGermanText(extractGermanText(example.german));
+                              }}
+                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition flex-shrink-0 shadow-sm"
+                            >
+                              <Volume2 size={16} className="text-green-600 sm:size-5" />
+                            </button>
+                          </div>
                         </div>
-                        {example.note && (
-                          <p className="text-sm text-slate-500 italic">{example.note}</p>
-                        )}
                       </div>
                     ))}
                   </div>
@@ -310,28 +330,41 @@ export default function DativLesson() {
                 </div>
               )}
 
-              {/* Examples */}
+              {/* Transportation Examples */}
               {section.content.transportation_examples && (
-                <div className="bg-green-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-green-800 mb-4">📝 Examples</h3>
+                <div className="bg-green-50 rounded-xl p-4 sm:p-6 mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-green-800 mb-4">📝 Examples</h3>
                   <div className="space-y-3">
                     {section.content.transportation_examples.map((example, i) => (
-                      <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-green-400">
-                        <p className="text-sm text-green-600 mb-2">{example.noun}</p>
-                        <div className="flex items-center gap-2 mb-2">
-                          <p className="font-bold text-slate-900">{example.sentence}</p>
-                          <button
-                            onMouseEnter={() => playGermanText(extractGermanText(example.sentence))}
-                            onClick={(e: React.MouseEvent) => {
-                              e.stopPropagation();
-                              playGermanText(extractGermanText(example.sentence));
-                            }}
-                            className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition"
-                          >
-                            <Volume2 size={12} className="text-green-600" />
-                          </button>
+                      <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-green-400">
+                        <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
+                          <div className="flex flex-col items-start gap-1 flex-1 w-full">
+                            {example.noun && (
+                              <p className="text-[10px] sm:text-xs font-bold text-green-600 uppercase tracking-wider mb-1">
+                                {example.noun}
+                              </p>
+                            )}
+                            <p className="text-sm sm:text-base font-bold text-slate-900 leading-tight w-full">
+                              {example.sentence}
+                            </p>
+                            <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed mt-0.5 w-full">
+                              {example.translation}
+                            </p>
+                          </div>
+                          <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-green-100/50 pt-2 md:pt-0">
+                            <span className="md:hidden text-[10px] font-bold text-green-600 uppercase tracking-wider">Listen to pronunciation</span>
+                            <button
+                              onMouseEnter={() => playGermanText(extractGermanText(example.sentence))}
+                              onClick={(e: React.MouseEvent) => {
+                                e.stopPropagation();
+                                playGermanText(extractGermanText(example.sentence));
+                              }}
+                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition flex-shrink-0 shadow-sm"
+                            >
+                              <Volume2 size={16} className="text-green-600 sm:size-5" />
+                            </button>
+                          </div>
                         </div>
-                        <p className="text-sm text-slate-600">{example.translation}</p>
                       </div>
                     ))}
                   </div>

@@ -282,16 +282,27 @@ export default function Grammar4CasesPage() {
                   <div className="space-y-6">
                     {/* Questions (Dativ identification) */}
                     {section.content.questions && (
-                      <div className="bg-emerald-50/60 rounded-xl p-6 space-y-4">
+                      <div className="bg-emerald-50/60 rounded-xl p-4 sm:p-6 space-y-4">
                         {section.content.questions.map((q: any, i: number) => (
-                          <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-emerald-400">
-                            <p className="text-sm font-bold text-emerald-700 mb-1">{q.question}</p>
-                            <p className="text-sm text-slate-600 mb-2">{q.explanation}</p>
-                            <div className="flex items-center gap-2 mb-1">
-                              <p className="font-bold text-slate-900">{q.german}</p>
-                              <button onClick={() => playGermanText(extractGermanText(q.german))} className="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0"><Volume2 size={12} className="text-emerald-600" /></button>
+                          <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-emerald-400">
+                            <div className="flex items-center justify-between w-full gap-4">
+                              <div className="flex flex-col items-start gap-1 flex-1">
+                                <p className="text-xs sm:text-sm font-bold text-emerald-700 mb-1 uppercase tracking-wider">{q.question}</p>
+                                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-2">{q.explanation}</p>
+                                <p className="text-sm sm:text-base font-bold text-slate-900 leading-tight">
+                                  {q.german}
+                                </p>
+                                <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed">
+                                  {q.translation}
+                                </p>
+                              </div>
+                              <button
+                                onClick={() => playGermanText(extractGermanText(q.german))}
+                                className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0 shadow-sm"
+                              >
+                                <Volume2 size={16} className="text-emerald-600 sm:size-5" />
+                              </button>
                             </div>
-                            <p className="text-sm text-slate-500 italic">{q.translation}</p>
                           </div>
                         ))}
                       </div>

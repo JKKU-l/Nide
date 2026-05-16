@@ -98,13 +98,14 @@ export default function KonjugationPraesensLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between gap-2 mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
           >
             <ArrowLeft size={20} />
-            <span>Back to Beginner A1</span>
+            <span className="hidden sm:inline">Back to Beginner A1</span>
+            <span className="sm:hidden text-sm font-medium">Back</span>
           </button>
 
           {/* Language Selector */}
@@ -141,15 +142,15 @@ export default function KonjugationPraesensLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 px-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-100 rounded-full mb-4">
             <span className="text-2xl">📝</span>
             <span className="text-sm font-medium text-green-700">Topic 2 of 20</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
             {lessonData?.title}
           </h1>
-          <p className="text-slate-600 text-lg">
+          <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto">
             {lessonData?.subtitle}
           </p>
         </div>
@@ -237,28 +238,37 @@ export default function KonjugationPraesensLesson() {
 
               {/* Examples */}
               {section.content.examples && (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="space-y-3">
                   {section.content.examples.map((example, i) => (
-                    <div key={i} className="bg-white/50 rounded-xl p-4">
-                      <div className="flex items-center gap-2 mb-1">
-                        <p className="font-medium text-slate-900">{example.german}</p>
-                        <button
-                          onMouseEnter={() => playGermanText(example.german)}
-                          onClick={(e: React.MouseEvent) => {
-                            e.stopPropagation();
-                            playGermanText(example.german);
-                          }}
-                          className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition"
-                        >
-                          <Volume2 size={16} className="text-green-600" />
-                        </button>
-                      </div>
-                      <p className="text-sm text-slate-600">{example.english}</p>
-                      {example.note && (
-                        <div className="mt-2 p-2 bg-blue-50 rounded-lg text-sm text-blue-800">
-                          📝 {example.note}
+                    <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-green-400">
+                      <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
+                        <div className="flex flex-col items-start gap-1 flex-1 w-full">
+                          <p className="text-sm sm:text-base font-bold text-slate-900 leading-tight w-full">
+                            {example.german}
+                          </p>
+                          <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">
+                            {example.english}
+                          </p>
+                          {example.note && (
+                            <p className="text-[10px] sm:text-xs text-blue-700 font-medium mt-1 w-full">
+                              📝 {example.note}
+                            </p>
+                          )}
                         </div>
-                      )}
+                        <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-green-100/50 pt-2 md:pt-0">
+                          <span className="md:hidden text-[10px] font-bold text-green-600 uppercase tracking-wider">Listen to pronunciation</span>
+                          <button
+                            onMouseEnter={() => playGermanText(example.german || '')}
+                            onClick={(e: React.MouseEvent) => {
+                              e.stopPropagation();
+                              playGermanText(example.german || '');
+                            }}
+                            className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition flex-shrink-0 shadow-sm"
+                          >
+                            <Volume2 size={16} className="text-green-600 sm:size-5" />
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   ))}
                 </div>

@@ -87,13 +87,14 @@ export default function ModalverbenGebrauchLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between gap-2 mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
           >
             <ArrowLeft size={20} />
-            <span>Back to Beginner A1</span>
+            <span className="hidden sm:inline">Back to Beginner A1</span>
+            <span className="sm:hidden text-sm font-medium">Back</span>
           </button>
 
           {/* Language Selector */}
@@ -130,12 +131,12 @@ export default function ModalverbenGebrauchLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 px-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-100 rounded-full mb-4">
             <span className="text-2xl">💡</span>
             <span className="text-sm font-medium text-green-700">Topic 6 of 20</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
             Modal Verbs: Usage
           </h1>
         </div>
@@ -197,23 +198,28 @@ export default function ModalverbenGebrauchLesson() {
 
               {/* Examples */}
               {section.content.examples && (
-                <div className="bg-white/50 rounded-xl p-6">
-                  <h3 className="text-lg font-bold text-green-700 mb-4">💬 Examples</h3>
+                <div className="bg-white/50 rounded-xl p-4 sm:p-6">
+                  <h3 className="text-base sm:text-lg font-bold text-green-700 mb-4">💬 Examples</h3>
                   <div className="space-y-3">
                     {section.content.examples.map((example, i) => (
-                      <div key={i} className="bg-white rounded-lg p-4 border-l-4 border-green-400">
-                        <div className="flex items-center gap-2 mb-1">
-                          <p className="font-medium text-slate-900">{example}</p>
-                          <button
-                            onMouseEnter={() => playGermanText(example)}
-                            onClick={(e: React.MouseEvent) => {
-                              e.stopPropagation();
-                              playGermanText(example);
-                            }}
-                            className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition"
-                          >
-                            <Volume2 size={16} className="text-green-600" />
-                          </button>
+                      <div key={i} className="bg-white rounded-lg p-3 sm:p-4 border-l-4 border-green-400">
+                        <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
+                          <p className="text-sm sm:text-base font-medium text-slate-900 leading-tight flex-1 w-full">
+                            {example}
+                          </p>
+                          <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-green-100/50 pt-2 md:pt-0">
+                            <span className="md:hidden text-[10px] font-bold text-green-600 uppercase tracking-wider">Listen to pronunciation</span>
+                            <button
+                              onMouseEnter={() => playGermanText(example)}
+                              onClick={(e: React.MouseEvent) => {
+                                e.stopPropagation();
+                                playGermanText(example);
+                              }}
+                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-green-200 transition flex-shrink-0 shadow-sm"
+                            >
+                              <Volume2 size={16} className="text-green-600 sm:size-5" />
+                            </button>
+                          </div>
                         </div>
                       </div>
                     ))}

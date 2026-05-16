@@ -104,13 +104,14 @@ export default function FragenMitFragewortLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between gap-2 mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
           >
             <ArrowLeft size={20} />
-            <span>Back to Beginner A1</span>
+            <span className="hidden sm:inline">Back to Beginner A1</span>
+            <span className="sm:hidden text-sm font-medium">Back</span>
           </button>
 
           {/* Language Selector */}
@@ -147,12 +148,12 @@ export default function FragenMitFragewortLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 px-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 rounded-full mb-4">
             <span className="text-2xl">❓</span>
             <span className="text-sm font-medium text-purple-700">Topic 9 of 20</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
             {lessonData?.title}
           </h1>
         </div>
@@ -261,21 +262,30 @@ export default function FragenMitFragewortLesson() {
                           {category.examples.map((example, i) => {
                             const questionAudio = extractGermanText(example.question);
                             return (
-                              <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-purple-400">
-                                <div className="flex items-center gap-2 mb-1">
-                                  <p className="font-medium text-purple-700">{example.question}</p>
-                                  <button
-                                    onMouseEnter={() => playGermanText(questionAudio)}
-                                    onClick={(e: React.MouseEvent) => {
-                                      e.stopPropagation();
-                                      playGermanText(questionAudio);
-                                    }}
-                                    className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
-                                  >
-                                    <Volume2 size={16} className="text-purple-600" />
-                                  </button>
+                              <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-purple-400">
+                                <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
+                                  <div className="flex flex-col items-start gap-1 flex-1 w-full">
+                                    <p className="text-sm sm:text-base font-bold text-purple-700 leading-tight w-full">
+                                      {example.question}
+                                    </p>
+                                    <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">
+                                      {example.answer}
+                                    </p>
+                                  </div>
+                                  <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-purple-100/50 pt-2 md:pt-0">
+                                    <span className="md:hidden text-[10px] font-bold text-purple-600 uppercase tracking-wider">Listen to pronunciation</span>
+                                    <button
+                                      onMouseEnter={() => playGermanText(questionAudio)}
+                                      onClick={(e: React.MouseEvent) => {
+                                        e.stopPropagation();
+                                        playGermanText(questionAudio);
+                                      }}
+                                      className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition flex-shrink-0 shadow-sm"
+                                    >
+                                      <Volume2 size={16} className="text-purple-600 sm:size-5" />
+                                    </button>
+                                  </div>
                                 </div>
-                                <p className="text-sm text-slate-600">{example.answer}</p>
                               </div>
                             );
                           })}

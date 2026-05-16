@@ -201,25 +201,37 @@ export default function WoerterImSatz2Lesson() {
                         <div className="space-y-4">
                           {category.examples.map((example, i) => (
                             <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-emerald-400">
-                              <div className="flex items-center gap-2 mb-2">
-                                <p className="text-sm sm:text-base font-bold text-emerald-700">{example.german}</p>
-                                <button
-                                  onMouseEnter={() => playGermanText(example.german)}
-                                  onClick={(e: React.MouseEvent) => {
-                                    e.stopPropagation();
-                                    playGermanText(example.german);
-                                  }}
-                                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition"
-                                >
-                                  <Volume2 size={14} className="text-emerald-600 sm:size-4" />
-                                </button>
+                              <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
+                                <div className="flex flex-col items-start gap-1 flex-1 w-full">
+                                  <p className="text-sm sm:text-base font-bold text-emerald-700 leading-tight w-full">
+                                    {example.german}
+                                  </p>
+                                  <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">
+                                    {example.translation}
+                                  </p>
+                                  {example.explanation && (
+                                    <p className="text-[10px] sm:text-xs text-slate-500 italic border-t border-emerald-50/50 pt-1 mt-1 w-full">
+                                      {example.explanation}
+                                    </p>
+                                  )}
+                                </div>
+                                <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-emerald-100/50 pt-2 md:pt-0">
+                                  <span className="md:hidden text-[10px] font-bold text-emerald-600 uppercase tracking-wider">Listen to pronunciation</span>
+                                  <button
+                                    onMouseEnter={() => playGermanText(example.german)}
+                                    onClick={(e: React.MouseEvent) => {
+                                      e.stopPropagation();
+                                      playGermanText(example.german);
+                                    }}
+                                    className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0 shadow-sm"
+                                  >
+                                    <Volume2 size={16} className="text-emerald-600 sm:size-5" />
+                                  </button>
+                                </div>
                               </div>
-                              <p className="text-xs sm:text-sm text-slate-600 mb-2 italic">{example.translation}</p>
-                              <p className="text-xs sm:text-sm text-slate-500 italic border-t border-emerald-50 pt-2">{example.explanation}</p>
                             </div>
                           ))}
                         </div>
-                      )}
                     </div>
                   ))}
                 </div>
@@ -236,21 +248,28 @@ export default function WoerterImSatz2Lesson() {
                     <div className="space-y-3">
                       {section.content.examples.map((example, i) => (
                         <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-emerald-400">
-                          <div className="flex items-center justify-between gap-2 mb-2">
-                            <div className="flex items-center gap-2">
-                              <p className="text-sm sm:text-base font-bold text-emerald-700">{example.german}</p>
+                          <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
+                            <div className="flex flex-col items-start gap-1 flex-1 w-full">
+                              <p className="text-sm sm:text-base font-bold text-emerald-700 leading-tight w-full">
+                                {example.german}
+                              </p>
+                              <p className="text-xs sm:text-sm text-emerald-600 font-medium italic leading-relaxed w-full">
+                                {example.translation}
+                              </p>
+                            </div>
+                            <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-emerald-100/50 pt-2 md:pt-0">
+                              <span className="md:hidden text-[10px] font-bold text-emerald-600 uppercase tracking-wider">Listen to pronunciation</span>
                               <button
                                 onMouseEnter={() => playGermanText(example.german)}
                                 onClick={(e: React.MouseEvent) => {
                                   e.stopPropagation();
                                   playGermanText(example.german);
                                 }}
-                                className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition"
+                                className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0 shadow-sm"
                               >
-                                <Volume2 size={14} className="text-emerald-600 sm:size-4" />
+                                <Volume2 size={16} className="text-emerald-600 sm:size-5" />
                               </button>
                             </div>
-                            <span className="text-xs sm:text-sm text-emerald-600 font-medium italic">{example.translation}</span>
                           </div>
                         </div>
                       ))}

@@ -136,13 +136,14 @@ export default function PossessivartikelLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between gap-2 mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
           >
             <ArrowLeft size={20} />
-            <span>Back to Beginner A1</span>
+            <span className="hidden sm:inline">Back to Beginner A1</span>
+            <span className="sm:hidden text-sm font-medium">Back</span>
           </button>
 
           {/* Language Selector */}
@@ -179,15 +180,15 @@ export default function PossessivartikelLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 px-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-100 rounded-full mb-4">
             <span className="text-2xl">🔒</span>
             <span className="text-sm font-medium text-indigo-700">Topic 18 of 20</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
             {lessonData?.title}
           </h1>
-          <p className="text-slate-600 max-w-2xl mx-auto">{lessonData?.description}</p>
+          <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto">{lessonData?.description}</p>
         </div>
 
         {/* Sections */}
@@ -264,40 +265,46 @@ export default function PossessivartikelLesson() {
 
               {/* Accusative Case */}
               {section.content.accusative && (
-                <div className="bg-indigo-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-indigo-800 mb-4">{section.content.accusative.title}</h3>
-                  <p className="text-slate-700 mb-4">{section.content.accusative.description}</p>
+                <div className="bg-indigo-50 rounded-xl p-4 sm:p-6 mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-indigo-800 mb-4">{section.content.accusative.title}</h3>
+                  <p className="text-sm sm:text-base text-slate-700 mb-4">{section.content.accusative.description}</p>
                   <div className="space-y-4">
                     {section.content.accusative.rules.map((rule, i) => (
-                      <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-indigo-400">
+                      <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-indigo-400">
                         <div className="flex justify-between items-center mb-3">
-                          <span className="font-bold text-indigo-700">{rule.gender}</span>
-                          <span className="text-sm text-indigo-600 bg-indigo-100 px-2 py-1 rounded">{rule.ending}</span>
+                          <span className="text-xs sm:text-sm font-bold text-indigo-700 uppercase tracking-wider">{rule.gender}</span>
+                          <span className="text-xs sm:text-sm text-indigo-600 bg-indigo-100 px-2 py-1 rounded font-bold">{rule.ending}</span>
                         </div>
                         {rule.examples && (
-                          <div className="space-y-2">
+                          <div className="space-y-3">
                             {rule.examples.map((example, j) => (
-                              <div key={j} className="flex items-center gap-2">
-                                <p className="text-slate-600 text-sm">{example.english}</p>
-                                <div className="flex items-center gap-2">
-                                  <p className="font-bold text-slate-900">{example.german}</p>
-                                  <button
-                                    onMouseEnter={() => playGermanText(extractGermanText(example.german))}
-                                    onClick={(e: React.MouseEvent) => {
-                                      e.stopPropagation();
-                                      playGermanText(extractGermanText(example.german));
-                                    }}
-                                    className="w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center hover:bg-indigo-200 transition"
-                                  >
-                                    <Volume2 size={12} className="text-indigo-600" />
-                                  </button>
+                              <div key={j} className="flex items-center justify-between w-full gap-4 pt-2 border-t border-indigo-50/50">
+                                <div className="flex flex-col items-start gap-1 flex-1">
+                                  <p className="text-sm sm:text-base font-bold text-slate-900 leading-tight">
+                                    {example.german}
+                                  </p>
+                                  <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed">
+                                    {example.english}
+                                  </p>
                                 </div>
+                                <button
+                                  onMouseEnter={() => playGermanText(extractGermanText(example.german))}
+                                  onClick={(e: React.MouseEvent) => {
+                                    e.stopPropagation();
+                                    playGermanText(extractGermanText(example.german));
+                                  }}
+                                  className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-indigo-100 flex items-center justify-center hover:bg-indigo-200 transition flex-shrink-0 shadow-sm"
+                                >
+                                  <Volume2 size={16} className="text-indigo-600 sm:size-5" />
+                                </button>
                               </div>
                             ))}
                           </div>
                         )}
                         {rule.note && (
-                          <p className="text-sm text-slate-500 italic">{rule.note}</p>
+                          <p className="text-[10px] sm:text-xs text-slate-500 italic mt-3 pt-2 border-t border-indigo-50/50">
+                            {rule.note}
+                          </p>
                         )}
                       </div>
                     ))}

@@ -111,13 +111,14 @@ export default function VerbenMitVokalwechselLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between gap-2 mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
           >
             <ArrowLeft size={20} />
-            <span>Back to Beginner A1</span>
+            <span className="hidden sm:inline">Back to Beginner A1</span>
+            <span className="sm:hidden text-sm font-medium">Back</span>
           </button>
 
           {/* Language Selector */}
@@ -154,15 +155,15 @@ export default function VerbenMitVokalwechselLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 px-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 rounded-full mb-4">
             <span className="text-2xl">🔄</span>
             <span className="text-sm font-medium text-purple-700">Topic 4 of 20</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
             {lessonData?.title}
           </h1>
-          <p className="text-slate-600 text-lg">
+          <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto">
             {lessonData?.subtitle}
           </p>
         </div>
@@ -186,18 +187,18 @@ export default function VerbenMitVokalwechselLesson() {
                     headers={section.content.table.headers}
                     rows={section.content.table.rows.map((row) =>
                       row.map((cell, j) => {
-                        const isGermanVerb = j >= 1 && cell.length > 0;
-                        if (isGermanVerb) {
+                        const isGermanForm = [2, 3].includes(j) && cell.length > 0;
+                        if (isGermanForm) {
                           return (
-                            <div className="flex items-center gap-2">
-                              <span className="font-bold text-purple-700">{cell}</span>
+                            <div className="flex items-center justify-between w-full gap-4">
+                              <span className="text-sm sm:text-base font-bold text-purple-700 leading-tight flex-1">{cell}</span>
                               <button
                                 onMouseEnter={() => playGermanText(cell)}
                                 onClick={(e: React.MouseEvent) => {
                                   e.stopPropagation();
                                   playGermanText(cell);
                                 }}
-                                className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                                className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition flex-shrink-0 shadow-sm"
                               >
                                 <Volume2 size={12} className="text-purple-600" />
                               </button>
@@ -284,15 +285,15 @@ export default function VerbenMitVokalwechselLesson() {
                         <div key={i} className="bg-white/50 rounded-xl p-4 border border-purple-200">
                           <div className="space-y-2">
                             {exercise.conjugated && (
-                              <div className="flex items-center gap-2">
-                                <span className="font-bold text-purple-700">{exercise.conjugated}</span>
+                              <div className="flex items-center justify-between w-full gap-4">
+                                <span className="text-sm sm:text-base font-bold text-purple-700 leading-tight flex-1">{exercise.conjugated}</span>
                                 <button
                                   onMouseEnter={() => exercise.conjugated && playGermanText(exercise.conjugated)}
                                   onClick={(e: React.MouseEvent) => {
                                     e.stopPropagation();
                                     exercise.conjugated && playGermanText(exercise.conjugated);
                                   }}
-                                  className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                                  className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition flex-shrink-0 shadow-sm"
                                 >
                                   <Volume2 size={12} className="text-purple-600" />
                                 </button>

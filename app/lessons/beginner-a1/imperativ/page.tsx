@@ -208,18 +208,21 @@ export default function ImperativLesson() {
                         const isGermanExample = j === 3 && audioText.includes('!');
                         if (isGermanExample) {
                           return (
-                            <div className="flex items-center gap-2">
-                              <span>{cell}</span>
-                              <button
-                                onMouseEnter={() => playGermanText(audioText)}
-                                onClick={(e: React.MouseEvent) => {
-                                  e.stopPropagation();
-                                  playGermanText(audioText);
-                                }}
-                                className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
-                              >
-                                <Volume2 size={12} className="text-red-600" />
-                              </button>
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between w-full gap-2 sm:gap-4">
+                              <span className="text-sm sm:text-base font-medium text-slate-900 leading-tight flex-1">{cell}</span>
+                              <div className="flex items-center justify-between w-full sm:w-auto mt-1 sm:mt-0 border-t sm:border-t-0 border-red-100/50 pt-1 sm:pt-0">
+                                <span className="sm:hidden text-[10px] font-bold text-red-600 uppercase tracking-wider">Listen</span>
+                                <button
+                                  onMouseEnter={() => playGermanText(audioText)}
+                                  onClick={(e: React.MouseEvent) => {
+                                    e.stopPropagation();
+                                    playGermanText(audioText);
+                                  }}
+                                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition flex-shrink-0"
+                                >
+                                  <Volume2 size={12} className="text-red-600" />
+                                </button>
+                              </div>
                             </div>
                           );
                         }
@@ -244,18 +247,21 @@ export default function ImperativLesson() {
                         const isGermanVerb = [3, 4, 5].includes(j) && audioText.includes('!');
                         if (isGermanVerb) {
                           return (
-                            <div className="flex items-center gap-2">
-                              <span className="font-bold text-red-700">{cell}</span>
-                              <button
-                                onMouseEnter={() => playGermanText(audioText)}
-                                onClick={(e: React.MouseEvent) => {
-                                  e.stopPropagation();
-                                  playGermanText(audioText);
-                                }}
-                                className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
-                              >
-                                <Volume2 size={12} className="text-red-600" />
-                              </button>
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between w-full gap-2 sm:gap-4">
+                              <span className="text-sm sm:text-base font-bold text-red-700 leading-tight flex-1">{cell}</span>
+                              <div className="flex items-center justify-between w-full sm:w-auto mt-1 sm:mt-0 border-t sm:border-t-0 border-red-100/50 pt-1 sm:pt-0">
+                                <span className="sm:hidden text-[10px] font-bold text-red-600 uppercase tracking-wider">Listen</span>
+                                <button
+                                  onMouseEnter={() => playGermanText(audioText)}
+                                  onClick={(e: React.MouseEvent) => {
+                                    e.stopPropagation();
+                                    playGermanText(audioText);
+                                  }}
+                                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition flex-shrink-0"
+                                >
+                                  <Volume2 size={12} className="text-red-600" />
+                                </button>
+                              </div>
                             </div>
                           );
                         }
@@ -280,18 +286,21 @@ export default function ImperativLesson() {
                         const isGermanExample = j === 2 && audioText.includes('!');
                         if (isGermanExample) {
                           return (
-                            <div className="flex items-center gap-2">
-                              <span className="text-sm sm:text-base font-medium text-slate-900">{cell}</span>
-                              <button
-                                onMouseEnter={() => playGermanText(audioText)}
-                                onClick={(e: React.MouseEvent) => {
-                                  e.stopPropagation();
-                                  playGermanText(audioText);
-                                }}
-                                className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
-                              >
-                                <Volume2 size={12} className="text-red-600" />
-                              </button>
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between w-full gap-2 sm:gap-4">
+                              <span className="text-sm sm:text-base font-medium text-slate-900 leading-tight flex-1">{cell}</span>
+                              <div className="flex items-center justify-between w-full sm:w-auto mt-1 sm:mt-0 border-t sm:border-t-0 border-red-100/50 pt-1 sm:pt-0">
+                                <span className="sm:hidden text-[10px] font-bold text-red-600 uppercase tracking-wider">Listen</span>
+                                <button
+                                  onMouseEnter={() => playGermanText(audioText)}
+                                  onClick={(e: React.MouseEvent) => {
+                                    e.stopPropagation();
+                                    playGermanText(audioText);
+                                  }}
+                                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition flex-shrink-0"
+                                >
+                                  <Volume2 size={12} className="text-red-600" />
+                                </button>
+                              </div>
                             </div>
                           );
                         }
@@ -316,18 +325,21 @@ export default function ImperativLesson() {
                         const isGermanSentence = j === 3 && audioText.includes('!');
                         if (isGermanSentence) {
                           return (
-                            <div className="flex items-center gap-2">
-                              <span className="text-sm sm:text-base font-medium text-slate-900">{cell}</span>
-                              <button
-                                onMouseEnter={() => playGermanText(audioText)}
-                                onClick={(e: React.MouseEvent) => {
-                                  e.stopPropagation();
-                                  playGermanText(audioText);
-                                }}
-                                className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition"
-                              >
-                                <Volume2 size={12} className="text-red-600" />
-                              </button>
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between w-full gap-2 sm:gap-4">
+                              <span className="text-sm sm:text-base font-medium text-slate-900 leading-tight flex-1">{cell}</span>
+                              <div className="flex items-center justify-between w-full sm:w-auto mt-1 sm:mt-0 border-t sm:border-t-0 border-red-100/50 pt-1 sm:pt-0">
+                                <span className="sm:hidden text-[10px] font-bold text-red-600 uppercase tracking-wider">Listen</span>
+                                <button
+                                  onMouseEnter={() => playGermanText(audioText)}
+                                  onClick={(e: React.MouseEvent) => {
+                                    e.stopPropagation();
+                                    playGermanText(audioText);
+                                  }}
+                                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-red-100 flex items-center justify-center hover:bg-red-200 transition flex-shrink-0"
+                                >
+                                  <Volume2 size={12} className="text-red-600" />
+                                </button>
+                              </div>
                             </div>
                           );
                         }

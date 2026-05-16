@@ -121,13 +121,14 @@ export default function ArtikelInterrogativDemonstrativLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between gap-2 mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
           >
             <ArrowLeft size={20} />
-            <span>Back to Beginner A1</span>
+            <span className="hidden sm:inline">Back to Beginner A1</span>
+            <span className="sm:hidden text-sm font-medium">Back</span>
           </button>
 
           {/* Language Selector */}
@@ -164,15 +165,15 @@ export default function ArtikelInterrogativDemonstrativLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 px-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-teal-100 rounded-full mb-4">
             <span className="text-2xl">🔍</span>
             <span className="text-sm font-medium text-teal-700">Topic 19 of 20</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
             {lessonData?.title}
           </h1>
-          <p className="text-slate-600 max-w-2xl mx-auto">{lessonData?.description}</p>
+          <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto">{lessonData?.description}</p>
         </div>
 
         {/* Sections */}
@@ -307,48 +308,52 @@ export default function ArtikelInterrogativDemonstrativLesson() {
 
               {/* Summary Examples */}
               {section.content.examples && (
-                <div className="bg-teal-50 rounded-xl p-6">
-                  <h3 className="text-lg font-bold text-teal-800 mb-4">💡 Summary Tip for A1</h3>
-                  <p className="text-slate-700 mb-4">{section.description}</p>
+                <div className="bg-teal-50 rounded-xl p-4 sm:p-6">
+                  <h3 className="text-base sm:text-lg font-bold text-teal-800 mb-4">💡 Summary Tip for A1</h3>
+                  <p className="text-sm sm:text-base text-slate-700 mb-4">{section.description}</p>
                   <div className="space-y-3">
                     {section.content.examples.map((example, i) => (
-                      <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-teal-400">
-                        <div className="grid grid-cols-3 gap-4 items-center">
-                          <div>
-                            <span className="text-sm text-teal-600">Article:</span>
-                            <p className="font-bold text-slate-900">{example.article}</p>
+                      <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-teal-400">
+                        <div className="flex flex-col gap-4">
+                          <div className="flex items-center justify-between border-b border-teal-50/50 pb-2">
+                            <span className="text-xs sm:text-sm font-bold text-teal-600 uppercase tracking-wider">Article Type</span>
+                            <p className="text-sm sm:text-base font-black text-slate-900">{example.article}</p>
                           </div>
-                          <div>
-                            <span className="text-sm text-teal-600">Question:</span>
-                            <div className="flex items-center gap-2">
-                              <p className="font-bold text-slate-900">{example.question}</p>
-                              <button
-                                onMouseEnter={() => playGermanText(extractGermanText(example.question))}
-                                onClick={(e: React.MouseEvent) => {
-                                  e.stopPropagation();
-                                  playGermanText(extractGermanText(example.question));
-                                }}
-                                className="w-6 h-6 rounded-full bg-teal-100 flex items-center justify-center hover:bg-teal-200 transition"
-                              >
-                                <Volume2 size={12} className="text-teal-600" />
-                              </button>
+                          <div className="flex items-center justify-between w-full gap-4">
+                            <div className="flex flex-col items-start gap-1 flex-1">
+                              <span className="text-[10px] sm:text-xs font-bold text-teal-600 uppercase tracking-wider">Question</span>
+                              <p className="text-sm sm:text-base font-bold text-slate-900 leading-tight">
+                                {example.question}
+                              </p>
                             </div>
+                            <button
+                              onMouseEnter={() => playGermanText(extractGermanText(example.question))}
+                              onClick={(e: React.MouseEvent) => {
+                                e.stopPropagation();
+                                playGermanText(extractGermanText(example.question));
+                              }}
+                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-100 flex items-center justify-center hover:bg-teal-200 transition flex-shrink-0 shadow-sm"
+                            >
+                              <Volume2 size={16} className="text-teal-600 sm:size-5" />
+                            </button>
                           </div>
-                          <div>
-                            <span className="text-sm text-teal-600">Answer:</span>
-                            <div className="flex items-center gap-2">
-                              <p className="font-bold text-slate-900">{example.answer}</p>
-                              <button
-                                onMouseEnter={() => playGermanText(extractGermanText(example.answer))}
-                                onClick={(e: React.MouseEvent) => {
-                                  e.stopPropagation();
-                                  playGermanText(extractGermanText(example.answer));
-                                }}
-                                className="w-6 h-6 rounded-full bg-teal-100 flex items-center justify-center hover:bg-teal-200 transition"
-                              >
-                                <Volume2 size={12} className="text-teal-600" />
-                              </button>
+                          <div className="flex items-center justify-between w-full gap-4 pt-2 border-t border-teal-50/50">
+                            <div className="flex flex-col items-start gap-1 flex-1">
+                              <span className="text-[10px] sm:text-xs font-bold text-teal-600 uppercase tracking-wider">Answer</span>
+                              <p className="text-sm sm:text-base font-bold text-slate-900 leading-tight">
+                                {example.answer}
+                              </p>
                             </div>
+                            <button
+                              onMouseEnter={() => playGermanText(extractGermanText(example.answer))}
+                              onClick={(e: React.MouseEvent) => {
+                                e.stopPropagation();
+                                playGermanText(extractGermanText(example.answer));
+                              }}
+                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-100 flex items-center justify-center hover:bg-teal-200 transition flex-shrink-0 shadow-sm"
+                            >
+                              <Volume2 size={16} className="text-teal-600 sm:size-5" />
+                            </button>
                           </div>
                         </div>
                       </div>
