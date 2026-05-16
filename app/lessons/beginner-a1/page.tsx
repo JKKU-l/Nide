@@ -43,19 +43,20 @@ export default function BeginnerA1Lesson() {
 
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between gap-2 mb-8">
           <button
             onClick={() => router.push('/')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
           >
             <ArrowLeft size={20} />
-            <span>Back to Dashboard</span>
+            <span className="hidden sm:inline">Back to Dashboard</span>
+            <span className="sm:hidden text-sm font-medium">Back</span>
           </button>
         </div>
 
         {/* Title */}
         <div className="text-center mb-10 px-2">
-          <h1 className="text-3xl sm:text-4xl font-black text-slate-900 mb-3 break-words">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
             Beginner A1
           </h1>
           <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto">

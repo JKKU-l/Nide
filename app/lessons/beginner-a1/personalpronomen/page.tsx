@@ -106,28 +106,29 @@ export default function PersonalPronounsLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between gap-2 mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
           >
             <ArrowLeft size={20} />
-            <span>Back to Beginner A1</span>
+            <span className="hidden sm:inline">Back to Beginner A1</span>
+            <span className="sm:hidden text-sm font-medium">Back</span>
           </button>
 
           {/* Language Selector */}
           <div className="relative">
             <button
               onClick={() => setShowLangDropdown(!showLangDropdown)}
-              className="flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
+              className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
             >
               <Globe size={18} />
-              <span className="mr-1">{selectedLanguage?.flag}</span>
-              <span>{selectedLanguage?.name}</span>
+              <span className="mr-0.5 sm:mr-1">{selectedLanguage?.flag}</span>
+              <span className="text-sm sm:text-base">{selectedLanguage?.name}</span>
             </button>
 
             {showLangDropdown && (
-              <div className="absolute right-0 mt-2 w-48 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl border border-white/30 z-50">
+              <div className="absolute right-0 mt-2 w-40 sm:w-48 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl border border-white/30 z-50">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -149,15 +150,15 @@ export default function PersonalPronounsLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 px-2">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 rounded-full mb-4">
-            <span className="text-2xl">👤</span>
-            <span className="text-sm font-medium text-blue-700">Topic 1 of 20</span>
+            <span className="text-xl sm:text-2xl">👤</span>
+            <span className="text-xs sm:text-sm font-medium text-blue-700">Topic 1 of 20</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
             {lessonData?.title}
           </h1>
-          <p className="text-slate-600 text-lg">
+          <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto">
             {lessonData?.subtitle}
           </p>
         </div>

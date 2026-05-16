@@ -49,27 +49,28 @@ export default function Topics() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center gap-2 mb-8">
+        <div className="flex items-center justify-between gap-2 mb-8">
           <button
             onClick={() => router.push('/')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
           >
             <ArrowLeft size={20} />
-            <span>Back to Home</span>
+            <span className="hidden sm:inline">Back to Home</span>
+            <span className="sm:hidden text-sm font-medium">Back</span>
           </button>
         </div>
 
         {/* Title */}
         {!searchQuery && (
-          <div className="text-center mb-12">
+          <div className="text-center mb-12 px-2">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-100 rounded-full mb-4">
-              <BookOpen size={20} className="text-indigo-700" />
-              <span className="text-sm font-medium text-indigo-700">Learning Topics</span>
+              <BookOpen size={18} className="text-indigo-700 sm:size-5" />
+              <span className="text-xs sm:text-sm font-medium text-indigo-700">Learning Topics</span>
             </div>
-            <h1 className="text-4xl font-black text-slate-900 mb-3">
+            <h1 className="text-2xl sm:text-4xl md:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
               Explore Topics
             </h1>
-            <p className="text-slate-600 max-w-2xl mx-auto">
+            <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
               Choose a topic to start learning German through engaging stories and activities
             </p>
           </div>
@@ -77,7 +78,7 @@ export default function Topics() {
 
         {/* Topics Grid */}
         <div>
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-6">
             {searchQuery ? `Search Results for "${searchQuery}"` : 'All Topics'}
           </h2>
           {filteredTopics.length > 0 ? (
