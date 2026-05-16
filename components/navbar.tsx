@@ -80,6 +80,8 @@ export default function Navbar({ searchValue: propSearchValue, onSearchChange }:
             <Search size={18} className="text-slate-500" />
             <input
               type="text"
+              id="global-search"
+              name="global-search"
               placeholder="Search anything..."
               value={searchValue}
               onFocus={() => setShowResults(searchValue.length > 0)}
@@ -147,6 +149,8 @@ export default function Navbar({ searchValue: propSearchValue, onSearchChange }:
                 <Search size={18} className="text-slate-500" />
                 <input
                   type="text"
+                  id="mobile-search"
+                  name="mobile-search"
                   placeholder="Search anything..."
                   value={searchValue}
                   onChange={(e: ChangeEvent<HTMLInputElement>) => handleSearchChange(e.target.value)}

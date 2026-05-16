@@ -331,7 +331,10 @@ export default function Dashboard() {
                 <div className="flex gap-2">
                   <input
                     type="email"
+                    id="newsletter-email"
+                    name="email"
                     placeholder="your@email.com"
+                    autoComplete="email"
                     className="flex-1 px-3 py-2 text-sm rounded-xl bg-white/60 border border-white/40 text-slate-700 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-400/50 focus:border-blue-300 transition"
                   />
                   <button className="px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl hover:shadow-lg hover:shadow-blue-200/50 transition-all duration-300 active:scale-95">

@@ -19,6 +19,11 @@ interface FormationTableData {
   rows: string[][];
 }
 
+interface PolitenessData {
+  headers: string[];
+  rows: string[][];
+}
+
 interface SectionContent {
   forms?: FormsData;
   formation_table?: FormationTableData;
@@ -196,8 +201,8 @@ export default function ImperativLesson() {
                   <h3 className="text-lg font-bold text-red-800 mb-4">🏗️ How to Form Imperative</h3>
                   <ResponsiveTable
                     headers={section.content.formation_table.headers}
-                    rows={section.content.formation_table.rows?.map((row) =>
-                      row?.map((cell, j) => {
+                    rows={section.content.formation_table.rows?.map((row: string[]) =>
+                      row?.map((cell: string, j: number) => {
                         const audioText = extractGermanText(cell);
                         const isGermanExample = j === 3 && audioText.includes('!');
                         if (isGermanExample) {
@@ -232,8 +237,8 @@ export default function ImperativLesson() {
                   <h3 className="text-lg font-bold text-red-800 mb-4">🔠 Specialized Verb Categories</h3>
                   <ResponsiveTable
                     headers={section.content.special_verbs_table.headers}
-                    rows={section.content.special_verbs_table.rows?.map((row) =>
-                      row?.map((cell, j) => {
+                    rows={section.content.special_verbs_table.rows?.map((row: string[]) =>
+                      row?.map((cell: string, j: number) => {
                         const audioText = extractGermanText(cell);
                         const isGermanVerb = [3, 4, 5].includes(j) && audioText.includes('!');
                         if (isGermanVerb) {
@@ -268,8 +273,8 @@ export default function ImperativLesson() {
                   <h3 className="text-lg font-bold text-red-800 mb-4">🤝 Softening Commands (Politeness)</h3>
                   <ResponsiveTable
                     headers={section.content.politeness_table.headers}
-                    rows={section.content.politeness_table.rows?.map((row) =>
-                      row?.map((cell, j) => {
+                    rows={section.content.politeness_table.rows?.map((row: string[]) =>
+                      row?.map((cell: string, j: number) => {
                         const audioText = extractGermanText(cell);
                         const isGermanExample = j === 2 && audioText.includes('!');
                         if (isGermanExample) {
@@ -304,8 +309,8 @@ export default function ImperativLesson() {
                   <h3 className="text-lg font-bold text-red-800 mb-4">🌍 Practical Examples for Everyday Situations</h3>
                   <ResponsiveTable
                     headers={section.content.practical_examples_table.headers}
-                    rows={section.content.practical_examples_table.rows?.map((row) =>
-                      row?.map((cell, j) => {
+                    rows={section.content.practical_examples_table.rows?.map((row: string[]) =>
+                      row?.map((cell: string, j: number) => {
                         const audioText = extractGermanText(cell);
                         const isGermanSentence = j === 3 && audioText.includes('!');
                         if (isGermanSentence) {

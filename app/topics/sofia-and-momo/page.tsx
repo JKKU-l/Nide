@@ -265,7 +265,15 @@ export default function SofiaAndMomo() {
                         </div>
                       )}
                       {exercise.type === 'fill_blank' && (
-                        <input type="text" value={userAnswers[exercise.id] || ''} onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleAnswerChange(exercise.id, e.target.value)} placeholder="Type your answer..." className="w-full px-4 py-3 rounded-xl bg-white/60 backdrop-blur-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-700" />
+                        <input 
+                          type="text" 
+                          id={exercise.id}
+                          name={exercise.id}
+                          value={userAnswers[exercise.id] || ''} 
+                          onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleAnswerChange(exercise.id, e.target.value)} 
+                          placeholder="Type your answer..." 
+                          className="w-full px-4 py-3 rounded-xl bg-white/60 backdrop-blur-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-700" 
+                        />
                       )}
                       {showResults && (
                         <div className="mt-4 flex items-center gap-2">

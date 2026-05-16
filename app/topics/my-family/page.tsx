@@ -350,6 +350,8 @@ export default function MyFamily() {
                       {exercise.type === 'fill_blank' && (
                         <input
                           type="text"
+                          id={exercise.id}
+                          name={exercise.id}
                           value={userAnswers[exercise.id] || ''}
                           onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleAnswerChange(exercise.id, e.target.value)}
                           placeholder="Type your answer..."

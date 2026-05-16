@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
+import ResponsiveTable from '@/components/responsive-table';
 
 interface ExampleData {
   german: string;
@@ -170,30 +171,12 @@ export default function WoerterImSatz2Lesson() {
               {section.content.examples_table && (
                 <div className="bg-emerald-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-emerald-800 mb-4">📋 Examples</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-emerald-100">
-                        <tr>
-                          {section.content.examples_table.headers.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.examples_table.rows.map((row, i) => (
-                          <tr key={i} className="border-t border-emerald-100">
-                            {row.map((cell, j) => (
-                              <td key={j} className="px-4 py-3 text-slate-700">
-                                {cell}
-                              </td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.examples_table.headers}
+                    rows={section.content.examples_table.rows}
+                    themeColor="emerald"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
 
@@ -287,30 +270,12 @@ export default function WoerterImSatz2Lesson() {
                 <div className="bg-emerald-50 rounded-xl p-6">
                   <h3 className="text-lg font-bold text-emerald-800 mb-4">📊 Quick Reference Summary Table</h3>
                   <p className="text-sm text-emerald-700 mb-4">{section.description}</p>
-                  <div className="overflow-x-auto">
-                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
-                      <thead className="bg-emerald-100">
-                        <tr>
-                          {section.content.summary_table.headers.map((header, i) => (
-                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.content.summary_table.rows.map((row, i) => (
-                          <tr key={i} className="border-t border-emerald-100">
-                            {row.map((cell, j) => (
-                              <td key={j} className="px-4 py-3 text-slate-700">
-                                {cell}
-                              </td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ResponsiveTable
+                    headers={section.content.summary_table.headers}
+                    rows={section.content.summary_table.rows}
+                    themeColor="emerald"
+                    mobileCardTitleIndex={0}
+                  />
                 </div>
               )}
             </div>

@@ -148,9 +148,6 @@ export default function MyMother() {
       setIsPlaying(false);
     }
   };
-      }
-    }
-  };
 
   // Cleanup audio when component unmounts
   useEffect(() => {
@@ -163,7 +160,7 @@ export default function MyMother() {
   }, []);
 
   const handleAnswerChange = (exerciseId: number, answer: string) => {
-    setUserAnswers(prev => ({ ...prev, [exerciseId]: answer }));
+    setUserAnswers((prev: Record<number, string>) => ({ ...prev, [exerciseId]: answer }));
   };
 
   const checkAnswers = () => {
@@ -192,7 +189,7 @@ export default function MyMother() {
   }
 
   const exercises = getExercises();
-  const storySection = topicData?.sections.find(s => s.id === 'story');
+  const storySection = topicData?.sections.find((s: Section) => s.id === 'story');
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-purple-300/40">
@@ -353,6 +350,8 @@ export default function MyMother() {
                       {exercise.type === 'fill_blank' && (
                         <input
                           type="text"
+                          id={exercise.id}
+                          name={exercise.id}
                           value={userAnswers[exercise.id] || ''}
                           onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleAnswerChange(exercise.id, e.target.value)}
                           placeholder="Type your answer..."
