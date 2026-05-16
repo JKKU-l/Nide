@@ -232,8 +232,9 @@ export default function WoerterImSatz2Lesson() {
                             </div>
                           ))}
                         </div>
+                      )}
                     </div>
-                  ))}
+                  )}
                 </div>
               )}
 

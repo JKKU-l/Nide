@@ -54,6 +54,7 @@ export default function SeinHabenBesondereVerbenLesson() {
   const [lessonData, setLessonData] = useState<LessonData | null>(null);
   const [loading, setLoading] = useState(true);
   const [showLangDropdown, setShowLangDropdown] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetchLessonData(selectedLang);
@@ -72,12 +73,21 @@ export default function SeinHabenBesondereVerbenLesson() {
     }
   };
 
+  const filteredSections = lessonData?.sections.filter((section) =>
+    section.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    section.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    section.content.examples?.some(ex => 
+      (ex.german || ex.example || '').toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (ex.english || '').toLowerCase().includes(searchQuery.toLowerCase())
+    )
+  );
+
   const selectedLanguage = languages.find(l => l.code === selectedLang);
 
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-orange-300/40">
-        <Navbar />
+        <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
         <div className="flex items-center justify-center h-[calc(100vh-80px)]">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
         </div>
@@ -87,7 +97,7 @@ export default function SeinHabenBesondereVerbenLesson() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-orange-300/40">
-      <Navbar />
+      <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
@@ -150,11 +160,17 @@ export default function SeinHabenBesondereVerbenLesson() {
 
         {/* Sections */}
         <div className="space-y-8">
-          {lessonData?.sections?.map((section) => (
-            <div
-              key={section.id}
-              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl"
-            >
+          {searchQuery && (
+            <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-6">
+              Search Results for "{searchQuery}"
+            </h2>
+          )}
+          {filteredSections && filteredSections.length > 0 ? (
+            filteredSections.map((section) => (
+              <div
+                key={section.id}
+                className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl"
+              >
               <h2 className="text-2xl font-bold text-slate-900 mb-2">
                 {section.title}
               </h2>
@@ -167,41 +183,58 @@ export default function SeinHabenBesondereVerbenLesson() {
                     headers={section.content.table.headers}
                     rows={section.content.table.rows.map((row) =>
                       row.map((cell, j) => {
-                        const isGermanExample = j === 3 && cell.includes('('); // Example column
-                        const isGermanVerb = j >= 1 && j <= 4 && cell.length > 0 && !cell.includes('('); // Verb columns
+                        const isGermanExample = j === 3 && typeof cell === 'string' && cell.includes('('); // Example column
+                        const isGermanVerb = j >= 1 && j <= 4 && typeof cell === 'string' && cell.length > 0 && !cell.includes('('); // Verb columns
+                        
                         if (isGermanExample) {
+                          const [german, translation] = cell.split('(');
+                          const cleanGerman = german.trim();
+                          const cleanTranslation = translation.replace(')', '').trim();
+                          
                           return (
-                            <div className="space-y-1">
-                              <div className="flex items-center gap-2">
-                                <span className="font-medium">{cell.split('(')[0].trim()}</span>
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between w-full gap-2 sm:gap-4">
+                              <div className="flex flex-col items-start gap-0.5 flex-1 w-full">
+                                <span className="text-sm sm:text-base font-bold text-slate-900 leading-tight w-full">
+                                  {cleanGerman}
+                                </span>
+                                <span className="text-xs sm:text-sm text-slate-500 italic leading-relaxed w-full">
+                                  {cleanTranslation}
+                                </span>
+                              </div>
+                              <div className="flex items-center justify-between w-full sm:w-auto mt-1 sm:mt-0 border-t sm:border-t-0 border-orange-100/50 pt-1 sm:pt-0">
+                                <span className="sm:hidden text-[10px] font-bold text-orange-600 uppercase tracking-wider">Listen</span>
                                 <button
-                                  onMouseEnter={() => playGermanText(cell.split('(')[0].trim())}
+                                  onMouseEnter={() => playGermanText(cleanGerman)}
                                   onClick={(e: React.MouseEvent) => {
                                     e.stopPropagation();
-                                    playGermanText(cell.split('(')[0].trim());
+                                    playGermanText(cleanGerman);
                                   }}
-                                  className="w-6 h-6 rounded-full bg-orange-100 flex items-center justify-center hover:bg-orange-200 transition"
+                                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-orange-100 flex items-center justify-center hover:bg-orange-200 transition flex-shrink-0"
                                 >
                                   <Volume2 size={12} className="text-orange-600" />
                                 </button>
                               </div>
-                              <span className="text-sm text-slate-500">({cell.split('(')[1]}</span>
                             </div>
                           );
                         } else if (isGermanVerb) {
                           return (
-                            <div className="flex items-center gap-2">
-                              <span className="font-bold text-orange-700">{cell}</span>
-                              <button
-                                onMouseEnter={() => playGermanText(cell)}
-                                onClick={(e: React.MouseEvent) => {
-                                  e.stopPropagation();
-                                  playGermanText(cell);
-                                }}
-                                className="w-6 h-6 rounded-full bg-orange-100 flex items-center justify-center hover:bg-orange-200 transition"
-                              >
-                                <Volume2 size={12} className="text-orange-600" />
-                              </button>
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between w-full gap-2 sm:gap-4">
+                              <span className="text-sm sm:text-base font-bold text-orange-700 leading-tight flex-1 w-full">
+                                {cell}
+                              </span>
+                              <div className="flex items-center justify-between w-full sm:w-auto mt-1 sm:mt-0 border-t sm:border-t-0 border-orange-100/50 pt-1 sm:pt-0">
+                                <span className="sm:hidden text-[10px] font-bold text-orange-600 uppercase tracking-wider">Listen</span>
+                                <button
+                                  onMouseEnter={() => playGermanText(cell)}
+                                  onClick={(e: React.MouseEvent) => {
+                                    e.stopPropagation();
+                                    playGermanText(cell);
+                                  }}
+                                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-orange-100 flex items-center justify-center hover:bg-orange-200 transition flex-shrink-0"
+                                >
+                                  <Volume2 size={12} className="text-orange-600" />
+                                </button>
+                              </div>
                             </div>
                           );
                         }
@@ -266,7 +299,12 @@ export default function SeinHabenBesondereVerbenLesson() {
                 </div>
               )}
             </div>
-          ))}
+          ))
+        ) : (
+          <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
+            <p className="text-slate-600 text-lg">No sections found matching your search.</p>
+          </div>
+        )}
         </div>
       </main>
     </div>

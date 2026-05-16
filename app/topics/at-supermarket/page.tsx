@@ -323,12 +323,12 @@ export default function AtSupermarket() {
                       <p className="text-sm sm:text-base text-slate-900 font-medium mb-4">{exercise.question}</p>
 
                       {exercise.type === 'multiple_choice' && exercise.options && (
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                           {exercise.options.map((option) => (
                             <button
                               key={option}
                               onClick={() => handleAnswerChange(exercise.id, option)}
-                              className={`px-3 py-2 sm:px-4 sm:py-3 rounded-xl font-medium transition text-sm sm:text-base ${
+                              className={`w-full p-4 rounded-xl font-medium transition text-sm sm:text-base ${
                                 userAnswers[exercise.id] === option
                                   ? 'text-white shadow-lg'
                                   : 'bg-white/60 backdrop-blur-md border border-slate-300 hover:bg-slate-50 text-slate-700'
