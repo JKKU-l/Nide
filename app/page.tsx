@@ -6,6 +6,7 @@ import HeroSection from '@/components/hero-section';
 import FeaturedTopic from '@/components/featured-topic';
 import LessonCard from '@/components/lesson-card';
 import { MessageCircle, Briefcase, BookMarked, Globe, Plane, Smile } from 'lucide-react';
+import { useState } from 'react';
 
 const lessons = [
   {
@@ -59,6 +60,13 @@ const lessons = [
 ];
 
 export default function Dashboard() {
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredLessons = lessons.filter((lesson) =>
+    lesson.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    lesson.description.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-orange-300/40">
       {/* Background Grid Pattern */}
@@ -67,41 +75,51 @@ export default function Dashboard() {
         backgroundSize: '50px 50px',
       }}></div>
 
-      <Navbar />
+      <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         <div className="w-full space-y-8">
-            {/* Hero + Featured Topic Row - 3:2 ratio (60%:40%) */}
-            <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
-              {/* Hero - Takes 60% */}
-              <div className="lg:col-span-3">
-                <HeroSection />
+            {!searchQuery && (
+              /* Hero + Featured Topic Row - 3:2 ratio (60%:40%) */
+              <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
+                {/* Hero - Takes 60% */}
+                <div className="lg:col-span-3">
+                  <HeroSection />
+                </div>
+                {/* Featured Topic - Takes 40% */}
+                <div className="lg:col-span-2">
+                  <FeaturedTopic />
+                </div>
               </div>
-              {/* Featured Topic - Takes 40% */}
-              <div className="lg:col-span-2">
-                <FeaturedTopic />
-              </div>
-            </div>
+            )}
 
             {/* Lessons Grid */}
             <div>
-              <h2 className="text-2xl font-bold text-slate-900 mb-6">Your Lessons</h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {lessons.map((lesson, index) => {
-                  const { icon, title, description, color, href } = lesson;
-                  return (
-                    <LessonCard 
-                      key={index}
-                      icon={icon} 
-                      title={title} 
-                      description={description} 
-                      color={color}
-                      href={href}
-                    />
-                  );
-                })}
-              </div>
+              <h2 className="text-2xl font-bold text-slate-900 mb-6">
+                {searchQuery ? `Search Results for "${searchQuery}"` : 'Your Lessons'}
+              </h2>
+              {filteredLessons.length > 0 ? (
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {filteredLessons.map((lesson, index) => {
+                    const { icon, title, description, color, href } = lesson;
+                    return (
+                      <LessonCard 
+                        key={index}
+                        icon={icon} 
+                        title={title} 
+                        description={description} 
+                        color={color}
+                        href={href}
+                      />
+                    );
+                  })}
+                </div>
+              ) : (
+                <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
+                  <p className="text-slate-600 text-lg">No lessons found matching your search.</p>
+                </div>
+              )}
             </div>
         </div>
       </main>

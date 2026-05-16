@@ -60,6 +60,7 @@ export default function WoerterImSatz1Lesson() {
   const [lessonData, setLessonData] = useState<LessonData | null>(null);
   const [loading, setLoading] = useState(true);
   const [showLangDropdown, setShowLangDropdown] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetchLessonData(selectedLang);
@@ -78,6 +79,12 @@ export default function WoerterImSatz1Lesson() {
     }
   };
 
+  const filteredSections = lessonData?.sections.filter((section) =>
+    section.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    section.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    section.content.rules?.some(rule => rule.toLowerCase().includes(searchQuery.toLowerCase()))
+  );
+
   const extractGermanText = (text: string) => {
     if (!text) return '';
     if (text.includes('(')) {
@@ -91,7 +98,7 @@ export default function WoerterImSatz1Lesson() {
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-orange-300/40">
-        <Navbar />
+        <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
         <div className="flex items-center justify-center h-[calc(100vh-80px)]">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
         </div>
@@ -101,7 +108,7 @@ export default function WoerterImSatz1Lesson() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-orange-300/40">
-      <Navbar />
+      <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
@@ -160,30 +167,37 @@ export default function WoerterImSatz1Lesson() {
 
         {/* Sections */}
         <div className="space-y-8">
-          {lessonData?.sections.map((section) => (
-            <div
-              key={section.id}
-              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl"
-            >
-              <h2 className="text-2xl font-bold text-slate-900 mb-2">
-                {section.title}
-              </h2>
-              <p className="text-slate-600 mb-6">{section.description}</p>
+          {searchQuery && (
+            <h2 className="text-2xl font-bold text-slate-900 mb-6">
+              Search Results for "{searchQuery}"
+            </h2>
+          )}
+          {filteredSections && filteredSections.length > 0 ? (
+            filteredSections.map((section) => (
+              <div
+                key={section.id}
+                className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl"
+              >
+                <h2 className="text-2xl font-bold text-slate-900 mb-2">
+                  {section.title}
+                </h2>
+                <p className="text-slate-600 mb-6">{section.description}</p>
 
-              {/* Rules */}
-              {section.content.rules && (
-                <div className="bg-amber-50 rounded-xl p-6 mb-6">
-                  <h3 className="text-lg font-bold text-amber-800 mb-4">📋 Rules</h3>
-                  <ul className="space-y-3">
-                    {section.content.rules.map((rule, i) => (
-                      <li key={i} className="flex items-start gap-3">
-                        <span className="text-amber-600 mt-1">•</span>
-                        <span className="text-slate-700">{rule}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+                {/* Rules */}
+                {section.content.rules && (
+                  <div className="bg-amber-50 rounded-xl p-6 mb-6">
+                    <h3 className="text-lg font-bold text-amber-800 mb-4">📋 Rules</h3>
+                    <ul className="space-y-3">
+                      {section.content.rules.map((rule, i) => (
+                        <li key={i} className="flex items-start gap-3">
+                          <span className="text-amber-600 mt-1">•</span>
+                          <span className="text-slate-700">{rule}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {/* ... existing section content rendering ... */}
 
               {/* Examples Table */}
               {section.content.examples_table && (
@@ -355,8 +369,13 @@ export default function WoerterImSatz1Lesson() {
                 </div>
               )}
             </div>
-          ))}
-        </div>
+          ))
+        ) : (
+          <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
+            <p className="text-slate-600 text-lg">No sections found matching your search.</p>
+          </div>
+        )}
+      </div>
       </main>
     </div>
   );

@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation';
 import { ArrowLeft, BookOpen } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import Image from 'next/image';
+import { useState } from 'react';
 
 interface Topic {
   id: string;
@@ -35,10 +36,16 @@ const topics: Topic[] = [
 
 export default function Topics() {
   const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredTopics = topics.filter((topic) =>
+    topic.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    topic.subtitle.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-purple-300/40">
-      <Navbar />
+      <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
@@ -53,80 +60,93 @@ export default function Topics() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-100 rounded-full mb-4">
-            <BookOpen size={20} className="text-indigo-700" />
-            <span className="text-sm font-medium text-indigo-700">Learning Topics</span>
+        {!searchQuery && (
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-100 rounded-full mb-4">
+              <BookOpen size={20} className="text-indigo-700" />
+              <span className="text-sm font-medium text-indigo-700">Learning Topics</span>
+            </div>
+            <h1 className="text-4xl font-black text-slate-900 mb-3">
+              Explore Topics
+            </h1>
+            <p className="text-slate-600 max-w-2xl mx-auto">
+              Choose a topic to start learning German through engaging stories and activities
+            </p>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 mb-3">
-            Explore Topics
-          </h1>
-          <p className="text-slate-600 max-w-2xl mx-auto">
-            Choose a topic to start learning German through engaging stories and activities
-          </p>
-        </div>
+        )}
 
         {/* Topics Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {topics.map((topic) => (
-            <div
-              key={topic.id}
-              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-white/60 cursor-pointer group"
-              onClick={() => {
-                if (topic.id === 'my-family') {
-                  router.push('/topics/my-family');
-                } else if (topic.id === 'my-mother') {
-                  router.push('/topics/my-mother');
-                } else if (topic.id === 'my-hobby') {
-                  router.push('/topics/my-hobby');
-                } else if (topic.id === 'my-friend') {
-                  router.push('/topics/my-friend');
-                } else if (topic.id === 'at-school') {
-                  router.push('/topics/at-school');
-                } else if (topic.id === 'at-supermarket') {
-                  router.push('/topics/at-supermarket');
-                } else if (topic.id === 'at-restaurant') {
-                  router.push('/topics/at-restaurant');
-                } else if (topic.id === 'sofia-and-momo') {
-                  router.push('/topics/sofia-and-momo');
-                } else {
-                  alert(`Topic "${topic.title}" will be implemented soon!`);
-                }
-              }}
-            >
-              <div className="flex flex-col items-center space-y-4">
-                {/* Icon */}
-                <div 
-                  className="w-24 h-24 rounded-2xl flex items-center justify-center bg-white shadow-lg overflow-hidden"
-                  style={{ backgroundColor: `${topic.color}20` }}
+        <div>
+          <h2 className="text-2xl font-bold text-slate-900 mb-6">
+            {searchQuery ? `Search Results for "${searchQuery}"` : 'All Topics'}
+          </h2>
+          {filteredTopics.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {filteredTopics.map((topic) => (
+                <div
+                  key={topic.id}
+                  className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-white/60 cursor-pointer group"
+                  onClick={() => {
+                    if (topic.id === 'my-family') {
+                      router.push('/topics/my-family');
+                    } else if (topic.id === 'my-mother') {
+                      router.push('/topics/my-mother');
+                    } else if (topic.id === 'my-hobby') {
+                      router.push('/topics/my-hobby');
+                    } else if (topic.id === 'my-friend') {
+                      router.push('/topics/my-friend');
+                    } else if (topic.id === 'at-school') {
+                      router.push('/topics/at-school');
+                    } else if (topic.id === 'at-supermarket') {
+                      router.push('/topics/at-supermarket');
+                    } else if (topic.id === 'at-restaurant') {
+                      router.push('/topics/at-restaurant');
+                    } else if (topic.id === 'sofia-and-momo') {
+                      router.push('/topics/sofia-and-momo');
+                    } else {
+                      alert(`Topic "${topic.title}" will be implemented soon!`);
+                    }
+                  }}
                 >
-                  <Image
-                    src={topic.icon}
-                    alt={topic.title}
-                    width={80}
-                    height={80}
-                    className="object-contain group-hover:scale-110 transition-transform duration-300"
-                  />
+                  <div className="flex flex-col items-center space-y-4">
+                    {/* Icon */}
+                    <div 
+                      className="w-24 h-24 rounded-2xl flex items-center justify-center bg-white shadow-lg overflow-hidden"
+                      style={{ backgroundColor: `${topic.color}20` }}
+                    >
+                      <Image
+                        src={topic.icon}
+                        alt={topic.title}
+                        width={80}
+                        height={80}
+                        className="object-contain group-hover:scale-110 transition-transform duration-300"
+                      />
+                    </div>
+
+                    {/* Title */}
+                    <h3 className="text-lg font-bold text-slate-900 text-center">
+                      {topic.title}
+                    </h3>
+
+                    {/* Subtitle */}
+                    <p className="text-sm text-slate-600 text-center leading-tight">
+                      {topic.subtitle}
+                    </p>
+
+                    {/* Color Indicator */}
+                    <div 
+                      className="w-12 h-1 rounded-full"
+                      style={{ backgroundColor: topic.color }}
+                    />
+                  </div>
                 </div>
-
-                {/* Title */}
-                <h3 className="text-lg font-bold text-slate-900 text-center">
-                  {topic.title}
-                </h3>
-
-                {/* Subtitle */}
-                <p className="text-sm text-slate-600 text-center leading-tight">
-                  {topic.subtitle}
-                </p>
-
-                {/* Color Indicator */}
-                <div 
-                  className="w-12 h-1 rounded-full"
-                  style={{ backgroundColor: topic.color }}
-                />
-              </div>
+              ))}
             </div>
-          ))}
+          ) : (
+            <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
+              <p className="text-slate-600 text-lg">No topics found matching your search.</p>
+            </div>
+          )}
         </div>
 
         {/* Learning Tips */}
