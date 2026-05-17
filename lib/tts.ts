@@ -164,7 +164,12 @@ class TTSService {
         };
         
         utterance.onerror = (event) => {
-          console.error('TTS error:', event);
+          // Ignore harmless errors from cancel/interrupt (expected when restarting speech)
+          if (event.error === 'canceled' || event.error === 'interrupted') {
+            cleanup();
+            return;
+          }
+          console.error('TTS error:', event.error || 'unknown error');
           cleanup();
         };
 
@@ -205,27 +210,63 @@ class TTSService {
   }
 
   private async playWithAudioFallback(text: string): Promise<boolean> {
-    // Simple fallback that logs the text
-    console.log('TTS fallback - would speak:', text);
-    
-    // In a production app, you could implement:
-    // 1. TTS API service (Google Cloud, Amazon Polly, Microsoft Azure)
-    // 2. Pre-generated audio files for common phrases
-    // 3. Client-side TTS library like responsive-voice or speak-tts
-    
-    // Example implementation with a TTS API:
-    // try {
-    //   const audioUrl = await generateTTSAudio(text);
-    //   if (audioUrl && this.audioElement) {
-    //     this.audioElement.src = audioUrl;
-    //     await this.audioElement.play();
-    //     return true;
-    //   }
-    // } catch (error) {
-    //   console.error('TTS API fallback error:', error);
-    // }
-    
-    return false;
+    // Use Google Translate TTS as a universal fallback
+    // Works on all browsers including UC Browser, Samsung Internet, etc.
+    try {
+      const encodedText = encodeURIComponent(text);
+      
+      // Google Translate TTS URL
+      const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodedText}&tl=de&client=tw-ob`;
+
+      // Create a fresh audio element for each playback to avoid caching issues
+      const audio = new Audio();
+      audio.crossOrigin = 'anonymous';
+      
+      return new Promise<boolean>((resolve) => {
+        let resolved = false;
+
+        const cleanup = (success: boolean) => {
+          if (!resolved) {
+            resolved = true;
+            this.isPlaying = false;
+            resolve(success);
+          }
+        };
+
+        audio.oncanplaythrough = () => {
+          this.isPlaying = true;
+          audio.play().catch(() => cleanup(false));
+        };
+
+        audio.onended = () => cleanup(true);
+        
+        audio.onerror = () => {
+          // If the first URL fails, try alternative URL pattern
+          if (!resolved) {
+            const altUrl = `https://translate.googleapis.com/translate_tts?ie=UTF-8&q=${encodedText}&tl=de&client=gtx`;
+            const altAudio = new Audio();
+            
+            altAudio.oncanplaythrough = () => {
+              this.isPlaying = true;
+              altAudio.play().catch(() => cleanup(false));
+            };
+            altAudio.onended = () => cleanup(true);
+            altAudio.onerror = () => cleanup(false);
+            altAudio.src = altUrl;
+            altAudio.load();
+          }
+        };
+
+        // Timeout fallback
+        setTimeout(() => cleanup(false), 10000);
+
+        audio.src = ttsUrl;
+        audio.load();
+      });
+    } catch (error) {
+      console.error('TTS audio fallback error:', error);
+      return false;
+    }
   }
 
   async play(text: string): Promise<boolean> {
@@ -234,11 +275,13 @@ class TTSService {
     const germanText = extractGermanText(text);
     if (!germanText) return false;
 
-    // Try Web Speech API first
-    const webSpeechSuccess = await this.playWithWebSpeech(germanText);
-    if (webSpeechSuccess) return true;
+    // If browser supports Web Speech API, try it first
+    if (this.browserInfo.supportsSpeechSynthesis) {
+      const webSpeechSuccess = await this.playWithWebSpeech(germanText);
+      if (webSpeechSuccess) return true;
+    }
 
-    // Fallback to audio API if Web Speech fails
+    // Fallback to Google Translate TTS audio (works on all browsers)
     return await this.playWithAudioFallback(germanText);
   }
 

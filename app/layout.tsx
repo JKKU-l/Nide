@@ -1,23 +1,15 @@
-import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+// metadata typing removed for compatibility with this Next version
+// font import removed for compatibility with this Next version
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+// font constants removed
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Nide - The Best Way to Learn German for Free',
   description:
     'Learn German systematically from basics to A1 level for free with Nide. Supports multiple languages including English, Myanmar, and Japanese.',
-  keywords: [
-    'Nide',
-    'Learn German',
-    'German A1 Free',
-    'German Language App',
-    'Language Learning Platform',
-    'Study German Online',
-  ],
+  keywords: 'Nide, Learn German, German A1 Free, German Language App, Language Learning Platform, Study German Online',
   icons: {
     icon: '/fav.png',
     apple: '/fav.png',
