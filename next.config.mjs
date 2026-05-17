@@ -7,7 +7,7 @@ const nextConfig = {
     unoptimized: true,
   },
   devIndicators: false,
-  allowedDevOrigins: ['http://10.38.128.80:3000', 'http://localhost:3000'],
+  allowedDevOrigins: ['10.38.128.80'],
 }
 
 export default nextConfig
