@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { ArrowLeft } from 'lucide-react';
 import Navbar from '@/components/navbar';
-import { useState } from 'react';
 
 const grammarTopics = [
   { title: 'Personalpronomen (Personal Pronouns)', emoji: '👤', href: '/lessons/beginner-a1/personalpronomen' },
@@ -31,84 +30,67 @@ const grammarTopics = [
 
 export default function BeginnerA1Lesson() {
   const router = useRouter();
-  const [searchQuery, setSearchQuery] = useState('');
-
-  const filteredTopics = grammarTopics.filter((topic) =>
-    topic.title.toLowerCase().includes(searchQuery.toLowerCase())
-  );
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-orange-300/40">
-      <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
+      <Navbar />
 
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between gap-2 mb-8">
+        <div className="flex items-center justify-between mb-8">
           <button
             onClick={() => router.push('/')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
           >
             <ArrowLeft size={20} />
-            <span className="hidden sm:inline">Back to Dashboard</span>
-            <span className="sm:hidden text-sm font-medium">Back</span>
+            <span>Back to Dashboard</span>
           </button>
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10 px-2">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
+        <div className="text-center mb-10">
+          <h1 className="text-4xl font-black text-slate-900 mb-3">
             Beginner A1
           </h1>
-          <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto">
+          <p className="text-slate-600 text-lg">
             Build a strong foundation in beginner German with essential grammar and vocabulary
           </p>
-          <p className="text-slate-500 mt-2 text-sm sm:text-base">
+          <p className="text-slate-500 mt-2">
             Master the fundamentals of German grammar with 20 essential topics
           </p>
         </div>
 
         {/* Topics Grid */}
-        <div>
-          <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-6">
-            {searchQuery ? `Search Results for "${searchQuery}"` : 'Grammar Topics'}
-          </h2>
-          {filteredTopics.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {filteredTopics.map((topic) => {
-                const card = (
-                  <div
-                    className={`backdrop-blur-xl bg-white/40 border border-white/30 rounded-2xl p-5 shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 group ${topic.href ? 'cursor-pointer' : 'cursor-default'}`}
-                  >
-                    <div className="flex items-center gap-4">
-                      <div className="w-14 h-14 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center text-2xl shadow-lg group-hover:scale-110 transition">
-                        {topic.emoji}
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="text-sm font-bold text-slate-900 leading-tight mb-1">
-                          {topic.title}
-                        </h3>
-                        {topic.href && (
-                          <span className="text-xs text-blue-600 font-medium">Click to learn →</span>
-                        )}
-                      </div>
-                    </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {grammarTopics.map((topic) => {
+            const card = (
+              <div
+                className={`backdrop-blur-xl bg-white/40 border border-white/30 rounded-2xl p-5 shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 group ${topic.href ? 'cursor-pointer' : 'cursor-default'}`}
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center text-2xl shadow-lg group-hover:scale-110 transition">
+                    {topic.emoji}
                   </div>
-                );
+                  <div className="flex-1">
+                    <h3 className="text-sm font-bold text-slate-900 leading-tight mb-1">
+                      {topic.title}
+                    </h3>
+                    {topic.href && (
+                      <span className="text-xs text-blue-600 font-medium">Click to learn →</span>
+                    )}
+                  </div>
+                </div>
+              </div>
+            );
 
-                return topic.href ? (
-                  <Link key={topic.href} href={topic.href} className="block">
-                    {card}
-                  </Link>
-                ) : (
-                  <div key={topic.title}>{card}</div>
-                );
-              })}
-            </div>
-          ) : (
-            <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
-              <p className="text-slate-600 text-lg">No grammar topics found matching your search.</p>
-            </div>
-          )}
+            return topic.href ? (
+              <Link key={topic.href} href={topic.href} className="block">
+                {card}
+              </Link>
+            ) : (
+              <div key={topic.title}>{card}</div>
+            );
+          })}
         </div>
 
         {/* Progress Summary */}

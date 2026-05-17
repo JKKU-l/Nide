@@ -108,44 +108,28 @@ export default function MyFamily() {
     return exerciseSection?.content.exercises || [];
   };
 
-  const playAudio = async () => {
-    try {
-      if (isPlaying) {
-        if (audioRef.current) {
-          audioRef.current.pause();
-          setIsPlaying(false);
-        }
-      } else {
-        if (audioRef.current) {
-          await audioRef.current.play();
-          setIsPlaying(true);
-        } else {
-          if (!topicData?.audio_file) {
-            console.warn("No audio file specified for this topic");
-            return;
-          }
-
-          const audio = new Audio(`/audio/${topicData.audio_file}`);
-          
-          audio.onerror = (e) => {
-            console.error("Audio failed to load:", e);
-            setIsPlaying(false);
-            audioRef.current = null;
-          };
-
-          audioRef.current = audio;
-          await audio.play();
-          setIsPlaying(true);
-          
-          audio.onended = () => {
-            setIsPlaying(false);
-            audioRef.current = null;
-          };
-        }
+  const playAudio = () => {
+    if (isPlaying) {
+      // Pause the audio
+      if (audioRef.current) {
+        audioRef.current.pause();
+        setIsPlaying(false);
       }
-    } catch (error) {
-      console.error("Audio playback error:", error);
-      setIsPlaying(false);
+    } else {
+      // Play or resume the audio
+      if (audioRef.current) {
+        audioRef.current.play();
+        setIsPlaying(true);
+      } else {
+        const audio = new Audio(`/audio/${topicData?.audio_file}`);
+        audioRef.current = audio;
+        audio.play();
+        setIsPlaying(true);
+        audio.onended = () => {
+          setIsPlaying(false);
+          audioRef.current = null;
+        };
+      }
     }
   };
 
@@ -197,48 +181,47 @@ export default function MyFamily() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        {/* Header */}
-        <div className="flex items-center justify-between gap-2 mb-8">
+        <div className="flex items-center gap-2 mb-8">
           <button
             onClick={() => router.push('/topics')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
           >
             <ArrowLeft size={20} />
-            <span className="hidden sm:inline">Back to Topics</span>
-            <span className="sm:hidden text-sm font-medium">Back</span>
+            <span>Back to Topics</span>
           </button>
         </div>
 
-        {/* Title */}
-        <div className="text-center mb-10 px-2">
+        {/* Title and Language Selector */}
+        <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4" style={{ backgroundColor: `${topicData?.theme_color}20` }}>
-            <BookOpen size={18} className="sm:size-5" style={{ color: topicData?.theme_color }} />
-            <span className="text-xs sm:text-sm font-medium" style={{ color: topicData?.theme_color }}>
+            <BookOpen size={20} style={{ color: topicData?.theme_color }} />
+            <span className="text-sm font-medium" style={{ color: topicData?.theme_color }}>
               {topicData?.difficulty} • {topicData?.duration_minutes} min
             </span>
           </div>
           
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
+          <h1 className="text-4xl font-black text-slate-900 mb-3">
             {topicData?.title}
           </h1>
-          <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto mb-6 px-4">
+          <p className="text-slate-600 max-w-2xl mx-auto mb-6">
             {topicData?.description}
           </p>
 
           {/* Language Selector */}
-          <div className="flex flex-wrap justify-center gap-2 mb-8 px-4">
+          <div className="flex flex-wrap justify-center gap-2 mb-6">
             {languages.map((lang) => (
               <button
                 key={lang.code}
                 onClick={() => setSelectedLanguage(lang.code)}
-                className={`flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl border transition text-sm sm:text-base ${
+                className={`px-4 py-2 rounded-xl font-medium transition flex items-center gap-2 ${
                   selectedLanguage === lang.code
-                    ? 'bg-white shadow-md border-blue-500 text-blue-600'
-                    : 'bg-white/40 border-white/30 hover:bg-white/60 text-slate-600'
+                    ? 'text-white shadow-lg'
+                    : 'bg-white/60 backdrop-blur-md border border-slate-300 hover:bg-slate-50 text-slate-700'
                 }`}
+                style={selectedLanguage === lang.code ? { backgroundColor: topicData?.theme_color } : {}}
               >
                 <span>{lang.flag}</span>
-                <span className="font-medium">{lang.name}</span>
+                {lang.name}
               </button>
             ))}
           </div>
@@ -246,14 +229,14 @@ export default function MyFamily() {
 
         {/* Story Section */}
         {storySection && (
-          <div className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 shadow-xl mb-8">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
-              <h2 className="text-xl sm:text-2xl font-bold text-slate-900">{storySection.title}</h2>
+          <div className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl mb-8">
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-2xl font-bold text-slate-900">{storySection.title}</h2>
               <button
                 onClick={playAudio}
-                className="flex items-center justify-center gap-2 px-4 py-2 rounded-xl font-medium transition bg-white/60 backdrop-blur-md border border-slate-300 hover:bg-slate-50 text-slate-700 text-sm sm:text-base"
+                className="flex items-center gap-2 px-4 py-2 rounded-xl font-medium transition bg-white/60 backdrop-blur-md border border-slate-300 hover:bg-slate-50 text-slate-700"
               >
-                {isPlaying ? <Pause size={18} className="sm:size-5" /> : <Play size={18} className="sm:size-5" />}
+                {isPlaying ? <Pause size={20} /> : <Play size={20} />}
                 <span>{isPlaying ? 'Pause' : 'Play Audio'}</span>
               </button>
             </div>
@@ -265,8 +248,8 @@ export default function MyFamily() {
                   <span className="text-lg">🇩🇪</span>
                   <h3 className="font-bold text-slate-900">Deutsch</h3>
                 </div>
-                <div className="backdrop-blur-md bg-white/30 border border-white/40 rounded-xl sm:rounded-2xl p-4 sm:p-6">
-                  <p className="text-sm sm:text-base text-slate-800 leading-relaxed whitespace-pre-line">
+                <div className="backdrop-blur-md bg-white/30 border border-white/40 rounded-2xl p-6">
+                  <p className="text-slate-800 leading-relaxed whitespace-pre-line">
                     {getGermanText()}
                   </p>
                 </div>
@@ -280,8 +263,8 @@ export default function MyFamily() {
                     {languages.find(l => l.code === selectedLanguage)?.name}
                   </h3>
                 </div>
-                <div className="backdrop-blur-md bg-white/30 border border-white/40 rounded-xl sm:rounded-2xl p-4 sm:p-6">
-                  <p className="text-sm sm:text-base text-slate-800 leading-relaxed whitespace-pre-line">
+                <div className="backdrop-blur-md bg-white/30 border border-white/40 rounded-2xl p-6">
+                  <p className="text-slate-800 leading-relaxed whitespace-pre-line">
                     {getTranslation()}
                   </p>
                 </div>
@@ -292,21 +275,21 @@ export default function MyFamily() {
 
         {/* SVG Illustration */}
         <div className="flex justify-center mb-8">
-          <div className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-xl">
+          <div className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl">
             <Image
               src="/cartoons/family.svg"
               alt="Family Illustration"
-              width={160}
-              height={160}
-              className="object-contain sm:w-[200px] sm:h-[200px]"
+              width={200}
+              height={200}
+              className="object-contain"
             />
           </div>
         </div>
 
         {/* Exercises Section */}
         {exercises.length > 0 && (
-          <div className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 shadow-xl">
-            <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-6">
+          <div className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl">
+            <h2 className="text-2xl font-bold text-slate-900 mb-6">
               Practice Exercises
             </h2>
 
@@ -314,24 +297,24 @@ export default function MyFamily() {
               {exercises.map((exercise, index) => (
                 <div
                   key={exercise.id}
-                  className={`backdrop-blur-md bg-white/30 border border-white/40 rounded-xl sm:rounded-2xl p-4 sm:p-6 ${
+                  className={`backdrop-blur-md bg-white/30 border border-white/40 rounded-2xl p-6 ${
                     showResults && isCorrect(exercise) ? 'border-green-400 bg-green-50/30' : ''
                   }`}
                 >
-                  <div className="flex items-start gap-3 sm:gap-4">
-                    <div className="flex-shrink-0 w-6 h-6 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-xs sm:text-sm font-bold text-white" style={{ backgroundColor: topicData?.theme_color }}>
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-bold text-white" style={{ backgroundColor: topicData?.theme_color }}>
                       {index + 1}
                     </div>
                     <div className="flex-1">
-                      <p className="text-sm sm:text-base text-slate-900 font-medium mb-4">{exercise.question}</p>
+                      <p className="text-slate-900 font-medium mb-4">{exercise.question}</p>
 
                       {exercise.type === 'multiple_choice' && exercise.options && (
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div className="grid grid-cols-2 gap-3">
                           {exercise.options.map((option) => (
                             <button
                               key={option}
                               onClick={() => handleAnswerChange(exercise.id, option)}
-                              className={`w-full p-4 rounded-xl font-medium transition text-sm sm:text-base ${
+                              className={`px-4 py-3 rounded-xl font-medium transition ${
                                 userAnswers[exercise.id] === option
                                   ? 'text-white shadow-lg'
                                   : 'bg-white/60 backdrop-blur-md border border-slate-300 hover:bg-slate-50 text-slate-700'
@@ -351,12 +334,10 @@ export default function MyFamily() {
                       {exercise.type === 'fill_blank' && (
                         <input
                           type="text"
-                          id={exercise.id.toString()}
-                          name={exercise.id.toString()}
                           value={userAnswers[exercise.id] || ''}
                           onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleAnswerChange(exercise.id, e.target.value)}
                           placeholder="Type your answer..."
-                          className="w-full px-4 py-2 sm:py-3 rounded-xl bg-white/60 backdrop-blur-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm sm:text-base text-slate-700"
+                          className="w-full px-4 py-3 rounded-xl bg-white/60 backdrop-blur-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-700"
                         />
                       )}
 
@@ -364,12 +345,12 @@ export default function MyFamily() {
                         <div className="mt-4 flex items-center gap-2">
                           {isCorrect(exercise) ? (
                             <>
-                              <CheckCircle size={18} className="text-green-600 sm:size-5" />
-                              <span className="text-sm sm:text-base text-green-600 font-medium">Correct!</span>
+                              <CheckCircle size={20} className="text-green-600" />
+                              <span className="text-green-600 font-medium">Correct!</span>
                             </>
                           ) : (
                             <>
-                              <span className="text-sm sm:text-base text-red-600 font-medium">
+                              <span className="text-red-600 font-medium">
                                 Incorrect. The answer is: {exercise.correct_answer || exercise.answer}
                               </span>
                             </>
@@ -385,7 +366,7 @@ export default function MyFamily() {
             {!showResults && (
               <button
                 onClick={checkAnswers}
-                className="mt-6 w-full px-6 py-3 sm:py-4 rounded-xl font-bold text-white shadow-lg transition hover:shadow-xl text-sm sm:text-base"
+                className="mt-6 w-full px-6 py-4 rounded-xl font-bold text-white shadow-lg transition hover:shadow-xl"
                 style={{ backgroundColor: topicData?.theme_color }}
               >
                 Check Answers

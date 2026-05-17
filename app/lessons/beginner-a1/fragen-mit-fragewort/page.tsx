@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
-import ResponsiveTable from '@/components/responsive-table';
 
 interface WHPositionTable {
   title: string;
@@ -104,14 +103,13 @@ export default function FragenMitFragewortLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between gap-2 mb-8">
+        <div className="flex items-center justify-between mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
           >
             <ArrowLeft size={20} />
-            <span className="hidden sm:inline">Back to Beginner A1</span>
-            <span className="sm:hidden text-sm font-medium">Back</span>
+            <span>Back to Beginner A1</span>
           </button>
 
           {/* Language Selector */}
@@ -148,12 +146,12 @@ export default function FragenMitFragewortLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10 px-2">
+        <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 rounded-full mb-4">
             <span className="text-2xl">❓</span>
             <span className="text-sm font-medium text-purple-700">Topic 9 of 20</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
+          <h1 className="text-4xl font-black text-slate-900 mb-3">
             {lessonData?.title}
           </h1>
         </div>
@@ -174,35 +172,50 @@ export default function FragenMitFragewortLesson() {
               {section.content.wh_position_table && (
                 <div className="bg-purple-50 rounded-xl p-6 mb-6">
                   <h3 className="text-lg font-bold text-purple-800 mb-4">📊 W-Question Position Chart</h3>
-                  <ResponsiveTable
-                    headers={section.content.wh_position_table.headers}
-                    rows={section.content.wh_position_table.rows.map((row) =>
-                      row.map((cell, j) => {
-                        const isGermanQuestion = j === 0 && cell.includes('?');
-                        const isGermanVerb = j === 1 && cell.length > 0;
-                        if (isGermanQuestion || isGermanVerb) {
-                          return (
-                            <div className="flex items-center gap-2">
-                              <span className="font-bold text-purple-700">{cell}</span>
-                              <button
-                                onMouseEnter={() => playGermanText(cell)}
-                                onClick={(e: React.MouseEvent) => {
-                                  e.stopPropagation();
-                                  playGermanText(cell);
-                                }}
-                                className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
-                              >
-                                <Volume2 size={12} className="text-purple-600" />
-                              </button>
-                            </div>
-                          );
-                        }
-                        return cell;
-                      })
-                    )}
-                    themeColor="purple"
-                    mobileCardTitleIndex={0}
-                  />
+                  <div className="overflow-x-auto">
+                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
+                      <thead className="bg-purple-100">
+                        <tr>
+                          {section.content.wh_position_table.headers.map((header, i) => (
+                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                              {header}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.content.wh_position_table.rows.map((row, i) => (
+                          <tr key={i} className="border-t border-purple-100">
+                            {row.map((cell, j) => {
+                              const isGermanQuestion = j === 0 && cell.includes('?');
+                              const isGermanVerb = j === 1 && cell.length > 0;
+                              return (
+                                <td key={j} className="px-4 py-3 text-slate-700">
+                                  {isGermanQuestion || isGermanVerb ? (
+                                    <div className="flex items-center gap-2">
+                                      <span className="font-bold text-purple-700">{cell}</span>
+                                      <button
+                                        onMouseEnter={() => playGermanText(cell)}
+                                        onClick={(e: React.MouseEvent) => {
+                                          e.stopPropagation();
+                                          playGermanText(cell);
+                                        }}
+                                        className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                                      >
+                                        <Volume2 size={12} className="text-purple-600" />
+                                      </button>
+                                    </div>
+                                  ) : (
+                                    cell
+                                  )}
+                                </td>
+                              );
+                            })}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                   {section.content.key_rule && (
                     <div className="mt-4 p-3 bg-purple-100 rounded-lg border border-purple-200">
                       <p className="text-sm font-medium text-purple-800">
@@ -225,35 +238,51 @@ export default function FragenMitFragewortLesson() {
 
                       {/* Table */}
                       {category.table && (
-                        <ResponsiveTable
-                          headers={category.table.headers}
-                          rows={category.table.rows.map((row) =>
-                            row.map((cell, j) => {
-                              const header = category.table?.headers[j] ?? '';
-                              const audioText = extractGermanText(cell);
-                              const showAudio = shouldShowAudioForTableCell(header, cell);
-                              return showAudio ? (
-                                <div className="flex items-center gap-2">
-                                  <span>{cell}</span>
-                                  <button
-                                    onMouseEnter={() => playGermanText(audioText)}
-                                    onClick={(e: React.MouseEvent) => {
-                                      e.stopPropagation();
-                                      playGermanText(audioText);
-                                    }}
-                                    className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
-                                  >
-                                    <Volume2 size={12} className="text-purple-600" />
-                                  </button>
-                                </div>
-                              ) : (
-                                cell
-                              );
-                            })
-                          )}
-                          themeColor="purple"
-                          mobileCardTitleIndex={0}
-                        />
+                        <div className="overflow-x-auto">
+                          <table className="w-full bg-white/70 rounded-lg overflow-hidden">
+                            <thead className="bg-purple-100">
+                              <tr>
+                                {category.table.headers.map((header, i) => (
+                                  <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                                    {header}
+                                  </th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {category.table.rows.map((row, i) => (
+                                <tr key={i} className="border-t border-purple-100">
+                                  {row.map((cell, j) => {
+                                    const header = category.table?.headers[j] ?? '';
+                                    const audioText = extractGermanText(cell);
+                                    const showAudio = shouldShowAudioForTableCell(header, cell);
+                                    return (
+                                      <td key={j} className="px-4 py-3 text-slate-700">
+                                        {showAudio ? (
+                                          <div className="flex items-center gap-2">
+                                            <span>{cell}</span>
+                                            <button
+                                              onMouseEnter={() => playGermanText(audioText)}
+                                              onClick={(e: React.MouseEvent) => {
+                                                e.stopPropagation();
+                                                playGermanText(audioText);
+                                              }}
+                                              className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                                            >
+                                              <Volume2 size={12} className="text-purple-600" />
+                                            </button>
+                                          </div>
+                                        ) : (
+                                          cell
+                                        )}
+                                      </td>
+                                    );
+                                  })}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
                       )}
 
                       {/* Examples */}
@@ -262,30 +291,21 @@ export default function FragenMitFragewortLesson() {
                           {category.examples.map((example, i) => {
                             const questionAudio = extractGermanText(example.question);
                             return (
-                              <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-purple-400">
-                                <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
-                                  <div className="flex flex-col items-start gap-1 flex-1 w-full">
-                                    <p className="text-sm sm:text-base font-bold text-purple-700 leading-tight w-full">
-                                      {example.question}
-                                    </p>
-                                    <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">
-                                      {example.answer}
-                                    </p>
-                                  </div>
-                                  <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-purple-100/50 pt-2 md:pt-0">
-                                    <span className="md:hidden text-[10px] font-bold text-purple-600 uppercase tracking-wider">Listen to pronunciation</span>
-                                    <button
-                                      onMouseEnter={() => playGermanText(questionAudio)}
-                                      onClick={(e: React.MouseEvent) => {
-                                        e.stopPropagation();
-                                        playGermanText(questionAudio);
-                                      }}
-                                      className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition flex-shrink-0 shadow-sm"
-                                    >
-                                      <Volume2 size={16} className="text-purple-600 sm:size-5" />
-                                    </button>
-                                  </div>
+                              <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-purple-400">
+                                <div className="flex items-center gap-2 mb-1">
+                                  <p className="font-medium text-purple-700">{example.question}</p>
+                                  <button
+                                    onMouseEnter={() => playGermanText(questionAudio)}
+                                    onClick={(e: React.MouseEvent) => {
+                                      e.stopPropagation();
+                                      playGermanText(questionAudio);
+                                    }}
+                                    className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                                  >
+                                    <Volume2 size={16} className="text-purple-600" />
+                                  </button>
                                 </div>
+                                <p className="text-sm text-slate-600">{example.answer}</p>
                               </div>
                             );
                           })}
@@ -299,13 +319,51 @@ export default function FragenMitFragewortLesson() {
               {/* Summary Table */}
               {section.content.summary_table && (
                 <div className="bg-purple-50 rounded-xl p-6">
-                  <h3 className="text-lg font-bold text-purple-800 mb-4">📊 Summary Table for Quick Reference</h3>
-                  <ResponsiveTable
-                    headers={section.content.summary_table.headers}
-                    rows={section.content.summary_table.rows}
-                    themeColor="purple"
-                    mobileCardTitleIndex={0}
-                  />
+                  <h3 className="text-lg font-bold text-purple-800 mb-4">📊 Summary Table for Students</h3>
+                  <p className="text-sm text-purple-700 mb-4">{section.description}</p>
+                  <div className="overflow-x-auto">
+                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
+                      <thead className="bg-purple-100">
+                        <tr>
+                          {section.content.summary_table.headers.map((header, i) => (
+                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                              {header}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.content.summary_table.rows.map((row, i) => (
+                          <tr key={i} className="border-t border-purple-100">
+                            {row.map((cell, j) => {
+                              const isGermanWord = j === 0 && cell.length > 0;
+                              return (
+                                <td key={j} className="px-4 py-3 text-slate-700">
+                                  {isGermanWord ? (
+                                    <div className="flex items-center gap-2">
+                                      <span className="font-bold text-purple-700">{cell}</span>
+                                      <button
+                                        onMouseEnter={() => playGermanText(cell)}
+                                        onClick={(e: React.MouseEvent) => {
+                                          e.stopPropagation();
+                                          playGermanText(cell);
+                                        }}
+                                        className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                                      >
+                                        <Volume2 size={12} className="text-purple-600" />
+                                      </button>
+                                    </div>
+                                  ) : (
+                                    cell
+                                  )}
+                                </td>
+                              );
+                            })}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               )}
             </div>

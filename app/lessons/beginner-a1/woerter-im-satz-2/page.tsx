@@ -2,10 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { Globe, ArrowLeft } from 'lucide-react';
+import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
-import TTSButton from '@/components/tts-button';
-import ResponsiveTable from '@/components/responsive-table';
+import { playGermanText } from '@/lib/tts';
 
 interface ExampleData {
   german: string;
@@ -102,29 +101,28 @@ export default function WoerterImSatz2Lesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between gap-2 mb-8">
+        <div className="flex items-center justify-between mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
           >
             <ArrowLeft size={20} />
-            <span className="hidden sm:inline">Back to Beginner A1</span>
-            <span className="sm:hidden text-sm font-medium">Back</span>
+            <span>Back to Beginner A1</span>
           </button>
 
           {/* Language Selector */}
           <div className="relative">
             <button
               onClick={() => setShowLangDropdown(!showLangDropdown)}
-              className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
+              className="flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
             >
               <Globe size={18} />
-              <span className="mr-0.5 sm:mr-1">{selectedLanguage?.flag}</span>
-              <span className="text-sm sm:text-base">{selectedLanguage?.name}</span>
+              <span className="mr-1">{selectedLanguage?.flag}</span>
+              <span>{selectedLanguage?.name}</span>
             </button>
 
             {showLangDropdown && (
-              <div className="absolute right-0 mt-2 w-40 sm:w-48 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl border border-white/30 z-50">
+              <div className="absolute right-0 mt-2 w-48 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl border border-white/30 z-50">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -146,12 +144,12 @@ export default function WoerterImSatz2Lesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10 px-2">
+        <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-100 rounded-full mb-4">
-            <span className="text-xl sm:text-2xl">📚</span>
-            <span className="text-xs sm:text-sm font-medium text-emerald-700">Topic 12 of 20</span>
+            <span className="text-2xl">📚</span>
+            <span className="text-sm font-medium text-emerald-700">Topic 12 of 20</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
+          <h1 className="text-4xl font-black text-slate-900 mb-3">
             {lessonData?.title}
           </h1>
         </div>
@@ -161,23 +159,41 @@ export default function WoerterImSatz2Lesson() {
           {lessonData?.sections.map((section) => (
             <div
               key={section.id}
-              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 shadow-xl"
+              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-8 shadow-xl"
             >
-              <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
+              <h2 className="text-2xl font-bold text-slate-900 mb-2">
                 {section.title}
               </h2>
-              <p className="text-sm sm:text-base text-slate-600 mb-6">{section.description}</p>
+              <p className="text-slate-600 mb-6">{section.description}</p>
 
               {/* Examples Table */}
               {section.content.examples_table && (
-                <div className="bg-emerald-50 rounded-xl p-4 sm:p-6 mb-6">
-                  <h3 className="text-base sm:text-lg font-bold text-emerald-800 mb-4">📋 Examples</h3>
-                  <ResponsiveTable
-                    headers={section.content.examples_table.headers}
-                    rows={section.content.examples_table.rows}
-                    themeColor="emerald"
-                    mobileCardTitleIndex={0}
-                  />
+                <div className="bg-emerald-50 rounded-xl p-6 mb-6">
+                  <h3 className="text-lg font-bold text-emerald-800 mb-4">📋 Examples</h3>
+                  <div className="overflow-x-auto">
+                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
+                      <thead className="bg-emerald-100">
+                        <tr>
+                          {section.content.examples_table.headers.map((header, i) => (
+                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                              {header}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.content.examples_table.rows.map((row, i) => (
+                          <tr key={i} className="border-t border-emerald-100">
+                            {row.map((cell, j) => (
+                              <td key={j} className="px-4 py-3 text-slate-700">
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               )}
 
@@ -185,46 +201,37 @@ export default function WoerterImSatz2Lesson() {
               {section.content.categories && (
                 <div className="space-y-6">
                   {section.content.categories.map((category, categoryIndex) => (
-                    <div key={categoryIndex} className="bg-emerald-50 rounded-xl p-4 sm:p-6">
-                      <h3 className="text-base sm:text-lg font-bold text-emerald-800 mb-4">
+                    <div key={categoryIndex} className="bg-emerald-50 rounded-xl p-6">
+                      <h3 className="text-lg font-bold text-emerald-800 mb-4">
                         {category.category}
                       </h3>
-                      <p className="text-sm sm:text-base text-slate-700 mb-4">{category.description}</p>
+                      <p className="text-slate-700 mb-4">{category.description}</p>
                       
                       {/* Rule */}
-                      <div className="bg-emerald-100 rounded-lg p-3 sm:p-4 mb-4">
-                        <p className="text-sm sm:text-base font-medium text-emerald-800">{category.rule}</p>
+                      <div className="bg-emerald-100 rounded-lg p-4 mb-4">
+                        <p className="font-medium text-emerald-800">{category.rule}</p>
                       </div>
 
                       {/* Examples */}
                       {category.examples && (
                         <div className="space-y-4">
                           {category.examples.map((example, i) => (
-                            <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-emerald-400">
-                              <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
-                                <div className="flex flex-col items-start gap-1 flex-1 w-full">
-                                  <p className="text-sm sm:text-base font-bold text-emerald-700 leading-tight w-full">
-                                    {example.german}
-                                  </p>
-                                  <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">
-                                    {example.translation}
-                                  </p>
-                                  {example.explanation && (
-                                    <p className="text-[10px] sm:text-xs text-slate-500 italic border-t border-emerald-50/50 pt-1 mt-1 w-full">
-                                      {example.explanation}
-                                    </p>
-                                  )}
-                                </div>
-                                <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-emerald-100/50 pt-2 md:pt-0">
-                                  <span className="md:hidden text-[10px] font-bold text-emerald-600 uppercase tracking-wider">Listen to pronunciation</span>
-                                  <TTSButton
-                                    text={example.german}
-                                    size="sm"
-                                    className="bg-emerald-100 hover:bg-emerald-200"
-                                    title="Listen to pronunciation"
-                                  />
-                                </div>
+                            <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-emerald-400">
+                              <div className="flex items-center gap-2 mb-2">
+                                <p className="font-bold text-emerald-700">{example.german}</p>
+                                <button
+                                  onMouseEnter={() => playGermanText(example.german)}
+                                  onClick={(e: React.MouseEvent) => {
+                                    e.stopPropagation();
+                                    playGermanText(example.german);
+                                  }}
+                                  className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition"
+                                >
+                                  <Volume2 size={16} className="text-emerald-600" />
+                                </button>
                               </div>
+                              <p className="text-sm text-slate-600 mb-2">{example.translation}</p>
+                              <p className="text-sm text-slate-500 italic">{example.explanation}</p>
                             </div>
                           ))}
                         </div>
@@ -236,33 +243,30 @@ export default function WoerterImSatz2Lesson() {
 
               {/* Example Intro */}
               {section.content.example_intro && (
-                <div className="bg-emerald-50 rounded-xl p-4 sm:p-6 mb-6 mt-6">
-                  <h3 className="text-base sm:text-lg font-bold text-emerald-800 mb-4">📝 Example</h3>
-                  <p className="text-sm sm:text-base text-slate-700 font-medium mb-4">{section.content.example_intro}</p>
+                <div className="bg-emerald-50 rounded-xl p-6 mb-6">
+                  <h3 className="text-lg font-bold text-emerald-800 mb-4">📝 Example</h3>
+                  <p className="text-slate-700 font-medium mb-4">{section.content.example_intro}</p>
                   
                   {/* Examples */}
                   {section.content.examples && (
                     <div className="space-y-3">
                       {section.content.examples.map((example, i) => (
-                        <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-emerald-400">
-                          <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
-                            <div className="flex flex-col items-start gap-1 flex-1 w-full">
-                              <p className="text-sm sm:text-base font-bold text-emerald-700 leading-tight w-full">
-                                {example.german}
-                              </p>
-                              <p className="text-xs sm:text-sm text-emerald-600 font-medium italic leading-relaxed w-full">
-                                {example.translation}
-                              </p>
+                        <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-emerald-400">
+                          <div className="flex items-center justify-between mb-2">
+                            <div className="flex items-center gap-2">
+                              <p className="font-bold text-emerald-700">{example.german}</p>
+                              <button
+                                onMouseEnter={() => playGermanText(example.german)}
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  playGermanText(example.german);
+                                }}
+                                className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition"
+                              >
+                                <Volume2 size={16} className="text-emerald-600" />
+                              </button>
                             </div>
-                            <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-emerald-100/50 pt-2 md:pt-0">
-                              <span className="md:hidden text-[10px] font-bold text-emerald-600 uppercase tracking-wider">Listen to pronunciation</span>
-                              <TTSButton
-                                text={example.german}
-                                size="sm"
-                                className="bg-emerald-100 hover:bg-emerald-200"
-                                title="Listen to pronunciation"
-                              />
-                            </div>
+                            <span className="text-sm text-emerald-600 font-medium">{example.translation}</span>
                           </div>
                         </div>
                       ))}
@@ -283,12 +287,30 @@ export default function WoerterImSatz2Lesson() {
                 <div className="bg-emerald-50 rounded-xl p-6">
                   <h3 className="text-lg font-bold text-emerald-800 mb-4">📊 Quick Reference Summary Table</h3>
                   <p className="text-sm text-emerald-700 mb-4">{section.description}</p>
-                  <ResponsiveTable
-                    headers={section.content.summary_table.headers}
-                    rows={section.content.summary_table.rows}
-                    themeColor="emerald"
-                    mobileCardTitleIndex={0}
-                  />
+                  <div className="overflow-x-auto">
+                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
+                      <thead className="bg-emerald-100">
+                        <tr>
+                          {section.content.summary_table.headers.map((header, i) => (
+                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                              {header}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.content.summary_table.rows.map((row, i) => (
+                          <tr key={i} className="border-t border-emerald-100">
+                            {row.map((cell, j) => (
+                              <td key={j} className="px-4 py-3 text-slate-700">
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               )}
             </div>

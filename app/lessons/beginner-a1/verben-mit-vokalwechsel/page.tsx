@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
-import ResponsiveTable from '@/components/responsive-table';
 
 interface TableData {
   headers: string[];
@@ -111,14 +110,13 @@ export default function VerbenMitVokalwechselLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between gap-2 mb-8">
+        <div className="flex items-center justify-between mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
           >
             <ArrowLeft size={20} />
-            <span className="hidden sm:inline">Back to Beginner A1</span>
-            <span className="sm:hidden text-sm font-medium">Back</span>
+            <span>Back to Beginner A1</span>
           </button>
 
           {/* Language Selector */}
@@ -155,15 +153,15 @@ export default function VerbenMitVokalwechselLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10 px-2">
+        <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 rounded-full mb-4">
             <span className="text-2xl">🔄</span>
             <span className="text-sm font-medium text-purple-700">Topic 4 of 20</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
+          <h1 className="text-4xl font-black text-slate-900 mb-3">
             {lessonData?.title}
           </h1>
-          <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto">
+          <p className="text-slate-600 text-lg">
             {lessonData?.subtitle}
           </p>
         </div>
@@ -182,35 +180,48 @@ export default function VerbenMitVokalwechselLesson() {
 
               {/* Table Content */}
               {section.content.table && (
-                <div className="mb-6">
-                  <ResponsiveTable
-                    headers={section.content.table.headers}
-                    rows={section.content.table.rows.map((row) =>
-                      row.map((cell, j) => {
-                        const isGermanForm = [2, 3].includes(j) && cell.length > 0;
-                        if (isGermanForm) {
-                          return (
-                            <div className="flex items-center justify-between w-full gap-4">
-                              <span className="text-sm sm:text-base font-bold text-purple-700 leading-tight flex-1">{cell}</span>
-                              <button
-                                onMouseEnter={() => playGermanText(cell)}
-                                onClick={(e: React.MouseEvent) => {
-                                  e.stopPropagation();
-                                  playGermanText(cell);
-                                }}
-                                className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition flex-shrink-0 shadow-sm"
-                              >
-                                <Volume2 size={12} className="text-purple-600" />
-                              </button>
-                            </div>
-                          );
-                        }
-                        return cell;
-                      })
-                    )}
-                    themeColor="purple"
-                    mobileCardTitleIndex={0}
-                  />
+                <div className="overflow-x-auto mb-6">
+                  <table className="w-full bg-white/50 rounded-xl overflow-hidden">
+                    <thead className="bg-purple-100">
+                      <tr>
+                        {section.content.table.headers.map((header, i) => (
+                          <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                            {header}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {section.content.table.rows.map((row, i) => (
+                        <tr key={i} className="border-t border-white/30">
+                          {row.map((cell, j) => {
+                            const isGermanVerb = j >= 1 && cell.length > 0;
+                            return (
+                              <td key={j} className="px-4 py-3 text-slate-700">
+                                {isGermanVerb ? (
+                                  <div className="flex items-center gap-2">
+                                    <span className="font-bold text-purple-700">{cell}</span>
+                                    <button
+                                      onMouseEnter={() => playGermanText(cell)}
+                                      onClick={(e: React.MouseEvent) => {
+                                        e.stopPropagation();
+                                        playGermanText(cell);
+                                      }}
+                                      className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                                    >
+                                      <Volume2 size={12} className="text-purple-600" />
+                                    </button>
+                                  </div>
+                                ) : (
+                                  cell
+                                )}
+                              </td>
+                            );
+                          })}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
               )}
 
@@ -285,15 +296,15 @@ export default function VerbenMitVokalwechselLesson() {
                         <div key={i} className="bg-white/50 rounded-xl p-4 border border-purple-200">
                           <div className="space-y-2">
                             {exercise.conjugated && (
-                              <div className="flex items-center justify-between w-full gap-4">
-                                <span className="text-sm sm:text-base font-bold text-purple-700 leading-tight flex-1">{exercise.conjugated}</span>
+                              <div className="flex items-center gap-2">
+                                <span className="font-bold text-purple-700">{exercise.conjugated}</span>
                                 <button
                                   onMouseEnter={() => exercise.conjugated && playGermanText(exercise.conjugated)}
                                   onClick={(e: React.MouseEvent) => {
                                     e.stopPropagation();
                                     exercise.conjugated && playGermanText(exercise.conjugated);
                                   }}
-                                  className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition flex-shrink-0 shadow-sm"
+                                  className="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
                                 >
                                   <Volume2 size={12} className="text-purple-600" />
                                 </button>

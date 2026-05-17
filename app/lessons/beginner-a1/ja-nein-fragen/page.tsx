@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
-import ResponsiveTable from '@/components/responsive-table';
 
 interface CategoryData {
   category: string;
@@ -93,14 +92,13 @@ export default function JaNeinFragenLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between gap-2 mb-8">
+        <div className="flex items-center justify-between mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
           >
             <ArrowLeft size={20} />
-            <span className="hidden sm:inline">Back to Beginner A1</span>
-            <span className="sm:hidden text-sm font-medium">Back</span>
+            <span>Back to Beginner A1</span>
           </button>
 
           {/* Language Selector */}
@@ -137,12 +135,12 @@ export default function JaNeinFragenLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10 px-2">
+        <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-teal-100 rounded-full mb-4">
             <span className="text-2xl">👍👎</span>
             <span className="text-sm font-medium text-teal-700">Topic 10 of 20</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
+          <h1 className="text-4xl font-black text-slate-900 mb-3">
             {lessonData?.title}
           </h1>
         </div>
@@ -171,47 +169,57 @@ export default function JaNeinFragenLesson() {
 
                       {/* Table */}
                       {category.table && (
-                        <ResponsiveTable
-                          headers={category.table.headers}
-                          rows={category.table.rows}
-                          themeColor="emerald"
-                          mobileCardTitleIndex={0}
-                        />
+                        <div className="overflow-x-auto">
+                          <table className="w-full bg-white/70 rounded-lg overflow-hidden">
+                            <thead className="bg-teal-100">
+                              <tr>
+                                {category.table.headers.map((header, i) => (
+                                  <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                                    {header}
+                                  </th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {category.table.rows.map((row, i) => (
+                                <tr key={i} className="border-t border-teal-100">
+                                  {row.map((cell, j) => (
+                                    <td key={j} className="px-4 py-3 text-slate-700">
+                                      {cell}
+                                    </td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
                       )}
 
                       {/* Examples */}
                       {category.examples && (
                         <div className="mt-4 space-y-3">
                           {category.examples.map((example, i) => (
-                            <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-teal-400">
-                              <div className="flex flex-col gap-3">
-                                {/* Question Row */}
-                                <div className="flex items-start justify-between w-full gap-4">
-                                  <div className="flex flex-col items-start gap-1 flex-1">
-                                    <span className="text-[10px] sm:text-xs font-bold text-teal-700 uppercase tracking-wider">Question</span>
-                                    <p className="text-sm sm:text-base font-medium text-slate-900 leading-tight">
-                                      {example.question}
-                                    </p>
-                                  </div>
-                                  <button
-                                    onMouseEnter={() => playGermanText(example.question)}
-                                    onClick={(e: React.MouseEvent) => {
-                                      e.stopPropagation();
-                                      playGermanText(example.question);
-                                    }}
-                                    className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-100 flex items-center justify-center hover:bg-teal-200 transition flex-shrink-0 shadow-sm"
-                                  >
-                                    <Volume2 size={16} className="text-teal-600 sm:size-5" />
-                                  </button>
-                                </div>
-                                {/* Answer Row */}
-                                <div className="flex flex-col items-start gap-1 pt-2 border-t border-teal-50">
-                                  <span className="text-[10px] sm:text-xs font-bold text-teal-700 uppercase tracking-wider">Answer</span>
-                                  <p className="text-sm sm:text-base text-slate-600 italic leading-relaxed">
-                                    {example.answer}
-                                  </p>
-                                </div>
+                            <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-teal-400">
+                              <div className="flex items-start justify-between mb-2">
+                                <span className="font-bold text-teal-700">Question:</span>
                               </div>
+                              <div className="flex items-center gap-2 mb-1">
+                                <p className="font-medium text-slate-900">{example.question}</p>
+                                <button
+                                  onMouseEnter={() => playGermanText(example.question)}
+                                  onClick={(e: React.MouseEvent) => {
+                                    e.stopPropagation();
+                                    playGermanText(example.question);
+                                  }}
+                                  className="w-8 h-8 rounded-full bg-teal-100 flex items-center justify-center hover:bg-teal-200 transition"
+                                >
+                                  <Volume2 size={16} className="text-teal-600" />
+                                </button>
+                              </div>
+                              <div className="flex items-start gap-2 mb-1">
+                                <span className="font-bold text-teal-700">Answer:</span>
+                              </div>
+                              <p className="text-sm text-slate-600">{example.answer}</p>
                             </div>
                           ))}
                         </div>
@@ -232,12 +240,30 @@ export default function JaNeinFragenLesson() {
               {section.content.summary_table && (
                 <div className="bg-teal-50 rounded-xl p-6">
                   <h3 className="text-lg font-bold text-teal-800 mb-4">📊 Summary Table for Quick Learning</h3>
-                  <ResponsiveTable
-                    headers={section.content.summary_table.headers}
-                    rows={section.content.summary_table.rows}
-                    themeColor="emerald"
-                    mobileCardTitleIndex={0}
-                  />
+                  <div className="overflow-x-auto">
+                    <table className="w-full bg-white/70 rounded-lg overflow-hidden">
+                      <thead className="bg-teal-100">
+                        <tr>
+                          {section.content.summary_table.headers.map((header, i) => (
+                            <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                              {header}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.content.summary_table.rows.map((row, i) => (
+                          <tr key={i} className="border-t border-teal-100">
+                            {row.map((cell, j) => (
+                              <td key={j} className="px-4 py-3 text-slate-700">
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               )}
             </div>

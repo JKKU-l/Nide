@@ -40,7 +40,6 @@ export default function BodyHealthVocabulary() {
   const [vocabularyData, setVocabularyData] = useState<VocabularyData | null>(null);
   const [loading, setLoading] = useState(true);
   const [showLangDropdown, setShowLangDropdown] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetchVocabularyData(selectedLang);
@@ -58,12 +57,6 @@ export default function BodyHealthVocabulary() {
       setLoading(false);
     }
   };
-
-  const filteredVocabulary = vocabularyData?.vocabulary.filter((item) =>
-    item.german.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    item.word.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    getTranslation(item, selectedLang).toLowerCase().includes(searchQuery.toLowerCase())
-  );
 
   const extractGermanText = (text: string) => {
     if (!text) return '';
@@ -97,7 +90,7 @@ export default function BodyHealthVocabulary() {
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-300/40 via-white to-blue-300/40">
-        <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
+        <Navbar />
         <div className="flex items-center justify-center h-[calc(100vh-80px)]">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600"></div>
         </div>
@@ -107,7 +100,7 @@ export default function BodyHealthVocabulary() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-300/40 via-white to-blue-300/40">
-      <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
+      <Navbar />
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
@@ -166,58 +159,45 @@ export default function BodyHealthVocabulary() {
         </div>
 
         {/* Vocabulary Grid */}
-        <div>
-          {searchQuery && (
-            <h2 className="text-2xl font-bold text-slate-900 mb-6">
-              Search Results for "{searchQuery}"
-            </h2>
-          )}
-          {filteredVocabulary && filteredVocabulary.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredVocabulary.map((item, index) => (
-                <div
-                  key={index}
-                  className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-white/60"
-                >
-                  <div className="space-y-4">
-                    {/* Article Badge */}
-                    <div className="inline-flex items-center gap-2 px-3 py-1 bg-purple-100 rounded-full">
-                      <span className="text-sm font-bold text-purple-700">{item.article}</span>
-                      <span className="text-xs text-purple-600">({item.article === 'der' ? 'masculine' : item.article === 'die' ? 'feminine' : 'neutral'})</span>
-                    </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {vocabularyData?.vocabulary.map((item, index) => (
+            <div
+              key={index}
+              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-white/60"
+            >
+              <div className="space-y-4">
+                {/* Article Badge */}
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-purple-100 rounded-full">
+                  <span className="text-sm font-bold text-purple-700">{item.article}</span>
+                  <span className="text-xs text-purple-600">({item.article === 'der' ? 'masculine' : item.article === 'die' ? 'feminine' : 'neutral'})</span>
+                </div>
 
-                    {/* German Word */}
-                    <div className="space-y-2">
-                      <h3 className="text-2xl font-bold text-slate-900">{item.word}</h3>
-                      <div className="flex items-center gap-2">
-                        <p className="text-lg text-slate-700">{item.german}</p>
-                        <button
-                          onMouseEnter={() => playGermanText(extractGermanText(item.german))}
-                          onClick={(e: React.MouseEvent) => {
-                            e.stopPropagation();
-                            playGermanText(extractGermanText(item.german));
-                          }}
-                          className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
-                        >
-                          <Volume2 size={16} className="text-purple-600" />
-                        </button>
-                      </div>
-                    </div>
-
-                    {/* Translation */}
-                    <div className="border-t border-purple-200 pt-3">
-                      <p className="text-sm text-slate-500 mb-1">Translation:</p>
-                      <p className="text-lg font-medium text-slate-800">{getTranslation(item, selectedLang)}</p>
-                    </div>
+                {/* German Word */}
+                <div className="space-y-2">
+                  <h3 className="text-2xl font-bold text-slate-900">{item.word}</h3>
+                  <div className="flex items-center gap-2">
+                    <p className="text-lg text-slate-700">{item.german}</p>
+                    <button
+                      onMouseEnter={() => playGermanText(extractGermanText(item.german))}
+                      onClick={(e: React.MouseEvent) => {
+                        e.stopPropagation();
+                        playGermanText(extractGermanText(item.german));
+                      }}
+                      className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center hover:bg-purple-200 transition"
+                    >
+                      <Volume2 size={16} className="text-purple-600" />
+                    </button>
                   </div>
                 </div>
-              ))}
+
+                {/* Translation */}
+                <div className="border-t border-purple-200 pt-3">
+                  <p className="text-sm text-slate-500 mb-1">Translation:</p>
+                  <p className="text-lg font-medium text-slate-800">{getTranslation(item, selectedLang)}</p>
+                </div>
+              </div>
             </div>
-          ) : (
-            <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
-              <p className="text-slate-600 text-lg">No vocabulary found matching your search.</p>
-            </div>
-          )}
+          ))}
         </div>
 
         {/* Learning Tips */}

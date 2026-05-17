@@ -47,15 +47,10 @@ const vocabularyTopics: VocabularyTopic[] = [
 
 export default function VocabularyPage() {
   const router = useRouter();
-  const [searchQuery, setSearchQuery] = useState('');
-
-  const filteredTopics = vocabularyTopics.filter((topic) =>
-    topic.title.toLowerCase().includes(searchQuery.toLowerCase())
-  );
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-300/40 via-white to-blue-300/40">
-      <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
+      <Navbar />
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
@@ -95,47 +90,36 @@ export default function VocabularyPage() {
         </div>
 
         {/* Vocabulary Topics Grid */}
-        <div>
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">
-            {searchQuery ? `Search Results for "${searchQuery}"` : 'All Vocabulary Topics'}
-          </h2>
-          {filteredTopics.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {filteredTopics.map((topic, index) => (
-                <div
-                  key={index}
-                  className="group cursor-pointer"
-                  onClick={() => {
-                    if (topic.href) {
-                      router.push(topic.href);
-                    } else {
-                      // For topics without href, show coming soon message
-                      alert(`Vocabulary topic "${topic.title}" will be implemented with individual pages containing vocabulary lists, audio pronunciation, and interactive exercises.`);
-                    }
-                  }}
-                >
-                  <div className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-white/60">
-                    <div className="flex flex-col items-center text-center space-y-4">
-                      <div className="text-5xl group-hover:scale-110 transition-transform duration-300">
-                        {topic.emoji}
-                      </div>
-                      <h3 className="text-lg font-bold text-slate-900 group-hover:text-purple-700 transition-colors">
-                        {topic.title}
-                      </h3>
-                      <div className="flex items-center gap-2 text-sm text-slate-500">
-                        <span>{topic.href ? 'Ready' : 'Coming Soon'}</span>
-                        <span>→</span>
-                      </div>
-                    </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {vocabularyTopics.map((topic, index) => (
+            <div
+              key={index}
+              className="group cursor-pointer"
+              onClick={() => {
+                if (topic.href) {
+                  router.push(topic.href);
+                } else {
+                  // For topics without href, show coming soon message
+                  alert(`Vocabulary topic "${topic.title}" will be implemented with individual pages containing vocabulary lists, audio pronunciation, and interactive exercises.`);
+                }
+              }}
+            >
+              <div className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-white/60">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="text-5xl group-hover:scale-110 transition-transform duration-300">
+                    {topic.emoji}
+                  </div>
+                  <h3 className="text-lg font-bold text-slate-900 group-hover:text-purple-700 transition-colors">
+                    {topic.title}
+                  </h3>
+                  <div className="flex items-center gap-2 text-sm text-slate-500">
+                    <span>{topic.href ? 'Ready' : 'Coming Soon'}</span>
+                    <span>→</span>
                   </div>
                 </div>
-              ))}
+              </div>
             </div>
-          ) : (
-            <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
-              <p className="text-slate-600 text-lg">No vocabulary topics found matching your search.</p>
-            </div>
-          )}
+          ))}
         </div>
 
         {/* Footer Info */}

@@ -151,16 +151,10 @@ const topics: Topic[] = [
 
 export default function OfficeDailyLife() {
   const router = useRouter();
-  const [searchQuery, setSearchQuery] = useState('');
-
-  const filteredTopics = topics.filter((topic) =>
-    topic.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    topic.description.toLowerCase().includes(searchQuery.toLowerCase())
-  );
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-purple-300/40">
-      <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
+      <Navbar />
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
@@ -189,91 +183,73 @@ export default function OfficeDailyLife() {
         </div>
 
         {/* Topics Grid */}
-        <div>
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">
-            {searchQuery ? `Search Results for "${searchQuery}"` : 'All Topics'}
-          </h2>
-          {filteredTopics.length > 0 ? ( 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredTopics.map((topic) => (
-                <div
-                  key={topic.id}
-                  className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-white/60 cursor-pointer"
-                  onClick={() => {
-                    if (topic.id === 'daily_routine_time') {
-                      router.push('/office-daily-life/daily-routine-time');
-                    } else if (topic.id === 'home_living') {
-                      router.push('/office-daily-life/home-living');
-                    } else if (topic.id === 'family_relationships') {
-                      router.push('/office-daily-life/family-relationships');
-                    } else if (topic.id === 'social_life_community') {
-                      router.push('/office-daily-life/social-life-community');
-                    } else if (topic.id === 'food_cooking') {
-                      router.push('/office-daily-life/food-cooking');
-                    } else if (topic.id === 'clothing_appearance') {
-                      router.push('/office-daily-life/clothing-appearance');
-                    } else if (topic.id === 'shopping_market') {
-                      router.push('/office-daily-life/shopping-market');
-                    } else if (topic.id === 'health_body') {
-                      router.push('/vocabulary/body-health');
-                    } else if (topic.id === 'work_office') {
-                      router.push('/vocabulary/work');
-                    } else {
-                      alert(`Topic "${topic.title}" will be implemented soon!`);
-                    }
-                  }}
-                >
-                  <div className="flex flex-col items-center space-y-4">
-                    {/* Icon */}
-                    <div 
-                      className="w-20 h-20 rounded-2xl flex items-center justify-center text-4xl bg-white shadow-lg"
-                      style={{ backgroundColor: `${topic.color}20` }}
-                    >
-                      {topic.emoji}
-                    </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {topics.map((topic) => (
+            <div
+              key={topic.id}
+              className="backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-white/60 cursor-pointer"
+              onClick={() => {
+                if (topic.id === 'daily_routine_time') {
+                  router.push('/office-daily-life/daily-routine-time');
+                } else if (topic.id === 'home_living') {
+                  router.push('/office-daily-life/home-living');
+                } else if (topic.id === 'family_relationships') {
+                  router.push('/office-daily-life/family-relationships');
+                } else if (topic.id === 'social_life_community') {
+                  router.push('/office-daily-life/social-life-community');
+                } else if (topic.id === 'food_cooking') {
+                  router.push('/office-daily-life/food-cooking');
+                } else if (topic.id === 'clothing_appearance') {
+                  router.push('/office-daily-life/clothing-appearance');
+                } else if (topic.id === 'shopping_market') {
+                  router.push('/office-daily-life/shopping-market');
+                } else if (topic.id === 'health_body' || 
+                    topic.id === 'work_office') {
+                  alert(`Topic "${topic.title}" will be implemented soon!`);
+                } else {
+                  alert(`Vocabulary topic "${topic.title}" will be implemented...`);
+                }
+              }}
+            >
+              <div className="space-y-4">
+                {/* Emoji */}
+                <div className="text-5xl text-center">{topic.emoji}</div>
 
-                    {/* Title */}
-                    <h3 className="text-lg font-bold text-slate-900 text-center">
-                      {topic.title}
-                    </h3>
+                {/* Title */}
+                <h3 className="text-xl font-bold text-slate-900 text-center">{topic.title}</h3>
 
-                    {/* Description */}
-                    <p className="text-sm text-slate-600 text-center leading-tight">
-                      {topic.description}
-                    </p>
+                {/* Description */}
+                <p className="text-sm text-slate-600 text-center">{topic.description}</p>
 
-                    {/* Status Badge */}
-                    <div className="mt-2">
-                      <span className={`px-3 py-1 rounded-full text-xs font-bold ${
-                        topic.id === 'daily_routine_time' || 
-                        topic.id === 'home_living' || 
-                        topic.id === 'family_relationships' || 
-                        topic.id === 'social_life_community' || 
-                        topic.id === 'food_cooking' || 
-                        topic.id === 'clothing_appearance' || 
-                        topic.id === 'shopping_market' || 
-                        topic.id === 'health_body' || 
-                        topic.id === 'work_office' ? 'bg-blue-100 text-blue-700' : 'bg-gray-100 text-gray-600'}`}>
-                        {topic.id === 'daily_routine_time' || 
-                        topic.id === 'home_living' || 
-                        topic.id === 'family_relationships' || 
-                        topic.id === 'social_life_community' || 
-                        topic.id === 'food_cooking' || 
-                        topic.id === 'clothing_appearance' || 
-                        topic.id === 'shopping_market' || 
-                        topic.id === 'health_body' || 
-                        topic.id === 'work_office' ? 'Ready' : 'Coming Soon'}
-                      </span>
-                    </div>
-                  </div>
+                {/* Status Badge */}
+                <div className="text-center">
+                  <span className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium ${
+                    topic.id === 'daily_routine_time' || 
+                    topic.id === 'home_living' || 
+                    topic.id === 'family_relationships' || 
+                    topic.id === 'social_life_community' || 
+                    topic.id === 'food_cooking' || 
+                    topic.id === 'clothing_appearance' || 
+                    topic.id === 'shopping_market' || 
+                    topic.id === 'health_body' || 
+                    topic.id === 'work_office' 
+                      ? 'bg-green-100 text-green-700' 
+                      : 'bg-gray-100 text-gray-700'
+                  }`}>
+                    {topic.id === 'daily_routine_time' || 
+                     topic.id === 'home_living' || 
+                     topic.id === 'family_relationships' || 
+                     topic.id === 'social_life_community' || 
+                     topic.id === 'food_cooking' || 
+                     topic.id === 'clothing_appearance' || 
+                     topic.id === 'shopping_market' || 
+                     topic.id === 'health_body' || 
+                     topic.id === 'work_office' ? 'Ready' : 'Coming Soon'}
+                  </span>
                 </div>
-              ))}
+              </div>
             </div>
-          ) : (
-            <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
-              <p className="text-slate-600 text-lg">No topics found matching your search.</p>
-            </div>
-          )}
+          ))}
         </div>
 
         {/* Learning Tips */}

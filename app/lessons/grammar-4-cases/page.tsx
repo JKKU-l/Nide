@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import { ArrowLeft, BookOpen, Globe, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
-import ResponsiveTable from '@/components/responsive-table';
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */
@@ -282,27 +281,16 @@ export default function Grammar4CasesPage() {
                   <div className="space-y-6">
                     {/* Questions (Dativ identification) */}
                     {section.content.questions && (
-                      <div className="bg-emerald-50/60 rounded-xl p-4 sm:p-6 space-y-4">
+                      <div className="bg-emerald-50/60 rounded-xl p-6 space-y-4">
                         {section.content.questions.map((q: any, i: number) => (
-                          <div key={i} className="bg-white/70 rounded-lg p-3 sm:p-4 border-l-4 border-emerald-400">
-                            <div className="flex items-center justify-between w-full gap-4">
-                              <div className="flex flex-col items-start gap-1 flex-1">
-                                <p className="text-xs sm:text-sm font-bold text-emerald-700 mb-1 uppercase tracking-wider">{q.question}</p>
-                                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-2">{q.explanation}</p>
-                                <p className="text-sm sm:text-base font-bold text-slate-900 leading-tight">
-                                  {q.german}
-                                </p>
-                                <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed">
-                                  {q.translation}
-                                </p>
-                              </div>
-                              <button
-                                onClick={() => playGermanText(extractGermanText(q.german))}
-                                className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0 shadow-sm"
-                              >
-                                <Volume2 size={16} className="text-emerald-600 sm:size-5" />
-                              </button>
+                          <div key={i} className="bg-white/70 rounded-lg p-4 border-l-4 border-emerald-400">
+                            <p className="text-sm font-bold text-emerald-700 mb-1">{q.question}</p>
+                            <p className="text-sm text-slate-600 mb-2">{q.explanation}</p>
+                            <div className="flex items-center gap-2 mb-1">
+                              <p className="font-bold text-slate-900">{q.german}</p>
+                              <button onClick={() => playGermanText(extractGermanText(q.german))} className="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0"><Volume2 size={12} className="text-emerald-600" /></button>
                             </div>
+                            <p className="text-sm text-slate-500 italic">{q.translation}</p>
                           </div>
                         ))}
                       </div>
@@ -314,43 +302,61 @@ export default function Grammar4CasesPage() {
                         <h3 className="text-lg font-bold text-emerald-800 mb-4">
                           📋 {section.content.declension_table.title}
                         </h3>
-                        <ResponsiveTable
-                          headers={section.content.declension_table.headers}
-                          rows={section.content.declension_table.rows.map((row: any) => [
-                            row.category,
-                            <div className="flex items-center gap-1">
-                              {row.definite}
-                              <button
-                                onClick={() => playGermanText(extractGermanText(row.definite))}
-                                className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0"
-                              >
-                                <Volume2 size={10} className="text-emerald-600" />
-                              </button>
-                            </div>,
-                            <div className="flex items-center gap-1">
-                              {row.indefinite}
-                              <button
-                                onClick={() => playGermanText(extractGermanText(row.indefinite))}
-                                className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0"
-                              >
-                                <Volume2 size={10} className="text-emerald-600" />
-                              </button>
-                            </div>,
-                            <div className="flex items-center gap-1">
-                              {row.no_article || row.adjective}
-                              {(row.no_article || row.adjective) && (
-                                <button
-                                  onClick={() => playGermanText(extractGermanText(row.no_article || row.adjective))}
-                                  className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0"
-                                >
-                                  <Volume2 size={10} className="text-emerald-600" />
-                                </button>
-                              )}
-                            </div>
-                          ])}
-                          themeColor="emerald"
-                          mobileCardTitleIndex={0}
-                        />
+                        <div className="overflow-x-auto">
+                          <table className="w-full bg-white/70 rounded-lg overflow-hidden text-sm">
+                            <thead className="bg-emerald-100">
+                              <tr>
+                                {section.content.declension_table.headers.map((h: any, i: number) => (
+                                  <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                                    {h}
+                                  </th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {section.content.declension_table.rows.map((row: any, i: number) => (
+                                <tr key={i} className="border-t border-emerald-100">
+                                  <td className="px-4 py-3 font-medium text-slate-700">{row.category}</td>
+                                  <td className="px-4 py-3 text-slate-900 font-semibold">
+                                    <div className="flex items-center gap-1">
+                                      {row.definite}
+                                      <button
+                                        onClick={() => playGermanText(extractGermanText(row.definite))}
+                                        className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0"
+                                      >
+                                        <Volume2 size={10} className="text-emerald-600" />
+                                      </button>
+                                    </div>
+                                  </td>
+                                  <td className="px-4 py-3 text-slate-900 font-semibold">
+                                    <div className="flex items-center gap-1">
+                                      {row.indefinite}
+                                      <button
+                                        onClick={() => playGermanText(extractGermanText(row.indefinite))}
+                                        className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0"
+                                      >
+                                        <Volume2 size={10} className="text-emerald-600" />
+                                      </button>
+                                    </div>
+                                  </td>
+                                  <td className="px-4 py-3 text-slate-900 font-semibold">
+                                    <div className="flex items-center gap-1">
+                                      {row.no_article || row.adjective}
+                                      {(row.no_article || row.adjective) && (
+                                        <button
+                                          onClick={() => playGermanText(extractGermanText(row.no_article || row.adjective))}
+                                          className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0"
+                                        >
+                                          <Volume2 size={10} className="text-emerald-600" />
+                                        </button>
+                                      )}
+                                    </div>
+                                  </td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
                       </div>
                     )}
 
@@ -489,17 +495,27 @@ export default function Grammar4CasesPage() {
                           <h4 className="text-sm font-bold text-emerald-700 mb-3">
                             {section.content.possessive_pronouns.comparison_table.title}
                           </h4>
-                          <ResponsiveTable
-                            headers={section.content.possessive_pronouns.comparison_table.headers}
-                            rows={section.content.possessive_pronouns.comparison_table.rows.map((row: any) => [
-                              row.person,
-                              row.masculine,
-                              row.neuter,
-                              row.fem_plural
-                            ])}
-                            themeColor="emerald"
-                            mobileCardTitleIndex={0}
-                          />
+                          <div className="overflow-x-auto">
+                            <table className="w-full bg-white/70 rounded-lg overflow-hidden text-sm">
+                              <thead className="bg-emerald-100">
+                                <tr>
+                                  {section.content.possessive_pronouns.comparison_table.headers.map((h: any, i: number) => (
+                                    <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">{h}</th>
+                                  ))}
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {section.content.possessive_pronouns.comparison_table.rows.map((row: any, i: number) => (
+                                  <tr key={i} className="border-t border-emerald-100">
+                                    <td className="px-4 py-3 font-medium text-slate-700">{row.person}</td>
+                                    <td className="px-4 py-3 font-semibold text-slate-900">{row.masculine}</td>
+                                    <td className="px-4 py-3 font-semibold text-slate-900">{row.neuter}</td>
+                                    <td className="px-4 py-3 font-semibold text-slate-900">{row.fem_plural}</td>
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
                         </div>
 
                         {/* Example Dialogue */}
@@ -572,17 +588,28 @@ export default function Grammar4CasesPage() {
                     {section.content.pronoun_table && (
                       <div className="bg-emerald-50/60 rounded-xl p-6">
                         <h3 className="text-lg font-bold text-emerald-800 mb-4">👥 {section.content.pronoun_table.title}</h3>
-                        <ResponsiveTable
-                          headers={['Nominativ', '→', 'Akkusativ', 'Meaning']}
-                          rows={section.content.pronoun_table.rows.map((row: any) => [
-                            row.nominative,
-                            <div className="text-center text-emerald-500">→</div>,
-                            <span className="font-bold text-emerald-700">{row.accusative}</span>,
-                            <span className="text-slate-600 italic">{row.meaning}</span>
-                          ])}
-                          themeColor="emerald"
-                          mobileCardTitleIndex={0}
-                        />
+                        <div className="overflow-x-auto">
+                          <table className="w-full bg-white/70 rounded-lg overflow-hidden text-sm">
+                            <thead className="bg-emerald-100">
+                              <tr>
+                                <th className="px-4 py-3 text-left font-bold text-slate-700">Nominativ</th>
+                                <th className="px-4 py-3 text-center font-bold text-slate-700">→</th>
+                                <th className="px-4 py-3 text-left font-bold text-slate-700">Akkusativ</th>
+                                <th className="px-4 py-3 text-left font-bold text-slate-700">Meaning</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {section.content.pronoun_table.rows.map((row: any, i: number) => (
+                                <tr key={i} className="border-t border-emerald-100">
+                                  <td className="px-4 py-3 font-semibold text-slate-700">{row.nominative}</td>
+                                  <td className="px-4 py-3 text-center text-emerald-500">→</td>
+                                  <td className="px-4 py-3 font-bold text-emerald-700">{row.accusative}</td>
+                                  <td className="px-4 py-3 text-slate-600 italic">{row.meaning}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
                       </div>
                     )}
 

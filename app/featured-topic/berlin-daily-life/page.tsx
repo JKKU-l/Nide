@@ -69,7 +69,6 @@ export default function BerlinDailyLifePage() {
   const [selectedLang, setSelectedLang] = useState('en');
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const [showStoryTranslation, setShowStoryTranslation] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetch('/json_files/featured_topic_05_berlin_daily_life.json')
@@ -82,15 +81,6 @@ export default function BerlinDailyLifePage() {
       })
       .catch((err) => console.error('Failed to load topic:', err));
   }, []);
-
-  const filteredSubtopics = topic?.subtopics.filter((subtopic) =>
-    subtopic.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    subtopic.title_de.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    subtopic.vocabulary.some(v => 
-      v.de.toLowerCase().includes(searchQuery.toLowerCase()) || 
-      v.en.toLowerCase().includes(searchQuery.toLowerCase())
-    )
-  );
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const getTranslation = (item: any, lang: string): string => {
@@ -149,7 +139,7 @@ export default function BerlinDailyLifePage() {
         backgroundSize: '50px 50px',
       }}></div>
 
-      <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
+      <Navbar />
 
       <main className="max-w-5xl mx-auto px-4 md:px-6 py-8 relative z-10">
         {/* Back Button */}
@@ -362,21 +352,19 @@ export default function BerlinDailyLifePage() {
 
         {/* Sections */}
         <div className="space-y-4">
-          {filteredSubtopics && filteredSubtopics.length > 0 ? (
-            filteredSubtopics.map((section, sectionIdx) => {
-              const isExpanded = expandedSection === section.id;
-              return (
-                <div
-                  key={section.id}
-                  className="rounded-2xl border border-white/30 shadow-lg overflow-hidden transition-all duration-300"
-                  style={{
-                    background: isExpanded
-                      ? `linear-gradient(135deg, white, ${topic.theme_color}05)`
-                      : 'rgba(255,255,255,0.5)',
-                    backdropFilter: 'blur(20px)',
-                  }}
-                >
-                  {/* ... header ... */}
+          {topic.subtopics.map((section, sectionIdx) => {
+            const isExpanded = expandedSection === section.id;
+            return (
+              <div
+                key={section.id}
+                className="rounded-2xl border border-white/30 shadow-lg overflow-hidden transition-all duration-300"
+                style={{
+                  background: isExpanded
+                    ? `linear-gradient(135deg, white, ${topic.theme_color}05)`
+                    : 'rgba(255,255,255,0.5)',
+                  backdropFilter: 'blur(20px)',
+                }}
+              >
                 {/* Section Header */}
                 <button
                   onClick={() => setExpandedSection(isExpanded ? null : section.id)}
@@ -499,14 +487,9 @@ export default function BerlinDailyLifePage() {
                     </div>
                   </div>
                 )}
-                </div>
-              );
-            })
-          ) : (
-            <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
-              <p className="text-slate-600 text-lg">No sections or vocabulary found matching your search.</p>
-            </div>
-          )}
+              </div>
+            );
+          })}
         </div>
 
         {/* Bottom CTA */}

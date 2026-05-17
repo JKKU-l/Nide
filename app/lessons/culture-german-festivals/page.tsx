@@ -1,10 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { ArrowLeft, ChevronDown, ChevronUp, Globe, Sparkles } from 'lucide-react';
+import { ArrowLeft, Volume2, ChevronDown, ChevronUp, Globe, Sparkles } from 'lucide-react';
 import Navbar from '@/components/navbar';
-import TTSButton from '@/components/tts-button';
-import ResponsiveTable from '@/components/responsive-table';
+import { playGermanText } from '@/lib/tts';
 
 interface VocabItem {
   de: string;
@@ -196,12 +195,13 @@ export default function CultureGermanFestivalsPage() {
                     <p className="text-sm md:text-base text-slate-800 font-medium leading-relaxed flex-1">
                       {fact.de}
                     </p>
-                    <TTSButton
-                      text={fact.de}
-                      size="sm"
-                      className="hover:bg-orange-50"
+                    <button
+                      onClick={() => playGermanText(fact.de)}
+                      className="p-1.5 rounded-lg hover:bg-orange-50 transition flex-shrink-0"
                       title="Listen to German"
-                    />
+                    >
+                      <Volume2 size={16} className="text-orange-500" />
+                    </button>
                   </div>
                   <p className="text-sm text-slate-500 pl-7 border-l-2 ml-2"
                     style={{ borderColor: `${topic.theme_color}30` }}
@@ -331,71 +331,96 @@ export default function CultureGermanFestivalsPage() {
                             <p className="text-sm text-slate-500 italic leading-relaxed flex-1">
                               {section.content_de}
                             </p>
-                            <TTSButton
-                              text={section.content_de!}
-                              size="sm"
-                              className="bg-orange-50 hover:bg-orange-100"
+                            <button
+                              onClick={() => playGermanText(section.content_de!)}
+                              className="p-2 rounded-xl bg-orange-50 hover:bg-orange-100 transition flex-shrink-0"
                               title="Listen to German description"
-                            />
+                            >
+                              <Volume2 size={16} className="text-orange-500" />
+                            </button>
                           </div>
                         )}
                       </div>
                     </div>
 
                     {/* Vocabulary Table */}
-                    <div className="mb-2">
-                      <ResponsiveTable
-                        headers={['German', 'Article', selectedLangInfo.label, 'Example']}
-                        rows={section.vocabulary.map((word) => [
-                          <div className="flex items-center justify-between w-full gap-4" key="de">
-                            <span className="font-bold text-slate-900 leading-tight flex-1">{word.de}</span>
-                            <TTSButton
-                              text={word.de}
-                              size="sm"
-                              className="bg-orange-50/50 hover:bg-orange-100"
-                              title="Listen to word"
-                            />
-                          </div>,
-                          <div key="article">
-                            {word.article && (
-                              <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded inline-block uppercase tracking-wider"
-                                style={{
-                                  backgroundColor:
-                                    word.article === 'der' ? '#3B82F620' :
-                                    word.article === 'die' ? '#EC489920' :
-                                    '#10B98120',
-                                  color:
-                                    word.article === 'der' ? '#2563EB' :
-                                    word.article === 'die' ? '#DB2777' :
-                                    '#059669',
-                                }}
-                              >
-                                {word.article}
-                              </span>
-                            )}
-                          </div>,
-                          <span key="translation" className="text-slate-700 font-medium">
-                            {getTranslation(word, selectedLang)}
-                          </span>,
-                          <div key="example" className="flex flex-col sm:flex-row sm:items-center justify-between w-full gap-2 sm:gap-4">
-                            <div className="flex flex-col items-start gap-0.5 flex-1 w-full">
-                              <p className="text-slate-600 italic text-xs leading-relaxed w-full">"{word.example_de}"</p>
-                              <p className="text-slate-400 text-[10px] leading-relaxed w-full">{word.example_en}</p>
-                            </div>
-                            <div className="flex items-center justify-between w-full sm:w-auto mt-1 sm:mt-0 border-t sm:border-t-0 border-orange-100/50 pt-1 sm:pt-0">
-                              <span className="sm:hidden text-[10px] font-bold text-orange-500 uppercase tracking-wider">Listen</span>
-                              <TTSButton
-                                text={word.example_de}
-                                size="sm"
-                                className="bg-orange-50/50 hover:bg-orange-100"
-                                title="Listen to example sentence"
-                              />
-                            </div>
-                          </div>
-                        ])}
-                        themeColor={topic.theme_color as 'blue' | 'green' | 'orange' | 'emerald' | 'purple' | 'amber' | 'red' | 'pink' | 'indigo' | 'teal' | 'yellow'}
-                        mobileCardTitleIndex={0}
-                      />
+                    <div className="overflow-x-auto rounded-xl border border-white/30">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="bg-white/50">
+                            <th className="text-left py-3 px-4 font-bold text-slate-700 whitespace-nowrap">🇩🇪 Deutsch</th>
+                            <th className="text-left py-3 px-4 font-bold text-slate-700 whitespace-nowrap">
+                              {selectedLangInfo.flag} {selectedLangInfo.label}
+                            </th>
+                            <th className="text-left py-3 px-4 font-bold text-slate-700 whitespace-nowrap hidden md:table-cell">Beispiel</th>
+                            <th className="py-3 px-3 w-10"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {section.vocabulary.map((word, wordIdx) => (
+                            <tr
+                              key={wordIdx}
+                              className="border-t border-white/20 hover:bg-white/40 transition group/row"
+                            >
+                              <td className="py-3.5 px-4">
+                                <div className="flex items-center gap-1.5">
+                                  <span className="font-bold text-slate-900">{word.de}</span>
+                                  <button
+                                    onClick={() => playGermanText(word.de)}
+                                    className="p-1 rounded-md hover:bg-orange-50 transition opacity-40 hover:opacity-100"
+                                    title="Listen to word"
+                                  >
+                                    <Volume2 size={13} className="text-orange-500" />
+                                  </button>
+                                </div>
+                                {word.article && (
+                                  <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded mt-0.5 inline-block"
+                                    style={{
+                                      backgroundColor:
+                                        word.article === 'der' ? '#3B82F620' :
+                                        word.article === 'die' ? '#EC489920' :
+                                        '#10B98120',
+                                      color:
+                                        word.article === 'der' ? '#2563EB' :
+                                        word.article === 'die' ? '#DB2777' :
+                                        '#059669',
+                                    }}
+                                  >
+                                    {word.article}
+                                  </span>
+                                )}
+                              </td>
+                              <td className="py-3.5 px-4 text-slate-700">
+                                {getTranslation(word, selectedLang)}
+                              </td>
+                              <td className="py-3.5 px-4 text-slate-500 text-xs hidden md:table-cell">
+                                <div className="italic">&quot;{word.example_de}&quot;</div>
+                                <div className="text-slate-400 mt-0.5">{word.example_en}</div>
+                              </td>
+                              <td className="py-3.5 px-3">
+                                <button
+                                  onClick={() => playGermanText(word.example_de)}
+                                  className="p-1.5 rounded-lg hover:bg-orange-50 transition opacity-50 group-hover/row:opacity-100"
+                                  title="Listen to example sentence"
+                                >
+                                  <Volume2 size={16} className="text-orange-500" />
+                                </button>
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+
+                    {/* Mobile Examples */}
+                    <div className="mt-4 space-y-2 md:hidden">
+                      <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Example Sentences</p>
+                      {section.vocabulary.map((word, wordIdx) => (
+                        <div key={wordIdx} className="p-3 rounded-lg bg-white/30 text-xs">
+                          <p className="font-semibold text-slate-800 italic">&quot;{word.example_de}&quot;</p>
+                          <p className="text-slate-500 mt-0.5">{word.example_en}</p>
+                        </div>
+                      ))}
                     </div>
                   </div>
                 )}

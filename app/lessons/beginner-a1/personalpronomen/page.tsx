@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import { playGermanText } from '@/lib/tts';
-import ResponsiveTable from '@/components/responsive-table';
 
 interface TableData {
   headers: string[];
@@ -106,29 +105,28 @@ export default function PersonalPronounsLesson() {
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
-        <div className="flex items-center justify-between gap-2 mb-8">
+        <div className="flex items-center justify-between mb-8">
           <button
             onClick={() => router.push('/lessons/beginner-a1')}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition flex-shrink-0"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition"
           >
             <ArrowLeft size={20} />
-            <span className="hidden sm:inline">Back to Beginner A1</span>
-            <span className="sm:hidden text-sm font-medium">Back</span>
+            <span>Back to Beginner A1</span>
           </button>
 
           {/* Language Selector */}
           <div className="relative">
             <button
               onClick={() => setShowLangDropdown(!showLangDropdown)}
-              className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
+              className="flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-md rounded-xl border border-white/30 hover:bg-white/80 transition"
             >
               <Globe size={18} />
-              <span className="mr-0.5 sm:mr-1">{selectedLanguage?.flag}</span>
-              <span className="text-sm sm:text-base">{selectedLanguage?.name}</span>
+              <span className="mr-1">{selectedLanguage?.flag}</span>
+              <span>{selectedLanguage?.name}</span>
             </button>
 
             {showLangDropdown && (
-              <div className="absolute right-0 mt-2 w-40 sm:w-48 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl border border-white/30 z-50">
+              <div className="absolute right-0 mt-2 w-48 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl border border-white/30 z-50">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -150,15 +148,15 @@ export default function PersonalPronounsLesson() {
         </div>
 
         {/* Title */}
-        <div className="text-center mb-10 px-2">
+        <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 rounded-full mb-4">
-            <span className="text-xl sm:text-2xl">👤</span>
-            <span className="text-xs sm:text-sm font-medium text-blue-700">Topic 1 of 20</span>
+            <span className="text-2xl">👤</span>
+            <span className="text-sm font-medium text-blue-700">Topic 1 of 20</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 mb-3 break-words leading-tight">
+          <h1 className="text-4xl font-black text-slate-900 mb-3">
             {lessonData?.title}
           </h1>
-          <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto">
+          <p className="text-slate-600 text-lg">
             {lessonData?.subtitle}
           </p>
         </div>
@@ -177,41 +175,54 @@ export default function PersonalPronounsLesson() {
 
               {/* Table Content */}
               {section.content.table && (
-                <div className="mb-6">
-                  <ResponsiveTable
-                    headers={section.content.table.headers}
-                    rows={section.content.table.rows.map((row) =>
-                      row.map((cell, j) => {
-                        const germanWord = cell.includes('(') ? cell.split('(')[0].trim() : cell;
-                        const isGermanPronoun = j > 0 && cell.includes('(');
-                        if (cell.includes('(')) {
-                          return (
-                            <div className="flex items-center gap-2">
-                              <span>
-                                <strong>{cell.split('(')[0]}</strong>
-                                <span className="text-slate-500">({cell.split('(')[1]}</span>
-                              </span>
-                              {isGermanPronoun && (
-                                <button
-                                  onMouseEnter={() => playGermanText(germanWord)}
-                                  onClick={(e: React.MouseEvent) => {
-                                    e.stopPropagation();
-                                    playGermanText(germanWord);
-                                  }}
-                                  className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition ml-1"
-                                >
-                                  <Volume2 size={12} className="text-blue-600" />
-                                </button>
-                              )}
-                            </div>
-                          );
-                        }
-                        return cell;
-                      })
-                    )}
-                    themeColor="blue"
-                    mobileCardTitleIndex={0}
-                  />
+                <div className="overflow-x-auto">
+                  <table className="w-full bg-white/50 rounded-xl overflow-hidden">
+                    <thead className="bg-blue-100">
+                      <tr>
+                        {section.content.table.headers.map((header, i) => (
+                          <th key={i} className="px-4 py-3 text-left font-bold text-slate-700">
+                            {header}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {section.content.table.rows.map((row, i) => (
+                        <tr key={i} className="border-t border-white/30">
+                          {row.map((cell, j) => {
+                            const germanWord = cell.includes('(') ? cell.split('(')[0].trim() : cell;
+                            const isGermanPronoun = j > 0 && cell.includes('(');
+                            return (
+                              <td key={j} className="px-4 py-3 text-slate-700">
+                                {cell.includes('(') ? (
+                                  <div className="flex items-center gap-2">
+                                    <span>
+                                      <strong>{cell.split('(')[0]}</strong>
+                                      <span className="text-slate-500">({cell.split('(')[1]}</span>
+                                    </span>
+                                    {isGermanPronoun && (
+                                      <button
+                                        onMouseEnter={() => playGermanText(germanWord)}
+                                        onClick={(e: React.MouseEvent) => {
+                                          e.stopPropagation();
+                                          playGermanText(germanWord);
+                                        }}
+                                        className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition ml-1"
+                                      >
+                                        <Volume2 size={12} className="text-blue-600" />
+                                      </button>
+                                    )}
+                                  </div>
+                                ) : (
+                                  cell
+                                )}
+                              </td>
+                            );
+                          })}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
               )}
 
@@ -260,36 +271,27 @@ export default function PersonalPronounsLesson() {
 
               {/* Conversational Examples */}
               {section.content.conversational_context && (
-                <div className="bg-white/50 rounded-xl p-4 sm:p-6">
-                  <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-4">
+                <div className="bg-white/50 rounded-xl p-6">
+                  <h3 className="text-lg font-bold text-slate-900 mb-4">
                     {section.content.conversational_context.title}
                   </h3>
                   <div className="space-y-3">
                     {section.content.conversational_context.examples.map((ex, i) => (
-                      <div key={i} className="bg-white rounded-lg p-3 sm:p-4">
-                        <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4">
-                          <div className="flex flex-col items-start gap-1 flex-1 w-full">
-                            <p className="text-sm sm:text-base font-medium text-slate-900 leading-tight w-full">
-                              {ex.german}
-                            </p>
-                            <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">
-                              {ex.english}
-                            </p>
-                          </div>
-                          <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-blue-100/50 pt-2 md:pt-0">
-                            <span className="md:hidden text-[10px] font-bold text-blue-600 uppercase tracking-wider">Listen to pronunciation</span>
-                            <button
-                              onMouseEnter={() => playGermanText(ex.german || '')}
-                              onClick={(e: React.MouseEvent) => {
-                                e.stopPropagation();
-                                playGermanText(ex.german || '');
-                              }}
-                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition flex-shrink-0 shadow-sm"
-                            >
-                              <Volume2 size={16} className="text-blue-600 sm:size-5" />
-                            </button>
-                          </div>
+                      <div key={i} className="flex items-center justify-between bg-white rounded-lg p-3">
+                        <div className="flex items-center gap-3">
+                          <p className="font-medium text-slate-900">{ex.german}</p>
+                          <button
+                            onMouseEnter={() => playGermanText(ex.german || '')}
+                            onClick={(e: React.MouseEvent) => {
+                              e.stopPropagation();
+                              playGermanText(ex.german || '');
+                            }}
+                            className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition"
+                          >
+                            <Volume2 size={16} className="text-blue-600" />
+                          </button>
                         </div>
+                        <p className="text-sm text-slate-600">{ex.english}</p>
                       </div>
                     ))}
                   </div>
@@ -298,36 +300,29 @@ export default function PersonalPronounsLesson() {
 
               {/* Replacing Names */}
               {section.content.replacing_names_objects && (
-                <div className="bg-white/50 rounded-xl p-4 sm:p-6">
-                  <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-4">
+                <div className="bg-white/50 rounded-xl p-6">
+                  <h3 className="text-lg font-bold text-slate-900 mb-4">
                     {section.content.replacing_names_objects.title}
                   </h3>
                   <div className="space-y-3">
                     {section.content.replacing_names_objects.examples.map((ex, i) => (
-                      <div key={i} className="bg-white rounded-lg p-3 sm:p-4">
-                        <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-4 mb-2">
-                          <div className="flex flex-col items-start gap-1 flex-1 w-full">
-                            <div className="flex flex-wrap items-center gap-2 w-full">
-                              <span className="text-xs sm:text-sm text-slate-400 line-through">{ex.original}</span>
-                              <span className="text-xs sm:text-sm text-slate-400">→</span>
-                              <span className="text-sm sm:text-base font-bold text-blue-600">{ex.replacement}</span>
-                            </div>
-                            <p className="text-xs sm:text-sm text-slate-600 italic leading-relaxed w-full">{ex.english}</p>
-                          </div>
-                          <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-blue-100/50 pt-2 md:pt-0">
-                            <span className="md:hidden text-[10px] font-bold text-blue-600 uppercase tracking-wider">Listen to pronunciation</span>
-                            <button
-                              onMouseEnter={() => playGermanText(ex.replacement || '')}
-                              onClick={(e: React.MouseEvent) => {
-                                e.stopPropagation();
-                                playGermanText(ex.replacement || '');
-                              }}
-                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition flex-shrink-0 shadow-sm"
-                            >
-                              <Volume2 size={16} className="text-blue-600 sm:size-5" />
-                            </button>
-                          </div>
+                      <div key={i} className="bg-white rounded-lg p-4">
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="text-slate-400 line-through">{ex.original}</span>
+                          <span className="text-slate-400">→</span>
+                          <span className="font-bold text-blue-600">{ex.replacement}</span>
+                          <button
+                            onMouseEnter={() => playGermanText(ex.replacement || '')}
+                            onClick={(e: React.MouseEvent) => {
+                              e.stopPropagation();
+                              playGermanText(ex.replacement || '');
+                            }}
+                            className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition ml-auto"
+                          >
+                            <Volume2 size={16} className="text-blue-600" />
+                          </button>
                         </div>
+                        <p className="text-sm text-slate-600">{ex.english}</p>
                       </div>
                     ))}
                   </div>

@@ -3,7 +3,6 @@
 import { useRouter } from 'next/navigation';
 import { ArrowLeft, BookOpen, TrendingUp, Award, Star, Trophy } from 'lucide-react';
 import Navbar from '@/components/navbar';
-import { useState } from 'react';
 
 interface Level {
   id: string;
@@ -67,16 +66,10 @@ const levels: Level[] = [
 
 export default function Courses() {
   const router = useRouter();
-  const [searchQuery, setSearchQuery] = useState('');
-
-  const filteredLevels = levels.filter((level) =>
-    level.level.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    level.description.toLowerCase().includes(searchQuery.toLowerCase())
-  );
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300/40 via-white to-purple-300/40">
-      <Navbar searchValue={searchQuery} onSearchChange={setSearchQuery} />
+      <Navbar />
       
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         {/* Header */}
@@ -105,58 +98,47 @@ export default function Courses() {
         </div>
 
         {/* Levels Grid */}
-        <div>
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">
-            {searchQuery ? `Search Results for "${searchQuery}"` : 'All Levels'}
-          </h2>
-          {filteredLevels.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredLevels.map((level) => (
-                <div
-                  key={level.id}
-                  className={`backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-white/60 cursor-pointer ${
-                    level.status === 'Ready' ? 'hover:border-green-400' : 'opacity-75'
-                  }`}
-                  onClick={() => {
-                    if (level.id === 'a1') {
-                      router.push('/lessons/beginner-a1');
-                    } else {
-                      alert(`Course "${level.level}" will be implemented soon!`);
-                    }
-                  }}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {levels.map((level) => (
+            <div
+              key={level.id}
+              className={`backdrop-blur-xl bg-white/40 border border-white/30 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-white/60 cursor-pointer ${
+                level.status === 'Ready' ? 'hover:border-green-400' : 'opacity-75'
+              }`}
+              onClick={() => {
+                if (level.id === 'a1') {
+                  router.push('/lessons/beginner-a1');
+                } else {
+                  alert(`Course "${level.level}" will be implemented soon!`);
+                }
+              }}
+            >
+              <div className="space-y-4">
+                {/* Icon */}
+                <div 
+                  className="w-16 h-16 rounded-2xl flex items-center justify-center text-white"
+                  style={{ backgroundColor: level.color }}
                 >
-                  <div className="space-y-4">
-                    {/* Icon */}
-                    <div 
-                      className="w-16 h-16 rounded-2xl flex items-center justify-center text-white"
-                      style={{ backgroundColor: level.color }}
-                    >
-                      <level.icon size={32} />
-                    </div>
-
-                    {/* Level */}
-                    <h3 className="text-2xl font-bold text-slate-900">{level.level}</h3>
-
-                    {/* Description */}
-                    <p className="text-sm text-slate-600">{level.description}</p>
-
-                    {/* Status Badge */}
-                    <div className="text-center">
-                      <span className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium ${
-                        level.status === 'Ready' ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-700'
-                      }`}>
-                        {level.status}
-                      </span>
-                    </div>
-                  </div>
+                  <level.icon size={32} />
                 </div>
-              ))}
+
+                {/* Level */}
+                <h3 className="text-2xl font-bold text-slate-900">{level.level}</h3>
+
+                {/* Description */}
+                <p className="text-sm text-slate-600">{level.description}</p>
+
+                {/* Status Badge */}
+                <div className="text-center">
+                  <span className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium ${
+                    level.status === 'Ready' ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-700'
+                  }`}>
+                    {level.status}
+                  </span>
+                </div>
+              </div>
             </div>
-          ) : (
-            <div className="text-center py-12 bg-white/40 backdrop-blur-md rounded-3xl border border-white/20">
-              <p className="text-slate-600 text-lg">No levels found matching your search.</p>
-            </div>
-          )}
+          ))}
         </div>
 
         {/* Learning Path */}
