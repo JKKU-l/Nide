@@ -309,7 +309,7 @@ export default function MyMother() {
                       <p className="text-slate-900 font-medium mb-4">{exercise.question}</p>
 
                       {exercise.type === 'multiple_choice' && exercise.options && (
-                        <div className="grid grid-cols-2 gap-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                           {exercise.options.map((option) => (
                             <button
                               key={option}

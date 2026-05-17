@@ -240,7 +240,7 @@ export default function AtRestaurant() {
                     <div className="flex-1">
                       <p className="text-slate-900 font-medium mb-4">{exercise.question}</p>
                       {exercise.type === 'multiple_choice' && exercise.options && (
-                        <div className="grid grid-cols-2 gap-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                           {exercise.options.map((option) => (
                             <button key={option} onClick={() => handleAnswerChange(exercise.id, option)} className={`px-4 py-3 rounded-xl font-medium transition ${userAnswers[exercise.id] === option ? 'text-white shadow-lg' : 'bg-white/60 backdrop-blur-md border border-slate-300 hover:bg-slate-50 text-slate-700'}`} style={userAnswers[exercise.id] === option ? { backgroundColor: topicData?.theme_color } : {}}>{option}</button>
                           ))}

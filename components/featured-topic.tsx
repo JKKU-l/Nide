@@ -84,10 +84,10 @@ export default function FeaturedTopic() {
         </div>
 
         {/* Horizontal Content - Icon Left, Text Right */}
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row gap-4">
           {/* Icon / Illustration */}
           <div
-            className="w-32 h-32 sm:w-40 sm:h-40 flex-shrink-0 rounded-2xl flex items-center justify-center overflow-hidden"
+            className="w-full sm:w-32 h-32 sm:h-32 md:w-40 md:h-40 flex-shrink-0 rounded-2xl flex items-center justify-center overflow-hidden"
             style={{
               background: topic && !topic.image
                 ? `linear-gradient(135deg, ${topic.theme_color}20, ${topic.theme_color}40)`
@@ -118,17 +118,17 @@ export default function FeaturedTopic() {
             >
               {topic ? MONTH_NAMES[topic.month] : ''}
             </p>
-            <h3 className="text-lg font-bold text-slate-900 mb-0.5 leading-tight">
+            <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-0.5 leading-tight">
               Topic of the Month:
             </h3>
-            <p className="text-base font-bold text-slate-900 mb-0.5 truncate">
+            <p className="text-sm sm:text-base font-bold text-slate-900 mb-0.5 break-words">
               {topic ? topic.title_en : 'Loading...'}
             </p>
-            <p className="text-sm text-slate-500 italic mb-1 truncate">
+            <p className="text-xs sm:text-sm text-slate-500 italic mb-1 break-words">
               {topic ? topic.title_de : ''}
             </p>
             {topic?.description && (
-              <p className="text-sm text-slate-600 mb-3 line-clamp-2">
+              <p className="text-xs sm:text-sm text-slate-600 mb-3 line-clamp-2">
                 {topic.description}
               </p>
             )}
@@ -162,13 +162,13 @@ export default function FeaturedTopic() {
       <WordOfTheDay />
 
       {/* Mini Streak Tracker */}
-      <div className="backdrop-blur-xl bg-gradient-to-br from-orange-50/50 to-amber-50/50 border border-white/30 rounded-3xl p-5 shadow-xl">
-        <div className="flex items-center justify-between">
+      <div className="backdrop-blur-xl bg-gradient-to-br from-orange-50/50 to-amber-50/50 border border-white/30 rounded-3xl p-4 sm:p-5 shadow-xl">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0">
           <div>
             <p className="text-xs text-slate-500 mb-1">Learning Streak</p>
-            <p className="text-2xl font-black text-orange-600">🔥 7 Days</p>
+            <p className="text-xl sm:text-2xl font-black text-orange-600">🔥 7 Days</p>
           </div>
-          <div className="flex gap-1">
+          <div className="flex gap-1 flex-wrap">
             {['M', 'T', 'W', 'T', 'F', 'S', 'S'].map((day, i) => (
               <div 
                 key={i} 
