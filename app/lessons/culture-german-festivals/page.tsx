@@ -397,7 +397,7 @@ export default function CultureGermanFestivalsPage() {
                             </div>
                           </div>
                         ])}
-                        themeColor={topic.theme_color}
+                        themeColor={topic.theme_color as 'blue' | 'green' | 'orange' | 'emerald' | 'purple' | 'amber' | 'red' | 'pink' | 'indigo' | 'teal' | 'yellow'}
                         mobileCardTitleIndex={0}
                       />
                     </div>

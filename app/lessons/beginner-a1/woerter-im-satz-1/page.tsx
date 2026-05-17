@@ -9,6 +9,7 @@ import ResponsiveTable from '@/components/responsive-table';
 
 interface ExampleData {
   question: string;
+  translation?: string;
 }
 
 interface ExampleAnalysisData {
