@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
+import { Globe, ArrowLeft } from 'lucide-react';
 import Navbar from '@/components/navbar';
-import { playGermanText } from '@/lib/tts';
+import TTSButton from '@/components/tts-button';
 import ResponsiveTable from '@/components/responsive-table';
 
 interface ExampleData {
@@ -217,16 +217,12 @@ export default function WoerterImSatz2Lesson() {
                                 </div>
                                 <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-emerald-100/50 pt-2 md:pt-0">
                                   <span className="md:hidden text-[10px] font-bold text-emerald-600 uppercase tracking-wider">Listen to pronunciation</span>
-                                  <button
-                                    onMouseEnter={() => playGermanText(example.german)}
-                                    onClick={(e: React.MouseEvent) => {
-                                      e.stopPropagation();
-                                      playGermanText(example.german);
-                                    }}
-                                    className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0 shadow-sm"
-                                  >
-                                    <Volume2 size={16} className="text-emerald-600 sm:size-5" />
-                                  </button>
+                                  <TTSButton
+                                    text={example.german}
+                                    size="sm"
+                                    className="bg-emerald-100 hover:bg-emerald-200"
+                                    title="Listen to pronunciation"
+                                  />
                                 </div>
                               </div>
                             </div>
@@ -260,16 +256,12 @@ export default function WoerterImSatz2Lesson() {
                             </div>
                             <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-emerald-100/50 pt-2 md:pt-0">
                               <span className="md:hidden text-[10px] font-bold text-emerald-600 uppercase tracking-wider">Listen to pronunciation</span>
-                              <button
-                                onMouseEnter={() => playGermanText(example.german)}
-                                onClick={(e: React.MouseEvent) => {
-                                  e.stopPropagation();
-                                  playGermanText(example.german);
-                                }}
-                                className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-emerald-100 flex items-center justify-center hover:bg-emerald-200 transition flex-shrink-0 shadow-sm"
-                              >
-                                <Volume2 size={16} className="text-emerald-600 sm:size-5" />
-                              </button>
+                              <TTSButton
+                                text={example.german}
+                                size="sm"
+                                className="bg-emerald-100 hover:bg-emerald-200"
+                                title="Listen to pronunciation"
+                              />
                             </div>
                           </div>
                         </div>

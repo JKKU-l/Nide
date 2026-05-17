@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { Globe, ArrowLeft, Volume2 } from 'lucide-react';
+import { Globe, ArrowLeft } from 'lucide-react';
 import Navbar from '@/components/navbar';
-import { playGermanText } from '@/lib/tts';
+import TTSButton from '@/components/tts-button';
 import ResponsiveTable from '@/components/responsive-table';
 
 interface ExampleData {
@@ -244,16 +244,12 @@ export default function WoerterImSatz1Lesson() {
                           </div>
                           <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-amber-100/50 pt-2 md:pt-0">
                             <span className="md:hidden text-[10px] font-bold text-amber-600 uppercase tracking-wider">Listen to pronunciation</span>
-                            <button
-                              onMouseEnter={() => playGermanText(extractGermanText(example.question))}
-                              onClick={(e: React.MouseEvent) => {
-                                e.stopPropagation();
-                                playGermanText(extractGermanText(example.question));
-                              }}
-                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition flex-shrink-0 shadow-sm"
-                            >
-                              <Volume2 size={16} className="text-amber-600 sm:size-5" />
-                            </button>
+                            <TTSButton
+                              text={extractGermanText(example.question)}
+                              size="sm"
+                              className="bg-amber-100 hover:bg-amber-200"
+                              title="Listen to pronunciation"
+                            />
                           </div>
                         </div>
                       </div>
@@ -280,16 +276,12 @@ export default function WoerterImSatz1Lesson() {
                       </div>
                       <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-amber-100/50 pt-2 md:pt-0">
                         <span className="md:hidden text-[10px] font-bold text-amber-600 uppercase tracking-wider">Listen to pronunciation</span>
-                        <button
-                          onMouseEnter={() => playGermanText(extractGermanText(section.content.example_analysis?.sentence || ''))}
-                          onClick={(e: React.MouseEvent) => {
-                            e.stopPropagation();
-                            playGermanText(extractGermanText(section.content.example_analysis?.sentence || ''));
-                          }}
-                          className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition flex-shrink-0 shadow-sm"
-                        >
-                          <Volume2 size={16} className="text-amber-600 sm:size-5" />
-                        </button>
+                        <TTSButton
+                          text={extractGermanText(section.content.example_analysis?.sentence || '')}
+                          size="sm"
+                          className="bg-amber-100 hover:bg-amber-200"
+                          title="Listen to pronunciation"
+                        />
                       </div>
                     </div>
                       <div className="space-y-2 pt-2 border-t border-amber-100">
@@ -319,16 +311,12 @@ export default function WoerterImSatz1Lesson() {
                           </p>
                           <div className="flex items-center justify-between w-full md:w-auto md:justify-end mt-2 md:mt-0 border-t md:border-t-0 border-amber-100/50 pt-2 md:pt-0">
                             <span className="md:hidden text-[10px] font-bold text-amber-600 uppercase tracking-wider">Listen to pronunciation</span>
-                            <button
-                              onMouseEnter={() => playGermanText(extractGermanText(example))}
-                              onClick={(e: React.MouseEvent) => {
-                                e.stopPropagation();
-                                playGermanText(extractGermanText(example));
-                              }}
-                              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition flex-shrink-0 shadow-sm"
-                            >
-                              <Volume2 size={16} className="text-amber-600 sm:size-5" />
-                            </button>
+                            <TTSButton
+                              text={extractGermanText(example)}
+                              size="sm"
+                              className="bg-amber-100 hover:bg-amber-200"
+                              title="Listen to pronunciation"
+                            />
                           </div>
                         </div>
                       </div>

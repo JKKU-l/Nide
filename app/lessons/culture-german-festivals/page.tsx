@@ -1,9 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { ArrowLeft, Volume2, ChevronDown, ChevronUp, Globe, Sparkles } from 'lucide-react';
+import { ArrowLeft, ChevronDown, ChevronUp, Globe, Sparkles } from 'lucide-react';
 import Navbar from '@/components/navbar';
-import { playGermanText } from '@/lib/tts';
+import TTSButton from '@/components/tts-button';
 import ResponsiveTable from '@/components/responsive-table';
 
 interface VocabItem {
@@ -196,13 +196,12 @@ export default function CultureGermanFestivalsPage() {
                     <p className="text-sm md:text-base text-slate-800 font-medium leading-relaxed flex-1">
                       {fact.de}
                     </p>
-                    <button
-                      onClick={() => playGermanText(fact.de)}
-                      className="p-1.5 rounded-lg hover:bg-orange-50 transition flex-shrink-0"
+                    <TTSButton
+                      text={fact.de}
+                      size="sm"
+                      className="hover:bg-orange-50"
                       title="Listen to German"
-                    >
-                      <Volume2 size={16} className="text-orange-500" />
-                    </button>
+                    />
                   </div>
                   <p className="text-sm text-slate-500 pl-7 border-l-2 ml-2"
                     style={{ borderColor: `${topic.theme_color}30` }}
@@ -332,13 +331,12 @@ export default function CultureGermanFestivalsPage() {
                             <p className="text-sm text-slate-500 italic leading-relaxed flex-1">
                               {section.content_de}
                             </p>
-                            <button
-                              onClick={() => playGermanText(section.content_de!)}
-                              className="p-2 rounded-xl bg-orange-50 hover:bg-orange-100 transition flex-shrink-0"
+                            <TTSButton
+                              text={section.content_de!}
+                              size="sm"
+                              className="bg-orange-50 hover:bg-orange-100"
                               title="Listen to German description"
-                            >
-                              <Volume2 size={16} className="text-orange-500" />
-                            </button>
+                            />
                           </div>
                         )}
                       </div>
@@ -351,13 +349,12 @@ export default function CultureGermanFestivalsPage() {
                         rows={section.vocabulary.map((word) => [
                           <div className="flex items-center justify-between w-full gap-4" key="de">
                             <span className="font-bold text-slate-900 leading-tight flex-1">{word.de}</span>
-                            <button
-                              onClick={() => playGermanText(word.de)}
-                              className="p-1.5 rounded-lg bg-orange-50/50 hover:bg-orange-100 transition flex-shrink-0"
+                            <TTSButton
+                              text={word.de}
+                              size="sm"
+                              className="bg-orange-50/50 hover:bg-orange-100"
                               title="Listen to word"
-                            >
-                              <Volume2 size={14} className="text-orange-500" />
-                            </button>
+                            />
                           </div>,
                           <div key="article">
                             {word.article && (
@@ -387,13 +384,12 @@ export default function CultureGermanFestivalsPage() {
                             </div>
                             <div className="flex items-center justify-between w-full sm:w-auto mt-1 sm:mt-0 border-t sm:border-t-0 border-orange-100/50 pt-1 sm:pt-0">
                               <span className="sm:hidden text-[10px] font-bold text-orange-500 uppercase tracking-wider">Listen</span>
-                              <button
-                                onClick={() => playGermanText(word.example_de)}
-                                className="p-1.5 rounded-lg bg-orange-50/50 hover:bg-orange-100 transition flex-shrink-0"
+                              <TTSButton
+                                text={word.example_de}
+                                size="sm"
+                                className="bg-orange-50/50 hover:bg-orange-100"
                                 title="Listen to example sentence"
-                              >
-                                <Volume2 size={14} className="text-orange-400" />
-                              </button>
+                              />
                             </div>
                           </div>
                         ])}
