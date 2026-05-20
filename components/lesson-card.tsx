@@ -9,7 +9,6 @@ interface LessonCardProps {
   description: string;
   progress?: number;
   color: 'blue' | 'green' | 'orange' | 'emerald';
-  key?: React.Key;
   href?: string;
   onClick?: () => void;
 }

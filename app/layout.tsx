@@ -1,6 +1,6 @@
 // metadata typing removed for compatibility with this Next version
 // font import removed for compatibility with this Next version
-import { Analytics } from '@vercel/analytics/next'
+import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
 // font constants removed

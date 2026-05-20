@@ -144,21 +144,17 @@ export default function Dashboard() {
                   <img
                     src="/images/app_features.jpg"
                     alt="HalloDeutsch App Features"
-                    className="relative w-full max-w-[10rem] sm:max-w-[14rem] md:max-w-[16rem] rounded-2xl md:rounded-3xl shadow-2xl shadow-indigo-900/30 border border-white/10"
-                    style={{
-                      animation: 'floatImage 6s ease-in-out infinite',
-                    }}
+                    className="relative w-full max-w-[10rem] sm:max-w-[14rem] md:max-w-[16rem] rounded-2xl md:rounded-3xl shadow-2xl shadow-indigo-900/30 border border-white/10 animate-float"
                   />
                 </div>
                 {/* Get App Image */}
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/20 to-blue-500/20 rounded-3xl blur-2xl scale-105"></div>
+                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/20 to-blue-50/50 rounded-3xl blur-2xl scale-105"></div>
                   <img
                     src="/images/get_app.jpg"
                     alt="HalloDeutsch Mobile App Preview"
-                    className="relative w-full max-w-[10rem] sm:max-w-[14rem] md:max-w-[16rem] rounded-2xl md:rounded-3xl shadow-2xl shadow-cyan-900/30 border border-white/10"
+                    className="relative w-full max-w-[10rem] sm:max-w-[14rem] md:max-w-[16rem] rounded-2xl md:rounded-3xl shadow-2xl shadow-cyan-900/30 border border-white/10 animate-float"
                     style={{
-                      animation: 'floatImage 6s ease-in-out infinite',
                       animationDelay: '1s',
                     }}
                   />
@@ -250,13 +246,6 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* Float animation keyframes */}
-        <style jsx>{`
-          @keyframes floatImage {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-15px); }
-          }
-        `}</style>
       </section>
 
       {/* Footer */}

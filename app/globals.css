@@ -115,6 +115,15 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+@keyframes floatImage {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+}
+
+.animate-float {
+  animation: floatImage 6s ease-in-out infinite;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
