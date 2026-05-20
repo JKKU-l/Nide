@@ -1,0 +1,117 @@
+// This is your Prisma schema file
+// Learn more about it in the Prisma docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../lib/generated/prisma/client"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id    Int    @id @default(autoincrement())
+  name  String
+  email String @unique
+}
+
+model Story {
+  id       Int            @id @default(autoincrement())
+  language String?
+  file     String?
+  data     Json?
+  sections StorySection[]
+}
+
+model StorySection {
+  id         Int        @id @default(autoincrement())
+  storyId    Int
+  story      Story      @relation(fields: [storyId], references: [id])
+  sectionKey String?
+  order      Int?
+  title      String?
+  content    String?
+  exercises  Exercise[]
+}
+
+model Exercise {
+  id            Int              @id @default(autoincrement())
+  sectionId     Int
+  section       StorySection     @relation(fields: [sectionId], references: [id])
+  exerciseIdx   Int?
+  question      String?
+  answer        String?
+  correctAnswer String?
+  options       ExerciseOption[]
+}
+
+model ExerciseOption {
+  id         Int      @id @default(autoincrement())
+  exerciseId Int
+  exercise   Exercise @relation(fields: [exerciseId], references: [id])
+  idx        Int?
+  text       String?
+}
+
+model Grammar {
+  id       Int              @id @default(autoincrement())
+  language String?
+  file     String?
+  data     Json?
+  sections GrammarSection[]
+  rules    GrammarRule[]
+}
+
+model GrammarSection {
+  id          Int       @id @default(autoincrement())
+  grammarId   Int
+  grammar     Grammar   @relation(fields: [grammarId], references: [id])
+  sectionKey  String?
+  order       Int?
+  title       String?
+  description String?
+  examples    Example[]
+}
+
+model Example {
+  id         Int            @id @default(autoincrement())
+  sectionId  Int
+  section    GrammarSection @relation(fields: [sectionId], references: [id])
+  rowIndex   Int?
+  german     String?
+  english    String?
+  myanmar    String?
+  japanese   String?
+  korean     String?
+  thai       String?
+  vietnamese String?
+}
+
+model DailyUsage {
+  id     Int               @id @default(autoincrement())
+  file   String?
+  data   Json?
+  vocabs DailyUsageVocab[]
+}
+
+model DailyUsageVocab {
+  id           Int        @id @default(autoincrement())
+  dailyUsageId Int
+  dailyUsage   DailyUsage @relation(fields: [dailyUsageId], references: [id])
+  german       String?
+  english      String?
+  myanmar      String?
+  japanese     String?
+  korean       String?
+  thai         String?
+  vietnamese   String?
+}
+
+model GrammarRule {
+  id          Int     @id @default(autoincrement())
+  grammarId   Int
+  grammar     Grammar @relation(fields: [grammarId], references: [id])
+  ruleKey     String?
+  description String?
+}

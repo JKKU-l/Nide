@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { Pool } from "pg";
 import { PrismaPg } from "@prisma/adapter-pg";
-import { PrismaClient } from "../lib/generated/prisma/client";
+import { PrismaClient } from "../lib/generated/prisma/lib/generated/prisma/client";
 
 const connectionString = process.env.DIRECT_URL || process.env.DATABASE_URL;
 if (!connectionString) {
@@ -16,7 +16,7 @@ function detectLangFromFile(file: string | null | undefined) {
   if (!file) return undefined;
   // match _xx before extension or at end of string
   const m = file.match(/_([a-z]{2})(?:\.json)?$/i);
-  return m ? m[1] : undefined;
+  return m ? m[1].toLowerCase() : undefined;
 }
 
 const LANG_MAP: Record<string, string[]> = {
@@ -25,7 +25,18 @@ const LANG_MAP: Record<string, string[]> = {
   jp: ['japanese', 'jp', 'ja', 'japanese_translation'],
   kr: ['korean', 'kr', 'ko', 'korean_translation'],
   th: ['thai', 'th', 'thai_translation'],
-  vi: ['vietnamese', 'vi', 'viet', 'vietnamese_translation']
+  vi: ['vietnamese', 'vi', 'viet', 'vietnamese_translation'],
+  de: ['german', 'de', 'deutsch']
+};
+
+const LANG_TO_FIELD: Record<string, string> = {
+  en: 'english',
+  my: 'myanmar',
+  jp: 'japanese',
+  kr: 'korean',
+  th: 'thai',
+  vi: 'vietnamese',
+  de: 'german'
 };
 
 function extractLangValue(source: any, lang: string, detectedLang?: string): string | undefined {
@@ -55,16 +66,27 @@ function extractLangValue(source: any, lang: string, detectedLang?: string): str
   return undefined;
 }
 
-function setLocalizedFields(updateData: any, fieldBase: string, valueSource: any, detectedLang?: string) {
+function setLocalizedFields(updateData: any, fieldBase: string, valueSource: any, detectedLang?: string, useLangSpecificFields = false) {
   if (valueSource == null) return;
+  
   if (typeof valueSource === 'string') {
     const tl = detectedLang || 'en';
-    updateData[`${fieldBase}_${tl}`] = valueSource;
+    const fieldName = useLangSpecificFields ? (LANG_TO_FIELD[tl] || tl) : fieldBase;
+    updateData[fieldName] = valueSource;
     return;
   }
-  for (const lang of Object.keys(LANG_MAP)) {
-    const val = extractLangValue(valueSource, lang, detectedLang);
-    if (val != null) updateData[`${fieldBase}_${lang}`] = val;
+
+  if (useLangSpecificFields) {
+    for (const lang of Object.keys(LANG_MAP)) {
+      const val = extractLangValue(valueSource, lang, detectedLang);
+      const fieldName = LANG_TO_FIELD[lang] || lang;
+      if (val != null) updateData[fieldName] = val;
+    }
+  } else {
+    // For models with single title/content fields, use detectedLang or fallback to English
+    const tl = detectedLang || 'en';
+    const val = extractLangValue(valueSource, tl, detectedLang) || extractLangValue(valueSource, 'en', detectedLang);
+    if (val != null) updateData[fieldBase] = val;
   }
 }
 
@@ -110,8 +132,8 @@ async function populateStories() {
             const title = sec.title || sec.header || undefined;
             const content = sec.content || sec.text || sec.body || {};
             const updateData: any = {};
-            setLocalizedFields(updateData, 'title', title, lang);
-            setLocalizedFields(updateData, 'content', content, lang);
+            setLocalizedFields(updateData, 'title', title, lang, false);
+            setLocalizedFields(updateData, 'content', JSON.stringify(content), lang, false);
             await prisma.storySection.update({ where: { id: sectionRow.id }, data: updateData });
 
             const exercises = Array.isArray(sec.content?.exercises) ? sec.content.exercises : (sec.exercises || []);
@@ -122,8 +144,8 @@ async function populateStories() {
               const exUpdate: any = {};
               const q = ex.question || ex.prompt || ex.text || ex.q;
               const a = ex.answer || ex.correct_answer || ex.a;
-              setLocalizedFields(exUpdate, 'question', q, lang);
-              setLocalizedFields(exUpdate, 'answer', a, lang);
+              setLocalizedFields(exUpdate, 'question', q, lang, false);
+              setLocalizedFields(exUpdate, 'answer', a, lang, false);
               if (ex.correct_answer) exUpdate.correctAnswer = ex.correct_answer;
               await prisma.exercise.update({ where: { id: exRow.id }, data: exUpdate });
 
@@ -133,7 +155,7 @@ async function populateStories() {
                 const optRow = exRow.options.find((or: any) => or.idx === i);
                 if (!optRow) continue;
                 const optUpdate: any = {};
-                setLocalizedFields(optUpdate, 'text', optVal, lang);
+                setLocalizedFields(optUpdate, 'text', optVal, lang, false);
                 await prisma.exerciseOption.update({ where: { id: optRow.id }, data: optUpdate });
               }
             }
@@ -154,7 +176,7 @@ async function populateGrammar() {
   for (let offset = 0; offset < total; offset += BATCH_SIZE) {
     const grams = await prisma.grammar.findMany({
       where: { data: { not: null as any } },
-      include: { sections: { include: { rules: true, examples: true } } },
+      include: { sections: { include: { examples: true } }, rules: true },
       skip: offset,
       take: BATCH_SIZE
     });
@@ -176,29 +198,22 @@ async function populateGrammar() {
             const title = sec.title || undefined;
             const desc = sec.description || sec.content || sec.text || undefined;
             const updateData: any = {};
-            setLocalizedFields(updateData, 'title', title, lang);
-            setLocalizedFields(updateData, 'description', desc, lang);
+            setLocalizedFields(updateData, 'title', title, lang, false);
+            setLocalizedFields(updateData, 'description', desc, lang, false);
             await prisma.grammarSection.update({ where: { id: secRow.id }, data: updateData });
 
             const examples = sec.content?.examples_table || sec.examples_table || sec.examples || null;
             if (examples) {
-              let table = await prisma.examplesTable.findFirst({ where: { sectionId: secRow.id } });
-              if (!table) {
-                table = await prisma.examplesTable.create({ data: { sectionId: secRow.id, title: examples.title || undefined } });
-              }
               const rows = examples.rows || examples.data || (Array.isArray(examples) ? examples : []);
               for (const [rIdx, r] of rows.entries()) {
-                const rowData: any = { tableId: table.id, rowIndex: rIdx };
+                const rowData: any = { sectionId: secRow.id, rowIndex: rIdx };
                 if (Array.isArray(r)) {
                   rowData.german = r[0] ? String(r[0]) : undefined;
                   const val = r[1] ? String(r[1]) : undefined;
                   if (val) {
-                    if (!lang || lang === 'en') rowData.english = val;
-                    else if (lang === 'my') rowData.myanmar = val;
-                    else if (lang === 'jp') rowData.japanese = val;
-                    else if (lang === 'kr') rowData.korean = val;
-                    else if (lang === 'th') rowData.thai = val;
-                    else if (lang === 'vi') rowData.vietnamese = val;
+                    const tl = lang || 'en';
+                    const fieldName = LANG_TO_FIELD[tl] || 'english';
+                    rowData[fieldName] = val;
                   }
                 } else if (typeof r === 'object' && r !== null) {
                   const numericKeys = Object.keys(r).filter(k => /^\d+$/.test(k)).sort((a,b)=>+a - +b);
@@ -206,27 +221,24 @@ async function populateGrammar() {
                     rowData.german = String(r[numericKeys[0]]) || undefined;
                     const val = numericKeys.length > 1 ? String(r[numericKeys[1]]) : undefined;
                     if (val) {
-                      if (!lang || lang === 'en') rowData.english = val;
-                      else if (lang === 'my') rowData.myanmar = val;
-                      else if (lang === 'jp') rowData.japanese = val;
-                      else if (lang === 'kr') rowData.korean = val;
-                      else if (lang === 'th') rowData.thai = val;
-                      else if (lang === 'vi') rowData.vietnamese = val;
+                      const tl = lang || 'en';
+                      const fieldName = LANG_TO_FIELD[tl] || 'english';
+                      rowData[fieldName] = val;
                     }
                   }
-                  rowData.english = extractLangValue(r, 'en', lang) || rowData.english;
+                  
+                  for (const l of Object.keys(LANG_MAP)) {
+                    const val = extractLangValue(r, l, lang);
+                    if (val) rowData[LANG_TO_FIELD[l] || 'english'] = val;
+                  }
                   const maybeGer = r.german || r.de || r.deutsch || undefined;
                   if (!rowData.german && maybeGer) rowData.german = maybeGer;
-                  rowData.myanmar = extractLangValue(r, 'my', lang) || rowData.myanmar;
-                  rowData.japanese = extractLangValue(r, 'jp', lang) || rowData.japanese;
-                  rowData.korean = extractLangValue(r, 'kr', lang) || rowData.korean;
-                  rowData.thai = extractLangValue(r, 'th', lang) || rowData.thai;
-                  rowData.vietnamese = extractLangValue(r, 'vi', lang) || rowData.vietnamese;
                 } else {
                   rowData.english = String(r);
                 }
                 const existingRow = secRow.examples.find((er: any) => er.rowIndex === rIdx);
-                if (existingRow) await prisma.examplesRow.update({ where: { id: existingRow.id }, data: rowData }); else await prisma.examplesRow.create({ data: rowData });
+                if (existingRow) await prisma.example.update({ where: { id: existingRow.id }, data: rowData }); 
+                else await prisma.example.create({ data: rowData });
               }
             }
 
@@ -244,13 +256,12 @@ async function populateGrammar() {
                 const upData: any = {};
                 upData.german = maybeGerman || row?.german || undefined;
                 upData.english = maybeEnglish || row?.english || undefined;
-                upData.myanmar = extractLangValue(v, 'my', lang) || row?.myanmar || undefined;
-                upData.japanese = extractLangValue(v, 'jp', lang) || row?.japanese || undefined;
-                upData.korean = extractLangValue(v, 'kr', lang) || row?.korean || undefined;
-                upData.thai = extractLangValue(v, 'th', lang) || row?.thai || undefined;
-                upData.vietnamese = extractLangValue(v, 'vi', lang) || row?.vietnamese || undefined;
-                upData.example_german = v.example_german || v.example_de || v.example_deutsch || extractLangValue(v.example || v, 'de', lang) || row?.example_german || undefined;
-                upData.example_english = v.example_english || v.example_en || extractLangValue(v.example || v, 'en', lang) || row?.example_english || undefined;
+                
+                for (const l of Object.keys(LANG_MAP)) {
+                  if (l === 'de' || l === 'en') continue;
+                  const val = extractLangValue(v, l, lang);
+                  if (val) upData[LANG_TO_FIELD[l]] = val;
+                }
                 
                 if (!row) {
                   await prisma.dailyUsageVocab.create({ data: { dailyUsageId: daily.id, ...upData } });
@@ -259,19 +270,19 @@ async function populateGrammar() {
                 }
               }
             }
+          }
 
-            const rules = sec.content?.why_use_them?.rules || sec.content?.rules || sec.rules || [];
-            for (const [rIdx, r] of rules.entries()) {
-              const existing = secRow.rules[rIdx];
-              const createData: any = { sectionId: secRow.id, order: rIdx };
-              if (typeof r === 'string') {
-                setLocalizedFields(createData, 'rule', r, lang);
-              } else {
-                setLocalizedFields(createData, 'rule', r.rule || r.text || r, lang);
-                setLocalizedFields(createData, 'example', r.example || undefined, lang);
-              }
-              if (!existing) await prisma.grammarRule.create({ data: createData }); else await prisma.grammarRule.update({ where: { id: existing.id }, data: createData });
-            }
+          const rules = d.content?.why_use_them?.rules || d.content?.rules || d.rules || [];
+          for (const [rIdx, r] of rules.entries()) {
+            const ruleKey = typeof r === 'string' ? `r${rIdx}` : (r.id || r.key || `r${rIdx}`);
+            const existing = (g as any).rules.find((xr: any) => xr.ruleKey === ruleKey);
+            const desc = typeof r === 'string' ? r : (r.rule || r.text || r.description || JSON.stringify(r));
+            
+            const ruleData: any = { grammarId: g.id, ruleKey };
+            ruleData.description = desc; // GrammarRule only has description field
+
+            if (!existing) await prisma.grammarRule.create({ data: ruleData }); 
+            else await prisma.grammarRule.update({ where: { id: existing.id }, data: ruleData });
           }
         });
       } catch (err) {
@@ -297,15 +308,10 @@ async function populateDailyUsage() {
     for (const d of dailies) {
       try {
         await withRetries(async () => {
-          const lang = d.language || detectLangFromFile(d.file) || undefined;
+          const lang = detectLangFromFile(d.file) || undefined;
           const data: any = d.data || {};
           const sections = Array.isArray(data.sections) ? data.sections : (data.content?.sections || []);
-          const title = data.title || data.header || undefined;
-          if (title) {
-            const upd: any = {};
-            setLocalizedFields(upd, 'title', title, lang);
-            await prisma.dailyUsage.update({ where: { id: d.id }, data: upd });
-          }
+          
           const allVocs: any[] = [];
           for (const sec of sections) {
             const vocs = sec.content?.vocabulary || sec.content?.vocabulary_list || sec.vocabulary || [];
@@ -329,13 +335,12 @@ async function populateDailyUsage() {
             const upData: any = {};
             upData.german = maybeGerman || row?.german || undefined;
             upData.english = maybeEnglish || row?.english || undefined;
-            upData.myanmar = extractLangValue(v, 'my', lang) || row?.myanmar || undefined;
-            upData.japanese = extractLangValue(v, 'jp', lang) || row?.japanese || undefined;
-            upData.korean = extractLangValue(v, 'kr', lang) || row?.korean || undefined;
-            upData.thai = extractLangValue(v, 'th', lang) || row?.thai || undefined;
-            upData.vietnamese = extractLangValue(v, 'vi', lang) || row?.vietnamese || undefined;
-            upData.example_german = v.example_german || v.example_de || v.example_deutsch || extractLangValue(v.example || v, 'de', lang) || row?.example_german || undefined;
-            upData.example_english = v.example_english || v.example_en || extractLangValue(v.example || v, 'en', lang) || row?.example_english || undefined;
+            
+            for (const l of Object.keys(LANG_MAP)) {
+              if (l === 'de' || l === 'en') continue;
+              const val = extractLangValue(v, l, lang);
+              if (val) upData[LANG_TO_FIELD[l]] = val;
+            }
             
             await prisma.dailyUsageVocab.update({ where: { id: row.id }, data: upData });
           }
